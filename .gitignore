@@ -1,6 +1,7 @@
 __pycache__/
 .pytest_cache/
 .pytest_basetemp/
+tmp_testrun/
 *.py[cod]
 artifacts/
 

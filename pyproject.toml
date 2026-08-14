@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cformer"
+version = "6.0.0"
+description = "Constellation Transformer: shared object world with observer-conditioned retrieval, safety governance and versioned identity resolution"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["cformer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

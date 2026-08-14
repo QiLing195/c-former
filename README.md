@@ -18,7 +18,7 @@ Demo 使用一个合成任务：输入 6 个数字 token，观测点指令分别
 
 ## 运行
 
-环境要求：Python 3.10+、PyTorch 2.x。
+环境要求：Python 3.10+、PyTorch 2.x。依赖见 `pyproject.toml`，可先执行 `pip install -e .[dev]`。
 
 ```powershell
 python train_demo.py --steps 600
@@ -190,3 +190,20 @@ D:\conda\envs\cformer-gpu\python.exe -m pytest -q
 ```
 
 架构和训练数据见 [`V60_TOKEN_DESIGN.md`](V60_TOKEN_DESIGN.md)，55,296 次查询的结果、失败修正和限制见 [`V60_TOKEN_REPORT.md`](V60_TOKEN_REPORT.md)。
+
+## 工程规范（V6.0 起）
+
+- 打包与依赖：`pyproject.toml`（`pip install -e .[dev]`）；
+- CI：`.github/workflows/ci.yml` 在 push/PR 时自动运行 `python -m pytest`（CPU 环境，Python 3.10 / 3.12）；
+- 版本控制：每个冻结版本打 annotated tag（当前基线 `v6.0`）；
+- 大文件（模型检查点、原始结果 JSON）保留在 `artifacts/`，不进入版本库。
+
+### 如何新增一个版本（V6.1 起）
+
+1. 写 `VXX_DESIGN.md`：目标、架构、测试矩阵、质量闸门与回退条件；
+2. 新建 `cformer_vXX/` 包，只实现设计的最小部分，复用前版 verifier/ledger 与数据工具；
+3. 写 `tests/test_cformer_vXX.py` 并通过小规模闸门；
+4. 写 `train_evaluate_vXX.py` / `evaluate_vXX.py` 与 `aggregate_vXX.py`；
+5. 固定 3 个训练种子、每规模 4–5 个世界，原始 JSON 存入 `artifacts/`；
+6. 写 `VXX_REPORT.md`（含失败案例与限制），对照质量闸门逐条说明；
+7. 提交并打标签：`git add -A && git commit -m "VXX: ..." && git tag -a vXX -m "..."`。

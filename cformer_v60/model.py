@@ -54,7 +54,32 @@ class SharedTokenTransformer(nn.Module):
         return _masked_mean(values, tokens)
 
 
-class TokenCFormerResolver(nn.Module):
+class ContrastiveResolverMixin:
+    """Shared in-batch contrastive loss and parameter counting for all resolvers."""
+
+    def contrastive_loss(self, query_tokens, positive_tokens, hard_negative_tokens=None):
+        query = self.encode_query(query_tokens)
+        positive = self.encode_candidate(positive_tokens)
+        logits = query @ positive.T / self.config.temperature
+        if hard_negative_tokens is not None:
+            hard = self.encode_candidate(hard_negative_tokens)
+            logits = torch.cat(
+                (
+                    logits,
+                    torch.sum(query * hard, dim=-1, keepdim=True)
+                    / self.config.temperature,
+                ),
+                dim=-1,
+            )
+        return F.cross_entropy(
+            logits, torch.arange(query.shape[0], device=query.device)
+        )
+
+    def parameter_count(self) -> int:
+        return sum(parameter.numel() for parameter in self.parameters())
+
+
+class TokenCFormerResolver(ContrastiveResolverMixin, nn.Module):
     """Shared token Transformer plus explicit four-evidence candidate fusion."""
 
     def __init__(self, config: ChineseTransformerConfig) -> None:
@@ -83,29 +108,8 @@ class TokenCFormerResolver(nn.Module):
         fused = torch.sum(evidence * gates.unsqueeze(-1), dim=1)
         return F.normalize(self.candidate_projection(fused), dim=-1)
 
-    def contrastive_loss(self, query_tokens, positive_tokens, hard_negative_tokens=None):
-        query = self.encode_query(query_tokens)
-        positive = self.encode_candidate(positive_tokens)
-        logits = query @ positive.T / self.config.temperature
-        if hard_negative_tokens is not None:
-            hard = self.encode_candidate(hard_negative_tokens)
-            logits = torch.cat(
-                (
-                    logits,
-                    torch.sum(query * hard, dim=-1, keepdim=True)
-                    / self.config.temperature,
-                ),
-                dim=-1,
-            )
-        return F.cross_entropy(
-            logits, torch.arange(query.shape[0], device=query.device)
-        )
 
-    def parameter_count(self) -> int:
-        return sum(parameter.numel() for parameter in self.parameters())
-
-
-class MeanPoolMLPResolver(nn.Module):
+class MeanPoolMLPResolver(ContrastiveResolverMixin, nn.Module):
     """V5.9-style order-insensitive baseline using the same Chinese tokens."""
 
     def __init__(self, config: ChineseTransformerConfig) -> None:
@@ -136,29 +140,8 @@ class MeanPoolMLPResolver(nn.Module):
         fused = torch.sum(pooled * gates.unsqueeze(-1), dim=1)
         return F.normalize(self.projection(fused), dim=-1)
 
-    def contrastive_loss(self, query_tokens, positive_tokens, hard_negative_tokens=None):
-        query = self.encode_query(query_tokens)
-        positive = self.encode_candidate(positive_tokens)
-        logits = query @ positive.T / self.config.temperature
-        if hard_negative_tokens is not None:
-            hard = self.encode_candidate(hard_negative_tokens)
-            logits = torch.cat(
-                (
-                    logits,
-                    torch.sum(query * hard, dim=-1, keepdim=True)
-                    / self.config.temperature,
-                ),
-                dim=-1,
-            )
-        return F.cross_entropy(
-            logits, torch.arange(query.shape[0], device=query.device)
-        )
 
-    def parameter_count(self) -> int:
-        return sum(parameter.numel() for parameter in self.parameters())
-
-
-class FlatTransformerResolver(nn.Module):
+class FlatTransformerResolver(ContrastiveResolverMixin, nn.Module):
     """Fair shared-Transformer baseline without explicit evidence gating."""
 
     def __init__(self, config: ChineseTransformerConfig) -> None:
@@ -172,25 +155,4 @@ class FlatTransformerResolver(nn.Module):
 
     def encode_candidate(self, tokens: torch.Tensor) -> torch.Tensor:
         return F.normalize(self.projection(self.backbone(tokens.flatten(1))), dim=-1)
-
-    def contrastive_loss(self, query_tokens, positive_tokens, hard_negative_tokens=None):
-        query = self.encode_query(query_tokens)
-        positive = self.encode_candidate(positive_tokens)
-        logits = query @ positive.T / self.config.temperature
-        if hard_negative_tokens is not None:
-            hard = self.encode_candidate(hard_negative_tokens)
-            logits = torch.cat(
-                (
-                    logits,
-                    torch.sum(query * hard, dim=-1, keepdim=True)
-                    / self.config.temperature,
-                ),
-                dim=-1,
-            )
-        return F.cross_entropy(
-            logits, torch.arange(query.shape[0], device=query.device)
-        )
-
-    def parameter_count(self) -> int:
-        return sum(parameter.numel() for parameter in self.parameters())
 
