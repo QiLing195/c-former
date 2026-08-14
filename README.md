@@ -191,6 +191,29 @@ D:\conda\envs\cformer-gpu\python.exe -m pytest -q
 
 架构和训练数据见 [`V60_TOKEN_DESIGN.md`](V60_TOKEN_DESIGN.md)，55,296 次查询的结果、失败修正和限制见 [`V60_TOKEN_REPORT.md`](V60_TOKEN_REPORT.md)。
 
+## V6.0b：模板外中文盲测集
+
+V6.0b 建立第一个与训练模板隔离的盲测集：36 条人工撰写查询（新句式、口语、错字、同名不同对象、自然未知、冲突证据），冻结 2 层编码器零调参评测。量化了模板饱和：已知 Top-1 从模板集的 100% 降到 93.75%，主要失败模式是**区域轴近义别名**（冰原/腹地/高原/中央/乡村、河流上段/下段），同时给出第一组风险—覆盖率校准曲线。
+
+```powershell
+D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v60b.py
+D:\conda\envs\cformer-gpu\python.exe evaluate_v60b.py
+```
+
+设计与约束见 [`V60B_BLINDSET_DESIGN.md`](V60B_BLINDSET_DESIGN.md)，3 种子结果与 13 个失败样本见 [`V60B_BLINDSET_REPORT.md`](V60B_BLINDSET_REPORT.md)。
+
+## V6.1：ANN 分层检索
+
+V6.1 用纯 torch 的 IVF 倒排索引把在线检索从 `O(N)` 全量扫描降为「粗召回 Top-256 + 精确精排」：3 规模 × 4 世界全矩阵 Recall@256 = 100%、ANN 相对精确扫描 Top-1 下降为 0、64K FP16 向量库 8.0 MiB（INT8 4.1 MiB）、向量化后查询 p50≈2.2 ms / p95≈3.2 ms。附墓碑删除、快照回滚与单副本存储。
+
+```powershell
+D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v61.py
+D:\conda\envs\cformer-gpu\python.exe evaluate_v61.py
+D:\conda\envs\cformer-gpu\python.exe bench_v61_latency.py
+```
+
+设计见 [`V61_ANN_DESIGN.md`](V61_ANN_DESIGN.md)，结果与 V6.1b（faiss HNSW/IVF-PQ + V5.8 磁盘层、512K+）升级路径见 [`V61_ANN_REPORT.md`](V61_ANN_REPORT.md)。
+
 ## 工程规范（V6.0 起）
 
 - 打包与依赖：`pyproject.toml`（`pip install -e .[dev]`）；
