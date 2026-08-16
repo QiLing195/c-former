@@ -52,6 +52,8 @@
 
 实现上把 `EvidenceVerifier` 从「单一 margin」改为「按证据完整度/类型查表」，并在独立验证集上报告三类曲线：支持率—覆盖率、误接受率、审核量。
 
+> **已落地**：`cformer_v59/governance.py` 的 `EvidenceVerifier` 现接受 `margin_by_type` 与可选 `query_type` 参数，`RECOMMENDED_MARGINS_V60B` 常量提供上表建议值；无 `query_type` 的旧调用保持冻结行为不变（向后兼容），见 `tests/test_cformer_v60b_calibration.py`。
+
 ## 复现
 
 ```powershell

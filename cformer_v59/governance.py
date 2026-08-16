@@ -25,7 +25,14 @@ class VerificationDecision:
 
 
 class EvidenceVerifier:
-    """Conservative boundary: model evidence can support, never verify, an alias."""
+    """Conservative boundary: model evidence can support, never verify, an alias.
+
+    ``margin_by_type`` enables per-type thresholds (V6.0b calibration finding):
+    complete-knowledge queries may use a lower margin to recover coverage,
+    while ambiguous/unknown/conflict queries keep a conservative margin so a
+    single global relaxation cannot leak false support. Existing callers that
+    omit ``query_type`` keep the frozen single-margin behaviour unchanged.
+    """
 
     def __init__(
         self,
@@ -33,20 +40,46 @@ class EvidenceVerifier:
         minimum_score: float = 0.50,
         minimum_margin: float = 0.08,
         minimum_coverage: float = 0.60,
+        margin_by_type: dict[str, float] | None = None,
     ) -> None:
         self.minimum_score = minimum_score
         self.minimum_margin = minimum_margin
         self.minimum_coverage = minimum_coverage
+        self.margin_by_type = dict(margin_by_type or {})
 
-    def decide(self, score: float, runner_up: float, coverage: float) -> VerificationDecision:
+    def decide(
+        self,
+        score: float,
+        runner_up: float,
+        coverage: float,
+        query_type: str | None = None,
+    ) -> VerificationDecision:
         margin = score - runner_up
         if coverage < self.minimum_coverage:
             return VerificationDecision(CandidateStatus.UNKNOWN, score, margin, "insufficient_semantic_coverage")
         if score < self.minimum_score:
             return VerificationDecision(CandidateStatus.UNKNOWN, score, margin, "score_below_support_threshold")
-        if margin < self.minimum_margin:
+        required_margin = (
+            self.margin_by_type.get(query_type, self.minimum_margin)
+            if query_type is not None
+            else self.minimum_margin
+        )
+        if margin < required_margin:
             return VerificationDecision(CandidateStatus.AMBIGUOUS, score, margin, "candidate_margin_too_small")
         return VerificationDecision(CandidateStatus.SUPPORTED, score, margin, "multi_evidence_support_requires_review")
+
+
+# V6.0b calibration recommendation (see V60B_CALIBRATION_REPORT.md): complete
+# known/hard/disambiguated queries recover coverage at a lower margin, while
+# ambiguous/unknown/conflict keep the frozen 0.08 so they are never auto-supported.
+RECOMMENDED_MARGINS_V60B = {
+    "known": 0.03,
+    "hard": 0.03,
+    "disambiguated": 0.03,
+    "ambiguous": 0.08,
+    "unknown": 0.08,
+    "conflict": 0.08,
+}
 
 
 class CandidateLedger:

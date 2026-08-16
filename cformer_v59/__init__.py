@@ -6,7 +6,13 @@ from .data import (
     SemanticObject,
     WordTokenizer,
 )
-from .governance import CandidateLedger, CandidateStatus, EvidenceVerifier, VerificationDecision
+from .governance import (
+    RECOMMENDED_MARGINS_V60B,
+    CandidateLedger,
+    CandidateStatus,
+    EvidenceVerifier,
+    VerificationDecision,
+)
 from .model import DualEncoderConfig, FlatTransformerDualEncoder, SemanticDualEncoder
 
 __all__ = [
@@ -20,6 +26,7 @@ __all__ = [
     "CandidateStatus",
     "EvidenceVerifier",
     "VerificationDecision",
+    "RECOMMENDED_MARGINS_V60B",
     "DualEncoderConfig",
     "FlatTransformerDualEncoder",
     "SemanticDualEncoder",
