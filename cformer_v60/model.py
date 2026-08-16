@@ -62,15 +62,23 @@ class ContrastiveResolverMixin:
         positive = self.encode_candidate(positive_tokens)
         logits = query @ positive.T / self.config.temperature
         if hard_negative_tokens is not None:
-            hard = self.encode_candidate(hard_negative_tokens)
-            logits = torch.cat(
-                (
-                    logits,
-                    torch.sum(query * hard, dim=-1, keepdim=True)
-                    / self.config.temperature,
-                ),
-                dim=-1,
+            # Accept either one hard-negative tensor (batch, fields, length)
+            # or a list/tuple of them; every entry is appended as a column.
+            negative_list = (
+                hard_negative_tokens
+                if isinstance(hard_negative_tokens, (list, tuple))
+                else [hard_negative_tokens]
             )
+            for hard in negative_list:
+                encoded = self.encode_candidate(hard)
+                logits = torch.cat(
+                    (
+                        logits,
+                        torch.sum(query * encoded, dim=-1, keepdim=True)
+                        / self.config.temperature,
+                    ),
+                    dim=-1,
+                )
         return F.cross_entropy(
             logits, torch.arange(query.shape[0], device=query.device)
         )

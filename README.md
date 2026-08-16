@@ -202,6 +202,17 @@ D:\conda\envs\cformer-gpu\python.exe evaluate_v60b.py
 
 设计与约束见 [`V60B_BLINDSET_DESIGN.md`](V60B_BLINDSET_DESIGN.md)，3 种子结果与 13 个失败样本见 [`V60B_BLINDSET_REPORT.md`](V60B_BLINDSET_REPORT.md)。
 
+## V6.0c：区域轴修复尝试（负结果，未晋升）
+
+V6.0c 尝试用数据增强（区域近义硬负例 + 内容字错字）修复 V6.0b 的区域轴混淆，两轮迭代结论为**负结果**：正式 64K Top-1 从 100% 回退到 99.57%、盲测已知无提升。**保留 V6.0 编码器为冻结基线**，转向阈值校准路径。代码与检查点保留供审计。
+
+```powershell
+D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v60c.py
+D:\conda\envs\cformer-gpu\python.exe train_evaluate_v60c.py --seeds 701 702 703 --steps 500 --batch-size 128
+```
+
+失败分析与下一步见 [`V60C_REGION_FIX_REPORT.md`](V60C_REGION_FIX_REPORT.md)。
+
 ## V6.1：ANN 分层检索
 
 V6.1 用纯 torch 的 IVF 倒排索引把在线检索从 `O(N)` 全量扫描降为「粗召回 Top-256 + 精确精排」：3 规模 × 4 世界全矩阵 Recall@256 = 100%、ANN 相对精确扫描 Top-1 下降为 0、64K FP16 向量库 8.0 MiB（INT8 4.1 MiB）、向量化后查询 p50≈2.2 ms / p95≈3.2 ms。附墓碑删除、快照回滚与单副本存储。
