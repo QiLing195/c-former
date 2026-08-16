@@ -178,13 +178,22 @@ class IVFIndex:
 
 
 class QuantizedVectorStore:
-    """FP16 or INT8 single-copy vector storage with per-vector scale."""
+    """FP16 or INT8 single-copy vector storage.
 
-    def __init__(self, dimension: int, dtype: str = "fp16") -> None:
+    ``fixed_scale=True`` (INT8 only) stores no per-vector scale column: input
+    vectors are L2-normalized, so a global scale of 1/127 suffices and each
+    vector costs exactly ``dimension`` bytes (512K x 64 = 32 MiB, meeting the
+    roadmap INT8 gate).
+    """
+
+    def __init__(self, dimension: int, dtype: str = "fp16", *, fixed_scale: bool = False) -> None:
         if dtype not in ("fp16", "int8"):
             raise ValueError(dtype)
+        if fixed_scale and dtype != "int8":
+            raise ValueError("fixed_scale is only valid for int8")
         self.dimension = dimension
         self.dtype = dtype
+        self.fixed_scale = fixed_scale
         self._fp16: torch.Tensor | None = None
         self._int8: torch.Tensor | None = None
         self._scales: torch.Tensor | None = None  # (n, 1) FP16
@@ -197,6 +206,12 @@ class QuantizedVectorStore:
                 self._fp16 = block
             else:
                 self._fp16 = torch.cat((self._fp16, block), dim=0)
+        elif self.fixed_scale:
+            block = (normalized * 127.0).round().clamp(-127, 127).to(torch.int8)
+            if self._int8 is None:
+                self._int8 = block
+            else:
+                self._int8 = torch.cat((self._int8, block), dim=0)
         else:
             scale = normalized.abs().max(dim=-1, keepdim=True).values.clamp_min(1e-8)
             block = (normalized / scale * 127).round().to(torch.int8)
@@ -210,11 +225,15 @@ class QuantizedVectorStore:
     def vector(self, position: int) -> torch.Tensor:
         if self.dtype == "fp16":
             return self._fp16[position].float()
+        if self.fixed_scale:
+            return self._int8[position].float() / 127.0
         return (self._int8[position].float() / 127.0) * self._scales[position].float()
 
     def vectors(self, positions: torch.Tensor) -> torch.Tensor:
         if self.dtype == "fp16":
             return self._fp16[positions].float()
+        if self.fixed_scale:
+            return self._int8[positions].float() / 127.0
         return (self._int8[positions].float() / 127.0) * self._scales[positions].float()
 
     @property
@@ -226,6 +245,8 @@ class QuantizedVectorStore:
     def bytes_per_vector(self) -> int:
         if self.dtype == "fp16":
             return 2 * self.dimension
+        if self.fixed_scale:
+            return self.dimension  # int8 body only
         return self.dimension + 2  # int8 body + FP16 scale
 
 

@@ -87,6 +87,26 @@ def test_quantized_stores_keep_cosine_fidelity() -> None:
         assert cosine >= 1.0 - tolerance, (dtype, cosine)
 
 
+def test_fixed_scale_int8_meets_32mib_gate_with_fidelity() -> None:
+    bank = _random_bank(2048)
+    store = QuantizedVectorStore(bank.shape[1], dtype="int8", fixed_scale=True)
+    store.add(bank)
+    assert store.count == 2048
+    assert store.bytes_per_vector == bank.shape[1]  # 64 B, no scale column
+    # 512K x 64 B = 32 MiB exactly (the roadmap INT8 gate).
+    assert 524288 * store.bytes_per_vector == 33_554_432
+    query = bank[3]
+    cosine = F.cosine_similarity(query.unsqueeze(0), store.vector(3).unsqueeze(0)).item()
+    assert cosine >= 0.99, cosine
+
+
+def test_fixed_scale_rejects_fp16() -> None:
+    import pytest
+
+    with pytest.raises(ValueError):
+        QuantizedVectorStore(64, dtype="fp16", fixed_scale=True)
+
+
 def test_rerank_of_ann_candidates_matches_exact_top1() -> None:
     bank = _random_bank(4096)
     index = IVFIndex(bank.shape[1], IVFConfig(n_centroids=128, n_iter=8))
