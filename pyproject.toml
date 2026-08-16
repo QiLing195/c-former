@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cformer"
-version = "6.0.0"
+version = "0.6.1"
 description = "Constellation Transformer: shared object world with observer-conditioned retrieval, safety governance and versioned identity resolution"
 requires-python = ">=3.10"
 dependencies = [
