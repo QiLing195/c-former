@@ -225,6 +225,16 @@ D:\conda\envs\cformer-gpu\python.exe bench_v61_latency.py
 
 设计见 [`V61_ANN_DESIGN.md`](V61_ANN_DESIGN.md)，结果与 V6.1b（faiss HNSW/IVF-PQ + V5.8 磁盘层、512K+）升级路径见 [`V61_ANN_REPORT.md`](V61_ANN_REPORT.md)。
 
+### V6.1b：IVF 512K 规模
+
+V6.1b 用 V5.9 编码器的真实向量把 IVF 扩展到 128K/256K/512K：Recall@256 = 100%、Top-1 下降 = 0、512K FP16 64.0 MiB（命中闸门）、向量化 k-means 建索引 0.33 s、查询 p50≈1.5 ms。
+
+```powershell
+D:\conda\envs\cformer-gpu\python.exe bench_v61_scale.py --scales 131072 262144 524288
+```
+
+规模结果与诚实边界（仍为组合语义空间）见 [`V61B_SCALE_REPORT.md`](V61B_SCALE_REPORT.md)。
+
 ## 工程规范（V6.0 起）
 
 - 打包与依赖：`pyproject.toml`（`pip install -e .[dev]`）；

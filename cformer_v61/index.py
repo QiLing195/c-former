@@ -47,10 +47,15 @@ class IVFIndex:
         centroids = vectors[torch.randperm(vectors.shape[0], generator=rng)[:k]].clone()
         for _ in range(self.config.n_iter):
             assignment = (vectors @ centroids.T).argmax(dim=-1)
-            for centroid in range(k):
-                members = vectors[assignment == centroid]
-                if members.shape[0] > 0:
-                    centroids[centroid] = F.normalize(members.mean(dim=0), dim=-1)
+            sums = torch.zeros(k, vectors.shape[1], device=vectors.device, dtype=vectors.dtype)
+            counts = torch.zeros(k, device=vectors.device, dtype=vectors.dtype)
+            sums.index_add_(0, assignment, vectors)
+            counts.index_add_(
+                0,
+                assignment,
+                torch.ones(vectors.shape[0], device=vectors.device, dtype=vectors.dtype),
+            )
+            centroids = F.normalize(sums / counts.clamp_min(1).unsqueeze(-1), dim=-1)
         self.centroids = centroids
 
     def add(self, vectors: torch.Tensor, ids: Sequence[int]) -> None:
@@ -70,13 +75,24 @@ class IVFIndex:
                 (self.id_array, torch.tensor(ids, dtype=torch.long, device=normalized.device)),
                 dim=0,
             )
-        cluster = (normalized.float() @ self.centroids.T).argmax(dim=-1)
+        cluster = self._assign_clusters(normalized)
         self.cluster_of = (
             cluster
             if self.cluster_of is None
             else torch.cat((self.cluster_of, cluster), dim=0)
         )
         self.version += 1
+
+    def _assign_clusters(self, normalized: torch.Tensor) -> torch.Tensor:
+        """Chunked centroid assignment to bound peak memory at large scale."""
+        chunk = 8192
+        cluster = torch.empty(normalized.shape[0], dtype=torch.long, device=normalized.device)
+        for start in range(0, normalized.shape[0], chunk):
+            stop = min(start + chunk, normalized.shape[0])
+            cluster[start:stop] = (
+                normalized[start:stop].float() @ self.centroids.T
+            ).argmax(dim=-1)
+        return cluster
 
     def remove(self, ids: Sequence[int]) -> None:
         for item in ids:
