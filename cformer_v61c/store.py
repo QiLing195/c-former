@@ -174,10 +174,14 @@ class UnifiedObjectStore:
         ).fetchone()
         return row[0] if row else None
 
-    def fts_candidates(self, text: str, limit: int = 64) -> list[str]:
-        """Candidate shards from the document index; best-effort, never authoritative."""
+    def fts_candidates(self, text: str, limit: int = 64,
+                       match_query: str | None = None) -> list[str]:
+        """Candidate shards from the document index; best-effort, never authoritative.
+
+        match_query 允许调用方传自定义 MATCH 表达式（如 OR 关键词），默认整句短语。
+        """
         if self.fts_mode == "trigram":
-            query = '"' + text.replace('"', '""') + '"'
+            query = match_query or '"' + text.replace('"', '""') + '"'
             try:
                 rows = self.connection.execute(
                     "SELECT object_id FROM docs WHERE docs MATCH ? LIMIT ?",

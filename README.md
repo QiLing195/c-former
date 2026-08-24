@@ -184,6 +184,13 @@ D:\conda\envs\cformer-gpu\python.exe evaluate_recursion.py
 D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v65_integration.py
 ```
 
+### V6.5 M3 基准矩阵（首版冻结）
+
+同库/同预算/同决策层的五臂对照（`evaluate_v65_baselines.py`）：Unified 完整栈
+known **100%** / 留出集 **100%** / 时间泄漏 **0%** / 空集拒答 **100%**，对比最强基线
+B1（86.0%/0%/63.7%）——参数完全相同（108K），全部优势来自结构化推理层。
+详见 [`V65_BENCHMARK_REPORT.md`](V65_BENCHMARK_REPORT.md)。
+
 ```powershell
 D:\conda\envs\cformer-gpu\python.exe build_ai_models_dataset.py
 D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_real.py
