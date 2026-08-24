@@ -86,6 +86,7 @@ class UnifiedResolutionPipeline:
         top_ann: int = 256,
         top_rerank: int = 16,
         series_size_of: Callable[[str], int] | None = None,
+        reasoner=None,
     ) -> None:
         self.store = store
         self.ledger = ledger
@@ -96,6 +97,7 @@ class UnifiedResolutionPipeline:
         self.top_ann = top_ann
         self.top_rerank = top_rerank
         self.series_size_of = series_size_of  # object_id -> 同系列存活成员数（含自身）
+        self.reasoner = reasoner              # V6.2 WorldReasoner 或 None
         self._proposed_surfaces: set[str] = set()
 
     def resolve(self, text: str, query_type: str | None = None) -> PipelineResult:
@@ -130,6 +132,24 @@ class UnifiedResolutionPipeline:
         else:
             top_scores, top_labels = [], []
         stage_ms["rerank"] = (time.perf_counter() - rerank_started) * 1000
+
+        # V6.2 世界推理块：超级指代需要跨候选比较，确定性裁决优先于神经 margin；
+        # 无法裁决（方向冲突/年份缺失/单成员）时返回 None，走原神经路径。
+        if self.reasoner is not None and len(labels):
+            reason_started = time.perf_counter()
+            choice = self.reasoner.select(
+                text, labels.tolist(), scores.float().tolist(),
+            )
+            stage_ms["reason"] = (time.perf_counter() - reason_started) * 1000
+            if choice is not None:
+                return PipelineResult(
+                    CandidateStatus.SUPPORTED, "reasoned",
+                    self.encoder.object_id_of(choice.label),
+                    choice.neural_score, 0.0,
+                    f"cross_candidate_{choice.direction}_year={choice.year}"
+                    f";trace={';'.join(choice.trace)}",
+                    coverage, stage_ms, ann_candidates, len(labels),
+                )
 
         if not top_labels:
             return PipelineResult(

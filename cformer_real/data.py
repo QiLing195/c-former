@@ -53,6 +53,7 @@ class AIModelWorld:
         ]
         self._label_by_id = {obj.object_id: obj.label for obj in self.objects}
         metas = [obj.get("meta") or {} for obj in objects]
+        self._metas = metas
         groups: dict[tuple, list[int]] = {}
         for index, meta in enumerate(metas):
             key = (meta.get("company"), meta.get("series"))
@@ -63,6 +64,26 @@ class AIModelWorld:
             for members in groups.values()
             for label in members
         }
+
+    def series_key_of(self, label: int) -> tuple | None:
+        meta = self._metas[label]
+        if not meta:
+            return None
+        return (meta.get("company"), meta.get("series"))
+
+    def series_index_of(self, label: int) -> int:
+        return int(self._metas[label].get("series_index", -1))
+
+    def series_lexicon(self) -> list[tuple[tuple, str, str]]:
+        """Deduplicated [(key, company_lower, series_lower)] for lexical anchoring."""
+        seen: dict[tuple, tuple[str, str]] = {}
+        for meta in self._metas:
+            if not meta:
+                continue
+            key = (meta.get("company"), meta.get("series"))
+            if key not in seen:
+                seen[key] = (str(meta.get("company")).lower(), str(meta.get("series")).lower())
+        return [(key, company, series) for key, (company, series) in seen.items()]
 
     def series_siblings(self, label: int) -> list[int]:
         """Labels sharing the same (company, series), excluding the object itself.

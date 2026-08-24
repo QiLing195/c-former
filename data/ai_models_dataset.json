@@ -28,7 +28,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 0
       }
     },
     {
@@ -46,7 +47,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 1
       }
     },
     {
@@ -64,7 +66,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 2
       }
     },
     {
@@ -82,7 +85,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 3
       }
     },
     {
@@ -100,7 +104,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 4
       }
     },
     {
@@ -118,7 +123,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 5
       }
     },
     {
@@ -136,7 +142,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 6
       }
     },
     {
@@ -154,7 +161,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 7
       }
     },
     {
@@ -172,7 +180,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 8
       }
     },
     {
@@ -190,7 +199,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 9
       }
     },
     {
@@ -208,7 +218,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 10
       }
     },
     {
@@ -226,7 +237,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 11
       }
     },
     {
@@ -244,7 +256,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "GPT"
+        "series": "GPT",
+        "series_index": 12
       }
     },
     {
@@ -262,7 +275,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "o 推理"
+        "series": "o 推理",
+        "series_index": 0
       }
     },
     {
@@ -280,7 +294,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "o 推理"
+        "series": "o 推理",
+        "series_index": 1
       }
     },
     {
@@ -298,7 +313,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "o 推理"
+        "series": "o 推理",
+        "series_index": 2
       }
     },
     {
@@ -316,7 +332,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "o 推理"
+        "series": "o 推理",
+        "series_index": 3
       }
     },
     {
@@ -334,7 +351,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "o 推理"
+        "series": "o 推理",
+        "series_index": 4
       }
     },
     {
@@ -352,7 +370,8 @@
         "company": "OpenAI",
         "region": "美国",
         "open_source": false,
-        "series": "o 推理"
+        "series": "o 推理",
+        "series_index": 5
       }
     },
     {
@@ -370,7 +389,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 0
       }
     },
     {
@@ -388,7 +408,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 1
       }
     },
     {
@@ -406,7 +427,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 2
       }
     },
     {
@@ -424,7 +446,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 3
       }
     },
     {
@@ -442,7 +465,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 4
       }
     },
     {
@@ -460,7 +484,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 5
       }
     },
     {
@@ -478,7 +503,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 6
       }
     },
     {
@@ -496,7 +522,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 7
       }
     },
     {
@@ -514,7 +541,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 8
       }
     },
     {
@@ -532,7 +560,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 9
       }
     },
     {
@@ -550,7 +579,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 10
       }
     },
     {
@@ -568,7 +598,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 11
       }
     },
     {
@@ -586,7 +617,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 12
       }
     },
     {
@@ -604,7 +636,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 13
       }
     },
     {
@@ -622,7 +655,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 14
       }
     },
     {
@@ -640,7 +674,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 15
       }
     },
     {
@@ -658,7 +693,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 16
       }
     },
     {
@@ -676,7 +712,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 17
       }
     },
     {
@@ -694,7 +731,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 18
       }
     },
     {
@@ -712,7 +750,8 @@
         "company": "Anthropic",
         "region": "美国",
         "open_source": false,
-        "series": "Claude"
+        "series": "Claude",
+        "series_index": 19
       }
     },
     {
@@ -730,7 +769,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 0
       }
     },
     {
@@ -748,7 +788,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 1
       }
     },
     {
@@ -766,7 +807,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 2
       }
     },
     {
@@ -784,7 +826,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 3
       }
     },
     {
@@ -802,7 +845,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 4
       }
     },
     {
@@ -820,7 +864,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 5
       }
     },
     {
@@ -838,7 +883,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 6
       }
     },
     {
@@ -856,7 +902,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 7
       }
     },
     {
@@ -874,7 +921,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 8
       }
     },
     {
@@ -892,7 +940,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 9
       }
     },
     {
@@ -910,7 +959,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 10
       }
     },
     {
@@ -928,7 +978,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 11
       }
     },
     {
@@ -946,7 +997,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 12
       }
     },
     {
@@ -964,7 +1016,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "Gemini"
+        "series": "Gemini",
+        "series_index": 13
       }
     },
     {
@@ -982,7 +1035,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": true,
-        "series": "Gemma"
+        "series": "Gemma",
+        "series_index": 0
       }
     },
     {
@@ -1000,7 +1054,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": true,
-        "series": "Gemma"
+        "series": "Gemma",
+        "series_index": 1
       }
     },
     {
@@ -1018,7 +1073,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": true,
-        "series": "Gemma"
+        "series": "Gemma",
+        "series_index": 2
       }
     },
     {
@@ -1036,7 +1092,8 @@
         "company": "Google",
         "region": "美国",
         "open_source": false,
-        "series": "PaLM"
+        "series": "PaLM",
+        "series_index": 0
       }
     },
     {
@@ -1054,7 +1111,8 @@
         "company": "Meta",
         "region": "美国",
         "open_source": true,
-        "series": "Llama"
+        "series": "Llama",
+        "series_index": 0
       }
     },
     {
@@ -1072,7 +1130,8 @@
         "company": "Meta",
         "region": "美国",
         "open_source": true,
-        "series": "Llama"
+        "series": "Llama",
+        "series_index": 1
       }
     },
     {
@@ -1090,7 +1149,8 @@
         "company": "Meta",
         "region": "美国",
         "open_source": true,
-        "series": "Llama"
+        "series": "Llama",
+        "series_index": 2
       }
     },
     {
@@ -1108,7 +1168,8 @@
         "company": "Meta",
         "region": "美国",
         "open_source": true,
-        "series": "Llama"
+        "series": "Llama",
+        "series_index": 3
       }
     },
     {
@@ -1126,7 +1187,8 @@
         "company": "Meta",
         "region": "美国",
         "open_source": true,
-        "series": "Llama"
+        "series": "Llama",
+        "series_index": 4
       }
     },
     {
@@ -1144,7 +1206,8 @@
         "company": "Meta",
         "region": "美国",
         "open_source": true,
-        "series": "Llama"
+        "series": "Llama",
+        "series_index": 5
       }
     },
     {
@@ -1162,7 +1225,8 @@
         "company": "Meta",
         "region": "美国",
         "open_source": true,
-        "series": "Llama"
+        "series": "Llama",
+        "series_index": 6
       }
     },
     {
@@ -1180,7 +1244,8 @@
         "company": "Meta",
         "region": "美国",
         "open_source": true,
-        "series": "Llama"
+        "series": "Llama",
+        "series_index": 7
       }
     },
     {
@@ -1198,7 +1263,8 @@
         "company": "Meta",
         "region": "美国",
         "open_source": true,
-        "series": "Code Llama"
+        "series": "Code Llama",
+        "series_index": 0
       }
     },
     {
@@ -1216,7 +1282,8 @@
         "company": "xAI",
         "region": "美国",
         "open_source": false,
-        "series": "Grok"
+        "series": "Grok",
+        "series_index": 0
       }
     },
     {
@@ -1234,7 +1301,8 @@
         "company": "xAI",
         "region": "美国",
         "open_source": false,
-        "series": "Grok"
+        "series": "Grok",
+        "series_index": 1
       }
     },
     {
@@ -1252,7 +1320,8 @@
         "company": "xAI",
         "region": "美国",
         "open_source": false,
-        "series": "Grok"
+        "series": "Grok",
+        "series_index": 2
       }
     },
     {
@@ -1270,7 +1339,8 @@
         "company": "xAI",
         "region": "美国",
         "open_source": false,
-        "series": "Grok"
+        "series": "Grok",
+        "series_index": 3
       }
     },
     {
@@ -1288,7 +1358,8 @@
         "company": "xAI",
         "region": "美国",
         "open_source": false,
-        "series": "Grok"
+        "series": "Grok",
+        "series_index": 4
       }
     },
     {
@@ -1306,7 +1377,8 @@
         "company": "xAI",
         "region": "美国",
         "open_source": false,
-        "series": "Grok"
+        "series": "Grok",
+        "series_index": 5
       }
     },
     {
@@ -1324,7 +1396,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 0
       }
     },
     {
@@ -1342,7 +1415,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 1
       }
     },
     {
@@ -1360,7 +1434,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 2
       }
     },
     {
@@ -1378,7 +1453,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 3
       }
     },
     {
@@ -1396,7 +1472,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 4
       }
     },
     {
@@ -1414,7 +1491,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 5
       }
     },
     {
@@ -1432,7 +1510,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 6
       }
     },
     {
@@ -1450,7 +1529,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 7
       }
     },
     {
@@ -1468,7 +1548,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 8
       }
     },
     {
@@ -1486,7 +1567,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 9
       }
     },
     {
@@ -1504,7 +1586,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 10
       }
     },
     {
@@ -1522,7 +1605,8 @@
         "company": "Mistral AI",
         "region": "法国",
         "open_source": true,
-        "series": "Mistral"
+        "series": "Mistral",
+        "series_index": 11
       }
     },
     {
@@ -1540,7 +1624,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 0
       }
     },
     {
@@ -1558,7 +1643,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 1
       }
     },
     {
@@ -1576,7 +1662,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 2
       }
     },
     {
@@ -1594,7 +1681,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 3
       }
     },
     {
@@ -1612,7 +1700,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 4
       }
     },
     {
@@ -1630,7 +1719,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 5
       }
     },
     {
@@ -1648,7 +1738,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 6
       }
     },
     {
@@ -1666,7 +1757,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 7
       }
     },
     {
@@ -1684,7 +1776,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 8
       }
     },
     {
@@ -1702,7 +1795,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 9
       }
     },
     {
@@ -1720,7 +1814,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 10
       }
     },
     {
@@ -1738,7 +1833,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 11
       }
     },
     {
@@ -1756,7 +1852,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 12
       }
     },
     {
@@ -1774,7 +1871,8 @@
         "company": "阿里巴巴",
         "region": "中国",
         "open_source": true,
-        "series": "Qwen"
+        "series": "Qwen",
+        "series_index": 13
       }
     },
     {
@@ -1792,7 +1890,8 @@
         "company": "深度求索",
         "region": "中国",
         "open_source": true,
-        "series": "DeepSeek"
+        "series": "DeepSeek",
+        "series_index": 0
       }
     },
     {
@@ -1810,7 +1909,8 @@
         "company": "深度求索",
         "region": "中国",
         "open_source": true,
-        "series": "DeepSeek"
+        "series": "DeepSeek",
+        "series_index": 1
       }
     },
     {
@@ -1828,7 +1928,8 @@
         "company": "深度求索",
         "region": "中国",
         "open_source": true,
-        "series": "DeepSeek"
+        "series": "DeepSeek",
+        "series_index": 2
       }
     },
     {
@@ -1846,7 +1947,8 @@
         "company": "深度求索",
         "region": "中国",
         "open_source": true,
-        "series": "DeepSeek"
+        "series": "DeepSeek",
+        "series_index": 3
       }
     },
     {
@@ -1864,7 +1966,8 @@
         "company": "深度求索",
         "region": "中国",
         "open_source": true,
-        "series": "DeepSeek"
+        "series": "DeepSeek",
+        "series_index": 4
       }
     },
     {
@@ -1882,7 +1985,8 @@
         "company": "深度求索",
         "region": "中国",
         "open_source": true,
-        "series": "DeepSeek"
+        "series": "DeepSeek",
+        "series_index": 5
       }
     },
     {
@@ -1900,7 +2004,8 @@
         "company": "深度求索",
         "region": "中国",
         "open_source": true,
-        "series": "DeepSeek"
+        "series": "DeepSeek",
+        "series_index": 6
       }
     },
     {
@@ -1918,7 +2023,8 @@
         "company": "深度求索",
         "region": "中国",
         "open_source": true,
-        "series": "DeepSeek"
+        "series": "DeepSeek",
+        "series_index": 7
       }
     },
     {
@@ -1936,7 +2042,8 @@
         "company": "深度求索",
         "region": "中国",
         "open_source": true,
-        "series": "DeepSeek"
+        "series": "DeepSeek",
+        "series_index": 8
       }
     },
     {
@@ -1954,7 +2061,8 @@
         "company": "深度求索",
         "region": "中国",
         "open_source": true,
-        "series": "DeepSeek"
+        "series": "DeepSeek",
+        "series_index": 9
       }
     },
     {
@@ -1972,7 +2080,8 @@
         "company": "深度求索",
         "region": "中国",
         "open_source": true,
-        "series": "DeepSeek"
+        "series": "DeepSeek",
+        "series_index": 10
       }
     },
     {
@@ -1990,7 +2099,8 @@
         "company": "月之暗面",
         "region": "中国",
         "open_source": true,
-        "series": "Kimi"
+        "series": "Kimi",
+        "series_index": 0
       }
     },
     {
@@ -2008,7 +2118,8 @@
         "company": "月之暗面",
         "region": "中国",
         "open_source": true,
-        "series": "Kimi"
+        "series": "Kimi",
+        "series_index": 1
       }
     },
     {
@@ -2026,7 +2137,8 @@
         "company": "月之暗面",
         "region": "中国",
         "open_source": true,
-        "series": "Kimi"
+        "series": "Kimi",
+        "series_index": 2
       }
     },
     {
@@ -2044,7 +2156,8 @@
         "company": "月之暗面",
         "region": "中国",
         "open_source": true,
-        "series": "Kimi"
+        "series": "Kimi",
+        "series_index": 3
       }
     },
     {
@@ -2062,7 +2175,8 @@
         "company": "月之暗面",
         "region": "中国",
         "open_source": true,
-        "series": "Kimi"
+        "series": "Kimi",
+        "series_index": 4
       }
     },
     {
@@ -2080,7 +2194,8 @@
         "company": "月之暗面",
         "region": "中国",
         "open_source": true,
-        "series": "Kimi"
+        "series": "Kimi",
+        "series_index": 5
       }
     },
     {
@@ -2098,7 +2213,8 @@
         "company": "智谱AI",
         "region": "中国",
         "open_source": true,
-        "series": "GLM"
+        "series": "GLM",
+        "series_index": 0
       }
     },
     {
@@ -2116,7 +2232,8 @@
         "company": "智谱AI",
         "region": "中国",
         "open_source": true,
-        "series": "GLM"
+        "series": "GLM",
+        "series_index": 1
       }
     },
     {
@@ -2134,7 +2251,8 @@
         "company": "智谱AI",
         "region": "中国",
         "open_source": true,
-        "series": "GLM"
+        "series": "GLM",
+        "series_index": 2
       }
     },
     {
@@ -2152,7 +2270,8 @@
         "company": "智谱AI",
         "region": "中国",
         "open_source": true,
-        "series": "GLM"
+        "series": "GLM",
+        "series_index": 3
       }
     },
     {
@@ -2170,7 +2289,8 @@
         "company": "智谱AI",
         "region": "中国",
         "open_source": true,
-        "series": "GLM"
+        "series": "GLM",
+        "series_index": 4
       }
     },
     {
@@ -2188,7 +2308,8 @@
         "company": "智谱AI",
         "region": "中国",
         "open_source": true,
-        "series": "GLM"
+        "series": "GLM",
+        "series_index": 5
       }
     },
     {
@@ -2206,7 +2327,8 @@
         "company": "智谱AI",
         "region": "中国",
         "open_source": true,
-        "series": "GLM"
+        "series": "GLM",
+        "series_index": 6
       }
     },
     {
@@ -2224,7 +2346,8 @@
         "company": "智谱AI",
         "region": "中国",
         "open_source": true,
-        "series": "GLM"
+        "series": "GLM",
+        "series_index": 7
       }
     },
     {
@@ -2242,7 +2365,8 @@
         "company": "智谱AI",
         "region": "中国",
         "open_source": true,
-        "series": "GLM"
+        "series": "GLM",
+        "series_index": 8
       }
     },
     {
@@ -2260,7 +2384,8 @@
         "company": "智谱AI",
         "region": "中国",
         "open_source": true,
-        "series": "GLM"
+        "series": "GLM",
+        "series_index": 9
       }
     },
     {
@@ -2278,7 +2403,8 @@
         "company": "MiniMax",
         "region": "中国",
         "open_source": true,
-        "series": "MiniMax"
+        "series": "MiniMax",
+        "series_index": 0
       }
     },
     {
@@ -2296,7 +2422,8 @@
         "company": "MiniMax",
         "region": "中国",
         "open_source": true,
-        "series": "MiniMax"
+        "series": "MiniMax",
+        "series_index": 1
       }
     },
     {
@@ -2314,7 +2441,8 @@
         "company": "MiniMax",
         "region": "中国",
         "open_source": true,
-        "series": "MiniMax"
+        "series": "MiniMax",
+        "series_index": 2
       }
     },
     {
@@ -2332,7 +2460,8 @@
         "company": "MiniMax",
         "region": "中国",
         "open_source": true,
-        "series": "MiniMax"
+        "series": "MiniMax",
+        "series_index": 3
       }
     },
     {
@@ -2350,7 +2479,8 @@
         "company": "MiniMax",
         "region": "中国",
         "open_source": true,
-        "series": "MiniMax"
+        "series": "MiniMax",
+        "series_index": 4
       }
     },
     {
@@ -2368,7 +2498,8 @@
         "company": "字节跳动",
         "region": "中国",
         "open_source": false,
-        "series": "豆包"
+        "series": "豆包",
+        "series_index": 0
       }
     },
     {
@@ -2386,7 +2517,8 @@
         "company": "字节跳动",
         "region": "中国",
         "open_source": false,
-        "series": "豆包"
+        "series": "豆包",
+        "series_index": 1
       }
     },
     {
@@ -2404,7 +2536,8 @@
         "company": "字节跳动",
         "region": "中国",
         "open_source": false,
-        "series": "豆包"
+        "series": "豆包",
+        "series_index": 2
       }
     },
     {
@@ -2422,7 +2555,8 @@
         "company": "字节跳动",
         "region": "中国",
         "open_source": false,
-        "series": "豆包"
+        "series": "豆包",
+        "series_index": 3
       }
     },
     {
@@ -2440,7 +2574,8 @@
         "company": "字节跳动",
         "region": "中国",
         "open_source": false,
-        "series": "豆包"
+        "series": "豆包",
+        "series_index": 4
       }
     },
     {
@@ -2458,7 +2593,8 @@
         "company": "腾讯",
         "region": "中国",
         "open_source": false,
-        "series": "混元"
+        "series": "混元",
+        "series_index": 0
       }
     },
     {
@@ -2476,7 +2612,8 @@
         "company": "腾讯",
         "region": "中国",
         "open_source": false,
-        "series": "混元"
+        "series": "混元",
+        "series_index": 1
       }
     },
     {
@@ -2494,7 +2631,8 @@
         "company": "腾讯",
         "region": "中国",
         "open_source": false,
-        "series": "混元"
+        "series": "混元",
+        "series_index": 2
       }
     },
     {
@@ -2512,7 +2650,8 @@
         "company": "腾讯",
         "region": "中国",
         "open_source": false,
-        "series": "混元"
+        "series": "混元",
+        "series_index": 3
       }
     },
     {
@@ -2530,7 +2669,8 @@
         "company": "百度",
         "region": "中国",
         "open_source": false,
-        "series": "文心"
+        "series": "文心",
+        "series_index": 0
       }
     },
     {
@@ -2548,7 +2688,8 @@
         "company": "百度",
         "region": "中国",
         "open_source": false,
-        "series": "文心"
+        "series": "文心",
+        "series_index": 1
       }
     },
     {
@@ -2566,7 +2707,8 @@
         "company": "百度",
         "region": "中国",
         "open_source": false,
-        "series": "文心"
+        "series": "文心",
+        "series_index": 2
       }
     },
     {
@@ -2584,7 +2726,8 @@
         "company": "百度",
         "region": "中国",
         "open_source": false,
-        "series": "文心"
+        "series": "文心",
+        "series_index": 3
       }
     },
     {
@@ -2602,7 +2745,8 @@
         "company": "百度",
         "region": "中国",
         "open_source": false,
-        "series": "文心"
+        "series": "文心",
+        "series_index": 4
       }
     },
     {
@@ -2620,7 +2764,8 @@
         "company": "百度",
         "region": "中国",
         "open_source": false,
-        "series": "文心"
+        "series": "文心",
+        "series_index": 5
       }
     },
     {
@@ -2638,7 +2783,8 @@
         "company": "阶跃星辰",
         "region": "中国",
         "open_source": true,
-        "series": "Step"
+        "series": "Step",
+        "series_index": 0
       }
     },
     {
@@ -2656,7 +2802,8 @@
         "company": "阶跃星辰",
         "region": "中国",
         "open_source": true,
-        "series": "Step"
+        "series": "Step",
+        "series_index": 1
       }
     },
     {
@@ -2674,7 +2821,8 @@
         "company": "阶跃星辰",
         "region": "中国",
         "open_source": true,
-        "series": "Step"
+        "series": "Step",
+        "series_index": 2
       }
     },
     {
@@ -2692,7 +2840,8 @@
         "company": "零一万物",
         "region": "中国",
         "open_source": true,
-        "series": "Yi"
+        "series": "Yi",
+        "series_index": 0
       }
     },
     {
@@ -2710,7 +2859,8 @@
         "company": "零一万物",
         "region": "中国",
         "open_source": true,
-        "series": "Yi"
+        "series": "Yi",
+        "series_index": 1
       }
     },
     {
@@ -2728,7 +2878,8 @@
         "company": "零一万物",
         "region": "中国",
         "open_source": true,
-        "series": "Yi"
+        "series": "Yi",
+        "series_index": 2
       }
     },
     {
@@ -2746,7 +2897,8 @@
         "company": "百川智能",
         "region": "中国",
         "open_source": true,
-        "series": "Baichuan"
+        "series": "Baichuan",
+        "series_index": 0
       }
     },
     {
@@ -2764,7 +2916,8 @@
         "company": "百川智能",
         "region": "中国",
         "open_source": true,
-        "series": "Baichuan"
+        "series": "Baichuan",
+        "series_index": 1
       }
     },
     {
@@ -2782,7 +2935,8 @@
         "company": "百川智能",
         "region": "中国",
         "open_source": true,
-        "series": "Baichuan"
+        "series": "Baichuan",
+        "series_index": 2
       }
     },
     {
@@ -2800,7 +2954,8 @@
         "company": "昆仑万维",
         "region": "中国",
         "open_source": true,
-        "series": "Skywork"
+        "series": "Skywork",
+        "series_index": 0
       }
     },
     {
@@ -2818,7 +2973,8 @@
         "company": "昆仑万维",
         "region": "中国",
         "open_source": true,
-        "series": "Skywork"
+        "series": "Skywork",
+        "series_index": 1
       }
     },
     {
@@ -2836,7 +2992,8 @@
         "company": "科大讯飞",
         "region": "中国",
         "open_source": false,
-        "series": "星火"
+        "series": "星火",
+        "series_index": 0
       }
     },
     {
@@ -2854,7 +3011,8 @@
         "company": "科大讯飞",
         "region": "中国",
         "open_source": false,
-        "series": "星火"
+        "series": "星火",
+        "series_index": 1
       }
     },
     {
@@ -2872,7 +3030,8 @@
         "company": "科大讯飞",
         "region": "中国",
         "open_source": false,
-        "series": "星火"
+        "series": "星火",
+        "series_index": 2
       }
     },
     {
@@ -2890,7 +3049,8 @@
         "company": "科大讯飞",
         "region": "中国",
         "open_source": false,
-        "series": "星火"
+        "series": "星火",
+        "series_index": 3
       }
     },
     {
@@ -2908,7 +3068,8 @@
         "company": "科大讯飞",
         "region": "中国",
         "open_source": false,
-        "series": "星火"
+        "series": "星火",
+        "series_index": 4
       }
     },
     {
@@ -2926,7 +3087,8 @@
         "company": "科大讯飞",
         "region": "中国",
         "open_source": false,
-        "series": "星火"
+        "series": "星火",
+        "series_index": 5
       }
     },
     {
@@ -2944,7 +3106,8 @@
         "company": "科大讯飞",
         "region": "中国",
         "open_source": false,
-        "series": "星火"
+        "series": "星火",
+        "series_index": 6
       }
     },
     {
@@ -2962,7 +3125,8 @@
         "company": "上海人工智能实验室",
         "region": "中国",
         "open_source": true,
-        "series": "书生"
+        "series": "书生",
+        "series_index": 0
       }
     },
     {
@@ -2980,7 +3144,8 @@
         "company": "上海人工智能实验室",
         "region": "中国",
         "open_source": true,
-        "series": "书生"
+        "series": "书生",
+        "series_index": 1
       }
     },
     {
@@ -2998,7 +3163,8 @@
         "company": "上海人工智能实验室",
         "region": "中国",
         "open_source": true,
-        "series": "书生"
+        "series": "书生",
+        "series_index": 2
       }
     },
     {
@@ -3016,7 +3182,8 @@
         "company": "上海人工智能实验室",
         "region": "中国",
         "open_source": true,
-        "series": "书生"
+        "series": "书生",
+        "series_index": 3
       }
     },
     {
@@ -3034,7 +3201,8 @@
         "company": "上海人工智能实验室",
         "region": "中国",
         "open_source": true,
-        "series": "书生"
+        "series": "书生",
+        "series_index": 4
       }
     },
     {
@@ -3052,7 +3220,8 @@
         "company": "面壁智能",
         "region": "中国",
         "open_source": true,
-        "series": "MiniCPM"
+        "series": "MiniCPM",
+        "series_index": 0
       }
     },
     {
@@ -3070,7 +3239,8 @@
         "company": "面壁智能",
         "region": "中国",
         "open_source": true,
-        "series": "MiniCPM"
+        "series": "MiniCPM",
+        "series_index": 1
       }
     },
     {
@@ -3088,7 +3258,8 @@
         "company": "面壁智能",
         "region": "中国",
         "open_source": true,
-        "series": "MiniCPM"
+        "series": "MiniCPM",
+        "series_index": 2
       }
     },
     {
@@ -3106,7 +3277,8 @@
         "company": "面壁智能",
         "region": "中国",
         "open_source": true,
-        "series": "MiniCPM"
+        "series": "MiniCPM",
+        "series_index": 3
       }
     },
     {
@@ -3124,7 +3296,8 @@
         "company": "华为",
         "region": "中国",
         "open_source": false,
-        "series": "盘古"
+        "series": "盘古",
+        "series_index": 0
       }
     },
     {
@@ -3142,7 +3315,8 @@
         "company": "微软",
         "region": "美国",
         "open_source": true,
-        "series": "Phi"
+        "series": "Phi",
+        "series_index": 0
       }
     },
     {
@@ -3160,7 +3334,8 @@
         "company": "微软",
         "region": "美国",
         "open_source": true,
-        "series": "Phi"
+        "series": "Phi",
+        "series_index": 1
       }
     },
     {
@@ -3178,7 +3353,8 @@
         "company": "微软",
         "region": "美国",
         "open_source": true,
-        "series": "Phi"
+        "series": "Phi",
+        "series_index": 2
       }
     },
     {
@@ -3196,7 +3372,8 @@
         "company": "微软",
         "region": "美国",
         "open_source": true,
-        "series": "Phi"
+        "series": "Phi",
+        "series_index": 3
       }
     },
     {
@@ -3214,7 +3391,8 @@
         "company": "微软",
         "region": "美国",
         "open_source": true,
-        "series": "Phi"
+        "series": "Phi",
+        "series_index": 4
       }
     },
     {
@@ -3232,7 +3410,8 @@
         "company": "微软",
         "region": "美国",
         "open_source": true,
-        "series": "Phi"
+        "series": "Phi",
+        "series_index": 5
       }
     },
     {
@@ -3250,7 +3429,8 @@
         "company": "微软",
         "region": "美国",
         "open_source": true,
-        "series": "Phi"
+        "series": "Phi",
+        "series_index": 6
       }
     },
     {
@@ -3268,7 +3448,8 @@
         "company": "微软",
         "region": "美国",
         "open_source": true,
-        "series": "Phi"
+        "series": "Phi",
+        "series_index": 7
       }
     },
     {
@@ -3286,7 +3467,8 @@
         "company": "微软",
         "region": "美国",
         "open_source": true,
-        "series": "Phi"
+        "series": "Phi",
+        "series_index": 8
       }
     },
     {
@@ -3304,7 +3486,8 @@
         "company": "微软",
         "region": "美国",
         "open_source": true,
-        "series": "Phi"
+        "series": "Phi",
+        "series_index": 9
       }
     },
     {
@@ -3322,7 +3505,8 @@
         "company": "英伟达",
         "region": "美国",
         "open_source": true,
-        "series": "Nemotron"
+        "series": "Nemotron",
+        "series_index": 0
       }
     },
     {
@@ -3340,7 +3524,8 @@
         "company": "英伟达",
         "region": "美国",
         "open_source": true,
-        "series": "Nemotron"
+        "series": "Nemotron",
+        "series_index": 1
       }
     },
     {
@@ -3358,7 +3543,8 @@
         "company": "英伟达",
         "region": "美国",
         "open_source": true,
-        "series": "Nemotron"
+        "series": "Nemotron",
+        "series_index": 2
       }
     },
     {
@@ -3376,7 +3562,8 @@
         "company": "亚马逊",
         "region": "美国",
         "open_source": false,
-        "series": "Nova"
+        "series": "Nova",
+        "series_index": 0
       }
     },
     {
@@ -3394,7 +3581,8 @@
         "company": "亚马逊",
         "region": "美国",
         "open_source": false,
-        "series": "Nova"
+        "series": "Nova",
+        "series_index": 1
       }
     },
     {
@@ -3412,7 +3600,8 @@
         "company": "亚马逊",
         "region": "美国",
         "open_source": false,
-        "series": "Nova"
+        "series": "Nova",
+        "series_index": 2
       }
     },
     {
@@ -3430,7 +3619,8 @@
         "company": "亚马逊",
         "region": "美国",
         "open_source": false,
-        "series": "Nova"
+        "series": "Nova",
+        "series_index": 3
       }
     },
     {
@@ -3448,7 +3638,8 @@
         "company": "Cohere",
         "region": "加拿大",
         "open_source": true,
-        "series": "Command"
+        "series": "Command",
+        "series_index": 0
       }
     },
     {
@@ -3466,7 +3657,8 @@
         "company": "Cohere",
         "region": "加拿大",
         "open_source": true,
-        "series": "Command"
+        "series": "Command",
+        "series_index": 1
       }
     },
     {
@@ -3484,7 +3676,8 @@
         "company": "Cohere",
         "region": "加拿大",
         "open_source": true,
-        "series": "Command"
+        "series": "Command",
+        "series_index": 2
       }
     },
     {
@@ -3502,7 +3695,8 @@
         "company": "Cohere",
         "region": "加拿大",
         "open_source": true,
-        "series": "Command"
+        "series": "Command",
+        "series_index": 3
       }
     },
     {
@@ -3520,7 +3714,8 @@
         "company": "Cohere",
         "region": "加拿大",
         "open_source": true,
-        "series": "Command"
+        "series": "Command",
+        "series_index": 4
       }
     },
     {
@@ -3538,7 +3733,8 @@
         "company": "AI21 Labs",
         "region": "以色列",
         "open_source": true,
-        "series": "Jamba"
+        "series": "Jamba",
+        "series_index": 0
       }
     },
     {
@@ -3556,7 +3752,8 @@
         "company": "AI21 Labs",
         "region": "以色列",
         "open_source": true,
-        "series": "Jamba"
+        "series": "Jamba",
+        "series_index": 1
       }
     },
     {
@@ -3574,7 +3771,8 @@
         "company": "AI21 Labs",
         "region": "以色列",
         "open_source": true,
-        "series": "Jamba"
+        "series": "Jamba",
+        "series_index": 2
       }
     },
     {
@@ -3592,7 +3790,8 @@
         "company": "TII",
         "region": "阿联酋",
         "open_source": true,
-        "series": "Falcon"
+        "series": "Falcon",
+        "series_index": 0
       }
     },
     {
@@ -3610,7 +3809,8 @@
         "company": "TII",
         "region": "阿联酋",
         "open_source": true,
-        "series": "Falcon"
+        "series": "Falcon",
+        "series_index": 1
       }
     },
     {
@@ -3628,7 +3828,8 @@
         "company": "TII",
         "region": "阿联酋",
         "open_source": true,
-        "series": "Falcon"
+        "series": "Falcon",
+        "series_index": 2
       }
     },
     {
@@ -3646,7 +3847,8 @@
         "company": "TII",
         "region": "阿联酋",
         "open_source": true,
-        "series": "Falcon"
+        "series": "Falcon",
+        "series_index": 3
       }
     },
     {
@@ -3664,7 +3866,8 @@
         "company": "Ai2",
         "region": "美国",
         "open_source": true,
-        "series": "OLMo"
+        "series": "OLMo",
+        "series_index": 0
       }
     },
     {
@@ -3682,7 +3885,8 @@
         "company": "Ai2",
         "region": "美国",
         "open_source": true,
-        "series": "OLMo"
+        "series": "OLMo",
+        "series_index": 1
       }
     },
     {
@@ -3700,7 +3904,8 @@
         "company": "Ai2",
         "region": "美国",
         "open_source": true,
-        "series": "OLMo"
+        "series": "OLMo",
+        "series_index": 2
       }
     },
     {
@@ -3718,7 +3923,8 @@
         "company": "Hugging Face",
         "region": "法国",
         "open_source": true,
-        "series": "SmolLM"
+        "series": "SmolLM",
+        "series_index": 0
       }
     },
     {
@@ -3736,7 +3942,8 @@
         "company": "Hugging Face",
         "region": "法国",
         "open_source": true,
-        "series": "SmolLM"
+        "series": "SmolLM",
+        "series_index": 1
       }
     },
     {
@@ -3754,7 +3961,8 @@
         "company": "Hugging Face",
         "region": "法国",
         "open_source": true,
-        "series": "SmolLM"
+        "series": "SmolLM",
+        "series_index": 2
       }
     },
     {
@@ -3772,7 +3980,8 @@
         "company": "Databricks",
         "region": "美国",
         "open_source": true,
-        "series": "DBRX"
+        "series": "DBRX",
+        "series_index": 0
       }
     },
     {
@@ -3790,7 +3999,8 @@
         "company": "LG AI研究院",
         "region": "韩国",
         "open_source": true,
-        "series": "EXAONE"
+        "series": "EXAONE",
+        "series_index": 0
       }
     },
     {
@@ -3808,7 +4018,8 @@
         "company": "LG AI研究院",
         "region": "韩国",
         "open_source": true,
-        "series": "EXAONE"
+        "series": "EXAONE",
+        "series_index": 1
       }
     },
     {
@@ -3826,7 +4037,8 @@
         "company": "LG AI研究院",
         "region": "韩国",
         "open_source": true,
-        "series": "EXAONE"
+        "series": "EXAONE",
+        "series_index": 2
       }
     }
   ],

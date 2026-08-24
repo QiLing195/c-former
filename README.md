@@ -122,6 +122,20 @@ listwise 推理，只能背下训练时见过的系列。因此任何训练信�
 而不是在检索打分层解决。默认参数回退为 steps=400、hard-negatives=0、改写开启；
 消融开关保留供复现。
 
+### V6.2 世界推理块最小原型（已实现，缺口关闭）
+
+`cformer_v62/reasoner.py`：确定性跨候选选择器——方向词（最新/最早）→ 词法锚定系列
+（查询显式含公司/系列名；神经锚点仅回退）→ 年份极值 + series_index 平局裁决 →
+输出带完整轨迹的选择；任何一步无法裁决即回退神经路径。挂接于 pipeline 重排后、
+verifier 前，无训练参数。A/B 结果（三种子一致）：**留出集 0%→100%、主数据 known
+86.0%→100%**，盲测歧义/unknown 安全指标零损失。设计与失败分析见
+[`V62_REASONER_REPORT.md`](V62_REASONER_REPORT.md)。
+
+```powershell
+D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v62.py
+D:\conda\envs\cformer-gpu\python.exe evaluate_v62.py
+```
+
 ```powershell
 D:\conda\envs\cformer-gpu\python.exe build_ai_models_dataset.py
 D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_real.py

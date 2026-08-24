@@ -282,7 +282,8 @@ def build():
                 "evidence": evidence,
                 "needs_review": bool(needs_review),
                 "meta": {"company": company, "region": region,
-                         "open_source": open_source, "series": series},
+                         "open_source": open_source, "series": series,
+                         "series_index": index},
             })
             label += 1
 
