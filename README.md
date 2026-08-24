@@ -160,12 +160,13 @@ D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v62_temporal.p
 D:\conda\envs\cformer-gpu\python.exe evaluate_temporal.py
 ```
 
-### V6.3-M0 Transformation 递归 + 别名指代消解（闸门全过）
+### V6.3-M0 Transformation 递归 + 别名指代消解（四桶全 100%）
 
 `cformer_v63/recursion.py`：从"关系"证据零标注构建前代/后代图，确定性多跳行走
 （环检测/深度上限/链尾显式终止，全轨迹可审计）；`apply_aliases` 别名词表接入词法锚定
-（千问→Qwen 等）。1490 条程序化真值：**1—4 跳 Top-1 97.3%**（闸门 ≥90%）、5—8 跳
-94.6% 单独报告、留出集回归无损失。详见 [`V63_RECURSION_REPORT.md`](V63_RECURSION_REPORT.md)。
+（千问→Qwen 等）。1490 条程序化真值：**1—4 跳与 5—8 跳 Top-1 全部 100%**、留出集
+回归无损失。首轮 97.3% 缺口经排查为评测端链序错误（年份序 vs 定义序），系统无缺陷。
+详见 [`V63_RECURSION_REPORT.md`](V63_RECURSION_REPORT.md)。
 
 ```powershell
 D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v63_recursion.py

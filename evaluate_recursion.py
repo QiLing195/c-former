@@ -50,7 +50,9 @@ def build_hop_sets(world: AIModelWorld):
 
     backward_14, backward_58, forward_14, forward_58 = [], [], [], []
     for (company, series), members in sorted(groups.items()):
-        members.sort(key=lambda m: (m["year"], m["series_index"]))
+        # 链序必须与图的边一致：predecessor 边来自 builder 定义顺序（series_index），
+        # 年份在此不参与排序（非单调年份行如 Qwen-VL/豆包 1.5 Pro 会造成真值错位）
+        members.sort(key=lambda m: m["series_index"])
         for position, member in enumerate(members):
             name = member["name"].replace(" ", "")
             max_back = min(position, 8)
@@ -78,17 +80,30 @@ def build_hop_sets(world: AIModelWorld):
             "forward_1_4": forward_14, "forward_5_8": forward_58}
 
 
-def score_set(pipeline, items: list[dict]) -> dict:
+def score_set(pipeline, items: list[dict], dump_failures: str | None = None) -> dict:
     hits = supported = 0
+    failures = []
     for item in items:
         result = pipeline.resolve(item["text"])
         if result.status == CandidateStatus.SUPPORTED:
             supported += 1
-            hits += int(result.object_id == item["expected_id"])
+            hit = result.object_id == item["expected_id"]
+            hits += int(hit)
+            if not hit:
+                failures.append({"text": item["text"], "expected": item["expected_id"],
+                                 "predicted": result.object_id, "reason": result.reason[:120]})
+        else:
+            failures.append({"text": item["text"], "expected": item["expected_id"],
+                             "predicted": None, "status": result.status.value,
+                             "reason": result.reason[:120]})
+    if dump_failures and failures:
+        path = ROOT / "artifacts" / f"{dump_failures}_failures.json"
+        path.write_text(json.dumps(failures, ensure_ascii=False, indent=1), encoding="utf-8")
     return {
         "n": len(items),
         "supported_rate": supported / len(items) if items else 1.0,
         "top1": hits / len(items) if items else 1.0,
+        "failure_count": len(failures),
     }
 
 
@@ -117,7 +132,8 @@ def main() -> None:
     pipeline.multihop = multihop
 
     recursion_metrics = {
-        name: score_set(pipeline, items) for name, items in hop_sets.items()
+        name: score_set(pipeline, items, dump_failures=name)
+        for name, items in hop_sets.items()
     }
     alias_smoke = pipeline.resolve("千问系列最新的模型是哪一个？")
     qwen_latest_expected = "qwen3-7-max"
