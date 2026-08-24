@@ -104,8 +104,21 @@ class UnifiedCFormer:
         self.ledger = ledger
         self.index = index
         self.pipeline = pipeline
-        self._documents = {
-            rec.object_id: rec.document for rec, _ in store.live_records()
+        # G-4：字段级证据引用 —— 每条证据可追溯为 "{oid}#{字段}@v{version}"
+        self._records = {
+            rec.object_id: rec for rec, _ in store.live_records()
+        }
+
+    def evidence_refs(self, object_id: str) -> dict:
+        record = self._records.get(object_id)
+        if record is None:
+            return {}
+        return {
+            "object_id": object_id,
+            "version": record.version,
+            "fields": record.document,
+            "refs": {name: f"{object_id}#{name}@v{record.version}"
+                     for name in record.document},
         }
 
     def resolve(self, text: str, observer_frame=None,
@@ -114,7 +127,7 @@ class UnifiedCFormer:
                                        observer_frame=observer_frame)
         evidence = {}
         if result.status == CandidateStatus.SUPPORTED and result.object_id:
-            evidence = self._documents.get(result.object_id, {})
+            evidence = self.evidence_refs(result.object_id)
         trace = [part.removeprefix("trace=") for part in result.reason.split(";") if part]
         return Answer(
             status=result.status.value,

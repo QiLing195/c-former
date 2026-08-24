@@ -26,6 +26,7 @@ class ObjectRecord:
     canonical_name: str
     document: dict = field(default_factory=dict)  # 四证据文本
     meta: dict = field(default_factory=dict)
+    version: int = 0                              # 写入版本（证据引用用）
 
 
 class UnifiedObjectStore:
@@ -194,16 +195,18 @@ class UnifiedObjectStore:
 
     def live_records(self) -> list[tuple[ObjectRecord, list[str]]]:
         rows = self.connection.execute(
-            "SELECT object_id, canonical_name, document, meta FROM objects WHERE removed=0"
+            "SELECT object_id, canonical_name, document, meta, version "
+            "FROM objects WHERE removed=0"
         ).fetchall()
         out = []
-        for object_id, name, document, meta in rows:
+        for object_id, name, document, meta, version in rows:
             alias_rows = self.connection.execute(
                 "SELECT alias FROM aliases WHERE object_id=? AND status='verified'",
                 (object_id,),
             ).fetchall()
             out.append((
-                ObjectRecord(object_id, name, json.loads(document), json.loads(meta)),
+                ObjectRecord(object_id, name, json.loads(document),
+                             json.loads(meta), int(version)),
                 [a for (a,) in alias_rows],
             ))
         return out

@@ -1,0 +1,1 @@
+{"subject_id": "<object_id>", "claim_a": {"source": "<来源A>", "text": "<表述A>", "as_of": "<YYYY或*>"}, "claim_b": {"source": "<来源B>", "text": "<矛盾表述B>", "as_of": "<YYYY或*>"}, "resolution": "pending"}

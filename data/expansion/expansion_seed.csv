@@ -1,0 +1,213 @@
+﻿id,name,company,region,open_source,series,series_index,release_year,aliases,needs_review,notes,名称,属性,关系,变化
+gpt-1,GPT-1,OpenAI,美国,False,GPT,0,2018,GPT-1,False,,这个模型的全称是 GPT-1，属于 GPT 系列,它由 OpenAI 开发，是闭源模型,它在 GPT 系列中，是该系列早期版本,它于 2018 年发布
+gpt-2,GPT-2,OpenAI,美国,False,GPT,1,2019,GPT-2,False,,这个模型的全称是 GPT-2，属于 GPT 系列,它由 OpenAI 开发，是闭源模型,它在 GPT 系列中，前一代是 GPT-1,它于 2019 年发布
+gpt-3,GPT-3,OpenAI,美国,False,GPT,2,2020,GPT-3,False,,这个模型的全称是 GPT-3，属于 GPT 系列,它由 OpenAI 开发，是闭源模型,它在 GPT 系列中，前一代是 GPT-2,它于 2020 年发布
+gpt-3-5,GPT-3.5,OpenAI,美国,False,GPT,3,2022,GPT-3.5,False,,这个模型的全称是 GPT-3.5，属于 GPT 系列,它由 OpenAI 开发，是闭源模型,它在 GPT 系列中，前一代是 GPT-3,它于 2022 年发布
+gpt-4,GPT-4,OpenAI,美国,False,GPT,4,2023,GPT-4,False,,这个模型的全称是 GPT-4，属于 GPT 系列,它由 OpenAI 开发，是闭源模型,它在 GPT 系列中，前一代是 GPT-3.5,它于 2023 年发布
+gpt-4-turbo,GPT-4 Turbo,OpenAI,美国,False,GPT,5,2023,GPT-4 Turbo|GPT-4Turbo,False,,这个模型的全称是 GPT-4 Turbo，属于 GPT 系列，也常写作 GPT-4Turbo,它由 OpenAI 开发，是闭源模型,它在 GPT 系列中，前一代是 GPT-4,它于 2023 年发布
+gpt-4o,GPT-4o,OpenAI,美国,False,GPT,6,2024,GPT-4o,False,,这个模型的全称是 GPT-4o，属于 GPT 系列,它由 OpenAI 开发，是闭源模型，多模态,它在 GPT 系列中，前一代是 GPT-4 Turbo,它于 2024 年发布
+gpt-4o-mini,GPT-4o mini,OpenAI,美国,False,GPT,7,2024,GPT-4o mini|GPT-4omini,False,,这个模型的全称是 GPT-4o mini，属于 GPT 系列，也常写作 GPT-4omini,它由 OpenAI 开发，是闭源模型，轻量,它在 GPT 系列中，前一代是 GPT-4o,它于 2024 年发布
+gpt-4-1,GPT-4.1,OpenAI,美国,False,GPT,8,2025,GPT-4.1,False,,这个模型的全称是 GPT-4.1，属于 GPT 系列,它由 OpenAI 开发，是闭源模型,它在 GPT 系列中，前一代是 GPT-4o mini,它于 2025 年发布
+gpt-5,GPT-5,OpenAI,美国,False,GPT,9,2025,GPT-5,False,,这个模型的全称是 GPT-5，属于 GPT 系列,它由 OpenAI 开发，是闭源模型，前沿旗舰,它在 GPT 系列中，前一代是 GPT-4.1,它于 2025 年发布
+gpt-5-1,GPT-5.1,OpenAI,美国,False,GPT,10,2025,GPT-5.1,False,,这个模型的全称是 GPT-5.1，属于 GPT 系列,它由 OpenAI 开发，是闭源模型,它在 GPT 系列中，前一代是 GPT-5,它于 2025 年发布
+gpt-5-2,GPT-5.2,OpenAI,美国,False,GPT,11,2025,GPT-5.2,False,,这个模型的全称是 GPT-5.2，属于 GPT 系列,它由 OpenAI 开发，是闭源模型，前沿闭源旗舰,它在 GPT 系列中，前一代是 GPT-5.1,它于 2025 年发布
+gpt-5-4,GPT-5.4,OpenAI,美国,False,GPT,12,2026,GPT-5.4,False,,这个模型的全称是 GPT-5.4，属于 GPT 系列,它由 OpenAI 开发，是闭源模型，旗舰，1M上下文,它在 GPT 系列中，前一代是 GPT-5.2,它于 2026 年发布
+o1,o1,OpenAI,美国,False,o 推理,0,2024,o1,False,,这个模型的全称是 o1，属于 o 推理 系列,它由 OpenAI 开发，是闭源模型，推理,它在 o 推理 系列中，是该系列早期版本,它于 2024 年发布
+o1-mini,o1-mini,OpenAI,美国,False,o 推理,1,2024,o1-mini,False,,这个模型的全称是 o1-mini，属于 o 推理 系列,它由 OpenAI 开发，是闭源模型，推理轻量,它在 o 推理 系列中，前一代是 o1,它于 2024 年发布
+o1-pro,o1-pro,OpenAI,美国,False,o 推理,2,2025,o1-pro,False,,这个模型的全称是 o1-pro，属于 o 推理 系列,它由 OpenAI 开发，是闭源模型，推理旗舰,它在 o 推理 系列中，前一代是 o1-mini,它于 2025 年发布
+o3,o3,OpenAI,美国,False,o 推理,3,2025,o3,False,,这个模型的全称是 o3，属于 o 推理 系列,它由 OpenAI 开发，是闭源模型，推理,它在 o 推理 系列中，前一代是 o1-pro,它于 2025 年发布
+o3-mini,o3-mini,OpenAI,美国,False,o 推理,4,2025,o3-mini,False,,这个模型的全称是 o3-mini，属于 o 推理 系列,它由 OpenAI 开发，是闭源模型，推理轻量,它在 o 推理 系列中，前一代是 o3,它于 2025 年发布
+o4-mini,o4-mini,OpenAI,美国,False,o 推理,5,2025,o4-mini,False,,这个模型的全称是 o4-mini，属于 o 推理 系列,它由 OpenAI 开发，是闭源模型，推理轻量,它在 o 推理 系列中，前一代是 o3-mini,它于 2025 年发布
+claude-1,Claude 1,Anthropic,美国,False,Claude,0,2023,Claude 1|Claude1,False,,这个模型的全称是 Claude 1，属于 Claude 系列，也常写作 Claude1,它由 Anthropic 开发，是闭源模型,它在 Claude 系列中，是该系列早期版本,它于 2023 年发布
+claude-2,Claude 2,Anthropic,美国,False,Claude,1,2023,Claude 2|Claude2,False,,这个模型的全称是 Claude 2，属于 Claude 系列，也常写作 Claude2,它由 Anthropic 开发，是闭源模型,它在 Claude 系列中，前一代是 Claude 1,它于 2023 年发布
+claude-2-1,Claude 2.1,Anthropic,美国,False,Claude,2,2023,Claude 2.1|Claude2.1,False,,这个模型的全称是 Claude 2.1，属于 Claude 系列，也常写作 Claude2.1,它由 Anthropic 开发，是闭源模型,它在 Claude 系列中，前一代是 Claude 2,它于 2023 年发布
+claude-3-opus,Claude 3 Opus,Anthropic,美国,False,Claude,3,2024,Claude 3 Opus|Claude3Opus,False,,这个模型的全称是 Claude 3 Opus，属于 Claude 系列，也常写作 Claude3Opus,它由 Anthropic 开发，是闭源模型，旗舰,它在 Claude 系列中，前一代是 Claude 2.1,它于 2024 年发布
+claude-3-sonnet,Claude 3 Sonnet,Anthropic,美国,False,Claude,4,2024,Claude 3 Sonnet|Claude3Sonnet,False,,这个模型的全称是 Claude 3 Sonnet，属于 Claude 系列，也常写作 Claude3Sonnet,它由 Anthropic 开发，是闭源模型，均衡,它在 Claude 系列中，前一代是 Claude 3 Opus,它于 2024 年发布
+claude-3-haiku,Claude 3 Haiku,Anthropic,美国,False,Claude,5,2024,Claude 3 Haiku|Claude3Haiku,False,,这个模型的全称是 Claude 3 Haiku，属于 Claude 系列，也常写作 Claude3Haiku,它由 Anthropic 开发，是闭源模型，轻量,它在 Claude 系列中，前一代是 Claude 3 Sonnet,它于 2024 年发布
+claude-3-5-sonnet,Claude 3.5 Sonnet,Anthropic,美国,False,Claude,6,2024,Claude 3.5 Sonnet|Claude3.5Sonnet,False,,这个模型的全称是 Claude 3.5 Sonnet，属于 Claude 系列，也常写作 Claude3.5Sonnet,它由 Anthropic 开发，是闭源模型，均衡,它在 Claude 系列中，前一代是 Claude 3 Haiku,它于 2024 年发布
+claude-3-5-haiku,Claude 3.5 Haiku,Anthropic,美国,False,Claude,7,2024,Claude 3.5 Haiku|Claude3.5Haiku,False,,这个模型的全称是 Claude 3.5 Haiku，属于 Claude 系列，也常写作 Claude3.5Haiku,它由 Anthropic 开发，是闭源模型，轻量,它在 Claude 系列中，前一代是 Claude 3.5 Sonnet,它于 2024 年发布
+claude-opus-4,Claude Opus 4,Anthropic,美国,False,Claude,8,2025,Claude Opus 4|ClaudeOpus4,False,,这个模型的全称是 Claude Opus 4，属于 Claude 系列，也常写作 ClaudeOpus4,它由 Anthropic 开发，是闭源模型，旗舰,它在 Claude 系列中，前一代是 Claude 3.5 Haiku,它于 2025 年发布
+claude-sonnet-4,Claude Sonnet 4,Anthropic,美国,False,Claude,9,2025,Claude Sonnet 4|ClaudeSonnet4,False,,这个模型的全称是 Claude Sonnet 4，属于 Claude 系列，也常写作 ClaudeSonnet4,它由 Anthropic 开发，是闭源模型，均衡,它在 Claude 系列中，前一代是 Claude Opus 4,它于 2025 年发布
+claude-haiku-4,Claude Haiku 4,Anthropic,美国,False,Claude,10,2025,Claude Haiku 4|ClaudeHaiku4,False,,这个模型的全称是 Claude Haiku 4，属于 Claude 系列，也常写作 ClaudeHaiku4,它由 Anthropic 开发，是闭源模型，轻量,它在 Claude 系列中，前一代是 Claude Sonnet 4,它于 2025 年发布
+claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,美国,False,Claude,11,2025,Claude Sonnet 4.5|ClaudeSonnet4.5,False,,这个模型的全称是 Claude Sonnet 4.5，属于 Claude 系列，也常写作 ClaudeSonnet4.5,它由 Anthropic 开发，是闭源模型，均衡,它在 Claude 系列中，前一代是 Claude Haiku 4,它于 2025 年发布
+claude-haiku-4-5,Claude Haiku 4.5,Anthropic,美国,False,Claude,12,2025,Claude Haiku 4.5|ClaudeHaiku4.5,False,,这个模型的全称是 Claude Haiku 4.5，属于 Claude 系列，也常写作 ClaudeHaiku4.5,它由 Anthropic 开发，是闭源模型，轻量,它在 Claude 系列中，前一代是 Claude Sonnet 4.5,它于 2025 年发布
+claude-opus-4-5,Claude Opus 4.5,Anthropic,美国,False,Claude,13,2025,Claude Opus 4.5|ClaudeOpus4.5,False,,这个模型的全称是 Claude Opus 4.5，属于 Claude 系列，也常写作 ClaudeOpus4.5,它由 Anthropic 开发，是闭源模型，旗舰,它在 Claude 系列中，前一代是 Claude Haiku 4.5,它于 2025 年发布
+claude-opus-4-6,Claude Opus 4.6,Anthropic,美国,False,Claude,14,2026,Claude Opus 4.6|ClaudeOpus4.6,False,,这个模型的全称是 Claude Opus 4.6，属于 Claude 系列，也常写作 ClaudeOpus4.6,它由 Anthropic 开发，是闭源模型,它在 Claude 系列中，前一代是 Claude Opus 4.5,它于 2026 年发布
+claude-sonnet-4-6,Claude Sonnet 4.6,Anthropic,美国,False,Claude,15,2026,Claude Sonnet 4.6|ClaudeSonnet4.6,False,,这个模型的全称是 Claude Sonnet 4.6，属于 Claude 系列，也常写作 ClaudeSonnet4.6,它由 Anthropic 开发，是闭源模型，均衡,它在 Claude 系列中，前一代是 Claude Opus 4.6,它于 2026 年发布
+claude-opus-4-7,Claude Opus 4.7,Anthropic,美国,False,Claude,16,2026,Claude Opus 4.7|ClaudeOpus4.7,False,,这个模型的全称是 Claude Opus 4.7，属于 Claude 系列，也常写作 ClaudeOpus4.7,它由 Anthropic 开发，是闭源模型，旗舰,它在 Claude 系列中，前一代是 Claude Sonnet 4.6,它于 2026 年发布
+claude-opus-4-8,Claude Opus 4.8,Anthropic,美国,False,Claude,17,2026,Claude Opus 4.8|ClaudeOpus4.8,False,,这个模型的全称是 Claude Opus 4.8，属于 Claude 系列，也常写作 ClaudeOpus4.8,它由 Anthropic 开发，是闭源模型，旗舰，1M上下文,它在 Claude 系列中，前一代是 Claude Opus 4.7,它于 2026 年发布
+claude-sonnet-5,Claude Sonnet 5,Anthropic,美国,False,Claude,18,2026,Claude Sonnet 5|ClaudeSonnet5,False,,这个模型的全称是 Claude Sonnet 5，属于 Claude 系列，也常写作 ClaudeSonnet5,它由 Anthropic 开发，是闭源模型，均衡,它在 Claude 系列中，前一代是 Claude Opus 4.8,它于 2026 年发布
+claude-opus-5,Claude Opus 5,Anthropic,美国,False,Claude,19,2026,Claude Opus 5|ClaudeOpus5,False,,这个模型的全称是 Claude Opus 5，属于 Claude 系列，也常写作 ClaudeOpus5,它由 Anthropic 开发，是闭源模型，旗舰,它在 Claude 系列中，前一代是 Claude Sonnet 5,它于 2026 年发布
+gemini-1-0,Gemini 1.0,Google,美国,False,Gemini,0,2023,Gemini 1.0|Gemini1.0,False,,这个模型的全称是 Gemini 1.0，属于 Gemini 系列，也常写作 Gemini1.0,它由 Google 开发，是闭源模型,它在 Gemini 系列中，是该系列早期版本,它于 2023 年发布
+gemini-1-5-pro,Gemini 1.5 Pro,Google,美国,False,Gemini,1,2024,Gemini 1.5 Pro|Gemini1.5Pro,False,,这个模型的全称是 Gemini 1.5 Pro，属于 Gemini 系列，也常写作 Gemini1.5Pro,它由 Google 开发，是闭源模型，旗舰,它在 Gemini 系列中，前一代是 Gemini 1.0,它于 2024 年发布
+gemini-1-5-flash,Gemini 1.5 Flash,Google,美国,False,Gemini,2,2024,Gemini 1.5 Flash|Gemini1.5Flash,False,,这个模型的全称是 Gemini 1.5 Flash，属于 Gemini 系列，也常写作 Gemini1.5Flash,它由 Google 开发，是闭源模型，轻量,它在 Gemini 系列中，前一代是 Gemini 1.5 Pro,它于 2024 年发布
+gemini-2-0-flash,Gemini 2.0 Flash,Google,美国,False,Gemini,3,2024,Gemini 2.0 Flash|Gemini2.0Flash,False,,这个模型的全称是 Gemini 2.0 Flash，属于 Gemini 系列，也常写作 Gemini2.0Flash,它由 Google 开发，是闭源模型，轻量,它在 Gemini 系列中，前一代是 Gemini 1.5 Flash,它于 2024 年发布
+gemini-2-0-pro,Gemini 2.0 Pro,Google,美国,False,Gemini,4,2025,Gemini 2.0 Pro|Gemini2.0Pro,False,,这个模型的全称是 Gemini 2.0 Pro，属于 Gemini 系列，也常写作 Gemini2.0Pro,它由 Google 开发，是闭源模型，旗舰,它在 Gemini 系列中，前一代是 Gemini 2.0 Flash,它于 2025 年发布
+gemini-2-5-pro,Gemini 2.5 Pro,Google,美国,False,Gemini,5,2025,Gemini 2.5 Pro|Gemini2.5Pro,False,,这个模型的全称是 Gemini 2.5 Pro，属于 Gemini 系列，也常写作 Gemini2.5Pro,它由 Google 开发，是闭源模型，旗舰,它在 Gemini 系列中，前一代是 Gemini 2.0 Pro,它于 2025 年发布
+gemini-2-5-flash,Gemini 2.5 Flash,Google,美国,False,Gemini,6,2025,Gemini 2.5 Flash|Gemini2.5Flash,False,,这个模型的全称是 Gemini 2.5 Flash，属于 Gemini 系列，也常写作 Gemini2.5Flash,它由 Google 开发，是闭源模型，轻量,它在 Gemini 系列中，前一代是 Gemini 2.5 Pro,它于 2025 年发布
+gemini-2-5-flash-lite,Gemini 2.5 Flash-Lite,Google,美国,False,Gemini,7,2025,Gemini 2.5 Flash-Lite|Gemini2.5Flash-Lite,False,,这个模型的全称是 Gemini 2.5 Flash-Lite，属于 Gemini 系列，也常写作 Gemini2.5Flash-Lite,它由 Google 开发，是闭源模型，轻量,它在 Gemini 系列中，前一代是 Gemini 2.5 Flash,它于 2025 年发布
+gemini-3-pro,Gemini 3 Pro,Google,美国,False,Gemini,8,2025,Gemini 3 Pro|Gemini3Pro,False,,这个模型的全称是 Gemini 3 Pro，属于 Gemini 系列，也常写作 Gemini3Pro,它由 Google 开发，是闭源模型，旗舰,它在 Gemini 系列中，前一代是 Gemini 2.5 Flash-Lite,它于 2025 年发布
+gemini-3-flash,Gemini 3 Flash,Google,美国,False,Gemini,9,2025,Gemini 3 Flash|Gemini3Flash,False,,这个模型的全称是 Gemini 3 Flash，属于 Gemini 系列，也常写作 Gemini3Flash,它由 Google 开发，是闭源模型，轻量,它在 Gemini 系列中，前一代是 Gemini 3 Pro,它于 2025 年发布
+gemini-3-1-pro,Gemini 3.1 Pro,Google,美国,False,Gemini,10,2026,Gemini 3.1 Pro|Gemini3.1Pro,False,,这个模型的全称是 Gemini 3.1 Pro，属于 Gemini 系列，也常写作 Gemini3.1Pro,它由 Google 开发，是闭源模型，预览版核心升级,它在 Gemini 系列中，前一代是 Gemini 3 Flash,它于 2026 年发布
+gemini-3-5-flash,Gemini 3.5 Flash,Google,美国,False,Gemini,11,2026,Gemini 3.5 Flash|Gemini3.5Flash,False,,这个模型的全称是 Gemini 3.5 Flash，属于 Gemini 系列，也常写作 Gemini3.5Flash,它由 Google 开发，是闭源模型，代理编码,它在 Gemini 系列中，前一代是 Gemini 3.1 Pro,它于 2026 年发布
+gemini-3-5-flash-lite,Gemini 3.5 Flash-Lite,Google,美国,False,Gemini,12,2026,Gemini 3.5 Flash-Lite|Gemini3.5Flash-Lite,False,,这个模型的全称是 Gemini 3.5 Flash-Lite，属于 Gemini 系列，也常写作 Gemini3.5Flash-Lite,它由 Google 开发，是闭源模型，轻量,它在 Gemini 系列中，前一代是 Gemini 3.5 Flash,它于 2026 年发布
+gemini-3-6-flash,Gemini 3.6 Flash,Google,美国,False,Gemini,13,2026,Gemini 3.6 Flash|Gemini3.6Flash,False,,这个模型的全称是 Gemini 3.6 Flash，属于 Gemini 系列，也常写作 Gemini3.6Flash,它由 Google 开发，是闭源模型，最新Flash,它在 Gemini 系列中，前一代是 Gemini 3.5 Flash-Lite,它于 2026 年发布
+gemma,Gemma,Google,美国,True,Gemma,0,2024,Gemma,False,,这个模型的全称是 Gemma，属于 Gemma 系列,它由 Google 开发，是开源模型，开源轻量,它在 Gemma 系列中，是该系列早期版本,它于 2024 年发布
+gemma-2,Gemma 2,Google,美国,True,Gemma,1,2024,Gemma 2|Gemma2,False,,这个模型的全称是 Gemma 2，属于 Gemma 系列，也常写作 Gemma2,它由 Google 开发，是开源模型，开源,它在 Gemma 系列中，前一代是 Gemma,它于 2024 年发布
+gemma-3,Gemma 3,Google,美国,True,Gemma,2,2025,Gemma 3|Gemma3,False,,这个模型的全称是 Gemma 3，属于 Gemma 系列，也常写作 Gemma3,它由 Google 开发，是开源模型，开源多模态,它在 Gemma 系列中，前一代是 Gemma 2,它于 2025 年发布
+palm-2,PaLM 2,Google,美国,False,PaLM,0,2023,PaLM 2|PaLM2,False,,这个模型的全称是 PaLM 2，属于 PaLM 系列，也常写作 PaLM2,它由 Google 开发，是闭源模型，多语言,它在 PaLM 系列中，是该系列早期版本,它于 2023 年发布
+llama-1,Llama 1,Meta,美国,True,Llama,0,2023,Llama 1|Llama1,False,,这个模型的全称是 Llama 1，属于 Llama 系列，也常写作 Llama1,它由 Meta 开发，是开源模型,它在 Llama 系列中，是该系列早期版本,它于 2023 年发布
+llama-2,Llama 2,Meta,美国,True,Llama,1,2023,Llama 2|Llama2,False,,这个模型的全称是 Llama 2，属于 Llama 系列，也常写作 Llama2,它由 Meta 开发，是开源模型,它在 Llama 系列中，前一代是 Llama 1,它于 2023 年发布
+llama-3,Llama 3,Meta,美国,True,Llama,2,2024,Llama 3|Llama3,False,,这个模型的全称是 Llama 3，属于 Llama 系列，也常写作 Llama3,它由 Meta 开发，是开源模型,它在 Llama 系列中，前一代是 Llama 2,它于 2024 年发布
+llama-3-1,Llama 3.1,Meta,美国,True,Llama,3,2024,Llama 3.1|Llama3.1,False,,这个模型的全称是 Llama 3.1，属于 Llama 系列，也常写作 Llama3.1,它由 Meta 开发，是开源模型,它在 Llama 系列中，前一代是 Llama 3,它于 2024 年发布
+llama-3-2,Llama 3.2,Meta,美国,True,Llama,4,2024,Llama 3.2|Llama3.2,False,,这个模型的全称是 Llama 3.2，属于 Llama 系列，也常写作 Llama3.2,它由 Meta 开发，是开源模型，多模态,它在 Llama 系列中，前一代是 Llama 3.1,它于 2024 年发布
+llama-3-3,Llama 3.3,Meta,美国,True,Llama,5,2024,Llama 3.3|Llama3.3,False,,这个模型的全称是 Llama 3.3，属于 Llama 系列，也常写作 Llama3.3,它由 Meta 开发，是开源模型,它在 Llama 系列中，前一代是 Llama 3.2,它于 2024 年发布
+llama-4-scout,Llama 4 Scout,Meta,美国,True,Llama,6,2025,Llama 4 Scout|Llama4Scout,False,,这个模型的全称是 Llama 4 Scout，属于 Llama 系列，也常写作 Llama4Scout,它由 Meta 开发，是开源模型，开源多模态,它在 Llama 系列中，前一代是 Llama 3.3,它于 2025 年发布
+llama-4-maverick,Llama 4 Maverick,Meta,美国,True,Llama,7,2025,Llama 4 Maverick|Llama4Maverick,False,,这个模型的全称是 Llama 4 Maverick，属于 Llama 系列，也常写作 Llama4Maverick,它由 Meta 开发，是开源模型，开源多模态旗舰,它在 Llama 系列中，前一代是 Llama 4 Scout,它于 2025 年发布
+code-llama,Code Llama,Meta,美国,True,Code Llama,0,2023,Code Llama|CodeLlama,False,,这个模型的全称是 Code Llama，属于 Code Llama 系列，也常写作 CodeLlama,它由 Meta 开发，是开源模型，代码开源,它在 Code Llama 系列中，是该系列早期版本,它于 2023 年发布
+grok-1,Grok 1,xAI,美国,False,Grok,0,2023,Grok 1|Grok1,False,,这个模型的全称是 Grok 1，属于 Grok 系列，也常写作 Grok1,它由 xAI 开发，是闭源模型,它在 Grok 系列中，是该系列早期版本,它于 2023 年发布
+grok-1-5,Grok 1.5,xAI,美国,False,Grok,1,2024,Grok 1.5|Grok1.5,False,,这个模型的全称是 Grok 1.5，属于 Grok 系列，也常写作 Grok1.5,它由 xAI 开发，是闭源模型,它在 Grok 系列中，前一代是 Grok 1,它于 2024 年发布
+grok-2,Grok 2,xAI,美国,False,Grok,2,2024,Grok 2|Grok2,False,,这个模型的全称是 Grok 2，属于 Grok 系列，也常写作 Grok2,它由 xAI 开发，是闭源模型,它在 Grok 系列中，前一代是 Grok 1.5,它于 2024 年发布
+grok-3,Grok 3,xAI,美国,False,Grok,3,2025,Grok 3|Grok3,False,,这个模型的全称是 Grok 3，属于 Grok 系列，也常写作 Grok3,它由 xAI 开发，是闭源模型，旗舰,它在 Grok 系列中，前一代是 Grok 2,它于 2025 年发布
+grok-4,Grok 4,xAI,美国,False,Grok,4,2025,Grok 4|Grok4,False,,这个模型的全称是 Grok 4，属于 Grok 系列，也常写作 Grok4,它由 xAI 开发，是闭源模型，旗舰,它在 Grok 系列中，前一代是 Grok 3,它于 2025 年发布
+grok-4-5,Grok 4.5,xAI,美国,False,Grok,5,2026,Grok 4.5|Grok4.5,False,,这个模型的全称是 Grok 4.5，属于 Grok 系列，也常写作 Grok4.5,它由 xAI 开发，是闭源模型，当前消费级旗舰,它在 Grok 系列中，前一代是 Grok 4,它于 2026 年发布
+mistral-7b,Mistral 7B,Mistral AI,法国,True,Mistral,0,2023,Mistral 7B|Mistral7B,False,,这个模型的全称是 Mistral 7B，属于 Mistral 系列，也常写作 Mistral7B,它由 Mistral AI 开发，是开源模型,它在 Mistral 系列中，是该系列早期版本,它于 2023 年发布
+mixtral-8x7b,Mixtral 8x7B,Mistral AI,法国,True,Mistral,1,2023,Mixtral 8x7B|Mixtral8x7B,False,,这个模型的全称是 Mixtral 8x7B，属于 Mistral 系列，也常写作 Mixtral8x7B,它由 Mistral AI 开发，是开源模型，MoE,它在 Mistral 系列中，前一代是 Mistral 7B,它于 2023 年发布
+mistral-small,Mistral Small,Mistral AI,法国,True,Mistral,2,2024,Mistral Small|MistralSmall,False,,这个模型的全称是 Mistral Small，属于 Mistral 系列，也常写作 MistralSmall,它由 Mistral AI 开发，是开源模型，轻量,它在 Mistral 系列中，前一代是 Mixtral 8x7B,它于 2024 年发布
+mistral-medium,Mistral Medium,Mistral AI,法国,True,Mistral,3,2024,Mistral Medium|MistralMedium,False,,这个模型的全称是 Mistral Medium，属于 Mistral 系列，也常写作 MistralMedium,它由 Mistral AI 开发，是开源模型，均衡,它在 Mistral 系列中，前一代是 Mistral Small,它于 2024 年发布
+mistral-large-2,Mistral Large 2,Mistral AI,法国,True,Mistral,4,2024,Mistral Large 2|MistralLarge2,False,,这个模型的全称是 Mistral Large 2，属于 Mistral 系列，也常写作 MistralLarge2,它由 Mistral AI 开发，是开源模型，旗舰,它在 Mistral 系列中，前一代是 Mistral Medium,它于 2024 年发布
+codestral,Codestral,Mistral AI,法国,True,Mistral,5,2024,Codestral,False,,这个模型的全称是 Codestral，属于 Mistral 系列,它由 Mistral AI 开发，是开源模型，代码,它在 Mistral 系列中，前一代是 Mistral Large 2,它于 2024 年发布
+mistral-nemo,Mistral Nemo,Mistral AI,法国,True,Mistral,6,2024,Mistral Nemo|MistralNemo,False,,这个模型的全称是 Mistral Nemo，属于 Mistral 系列，也常写作 MistralNemo,它由 Mistral AI 开发，是开源模型，轻量,它在 Mistral 系列中，前一代是 Codestral,它于 2024 年发布
+ministral-8b,Ministral 8B,Mistral AI,法国,True,Mistral,7,2024,Ministral 8B|Ministral8B,False,,这个模型的全称是 Ministral 8B，属于 Mistral 系列，也常写作 Ministral8B,它由 Mistral AI 开发，是开源模型，端侧边缘,它在 Mistral 系列中，前一代是 Mistral Nemo,它于 2024 年发布
+pixtral,Pixtral,Mistral AI,法国,True,Mistral,8,2024,Pixtral,False,,这个模型的全称是 Pixtral，属于 Mistral 系列,它由 Mistral AI 开发，是开源模型，多模态,它在 Mistral 系列中，前一代是 Ministral 8B,它于 2024 年发布
+mistral-small-3,Mistral Small 3,Mistral AI,法国,True,Mistral,9,2025,Mistral Small 3|MistralSmall3,False,,这个模型的全称是 Mistral Small 3，属于 Mistral 系列，也常写作 MistralSmall3,它由 Mistral AI 开发，是开源模型，轻量,它在 Mistral 系列中，前一代是 Pixtral,它于 2025 年发布
+magistral-small,Magistral Small,Mistral AI,法国,True,Mistral,10,2025,Magistral Small|MagistralSmall,False,,这个模型的全称是 Magistral Small，属于 Mistral 系列，也常写作 MagistralSmall,它由 Mistral AI 开发，是开源模型，推理,它在 Mistral 系列中，前一代是 Mistral Small 3,它于 2025 年发布
+mistral-large-3,Mistral Large 3,Mistral AI,法国,True,Mistral,11,2025,Mistral Large 3|MistralLarge3,False,,这个模型的全称是 Mistral Large 3，属于 Mistral 系列，也常写作 MistralLarge3,它由 Mistral AI 开发，是开源模型，旗舰MoE,它在 Mistral 系列中，前一代是 Magistral Small,它于 2025 年发布
+qwen-1,Qwen 1,阿里巴巴,中国,True,Qwen,0,2023,Qwen 1|Qwen1,False,,这个模型的全称是 Qwen 1，属于 Qwen 系列，也常写作 Qwen1,它由 阿里巴巴 开发，是开源模型,它在 Qwen 系列中，是该系列早期版本,它于 2023 年发布
+qwen-1-5,Qwen 1.5,阿里巴巴,中国,True,Qwen,1,2024,Qwen 1.5|Qwen1.5,False,,这个模型的全称是 Qwen 1.5，属于 Qwen 系列，也常写作 Qwen1.5,它由 阿里巴巴 开发，是开源模型,它在 Qwen 系列中，前一代是 Qwen 1,它于 2024 年发布
+qwen2,Qwen2,阿里巴巴,中国,True,Qwen,2,2024,Qwen2,False,,这个模型的全称是 Qwen2，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型,它在 Qwen 系列中，前一代是 Qwen 1.5,它于 2024 年发布
+qwen-vl,Qwen-VL,阿里巴巴,中国,True,Qwen,3,2023,Qwen-VL,False,,这个模型的全称是 Qwen-VL，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型，多模态,它在 Qwen 系列中，前一代是 Qwen2,它于 2023 年发布
+qwen2-5,Qwen2.5,阿里巴巴,中国,True,Qwen,4,2024,Qwen2.5,False,,这个模型的全称是 Qwen2.5，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型,它在 Qwen 系列中，前一代是 Qwen-VL,它于 2024 年发布
+qwen2-5-coder,Qwen2.5-Coder,阿里巴巴,中国,True,Qwen,5,2024,Qwen2.5-Coder,False,,这个模型的全称是 Qwen2.5-Coder，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型，编程,它在 Qwen 系列中，前一代是 Qwen2.5,它于 2024 年发布
+qwen2-5-max,Qwen2.5-Max,阿里巴巴,中国,True,Qwen,6,2025,Qwen2.5-Max,False,,这个模型的全称是 Qwen2.5-Max，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型，闭源旗舰,它在 Qwen 系列中，前一代是 Qwen2.5-Coder,它于 2025 年发布
+qwq-32b,QwQ-32B,阿里巴巴,中国,True,Qwen,7,2025,QwQ-32B,False,,这个模型的全称是 QwQ-32B，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型，推理,它在 Qwen 系列中，前一代是 Qwen2.5-Max,它于 2025 年发布
+qwen3,Qwen3,阿里巴巴,中国,True,Qwen,8,2025,Qwen3,False,,这个模型的全称是 Qwen3，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型，开源旗舰,它在 Qwen 系列中，前一代是 QwQ-32B,它于 2025 年发布
+qwen3-coder,Qwen3-Coder,阿里巴巴,中国,True,Qwen,9,2025,Qwen3-Coder,False,,这个模型的全称是 Qwen3-Coder，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型，代理编程,它在 Qwen 系列中，前一代是 Qwen3,它于 2025 年发布
+qwen3-5,Qwen3.5,阿里巴巴,中国,True,Qwen,10,2026,Qwen3.5,False,,这个模型的全称是 Qwen3.5，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型，开源旗舰,它在 Qwen 系列中，前一代是 Qwen3-Coder,它于 2026 年发布
+qwen3-5-omni,Qwen3.5-Omni,阿里巴巴,中国,True,Qwen,11,2026,Qwen3.5-Omni,False,,这个模型的全称是 Qwen3.5-Omni，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型，全模态,它在 Qwen 系列中，前一代是 Qwen3.5,它于 2026 年发布
+qwen3-6,Qwen3.6,阿里巴巴,中国,True,Qwen,12,2026,Qwen3.6,True,,这个模型的全称是 Qwen3.6，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型，开源旗舰,它在 Qwen 系列中，前一代是 Qwen3.5-Omni,它于 2026 年发布
+qwen3-7-max,Qwen3.7-Max,阿里巴巴,中国,True,Qwen,13,2026,Qwen3.7-Max,False,,这个模型的全称是 Qwen3.7-Max，属于 Qwen 系列,它由 阿里巴巴 开发，是开源模型，闭源智能体旗舰,它在 Qwen 系列中，前一代是 Qwen3.6,它于 2026 年发布
+deepseek-llm,DeepSeek LLM,深度求索,中国,True,DeepSeek,0,2023,DeepSeek LLM|DeepSeekLLM,False,,这个模型的全称是 DeepSeek LLM，属于 DeepSeek 系列，也常写作 DeepSeekLLM,它由 深度求索 开发，是开源模型，初代开源,它在 DeepSeek 系列中，是该系列早期版本,它于 2023 年发布
+deepseek-v2,DeepSeek-V2,深度求索,中国,True,DeepSeek,1,2024,DeepSeek-V2,False,,这个模型的全称是 DeepSeek-V2，属于 DeepSeek 系列,它由 深度求索 开发，是开源模型，MoE,它在 DeepSeek 系列中，前一代是 DeepSeek LLM,它于 2024 年发布
+deepseek-v2-5,DeepSeek-V2.5,深度求索,中国,True,DeepSeek,2,2024,DeepSeek-V2.5,False,,这个模型的全称是 DeepSeek-V2.5，属于 DeepSeek 系列,它由 深度求索 开发，是开源模型,它在 DeepSeek 系列中，前一代是 DeepSeek-V2,它于 2024 年发布
+deepseek-coder-v2,DeepSeek-Coder-V2,深度求索,中国,True,DeepSeek,3,2024,DeepSeek-Coder-V2,False,,这个模型的全称是 DeepSeek-Coder-V2，属于 DeepSeek 系列,它由 深度求索 开发，是开源模型，代码MoE,它在 DeepSeek 系列中，前一代是 DeepSeek-V2.5,它于 2024 年发布
+deepseek-v3,DeepSeek-V3,深度求索,中国,True,DeepSeek,4,2024,DeepSeek-V3,False,,这个模型的全称是 DeepSeek-V3，属于 DeepSeek 系列,它由 深度求索 开发，是开源模型，开源旗舰,它在 DeepSeek 系列中，前一代是 DeepSeek-Coder-V2,它于 2024 年发布
+deepseek-r1-zero,DeepSeek-R1-Zero,深度求索,中国,True,DeepSeek,5,2025,DeepSeek-R1-Zero,False,,这个模型的全称是 DeepSeek-R1-Zero，属于 DeepSeek 系列,它由 深度求索 开发，是开源模型，推理,它在 DeepSeek 系列中，前一代是 DeepSeek-V3,它于 2025 年发布
+deepseek-r1,DeepSeek-R1,深度求索,中国,True,DeepSeek,6,2025,DeepSeek-R1,False,,这个模型的全称是 DeepSeek-R1，属于 DeepSeek 系列,它由 深度求索 开发，是开源模型，推理,它在 DeepSeek 系列中，前一代是 DeepSeek-R1-Zero,它于 2025 年发布
+deepseek-v3-1,DeepSeek-V3.1,深度求索,中国,True,DeepSeek,7,2025,DeepSeek-V3.1,False,,这个模型的全称是 DeepSeek-V3.1，属于 DeepSeek 系列,它由 深度求索 开发，是开源模型，开源旗舰,它在 DeepSeek 系列中，前一代是 DeepSeek-R1,它于 2025 年发布
+deepseek-v4,DeepSeek-V4,深度求索,中国,True,DeepSeek,8,2026,DeepSeek-V4,False,,这个模型的全称是 DeepSeek-V4，属于 DeepSeek 系列,它由 深度求索 开发，是开源模型，开源预览，1M上下文,它在 DeepSeek 系列中，前一代是 DeepSeek-V3.1,它于 2026 年发布
+deepseek-v4-flash,DeepSeek-V4-Flash,深度求索,中国,True,DeepSeek,9,2026,DeepSeek-V4-Flash,False,,这个模型的全称是 DeepSeek-V4-Flash，属于 DeepSeek 系列,它由 深度求索 开发，是开源模型，高效轻量,它在 DeepSeek 系列中，前一代是 DeepSeek-V4,它于 2026 年发布
+deepseek-v4-pro,DeepSeek-V4-Pro,深度求索,中国,True,DeepSeek,10,2026,DeepSeek-V4-Pro,False,,这个模型的全称是 DeepSeek-V4-Pro，属于 DeepSeek 系列,它由 深度求索 开发，是开源模型，开源旗舰,它在 DeepSeek 系列中，前一代是 DeepSeek-V4-Flash,它于 2026 年发布
+moonshot-v1,Moonshot v1,月之暗面,中国,True,Kimi,0,2023,Moonshot v1|Moonshotv1,False,,这个模型的全称是 Moonshot v1，属于 Kimi 系列，也常写作 Moonshotv1,它由 月之暗面 开发，是开源模型，初代长上下文,它在 Kimi 系列中，是该系列早期版本,它于 2023 年发布
+kimi-k1-5,Kimi K1.5,月之暗面,中国,True,Kimi,1,2025,Kimi K1.5|KimiK1.5,False,,这个模型的全称是 Kimi K1.5，属于 Kimi 系列，也常写作 KimiK1.5,它由 月之暗面 开发，是开源模型，推理,它在 Kimi 系列中，前一代是 Moonshot v1,它于 2025 年发布
+kimi-k2,Kimi K2,月之暗面,中国,True,Kimi,2,2025,Kimi K2|KimiK2,False,,这个模型的全称是 Kimi K2，属于 Kimi 系列，也常写作 KimiK2,它由 月之暗面 开发，是开源模型，开源,它在 Kimi 系列中，前一代是 Kimi K1.5,它于 2025 年发布
+kimi-k2-thinking,Kimi K2 Thinking,月之暗面,中国,True,Kimi,3,2025,Kimi K2 Thinking|KimiK2Thinking,False,,这个模型的全称是 Kimi K2 Thinking，属于 Kimi 系列，也常写作 KimiK2Thinking,它由 月之暗面 开发，是开源模型，开源思考,它在 Kimi 系列中，前一代是 Kimi K2,它于 2025 年发布
+kimi-k2-5,Kimi K2.5,月之暗面,中国,True,Kimi,4,2026,Kimi K2.5|KimiK2.5,False,,这个模型的全称是 Kimi K2.5，属于 Kimi 系列，也常写作 KimiK2.5,它由 月之暗面 开发，是开源模型，开源多模态Agent,它在 Kimi 系列中，前一代是 Kimi K2 Thinking,它于 2026 年发布
+kimi-k2-6,Kimi-K2.6,月之暗面,中国,True,Kimi,5,2026,Kimi-K2.6,False,,这个模型的全称是 Kimi-K2.6，属于 Kimi 系列,它由 月之暗面 开发，是开源模型，开源多模态Agent旗舰,它在 Kimi 系列中，前一代是 Kimi K2.5,它于 2026 年发布
+glm-4,GLM-4,智谱AI,中国,True,GLM,0,2024,GLM-4,False,,这个模型的全称是 GLM-4，属于 GLM 系列,它由 智谱AI 开发，是开源模型,它在 GLM 系列中，是该系列早期版本,它于 2024 年发布
+glm-4-5,GLM-4.5,智谱AI,中国,True,GLM,1,2025,GLM-4.5,False,,这个模型的全称是 GLM-4.5，属于 GLM 系列,它由 智谱AI 开发，是开源模型,它在 GLM 系列中，前一代是 GLM-4,它于 2025 年发布
+glm-4-5-air,GLM-4.5-Air,智谱AI,中国,True,GLM,2,2025,GLM-4.5-Air,False,,这个模型的全称是 GLM-4.5-Air，属于 GLM 系列,它由 智谱AI 开发，是开源模型，轻量开源,它在 GLM 系列中，前一代是 GLM-4.5,它于 2025 年发布
+glm-z1,GLM-Z1,智谱AI,中国,True,GLM,3,2025,GLM-Z1,False,,这个模型的全称是 GLM-Z1，属于 GLM 系列,它由 智谱AI 开发，是开源模型，推理,它在 GLM 系列中，前一代是 GLM-4.5-Air,它于 2025 年发布
+glm-4-6,GLM-4.6,智谱AI,中国,True,GLM,4,2025,GLM-4.6,False,,这个模型的全称是 GLM-4.6，属于 GLM 系列,它由 智谱AI 开发，是开源模型,它在 GLM 系列中，前一代是 GLM-Z1,它于 2025 年发布
+glm-4-7,GLM-4.7,智谱AI,中国,True,GLM,5,2025,GLM-4.7,False,,这个模型的全称是 GLM-4.7，属于 GLM 系列,它由 智谱AI 开发，是开源模型，年底迭代,它在 GLM 系列中，前一代是 GLM-4.6,它于 2025 年发布
+glm-5,GLM-5,智谱AI,中国,True,GLM,6,2026,GLM-5,False,,这个模型的全称是 GLM-5，属于 GLM 系列,它由 智谱AI 开发，是开源模型，开源编程Agent旗舰,它在 GLM 系列中，前一代是 GLM-4.7,它于 2026 年发布
+glm-5-1,GLM-5.1,智谱AI,中国,True,GLM,7,2026,GLM-5.1,False,,这个模型的全称是 GLM-5.1，属于 GLM 系列,它由 智谱AI 开发，是开源模型，长程增强,它在 GLM 系列中，前一代是 GLM-5,它于 2026 年发布
+glm-5-2,GLM-5.2,智谱AI,中国,True,GLM,8,2026,GLM-5.2,False,,这个模型的全称是 GLM-5.2，属于 GLM 系列,它由 智谱AI 开发，是开源模型，1M无损上下文,它在 GLM 系列中，前一代是 GLM-5.1,它于 2026 年发布
+glm-5-3,GLM-5.3,智谱AI,中国,True,GLM,9,2026,GLM-5.3,False,,这个模型的全称是 GLM-5.3，属于 GLM 系列,它由 智谱AI 开发，是开源模型，开源编程最强,它在 GLM 系列中，前一代是 GLM-5.2,它于 2026 年发布
+minimax-text-01,MiniMax Text-01,MiniMax,中国,True,MiniMax,0,2025,MiniMax Text-01|MiniMaxText-01,False,,这个模型的全称是 MiniMax Text-01，属于 MiniMax 系列，也常写作 MiniMaxText-01,它由 MiniMax 开发，是开源模型，长上下文,它在 MiniMax 系列中，是该系列早期版本,它于 2025 年发布
+minimax-m1,MiniMax M1,MiniMax,中国,True,MiniMax,1,2025,MiniMax M1|MiniMaxM1,False,,这个模型的全称是 MiniMax M1，属于 MiniMax 系列，也常写作 MiniMaxM1,它由 MiniMax 开发，是开源模型，推理MoE,它在 MiniMax 系列中，前一代是 MiniMax Text-01,它于 2025 年发布
+minimax-m2,MiniMax M2,MiniMax,中国,True,MiniMax,2,2025,MiniMax M2|MiniMaxM2,False,,这个模型的全称是 MiniMax M2，属于 MiniMax 系列，也常写作 MiniMaxM2,它由 MiniMax 开发，是开源模型，开源,它在 MiniMax 系列中，前一代是 MiniMax M1,它于 2025 年发布
+minimax-m2-5,MiniMax M2.5,MiniMax,中国,True,MiniMax,3,2026,MiniMax M2.5|MiniMaxM2.5,False,,这个模型的全称是 MiniMax M2.5，属于 MiniMax 系列，也常写作 MiniMaxM2.5,它由 MiniMax 开发，是开源模型，开源,它在 MiniMax 系列中，前一代是 MiniMax M2,它于 2026 年发布
+minimax-m2-7,MiniMax M2.7,MiniMax,中国,True,MiniMax,4,2026,MiniMax M2.7|MiniMaxM2.7,False,,这个模型的全称是 MiniMax M2.7，属于 MiniMax 系列，也常写作 MiniMaxM2.7,它由 MiniMax 开发，是开源模型，Agent旗舰，自我进化,它在 MiniMax 系列中，前一代是 MiniMax M2.5,它于 2026 年发布
+豆包-1-0,豆包 1.0,字节跳动,中国,False,豆包,0,2023,豆包 1.0|豆包1.0,False,,这个模型的全称是 豆包 1.0，属于 豆包 系列，也常写作 豆包1.0,它由 字节跳动 开发，是闭源模型,它在 豆包 系列中，是该系列早期版本,它于 2023 年发布
+豆包-1-5,豆包 1.5,字节跳动,中国,False,豆包,1,2025,豆包 1.5|豆包1.5,False,,这个模型的全称是 豆包 1.5，属于 豆包 系列，也常写作 豆包1.5,它由 字节跳动 开发，是闭源模型，商用,它在 豆包 系列中，前一代是 豆包 1.0,它于 2025 年发布
+豆包-1-5-pro,豆包 1.5 Pro,字节跳动,中国,False,豆包,2,2025,豆包 1.5 Pro|豆包1.5Pro,False,,这个模型的全称是 豆包 1.5 Pro，属于 豆包 系列，也常写作 豆包1.5Pro,它由 字节跳动 开发，是闭源模型，商用,它在 豆包 系列中，前一代是 豆包 1.5,它于 2025 年发布
+豆包-1-6,豆包 1.6,字节跳动,中国,False,豆包,3,2025,豆包 1.6|豆包1.6,False,,这个模型的全称是 豆包 1.6，属于 豆包 系列，也常写作 豆包1.6,它由 字节跳动 开发，是闭源模型，256K思考模型,它在 豆包 系列中，前一代是 豆包 1.5 Pro,它于 2025 年发布
+豆包-2-0,豆包 2.0,字节跳动,中国,False,豆包,4,2026,豆包 2.0|豆包2.0,False,,这个模型的全称是 豆包 2.0，属于 豆包 系列，也常写作 豆包2.0,它由 字节跳动 开发，是闭源模型，Pro/Lite/Mini系列旗舰,它在 豆包 系列中，前一代是 豆包 1.6,它于 2026 年发布
+混元,混元,腾讯,中国,False,混元,0,2023,混元,False,,这个模型的全称是 混元，属于 混元 系列,它由 腾讯 开发，是闭源模型,它在 混元 系列中，是该系列早期版本,它于 2023 年发布
+混元-turbo,混元 Turbo,腾讯,中国,False,混元,1,2024,混元 Turbo|混元Turbo,False,,这个模型的全称是 混元 Turbo，属于 混元 系列，也常写作 混元Turbo,它由 腾讯 开发，是闭源模型，商用,它在 混元 系列中，前一代是 混元,它于 2024 年发布
+混元-large,混元 Large,腾讯,中国,False,混元,2,2024,混元 Large|混元Large,False,,这个模型的全称是 混元 Large，属于 混元 系列，也常写作 混元Large,它由 腾讯 开发，是闭源模型，商用,它在 混元 系列中，前一代是 混元 Turbo,它于 2024 年发布
+混元-t1,混元 T1,腾讯,中国,False,混元,3,2025,混元 T1|混元T1,False,,这个模型的全称是 混元 T1，属于 混元 系列，也常写作 混元T1,它由 腾讯 开发，是闭源模型，推理,它在 混元 系列中，前一代是 混元 Large,它于 2025 年发布
+文心-ernie-3-0,文心 ERNIE 3.0,百度,中国,False,文心,0,2021,文心 ERNIE 3.0|文心ERNIE3.0,False,,这个模型的全称是 文心 ERNIE 3.0，属于 文心 系列，也常写作 文心ERNIE3.0,它由 百度 开发，是闭源模型,它在 文心 系列中，是该系列早期版本,它于 2021 年发布
+文心-ernie-3-5,文心 ERNIE 3.5,百度,中国,False,文心,1,2023,文心 ERNIE 3.5|文心ERNIE3.5,False,,这个模型的全称是 文心 ERNIE 3.5，属于 文心 系列，也常写作 文心ERNIE3.5,它由 百度 开发，是闭源模型,它在 文心 系列中，前一代是 文心 ERNIE 3.0,它于 2023 年发布
+文心一言-4-0,文心一言 4.0,百度,中国,False,文心,2,2023,文心一言 4.0|文心一言4.0,False,,这个模型的全称是 文心一言 4.0，属于 文心 系列，也常写作 文心一言4.0,它由 百度 开发，是闭源模型，商用,它在 文心 系列中，前一代是 文心 ERNIE 3.5,它于 2023 年发布
+ernie-x1,ERNIE X1,百度,中国,False,文心,3,2025,ERNIE X1|ERNIEX1,False,,这个模型的全称是 ERNIE X1，属于 文心 系列，也常写作 ERNIEX1,它由 百度 开发，是闭源模型，推理,它在 文心 系列中，前一代是 文心一言 4.0,它于 2025 年发布
+文心一言-4-5,文心一言 4.5,百度,中国,False,文心,4,2025,文心一言 4.5|文心一言4.5,False,,这个模型的全称是 文心一言 4.5，属于 文心 系列，也常写作 文心一言4.5,它由 百度 开发，是闭源模型，商用,它在 文心 系列中，前一代是 ERNIE X1,它于 2025 年发布
+文心-4-5-turbo,文心 4.5 Turbo,百度,中国,False,文心,5,2025,文心 4.5 Turbo|文心4.5Turbo,False,,这个模型的全称是 文心 4.5 Turbo，属于 文心 系列，也常写作 文心4.5Turbo,它由 百度 开发，是闭源模型，商用,它在 文心 系列中，前一代是 文心一言 4.5,它于 2025 年发布
+step-1v,Step-1V,阶跃星辰,中国,True,Step,0,2023,Step-1V,False,,这个模型的全称是 Step-1V，属于 Step 系列,它由 阶跃星辰 开发，是开源模型，多模态,它在 Step 系列中，是该系列早期版本,它于 2023 年发布
+step-2,Step-2,阶跃星辰,中国,True,Step,1,2025,Step-2,False,,这个模型的全称是 Step-2，属于 Step 系列,它由 阶跃星辰 开发，是开源模型，万亿MoE,它在 Step 系列中，前一代是 Step-1V,它于 2025 年发布
+step-3,Step-3,阶跃星辰,中国,True,Step,2,2025,Step-3,False,,这个模型的全称是 Step-3，属于 Step 系列,它由 阶跃星辰 开发，是开源模型，开源多模态推理,它在 Step 系列中，前一代是 Step-2,它于 2025 年发布
+yi-1-5,Yi-1.5,零一万物,中国,True,Yi,0,2024,Yi-1.5,False,,这个模型的全称是 Yi-1.5，属于 Yi 系列,它由 零一万物 开发，是开源模型，开源,它在 Yi 系列中，是该系列早期版本,它于 2024 年发布
+yi-lightning,Yi-Lightning,零一万物,中国,True,Yi,1,2024,Yi-Lightning,False,,这个模型的全称是 Yi-Lightning，属于 Yi 系列,它由 零一万物 开发，是开源模型，开源,它在 Yi 系列中，前一代是 Yi-1.5,它于 2024 年发布
+yi-2,Yi-2,零一万物,中国,True,Yi,2,2025,Yi-2,True,,这个模型的全称是 Yi-2，属于 Yi 系列,它由 零一万物 开发，是开源模型，开源,它在 Yi 系列中，前一代是 Yi-Lightning,它于 2025 年发布
+baichuan-13b,Baichuan-13B,百川智能,中国,True,Baichuan,0,2023,Baichuan-13B,False,,这个模型的全称是 Baichuan-13B，属于 Baichuan 系列,它由 百川智能 开发，是开源模型，开源,它在 Baichuan 系列中，是该系列早期版本,它于 2023 年发布
+baichuan2,Baichuan2,百川智能,中国,True,Baichuan,1,2023,Baichuan2,False,,这个模型的全称是 Baichuan2，属于 Baichuan 系列,它由 百川智能 开发，是开源模型，开源,它在 Baichuan 系列中，前一代是 Baichuan-13B,它于 2023 年发布
+baichuan4,Baichuan4,百川智能,中国,True,Baichuan,2,2024,Baichuan4,False,,这个模型的全称是 Baichuan4，属于 Baichuan 系列,它由 百川智能 开发，是开源模型，开源,它在 Baichuan 系列中，前一代是 Baichuan2,它于 2024 年发布
+skywork-13b,Skywork-13B,昆仑万维,中国,True,Skywork,0,2023,Skywork-13B,False,,这个模型的全称是 Skywork-13B，属于 Skywork 系列,它由 昆仑万维 开发，是开源模型，开源,它在 Skywork 系列中，是该系列早期版本,它于 2023 年发布
+skywork-4o,Skywork 4o,昆仑万维,中国,True,Skywork,1,2024,Skywork 4o|Skywork4o,False,,这个模型的全称是 Skywork 4o，属于 Skywork 系列，也常写作 Skywork4o,它由 昆仑万维 开发，是开源模型，天工4.0多模态，o1版开源,它在 Skywork 系列中，前一代是 Skywork-13B,它于 2024 年发布
+星火-v1-5,星火 V1.5,科大讯飞,中国,False,星火,0,2023,星火 V1.5|星火V1.5,False,,这个模型的全称是 星火 V1.5，属于 星火 系列，也常写作 星火V1.5,它由 科大讯飞 开发，是闭源模型,它在 星火 系列中，是该系列早期版本,它于 2023 年发布
+星火-v2-0,星火 V2.0,科大讯飞,中国,False,星火,1,2023,星火 V2.0|星火V2.0,False,,这个模型的全称是 星火 V2.0，属于 星火 系列，也常写作 星火V2.0,它由 科大讯飞 开发，是闭源模型,它在 星火 系列中，前一代是 星火 V1.5,它于 2023 年发布
+星火-v3-0,星火 V3.0,科大讯飞,中国,False,星火,2,2023,星火 V3.0|星火V3.0,False,,这个模型的全称是 星火 V3.0，属于 星火 系列，也常写作 星火V3.0,它由 科大讯飞 开发，是闭源模型,它在 星火 系列中，前一代是 星火 V2.0,它于 2023 年发布
+星火-v3-5,星火 V3.5,科大讯飞,中国,False,星火,3,2024,星火 V3.5|星火V3.5,False,,这个模型的全称是 星火 V3.5，属于 星火 系列，也常写作 星火V3.5,它由 科大讯飞 开发，是闭源模型,它在 星火 系列中，前一代是 星火 V3.0,它于 2024 年发布
+星火-4-0,星火 4.0,科大讯飞,中国,False,星火,4,2024,星火 4.0|星火4.0,False,,这个模型的全称是 星火 4.0，属于 星火 系列，也常写作 星火4.0,它由 科大讯飞 开发，是闭源模型，旗舰,它在 星火 系列中，前一代是 星火 V3.5,它于 2024 年发布
+星火-4-0-turbo,星火 4.0 Turbo,科大讯飞,中国,False,星火,5,2024,星火 4.0 Turbo|星火4.0Turbo,False,,这个模型的全称是 星火 4.0 Turbo，属于 星火 系列，也常写作 星火4.0Turbo,它由 科大讯飞 开发，是闭源模型，商用,它在 星火 系列中，前一代是 星火 4.0,它于 2024 年发布
+星火-x1,星火 X1,科大讯飞,中国,False,星火,6,2025,星火 X1|星火X1,False,,这个模型的全称是 星火 X1，属于 星火 系列，也常写作 星火X1,它由 科大讯飞 开发，是闭源模型，推理,它在 星火 系列中，前一代是 星火 4.0 Turbo,它于 2025 年发布
+internlm,InternLM,上海人工智能实验室,中国,True,书生,0,2023,InternLM,False,,这个模型的全称是 InternLM，属于 书生 系列,它由 上海人工智能实验室 开发，是开源模型,它在 书生 系列中，是该系列早期版本,它于 2023 年发布
+internlm2,InternLM2,上海人工智能实验室,中国,True,书生,1,2024,InternLM2,False,,这个模型的全称是 InternLM2，属于 书生 系列,它由 上海人工智能实验室 开发，是开源模型,它在 书生 系列中，前一代是 InternLM,它于 2024 年发布
+internlm2-5,InternLM2.5,上海人工智能实验室,中国,True,书生,2,2024,InternLM2.5,False,,这个模型的全称是 InternLM2.5，属于 书生 系列,它由 上海人工智能实验室 开发，是开源模型,它在 书生 系列中，前一代是 InternLM2,它于 2024 年发布
+internvl2-5,InternVL2.5,上海人工智能实验室,中国,True,书生,3,2024,InternVL2.5,False,,这个模型的全称是 InternVL2.5，属于 书生 系列,它由 上海人工智能实验室 开发，是开源模型，多模态,它在 书生 系列中，前一代是 InternLM2.5,它于 2024 年发布
+internlm3,InternLM3,上海人工智能实验室,中国,True,书生,4,2025,InternLM3,False,,这个模型的全称是 InternLM3，属于 书生 系列,它由 上海人工智能实验室 开发，是开源模型,它在 书生 系列中，前一代是 InternVL2.5,它于 2025 年发布
+minicpm,MiniCPM,面壁智能,中国,True,MiniCPM,0,2024,MiniCPM,False,,这个模型的全称是 MiniCPM，属于 MiniCPM 系列,它由 面壁智能 开发，是开源模型，端侧,它在 MiniCPM 系列中，是该系列早期版本,它于 2024 年发布
+minicpm-v-2-6,MiniCPM-V 2.6,面壁智能,中国,True,MiniCPM,1,2024,MiniCPM-V 2.6|MiniCPM-V2.6,False,,这个模型的全称是 MiniCPM-V 2.6，属于 MiniCPM 系列，也常写作 MiniCPM-V2.6,它由 面壁智能 开发，是开源模型，多模态端侧,它在 MiniCPM 系列中，前一代是 MiniCPM,它于 2024 年发布
+minicpm3,MiniCPM3,面壁智能,中国,True,MiniCPM,2,2024,MiniCPM3,False,,这个模型的全称是 MiniCPM3，属于 MiniCPM 系列,它由 面壁智能 开发，是开源模型，端侧,它在 MiniCPM 系列中，前一代是 MiniCPM-V 2.6,它于 2024 年发布
+minicpm4,MiniCPM4,面壁智能,中国,True,MiniCPM,3,2025,MiniCPM4,False,,这个模型的全称是 MiniCPM4，属于 MiniCPM 系列,它由 面壁智能 开发，是开源模型，端侧,它在 MiniCPM 系列中，前一代是 MiniCPM3,它于 2025 年发布
+盘古-5-0,盘古 5.0,华为,中国,False,盘古,0,2024,盘古 5.0|盘古5.0,False,,这个模型的全称是 盘古 5.0，属于 盘古 系列，也常写作 盘古5.0,它由 华为 开发，是闭源模型，全系列多模态强思维,它在 盘古 系列中，是该系列早期版本,它于 2024 年发布
+phi-1,Phi-1,微软,美国,True,Phi,0,2023,Phi-1,False,,这个模型的全称是 Phi-1，属于 Phi 系列,它由 微软 开发，是开源模型，代码,它在 Phi 系列中，是该系列早期版本,它于 2023 年发布
+phi-1-5,Phi-1.5,微软,美国,True,Phi,1,2023,Phi-1.5,False,,这个模型的全称是 Phi-1.5，属于 Phi 系列,它由 微软 开发，是开源模型,它在 Phi 系列中，前一代是 Phi-1,它于 2023 年发布
+phi-2,Phi-2,微软,美国,True,Phi,2,2023,Phi-2,False,,这个模型的全称是 Phi-2，属于 Phi 系列,它由 微软 开发，是开源模型，小型,它在 Phi 系列中，前一代是 Phi-1.5,它于 2023 年发布
+phi-3-mini,Phi-3-mini,微软,美国,True,Phi,3,2024,Phi-3-mini,False,,这个模型的全称是 Phi-3-mini，属于 Phi 系列,它由 微软 开发，是开源模型,它在 Phi 系列中，前一代是 Phi-2,它于 2024 年发布
+phi-3-small,Phi-3-small,微软,美国,True,Phi,4,2024,Phi-3-small,False,,这个模型的全称是 Phi-3-small，属于 Phi 系列,它由 微软 开发，是开源模型,它在 Phi 系列中，前一代是 Phi-3-mini,它于 2024 年发布
+phi-3-medium,Phi-3-medium,微软,美国,True,Phi,5,2024,Phi-3-medium,False,,这个模型的全称是 Phi-3-medium，属于 Phi 系列,它由 微软 开发，是开源模型,它在 Phi 系列中，前一代是 Phi-3-small,它于 2024 年发布
+phi-3-5,Phi-3.5,微软,美国,True,Phi,6,2024,Phi-3.5,False,,这个模型的全称是 Phi-3.5，属于 Phi 系列,它由 微软 开发，是开源模型,它在 Phi 系列中，前一代是 Phi-3-medium,它于 2024 年发布
+phi-4,Phi-4,微软,美国,True,Phi,7,2024,Phi-4,False,,这个模型的全称是 Phi-4，属于 Phi 系列,它由 微软 开发，是开源模型,它在 Phi 系列中，前一代是 Phi-3.5,它于 2024 年发布
+phi-4-mini,Phi-4-mini,微软,美国,True,Phi,8,2025,Phi-4-mini,False,,这个模型的全称是 Phi-4-mini，属于 Phi 系列,它由 微软 开发，是开源模型，轻量,它在 Phi 系列中，前一代是 Phi-4,它于 2025 年发布
+phi-4-multimodal,Phi-4-multimodal,微软,美国,True,Phi,9,2025,Phi-4-multimodal,False,,这个模型的全称是 Phi-4-multimodal，属于 Phi 系列,它由 微软 开发，是开源模型，多模态,它在 Phi 系列中，前一代是 Phi-4-mini,它于 2025 年发布
+nemotron-4-340b,Nemotron-4 340B,英伟达,美国,True,Nemotron,0,2024,Nemotron-4 340B|Nemotron-4340B,False,,这个模型的全称是 Nemotron-4 340B，属于 Nemotron 系列，也常写作 Nemotron-4340B,它由 英伟达 开发，是开源模型，合成数据生成,它在 Nemotron 系列中，是该系列早期版本,它于 2024 年发布
+llama-3-1-nemotron-70b,Llama-3.1-Nemotron-70B,英伟达,美国,True,Nemotron,1,2024,Llama-3.1-Nemotron-70B,False,,这个模型的全称是 Llama-3.1-Nemotron-70B，属于 Nemotron 系列,它由 英伟达 开发，是开源模型，RLHF开源权重,它在 Nemotron 系列中，前一代是 Nemotron-4 340B,它于 2024 年发布
+llama-3-1-nemotron-ultra-253b,Llama-3.1-Nemotron-Ultra-253B,英伟达,美国,True,Nemotron,2,2025,Llama-3.1-Nemotron-Ultra-253B,False,,这个模型的全称是 Llama-3.1-Nemotron-Ultra-253B，属于 Nemotron 系列,它由 英伟达 开发，是开源模型，旗舰开源权重,它在 Nemotron 系列中，前一代是 Llama-3.1-Nemotron-70B,它于 2025 年发布
+nova-micro,Nova Micro,亚马逊,美国,False,Nova,0,2024,Nova Micro|NovaMicro,False,,这个模型的全称是 Nova Micro，属于 Nova 系列，也常写作 NovaMicro,它由 亚马逊 开发，是闭源模型，文本轻量,它在 Nova 系列中，是该系列早期版本,它于 2024 年发布
+nova-lite,Nova Lite,亚马逊,美国,False,Nova,1,2024,Nova Lite|NovaLite,False,,这个模型的全称是 Nova Lite，属于 Nova 系列，也常写作 NovaLite,它由 亚马逊 开发，是闭源模型，多模态轻量,它在 Nova 系列中，前一代是 Nova Micro,它于 2024 年发布
+nova-pro,Nova Pro,亚马逊,美国,False,Nova,2,2024,Nova Pro|NovaPro,False,,这个模型的全称是 Nova Pro，属于 Nova 系列，也常写作 NovaPro,它由 亚马逊 开发，是闭源模型，多模态均衡,它在 Nova 系列中，前一代是 Nova Lite,它于 2024 年发布
+nova-premier,Nova Premier,亚马逊,美国,False,Nova,3,2025,Nova Premier|NovaPremier,False,,这个模型的全称是 Nova Premier，属于 Nova 系列，也常写作 NovaPremier,它由 亚马逊 开发，是闭源模型，旗舰,它在 Nova 系列中，前一代是 Nova Pro,它于 2025 年发布
+command-r,Command R,Cohere,加拿大,True,Command,0,2024,Command R|CommandR,False,,这个模型的全称是 Command R，属于 Command 系列，也常写作 CommandR,它由 Cohere 开发，是开源模型，检索增强,它在 Command 系列中，是该系列早期版本,它于 2024 年发布
+command-r+,Command R+,Cohere,加拿大,True,Command,1,2024,Command R+|CommandR+,False,,这个模型的全称是 Command R+，属于 Command 系列，也常写作 CommandR+,它由 Cohere 开发，是开源模型，旗舰,它在 Command 系列中，前一代是 Command R,它于 2024 年发布
+aya-expanse,Aya Expanse,Cohere,加拿大,True,Command,2,2024,Aya Expanse|AyaExpanse,False,,这个模型的全称是 Aya Expanse，属于 Command 系列，也常写作 AyaExpanse,它由 Cohere 开发，是开源模型，多语言,它在 Command 系列中，前一代是 Command R+,它于 2024 年发布
+command-r7b,Command R7B,Cohere,加拿大,True,Command,3,2024,Command R7B|CommandR7B,False,,这个模型的全称是 Command R7B，属于 Command 系列，也常写作 CommandR7B,它由 Cohere 开发，是开源模型，轻量,它在 Command 系列中，前一代是 Aya Expanse,它于 2024 年发布
+command-a,Command A,Cohere,加拿大,True,Command,4,2025,Command A|CommandA,False,,这个模型的全称是 Command A，属于 Command 系列，也常写作 CommandA,它由 Cohere 开发，是开源模型，代理旗舰,它在 Command 系列中，前一代是 Command R7B,它于 2025 年发布
+jamba,Jamba,AI21 Labs,以色列,True,Jamba,0,2024,Jamba,False,,这个模型的全称是 Jamba，属于 Jamba 系列,它由 AI21 Labs 开发，是开源模型，混合SSM-MoE,它在 Jamba 系列中，是该系列早期版本,它于 2024 年发布
+jamba-1-5-mini,Jamba 1.5 Mini,AI21 Labs,以色列,True,Jamba,1,2024,Jamba 1.5 Mini|Jamba1.5Mini,False,,这个模型的全称是 Jamba 1.5 Mini，属于 Jamba 系列，也常写作 Jamba1.5Mini,它由 AI21 Labs 开发，是开源模型，轻量长上下文,它在 Jamba 系列中，前一代是 Jamba,它于 2024 年发布
+jamba-1-5-large,Jamba 1.5 Large,AI21 Labs,以色列,True,Jamba,2,2024,Jamba 1.5 Large|Jamba1.5Large,False,,这个模型的全称是 Jamba 1.5 Large，属于 Jamba 系列，也常写作 Jamba1.5Large,它由 AI21 Labs 开发，是开源模型，长上下文,它在 Jamba 系列中，前一代是 Jamba 1.5 Mini,它于 2024 年发布
+falcon-40b,Falcon 40B,TII,阿联酋,True,Falcon,0,2023,Falcon 40B|Falcon40B,False,,这个模型的全称是 Falcon 40B，属于 Falcon 系列，也常写作 Falcon40B,它由 TII 开发，是开源模型，开源,它在 Falcon 系列中，是该系列早期版本,它于 2023 年发布
+falcon-180b,Falcon 180B,TII,阿联酋,True,Falcon,1,2023,Falcon 180B|Falcon180B,False,,这个模型的全称是 Falcon 180B，属于 Falcon 系列，也常写作 Falcon180B,它由 TII 开发，是开源模型，旗舰,它在 Falcon 系列中，前一代是 Falcon 40B,它于 2023 年发布
+falcon-2,Falcon 2,TII,阿联酋,True,Falcon,2,2024,Falcon 2|Falcon2,False,,这个模型的全称是 Falcon 2，属于 Falcon 系列，也常写作 Falcon2,它由 TII 开发，是开源模型，多模态,它在 Falcon 系列中，前一代是 Falcon 180B,它于 2024 年发布
+falcon-3,Falcon 3,TII,阿联酋,True,Falcon,3,2024,Falcon 3|Falcon3,False,,这个模型的全称是 Falcon 3，属于 Falcon 系列，也常写作 Falcon3,它由 TII 开发，是开源模型，轻量系列,它在 Falcon 系列中，前一代是 Falcon 2,它于 2024 年发布
+olmo,OLMo,Ai2,美国,True,OLMo,0,2024,OLMo,False,,这个模型的全称是 OLMo，属于 OLMo 系列,它由 Ai2 开发，是开源模型，完全开源,它在 OLMo 系列中，是该系列早期版本,它于 2024 年发布
+olmo-2,OLMo 2,Ai2,美国,True,OLMo,1,2024,OLMo 2|OLMo2,False,,这个模型的全称是 OLMo 2，属于 OLMo 系列，也常写作 OLMo2,它由 Ai2 开发，是开源模型,它在 OLMo 系列中，前一代是 OLMo,它于 2024 年发布
+olmo-2-32b,OLMo 2 32B,Ai2,美国,True,OLMo,2,2025,OLMo 2 32B|OLMo232B,False,,这个模型的全称是 OLMo 2 32B，属于 OLMo 系列，也常写作 OLMo232B,它由 Ai2 开发，是开源模型，旗舰,它在 OLMo 系列中，前一代是 OLMo 2,它于 2025 年发布
+smollm,SmolLM,Hugging Face,法国,True,SmolLM,0,2024,SmolLM,False,,这个模型的全称是 SmolLM，属于 SmolLM 系列,它由 Hugging Face 开发，是开源模型，超小型,它在 SmolLM 系列中，是该系列早期版本,它于 2024 年发布
+smollm2,SmolLM2,Hugging Face,法国,True,SmolLM,1,2024,SmolLM2,False,,这个模型的全称是 SmolLM2，属于 SmolLM 系列,它由 Hugging Face 开发，是开源模型，超小型,它在 SmolLM 系列中，前一代是 SmolLM,它于 2024 年发布
+smollm3,SmolLM3,Hugging Face,法国,True,SmolLM,2,2025,SmolLM3,False,,这个模型的全称是 SmolLM3，属于 SmolLM 系列,它由 Hugging Face 开发，是开源模型,它在 SmolLM 系列中，前一代是 SmolLM2,它于 2025 年发布
+dbrx,DBRX,Databricks,美国,True,DBRX,0,2024,DBRX,False,,这个模型的全称是 DBRX，属于 DBRX 系列,它由 Databricks 开发，是开源模型，MoE,它在 DBRX 系列中，是该系列早期版本,它于 2024 年发布
+exaone-3-0,EXAONE 3.0,LG AI研究院,韩国,True,EXAONE,0,2024,EXAONE 3.0|EXAONE3.0,False,,这个模型的全称是 EXAONE 3.0，属于 EXAONE 系列，也常写作 EXAONE3.0,它由 LG AI研究院 开发，是开源模型,它在 EXAONE 系列中，是该系列早期版本,它于 2024 年发布
+exaone-3-5,EXAONE 3.5,LG AI研究院,韩国,True,EXAONE,1,2024,EXAONE 3.5|EXAONE3.5,False,,这个模型的全称是 EXAONE 3.5，属于 EXAONE 系列，也常写作 EXAONE3.5,它由 LG AI研究院 开发，是开源模型,它在 EXAONE 系列中，前一代是 EXAONE 3.0,它于 2024 年发布
+exaone-4-0,EXAONE 4.0,LG AI研究院,韩国,True,EXAONE,2,2025,EXAONE 4.0|EXAONE4.0,False,,这个模型的全称是 EXAONE 4.0，属于 EXAONE 系列，也常写作 EXAONE4.0,它由 LG AI研究院 开发，是开源模型,它在 EXAONE 系列中，前一代是 EXAONE 3.5,它于 2025 年发布

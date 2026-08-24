@@ -1,0 +1,3 @@
+﻿id,name,company,region,open_source,series,series_index,release_year,aliases,needs_review,notes,名称,属性,关系,变化
+example-model-one,示例模型 One,示例公司,中国,True,示例系列,0,2024,示例模型One|例一,,首成员：关系写「是该系列早期版本」,这个模型的全称是 示例模型 One，属于 示例 系列,它由 示例公司 开发，是开源模型,它在 示例 系列中，是该系列早期版本,它于 2024 年发布
+example-model-two,示例模型 Two,示例公司,中国,True,示例系列,1,2025,示例模型Two,,非首成员：关系必须引用在册前代全名；同名不同对象在 notes 注明,这个模型的全称是 示例模型 Two，属于 示例 系列,它由 示例公司 开发，是开源模型，轻量,它在 示例 系列中，前一代是 示例模型 One,它于 2025 年发布

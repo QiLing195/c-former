@@ -22,7 +22,11 @@ def test_known_query_supported_with_evidence(unified):
     assert answer.status == "supported"
     assert answer.object_id == "gpt-5-4"
     assert answer.path == "reasoned"
-    assert set(answer.evidence) == {"名称", "属性", "关系", "变化"}
+    # G-4 字段级证据引用：四证据齐全且引用可追溯
+    assert set(answer.evidence["fields"]) == {"名称", "属性", "关系", "变化"}
+    assert answer.evidence["version"] >= 1
+    for field_name, ref in answer.evidence["refs"].items():
+        assert ref == f"gpt-5-4#{field_name}@v{answer.evidence['version']}"
     assert any(t.startswith("anchor=") for t in answer.trace)
 
 
