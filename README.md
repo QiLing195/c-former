@@ -128,6 +128,18 @@ D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_real.py
 D:\conda\envs\cformer-gpu\python.exe train_eval_real.py
 ```
 
+### V6.1c：统一存储与检索链路集成（已完成）
+
+`cformer_v61c/` 把「精确别名 → ANN 粗召回 → 全精度重排 → 分类型 margin 校验 → CandidateLedger」
+串成端到端链路，在 212 对象真实库上验证正确性：重排 vs 穷举一致性 100%、ledger 自动 verified=0、
+p95 延迟 4.3ms；known Top-1 受 verifier 覆盖率限制为 66.7%（校准是下一步）。
+结果与闸门逐条对照见 [`V61C_INTEGRATION_REPORT.md`](V61C_INTEGRATION_REPORT.md)。
+
+```powershell
+D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v61c.py
+D:\conda\envs\cformer-gpu\python.exe evaluate_v61c.py
+```
+
 ## 工程规范
 
 - 打包与依赖：`pyproject.toml`（`pip install -e .[dev]`）；
