@@ -87,6 +87,7 @@ class UnifiedResolutionPipeline:
         top_rerank: int = 16,
         series_size_of: Callable[[str], int] | None = None,
         reasoner=None,
+        access_gate=None,
     ) -> None:
         self.store = store
         self.ledger = ledger
@@ -98,15 +99,30 @@ class UnifiedResolutionPipeline:
         self.top_rerank = top_rerank
         self.series_size_of = series_size_of  # object_id -> 同系列存活成员数（含自身）
         self.reasoner = reasoner              # V6.2 WorldReasoner 或 None
+        self.access_gate = access_gate        # V6.2 ObserverGate 或 None
         self._proposed_surfaces: set[str] = set()
 
-    def resolve(self, text: str, query_type: str | None = None) -> PipelineResult:
+    def _finalize_access(self, observer_frame, object_id: str) -> bool:
+        """True=放行；False=已生成拒绝结论（确定性掩码，身份解析之后才注入观测点）。"""
+        if self.access_gate is None:
+            return True
+        return self.access_gate.check(observer_frame, object_id).allowed
+
+    def resolve(
+        self, text: str, query_type: str | None = None, observer_frame=None
+    ) -> PipelineResult:
         stage_ms = {}
         started = time.perf_counter()
 
         exact_id = self.store.exact_lookup(text)
         stage_ms["exact"] = (time.perf_counter() - started) * 1000
         if exact_id is not None:
+            if not self._finalize_access(observer_frame, exact_id):
+                return PipelineResult(
+                    CandidateStatus.ACCESS_DENIED, "exact", None, 1.0, 0.0,
+                    f"access_denied:{self.access_gate.check(observer_frame, exact_id).reason}",
+                    1.0, stage_ms,
+                )
             return PipelineResult(
                 CandidateStatus.SUPPORTED, "exact", exact_id, 1.0, 0.0,
                 "exact_alias_hit", 1.0, stage_ms,
@@ -142,6 +158,13 @@ class UnifiedResolutionPipeline:
             )
             stage_ms["reason"] = (time.perf_counter() - reason_started) * 1000
             if choice is not None:
+                if not self._finalize_access(observer_frame, self.encoder.object_id_of(choice.label)):
+                    return PipelineResult(
+                        CandidateStatus.ACCESS_DENIED, "reasoned", None,
+                        choice.neural_score, 0.0,
+                        f"access_denied:{self.access_gate.check(observer_frame, self.encoder.object_id_of(choice.label)).reason}",
+                        coverage, stage_ms, ann_candidates, len(labels),
+                    )
                 return PipelineResult(
                     CandidateStatus.SUPPORTED, "reasoned",
                     self.encoder.object_id_of(choice.label),
@@ -162,6 +185,18 @@ class UnifiedResolutionPipeline:
             float(coverage), query_type,
         )
         object_id = self.encoder.object_id_of(int(top_labels[0]))
+
+        # 观测点门控：身份确认后注入观测点，被掩对象不得以 supported 暴露
+        if (
+            decision.status == CandidateStatus.SUPPORTED
+            and not self._finalize_access(observer_frame, object_id)
+        ):
+            return PipelineResult(
+                CandidateStatus.ACCESS_DENIED, "ann", None,
+                decision.score, decision.margin,
+                f"access_denied:{self.access_gate.check(observer_frame, object_id).reason}",
+                coverage, stage_ms, ann_candidates, len(top_labels),
+            )
 
         # 结构性歧义（确定性规则，先于神经结论生效）：多成员系列 + 查询无任何
         # 选择标准措辞 → 无论 margin 多大都不支持单一成员。

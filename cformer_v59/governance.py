@@ -14,6 +14,8 @@ class CandidateStatus(str, Enum):
     VERIFIED = "verified"
     ROLLED_BACK = "rolled_back"
     UNKNOWN = "unknown"
+    # V6.2 观测点门控新增：确定性权限掩码拒绝，不经 ledger 状态机
+    ACCESS_DENIED = "access_denied"
 
 
 @dataclass(frozen=True)

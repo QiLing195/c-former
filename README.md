@@ -136,6 +136,18 @@ D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v62.py
 D:\conda\envs\cformer-gpu\python.exe evaluate_v62.py
 ```
 
+### V6.2 观测点端到端（闸门全过）
+
+`cformer_v62/observer.py`：确定性可见性掩码（公司/区域两轴），身份解析完成后才注入；
+exact/reasoned/ann 三条支持路径统一过闸，拒绝返回 `ACCESS_DENIED` 且不暴露对象。
+路线图 §8 五项闸门（3 种子一致）：身份一致性 **100%**、权限泄漏 **0**、跨视角召回 **100%**、
+可追溯 **100%**、向量单副本恒等。详见 [`V62_OBSERVER_REPORT.md`](V62_OBSERVER_REPORT.md)。
+
+```powershell
+D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v62_observer.py
+D:\conda\envs\cformer-gpu\python.exe evaluate_observers.py
+```
+
 ```powershell
 D:\conda\envs\cformer-gpu\python.exe build_ai_models_dataset.py
 D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_real.py
