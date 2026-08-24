@@ -51,7 +51,9 @@ class WorldEncoder:
         return self.world.objects[label].object_id
 
 
-def build_chain(world: AIModelWorld, encoder: WorldEncoder):
+def build_chain(world: AIModelWorld, encoder: WorldEncoder,
+                *, minimum_score: float = 0.50, minimum_coverage: float = 0.60,
+                known_margin: float | None = None):
     store = UnifiedObjectStore()
     for obj in world.objects:
         evidence = dict(zip(("名称", "属性", "关系", "变化"), obj.evidence))
@@ -75,16 +77,35 @@ def build_chain(world: AIModelWorld, encoder: WorldEncoder):
     index.add(vectors, list(range(len(world.objects))))
 
     ledger = CandidateLedger()
+    margin_by_type = dict(RECOMMENDED_MARGINS_V60B)
+    if known_margin is not None:
+        margin_by_type["known"] = known_margin
     verifier = EvidenceVerifier(
-        minimum_score=0.50, minimum_margin=0.08, minimum_coverage=0.60,
-        margin_by_type=RECOMMENDED_MARGINS_V60B,
+        minimum_score=minimum_score, minimum_margin=0.08,
+        minimum_coverage=minimum_coverage,
+        margin_by_type=margin_by_type,
     )
     pipeline = UnifiedResolutionPipeline(store, ledger, index, encoder, verifier,
-                                         nprobe=min(16, max(1, vectors.shape[0] // 8)))
+                                         nprobe=min(16, max(1, vectors.shape[0] // 8)),
+                                         series_size_of=lambda oid: len(
+                                             world.series_siblings(world.target_label(oid))) + 1)
     return store, ledger, index, vectors, pipeline
 
 
 def main() -> None:
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--minimum-score", type=float, default=0.50)
+    parser.add_argument("--minimum-coverage", type=float, default=0.60)
+    parser.add_argument("--known-margin", type=float, default=None,
+                        help="override known-type margin (default: V6.0b 0.03)")
+    parser.add_argument("--label", type=str, default=None,
+                        help="tag written into the output payload")
+    parser.add_argument("--output", type=Path,
+                        default=ROOT / "artifacts" / "v61c_results.json")
+    args = parser.parse_args()
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     torch.set_float32_matmul_precision("high")
     world = AIModelWorld(ROOT / "data" / "ai_models_dataset.json")
@@ -103,7 +124,12 @@ def main() -> None:
         train(model, world, device, entries=entries, steps=400, lr=1e-3,
               batch_size=16, hard_k=0, seed=seed)
         encoder = WorldEncoder(world, model, device)
-        store, ledger, index, vectors, pipeline = build_chain(world, encoder)
+        store, ledger, index, vectors, pipeline = build_chain(
+            world, encoder,
+            minimum_score=args.minimum_score,
+            minimum_coverage=args.minimum_coverage,
+            known_margin=args.known_margin,
+        )
 
         def exhaustive_top1(text: str) -> int:
             query, _ = encoder.encode_query(text)
@@ -180,13 +206,17 @@ def main() -> None:
     payload = {
         "environment": {"device": str(device), "torch": torch.__version__,
                         "gpu": torch.cuda.get_device_name(0) if device.type == "cuda" else None},
-        "note": ("V6.1c 链路正确性验证：212 对象真实库，verifier 使用 V6.0b 分类型 margin；"
+        "label": args.label or "default",
+        "verifier": {"minimum_score": args.minimum_score,
+                     "minimum_coverage": args.minimum_coverage,
+                     "known_margin": args.known_margin if args.known_margin is not None else 0.03},
+        "note": ("V6.1c 链路正确性验证：212 对象真实库，verifier 使用分类型 margin；"
                  "intent 类型为 oracle（评测上下文），生产需意图分类器。规模太小，"
                  "ANN/FTS 的性能优势不在本测范围内。"),
         "per_seed": per_seed,
         "aggregate": aggregate,
     }
-    out = ROOT / "artifacts" / "v61c_results.json"
+    out = args.output
     out.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({"phase": "done", "aggregate": aggregate}, ensure_ascii=False))
     print(f"wrote {out}")

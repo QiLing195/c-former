@@ -132,12 +132,14 @@ D:\conda\envs\cformer-gpu\python.exe train_eval_real.py
 
 `cformer_v61c/` 把「精确别名 → ANN 粗召回 → 全精度重排 → 分类型 margin 校验 → CandidateLedger」
 串成端到端链路，在 212 对象真实库上验证正确性：重排 vs 穷举一致性 100%、ledger 自动 verified=0、
-p95 延迟 4.3ms；known Top-1 受 verifier 覆盖率限制为 66.7%（校准是下一步）。
-结果与闸门逐条对照见 [`V61C_INTEGRATION_REPORT.md`](V61C_INTEGRATION_REPORT.md)。
+p95 延迟 4.3ms。随后 `calibrate_v61c.py` 在真实库上重校准阈值（发现并确定性拦截**结构性歧义**），
+known Top-1 66.7%→**76.3%**、覆盖率 69.3%→**85.1%**，安全指标零损失。
+详见 [`V61C_INTEGRATION_REPORT.md`](V61C_INTEGRATION_REPORT.md)。
 
 ```powershell
 D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v61c.py
-D:\conda\envs\cformer-gpu\python.exe evaluate_v61c.py
+D:\conda\envs\cformer-gpu\python.exe calibrate_v61c.py
+D:\conda\envs\cformer-gpu\python.exe evaluate_v61c.py --minimum-score 0.40 --minimum-coverage 0.60 --known-margin 0.01
 ```
 
 ## 工程规范

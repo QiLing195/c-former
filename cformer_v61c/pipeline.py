@@ -16,10 +16,30 @@ from __future__ import annotations
 
 import time
 from dataclasses import dataclass, field
+from typing import Callable
 
 import torch
 
-from cformer_v59 import CandidateLedger, CandidateStatus, EvidenceVerifier
+from cformer_v59 import (
+    CandidateLedger,
+    CandidateStatus,
+    EvidenceVerifier,
+    VerificationDecision,
+)
+
+# 存在选择标准的措辞：出现时才信任神经 margin 做成员选择。
+# 裸系列指代（"X 是哪一个模型？"）没有选择标准，属于结构性歧义，
+# 由确定性规则判定，不依赖神经分数（治理优先于模型）。
+SELECTION_PHRASES = (
+    "最新", "最早", "初代", "上一代", "前一代",
+    "第一", "第二", "第三", "第四", "第五",
+    "旗舰", "顶配", "轻量", "入门", "最强", "最快",
+    "推理", "编程", "代码", "写代码", "多模态", "端侧", "商用",
+)
+
+
+def has_selection_phrase(text: str) -> bool:
+    return any(phrase in text for phrase in SELECTION_PHRASES)
 
 
 def is_alias_like(surface: str) -> bool:
@@ -65,6 +85,7 @@ class UnifiedResolutionPipeline:
         nprobe: int = 4,
         top_ann: int = 256,
         top_rerank: int = 16,
+        series_size_of: Callable[[str], int] | None = None,
     ) -> None:
         self.store = store
         self.ledger = ledger
@@ -74,6 +95,7 @@ class UnifiedResolutionPipeline:
         self.nprobe = nprobe
         self.top_ann = top_ann
         self.top_rerank = top_rerank
+        self.series_size_of = series_size_of  # object_id -> 同系列存活成员数（含自身）
         self._proposed_surfaces: set[str] = set()
 
     def resolve(self, text: str, query_type: str | None = None) -> PipelineResult:
@@ -120,6 +142,19 @@ class UnifiedResolutionPipeline:
             float(coverage), query_type,
         )
         object_id = self.encoder.object_id_of(int(top_labels[0]))
+
+        # 结构性歧义（确定性规则，先于神经结论生效）：多成员系列 + 查询无任何
+        # 选择标准措辞 → 无论 margin 多大都不支持单一成员。
+        if (
+            decision.status == CandidateStatus.SUPPORTED
+            and self.series_size_of is not None
+            and not has_selection_phrase(text)
+            and self.series_size_of(object_id) >= 2
+        ):
+            decision = VerificationDecision(
+                CandidateStatus.AMBIGUOUS, decision.score, decision.margin,
+                "structural_series_ambiguity",
+            )
 
         proposed = False
         if decision.status == CandidateStatus.UNKNOWN and is_alias_like(text):

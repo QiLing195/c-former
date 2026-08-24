@@ -139,6 +139,22 @@ def test_long_questions_never_create_proposals() -> None:
     assert count == 0
 
 
+def test_structural_series_ambiguity_overrides_margin() -> None:
+    _, _, _, encoder, pipeline = _build_world()
+    # 三个对象都报告为同系列多成员；查询无选择标准措辞
+    pipeline.series_size_of = lambda object_id: 3
+    near_a = torch.tensor([0.9, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
+    encoder.bind("Kimi是哪一个模型", near_a)
+    result = pipeline.resolve("Kimi是哪一个模型")
+    assert result.status == CandidateStatus.AMBIGUOUS
+    assert "structural" in result.reason
+
+    # 有选择标准措辞 → 恢复神经 margin 判定（此处 margin 足够大 → supported）
+    encoder.bind("Kimi最新的模型", near_a)
+    latest = pipeline.resolve("Kimi最新的模型")
+    assert latest.status == CandidateStatus.SUPPORTED
+
+
 def test_fts_candidates_find_documents() -> None:
     store, _, _, _, _ = _build_world()
     hits = store.fts_candidates("Alpha")
