@@ -26,6 +26,7 @@ from cformer_v59 import (
     EvidenceVerifier,
     VerificationDecision,
 )
+from cformer_v62.reasoner import TemporalNoMember, parse_as_of
 
 # 存在选择标准的措辞：出现时才信任神经 margin 做成员选择。
 # 裸系列指代（"X 是哪一个模型？"）没有选择标准，属于结构性歧义，
@@ -155,8 +156,17 @@ class UnifiedResolutionPipeline:
             reason_started = time.perf_counter()
             choice = self.reasoner.select(
                 text, labels.tolist(), scores.float().tolist(),
+                as_of=parse_as_of(text),
             )
             stage_ms["reason"] = (time.perf_counter() - reason_started) * 1000
+            if isinstance(choice, TemporalNoMember):
+                # 时间快照下无存活对象：显式 unknown，绝不回退（防未来事实泄漏），
+                # 也不进 ledger 提案。
+                return PipelineResult(
+                    CandidateStatus.UNKNOWN, "reasoned", None, 0.0, 0.0,
+                    f"temporal_no_member_as_of={choice.as_of}",
+                    coverage, stage_ms, ann_candidates, len(labels),
+                )
             if choice is not None:
                 if not self._finalize_access(observer_frame, self.encoder.object_id_of(choice.label)):
                     return PipelineResult(

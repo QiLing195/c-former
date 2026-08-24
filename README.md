@@ -148,6 +148,18 @@ D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v62_observer.p
 D:\conda\envs\cformer-gpu\python.exe evaluate_observers.py
 ```
 
+### V6.3-M0 时间轴 as-of 快照（泄漏防线闸门全过）
+
+`parse_as_of` + 推理块快照过滤：查询含"截至 YYYY 年"时先按 `year ≤ as_of` 过滤再选极值，
+过滤后为空显式返回 unknown（`TemporalNoMember`），**绝不回退神经路径**。57 条程序化真值
+as-of 查询 + 36 条空集查询，3 种子一致：naive 臂未来泄漏 **100%** → temporal 臂 **0%**、
+as-of Top-1 100%、留出集回归无损失。详见 [`V63_TEMPORAL_REPORT.md`](V63_TEMPORAL_REPORT.md)。
+
+```powershell
+D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v62_temporal.py
+D:\conda\envs\cformer-gpu\python.exe evaluate_temporal.py
+```
+
 ```powershell
 D:\conda\envs\cformer-gpu\python.exe build_ai_models_dataset.py
 D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_real.py

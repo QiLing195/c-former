@@ -21,9 +21,23 @@ from dataclasses import dataclass, field
 
 MAX_YEAR_PATTERN = re.compile(r"(19|20)\d{2}")
 
+AS_OF_PATTERNS = (
+    re.compile(r"截至\s*((?:19|20)\d{2})\s*年"),
+    re.compile(r"截止\s*((?:19|20)\d{2})\s*年"),
+    re.compile(r"到\s*((?:19|20)\d{2})\s*年(?:为止|为止的话)?"),
+    re.compile(r"((?:19|20)\d{2})\s*年(?:的)?时候"),
+)
+
 # 方向词 → 极值方向；两组同时出现视为方向冲突，放弃裁决
 MIN_WORDS = ("最早", "初代", "第一代", "首个", "第一个")
 MAX_WORDS = ("最新", "最近发布", "最新一代", "最新款", "最新版")
+
+
+@dataclass
+class TemporalNoMember:
+    """时间过滤后无存活成员：必须显式返回，禁止回退神经路径（未来事实泄漏）。"""
+
+    as_of: int
 
 
 @dataclass
@@ -41,6 +55,14 @@ def parse_direction(text: str) -> str | None:
     if has_min and has_max:
         return None  # 方向冲突，交回神经层
     return "min" if has_min else ("max" if has_max else None)
+
+
+def parse_as_of(text: str) -> int | None:
+    for pattern in AS_OF_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            return int(match.group(1))
+    return None
 
 
 def extract_year(text: str) -> int | None:
@@ -90,7 +112,8 @@ class WorldReasoner:
         ranked_scores: list[float],
         *,
         max_trace: int = 6,
-    ) -> ReasonedChoice | None:
+        as_of: int | None = None,
+    ) -> ReasonedChoice | TemporalNoMember | None:
         direction = parse_direction(text)
         if direction is None or not ranked_labels:
             return None
@@ -114,23 +137,44 @@ class WorldReasoner:
         ]
         if not members:
             return None
-        if len(members) == 1:
-            # 单成员系列：查询显式点名了该系列，唯一成员即答案，无需比较
-            label, score = members[0]
-            year = extract_year(self.evidence_text_of(label)) or 0
-            return ReasonedChoice(
-                label=label, direction=direction, year=year,
-                neural_score=float(score),
-                trace=[f"anchor={anchor_source}", "single_member_series"],
-            )
 
         dated: list[tuple[int, float, int]] = []
         for label, score in members:
             year = extract_year(self.evidence_text_of(label))
             if year is not None:
                 dated.append((label, score, year))
-        if len(dated) < 2:
+
+        trace_prefix = [f"anchor={anchor_source}"]
+
+        # 单成员且无年份：唯一成员即答案（无时间语义可过滤，保持既有行为）
+        if len(members) == 1 and not dated:
+            label, score = members[0]
+            return ReasonedChoice(
+                label=label, direction=direction, year=0,
+                neural_score=float(score),
+                trace=trace_prefix + ["single_member_series"],
+            )
+        if not dated:
             return None  # 年份缺失过多，回退神经排序
+
+        # 时间快照：as_of 之后的事实一律不可见（未来事实泄漏防线）。
+        # 过滤后为空必须显式返回 TemporalNoMember，禁止回退神经路径。
+        if as_of is not None:
+            future_count = sum(1 for item in dated if item[2] > as_of)
+            dated = [item for item in dated if item[2] <= as_of]
+            trace_prefix.append(f"as_of={as_of};filtered_future={future_count}")
+            if not dated:
+                return TemporalNoMember(as_of=as_of)
+
+        if len(dated) == 1:
+            label, score, year = dated[0]
+            if len(members) == 1:
+                trace_prefix.append("single_member_series")
+            return ReasonedChoice(
+                label=label, direction=direction, year=year,
+                neural_score=float(score),
+                trace=trace_prefix + [f"{label}:year={year}"],
+            )
 
         # 主键：年份极值；平局：series_index 极值（定义顺序即时间顺序）
         pick_index = (
@@ -139,7 +183,7 @@ class WorldReasoner:
             else min(range(len(dated)), key=lambda i: (dated[i][2], -self.series_index_of(dated[i][0])))
         )
         label, score, year = dated[pick_index]
-        trace = [f"anchor={anchor_source}"] + [
+        trace = trace_prefix + [
             f"{candidate_label}:year={candidate_year}"
             for candidate_label, _, candidate_year in dated[:max_trace]
         ]
