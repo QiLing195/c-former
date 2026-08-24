@@ -173,6 +173,17 @@ D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v63_recursion.
 D:\conda\envs\cformer-gpu\python.exe evaluate_recursion.py
 ```
 
+### V6.5 集成原型（M1：统一入口已落地）
+
+`cformer_v65/unified.py`：`UnifiedCFormer(dataset).resolve(text, observer_frame=...)`
+一行入口串起 v59–v63 全部组件（精确别名→递归→ANN+重排→结构歧义/as-of→校验→掩码→ledger），
+返回带四证据引用与可审计轨迹的 `Answer`。集成测试 7 项覆盖全部能力面。
+设计蓝图、公平基线协议与 §11 验收对照见 [`V65_INTEGRATION_DESIGN.md`](V65_INTEGRATION_DESIGN.md)。
+
+```powershell
+D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v65_integration.py
+```
+
 ```powershell
 D:\conda\envs\cformer-gpu\python.exe build_ai_models_dataset.py
 D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_real.py
