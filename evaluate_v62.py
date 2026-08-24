@@ -35,8 +35,10 @@ def make_reasoner(world: AIModelWorld) -> WorldReasoner:
     lexicon = world.series_lexicon()
 
     def series_key_from_text(text: str):
-        """词法锚定：系列名命中取最长者；否则唯一公司命中按公司级锚定。"""
-        lowered = " ".join(text.split()).lower()
+        """词法锚定：先做别称改写（千问→Qwen 等），再匹配系列/公司。"""
+        from cformer_real import apply_aliases
+
+        lowered = apply_aliases(text, world.company_aliases, world.series_aliases)
         series_hits = [
             (key, company, series) for key, company, series in lexicon if series in lowered
         ]

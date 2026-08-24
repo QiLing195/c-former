@@ -89,6 +89,7 @@ class UnifiedResolutionPipeline:
         series_size_of: Callable[[str], int] | None = None,
         reasoner=None,
         access_gate=None,
+        multihop=None,
     ) -> None:
         self.store = store
         self.ledger = ledger
@@ -101,6 +102,7 @@ class UnifiedResolutionPipeline:
         self.series_size_of = series_size_of  # object_id -> 同系列存活成员数（含自身）
         self.reasoner = reasoner              # V6.2 WorldReasoner 或 None
         self.access_gate = access_gate        # V6.2 ObserverGate 或 None
+        self.multihop = multihop              # V6.3 MultiHopResolver 或 None
         self._proposed_surfaces: set[str] = set()
 
     def _finalize_access(self, observer_frame, object_id: str) -> bool:
@@ -128,6 +130,33 @@ class UnifiedResolutionPipeline:
                 CandidateStatus.SUPPORTED, "exact", exact_id, 1.0, 0.0,
                 "exact_alias_hit", 1.0, stage_ms,
             )
+
+        # V6.3 多跳递归：词法锚定 + 确定性图行走，无需神经计算；
+        # no_anchor 时静默交回后续链路。
+        if self.multihop is not None:
+            mh_started = time.perf_counter()
+            walk_result = self.multihop.run(text)
+            stage_ms["multihop"] = (time.perf_counter() - mh_started) * 1000
+            if walk_result.status == "ok":
+                final_id = walk_result.object_id
+                if not self._finalize_access(observer_frame, final_id):
+                    return PipelineResult(
+                        CandidateStatus.ACCESS_DENIED, "recursion", None, 0.0, 0.0,
+                        f"access_denied:{self.access_gate.check(observer_frame, final_id).reason}"
+                        f";hops={walk_result.hops};path={';'.join(walk_result.path)}",
+                        1.0, stage_ms,
+                    )
+                return PipelineResult(
+                    CandidateStatus.SUPPORTED, "recursion", final_id, 1.0, 1.0,
+                    f"recursion_hops={walk_result.hops};path={';'.join(walk_result.path)}",
+                    1.0, stage_ms,
+                )
+            if walk_result.status in ("chain_end", "cycle", "depth_limit"):
+                return PipelineResult(
+                    CandidateStatus.UNKNOWN, "recursion", None, 0.0, 0.0,
+                    f"recursion_{walk_result.status};path={';'.join(walk_result.path)}",
+                    1.0, stage_ms,
+                )
 
         token_started = time.perf_counter()
         query_vector, coverage = self.encoder.encode_query(text)

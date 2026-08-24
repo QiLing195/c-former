@@ -250,6 +250,33 @@ SERIES = [
 ]
 
 
+# 公司与系列的常见别称（人工整理的指代消解词表；键=查询中可能出现的形式）
+COMPANY_ALIASES = {
+    "阿里": "阿里巴巴", "通义": "阿里巴巴", "淘宝系": "阿里巴巴",
+    "谷歌": "Google", "脸书": "Meta", "Meta公司": "Meta",
+    "微软亚洲": "微软", "小艺": "华为",
+    "Zhipu": "智谱AI", "智谱": "智谱AI", "清华系": "智谱AI",
+    "DeepSeek": "深度求索", "暗面": "月之暗面", "Moonshot": "月之暗面",
+    "Kimi公司": "月之暗面", "稀宇": "MiniMax",
+    "讯飞": "科大讯飞", "上交系实验室": "上海人工智能实验室",
+    "书生": "上海人工智能实验室", "面壁": "面壁智能",
+    "StepFun": "阶跃星辰", "阶跃": "阶跃星辰",
+    "零一万务": "零一万物", "百川": "百川智能",
+    "昆仑": "昆仑万维", "万维": "昆仑万维",
+    "字节数科": "字节跳动", "火山引擎": "字节跳动",
+}
+SERIES_ALIASES = {
+    "千问": "Qwen", "通义千问": "Qwen", "Qwen系列": "Qwen",
+    "文心大模型": "文心", "ERNIE": "文心",
+    "豆包大模型": "豆包", "云雀": "豆包",
+    "星火认知": "星火", "Spark": "星火",
+    "书生浦语": "书生", "浦语": "书生", "InternLM系列": "书生",
+    "小钢炮": "Phi", "混元大模型": "混元",
+    "盘古大模型": "盘古", "天工": "Skywork",
+    "ChatGPT系列": "GPT", "GPT家族": "GPT",
+}
+
+
 def _object_id(name: str) -> str:
     return name.lower().replace(" ", "-").replace(".", "-")
 
@@ -333,6 +360,8 @@ def build():
                         "ambiguous": sum(1 for q in queries if q["kind"] == "ambiguous"),
                         "unknown": sum(1 for q in queries if q["kind"] == "unknown")},
         },
+        "company_aliases": COMPANY_ALIASES,
+        "series_aliases": SERIES_ALIASES,
         "objects": objects,
         "queries": queries,
     }

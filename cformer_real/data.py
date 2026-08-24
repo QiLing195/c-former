@@ -33,6 +33,8 @@ class AIModelWorld:
         data = json.loads(Path(path).read_text(encoding="utf-8"))
         objects = data["objects"]
         self.queries = data["queries"]
+        self.company_aliases: dict[str, str] = data.get("company_aliases", {})
+        self.series_aliases: dict[str, str] = data.get("series_aliases", {})
 
         texts: list[str] = []
         for obj in objects:
@@ -119,3 +121,16 @@ class AIModelWorld:
 
     def unknown_queries(self) -> list[dict]:
         return [query for query in self.queries if query["kind"] == "unknown"]
+
+
+def apply_aliases(text: str, company_aliases: dict[str, str],
+                  series_aliases: dict[str, str]) -> str:
+    """指代消解：把别称改写为规范名（长别名优先，避免子串误替换）。"""
+    out = " ".join(text.split()).lower()
+    for mapping in (series_aliases, company_aliases):
+        for alias in sorted(mapping, key=len, reverse=True):
+            canonical = mapping[alias].lower()
+            needle = alias.lower()
+            if needle in out:
+                out = out.replace(needle, f" {canonical} ")
+    return out
