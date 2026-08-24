@@ -3,12 +3,12 @@
     "dataset": "ai_models_dataset",
     "description": "主流 AI 大模型四证据数据集（200+ 对象自动展开版）",
     "status": "自动展开；needs_review=true 的条目在人工或检索核对前不得进入正式对象库",
-    "objects": 203,
-    "objects_verified": 168,
-    "objects_needs_review": 35,
+    "objects": 212,
+    "objects_verified": 210,
+    "objects_needs_review": 2,
     "queries": {
-      "known": 40,
-      "ambiguous": 39,
+      "known": 38,
+      "ambiguous": 38,
       "unknown": 6
     }
   },
@@ -151,15 +151,27 @@
       "name": "GPT-5.2",
       "evidence": {
         "名称": "这个模型的全称是 GPT-5.2，属于 GPT 系列",
-        "属性": "它由 OpenAI 开发，是闭源模型，当前前沿闭源旗舰",
+        "属性": "它由 OpenAI 开发，是闭源模型，前沿闭源旗舰",
         "关系": "它在 GPT 系列中，前一代是 GPT-5.1",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-5-4",
+      "label": 12,
+      "name": "GPT-5.4",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-5.4，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，旗舰，1M上下文",
+        "关系": "它在 GPT 系列中，前一代是 GPT-5.2",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "o1",
-      "label": 12,
+      "label": 13,
       "name": "o1",
       "evidence": {
         "名称": "这个模型的全称是 o1，属于 o 推理 系列",
@@ -171,7 +183,7 @@
     },
     {
       "id": "o1-mini",
-      "label": 13,
+      "label": 14,
       "name": "o1-mini",
       "evidence": {
         "名称": "这个模型的全称是 o1-mini，属于 o 推理 系列",
@@ -183,7 +195,7 @@
     },
     {
       "id": "o1-pro",
-      "label": 14,
+      "label": 15,
       "name": "o1-pro",
       "evidence": {
         "名称": "这个模型的全称是 o1-pro，属于 o 推理 系列",
@@ -195,7 +207,7 @@
     },
     {
       "id": "o3",
-      "label": 15,
+      "label": 16,
       "name": "o3",
       "evidence": {
         "名称": "这个模型的全称是 o3，属于 o 推理 系列",
@@ -207,7 +219,7 @@
     },
     {
       "id": "o3-mini",
-      "label": 16,
+      "label": 17,
       "name": "o3-mini",
       "evidence": {
         "名称": "这个模型的全称是 o3-mini，属于 o 推理 系列",
@@ -219,7 +231,7 @@
     },
     {
       "id": "o4-mini",
-      "label": 17,
+      "label": 18,
       "name": "o4-mini",
       "evidence": {
         "名称": "这个模型的全称是 o4-mini，属于 o 推理 系列",
@@ -231,7 +243,7 @@
     },
     {
       "id": "claude-1",
-      "label": 18,
+      "label": 19,
       "name": "Claude 1",
       "evidence": {
         "名称": "这个模型的全称是 Claude 1，属于 Claude 系列，也常写作 Claude1",
@@ -243,7 +255,7 @@
     },
     {
       "id": "claude-2",
-      "label": 19,
+      "label": 20,
       "name": "Claude 2",
       "evidence": {
         "名称": "这个模型的全称是 Claude 2，属于 Claude 系列，也常写作 Claude2",
@@ -255,7 +267,7 @@
     },
     {
       "id": "claude-2-1",
-      "label": 20,
+      "label": 21,
       "name": "Claude 2.1",
       "evidence": {
         "名称": "这个模型的全称是 Claude 2.1，属于 Claude 系列，也常写作 Claude2.1",
@@ -267,7 +279,7 @@
     },
     {
       "id": "claude-3-opus",
-      "label": 21,
+      "label": 22,
       "name": "Claude 3 Opus",
       "evidence": {
         "名称": "这个模型的全称是 Claude 3 Opus，属于 Claude 系列，也常写作 Claude3Opus",
@@ -279,7 +291,7 @@
     },
     {
       "id": "claude-3-sonnet",
-      "label": 22,
+      "label": 23,
       "name": "Claude 3 Sonnet",
       "evidence": {
         "名称": "这个模型的全称是 Claude 3 Sonnet，属于 Claude 系列，也常写作 Claude3Sonnet",
@@ -291,7 +303,7 @@
     },
     {
       "id": "claude-3-haiku",
-      "label": 23,
+      "label": 24,
       "name": "Claude 3 Haiku",
       "evidence": {
         "名称": "这个模型的全称是 Claude 3 Haiku，属于 Claude 系列，也常写作 Claude3Haiku",
@@ -303,7 +315,7 @@
     },
     {
       "id": "claude-3-5-sonnet",
-      "label": 24,
+      "label": 25,
       "name": "Claude 3.5 Sonnet",
       "evidence": {
         "名称": "这个模型的全称是 Claude 3.5 Sonnet，属于 Claude 系列，也常写作 Claude3.5Sonnet",
@@ -315,7 +327,7 @@
     },
     {
       "id": "claude-3-5-haiku",
-      "label": 25,
+      "label": 26,
       "name": "Claude 3.5 Haiku",
       "evidence": {
         "名称": "这个模型的全称是 Claude 3.5 Haiku，属于 Claude 系列，也常写作 Claude3.5Haiku",
@@ -327,7 +339,7 @@
     },
     {
       "id": "claude-opus-4",
-      "label": 26,
+      "label": 27,
       "name": "Claude Opus 4",
       "evidence": {
         "名称": "这个模型的全称是 Claude Opus 4，属于 Claude 系列，也常写作 ClaudeOpus4",
@@ -339,7 +351,7 @@
     },
     {
       "id": "claude-sonnet-4",
-      "label": 27,
+      "label": 28,
       "name": "Claude Sonnet 4",
       "evidence": {
         "名称": "这个模型的全称是 Claude Sonnet 4，属于 Claude 系列，也常写作 ClaudeSonnet4",
@@ -351,7 +363,7 @@
     },
     {
       "id": "claude-haiku-4",
-      "label": 28,
+      "label": 29,
       "name": "Claude Haiku 4",
       "evidence": {
         "名称": "这个模型的全称是 Claude Haiku 4，属于 Claude 系列，也常写作 ClaudeHaiku4",
@@ -363,7 +375,7 @@
     },
     {
       "id": "claude-sonnet-4-5",
-      "label": 29,
+      "label": 30,
       "name": "Claude Sonnet 4.5",
       "evidence": {
         "名称": "这个模型的全称是 Claude Sonnet 4.5，属于 Claude 系列，也常写作 ClaudeSonnet4.5",
@@ -371,11 +383,11 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Haiku 4",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "claude-haiku-4-5",
-      "label": 30,
+      "label": 31,
       "name": "Claude Haiku 4.5",
       "evidence": {
         "名称": "这个模型的全称是 Claude Haiku 4.5，属于 Claude 系列，也常写作 ClaudeHaiku4.5",
@@ -383,11 +395,11 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Sonnet 4.5",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "claude-opus-4-5",
-      "label": 31,
+      "label": 32,
       "name": "Claude Opus 4.5",
       "evidence": {
         "名称": "这个模型的全称是 Claude Opus 4.5，属于 Claude 系列，也常写作 ClaudeOpus4.5",
@@ -398,32 +410,80 @@
       "needs_review": false
     },
     {
+      "id": "claude-opus-4-6",
+      "label": 33,
+      "name": "Claude Opus 4.6",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Opus 4.6，属于 Claude 系列，也常写作 ClaudeOpus4.6",
+        "属性": "它由 Anthropic 开发，是闭源模型",
+        "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.5",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "label": 34,
+      "name": "Claude Sonnet 4.6",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Sonnet 4.6，属于 Claude 系列，也常写作 ClaudeSonnet4.6",
+        "属性": "它由 Anthropic 开发，是闭源模型，均衡",
+        "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.6",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": false
+    },
+    {
       "id": "claude-opus-4-7",
-      "label": 32,
+      "label": 35,
       "name": "Claude Opus 4.7",
       "evidence": {
         "名称": "这个模型的全称是 Claude Opus 4.7，属于 Claude 系列，也常写作 ClaudeOpus4.7",
         "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
-        "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.5",
+        "关系": "它在 Claude 系列中，前一代是 Claude Sonnet 4.6",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "claude-opus-4-8",
-      "label": 33,
+      "label": 36,
       "name": "Claude Opus 4.8",
       "evidence": {
         "名称": "这个模型的全称是 Claude Opus 4.8，属于 Claude 系列，也常写作 ClaudeOpus4.8",
-        "属性": "它由 Anthropic 开发，是闭源模型，SWE-bench 领先",
+        "属性": "它由 Anthropic 开发，是闭源模型，旗舰，1M上下文",
         "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.7",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
+    },
+    {
+      "id": "claude-sonnet-5",
+      "label": 37,
+      "name": "Claude Sonnet 5",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Sonnet 5，属于 Claude 系列，也常写作 ClaudeSonnet5",
+        "属性": "它由 Anthropic 开发，是闭源模型，均衡",
+        "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.8",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-opus-5",
+      "label": 38,
+      "name": "Claude Opus 5",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Opus 5，属于 Claude 系列，也常写作 ClaudeOpus5",
+        "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
+        "关系": "它在 Claude 系列中，前一代是 Claude Sonnet 5",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": false
     },
     {
       "id": "gemini-1-0",
-      "label": 34,
+      "label": 39,
       "name": "Gemini 1.0",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 1.0，属于 Gemini 系列，也常写作 Gemini1.0",
@@ -435,7 +495,7 @@
     },
     {
       "id": "gemini-1-5-pro",
-      "label": 35,
+      "label": 40,
       "name": "Gemini 1.5 Pro",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 1.5 Pro，属于 Gemini 系列，也常写作 Gemini1.5Pro",
@@ -447,7 +507,7 @@
     },
     {
       "id": "gemini-1-5-flash",
-      "label": 36,
+      "label": 41,
       "name": "Gemini 1.5 Flash",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 1.5 Flash，属于 Gemini 系列，也常写作 Gemini1.5Flash",
@@ -459,7 +519,7 @@
     },
     {
       "id": "gemini-2-0-flash",
-      "label": 37,
+      "label": 42,
       "name": "Gemini 2.0 Flash",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 2.0 Flash，属于 Gemini 系列，也常写作 Gemini2.0Flash",
@@ -471,7 +531,7 @@
     },
     {
       "id": "gemini-2-0-pro",
-      "label": 38,
+      "label": 43,
       "name": "Gemini 2.0 Pro",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 2.0 Pro，属于 Gemini 系列，也常写作 Gemini2.0Pro",
@@ -483,7 +543,7 @@
     },
     {
       "id": "gemini-2-5-pro",
-      "label": 39,
+      "label": 44,
       "name": "Gemini 2.5 Pro",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 2.5 Pro，属于 Gemini 系列，也常写作 Gemini2.5Pro",
@@ -495,7 +555,7 @@
     },
     {
       "id": "gemini-2-5-flash",
-      "label": 40,
+      "label": 45,
       "name": "Gemini 2.5 Flash",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 2.5 Flash，属于 Gemini 系列，也常写作 Gemini2.5Flash",
@@ -507,7 +567,7 @@
     },
     {
       "id": "gemini-2-5-flash-lite",
-      "label": 41,
+      "label": 46,
       "name": "Gemini 2.5 Flash-Lite",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 2.5 Flash-Lite，属于 Gemini 系列，也常写作 Gemini2.5Flash-Lite",
@@ -519,7 +579,7 @@
     },
     {
       "id": "gemini-3-pro",
-      "label": 42,
+      "label": 47,
       "name": "Gemini 3 Pro",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 3 Pro，属于 Gemini 系列，也常写作 Gemini3Pro",
@@ -531,7 +591,7 @@
     },
     {
       "id": "gemini-3-flash",
-      "label": 43,
+      "label": 48,
       "name": "Gemini 3 Flash",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 3 Flash，属于 Gemini 系列，也常写作 Gemini3Flash",
@@ -542,32 +602,56 @@
       "needs_review": false
     },
     {
-      "id": "gemini-3-5-pro",
-      "label": 44,
-      "name": "Gemini 3.5 Pro",
+      "id": "gemini-3-1-pro",
+      "label": 49,
+      "name": "Gemini 3.1 Pro",
       "evidence": {
-        "名称": "这个模型的全称是 Gemini 3.5 Pro，属于 Gemini 系列，也常写作 Gemini3.5Pro",
-        "属性": "它由 Google 开发，是闭源模型，代理编码旗舰",
+        "名称": "这个模型的全称是 Gemini 3.1 Pro，属于 Gemini 系列，也常写作 Gemini3.1Pro",
+        "属性": "它由 Google 开发，是闭源模型，预览版核心升级",
         "关系": "它在 Gemini 系列中，前一代是 Gemini 3 Flash",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "gemini-3-5-flash",
-      "label": 45,
+      "label": 50,
       "name": "Gemini 3.5 Flash",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 3.5 Flash，属于 Gemini 系列，也常写作 Gemini3.5Flash",
-        "属性": "它由 Google 开发，是闭源模型，最快代理编码",
-        "关系": "它在 Gemini 系列中，前一代是 Gemini 3.5 Pro",
+        "属性": "它由 Google 开发，是闭源模型，代理编码",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 3.1 Pro",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
+    },
+    {
+      "id": "gemini-3-5-flash-lite",
+      "label": 51,
+      "name": "Gemini 3.5 Flash-Lite",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 3.5 Flash-Lite，属于 Gemini 系列，也常写作 Gemini3.5Flash-Lite",
+        "属性": "它由 Google 开发，是闭源模型，轻量",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 3.5 Flash",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemini-3-6-flash",
+      "label": 52,
+      "name": "Gemini 3.6 Flash",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 3.6 Flash，属于 Gemini 系列，也常写作 Gemini3.6Flash",
+        "属性": "它由 Google 开发，是闭源模型，最新Flash",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 3.5 Flash-Lite",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": false
     },
     {
       "id": "gemma",
-      "label": 46,
+      "label": 53,
       "name": "Gemma",
       "evidence": {
         "名称": "这个模型的全称是 Gemma，属于 Gemma 系列",
@@ -579,7 +663,7 @@
     },
     {
       "id": "gemma-2",
-      "label": 47,
+      "label": 54,
       "name": "Gemma 2",
       "evidence": {
         "名称": "这个模型的全称是 Gemma 2，属于 Gemma 系列，也常写作 Gemma2",
@@ -591,7 +675,7 @@
     },
     {
       "id": "gemma-3",
-      "label": 48,
+      "label": 55,
       "name": "Gemma 3",
       "evidence": {
         "名称": "这个模型的全称是 Gemma 3，属于 Gemma 系列，也常写作 Gemma3",
@@ -603,7 +687,7 @@
     },
     {
       "id": "palm-2",
-      "label": 49,
+      "label": 56,
       "name": "PaLM 2",
       "evidence": {
         "名称": "这个模型的全称是 PaLM 2，属于 PaLM 系列，也常写作 PaLM2",
@@ -615,7 +699,7 @@
     },
     {
       "id": "llama-1",
-      "label": 50,
+      "label": 57,
       "name": "Llama 1",
       "evidence": {
         "名称": "这个模型的全称是 Llama 1，属于 Llama 系列，也常写作 Llama1",
@@ -627,7 +711,7 @@
     },
     {
       "id": "llama-2",
-      "label": 51,
+      "label": 58,
       "name": "Llama 2",
       "evidence": {
         "名称": "这个模型的全称是 Llama 2，属于 Llama 系列，也常写作 Llama2",
@@ -639,7 +723,7 @@
     },
     {
       "id": "llama-3",
-      "label": 52,
+      "label": 59,
       "name": "Llama 3",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3，属于 Llama 系列，也常写作 Llama3",
@@ -651,7 +735,7 @@
     },
     {
       "id": "llama-3-1",
-      "label": 53,
+      "label": 60,
       "name": "Llama 3.1",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.1，属于 Llama 系列，也常写作 Llama3.1",
@@ -663,7 +747,7 @@
     },
     {
       "id": "llama-3-2",
-      "label": 54,
+      "label": 61,
       "name": "Llama 3.2",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.2，属于 Llama 系列，也常写作 Llama3.2",
@@ -675,7 +759,7 @@
     },
     {
       "id": "llama-3-3",
-      "label": 55,
+      "label": 62,
       "name": "Llama 3.3",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.3，属于 Llama 系列，也常写作 Llama3.3",
@@ -687,7 +771,7 @@
     },
     {
       "id": "llama-4-scout",
-      "label": 56,
+      "label": 63,
       "name": "Llama 4 Scout",
       "evidence": {
         "名称": "这个模型的全称是 Llama 4 Scout，属于 Llama 系列，也常写作 Llama4Scout",
@@ -699,7 +783,7 @@
     },
     {
       "id": "llama-4-maverick",
-      "label": 57,
+      "label": 64,
       "name": "Llama 4 Maverick",
       "evidence": {
         "名称": "这个模型的全称是 Llama 4 Maverick，属于 Llama 系列，也常写作 Llama4Maverick",
@@ -711,7 +795,7 @@
     },
     {
       "id": "code-llama",
-      "label": 58,
+      "label": 65,
       "name": "Code Llama",
       "evidence": {
         "名称": "这个模型的全称是 Code Llama，属于 Code Llama 系列，也常写作 CodeLlama",
@@ -723,7 +807,7 @@
     },
     {
       "id": "grok-1",
-      "label": 59,
+      "label": 66,
       "name": "Grok 1",
       "evidence": {
         "名称": "这个模型的全称是 Grok 1，属于 Grok 系列，也常写作 Grok1",
@@ -735,7 +819,7 @@
     },
     {
       "id": "grok-1-5",
-      "label": 60,
+      "label": 67,
       "name": "Grok 1.5",
       "evidence": {
         "名称": "这个模型的全称是 Grok 1.5，属于 Grok 系列，也常写作 Grok1.5",
@@ -747,7 +831,7 @@
     },
     {
       "id": "grok-2",
-      "label": 61,
+      "label": 68,
       "name": "Grok 2",
       "evidence": {
         "名称": "这个模型的全称是 Grok 2，属于 Grok 系列，也常写作 Grok2",
@@ -759,7 +843,7 @@
     },
     {
       "id": "grok-3",
-      "label": 62,
+      "label": 69,
       "name": "Grok 3",
       "evidence": {
         "名称": "这个模型的全称是 Grok 3，属于 Grok 系列，也常写作 Grok3",
@@ -771,7 +855,7 @@
     },
     {
       "id": "grok-4",
-      "label": 63,
+      "label": 70,
       "name": "Grok 4",
       "evidence": {
         "名称": "这个模型的全称是 Grok 4，属于 Grok 系列，也常写作 Grok4",
@@ -782,20 +866,20 @@
       "needs_review": false
     },
     {
-      "id": "grok-5",
-      "label": 64,
-      "name": "Grok 5",
+      "id": "grok-4-5",
+      "label": 71,
+      "name": "Grok 4.5",
       "evidence": {
-        "名称": "这个模型的全称是 Grok 5，属于 Grok 系列，也常写作 Grok5",
-        "属性": "它由 xAI 开发，是闭源模型，旗舰",
+        "名称": "这个模型的全称是 Grok 4.5，属于 Grok 系列，也常写作 Grok4.5",
+        "属性": "它由 xAI 开发，是闭源模型，当前消费级旗舰",
         "关系": "它在 Grok 系列中，前一代是 Grok 4",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "mistral-7b",
-      "label": 65,
+      "label": 72,
       "name": "Mistral 7B",
       "evidence": {
         "名称": "这个模型的全称是 Mistral 7B，属于 Mistral 系列，也常写作 Mistral7B",
@@ -807,7 +891,7 @@
     },
     {
       "id": "mixtral-8x7b",
-      "label": 66,
+      "label": 73,
       "name": "Mixtral 8x7B",
       "evidence": {
         "名称": "这个模型的全称是 Mixtral 8x7B，属于 Mistral 系列，也常写作 Mixtral8x7B",
@@ -819,7 +903,7 @@
     },
     {
       "id": "mistral-small",
-      "label": 67,
+      "label": 74,
       "name": "Mistral Small",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Small，属于 Mistral 系列，也常写作 MistralSmall",
@@ -831,7 +915,7 @@
     },
     {
       "id": "mistral-medium",
-      "label": 68,
+      "label": 75,
       "name": "Mistral Medium",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Medium，属于 Mistral 系列，也常写作 MistralMedium",
@@ -843,7 +927,7 @@
     },
     {
       "id": "mistral-large-2",
-      "label": 69,
+      "label": 76,
       "name": "Mistral Large 2",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Large 2，属于 Mistral 系列，也常写作 MistralLarge2",
@@ -855,7 +939,7 @@
     },
     {
       "id": "codestral",
-      "label": 70,
+      "label": 77,
       "name": "Codestral",
       "evidence": {
         "名称": "这个模型的全称是 Codestral，属于 Mistral 系列",
@@ -867,7 +951,7 @@
     },
     {
       "id": "mistral-nemo",
-      "label": 71,
+      "label": 78,
       "name": "Mistral Nemo",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Nemo，属于 Mistral 系列，也常写作 MistralNemo",
@@ -879,7 +963,7 @@
     },
     {
       "id": "ministral-8b",
-      "label": 72,
+      "label": 79,
       "name": "Ministral 8B",
       "evidence": {
         "名称": "这个模型的全称是 Ministral 8B，属于 Mistral 系列，也常写作 Ministral8B",
@@ -891,7 +975,7 @@
     },
     {
       "id": "pixtral",
-      "label": 73,
+      "label": 80,
       "name": "Pixtral",
       "evidence": {
         "名称": "这个模型的全称是 Pixtral，属于 Mistral 系列",
@@ -903,7 +987,7 @@
     },
     {
       "id": "mistral-small-3",
-      "label": 74,
+      "label": 81,
       "name": "Mistral Small 3",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Small 3，属于 Mistral 系列，也常写作 MistralSmall3",
@@ -915,7 +999,7 @@
     },
     {
       "id": "magistral-small",
-      "label": 75,
+      "label": 82,
       "name": "Magistral Small",
       "evidence": {
         "名称": "这个模型的全称是 Magistral Small，属于 Mistral 系列，也常写作 MagistralSmall",
@@ -927,19 +1011,19 @@
     },
     {
       "id": "mistral-large-3",
-      "label": 76,
+      "label": 83,
       "name": "Mistral Large 3",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Large 3，属于 Mistral 系列，也常写作 MistralLarge3",
-        "属性": "它由 Mistral AI 开发，是开源模型，旗舰",
+        "属性": "它由 Mistral AI 开发，是开源模型，旗舰MoE",
         "关系": "它在 Mistral 系列中，前一代是 Magistral Small",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "qwen-1",
-      "label": 77,
+      "label": 84,
       "name": "Qwen 1",
       "evidence": {
         "名称": "这个模型的全称是 Qwen 1，属于 Qwen 系列，也常写作 Qwen1",
@@ -951,7 +1035,7 @@
     },
     {
       "id": "qwen-1-5",
-      "label": 78,
+      "label": 85,
       "name": "Qwen 1.5",
       "evidence": {
         "名称": "这个模型的全称是 Qwen 1.5，属于 Qwen 系列，也常写作 Qwen1.5",
@@ -963,7 +1047,7 @@
     },
     {
       "id": "qwen2",
-      "label": 79,
+      "label": 86,
       "name": "Qwen2",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2，属于 Qwen 系列",
@@ -975,19 +1059,19 @@
     },
     {
       "id": "qwen-vl",
-      "label": 80,
+      "label": 87,
       "name": "Qwen-VL",
       "evidence": {
         "名称": "这个模型的全称是 Qwen-VL，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
         "关系": "它在 Qwen 系列中，前一代是 Qwen2",
-        "变化": "它于 2024 年发布"
+        "变化": "它于 2023 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "qwen2-5",
-      "label": 81,
+      "label": 88,
       "name": "Qwen2.5",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5，属于 Qwen 系列",
@@ -999,7 +1083,7 @@
     },
     {
       "id": "qwen2-5-coder",
-      "label": 82,
+      "label": 89,
       "name": "Qwen2.5-Coder",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5-Coder，属于 Qwen 系列",
@@ -1011,7 +1095,7 @@
     },
     {
       "id": "qwen2-5-max",
-      "label": 83,
+      "label": 90,
       "name": "Qwen2.5-Max",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5-Max，属于 Qwen 系列",
@@ -1023,7 +1107,7 @@
     },
     {
       "id": "qwq-32b",
-      "label": 84,
+      "label": 91,
       "name": "QwQ-32B",
       "evidence": {
         "名称": "这个模型的全称是 QwQ-32B，属于 Qwen 系列",
@@ -1035,7 +1119,7 @@
     },
     {
       "id": "qwen3",
-      "label": 85,
+      "label": 92,
       "name": "Qwen3",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3，属于 Qwen 系列",
@@ -1047,7 +1131,7 @@
     },
     {
       "id": "qwen3-coder",
-      "label": 86,
+      "label": 93,
       "name": "Qwen3-Coder",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3-Coder，属于 Qwen 系列",
@@ -1059,67 +1143,79 @@
     },
     {
       "id": "qwen3-5",
-      "label": 87,
+      "label": 94,
       "name": "Qwen3.5",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3.5，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
         "关系": "它在 Qwen 系列中，前一代是 Qwen3-Coder",
-        "变化": "它于 2025 年发布"
+        "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
+    },
+    {
+      "id": "qwen3-5-omni",
+      "label": 95,
+      "name": "Qwen3.5-Omni",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3.5-Omni，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，全模态",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3.5",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": false
     },
     {
       "id": "qwen3-6",
-      "label": 88,
+      "label": 96,
       "name": "Qwen3.6",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3.6，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen3.5",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3.5-Omni",
         "变化": "它于 2026 年发布"
       },
       "needs_review": true
     },
     {
       "id": "qwen3-7-max",
-      "label": 89,
+      "label": 97,
       "name": "Qwen3.7-Max",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3.7-Max，属于 Qwen 系列",
-        "属性": "它由 阿里巴巴 开发，是开源模型，闭源国产旗舰第一",
+        "属性": "它由 阿里巴巴 开发，是开源模型，闭源智能体旗舰",
         "关系": "它在 Qwen 系列中，前一代是 Qwen3.6",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
-      "id": "deepseek-v1",
-      "label": 90,
-      "name": "DeepSeek-V1",
+      "id": "deepseek-llm",
+      "label": 98,
+      "name": "DeepSeek LLM",
       "evidence": {
-        "名称": "这个模型的全称是 DeepSeek-V1，属于 DeepSeek 系列",
-        "属性": "它由 深度求索 开发，是开源模型",
+        "名称": "这个模型的全称是 DeepSeek LLM，属于 DeepSeek 系列，也常写作 DeepSeekLLM",
+        "属性": "它由 深度求索 开发，是开源模型，初代开源",
         "关系": "它在 DeepSeek 系列中，是该系列早期版本",
-        "变化": "它于 2024 年发布"
+        "变化": "它于 2023 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "deepseek-v2",
-      "label": 91,
+      "label": 99,
       "name": "DeepSeek-V2",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V2，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，MoE",
-        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V1",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek LLM",
         "变化": "它于 2024 年发布"
       },
       "needs_review": false
     },
     {
       "id": "deepseek-v2-5",
-      "label": 92,
+      "label": 100,
       "name": "DeepSeek-V2.5",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V2.5，属于 DeepSeek 系列",
@@ -1131,7 +1227,7 @@
     },
     {
       "id": "deepseek-coder-v2",
-      "label": 93,
+      "label": 101,
       "name": "DeepSeek-Coder-V2",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-Coder-V2，属于 DeepSeek 系列",
@@ -1143,7 +1239,7 @@
     },
     {
       "id": "deepseek-v3",
-      "label": 94,
+      "label": 102,
       "name": "DeepSeek-V3",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V3，属于 DeepSeek 系列",
@@ -1155,7 +1251,7 @@
     },
     {
       "id": "deepseek-r1-zero",
-      "label": 95,
+      "label": 103,
       "name": "DeepSeek-R1-Zero",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-R1-Zero，属于 DeepSeek 系列",
@@ -1167,7 +1263,7 @@
     },
     {
       "id": "deepseek-r1",
-      "label": 96,
+      "label": 104,
       "name": "DeepSeek-R1",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-R1，属于 DeepSeek 系列",
@@ -1179,7 +1275,7 @@
     },
     {
       "id": "deepseek-v3-1",
-      "label": 97,
+      "label": 105,
       "name": "DeepSeek-V3.1",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V3.1，属于 DeepSeek 系列",
@@ -1191,55 +1287,67 @@
     },
     {
       "id": "deepseek-v4",
-      "label": 98,
+      "label": 106,
       "name": "DeepSeek-V4",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V4，属于 DeepSeek 系列",
-        "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
+        "属性": "它由 深度求索 开发，是开源模型，开源预览，1M上下文",
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V3.1",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "label": 107,
+      "name": "DeepSeek-V4-Flash",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V4-Flash，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，高效轻量",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V4",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": false
     },
     {
       "id": "deepseek-v4-pro",
-      "label": 99,
+      "label": 108,
       "name": "DeepSeek-V4-Pro",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V4-Pro，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
-        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V4",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V4-Flash",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
-      "id": "kimi-k1",
-      "label": 100,
-      "name": "Kimi K1",
+      "id": "moonshot-v1",
+      "label": 109,
+      "name": "Moonshot v1",
       "evidence": {
-        "名称": "这个模型的全称是 Kimi K1，属于 Kimi 系列，也常写作 KimiK1",
-        "属性": "它由 月之暗面 开发，是开源模型",
+        "名称": "这个模型的全称是 Moonshot v1，属于 Kimi 系列，也常写作 Moonshotv1",
+        "属性": "它由 月之暗面 开发，是开源模型，初代长上下文",
         "关系": "它在 Kimi 系列中，是该系列早期版本",
-        "变化": "它于 2024 年发布"
+        "变化": "它于 2023 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "kimi-k1-5",
-      "label": 101,
+      "label": 110,
       "name": "Kimi K1.5",
       "evidence": {
         "名称": "这个模型的全称是 Kimi K1.5，属于 Kimi 系列，也常写作 KimiK1.5",
         "属性": "它由 月之暗面 开发，是开源模型，推理",
-        "关系": "它在 Kimi 系列中，前一代是 Kimi K1",
+        "关系": "它在 Kimi 系列中，前一代是 Moonshot v1",
         "变化": "它于 2025 年发布"
       },
       "needs_review": false
     },
     {
       "id": "kimi-k2",
-      "label": 102,
+      "label": 111,
       "name": "Kimi K2",
       "evidence": {
         "名称": "这个模型的全称是 Kimi K2，属于 Kimi 系列，也常写作 KimiK2",
@@ -1251,43 +1359,43 @@
     },
     {
       "id": "kimi-k2-thinking",
-      "label": 103,
+      "label": 112,
       "name": "Kimi K2 Thinking",
       "evidence": {
         "名称": "这个模型的全称是 Kimi K2 Thinking，属于 Kimi 系列，也常写作 KimiK2Thinking",
-        "属性": "它由 月之暗面 开发，是开源模型，推理",
+        "属性": "它由 月之暗面 开发，是开源模型，开源思考",
         "关系": "它在 Kimi 系列中，前一代是 Kimi K2",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "kimi-k2-5",
-      "label": 104,
+      "label": 113,
       "name": "Kimi K2.5",
       "evidence": {
         "名称": "这个模型的全称是 Kimi K2.5，属于 Kimi 系列，也常写作 KimiK2.5",
-        "属性": "它由 月之暗面 开发，是开源模型，开源旗舰",
+        "属性": "它由 月之暗面 开发，是开源模型，开源多模态Agent",
         "关系": "它在 Kimi 系列中，前一代是 Kimi K2 Thinking",
-        "变化": "它于 2025 年发布"
+        "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "kimi-k2-6",
-      "label": 105,
+      "label": 114,
       "name": "Kimi-K2.6",
       "evidence": {
         "名称": "这个模型的全称是 Kimi-K2.6，属于 Kimi 系列",
-        "属性": "它由 月之暗面 开发，是开源模型，开源旗舰",
+        "属性": "它由 月之暗面 开发，是开源模型，开源多模态Agent旗舰",
         "关系": "它在 Kimi 系列中，前一代是 Kimi K2.5",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "glm-4",
-      "label": 106,
+      "label": 115,
       "name": "GLM-4",
       "evidence": {
         "名称": "这个模型的全称是 GLM-4，属于 GLM 系列",
@@ -1299,7 +1407,7 @@
     },
     {
       "id": "glm-4-5",
-      "label": 107,
+      "label": 116,
       "name": "GLM-4.5",
       "evidence": {
         "名称": "这个模型的全称是 GLM-4.5，属于 GLM 系列",
@@ -1311,7 +1419,7 @@
     },
     {
       "id": "glm-4-5-air",
-      "label": 108,
+      "label": 117,
       "name": "GLM-4.5-Air",
       "evidence": {
         "名称": "这个模型的全称是 GLM-4.5-Air，属于 GLM 系列",
@@ -1323,7 +1431,7 @@
     },
     {
       "id": "glm-z1",
-      "label": 109,
+      "label": 118,
       "name": "GLM-Z1",
       "evidence": {
         "名称": "这个模型的全称是 GLM-Z1，属于 GLM 系列",
@@ -1335,7 +1443,7 @@
     },
     {
       "id": "glm-4-6",
-      "label": 110,
+      "label": 119,
       "name": "GLM-4.6",
       "evidence": {
         "名称": "这个模型的全称是 GLM-4.6，属于 GLM 系列",
@@ -1346,44 +1454,68 @@
       "needs_review": false
     },
     {
-      "id": "glm-5",
-      "label": 111,
-      "name": "GLM-5",
+      "id": "glm-4-7",
+      "label": 120,
+      "name": "GLM-4.7",
       "evidence": {
-        "名称": "这个模型的全称是 GLM-5，属于 GLM 系列",
-        "属性": "它由 智谱AI 开发，是开源模型",
+        "名称": "这个模型的全称是 GLM-4.7，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型，年底迭代",
         "关系": "它在 GLM 系列中，前一代是 GLM-4.6",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": true
+      "needs_review": false
+    },
+    {
+      "id": "glm-5",
+      "label": 121,
+      "name": "GLM-5",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-5，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型，开源编程Agent旗舰",
+        "关系": "它在 GLM 系列中，前一代是 GLM-4.7",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": false
     },
     {
       "id": "glm-5-1",
-      "label": 112,
+      "label": 122,
       "name": "GLM-5.1",
       "evidence": {
         "名称": "这个模型的全称是 GLM-5.1，属于 GLM 系列",
-        "属性": "它由 智谱AI 开发，是开源模型，开源",
+        "属性": "它由 智谱AI 开发，是开源模型，长程增强",
         "关系": "它在 GLM 系列中，前一代是 GLM-5",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
+    },
+    {
+      "id": "glm-5-2",
+      "label": 123,
+      "name": "GLM-5.2",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-5.2，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型，1M无损上下文",
+        "关系": "它在 GLM 系列中，前一代是 GLM-5.1",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": false
     },
     {
       "id": "glm-5-3",
-      "label": 113,
+      "label": 124,
       "name": "GLM-5.3",
       "evidence": {
         "名称": "这个模型的全称是 GLM-5.3，属于 GLM 系列",
         "属性": "它由 智谱AI 开发，是开源模型，开源编程最强",
-        "关系": "它在 GLM 系列中，前一代是 GLM-5.1",
+        "关系": "它在 GLM 系列中，前一代是 GLM-5.2",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "minimax-text-01",
-      "label": 114,
+      "label": 125,
       "name": "MiniMax Text-01",
       "evidence": {
         "名称": "这个模型的全称是 MiniMax Text-01，属于 MiniMax 系列，也常写作 MiniMaxText-01",
@@ -1395,7 +1527,7 @@
     },
     {
       "id": "minimax-m1",
-      "label": 115,
+      "label": 126,
       "name": "MiniMax M1",
       "evidence": {
         "名称": "这个模型的全称是 MiniMax M1，属于 MiniMax 系列，也常写作 MiniMaxM1",
@@ -1407,7 +1539,7 @@
     },
     {
       "id": "minimax-m2",
-      "label": 116,
+      "label": 127,
       "name": "MiniMax M2",
       "evidence": {
         "名称": "这个模型的全称是 MiniMax M2，属于 MiniMax 系列，也常写作 MiniMaxM2",
@@ -1419,31 +1551,31 @@
     },
     {
       "id": "minimax-m2-5",
-      "label": 117,
+      "label": 128,
       "name": "MiniMax M2.5",
       "evidence": {
         "名称": "这个模型的全称是 MiniMax M2.5，属于 MiniMax 系列，也常写作 MiniMaxM2.5",
         "属性": "它由 MiniMax 开发，是开源模型，开源",
         "关系": "它在 MiniMax 系列中，前一代是 MiniMax M2",
-        "变化": "它于 2025 年发布"
+        "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "minimax-m2-7",
-      "label": 118,
+      "label": 129,
       "name": "MiniMax M2.7",
       "evidence": {
         "名称": "这个模型的全称是 MiniMax M2.7，属于 MiniMax 系列，也常写作 MiniMaxM2.7",
-        "属性": "它由 MiniMax 开发，是开源模型，开源",
+        "属性": "它由 MiniMax 开发，是开源模型，Agent旗舰，自我进化",
         "关系": "它在 MiniMax 系列中，前一代是 MiniMax M2.5",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "豆包-1-0",
-      "label": 119,
+      "label": 130,
       "name": "豆包 1.0",
       "evidence": {
         "名称": "这个模型的全称是 豆包 1.0，属于 豆包 系列，也常写作 豆包1.0",
@@ -1455,7 +1587,7 @@
     },
     {
       "id": "豆包-1-5",
-      "label": 120,
+      "label": 131,
       "name": "豆包 1.5",
       "evidence": {
         "名称": "这个模型的全称是 豆包 1.5，属于 豆包 系列，也常写作 豆包1.5",
@@ -1467,55 +1599,43 @@
     },
     {
       "id": "豆包-1-5-pro",
-      "label": 121,
+      "label": 132,
       "name": "豆包 1.5 Pro",
       "evidence": {
         "名称": "这个模型的全称是 豆包 1.5 Pro，属于 豆包 系列，也常写作 豆包1.5Pro",
-        "属性": "它由 字节跳动 开发，是闭源模型，推理突出",
+        "属性": "它由 字节跳动 开发，是闭源模型，商用",
         "关系": "它在 豆包 系列中，前一代是 豆包 1.5",
-        "变化": "它于 2026 年发布"
+        "变化": "它于 2025 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "豆包-1-6",
-      "label": 122,
+      "label": 133,
       "name": "豆包 1.6",
       "evidence": {
         "名称": "这个模型的全称是 豆包 1.6，属于 豆包 系列，也常写作 豆包1.6",
-        "属性": "它由 字节跳动 开发，是闭源模型，商用旗舰",
+        "属性": "它由 字节跳动 开发，是闭源模型，256K思考模型",
         "关系": "它在 豆包 系列中，前一代是 豆包 1.5 Pro",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
-      "id": "seed-1-5",
-      "label": 123,
-      "name": "Seed 1.5",
+      "id": "豆包-2-0",
+      "label": 134,
+      "name": "豆包 2.0",
       "evidence": {
-        "名称": "这个模型的全称是 Seed 1.5，属于 Seed 系列，也常写作 Seed1.5",
-        "属性": "它由 字节跳动 开发，是闭源模型，多模态",
-        "关系": "它在 Seed 系列中，是该系列早期版本",
-        "变化": "它于 2025 年发布"
+        "名称": "这个模型的全称是 豆包 2.0，属于 豆包 系列，也常写作 豆包2.0",
+        "属性": "它由 字节跳动 开发，是闭源模型，Pro/Lite/Mini系列旗舰",
+        "关系": "它在 豆包 系列中，前一代是 豆包 1.6",
+        "变化": "它于 2026 年发布"
       },
-      "needs_review": true
-    },
-    {
-      "id": "seed-2-0",
-      "label": 124,
-      "name": "Seed 2.0",
-      "evidence": {
-        "名称": "这个模型的全称是 Seed 2.0，属于 Seed 系列，也常写作 Seed2.0",
-        "属性": "它由 字节跳动 开发，是闭源模型，多模态",
-        "关系": "它在 Seed 系列中，前一代是 Seed 1.5",
-        "变化": "它于 2025 年发布"
-      },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "混元",
-      "label": 125,
+      "label": 135,
       "name": "混元",
       "evidence": {
         "名称": "这个模型的全称是 混元，属于 混元 系列",
@@ -1527,7 +1647,7 @@
     },
     {
       "id": "混元-turbo",
-      "label": 126,
+      "label": 136,
       "name": "混元 Turbo",
       "evidence": {
         "名称": "这个模型的全称是 混元 Turbo，属于 混元 系列，也常写作 混元Turbo",
@@ -1539,7 +1659,7 @@
     },
     {
       "id": "混元-large",
-      "label": 127,
+      "label": 137,
       "name": "混元 Large",
       "evidence": {
         "名称": "这个模型的全称是 混元 Large，属于 混元 系列，也常写作 混元Large",
@@ -1551,7 +1671,7 @@
     },
     {
       "id": "混元-t1",
-      "label": 128,
+      "label": 138,
       "name": "混元 T1",
       "evidence": {
         "名称": "这个模型的全称是 混元 T1，属于 混元 系列，也常写作 混元T1",
@@ -1563,7 +1683,7 @@
     },
     {
       "id": "文心-ernie-3-0",
-      "label": 129,
+      "label": 139,
       "name": "文心 ERNIE 3.0",
       "evidence": {
         "名称": "这个模型的全称是 文心 ERNIE 3.0，属于 文心 系列，也常写作 文心ERNIE3.0",
@@ -1575,7 +1695,7 @@
     },
     {
       "id": "文心-ernie-3-5",
-      "label": 130,
+      "label": 140,
       "name": "文心 ERNIE 3.5",
       "evidence": {
         "名称": "这个模型的全称是 文心 ERNIE 3.5，属于 文心 系列，也常写作 文心ERNIE3.5",
@@ -1587,7 +1707,7 @@
     },
     {
       "id": "文心一言-4-0",
-      "label": 131,
+      "label": 141,
       "name": "文心一言 4.0",
       "evidence": {
         "名称": "这个模型的全称是 文心一言 4.0，属于 文心 系列，也常写作 文心一言4.0",
@@ -1599,7 +1719,7 @@
     },
     {
       "id": "ernie-x1",
-      "label": 132,
+      "label": 142,
       "name": "ERNIE X1",
       "evidence": {
         "名称": "这个模型的全称是 ERNIE X1，属于 文心 系列，也常写作 ERNIEX1",
@@ -1611,7 +1731,7 @@
     },
     {
       "id": "文心一言-4-5",
-      "label": 133,
+      "label": 143,
       "name": "文心一言 4.5",
       "evidence": {
         "名称": "这个模型的全称是 文心一言 4.5，属于 文心 系列，也常写作 文心一言4.5",
@@ -1623,7 +1743,7 @@
     },
     {
       "id": "文心-4-5-turbo",
-      "label": 134,
+      "label": 144,
       "name": "文心 4.5 Turbo",
       "evidence": {
         "名称": "这个模型的全称是 文心 4.5 Turbo，属于 文心 系列，也常写作 文心4.5Turbo",
@@ -1634,56 +1754,44 @@
       "needs_review": false
     },
     {
-      "id": "step-1",
-      "label": 135,
-      "name": "Step-1",
-      "evidence": {
-        "名称": "这个模型的全称是 Step-1，属于 Step 系列",
-        "属性": "它由 阶跃星辰 开发，是开源模型",
-        "关系": "它在 Step 系列中，是该系列早期版本",
-        "变化": "它于 2024 年发布"
-      },
-      "needs_review": true
-    },
-    {
       "id": "step-1v",
-      "label": 136,
+      "label": 145,
       "name": "Step-1V",
       "evidence": {
         "名称": "这个模型的全称是 Step-1V，属于 Step 系列",
         "属性": "它由 阶跃星辰 开发，是开源模型，多模态",
-        "关系": "它在 Step 系列中，前一代是 Step-1",
-        "变化": "它于 2024 年发布"
+        "关系": "它在 Step 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
       },
       "needs_review": false
     },
     {
       "id": "step-2",
-      "label": 137,
+      "label": 146,
       "name": "Step-2",
       "evidence": {
         "名称": "这个模型的全称是 Step-2，属于 Step 系列",
-        "属性": "它由 阶跃星辰 开发，是开源模型",
+        "属性": "它由 阶跃星辰 开发，是开源模型，万亿MoE",
         "关系": "它在 Step 系列中，前一代是 Step-1V",
-        "变化": "它于 2024 年发布"
+        "变化": "它于 2025 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "step-3",
-      "label": 138,
+      "label": 147,
       "name": "Step-3",
       "evidence": {
         "名称": "这个模型的全称是 Step-3，属于 Step 系列",
-        "属性": "它由 阶跃星辰 开发，是开源模型",
+        "属性": "它由 阶跃星辰 开发，是开源模型，开源多模态推理",
         "关系": "它在 Step 系列中，前一代是 Step-2",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "yi-1-5",
-      "label": 139,
+      "label": 148,
       "name": "Yi-1.5",
       "evidence": {
         "名称": "这个模型的全称是 Yi-1.5，属于 Yi 系列",
@@ -1695,7 +1803,7 @@
     },
     {
       "id": "yi-lightning",
-      "label": 140,
+      "label": 149,
       "name": "Yi-Lightning",
       "evidence": {
         "名称": "这个模型的全称是 Yi-Lightning，属于 Yi 系列",
@@ -1707,7 +1815,7 @@
     },
     {
       "id": "yi-2",
-      "label": 141,
+      "label": 150,
       "name": "Yi-2",
       "evidence": {
         "名称": "这个模型的全称是 Yi-2，属于 Yi 系列",
@@ -1719,7 +1827,7 @@
     },
     {
       "id": "baichuan-13b",
-      "label": 142,
+      "label": 151,
       "name": "Baichuan-13B",
       "evidence": {
         "名称": "这个模型的全称是 Baichuan-13B，属于 Baichuan 系列",
@@ -1731,7 +1839,7 @@
     },
     {
       "id": "baichuan2",
-      "label": 143,
+      "label": 152,
       "name": "Baichuan2",
       "evidence": {
         "名称": "这个模型的全称是 Baichuan2，属于 Baichuan 系列",
@@ -1743,7 +1851,7 @@
     },
     {
       "id": "baichuan4",
-      "label": 144,
+      "label": 153,
       "name": "Baichuan4",
       "evidence": {
         "名称": "这个模型的全称是 Baichuan4，属于 Baichuan 系列",
@@ -1755,7 +1863,7 @@
     },
     {
       "id": "skywork-13b",
-      "label": 145,
+      "label": 154,
       "name": "Skywork-13B",
       "evidence": {
         "名称": "这个模型的全称是 Skywork-13B，属于 Skywork 系列",
@@ -1766,20 +1874,20 @@
       "needs_review": false
     },
     {
-      "id": "skywork-4-0",
-      "label": 146,
-      "name": "Skywork 4.0",
+      "id": "skywork-4o",
+      "label": 155,
+      "name": "Skywork 4o",
       "evidence": {
-        "名称": "这个模型的全称是 Skywork 4.0，属于 Skywork 系列，也常写作 Skywork4.0",
-        "属性": "它由 昆仑万维 开发，是开源模型，开源",
+        "名称": "这个模型的全称是 Skywork 4o，属于 Skywork 系列，也常写作 Skywork4o",
+        "属性": "它由 昆仑万维 开发，是开源模型，天工4.0多模态，o1版开源",
         "关系": "它在 Skywork 系列中，前一代是 Skywork-13B",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "星火-v1-5",
-      "label": 147,
+      "label": 156,
       "name": "星火 V1.5",
       "evidence": {
         "名称": "这个模型的全称是 星火 V1.5，属于 星火 系列，也常写作 星火V1.5",
@@ -1791,7 +1899,7 @@
     },
     {
       "id": "星火-v2-0",
-      "label": 148,
+      "label": 157,
       "name": "星火 V2.0",
       "evidence": {
         "名称": "这个模型的全称是 星火 V2.0，属于 星火 系列，也常写作 星火V2.0",
@@ -1803,7 +1911,7 @@
     },
     {
       "id": "星火-v3-0",
-      "label": 149,
+      "label": 158,
       "name": "星火 V3.0",
       "evidence": {
         "名称": "这个模型的全称是 星火 V3.0，属于 星火 系列，也常写作 星火V3.0",
@@ -1815,7 +1923,7 @@
     },
     {
       "id": "星火-v3-5",
-      "label": 150,
+      "label": 159,
       "name": "星火 V3.5",
       "evidence": {
         "名称": "这个模型的全称是 星火 V3.5，属于 星火 系列，也常写作 星火V3.5",
@@ -1827,7 +1935,7 @@
     },
     {
       "id": "星火-4-0",
-      "label": 151,
+      "label": 160,
       "name": "星火 4.0",
       "evidence": {
         "名称": "这个模型的全称是 星火 4.0，属于 星火 系列，也常写作 星火4.0",
@@ -1839,7 +1947,7 @@
     },
     {
       "id": "星火-4-0-turbo",
-      "label": 152,
+      "label": 161,
       "name": "星火 4.0 Turbo",
       "evidence": {
         "名称": "这个模型的全称是 星火 4.0 Turbo，属于 星火 系列，也常写作 星火4.0Turbo",
@@ -1851,7 +1959,7 @@
     },
     {
       "id": "星火-x1",
-      "label": 153,
+      "label": 162,
       "name": "星火 X1",
       "evidence": {
         "名称": "这个模型的全称是 星火 X1，属于 星火 系列，也常写作 星火X1",
@@ -1863,7 +1971,7 @@
     },
     {
       "id": "internlm",
-      "label": 154,
+      "label": 163,
       "name": "InternLM",
       "evidence": {
         "名称": "这个模型的全称是 InternLM，属于 书生 系列",
@@ -1875,7 +1983,7 @@
     },
     {
       "id": "internlm2",
-      "label": 155,
+      "label": 164,
       "name": "InternLM2",
       "evidence": {
         "名称": "这个模型的全称是 InternLM2，属于 书生 系列",
@@ -1887,7 +1995,7 @@
     },
     {
       "id": "internlm2-5",
-      "label": 156,
+      "label": 165,
       "name": "InternLM2.5",
       "evidence": {
         "名称": "这个模型的全称是 InternLM2.5，属于 书生 系列",
@@ -1899,7 +2007,7 @@
     },
     {
       "id": "internvl2-5",
-      "label": 157,
+      "label": 166,
       "name": "InternVL2.5",
       "evidence": {
         "名称": "这个模型的全称是 InternVL2.5，属于 书生 系列",
@@ -1911,7 +2019,7 @@
     },
     {
       "id": "internlm3",
-      "label": 158,
+      "label": 167,
       "name": "InternLM3",
       "evidence": {
         "名称": "这个模型的全称是 InternLM3，属于 书生 系列",
@@ -1923,7 +2031,7 @@
     },
     {
       "id": "minicpm",
-      "label": 159,
+      "label": 168,
       "name": "MiniCPM",
       "evidence": {
         "名称": "这个模型的全称是 MiniCPM，属于 MiniCPM 系列",
@@ -1935,7 +2043,7 @@
     },
     {
       "id": "minicpm-v-2-6",
-      "label": 160,
+      "label": 169,
       "name": "MiniCPM-V 2.6",
       "evidence": {
         "名称": "这个模型的全称是 MiniCPM-V 2.6，属于 MiniCPM 系列，也常写作 MiniCPM-V2.6",
@@ -1947,7 +2055,7 @@
     },
     {
       "id": "minicpm3",
-      "label": 161,
+      "label": 170,
       "name": "MiniCPM3",
       "evidence": {
         "名称": "这个模型的全称是 MiniCPM3，属于 MiniCPM 系列",
@@ -1959,7 +2067,7 @@
     },
     {
       "id": "minicpm4",
-      "label": 162,
+      "label": 171,
       "name": "MiniCPM4",
       "evidence": {
         "名称": "这个模型的全称是 MiniCPM4，属于 MiniCPM 系列",
@@ -1971,19 +2079,19 @@
     },
     {
       "id": "盘古-5-0",
-      "label": 163,
+      "label": 172,
       "name": "盘古 5.0",
       "evidence": {
         "名称": "这个模型的全称是 盘古 5.0，属于 盘古 系列，也常写作 盘古5.0",
-        "属性": "它由 华为 开发，是闭源模型，行业多模态",
+        "属性": "它由 华为 开发，是闭源模型，全系列多模态强思维",
         "关系": "它在 盘古 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "phi-1",
-      "label": 164,
+      "label": 173,
       "name": "Phi-1",
       "evidence": {
         "名称": "这个模型的全称是 Phi-1，属于 Phi 系列",
@@ -1995,7 +2103,7 @@
     },
     {
       "id": "phi-1-5",
-      "label": 165,
+      "label": 174,
       "name": "Phi-1.5",
       "evidence": {
         "名称": "这个模型的全称是 Phi-1.5，属于 Phi 系列",
@@ -2007,7 +2115,7 @@
     },
     {
       "id": "phi-2",
-      "label": 166,
+      "label": 175,
       "name": "Phi-2",
       "evidence": {
         "名称": "这个模型的全称是 Phi-2，属于 Phi 系列",
@@ -2019,7 +2127,7 @@
     },
     {
       "id": "phi-3-mini",
-      "label": 167,
+      "label": 176,
       "name": "Phi-3-mini",
       "evidence": {
         "名称": "这个模型的全称是 Phi-3-mini，属于 Phi 系列",
@@ -2031,7 +2139,7 @@
     },
     {
       "id": "phi-3-small",
-      "label": 168,
+      "label": 177,
       "name": "Phi-3-small",
       "evidence": {
         "名称": "这个模型的全称是 Phi-3-small，属于 Phi 系列",
@@ -2043,7 +2151,7 @@
     },
     {
       "id": "phi-3-medium",
-      "label": 169,
+      "label": 178,
       "name": "Phi-3-medium",
       "evidence": {
         "名称": "这个模型的全称是 Phi-3-medium，属于 Phi 系列",
@@ -2055,7 +2163,7 @@
     },
     {
       "id": "phi-3-5",
-      "label": 170,
+      "label": 179,
       "name": "Phi-3.5",
       "evidence": {
         "名称": "这个模型的全称是 Phi-3.5，属于 Phi 系列",
@@ -2067,7 +2175,7 @@
     },
     {
       "id": "phi-4",
-      "label": 171,
+      "label": 180,
       "name": "Phi-4",
       "evidence": {
         "名称": "这个模型的全称是 Phi-4，属于 Phi 系列",
@@ -2079,7 +2187,7 @@
     },
     {
       "id": "phi-4-mini",
-      "label": 172,
+      "label": 181,
       "name": "Phi-4-mini",
       "evidence": {
         "名称": "这个模型的全称是 Phi-4-mini，属于 Phi 系列",
@@ -2091,7 +2199,7 @@
     },
     {
       "id": "phi-4-multimodal",
-      "label": 173,
+      "label": 182,
       "name": "Phi-4-multimodal",
       "evidence": {
         "名称": "这个模型的全称是 Phi-4-multimodal，属于 Phi 系列",
@@ -2103,7 +2211,7 @@
     },
     {
       "id": "nemotron-4-340b",
-      "label": 174,
+      "label": 183,
       "name": "Nemotron-4 340B",
       "evidence": {
         "名称": "这个模型的全称是 Nemotron-4 340B，属于 Nemotron 系列，也常写作 Nemotron-4340B",
@@ -2115,7 +2223,7 @@
     },
     {
       "id": "llama-3-1-nemotron-70b",
-      "label": 175,
+      "label": 184,
       "name": "Llama-3.1-Nemotron-70B",
       "evidence": {
         "名称": "这个模型的全称是 Llama-3.1-Nemotron-70B，属于 Nemotron 系列",
@@ -2127,7 +2235,7 @@
     },
     {
       "id": "llama-3-1-nemotron-ultra-253b",
-      "label": 176,
+      "label": 185,
       "name": "Llama-3.1-Nemotron-Ultra-253B",
       "evidence": {
         "名称": "这个模型的全称是 Llama-3.1-Nemotron-Ultra-253B，属于 Nemotron 系列",
@@ -2139,7 +2247,7 @@
     },
     {
       "id": "nova-micro",
-      "label": 177,
+      "label": 186,
       "name": "Nova Micro",
       "evidence": {
         "名称": "这个模型的全称是 Nova Micro，属于 Nova 系列，也常写作 NovaMicro",
@@ -2151,7 +2259,7 @@
     },
     {
       "id": "nova-lite",
-      "label": 178,
+      "label": 187,
       "name": "Nova Lite",
       "evidence": {
         "名称": "这个模型的全称是 Nova Lite，属于 Nova 系列，也常写作 NovaLite",
@@ -2163,7 +2271,7 @@
     },
     {
       "id": "nova-pro",
-      "label": 179,
+      "label": 188,
       "name": "Nova Pro",
       "evidence": {
         "名称": "这个模型的全称是 Nova Pro，属于 Nova 系列，也常写作 NovaPro",
@@ -2175,7 +2283,7 @@
     },
     {
       "id": "nova-premier",
-      "label": 180,
+      "label": 189,
       "name": "Nova Premier",
       "evidence": {
         "名称": "这个模型的全称是 Nova Premier，属于 Nova 系列，也常写作 NovaPremier",
@@ -2187,7 +2295,7 @@
     },
     {
       "id": "command-r",
-      "label": 181,
+      "label": 190,
       "name": "Command R",
       "evidence": {
         "名称": "这个模型的全称是 Command R，属于 Command 系列，也常写作 CommandR",
@@ -2199,7 +2307,7 @@
     },
     {
       "id": "command-r+",
-      "label": 182,
+      "label": 191,
       "name": "Command R+",
       "evidence": {
         "名称": "这个模型的全称是 Command R+，属于 Command 系列，也常写作 CommandR+",
@@ -2211,7 +2319,7 @@
     },
     {
       "id": "aya-expanse",
-      "label": 183,
+      "label": 192,
       "name": "Aya Expanse",
       "evidence": {
         "名称": "这个模型的全称是 Aya Expanse，属于 Command 系列，也常写作 AyaExpanse",
@@ -2223,7 +2331,7 @@
     },
     {
       "id": "command-r7b",
-      "label": 184,
+      "label": 193,
       "name": "Command R7B",
       "evidence": {
         "名称": "这个模型的全称是 Command R7B，属于 Command 系列，也常写作 CommandR7B",
@@ -2235,7 +2343,7 @@
     },
     {
       "id": "command-a",
-      "label": 185,
+      "label": 194,
       "name": "Command A",
       "evidence": {
         "名称": "这个模型的全称是 Command A，属于 Command 系列，也常写作 CommandA",
@@ -2247,7 +2355,7 @@
     },
     {
       "id": "jamba",
-      "label": 186,
+      "label": 195,
       "name": "Jamba",
       "evidence": {
         "名称": "这个模型的全称是 Jamba，属于 Jamba 系列",
@@ -2259,7 +2367,7 @@
     },
     {
       "id": "jamba-1-5-mini",
-      "label": 187,
+      "label": 196,
       "name": "Jamba 1.5 Mini",
       "evidence": {
         "名称": "这个模型的全称是 Jamba 1.5 Mini，属于 Jamba 系列，也常写作 Jamba1.5Mini",
@@ -2271,7 +2379,7 @@
     },
     {
       "id": "jamba-1-5-large",
-      "label": 188,
+      "label": 197,
       "name": "Jamba 1.5 Large",
       "evidence": {
         "名称": "这个模型的全称是 Jamba 1.5 Large，属于 Jamba 系列，也常写作 Jamba1.5Large",
@@ -2283,7 +2391,7 @@
     },
     {
       "id": "falcon-40b",
-      "label": 189,
+      "label": 198,
       "name": "Falcon 40B",
       "evidence": {
         "名称": "这个模型的全称是 Falcon 40B，属于 Falcon 系列，也常写作 Falcon40B",
@@ -2295,7 +2403,7 @@
     },
     {
       "id": "falcon-180b",
-      "label": 190,
+      "label": 199,
       "name": "Falcon 180B",
       "evidence": {
         "名称": "这个模型的全称是 Falcon 180B，属于 Falcon 系列，也常写作 Falcon180B",
@@ -2307,7 +2415,7 @@
     },
     {
       "id": "falcon-2",
-      "label": 191,
+      "label": 200,
       "name": "Falcon 2",
       "evidence": {
         "名称": "这个模型的全称是 Falcon 2，属于 Falcon 系列，也常写作 Falcon2",
@@ -2319,7 +2427,7 @@
     },
     {
       "id": "falcon-3",
-      "label": 192,
+      "label": 201,
       "name": "Falcon 3",
       "evidence": {
         "名称": "这个模型的全称是 Falcon 3，属于 Falcon 系列，也常写作 Falcon3",
@@ -2331,7 +2439,7 @@
     },
     {
       "id": "olmo",
-      "label": 193,
+      "label": 202,
       "name": "OLMo",
       "evidence": {
         "名称": "这个模型的全称是 OLMo，属于 OLMo 系列",
@@ -2343,7 +2451,7 @@
     },
     {
       "id": "olmo-2",
-      "label": 194,
+      "label": 203,
       "name": "OLMo 2",
       "evidence": {
         "名称": "这个模型的全称是 OLMo 2，属于 OLMo 系列，也常写作 OLMo2",
@@ -2355,7 +2463,7 @@
     },
     {
       "id": "olmo-2-32b",
-      "label": 195,
+      "label": 204,
       "name": "OLMo 2 32B",
       "evidence": {
         "名称": "这个模型的全称是 OLMo 2 32B，属于 OLMo 系列，也常写作 OLMo232B",
@@ -2367,7 +2475,7 @@
     },
     {
       "id": "smollm",
-      "label": 196,
+      "label": 205,
       "name": "SmolLM",
       "evidence": {
         "名称": "这个模型的全称是 SmolLM，属于 SmolLM 系列",
@@ -2379,7 +2487,7 @@
     },
     {
       "id": "smollm2",
-      "label": 197,
+      "label": 206,
       "name": "SmolLM2",
       "evidence": {
         "名称": "这个模型的全称是 SmolLM2，属于 SmolLM 系列",
@@ -2391,7 +2499,7 @@
     },
     {
       "id": "smollm3",
-      "label": 198,
+      "label": 207,
       "name": "SmolLM3",
       "evidence": {
         "名称": "这个模型的全称是 SmolLM3，属于 SmolLM 系列",
@@ -2403,7 +2511,7 @@
     },
     {
       "id": "dbrx",
-      "label": 199,
+      "label": 208,
       "name": "DBRX",
       "evidence": {
         "名称": "这个模型的全称是 DBRX，属于 DBRX 系列",
@@ -2415,7 +2523,7 @@
     },
     {
       "id": "exaone-3-0",
-      "label": 200,
+      "label": 209,
       "name": "EXAONE 3.0",
       "evidence": {
         "名称": "这个模型的全称是 EXAONE 3.0，属于 EXAONE 系列，也常写作 EXAONE3.0",
@@ -2427,7 +2535,7 @@
     },
     {
       "id": "exaone-3-5",
-      "label": 201,
+      "label": 210,
       "name": "EXAONE 3.5",
       "evidence": {
         "名称": "这个模型的全称是 EXAONE 3.5，属于 EXAONE 系列，也常写作 EXAONE3.5",
@@ -2439,7 +2547,7 @@
     },
     {
       "id": "exaone-4-0",
-      "label": 202,
+      "label": 211,
       "name": "EXAONE 4.0",
       "evidence": {
         "名称": "这个模型的全称是 EXAONE 4.0，属于 EXAONE 系列，也常写作 EXAONE4.0",
@@ -2453,7 +2561,7 @@
   "queries": [
     {
       "text": "OpenAI 的 GPT 系列最新模型是什么？",
-      "target_id": "gpt-5-2",
+      "target_id": "gpt-5-4",
       "kind": "known"
     },
     {
@@ -2473,7 +2581,7 @@
     },
     {
       "text": "Anthropic 的 Claude 系列最新模型是什么？",
-      "target_id": "claude-opus-4-8",
+      "target_id": "claude-opus-5",
       "kind": "known"
     },
     {
@@ -2483,7 +2591,7 @@
     },
     {
       "text": "Google 的 Gemini 系列最新模型是什么？",
-      "target_id": "gemini-3-5-flash",
+      "target_id": "gemini-3-6-flash",
       "kind": "known"
     },
     {
@@ -2533,7 +2641,7 @@
     },
     {
       "text": "xAI 的 Grok 系列最新模型是什么？",
-      "target_id": "grok-5",
+      "target_id": "grok-4-5",
       "kind": "known"
     },
     {
@@ -2603,21 +2711,11 @@
     },
     {
       "text": "字节跳动 的 豆包 系列最新模型是什么？",
-      "target_id": "豆包-1-6",
+      "target_id": "豆包-2-0",
       "kind": "known"
     },
     {
       "text": "豆包 是哪一个模型？",
-      "target_id": null,
-      "kind": "ambiguous"
-    },
-    {
-      "text": "字节跳动 的 Seed 系列最新模型是什么？",
-      "target_id": "seed-2-0",
-      "kind": "known"
-    },
-    {
-      "text": "Seed 是哪一个模型？",
       "target_id": null,
       "kind": "ambiguous"
     },
@@ -2673,7 +2771,7 @@
     },
     {
       "text": "昆仑万维 的 Skywork 系列最新模型是什么？",
-      "target_id": "skywork-4-0",
+      "target_id": "skywork-4o",
       "kind": "known"
     },
     {
@@ -2833,12 +2931,7 @@
     },
     {
       "text": "OpenAI 最新发布的旗舰模型是哪一个？",
-      "target_id": "gpt-5-2",
-      "kind": "known"
-    },
-    {
-      "text": "谷歌推出的代理编码旗舰模型叫什么？",
-      "target_id": "gemini-3-5-pro",
+      "target_id": "gpt-5-4",
       "kind": "known"
     },
     {
@@ -2862,7 +2955,7 @@
       "kind": "unknown"
     },
     {
-      "text": "Claude Opus 5 的最新版本是什么？",
+      "text": "Claude Opus 6 的发布日期是哪天？",
       "target_id": null,
       "kind": "unknown"
     },

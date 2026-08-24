@@ -99,8 +99,9 @@ D:\conda\envs\cformer-gpu\python.exe bench_v61_scale.py --scales 131072 262144 5
 同名歧义、库外未知）。`train_eval_real.py` 按 `md5(text) mod 5` 把 known 查询切成训练/留出集，
 留出集不参与训练——修复了早期"训练=评测"的泄漏。
 
-当前诚实基线（3 种子均值）：known 训练集 Top-1 99.0%，**留出集 Top-1 6.7%，盲测已知 Top-1 8.3%**
-（盲测 mean coverage 0.72）；unknown 拒答率 88.9%、盲测误支持率 5.6%。结论：小对比模型在训练
+当前诚实基线（3 种子均值，2026-08 检索核对后 212 对象版本，仅 2 条存疑标记）：
+known 训练集 Top-1 100%，**留出集 Top-1 6.7%，盲测已知 Top-1 11.1%**
+（盲测 mean coverage 0.72）；unknown 拦截率 83.3%、盲测误支持率 16.7%。结论：小对比模型在训练
 查询上是记忆而非泛化，真实泛化是下一步要解决的问题；边界拒答行为相对健康。
 
 ```powershell
