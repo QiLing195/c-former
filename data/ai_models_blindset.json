@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "dataset": "ai_models_blindset",
+    "description": "与 build_ai_models_dataset.py 生成模板隔离的人工撰写查询集",
+    "isolation_rules": [
+      "禁止复用生成模板句式（如「X 的 Y 系列最新模型是什么？」「哪个公司发布了 X 系列？」）",
+      "包含口语、别称、错字、描述性指代、中英混写",
+      "known 的 target_id 必须存在于主数据集；ambiguous/unknown 的 target_id 为 null"
+    ],
+    "queries": 24
+  },
+  "queries": [
+    {"text": "最早那版GPT是哪年发布的，叫什么名字？", "target_id": "gpt-1", "kind": "known", "note": "口语省略空格+问年份指代名称"},
+    {"text": "阿里的千问系列里，专门给程序员写代码用的是哪个？", "target_id": "qwen2-5-coder", "kind": "known", "note": "品牌俗称（千问）+用途描述"},
+    {"text": "Claude 3时代最聪明的那一档叫什么？", "target_id": "claude-3-opus", "kind": "known", "note": "时代限定+档位口语"},
+    {"text": "Meta的开原模型LLama3最新版是哪个？", "target_id": "llama-3-3", "kind": "known", "note": "错字两处（开原/LLama）"},
+    {"text": "深度求索那个纯强化学习训出来的推理试验品叫什么？", "target_id": "deepseek-r1-zero", "kind": "known", "note": "公司中文名+技术特征描述"},
+    {"text": "谷歌家主打性价比的Flash系列，二点零那一代还有个Pro版本吗？", "target_id": "gemini-2-0-pro", "kind": "known", "note": "口语数字+疑问式指代"},
+    {"text": "法国那家人工智能公司，把八个小模型拼一起的那个MoE叫啥？", "target_id": "mixtral-8x7b", "kind": "known", "note": "国籍指代+架构特征"},
+    {"text": "科大讯飞的星火大模型里，主打深度推理的型号叫什么？", "target_id": "星火-x1", "kind": "known", "note": "中文品牌+用途定位"},
+    {"text": "微软家的小钢炮系列，第四代叫Phi几？", "target_id": "phi-4", "kind": "known", "note": "品牌俗称+系列代际提问"},
+    {"text": "亚马逊Nova家族里顶配那个叫什么名字？", "target_id": "nova-premier", "kind": "known", "note": "公司+档位词"},
+    {"text": "HuggingFace自己练的超小模型第二代，叫SmolLM几？", "target_id": "smollm2", "kind": "known", "note": "机构指代+代际"},
+    {"text": "腾讯混元的推理款T1是哪一年上的？", "target_id": "混元-t1", "kind": "known", "note": "品牌+问发布年"},
+
+    {"text": "我想找那个叫Llama 4的开源模型，具体是哪个变体？", "target_id": null, "kind": "ambiguous", "note": "同名多变体歧义（Scout/Maverick）"},
+    {"text": "帮我打开Gemini 2.5", "target_id": null, "kind": "ambiguous", "note": "系列简称命中多个版本"},
+    {"text": "查一下Command", "target_id": null, "kind": "ambiguous", "note": "仅系列名，命中R/R+/A/R7B等"},
+    {"text": "文心一言4.0和4.5哪个更好用？", "target_id": null, "kind": "ambiguous", "note": "比较类问题，非对象解析意图"},
+    {"text": "OpenAI的mini型号有哪些？", "target_id": null, "kind": "ambiguous", "note": "多命中枚举请求"},
+    {"text": "InternLM和InternVL是一个东西吗？", "target_id": null, "kind": "ambiguous", "note": "易混淆对"},
+
+    {"text": "Sora 2 视频模型是什么时候发布的？", "target_id": null, "kind": "unknown", "note": "库外实体"},
+    {"text": "介绍一下Mistral Medium 3", "target_id": null, "kind": "unknown", "note": "近似但不存在的版本"},
+    {"text": "Grok 6支持多大上下文窗口？", "target_id": null, "kind": "unknown", "note": "库外版本+属性缺失"},
+    {"text": "把昨天北京天气写成一首诗", "target_id": null, "kind": "unknown", "note": "完全无关请求"},
+    {"text": "苹果的Apple Intelligence底层模型参数有多少？", "target_id": null, "kind": "unknown", "note": "库外主体"},
+    {"text": "Yi-Lightning 2比一代强多少？", "target_id": null, "kind": "unknown", "note": "不存在的迭代版本"}
+  ]
+}

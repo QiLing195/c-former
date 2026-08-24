@@ -91,6 +91,24 @@ D:\conda\envs\cformer-gpu\python.exe bench_v61_scale.py --scales 131072 262144 5
 
 规模结果与诚实边界（仍为组合语义空间）见 [`V61B_SCALE_REPORT.md`](V61B_SCALE_REPORT.md)。V6.1c 集成设计见 [`V61C_INTEGRATION_DESIGN.md`](V61C_INTEGRATION_DESIGN.md)。
 
+## 真实语料冒烟线（进行中，未晋升）
+
+`cformer_real/` 是第一条真实语料试验线：以主流 AI 大模型为对象域，`build_ai_models_dataset.py`
+展开 200+ 对象四证据数据集（`data/ai_models_dataset.json`，不确定条目标 `needs_review`），
+`data/ai_models_blindset.json` 为与生成模板隔离的人工盲测集（口语、别称、错字、描述性指代、
+同名歧义、库外未知）。`train_eval_real.py` 按 `md5(text) mod 5` 把 known 查询切成训练/留出集，
+留出集不参与训练——修复了早期"训练=评测"的泄漏。
+
+当前诚实基线（3 种子均值）：known 训练集 Top-1 99.0%，**留出集 Top-1 6.7%，盲测已知 Top-1 8.3%**
+（盲测 mean coverage 0.72）；unknown 拒答率 88.9%、盲测误支持率 5.6%。结论：小对比模型在训练
+查询上是记忆而非泛化，真实泛化是下一步要解决的问题；边界拒答行为相对健康。
+
+```powershell
+D:\conda\envs\cformer-gpu\python.exe build_ai_models_dataset.py
+D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_real.py
+D:\conda\envs\cformer-gpu\python.exe train_eval_real.py
+```
+
 ## 工程规范
 
 - 打包与依赖：`pyproject.toml`（`pip install -e .[dev]`）；

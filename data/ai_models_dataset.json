@@ -1,0 +1,2880 @@
+{
+  "meta": {
+    "dataset": "ai_models_dataset",
+    "description": "主流 AI 大模型四证据数据集（200+ 对象自动展开版）",
+    "status": "自动展开；needs_review=true 的条目在人工或检索核对前不得进入正式对象库",
+    "objects": 203,
+    "objects_verified": 168,
+    "objects_needs_review": 35,
+    "queries": {
+      "known": 40,
+      "ambiguous": 39,
+      "unknown": 6
+    }
+  },
+  "objects": [
+    {
+      "id": "gpt-1",
+      "label": 0,
+      "name": "GPT-1",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-1，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，是该系列早期版本",
+        "变化": "它于 2018 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-2",
+      "label": 1,
+      "name": "GPT-2",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-2，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-1",
+        "变化": "它于 2019 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-3",
+      "label": 2,
+      "name": "GPT-3",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-3，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-2",
+        "变化": "它于 2020 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-3-5",
+      "label": 3,
+      "name": "GPT-3.5",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-3.5，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-3",
+        "变化": "它于 2022 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-4",
+      "label": 4,
+      "name": "GPT-4",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-4，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-3.5",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-4-turbo",
+      "label": 5,
+      "name": "GPT-4 Turbo",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-4 Turbo，属于 GPT 系列，也常写作 GPT-4Turbo",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-4",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-4o",
+      "label": 6,
+      "name": "GPT-4o",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-4o，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，多模态",
+        "关系": "它在 GPT 系列中，前一代是 GPT-4 Turbo",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-4o-mini",
+      "label": 7,
+      "name": "GPT-4o mini",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-4o mini，属于 GPT 系列，也常写作 GPT-4omini",
+        "属性": "它由 OpenAI 开发，是闭源模型，轻量",
+        "关系": "它在 GPT 系列中，前一代是 GPT-4o",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-4-1",
+      "label": 8,
+      "name": "GPT-4.1",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-4.1，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-4o mini",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-5",
+      "label": 9,
+      "name": "GPT-5",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-5，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，前沿旗舰",
+        "关系": "它在 GPT 系列中，前一代是 GPT-4.1",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-5-1",
+      "label": 10,
+      "name": "GPT-5.1",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-5.1，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-5",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gpt-5-2",
+      "label": 11,
+      "name": "GPT-5.2",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-5.2，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，当前前沿闭源旗舰",
+        "关系": "它在 GPT 系列中，前一代是 GPT-5.1",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "o1",
+      "label": 12,
+      "name": "o1",
+      "evidence": {
+        "名称": "这个模型的全称是 o1，属于 o 推理 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，推理",
+        "关系": "它在 o 推理 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "o1-mini",
+      "label": 13,
+      "name": "o1-mini",
+      "evidence": {
+        "名称": "这个模型的全称是 o1-mini，属于 o 推理 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，推理轻量",
+        "关系": "它在 o 推理 系列中，前一代是 o1",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "o1-pro",
+      "label": 14,
+      "name": "o1-pro",
+      "evidence": {
+        "名称": "这个模型的全称是 o1-pro，属于 o 推理 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，推理旗舰",
+        "关系": "它在 o 推理 系列中，前一代是 o1-mini",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "o3",
+      "label": 15,
+      "name": "o3",
+      "evidence": {
+        "名称": "这个模型的全称是 o3，属于 o 推理 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，推理",
+        "关系": "它在 o 推理 系列中，前一代是 o1-pro",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "o3-mini",
+      "label": 16,
+      "name": "o3-mini",
+      "evidence": {
+        "名称": "这个模型的全称是 o3-mini，属于 o 推理 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，推理轻量",
+        "关系": "它在 o 推理 系列中，前一代是 o3",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "o4-mini",
+      "label": 17,
+      "name": "o4-mini",
+      "evidence": {
+        "名称": "这个模型的全称是 o4-mini，属于 o 推理 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，推理轻量",
+        "关系": "它在 o 推理 系列中，前一代是 o3-mini",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-1",
+      "label": 18,
+      "name": "Claude 1",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 1，属于 Claude 系列，也常写作 Claude1",
+        "属性": "它由 Anthropic 开发，是闭源模型",
+        "关系": "它在 Claude 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-2",
+      "label": 19,
+      "name": "Claude 2",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 2，属于 Claude 系列，也常写作 Claude2",
+        "属性": "它由 Anthropic 开发，是闭源模型",
+        "关系": "它在 Claude 系列中，前一代是 Claude 1",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-2-1",
+      "label": 20,
+      "name": "Claude 2.1",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 2.1，属于 Claude 系列，也常写作 Claude2.1",
+        "属性": "它由 Anthropic 开发，是闭源模型",
+        "关系": "它在 Claude 系列中，前一代是 Claude 2",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-3-opus",
+      "label": 21,
+      "name": "Claude 3 Opus",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 3 Opus，属于 Claude 系列，也常写作 Claude3Opus",
+        "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
+        "关系": "它在 Claude 系列中，前一代是 Claude 2.1",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-3-sonnet",
+      "label": 22,
+      "name": "Claude 3 Sonnet",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 3 Sonnet，属于 Claude 系列，也常写作 Claude3Sonnet",
+        "属性": "它由 Anthropic 开发，是闭源模型，均衡",
+        "关系": "它在 Claude 系列中，前一代是 Claude 3 Opus",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-3-haiku",
+      "label": 23,
+      "name": "Claude 3 Haiku",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 3 Haiku，属于 Claude 系列，也常写作 Claude3Haiku",
+        "属性": "它由 Anthropic 开发，是闭源模型，轻量",
+        "关系": "它在 Claude 系列中，前一代是 Claude 3 Sonnet",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-3-5-sonnet",
+      "label": 24,
+      "name": "Claude 3.5 Sonnet",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 3.5 Sonnet，属于 Claude 系列，也常写作 Claude3.5Sonnet",
+        "属性": "它由 Anthropic 开发，是闭源模型，均衡",
+        "关系": "它在 Claude 系列中，前一代是 Claude 3 Haiku",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-3-5-haiku",
+      "label": 25,
+      "name": "Claude 3.5 Haiku",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 3.5 Haiku，属于 Claude 系列，也常写作 Claude3.5Haiku",
+        "属性": "它由 Anthropic 开发，是闭源模型，轻量",
+        "关系": "它在 Claude 系列中，前一代是 Claude 3.5 Sonnet",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-opus-4",
+      "label": 26,
+      "name": "Claude Opus 4",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Opus 4，属于 Claude 系列，也常写作 ClaudeOpus4",
+        "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
+        "关系": "它在 Claude 系列中，前一代是 Claude 3.5 Haiku",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-sonnet-4",
+      "label": 27,
+      "name": "Claude Sonnet 4",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Sonnet 4，属于 Claude 系列，也常写作 ClaudeSonnet4",
+        "属性": "它由 Anthropic 开发，是闭源模型，均衡",
+        "关系": "它在 Claude 系列中，前一代是 Claude Opus 4",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-haiku-4",
+      "label": 28,
+      "name": "Claude Haiku 4",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Haiku 4，属于 Claude 系列，也常写作 ClaudeHaiku4",
+        "属性": "它由 Anthropic 开发，是闭源模型，轻量",
+        "关系": "它在 Claude 系列中，前一代是 Claude Sonnet 4",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-sonnet-4-5",
+      "label": 29,
+      "name": "Claude Sonnet 4.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Sonnet 4.5，属于 Claude 系列，也常写作 ClaudeSonnet4.5",
+        "属性": "它由 Anthropic 开发，是闭源模型，均衡",
+        "关系": "它在 Claude 系列中，前一代是 Claude Haiku 4",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "label": 30,
+      "name": "Claude Haiku 4.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Haiku 4.5，属于 Claude 系列，也常写作 ClaudeHaiku4.5",
+        "属性": "它由 Anthropic 开发，是闭源模型，轻量",
+        "关系": "它在 Claude 系列中，前一代是 Claude Sonnet 4.5",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "claude-opus-4-5",
+      "label": 31,
+      "name": "Claude Opus 4.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Opus 4.5，属于 Claude 系列，也常写作 ClaudeOpus4.5",
+        "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
+        "关系": "它在 Claude 系列中，前一代是 Claude Haiku 4.5",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "claude-opus-4-7",
+      "label": 32,
+      "name": "Claude Opus 4.7",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Opus 4.7，属于 Claude 系列，也常写作 ClaudeOpus4.7",
+        "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
+        "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.5",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "claude-opus-4-8",
+      "label": 33,
+      "name": "Claude Opus 4.8",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Opus 4.8，属于 Claude 系列，也常写作 ClaudeOpus4.8",
+        "属性": "它由 Anthropic 开发，是闭源模型，SWE-bench 领先",
+        "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.7",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "gemini-1-0",
+      "label": 34,
+      "name": "Gemini 1.0",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 1.0，属于 Gemini 系列，也常写作 Gemini1.0",
+        "属性": "它由 Google 开发，是闭源模型",
+        "关系": "它在 Gemini 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemini-1-5-pro",
+      "label": 35,
+      "name": "Gemini 1.5 Pro",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 1.5 Pro，属于 Gemini 系列，也常写作 Gemini1.5Pro",
+        "属性": "它由 Google 开发，是闭源模型，旗舰",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 1.0",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemini-1-5-flash",
+      "label": 36,
+      "name": "Gemini 1.5 Flash",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 1.5 Flash，属于 Gemini 系列，也常写作 Gemini1.5Flash",
+        "属性": "它由 Google 开发，是闭源模型，轻量",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 1.5 Pro",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemini-2-0-flash",
+      "label": 37,
+      "name": "Gemini 2.0 Flash",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 2.0 Flash，属于 Gemini 系列，也常写作 Gemini2.0Flash",
+        "属性": "它由 Google 开发，是闭源模型，轻量",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 1.5 Flash",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemini-2-0-pro",
+      "label": 38,
+      "name": "Gemini 2.0 Pro",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 2.0 Pro，属于 Gemini 系列，也常写作 Gemini2.0Pro",
+        "属性": "它由 Google 开发，是闭源模型，旗舰",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 2.0 Flash",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemini-2-5-pro",
+      "label": 39,
+      "name": "Gemini 2.5 Pro",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 2.5 Pro，属于 Gemini 系列，也常写作 Gemini2.5Pro",
+        "属性": "它由 Google 开发，是闭源模型，旗舰",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 2.0 Pro",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemini-2-5-flash",
+      "label": 40,
+      "name": "Gemini 2.5 Flash",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 2.5 Flash，属于 Gemini 系列，也常写作 Gemini2.5Flash",
+        "属性": "它由 Google 开发，是闭源模型，轻量",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 2.5 Pro",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemini-2-5-flash-lite",
+      "label": 41,
+      "name": "Gemini 2.5 Flash-Lite",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 2.5 Flash-Lite，属于 Gemini 系列，也常写作 Gemini2.5Flash-Lite",
+        "属性": "它由 Google 开发，是闭源模型，轻量",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 2.5 Flash",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemini-3-pro",
+      "label": 42,
+      "name": "Gemini 3 Pro",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 3 Pro，属于 Gemini 系列，也常写作 Gemini3Pro",
+        "属性": "它由 Google 开发，是闭源模型，旗舰",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 2.5 Flash-Lite",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemini-3-flash",
+      "label": 43,
+      "name": "Gemini 3 Flash",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 3 Flash，属于 Gemini 系列，也常写作 Gemini3Flash",
+        "属性": "它由 Google 开发，是闭源模型，轻量",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 3 Pro",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemini-3-5-pro",
+      "label": 44,
+      "name": "Gemini 3.5 Pro",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 3.5 Pro，属于 Gemini 系列，也常写作 Gemini3.5Pro",
+        "属性": "它由 Google 开发，是闭源模型，代理编码旗舰",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 3 Flash",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "gemini-3-5-flash",
+      "label": 45,
+      "name": "Gemini 3.5 Flash",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 3.5 Flash，属于 Gemini 系列，也常写作 Gemini3.5Flash",
+        "属性": "它由 Google 开发，是闭源模型，最快代理编码",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 3.5 Pro",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "gemma",
+      "label": 46,
+      "name": "Gemma",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemma，属于 Gemma 系列",
+        "属性": "它由 Google 开发，是开源模型，开源轻量",
+        "关系": "它在 Gemma 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemma-2",
+      "label": 47,
+      "name": "Gemma 2",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemma 2，属于 Gemma 系列，也常写作 Gemma2",
+        "属性": "它由 Google 开发，是开源模型，开源",
+        "关系": "它在 Gemma 系列中，前一代是 Gemma",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "gemma-3",
+      "label": 48,
+      "name": "Gemma 3",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemma 3，属于 Gemma 系列，也常写作 Gemma3",
+        "属性": "它由 Google 开发，是开源模型，开源多模态",
+        "关系": "它在 Gemma 系列中，前一代是 Gemma 2",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "palm-2",
+      "label": 49,
+      "name": "PaLM 2",
+      "evidence": {
+        "名称": "这个模型的全称是 PaLM 2，属于 PaLM 系列，也常写作 PaLM2",
+        "属性": "它由 Google 开发，是闭源模型，多语言",
+        "关系": "它在 PaLM 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "llama-1",
+      "label": 50,
+      "name": "Llama 1",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 1，属于 Llama 系列，也常写作 Llama1",
+        "属性": "它由 Meta 开发，是开源模型",
+        "关系": "它在 Llama 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "llama-2",
+      "label": 51,
+      "name": "Llama 2",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 2，属于 Llama 系列，也常写作 Llama2",
+        "属性": "它由 Meta 开发，是开源模型",
+        "关系": "它在 Llama 系列中，前一代是 Llama 1",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "llama-3",
+      "label": 52,
+      "name": "Llama 3",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3，属于 Llama 系列，也常写作 Llama3",
+        "属性": "它由 Meta 开发，是开源模型",
+        "关系": "它在 Llama 系列中，前一代是 Llama 2",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "llama-3-1",
+      "label": 53,
+      "name": "Llama 3.1",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.1，属于 Llama 系列，也常写作 Llama3.1",
+        "属性": "它由 Meta 开发，是开源模型",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "llama-3-2",
+      "label": 54,
+      "name": "Llama 3.2",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.2，属于 Llama 系列，也常写作 Llama3.2",
+        "属性": "它由 Meta 开发，是开源模型，多模态",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3.1",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "llama-3-3",
+      "label": 55,
+      "name": "Llama 3.3",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.3，属于 Llama 系列，也常写作 Llama3.3",
+        "属性": "它由 Meta 开发，是开源模型",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3.2",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "llama-4-scout",
+      "label": 56,
+      "name": "Llama 4 Scout",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 4 Scout，属于 Llama 系列，也常写作 Llama4Scout",
+        "属性": "它由 Meta 开发，是开源模型，开源多模态",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3.3",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "llama-4-maverick",
+      "label": 57,
+      "name": "Llama 4 Maverick",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 4 Maverick，属于 Llama 系列，也常写作 Llama4Maverick",
+        "属性": "它由 Meta 开发，是开源模型，开源多模态旗舰",
+        "关系": "它在 Llama 系列中，前一代是 Llama 4 Scout",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "code-llama",
+      "label": 58,
+      "name": "Code Llama",
+      "evidence": {
+        "名称": "这个模型的全称是 Code Llama，属于 Code Llama 系列，也常写作 CodeLlama",
+        "属性": "它由 Meta 开发，是开源模型，代码开源",
+        "关系": "它在 Code Llama 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "grok-1",
+      "label": 59,
+      "name": "Grok 1",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 1，属于 Grok 系列，也常写作 Grok1",
+        "属性": "它由 xAI 开发，是闭源模型",
+        "关系": "它在 Grok 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "grok-1-5",
+      "label": 60,
+      "name": "Grok 1.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 1.5，属于 Grok 系列，也常写作 Grok1.5",
+        "属性": "它由 xAI 开发，是闭源模型",
+        "关系": "它在 Grok 系列中，前一代是 Grok 1",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "grok-2",
+      "label": 61,
+      "name": "Grok 2",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 2，属于 Grok 系列，也常写作 Grok2",
+        "属性": "它由 xAI 开发，是闭源模型",
+        "关系": "它在 Grok 系列中，前一代是 Grok 1.5",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "grok-3",
+      "label": 62,
+      "name": "Grok 3",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 3，属于 Grok 系列，也常写作 Grok3",
+        "属性": "它由 xAI 开发，是闭源模型，旗舰",
+        "关系": "它在 Grok 系列中，前一代是 Grok 2",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "grok-4",
+      "label": 63,
+      "name": "Grok 4",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 4，属于 Grok 系列，也常写作 Grok4",
+        "属性": "它由 xAI 开发，是闭源模型，旗舰",
+        "关系": "它在 Grok 系列中，前一代是 Grok 3",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "grok-5",
+      "label": 64,
+      "name": "Grok 5",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 5，属于 Grok 系列，也常写作 Grok5",
+        "属性": "它由 xAI 开发，是闭源模型，旗舰",
+        "关系": "它在 Grok 系列中，前一代是 Grok 4",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mistral-7b",
+      "label": 65,
+      "name": "Mistral 7B",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral 7B，属于 Mistral 系列，也常写作 Mistral7B",
+        "属性": "它由 Mistral AI 开发，是开源模型",
+        "关系": "它在 Mistral 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "mixtral-8x7b",
+      "label": 66,
+      "name": "Mixtral 8x7B",
+      "evidence": {
+        "名称": "这个模型的全称是 Mixtral 8x7B，属于 Mistral 系列，也常写作 Mixtral8x7B",
+        "属性": "它由 Mistral AI 开发，是开源模型，MoE",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral 7B",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "mistral-small",
+      "label": 67,
+      "name": "Mistral Small",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Small，属于 Mistral 系列，也常写作 MistralSmall",
+        "属性": "它由 Mistral AI 开发，是开源模型，轻量",
+        "关系": "它在 Mistral 系列中，前一代是 Mixtral 8x7B",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "mistral-medium",
+      "label": 68,
+      "name": "Mistral Medium",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Medium，属于 Mistral 系列，也常写作 MistralMedium",
+        "属性": "它由 Mistral AI 开发，是开源模型，均衡",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral Small",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "mistral-large-2",
+      "label": 69,
+      "name": "Mistral Large 2",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Large 2，属于 Mistral 系列，也常写作 MistralLarge2",
+        "属性": "它由 Mistral AI 开发，是开源模型，旗舰",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral Medium",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "codestral",
+      "label": 70,
+      "name": "Codestral",
+      "evidence": {
+        "名称": "这个模型的全称是 Codestral，属于 Mistral 系列",
+        "属性": "它由 Mistral AI 开发，是开源模型，代码",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral Large 2",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "mistral-nemo",
+      "label": 71,
+      "name": "Mistral Nemo",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Nemo，属于 Mistral 系列，也常写作 MistralNemo",
+        "属性": "它由 Mistral AI 开发，是开源模型，轻量",
+        "关系": "它在 Mistral 系列中，前一代是 Codestral",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "ministral-8b",
+      "label": 72,
+      "name": "Ministral 8B",
+      "evidence": {
+        "名称": "这个模型的全称是 Ministral 8B，属于 Mistral 系列，也常写作 Ministral8B",
+        "属性": "它由 Mistral AI 开发，是开源模型，端侧边缘",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral Nemo",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "pixtral",
+      "label": 73,
+      "name": "Pixtral",
+      "evidence": {
+        "名称": "这个模型的全称是 Pixtral，属于 Mistral 系列",
+        "属性": "它由 Mistral AI 开发，是开源模型，多模态",
+        "关系": "它在 Mistral 系列中，前一代是 Ministral 8B",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "mistral-small-3",
+      "label": 74,
+      "name": "Mistral Small 3",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Small 3，属于 Mistral 系列，也常写作 MistralSmall3",
+        "属性": "它由 Mistral AI 开发，是开源模型，轻量",
+        "关系": "它在 Mistral 系列中，前一代是 Pixtral",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "magistral-small",
+      "label": 75,
+      "name": "Magistral Small",
+      "evidence": {
+        "名称": "这个模型的全称是 Magistral Small，属于 Mistral 系列，也常写作 MagistralSmall",
+        "属性": "它由 Mistral AI 开发，是开源模型，推理",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral Small 3",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "mistral-large-3",
+      "label": 76,
+      "name": "Mistral Large 3",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Large 3，属于 Mistral 系列，也常写作 MistralLarge3",
+        "属性": "它由 Mistral AI 开发，是开源模型，旗舰",
+        "关系": "它在 Mistral 系列中，前一代是 Magistral Small",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "qwen-1",
+      "label": 77,
+      "name": "Qwen 1",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen 1，属于 Qwen 系列，也常写作 Qwen1",
+        "属性": "它由 阿里巴巴 开发，是开源模型",
+        "关系": "它在 Qwen 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "qwen-1-5",
+      "label": 78,
+      "name": "Qwen 1.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen 1.5，属于 Qwen 系列，也常写作 Qwen1.5",
+        "属性": "它由 阿里巴巴 开发，是开源模型",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen 1",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "qwen2",
+      "label": 79,
+      "name": "Qwen2",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen 1.5",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "qwen-vl",
+      "label": 80,
+      "name": "Qwen-VL",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen-VL，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen2",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "qwen2-5",
+      "label": 81,
+      "name": "Qwen2.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen-VL",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "qwen2-5-coder",
+      "label": 82,
+      "name": "Qwen2.5-Coder",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5-Coder，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，编程",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "qwen2-5-max",
+      "label": 83,
+      "name": "Qwen2.5-Max",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5-Max，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，闭源旗舰",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5-Coder",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "qwq-32b",
+      "label": 84,
+      "name": "QwQ-32B",
+      "evidence": {
+        "名称": "这个模型的全称是 QwQ-32B，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，推理",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5-Max",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "qwen3",
+      "label": 85,
+      "name": "Qwen3",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
+        "关系": "它在 Qwen 系列中，前一代是 QwQ-32B",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "qwen3-coder",
+      "label": 86,
+      "name": "Qwen3-Coder",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3-Coder，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，代理编程",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "qwen3-5",
+      "label": 87,
+      "name": "Qwen3.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3.5，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3-Coder",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "qwen3-6",
+      "label": 88,
+      "name": "Qwen3.6",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3.6，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3.5",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "qwen3-7-max",
+      "label": 89,
+      "name": "Qwen3.7-Max",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3.7-Max，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，闭源国产旗舰第一",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3.6",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "deepseek-v1",
+      "label": 90,
+      "name": "DeepSeek-V1",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V1，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型",
+        "关系": "它在 DeepSeek 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "deepseek-v2",
+      "label": 91,
+      "name": "DeepSeek-V2",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V2，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，MoE",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V1",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "deepseek-v2-5",
+      "label": 92,
+      "name": "DeepSeek-V2.5",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V2.5，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V2",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "deepseek-coder-v2",
+      "label": 93,
+      "name": "DeepSeek-Coder-V2",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-Coder-V2，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，代码MoE",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V2.5",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "deepseek-v3",
+      "label": 94,
+      "name": "DeepSeek-V3",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V3，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-Coder-V2",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "deepseek-r1-zero",
+      "label": 95,
+      "name": "DeepSeek-R1-Zero",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-R1-Zero，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，推理",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V3",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "deepseek-r1",
+      "label": 96,
+      "name": "DeepSeek-R1",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-R1，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，推理",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-R1-Zero",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "deepseek-v3-1",
+      "label": 97,
+      "name": "DeepSeek-V3.1",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V3.1，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-R1",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "deepseek-v4",
+      "label": 98,
+      "name": "DeepSeek-V4",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V4，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V3.1",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "label": 99,
+      "name": "DeepSeek-V4-Pro",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V4-Pro，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V4",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "kimi-k1",
+      "label": 100,
+      "name": "Kimi K1",
+      "evidence": {
+        "名称": "这个模型的全称是 Kimi K1，属于 Kimi 系列，也常写作 KimiK1",
+        "属性": "它由 月之暗面 开发，是开源模型",
+        "关系": "它在 Kimi 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "kimi-k1-5",
+      "label": 101,
+      "name": "Kimi K1.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Kimi K1.5，属于 Kimi 系列，也常写作 KimiK1.5",
+        "属性": "它由 月之暗面 开发，是开源模型，推理",
+        "关系": "它在 Kimi 系列中，前一代是 Kimi K1",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "kimi-k2",
+      "label": 102,
+      "name": "Kimi K2",
+      "evidence": {
+        "名称": "这个模型的全称是 Kimi K2，属于 Kimi 系列，也常写作 KimiK2",
+        "属性": "它由 月之暗面 开发，是开源模型，开源",
+        "关系": "它在 Kimi 系列中，前一代是 Kimi K1.5",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "kimi-k2-thinking",
+      "label": 103,
+      "name": "Kimi K2 Thinking",
+      "evidence": {
+        "名称": "这个模型的全称是 Kimi K2 Thinking，属于 Kimi 系列，也常写作 KimiK2Thinking",
+        "属性": "它由 月之暗面 开发，是开源模型，推理",
+        "关系": "它在 Kimi 系列中，前一代是 Kimi K2",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "kimi-k2-5",
+      "label": 104,
+      "name": "Kimi K2.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Kimi K2.5，属于 Kimi 系列，也常写作 KimiK2.5",
+        "属性": "它由 月之暗面 开发，是开源模型，开源旗舰",
+        "关系": "它在 Kimi 系列中，前一代是 Kimi K2 Thinking",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "kimi-k2-6",
+      "label": 105,
+      "name": "Kimi-K2.6",
+      "evidence": {
+        "名称": "这个模型的全称是 Kimi-K2.6，属于 Kimi 系列",
+        "属性": "它由 月之暗面 开发，是开源模型，开源旗舰",
+        "关系": "它在 Kimi 系列中，前一代是 Kimi K2.5",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "glm-4",
+      "label": 106,
+      "name": "GLM-4",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-4，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型",
+        "关系": "它在 GLM 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "glm-4-5",
+      "label": 107,
+      "name": "GLM-4.5",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-4.5，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型",
+        "关系": "它在 GLM 系列中，前一代是 GLM-4",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "glm-4-5-air",
+      "label": 108,
+      "name": "GLM-4.5-Air",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-4.5-Air，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型，轻量开源",
+        "关系": "它在 GLM 系列中，前一代是 GLM-4.5",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "glm-z1",
+      "label": 109,
+      "name": "GLM-Z1",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-Z1，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型，推理",
+        "关系": "它在 GLM 系列中，前一代是 GLM-4.5-Air",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "glm-4-6",
+      "label": 110,
+      "name": "GLM-4.6",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-4.6，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型",
+        "关系": "它在 GLM 系列中，前一代是 GLM-Z1",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "glm-5",
+      "label": 111,
+      "name": "GLM-5",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-5，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型",
+        "关系": "它在 GLM 系列中，前一代是 GLM-4.6",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "glm-5-1",
+      "label": 112,
+      "name": "GLM-5.1",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-5.1，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型，开源",
+        "关系": "它在 GLM 系列中，前一代是 GLM-5",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "glm-5-3",
+      "label": 113,
+      "name": "GLM-5.3",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-5.3，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型，开源编程最强",
+        "关系": "它在 GLM 系列中，前一代是 GLM-5.1",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "minimax-text-01",
+      "label": 114,
+      "name": "MiniMax Text-01",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniMax Text-01，属于 MiniMax 系列，也常写作 MiniMaxText-01",
+        "属性": "它由 MiniMax 开发，是开源模型，长上下文",
+        "关系": "它在 MiniMax 系列中，是该系列早期版本",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "minimax-m1",
+      "label": 115,
+      "name": "MiniMax M1",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniMax M1，属于 MiniMax 系列，也常写作 MiniMaxM1",
+        "属性": "它由 MiniMax 开发，是开源模型，推理MoE",
+        "关系": "它在 MiniMax 系列中，前一代是 MiniMax Text-01",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "minimax-m2",
+      "label": 116,
+      "name": "MiniMax M2",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniMax M2，属于 MiniMax 系列，也常写作 MiniMaxM2",
+        "属性": "它由 MiniMax 开发，是开源模型，开源",
+        "关系": "它在 MiniMax 系列中，前一代是 MiniMax M1",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "minimax-m2-5",
+      "label": 117,
+      "name": "MiniMax M2.5",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniMax M2.5，属于 MiniMax 系列，也常写作 MiniMaxM2.5",
+        "属性": "它由 MiniMax 开发，是开源模型，开源",
+        "关系": "它在 MiniMax 系列中，前一代是 MiniMax M2",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "minimax-m2-7",
+      "label": 118,
+      "name": "MiniMax M2.7",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniMax M2.7，属于 MiniMax 系列，也常写作 MiniMaxM2.7",
+        "属性": "它由 MiniMax 开发，是开源模型，开源",
+        "关系": "它在 MiniMax 系列中，前一代是 MiniMax M2.5",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "豆包-1-0",
+      "label": 119,
+      "name": "豆包 1.0",
+      "evidence": {
+        "名称": "这个模型的全称是 豆包 1.0，属于 豆包 系列，也常写作 豆包1.0",
+        "属性": "它由 字节跳动 开发，是闭源模型",
+        "关系": "它在 豆包 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "豆包-1-5",
+      "label": 120,
+      "name": "豆包 1.5",
+      "evidence": {
+        "名称": "这个模型的全称是 豆包 1.5，属于 豆包 系列，也常写作 豆包1.5",
+        "属性": "它由 字节跳动 开发，是闭源模型，商用",
+        "关系": "它在 豆包 系列中，前一代是 豆包 1.0",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "豆包-1-5-pro",
+      "label": 121,
+      "name": "豆包 1.5 Pro",
+      "evidence": {
+        "名称": "这个模型的全称是 豆包 1.5 Pro，属于 豆包 系列，也常写作 豆包1.5Pro",
+        "属性": "它由 字节跳动 开发，是闭源模型，推理突出",
+        "关系": "它在 豆包 系列中，前一代是 豆包 1.5",
+        "变化": "它于 2026 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "豆包-1-6",
+      "label": 122,
+      "name": "豆包 1.6",
+      "evidence": {
+        "名称": "这个模型的全称是 豆包 1.6，属于 豆包 系列，也常写作 豆包1.6",
+        "属性": "它由 字节跳动 开发，是闭源模型，商用旗舰",
+        "关系": "它在 豆包 系列中，前一代是 豆包 1.5 Pro",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "seed-1-5",
+      "label": 123,
+      "name": "Seed 1.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Seed 1.5，属于 Seed 系列，也常写作 Seed1.5",
+        "属性": "它由 字节跳动 开发，是闭源模型，多模态",
+        "关系": "它在 Seed 系列中，是该系列早期版本",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "seed-2-0",
+      "label": 124,
+      "name": "Seed 2.0",
+      "evidence": {
+        "名称": "这个模型的全称是 Seed 2.0，属于 Seed 系列，也常写作 Seed2.0",
+        "属性": "它由 字节跳动 开发，是闭源模型，多模态",
+        "关系": "它在 Seed 系列中，前一代是 Seed 1.5",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "混元",
+      "label": 125,
+      "name": "混元",
+      "evidence": {
+        "名称": "这个模型的全称是 混元，属于 混元 系列",
+        "属性": "它由 腾讯 开发，是闭源模型",
+        "关系": "它在 混元 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "混元-turbo",
+      "label": 126,
+      "name": "混元 Turbo",
+      "evidence": {
+        "名称": "这个模型的全称是 混元 Turbo，属于 混元 系列，也常写作 混元Turbo",
+        "属性": "它由 腾讯 开发，是闭源模型，商用",
+        "关系": "它在 混元 系列中，前一代是 混元",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "混元-large",
+      "label": 127,
+      "name": "混元 Large",
+      "evidence": {
+        "名称": "这个模型的全称是 混元 Large，属于 混元 系列，也常写作 混元Large",
+        "属性": "它由 腾讯 开发，是闭源模型，商用",
+        "关系": "它在 混元 系列中，前一代是 混元 Turbo",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "混元-t1",
+      "label": 128,
+      "name": "混元 T1",
+      "evidence": {
+        "名称": "这个模型的全称是 混元 T1，属于 混元 系列，也常写作 混元T1",
+        "属性": "它由 腾讯 开发，是闭源模型，推理",
+        "关系": "它在 混元 系列中，前一代是 混元 Large",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "文心-ernie-3-0",
+      "label": 129,
+      "name": "文心 ERNIE 3.0",
+      "evidence": {
+        "名称": "这个模型的全称是 文心 ERNIE 3.0，属于 文心 系列，也常写作 文心ERNIE3.0",
+        "属性": "它由 百度 开发，是闭源模型",
+        "关系": "它在 文心 系列中，是该系列早期版本",
+        "变化": "它于 2021 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "文心-ernie-3-5",
+      "label": 130,
+      "name": "文心 ERNIE 3.5",
+      "evidence": {
+        "名称": "这个模型的全称是 文心 ERNIE 3.5，属于 文心 系列，也常写作 文心ERNIE3.5",
+        "属性": "它由 百度 开发，是闭源模型",
+        "关系": "它在 文心 系列中，前一代是 文心 ERNIE 3.0",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "文心一言-4-0",
+      "label": 131,
+      "name": "文心一言 4.0",
+      "evidence": {
+        "名称": "这个模型的全称是 文心一言 4.0，属于 文心 系列，也常写作 文心一言4.0",
+        "属性": "它由 百度 开发，是闭源模型，商用",
+        "关系": "它在 文心 系列中，前一代是 文心 ERNIE 3.5",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "ernie-x1",
+      "label": 132,
+      "name": "ERNIE X1",
+      "evidence": {
+        "名称": "这个模型的全称是 ERNIE X1，属于 文心 系列，也常写作 ERNIEX1",
+        "属性": "它由 百度 开发，是闭源模型，推理",
+        "关系": "它在 文心 系列中，前一代是 文心一言 4.0",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "文心一言-4-5",
+      "label": 133,
+      "name": "文心一言 4.5",
+      "evidence": {
+        "名称": "这个模型的全称是 文心一言 4.5，属于 文心 系列，也常写作 文心一言4.5",
+        "属性": "它由 百度 开发，是闭源模型，商用",
+        "关系": "它在 文心 系列中，前一代是 ERNIE X1",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "文心-4-5-turbo",
+      "label": 134,
+      "name": "文心 4.5 Turbo",
+      "evidence": {
+        "名称": "这个模型的全称是 文心 4.5 Turbo，属于 文心 系列，也常写作 文心4.5Turbo",
+        "属性": "它由 百度 开发，是闭源模型，商用",
+        "关系": "它在 文心 系列中，前一代是 文心一言 4.5",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "step-1",
+      "label": 135,
+      "name": "Step-1",
+      "evidence": {
+        "名称": "这个模型的全称是 Step-1，属于 Step 系列",
+        "属性": "它由 阶跃星辰 开发，是开源模型",
+        "关系": "它在 Step 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "step-1v",
+      "label": 136,
+      "name": "Step-1V",
+      "evidence": {
+        "名称": "这个模型的全称是 Step-1V，属于 Step 系列",
+        "属性": "它由 阶跃星辰 开发，是开源模型，多模态",
+        "关系": "它在 Step 系列中，前一代是 Step-1",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "step-2",
+      "label": 137,
+      "name": "Step-2",
+      "evidence": {
+        "名称": "这个模型的全称是 Step-2，属于 Step 系列",
+        "属性": "它由 阶跃星辰 开发，是开源模型",
+        "关系": "它在 Step 系列中，前一代是 Step-1V",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "step-3",
+      "label": 138,
+      "name": "Step-3",
+      "evidence": {
+        "名称": "这个模型的全称是 Step-3，属于 Step 系列",
+        "属性": "它由 阶跃星辰 开发，是开源模型",
+        "关系": "它在 Step 系列中，前一代是 Step-2",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "yi-1-5",
+      "label": 139,
+      "name": "Yi-1.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Yi-1.5，属于 Yi 系列",
+        "属性": "它由 零一万物 开发，是开源模型，开源",
+        "关系": "它在 Yi 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "yi-lightning",
+      "label": 140,
+      "name": "Yi-Lightning",
+      "evidence": {
+        "名称": "这个模型的全称是 Yi-Lightning，属于 Yi 系列",
+        "属性": "它由 零一万物 开发，是开源模型，开源",
+        "关系": "它在 Yi 系列中，前一代是 Yi-1.5",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "yi-2",
+      "label": 141,
+      "name": "Yi-2",
+      "evidence": {
+        "名称": "这个模型的全称是 Yi-2，属于 Yi 系列",
+        "属性": "它由 零一万物 开发，是开源模型，开源",
+        "关系": "它在 Yi 系列中，前一代是 Yi-Lightning",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "baichuan-13b",
+      "label": 142,
+      "name": "Baichuan-13B",
+      "evidence": {
+        "名称": "这个模型的全称是 Baichuan-13B，属于 Baichuan 系列",
+        "属性": "它由 百川智能 开发，是开源模型，开源",
+        "关系": "它在 Baichuan 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "baichuan2",
+      "label": 143,
+      "name": "Baichuan2",
+      "evidence": {
+        "名称": "这个模型的全称是 Baichuan2，属于 Baichuan 系列",
+        "属性": "它由 百川智能 开发，是开源模型，开源",
+        "关系": "它在 Baichuan 系列中，前一代是 Baichuan-13B",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "baichuan4",
+      "label": 144,
+      "name": "Baichuan4",
+      "evidence": {
+        "名称": "这个模型的全称是 Baichuan4，属于 Baichuan 系列",
+        "属性": "它由 百川智能 开发，是开源模型，开源",
+        "关系": "它在 Baichuan 系列中，前一代是 Baichuan2",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "skywork-13b",
+      "label": 145,
+      "name": "Skywork-13B",
+      "evidence": {
+        "名称": "这个模型的全称是 Skywork-13B，属于 Skywork 系列",
+        "属性": "它由 昆仑万维 开发，是开源模型，开源",
+        "关系": "它在 Skywork 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "skywork-4-0",
+      "label": 146,
+      "name": "Skywork 4.0",
+      "evidence": {
+        "名称": "这个模型的全称是 Skywork 4.0，属于 Skywork 系列，也常写作 Skywork4.0",
+        "属性": "它由 昆仑万维 开发，是开源模型，开源",
+        "关系": "它在 Skywork 系列中，前一代是 Skywork-13B",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "星火-v1-5",
+      "label": 147,
+      "name": "星火 V1.5",
+      "evidence": {
+        "名称": "这个模型的全称是 星火 V1.5，属于 星火 系列，也常写作 星火V1.5",
+        "属性": "它由 科大讯飞 开发，是闭源模型",
+        "关系": "它在 星火 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "星火-v2-0",
+      "label": 148,
+      "name": "星火 V2.0",
+      "evidence": {
+        "名称": "这个模型的全称是 星火 V2.0，属于 星火 系列，也常写作 星火V2.0",
+        "属性": "它由 科大讯飞 开发，是闭源模型",
+        "关系": "它在 星火 系列中，前一代是 星火 V1.5",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "星火-v3-0",
+      "label": 149,
+      "name": "星火 V3.0",
+      "evidence": {
+        "名称": "这个模型的全称是 星火 V3.0，属于 星火 系列，也常写作 星火V3.0",
+        "属性": "它由 科大讯飞 开发，是闭源模型",
+        "关系": "它在 星火 系列中，前一代是 星火 V2.0",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "星火-v3-5",
+      "label": 150,
+      "name": "星火 V3.5",
+      "evidence": {
+        "名称": "这个模型的全称是 星火 V3.5，属于 星火 系列，也常写作 星火V3.5",
+        "属性": "它由 科大讯飞 开发，是闭源模型",
+        "关系": "它在 星火 系列中，前一代是 星火 V3.0",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "星火-4-0",
+      "label": 151,
+      "name": "星火 4.0",
+      "evidence": {
+        "名称": "这个模型的全称是 星火 4.0，属于 星火 系列，也常写作 星火4.0",
+        "属性": "它由 科大讯飞 开发，是闭源模型，旗舰",
+        "关系": "它在 星火 系列中，前一代是 星火 V3.5",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "星火-4-0-turbo",
+      "label": 152,
+      "name": "星火 4.0 Turbo",
+      "evidence": {
+        "名称": "这个模型的全称是 星火 4.0 Turbo，属于 星火 系列，也常写作 星火4.0Turbo",
+        "属性": "它由 科大讯飞 开发，是闭源模型，商用",
+        "关系": "它在 星火 系列中，前一代是 星火 4.0",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "星火-x1",
+      "label": 153,
+      "name": "星火 X1",
+      "evidence": {
+        "名称": "这个模型的全称是 星火 X1，属于 星火 系列，也常写作 星火X1",
+        "属性": "它由 科大讯飞 开发，是闭源模型，推理",
+        "关系": "它在 星火 系列中，前一代是 星火 4.0 Turbo",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "internlm",
+      "label": 154,
+      "name": "InternLM",
+      "evidence": {
+        "名称": "这个模型的全称是 InternLM，属于 书生 系列",
+        "属性": "它由 上海人工智能实验室 开发，是开源模型",
+        "关系": "它在 书生 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "internlm2",
+      "label": 155,
+      "name": "InternLM2",
+      "evidence": {
+        "名称": "这个模型的全称是 InternLM2，属于 书生 系列",
+        "属性": "它由 上海人工智能实验室 开发，是开源模型",
+        "关系": "它在 书生 系列中，前一代是 InternLM",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "internlm2-5",
+      "label": 156,
+      "name": "InternLM2.5",
+      "evidence": {
+        "名称": "这个模型的全称是 InternLM2.5，属于 书生 系列",
+        "属性": "它由 上海人工智能实验室 开发，是开源模型",
+        "关系": "它在 书生 系列中，前一代是 InternLM2",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "internvl2-5",
+      "label": 157,
+      "name": "InternVL2.5",
+      "evidence": {
+        "名称": "这个模型的全称是 InternVL2.5，属于 书生 系列",
+        "属性": "它由 上海人工智能实验室 开发，是开源模型，多模态",
+        "关系": "它在 书生 系列中，前一代是 InternLM2.5",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "internlm3",
+      "label": 158,
+      "name": "InternLM3",
+      "evidence": {
+        "名称": "这个模型的全称是 InternLM3，属于 书生 系列",
+        "属性": "它由 上海人工智能实验室 开发，是开源模型",
+        "关系": "它在 书生 系列中，前一代是 InternVL2.5",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "minicpm",
+      "label": 159,
+      "name": "MiniCPM",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniCPM，属于 MiniCPM 系列",
+        "属性": "它由 面壁智能 开发，是开源模型，端侧",
+        "关系": "它在 MiniCPM 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "minicpm-v-2-6",
+      "label": 160,
+      "name": "MiniCPM-V 2.6",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniCPM-V 2.6，属于 MiniCPM 系列，也常写作 MiniCPM-V2.6",
+        "属性": "它由 面壁智能 开发，是开源模型，多模态端侧",
+        "关系": "它在 MiniCPM 系列中，前一代是 MiniCPM",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "minicpm3",
+      "label": 161,
+      "name": "MiniCPM3",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniCPM3，属于 MiniCPM 系列",
+        "属性": "它由 面壁智能 开发，是开源模型，端侧",
+        "关系": "它在 MiniCPM 系列中，前一代是 MiniCPM-V 2.6",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "minicpm4",
+      "label": 162,
+      "name": "MiniCPM4",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniCPM4，属于 MiniCPM 系列",
+        "属性": "它由 面壁智能 开发，是开源模型，端侧",
+        "关系": "它在 MiniCPM 系列中，前一代是 MiniCPM3",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "盘古-5-0",
+      "label": 163,
+      "name": "盘古 5.0",
+      "evidence": {
+        "名称": "这个模型的全称是 盘古 5.0，属于 盘古 系列，也常写作 盘古5.0",
+        "属性": "它由 华为 开发，是闭源模型，行业多模态",
+        "关系": "它在 盘古 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": true
+    },
+    {
+      "id": "phi-1",
+      "label": 164,
+      "name": "Phi-1",
+      "evidence": {
+        "名称": "这个模型的全称是 Phi-1，属于 Phi 系列",
+        "属性": "它由 微软 开发，是开源模型，代码",
+        "关系": "它在 Phi 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "phi-1-5",
+      "label": 165,
+      "name": "Phi-1.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Phi-1.5，属于 Phi 系列",
+        "属性": "它由 微软 开发，是开源模型",
+        "关系": "它在 Phi 系列中，前一代是 Phi-1",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "phi-2",
+      "label": 166,
+      "name": "Phi-2",
+      "evidence": {
+        "名称": "这个模型的全称是 Phi-2，属于 Phi 系列",
+        "属性": "它由 微软 开发，是开源模型，小型",
+        "关系": "它在 Phi 系列中，前一代是 Phi-1.5",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "phi-3-mini",
+      "label": 167,
+      "name": "Phi-3-mini",
+      "evidence": {
+        "名称": "这个模型的全称是 Phi-3-mini，属于 Phi 系列",
+        "属性": "它由 微软 开发，是开源模型",
+        "关系": "它在 Phi 系列中，前一代是 Phi-2",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "phi-3-small",
+      "label": 168,
+      "name": "Phi-3-small",
+      "evidence": {
+        "名称": "这个模型的全称是 Phi-3-small，属于 Phi 系列",
+        "属性": "它由 微软 开发，是开源模型",
+        "关系": "它在 Phi 系列中，前一代是 Phi-3-mini",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "phi-3-medium",
+      "label": 169,
+      "name": "Phi-3-medium",
+      "evidence": {
+        "名称": "这个模型的全称是 Phi-3-medium，属于 Phi 系列",
+        "属性": "它由 微软 开发，是开源模型",
+        "关系": "它在 Phi 系列中，前一代是 Phi-3-small",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "phi-3-5",
+      "label": 170,
+      "name": "Phi-3.5",
+      "evidence": {
+        "名称": "这个模型的全称是 Phi-3.5，属于 Phi 系列",
+        "属性": "它由 微软 开发，是开源模型",
+        "关系": "它在 Phi 系列中，前一代是 Phi-3-medium",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "phi-4",
+      "label": 171,
+      "name": "Phi-4",
+      "evidence": {
+        "名称": "这个模型的全称是 Phi-4，属于 Phi 系列",
+        "属性": "它由 微软 开发，是开源模型",
+        "关系": "它在 Phi 系列中，前一代是 Phi-3.5",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "phi-4-mini",
+      "label": 172,
+      "name": "Phi-4-mini",
+      "evidence": {
+        "名称": "这个模型的全称是 Phi-4-mini，属于 Phi 系列",
+        "属性": "它由 微软 开发，是开源模型，轻量",
+        "关系": "它在 Phi 系列中，前一代是 Phi-4",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "phi-4-multimodal",
+      "label": 173,
+      "name": "Phi-4-multimodal",
+      "evidence": {
+        "名称": "这个模型的全称是 Phi-4-multimodal，属于 Phi 系列",
+        "属性": "它由 微软 开发，是开源模型，多模态",
+        "关系": "它在 Phi 系列中，前一代是 Phi-4-mini",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "nemotron-4-340b",
+      "label": 174,
+      "name": "Nemotron-4 340B",
+      "evidence": {
+        "名称": "这个模型的全称是 Nemotron-4 340B，属于 Nemotron 系列，也常写作 Nemotron-4340B",
+        "属性": "它由 英伟达 开发，是开源模型，合成数据生成",
+        "关系": "它在 Nemotron 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "llama-3-1-nemotron-70b",
+      "label": 175,
+      "name": "Llama-3.1-Nemotron-70B",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama-3.1-Nemotron-70B，属于 Nemotron 系列",
+        "属性": "它由 英伟达 开发，是开源模型，RLHF开源权重",
+        "关系": "它在 Nemotron 系列中，前一代是 Nemotron-4 340B",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "llama-3-1-nemotron-ultra-253b",
+      "label": 176,
+      "name": "Llama-3.1-Nemotron-Ultra-253B",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama-3.1-Nemotron-Ultra-253B，属于 Nemotron 系列",
+        "属性": "它由 英伟达 开发，是开源模型，旗舰开源权重",
+        "关系": "它在 Nemotron 系列中，前一代是 Llama-3.1-Nemotron-70B",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "nova-micro",
+      "label": 177,
+      "name": "Nova Micro",
+      "evidence": {
+        "名称": "这个模型的全称是 Nova Micro，属于 Nova 系列，也常写作 NovaMicro",
+        "属性": "它由 亚马逊 开发，是闭源模型，文本轻量",
+        "关系": "它在 Nova 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "nova-lite",
+      "label": 178,
+      "name": "Nova Lite",
+      "evidence": {
+        "名称": "这个模型的全称是 Nova Lite，属于 Nova 系列，也常写作 NovaLite",
+        "属性": "它由 亚马逊 开发，是闭源模型，多模态轻量",
+        "关系": "它在 Nova 系列中，前一代是 Nova Micro",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "nova-pro",
+      "label": 179,
+      "name": "Nova Pro",
+      "evidence": {
+        "名称": "这个模型的全称是 Nova Pro，属于 Nova 系列，也常写作 NovaPro",
+        "属性": "它由 亚马逊 开发，是闭源模型，多模态均衡",
+        "关系": "它在 Nova 系列中，前一代是 Nova Lite",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "nova-premier",
+      "label": 180,
+      "name": "Nova Premier",
+      "evidence": {
+        "名称": "这个模型的全称是 Nova Premier，属于 Nova 系列，也常写作 NovaPremier",
+        "属性": "它由 亚马逊 开发，是闭源模型，旗舰",
+        "关系": "它在 Nova 系列中，前一代是 Nova Pro",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "command-r",
+      "label": 181,
+      "name": "Command R",
+      "evidence": {
+        "名称": "这个模型的全称是 Command R，属于 Command 系列，也常写作 CommandR",
+        "属性": "它由 Cohere 开发，是开源模型，检索增强",
+        "关系": "它在 Command 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "command-r+",
+      "label": 182,
+      "name": "Command R+",
+      "evidence": {
+        "名称": "这个模型的全称是 Command R+，属于 Command 系列，也常写作 CommandR+",
+        "属性": "它由 Cohere 开发，是开源模型，旗舰",
+        "关系": "它在 Command 系列中，前一代是 Command R",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "aya-expanse",
+      "label": 183,
+      "name": "Aya Expanse",
+      "evidence": {
+        "名称": "这个模型的全称是 Aya Expanse，属于 Command 系列，也常写作 AyaExpanse",
+        "属性": "它由 Cohere 开发，是开源模型，多语言",
+        "关系": "它在 Command 系列中，前一代是 Command R+",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "command-r7b",
+      "label": 184,
+      "name": "Command R7B",
+      "evidence": {
+        "名称": "这个模型的全称是 Command R7B，属于 Command 系列，也常写作 CommandR7B",
+        "属性": "它由 Cohere 开发，是开源模型，轻量",
+        "关系": "它在 Command 系列中，前一代是 Aya Expanse",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "command-a",
+      "label": 185,
+      "name": "Command A",
+      "evidence": {
+        "名称": "这个模型的全称是 Command A，属于 Command 系列，也常写作 CommandA",
+        "属性": "它由 Cohere 开发，是开源模型，代理旗舰",
+        "关系": "它在 Command 系列中，前一代是 Command R7B",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "jamba",
+      "label": 186,
+      "name": "Jamba",
+      "evidence": {
+        "名称": "这个模型的全称是 Jamba，属于 Jamba 系列",
+        "属性": "它由 AI21 Labs 开发，是开源模型，混合SSM-MoE",
+        "关系": "它在 Jamba 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "jamba-1-5-mini",
+      "label": 187,
+      "name": "Jamba 1.5 Mini",
+      "evidence": {
+        "名称": "这个模型的全称是 Jamba 1.5 Mini，属于 Jamba 系列，也常写作 Jamba1.5Mini",
+        "属性": "它由 AI21 Labs 开发，是开源模型，轻量长上下文",
+        "关系": "它在 Jamba 系列中，前一代是 Jamba",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "jamba-1-5-large",
+      "label": 188,
+      "name": "Jamba 1.5 Large",
+      "evidence": {
+        "名称": "这个模型的全称是 Jamba 1.5 Large，属于 Jamba 系列，也常写作 Jamba1.5Large",
+        "属性": "它由 AI21 Labs 开发，是开源模型，长上下文",
+        "关系": "它在 Jamba 系列中，前一代是 Jamba 1.5 Mini",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "falcon-40b",
+      "label": 189,
+      "name": "Falcon 40B",
+      "evidence": {
+        "名称": "这个模型的全称是 Falcon 40B，属于 Falcon 系列，也常写作 Falcon40B",
+        "属性": "它由 TII 开发，是开源模型，开源",
+        "关系": "它在 Falcon 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "falcon-180b",
+      "label": 190,
+      "name": "Falcon 180B",
+      "evidence": {
+        "名称": "这个模型的全称是 Falcon 180B，属于 Falcon 系列，也常写作 Falcon180B",
+        "属性": "它由 TII 开发，是开源模型，旗舰",
+        "关系": "它在 Falcon 系列中，前一代是 Falcon 40B",
+        "变化": "它于 2023 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "falcon-2",
+      "label": 191,
+      "name": "Falcon 2",
+      "evidence": {
+        "名称": "这个模型的全称是 Falcon 2，属于 Falcon 系列，也常写作 Falcon2",
+        "属性": "它由 TII 开发，是开源模型，多模态",
+        "关系": "它在 Falcon 系列中，前一代是 Falcon 180B",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "falcon-3",
+      "label": 192,
+      "name": "Falcon 3",
+      "evidence": {
+        "名称": "这个模型的全称是 Falcon 3，属于 Falcon 系列，也常写作 Falcon3",
+        "属性": "它由 TII 开发，是开源模型，轻量系列",
+        "关系": "它在 Falcon 系列中，前一代是 Falcon 2",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "olmo",
+      "label": 193,
+      "name": "OLMo",
+      "evidence": {
+        "名称": "这个模型的全称是 OLMo，属于 OLMo 系列",
+        "属性": "它由 Ai2 开发，是开源模型，完全开源",
+        "关系": "它在 OLMo 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "olmo-2",
+      "label": 194,
+      "name": "OLMo 2",
+      "evidence": {
+        "名称": "这个模型的全称是 OLMo 2，属于 OLMo 系列，也常写作 OLMo2",
+        "属性": "它由 Ai2 开发，是开源模型",
+        "关系": "它在 OLMo 系列中，前一代是 OLMo",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "olmo-2-32b",
+      "label": 195,
+      "name": "OLMo 2 32B",
+      "evidence": {
+        "名称": "这个模型的全称是 OLMo 2 32B，属于 OLMo 系列，也常写作 OLMo232B",
+        "属性": "它由 Ai2 开发，是开源模型，旗舰",
+        "关系": "它在 OLMo 系列中，前一代是 OLMo 2",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "smollm",
+      "label": 196,
+      "name": "SmolLM",
+      "evidence": {
+        "名称": "这个模型的全称是 SmolLM，属于 SmolLM 系列",
+        "属性": "它由 Hugging Face 开发，是开源模型，超小型",
+        "关系": "它在 SmolLM 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "smollm2",
+      "label": 197,
+      "name": "SmolLM2",
+      "evidence": {
+        "名称": "这个模型的全称是 SmolLM2，属于 SmolLM 系列",
+        "属性": "它由 Hugging Face 开发，是开源模型，超小型",
+        "关系": "它在 SmolLM 系列中，前一代是 SmolLM",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "smollm3",
+      "label": 198,
+      "name": "SmolLM3",
+      "evidence": {
+        "名称": "这个模型的全称是 SmolLM3，属于 SmolLM 系列",
+        "属性": "它由 Hugging Face 开发，是开源模型",
+        "关系": "它在 SmolLM 系列中，前一代是 SmolLM2",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "dbrx",
+      "label": 199,
+      "name": "DBRX",
+      "evidence": {
+        "名称": "这个模型的全称是 DBRX，属于 DBRX 系列",
+        "属性": "它由 Databricks 开发，是开源模型，MoE",
+        "关系": "它在 DBRX 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "exaone-3-0",
+      "label": 200,
+      "name": "EXAONE 3.0",
+      "evidence": {
+        "名称": "这个模型的全称是 EXAONE 3.0，属于 EXAONE 系列，也常写作 EXAONE3.0",
+        "属性": "它由 LG AI研究院 开发，是开源模型",
+        "关系": "它在 EXAONE 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "exaone-3-5",
+      "label": 201,
+      "name": "EXAONE 3.5",
+      "evidence": {
+        "名称": "这个模型的全称是 EXAONE 3.5，属于 EXAONE 系列，也常写作 EXAONE3.5",
+        "属性": "它由 LG AI研究院 开发，是开源模型",
+        "关系": "它在 EXAONE 系列中，前一代是 EXAONE 3.0",
+        "变化": "它于 2024 年发布"
+      },
+      "needs_review": false
+    },
+    {
+      "id": "exaone-4-0",
+      "label": 202,
+      "name": "EXAONE 4.0",
+      "evidence": {
+        "名称": "这个模型的全称是 EXAONE 4.0，属于 EXAONE 系列，也常写作 EXAONE4.0",
+        "属性": "它由 LG AI研究院 开发，是开源模型",
+        "关系": "它在 EXAONE 系列中，前一代是 EXAONE 3.5",
+        "变化": "它于 2025 年发布"
+      },
+      "needs_review": false
+    }
+  ],
+  "queries": [
+    {
+      "text": "OpenAI 的 GPT 系列最新模型是什么？",
+      "target_id": "gpt-5-2",
+      "kind": "known"
+    },
+    {
+      "text": "GPT 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "OpenAI 的 o 推理 系列最新模型是什么？",
+      "target_id": "o4-mini",
+      "kind": "known"
+    },
+    {
+      "text": "o 推理 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "Anthropic 的 Claude 系列最新模型是什么？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known"
+    },
+    {
+      "text": "Claude 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "Google 的 Gemini 系列最新模型是什么？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known"
+    },
+    {
+      "text": "Gemini 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "Google 的 Gemma 系列最新模型是什么？",
+      "target_id": "gemma-3",
+      "kind": "known"
+    },
+    {
+      "text": "Gemma 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "Google 的 PaLM 系列最新模型是什么？",
+      "target_id": "palm-2",
+      "kind": "known"
+    },
+    {
+      "text": "PaLM 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "Meta 的 Llama 系列最新模型是什么？",
+      "target_id": "llama-4-maverick",
+      "kind": "known"
+    },
+    {
+      "text": "Llama 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "Meta 的 Code Llama 系列最新模型是什么？",
+      "target_id": "code-llama",
+      "kind": "known"
+    },
+    {
+      "text": "Code Llama 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "xAI 的 Grok 系列最新模型是什么？",
+      "target_id": "grok-5",
+      "kind": "known"
+    },
+    {
+      "text": "Grok 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "Mistral AI 的 Mistral 系列最新模型是什么？",
+      "target_id": "mistral-large-3",
+      "kind": "known"
+    },
+    {
+      "text": "Mistral 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "阿里巴巴 的 Qwen 系列最新模型是什么？",
+      "target_id": "qwen3-7-max",
+      "kind": "known"
+    },
+    {
+      "text": "Qwen 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "深度求索 的 DeepSeek 系列最新模型是什么？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known"
+    },
+    {
+      "text": "DeepSeek 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "月之暗面 的 Kimi 系列最新模型是什么？",
+      "target_id": "kimi-k2-6",
+      "kind": "known"
+    },
+    {
+      "text": "Kimi 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "智谱AI 的 GLM 系列最新模型是什么？",
+      "target_id": "glm-5-3",
+      "kind": "known"
+    },
+    {
+      "text": "GLM 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "MiniMax 的 MiniMax 系列最新模型是什么？",
+      "target_id": "minimax-m2-7",
+      "kind": "known"
+    },
+    {
+      "text": "MiniMax 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "字节跳动 的 豆包 系列最新模型是什么？",
+      "target_id": "豆包-1-6",
+      "kind": "known"
+    },
+    {
+      "text": "豆包 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "字节跳动 的 Seed 系列最新模型是什么？",
+      "target_id": "seed-2-0",
+      "kind": "known"
+    },
+    {
+      "text": "Seed 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "腾讯 的 混元 系列最新模型是什么？",
+      "target_id": "混元-t1",
+      "kind": "known"
+    },
+    {
+      "text": "混元 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "百度 的 文心 系列最新模型是什么？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known"
+    },
+    {
+      "text": "文心 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "阶跃星辰 的 Step 系列最新模型是什么？",
+      "target_id": "step-3",
+      "kind": "known"
+    },
+    {
+      "text": "Step 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "零一万物 的 Yi 系列最新模型是什么？",
+      "target_id": "yi-2",
+      "kind": "known"
+    },
+    {
+      "text": "Yi 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "百川智能 的 Baichuan 系列最新模型是什么？",
+      "target_id": "baichuan4",
+      "kind": "known"
+    },
+    {
+      "text": "Baichuan 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "昆仑万维 的 Skywork 系列最新模型是什么？",
+      "target_id": "skywork-4-0",
+      "kind": "known"
+    },
+    {
+      "text": "Skywork 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "科大讯飞 的 星火 系列最新模型是什么？",
+      "target_id": "星火-x1",
+      "kind": "known"
+    },
+    {
+      "text": "星火 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "上海人工智能实验室 的 书生 系列最新模型是什么？",
+      "target_id": "internlm3",
+      "kind": "known"
+    },
+    {
+      "text": "书生 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "面壁智能 的 MiniCPM 系列最新模型是什么？",
+      "target_id": "minicpm4",
+      "kind": "known"
+    },
+    {
+      "text": "MiniCPM 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "华为 的 盘古 系列最新模型是什么？",
+      "target_id": "盘古-5-0",
+      "kind": "known"
+    },
+    {
+      "text": "盘古 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "微软 的 Phi 系列最新模型是什么？",
+      "target_id": "phi-4-multimodal",
+      "kind": "known"
+    },
+    {
+      "text": "Phi 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "英伟达 的 Nemotron 系列最新模型是什么？",
+      "target_id": "llama-3-1-nemotron-ultra-253b",
+      "kind": "known"
+    },
+    {
+      "text": "Nemotron 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "亚马逊 的 Nova 系列最新模型是什么？",
+      "target_id": "nova-premier",
+      "kind": "known"
+    },
+    {
+      "text": "Nova 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "Cohere 的 Command 系列最新模型是什么？",
+      "target_id": "command-a",
+      "kind": "known"
+    },
+    {
+      "text": "Command 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "AI21 Labs 的 Jamba 系列最新模型是什么？",
+      "target_id": "jamba-1-5-large",
+      "kind": "known"
+    },
+    {
+      "text": "Jamba 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "TII 的 Falcon 系列最新模型是什么？",
+      "target_id": "falcon-3",
+      "kind": "known"
+    },
+    {
+      "text": "Falcon 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "Ai2 的 OLMo 系列最新模型是什么？",
+      "target_id": "olmo-2-32b",
+      "kind": "known"
+    },
+    {
+      "text": "OLMo 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "Hugging Face 的 SmolLM 系列最新模型是什么？",
+      "target_id": "smollm3",
+      "kind": "known"
+    },
+    {
+      "text": "SmolLM 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "Databricks 的 DBRX 系列最新模型是什么？",
+      "target_id": "dbrx",
+      "kind": "known"
+    },
+    {
+      "text": "DBRX 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "LG AI研究院 的 EXAONE 系列最新模型是什么？",
+      "target_id": "exaone-4-0",
+      "kind": "known"
+    },
+    {
+      "text": "EXAONE 是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "阿里巴巴登顶国产第一的模型是什么？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "哪个公司发布了 Claude 系列？",
+      "target_id": null,
+      "kind": "ambiguous"
+    },
+    {
+      "text": "OpenAI 最新发布的旗舰模型是哪一个？",
+      "target_id": "gpt-5-2",
+      "kind": "known"
+    },
+    {
+      "text": "谷歌推出的代理编码旗舰模型叫什么？",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known"
+    },
+    {
+      "text": "Meta 最新的开源模型叫什么？",
+      "target_id": "llama-4-maverick",
+      "kind": "known"
+    },
+    {
+      "text": "GPT-6 是什么时候发布的？",
+      "target_id": null,
+      "kind": "unknown"
+    },
+    {
+      "text": "介绍一下百度的文心 5.0",
+      "target_id": null,
+      "kind": "unknown"
+    },
+    {
+      "text": "OpenAI 的 o5 推理模型参数量是多少？",
+      "target_id": null,
+      "kind": "unknown"
+    },
+    {
+      "text": "Claude Opus 5 的最新版本是什么？",
+      "target_id": null,
+      "kind": "unknown"
+    },
+    {
+      "text": "Mistral 的 Medium 最新型号是什么？",
+      "target_id": null,
+      "kind": "unknown"
+    },
+    {
+      "text": "帮我写一段关于秋天的散文",
+      "target_id": null,
+      "kind": "unknown"
+    }
+  ]
+}
