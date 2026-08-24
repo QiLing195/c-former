@@ -52,6 +52,25 @@ class AIModelWorld:
             for index, obj in enumerate(objects)
         ]
         self._label_by_id = {obj.object_id: obj.label for obj in self.objects}
+        metas = [obj.get("meta") or {} for obj in objects]
+        groups: dict[tuple, list[int]] = {}
+        for index, meta in enumerate(metas):
+            key = (meta.get("company"), meta.get("series"))
+            if key != (None, None):
+                groups.setdefault(key, []).append(index)
+        self._siblings_by_label: dict[int, list[int]] = {
+            label: [item for item in members if item != label]
+            for members in groups.values()
+            for label in members
+        }
+
+    def series_siblings(self, label: int) -> list[int]:
+        """Labels sharing the same (company, series), excluding the object itself.
+
+        Returns [] for objects without meta; used to sample hard negatives so
+        training must discriminate near-identical evidence instead of memorizing.
+        """
+        return self._siblings_by_label.get(label, [])
 
     def encode_candidates(self, objects: list[AIModelObject]) -> torch.Tensor:
         rows = []

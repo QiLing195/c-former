@@ -74,6 +74,42 @@ def test_blindset_targets_valid_and_template_isolated() -> None:
             assert fragment not in query["text"], query["text"]
 
 
+def test_paraphrase_variants_stay_in_vocabulary() -> None:
+    from cformer_real import query_variants
+
+    world = _load()
+    raw = _raw()
+    checked = 0
+    for query in raw["queries"]:
+        if query.get("meta"):
+            variants = query_variants(query["text"], query["meta"])
+            assert len(variants) == 5
+            assert query["text"] == variants[0]
+            for variant in variants:
+                _, coverage = world.tokenizer.encode(variant, world.query_length)
+                assert coverage == 1.0, variant
+                checked += 1
+    assert checked >= 100
+
+
+def test_series_siblings_exclude_self_and_share_meta() -> None:
+    world = _load()
+    raw = _raw()
+    label = world.target_label("qwen3")
+    siblings = world.series_siblings(label)
+    assert label not in siblings
+    assert len(siblings) >= 5
+    meta_by_id = {obj["id"]: obj.get("meta", {}) for obj in raw["objects"]}
+    target_meta = meta_by_id["qwen3"]
+    for sibling in siblings:
+        sibling_id = world.objects[sibling].object_id
+        assert meta_by_id[sibling_id]["series"] == target_meta["series"]
+    # 无 meta 的对象没有兄弟
+    hand_written = [obj for obj in raw["objects"] if not obj.get("meta")]
+    if hand_written:
+        assert world.series_siblings(world.target_label(hand_written[0]["id"])) == []
+
+
 def test_encoding_is_label_invariant() -> None:
     import torch
 

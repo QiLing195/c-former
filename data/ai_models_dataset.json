@@ -23,7 +23,13 @@
         "关系": "它在 GPT 系列中，是该系列早期版本",
         "变化": "它于 2018 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-2",
@@ -35,7 +41,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-1",
         "变化": "它于 2019 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-3",
@@ -47,7 +59,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-2",
         "变化": "它于 2020 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-3-5",
@@ -59,7 +77,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-3",
         "变化": "它于 2022 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-4",
@@ -71,7 +95,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-3.5",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-4-turbo",
@@ -83,7 +113,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-4",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-4o",
@@ -95,7 +131,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-4 Turbo",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-4o-mini",
@@ -107,7 +149,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-4o",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-4-1",
@@ -119,7 +167,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-4o mini",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-5",
@@ -131,7 +185,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-4.1",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-5-1",
@@ -143,7 +203,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-5",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-5-2",
@@ -155,7 +221,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-5.1",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "gpt-5-4",
@@ -167,7 +239,13 @@
         "关系": "它在 GPT 系列中，前一代是 GPT-5.2",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "GPT"
+      }
     },
     {
       "id": "o1",
@@ -179,7 +257,13 @@
         "关系": "它在 o 推理 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "o 推理"
+      }
     },
     {
       "id": "o1-mini",
@@ -191,7 +275,13 @@
         "关系": "它在 o 推理 系列中，前一代是 o1",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "o 推理"
+      }
     },
     {
       "id": "o1-pro",
@@ -203,7 +293,13 @@
         "关系": "它在 o 推理 系列中，前一代是 o1-mini",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "o 推理"
+      }
     },
     {
       "id": "o3",
@@ -215,7 +311,13 @@
         "关系": "它在 o 推理 系列中，前一代是 o1-pro",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "o 推理"
+      }
     },
     {
       "id": "o3-mini",
@@ -227,7 +329,13 @@
         "关系": "它在 o 推理 系列中，前一代是 o3",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "o 推理"
+      }
     },
     {
       "id": "o4-mini",
@@ -239,7 +347,13 @@
         "关系": "它在 o 推理 系列中，前一代是 o3-mini",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "OpenAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "o 推理"
+      }
     },
     {
       "id": "claude-1",
@@ -251,7 +365,13 @@
         "关系": "它在 Claude 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-2",
@@ -263,7 +383,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude 1",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-2-1",
@@ -275,7 +401,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude 2",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-3-opus",
@@ -287,7 +419,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude 2.1",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-3-sonnet",
@@ -299,7 +437,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude 3 Opus",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-3-haiku",
@@ -311,7 +455,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude 3 Sonnet",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-3-5-sonnet",
@@ -323,7 +473,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude 3 Haiku",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-3-5-haiku",
@@ -335,7 +491,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude 3.5 Sonnet",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-opus-4",
@@ -347,7 +509,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude 3.5 Haiku",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-sonnet-4",
@@ -359,7 +527,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Opus 4",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-haiku-4",
@@ -371,7 +545,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Sonnet 4",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-sonnet-4-5",
@@ -383,7 +563,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Haiku 4",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-haiku-4-5",
@@ -395,7 +581,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Sonnet 4.5",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-opus-4-5",
@@ -407,7 +599,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Haiku 4.5",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-opus-4-6",
@@ -419,7 +617,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.5",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-sonnet-4-6",
@@ -431,7 +635,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.6",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-opus-4-7",
@@ -443,7 +653,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Sonnet 4.6",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-opus-4-8",
@@ -455,7 +671,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.7",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-sonnet-5",
@@ -467,7 +689,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.8",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "claude-opus-5",
@@ -479,7 +707,13 @@
         "关系": "它在 Claude 系列中，前一代是 Claude Sonnet 5",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Anthropic",
+        "region": "美国",
+        "open_source": false,
+        "series": "Claude"
+      }
     },
     {
       "id": "gemini-1-0",
@@ -491,7 +725,13 @@
         "关系": "它在 Gemini 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-1-5-pro",
@@ -503,7 +743,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 1.0",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-1-5-flash",
@@ -515,7 +761,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 1.5 Pro",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-2-0-flash",
@@ -527,7 +779,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 1.5 Flash",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-2-0-pro",
@@ -539,7 +797,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 2.0 Flash",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-2-5-pro",
@@ -551,7 +815,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 2.0 Pro",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-2-5-flash",
@@ -563,7 +833,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 2.5 Pro",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-2-5-flash-lite",
@@ -575,7 +851,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 2.5 Flash",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-3-pro",
@@ -587,7 +869,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 2.5 Flash-Lite",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-3-flash",
@@ -599,7 +887,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 3 Pro",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-3-1-pro",
@@ -611,7 +905,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 3 Flash",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-3-5-flash",
@@ -623,7 +923,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 3.1 Pro",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-3-5-flash-lite",
@@ -635,7 +941,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 3.5 Flash",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemini-3-6-flash",
@@ -647,7 +959,13 @@
         "关系": "它在 Gemini 系列中，前一代是 Gemini 3.5 Flash-Lite",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "Gemini"
+      }
     },
     {
       "id": "gemma",
@@ -659,7 +977,13 @@
         "关系": "它在 Gemma 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": true,
+        "series": "Gemma"
+      }
     },
     {
       "id": "gemma-2",
@@ -671,7 +995,13 @@
         "关系": "它在 Gemma 系列中，前一代是 Gemma",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": true,
+        "series": "Gemma"
+      }
     },
     {
       "id": "gemma-3",
@@ -683,7 +1013,13 @@
         "关系": "它在 Gemma 系列中，前一代是 Gemma 2",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": true,
+        "series": "Gemma"
+      }
     },
     {
       "id": "palm-2",
@@ -695,7 +1031,13 @@
         "关系": "它在 PaLM 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Google",
+        "region": "美国",
+        "open_source": false,
+        "series": "PaLM"
+      }
     },
     {
       "id": "llama-1",
@@ -707,7 +1049,13 @@
         "关系": "它在 Llama 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Meta",
+        "region": "美国",
+        "open_source": true,
+        "series": "Llama"
+      }
     },
     {
       "id": "llama-2",
@@ -719,7 +1067,13 @@
         "关系": "它在 Llama 系列中，前一代是 Llama 1",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Meta",
+        "region": "美国",
+        "open_source": true,
+        "series": "Llama"
+      }
     },
     {
       "id": "llama-3",
@@ -731,7 +1085,13 @@
         "关系": "它在 Llama 系列中，前一代是 Llama 2",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Meta",
+        "region": "美国",
+        "open_source": true,
+        "series": "Llama"
+      }
     },
     {
       "id": "llama-3-1",
@@ -743,7 +1103,13 @@
         "关系": "它在 Llama 系列中，前一代是 Llama 3",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Meta",
+        "region": "美国",
+        "open_source": true,
+        "series": "Llama"
+      }
     },
     {
       "id": "llama-3-2",
@@ -755,7 +1121,13 @@
         "关系": "它在 Llama 系列中，前一代是 Llama 3.1",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Meta",
+        "region": "美国",
+        "open_source": true,
+        "series": "Llama"
+      }
     },
     {
       "id": "llama-3-3",
@@ -767,7 +1139,13 @@
         "关系": "它在 Llama 系列中，前一代是 Llama 3.2",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Meta",
+        "region": "美国",
+        "open_source": true,
+        "series": "Llama"
+      }
     },
     {
       "id": "llama-4-scout",
@@ -779,7 +1157,13 @@
         "关系": "它在 Llama 系列中，前一代是 Llama 3.3",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Meta",
+        "region": "美国",
+        "open_source": true,
+        "series": "Llama"
+      }
     },
     {
       "id": "llama-4-maverick",
@@ -791,7 +1175,13 @@
         "关系": "它在 Llama 系列中，前一代是 Llama 4 Scout",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Meta",
+        "region": "美国",
+        "open_source": true,
+        "series": "Llama"
+      }
     },
     {
       "id": "code-llama",
@@ -803,7 +1193,13 @@
         "关系": "它在 Code Llama 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Meta",
+        "region": "美国",
+        "open_source": true,
+        "series": "Code Llama"
+      }
     },
     {
       "id": "grok-1",
@@ -815,7 +1211,13 @@
         "关系": "它在 Grok 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "xAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "Grok"
+      }
     },
     {
       "id": "grok-1-5",
@@ -827,7 +1229,13 @@
         "关系": "它在 Grok 系列中，前一代是 Grok 1",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "xAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "Grok"
+      }
     },
     {
       "id": "grok-2",
@@ -839,7 +1247,13 @@
         "关系": "它在 Grok 系列中，前一代是 Grok 1.5",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "xAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "Grok"
+      }
     },
     {
       "id": "grok-3",
@@ -851,7 +1265,13 @@
         "关系": "它在 Grok 系列中，前一代是 Grok 2",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "xAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "Grok"
+      }
     },
     {
       "id": "grok-4",
@@ -863,7 +1283,13 @@
         "关系": "它在 Grok 系列中，前一代是 Grok 3",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "xAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "Grok"
+      }
     },
     {
       "id": "grok-4-5",
@@ -875,7 +1301,13 @@
         "关系": "它在 Grok 系列中，前一代是 Grok 4",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "xAI",
+        "region": "美国",
+        "open_source": false,
+        "series": "Grok"
+      }
     },
     {
       "id": "mistral-7b",
@@ -887,7 +1319,13 @@
         "关系": "它在 Mistral 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "mixtral-8x7b",
@@ -899,7 +1337,13 @@
         "关系": "它在 Mistral 系列中，前一代是 Mistral 7B",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "mistral-small",
@@ -911,7 +1355,13 @@
         "关系": "它在 Mistral 系列中，前一代是 Mixtral 8x7B",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "mistral-medium",
@@ -923,7 +1373,13 @@
         "关系": "它在 Mistral 系列中，前一代是 Mistral Small",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "mistral-large-2",
@@ -935,7 +1391,13 @@
         "关系": "它在 Mistral 系列中，前一代是 Mistral Medium",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "codestral",
@@ -947,7 +1409,13 @@
         "关系": "它在 Mistral 系列中，前一代是 Mistral Large 2",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "mistral-nemo",
@@ -959,7 +1427,13 @@
         "关系": "它在 Mistral 系列中，前一代是 Codestral",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "ministral-8b",
@@ -971,7 +1445,13 @@
         "关系": "它在 Mistral 系列中，前一代是 Mistral Nemo",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "pixtral",
@@ -983,7 +1463,13 @@
         "关系": "它在 Mistral 系列中，前一代是 Ministral 8B",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "mistral-small-3",
@@ -995,7 +1481,13 @@
         "关系": "它在 Mistral 系列中，前一代是 Pixtral",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "magistral-small",
@@ -1007,7 +1499,13 @@
         "关系": "它在 Mistral 系列中，前一代是 Mistral Small 3",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "mistral-large-3",
@@ -1019,7 +1517,13 @@
         "关系": "它在 Mistral 系列中，前一代是 Magistral Small",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Mistral AI",
+        "region": "法国",
+        "open_source": true,
+        "series": "Mistral"
+      }
     },
     {
       "id": "qwen-1",
@@ -1031,7 +1535,13 @@
         "关系": "它在 Qwen 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen-1-5",
@@ -1043,7 +1553,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen 1",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen2",
@@ -1055,7 +1571,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen 1.5",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen-vl",
@@ -1067,7 +1589,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen2",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen2-5",
@@ -1079,7 +1607,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen-VL",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen2-5-coder",
@@ -1091,7 +1625,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen2.5",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen2-5-max",
@@ -1103,7 +1643,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen2.5-Coder",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwq-32b",
@@ -1115,7 +1661,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen2.5-Max",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen3",
@@ -1127,7 +1679,13 @@
         "关系": "它在 Qwen 系列中，前一代是 QwQ-32B",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen3-coder",
@@ -1139,7 +1697,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen3",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen3-5",
@@ -1151,7 +1715,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen3-Coder",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen3-5-omni",
@@ -1163,7 +1733,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen3.5",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen3-6",
@@ -1175,7 +1751,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen3.5-Omni",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": true
+      "needs_review": true,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "qwen3-7-max",
@@ -1187,7 +1769,13 @@
         "关系": "它在 Qwen 系列中，前一代是 Qwen3.6",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阿里巴巴",
+        "region": "中国",
+        "open_source": true,
+        "series": "Qwen"
+      }
     },
     {
       "id": "deepseek-llm",
@@ -1199,7 +1787,13 @@
         "关系": "它在 DeepSeek 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "深度求索",
+        "region": "中国",
+        "open_source": true,
+        "series": "DeepSeek"
+      }
     },
     {
       "id": "deepseek-v2",
@@ -1211,7 +1805,13 @@
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek LLM",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "深度求索",
+        "region": "中国",
+        "open_source": true,
+        "series": "DeepSeek"
+      }
     },
     {
       "id": "deepseek-v2-5",
@@ -1223,7 +1823,13 @@
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V2",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "深度求索",
+        "region": "中国",
+        "open_source": true,
+        "series": "DeepSeek"
+      }
     },
     {
       "id": "deepseek-coder-v2",
@@ -1235,7 +1841,13 @@
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V2.5",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "深度求索",
+        "region": "中国",
+        "open_source": true,
+        "series": "DeepSeek"
+      }
     },
     {
       "id": "deepseek-v3",
@@ -1247,7 +1859,13 @@
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-Coder-V2",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "深度求索",
+        "region": "中国",
+        "open_source": true,
+        "series": "DeepSeek"
+      }
     },
     {
       "id": "deepseek-r1-zero",
@@ -1259,7 +1877,13 @@
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V3",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "深度求索",
+        "region": "中国",
+        "open_source": true,
+        "series": "DeepSeek"
+      }
     },
     {
       "id": "deepseek-r1",
@@ -1271,7 +1895,13 @@
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-R1-Zero",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "深度求索",
+        "region": "中国",
+        "open_source": true,
+        "series": "DeepSeek"
+      }
     },
     {
       "id": "deepseek-v3-1",
@@ -1283,7 +1913,13 @@
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-R1",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "深度求索",
+        "region": "中国",
+        "open_source": true,
+        "series": "DeepSeek"
+      }
     },
     {
       "id": "deepseek-v4",
@@ -1295,7 +1931,13 @@
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V3.1",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "深度求索",
+        "region": "中国",
+        "open_source": true,
+        "series": "DeepSeek"
+      }
     },
     {
       "id": "deepseek-v4-flash",
@@ -1307,7 +1949,13 @@
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V4",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "深度求索",
+        "region": "中国",
+        "open_source": true,
+        "series": "DeepSeek"
+      }
     },
     {
       "id": "deepseek-v4-pro",
@@ -1319,7 +1967,13 @@
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V4-Flash",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "深度求索",
+        "region": "中国",
+        "open_source": true,
+        "series": "DeepSeek"
+      }
     },
     {
       "id": "moonshot-v1",
@@ -1331,7 +1985,13 @@
         "关系": "它在 Kimi 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "月之暗面",
+        "region": "中国",
+        "open_source": true,
+        "series": "Kimi"
+      }
     },
     {
       "id": "kimi-k1-5",
@@ -1343,7 +2003,13 @@
         "关系": "它在 Kimi 系列中，前一代是 Moonshot v1",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "月之暗面",
+        "region": "中国",
+        "open_source": true,
+        "series": "Kimi"
+      }
     },
     {
       "id": "kimi-k2",
@@ -1355,7 +2021,13 @@
         "关系": "它在 Kimi 系列中，前一代是 Kimi K1.5",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "月之暗面",
+        "region": "中国",
+        "open_source": true,
+        "series": "Kimi"
+      }
     },
     {
       "id": "kimi-k2-thinking",
@@ -1367,7 +2039,13 @@
         "关系": "它在 Kimi 系列中，前一代是 Kimi K2",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "月之暗面",
+        "region": "中国",
+        "open_source": true,
+        "series": "Kimi"
+      }
     },
     {
       "id": "kimi-k2-5",
@@ -1379,7 +2057,13 @@
         "关系": "它在 Kimi 系列中，前一代是 Kimi K2 Thinking",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "月之暗面",
+        "region": "中国",
+        "open_source": true,
+        "series": "Kimi"
+      }
     },
     {
       "id": "kimi-k2-6",
@@ -1391,7 +2075,13 @@
         "关系": "它在 Kimi 系列中，前一代是 Kimi K2.5",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "月之暗面",
+        "region": "中国",
+        "open_source": true,
+        "series": "Kimi"
+      }
     },
     {
       "id": "glm-4",
@@ -1403,7 +2093,13 @@
         "关系": "它在 GLM 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "智谱AI",
+        "region": "中国",
+        "open_source": true,
+        "series": "GLM"
+      }
     },
     {
       "id": "glm-4-5",
@@ -1415,7 +2111,13 @@
         "关系": "它在 GLM 系列中，前一代是 GLM-4",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "智谱AI",
+        "region": "中国",
+        "open_source": true,
+        "series": "GLM"
+      }
     },
     {
       "id": "glm-4-5-air",
@@ -1427,7 +2129,13 @@
         "关系": "它在 GLM 系列中，前一代是 GLM-4.5",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "智谱AI",
+        "region": "中国",
+        "open_source": true,
+        "series": "GLM"
+      }
     },
     {
       "id": "glm-z1",
@@ -1439,7 +2147,13 @@
         "关系": "它在 GLM 系列中，前一代是 GLM-4.5-Air",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "智谱AI",
+        "region": "中国",
+        "open_source": true,
+        "series": "GLM"
+      }
     },
     {
       "id": "glm-4-6",
@@ -1451,7 +2165,13 @@
         "关系": "它在 GLM 系列中，前一代是 GLM-Z1",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "智谱AI",
+        "region": "中国",
+        "open_source": true,
+        "series": "GLM"
+      }
     },
     {
       "id": "glm-4-7",
@@ -1463,7 +2183,13 @@
         "关系": "它在 GLM 系列中，前一代是 GLM-4.6",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "智谱AI",
+        "region": "中国",
+        "open_source": true,
+        "series": "GLM"
+      }
     },
     {
       "id": "glm-5",
@@ -1475,7 +2201,13 @@
         "关系": "它在 GLM 系列中，前一代是 GLM-4.7",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "智谱AI",
+        "region": "中国",
+        "open_source": true,
+        "series": "GLM"
+      }
     },
     {
       "id": "glm-5-1",
@@ -1487,7 +2219,13 @@
         "关系": "它在 GLM 系列中，前一代是 GLM-5",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "智谱AI",
+        "region": "中国",
+        "open_source": true,
+        "series": "GLM"
+      }
     },
     {
       "id": "glm-5-2",
@@ -1499,7 +2237,13 @@
         "关系": "它在 GLM 系列中，前一代是 GLM-5.1",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "智谱AI",
+        "region": "中国",
+        "open_source": true,
+        "series": "GLM"
+      }
     },
     {
       "id": "glm-5-3",
@@ -1511,7 +2255,13 @@
         "关系": "它在 GLM 系列中，前一代是 GLM-5.2",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "智谱AI",
+        "region": "中国",
+        "open_source": true,
+        "series": "GLM"
+      }
     },
     {
       "id": "minimax-text-01",
@@ -1523,7 +2273,13 @@
         "关系": "它在 MiniMax 系列中，是该系列早期版本",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "MiniMax",
+        "region": "中国",
+        "open_source": true,
+        "series": "MiniMax"
+      }
     },
     {
       "id": "minimax-m1",
@@ -1535,7 +2291,13 @@
         "关系": "它在 MiniMax 系列中，前一代是 MiniMax Text-01",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "MiniMax",
+        "region": "中国",
+        "open_source": true,
+        "series": "MiniMax"
+      }
     },
     {
       "id": "minimax-m2",
@@ -1547,7 +2309,13 @@
         "关系": "它在 MiniMax 系列中，前一代是 MiniMax M1",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "MiniMax",
+        "region": "中国",
+        "open_source": true,
+        "series": "MiniMax"
+      }
     },
     {
       "id": "minimax-m2-5",
@@ -1559,7 +2327,13 @@
         "关系": "它在 MiniMax 系列中，前一代是 MiniMax M2",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "MiniMax",
+        "region": "中国",
+        "open_source": true,
+        "series": "MiniMax"
+      }
     },
     {
       "id": "minimax-m2-7",
@@ -1571,7 +2345,13 @@
         "关系": "它在 MiniMax 系列中，前一代是 MiniMax M2.5",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "MiniMax",
+        "region": "中国",
+        "open_source": true,
+        "series": "MiniMax"
+      }
     },
     {
       "id": "豆包-1-0",
@@ -1583,7 +2363,13 @@
         "关系": "它在 豆包 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "字节跳动",
+        "region": "中国",
+        "open_source": false,
+        "series": "豆包"
+      }
     },
     {
       "id": "豆包-1-5",
@@ -1595,7 +2381,13 @@
         "关系": "它在 豆包 系列中，前一代是 豆包 1.0",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "字节跳动",
+        "region": "中国",
+        "open_source": false,
+        "series": "豆包"
+      }
     },
     {
       "id": "豆包-1-5-pro",
@@ -1607,7 +2399,13 @@
         "关系": "它在 豆包 系列中，前一代是 豆包 1.5",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "字节跳动",
+        "region": "中国",
+        "open_source": false,
+        "series": "豆包"
+      }
     },
     {
       "id": "豆包-1-6",
@@ -1619,7 +2417,13 @@
         "关系": "它在 豆包 系列中，前一代是 豆包 1.5 Pro",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "字节跳动",
+        "region": "中国",
+        "open_source": false,
+        "series": "豆包"
+      }
     },
     {
       "id": "豆包-2-0",
@@ -1631,7 +2435,13 @@
         "关系": "它在 豆包 系列中，前一代是 豆包 1.6",
         "变化": "它于 2026 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "字节跳动",
+        "region": "中国",
+        "open_source": false,
+        "series": "豆包"
+      }
     },
     {
       "id": "混元",
@@ -1643,7 +2453,13 @@
         "关系": "它在 混元 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "腾讯",
+        "region": "中国",
+        "open_source": false,
+        "series": "混元"
+      }
     },
     {
       "id": "混元-turbo",
@@ -1655,7 +2471,13 @@
         "关系": "它在 混元 系列中，前一代是 混元",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "腾讯",
+        "region": "中国",
+        "open_source": false,
+        "series": "混元"
+      }
     },
     {
       "id": "混元-large",
@@ -1667,7 +2489,13 @@
         "关系": "它在 混元 系列中，前一代是 混元 Turbo",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "腾讯",
+        "region": "中国",
+        "open_source": false,
+        "series": "混元"
+      }
     },
     {
       "id": "混元-t1",
@@ -1679,7 +2507,13 @@
         "关系": "它在 混元 系列中，前一代是 混元 Large",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "腾讯",
+        "region": "中国",
+        "open_source": false,
+        "series": "混元"
+      }
     },
     {
       "id": "文心-ernie-3-0",
@@ -1691,7 +2525,13 @@
         "关系": "它在 文心 系列中，是该系列早期版本",
         "变化": "它于 2021 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "百度",
+        "region": "中国",
+        "open_source": false,
+        "series": "文心"
+      }
     },
     {
       "id": "文心-ernie-3-5",
@@ -1703,7 +2543,13 @@
         "关系": "它在 文心 系列中，前一代是 文心 ERNIE 3.0",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "百度",
+        "region": "中国",
+        "open_source": false,
+        "series": "文心"
+      }
     },
     {
       "id": "文心一言-4-0",
@@ -1715,7 +2561,13 @@
         "关系": "它在 文心 系列中，前一代是 文心 ERNIE 3.5",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "百度",
+        "region": "中国",
+        "open_source": false,
+        "series": "文心"
+      }
     },
     {
       "id": "ernie-x1",
@@ -1727,7 +2579,13 @@
         "关系": "它在 文心 系列中，前一代是 文心一言 4.0",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "百度",
+        "region": "中国",
+        "open_source": false,
+        "series": "文心"
+      }
     },
     {
       "id": "文心一言-4-5",
@@ -1739,7 +2597,13 @@
         "关系": "它在 文心 系列中，前一代是 ERNIE X1",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "百度",
+        "region": "中国",
+        "open_source": false,
+        "series": "文心"
+      }
     },
     {
       "id": "文心-4-5-turbo",
@@ -1751,7 +2615,13 @@
         "关系": "它在 文心 系列中，前一代是 文心一言 4.5",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "百度",
+        "region": "中国",
+        "open_source": false,
+        "series": "文心"
+      }
     },
     {
       "id": "step-1v",
@@ -1763,7 +2633,13 @@
         "关系": "它在 Step 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阶跃星辰",
+        "region": "中国",
+        "open_source": true,
+        "series": "Step"
+      }
     },
     {
       "id": "step-2",
@@ -1775,7 +2651,13 @@
         "关系": "它在 Step 系列中，前一代是 Step-1V",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阶跃星辰",
+        "region": "中国",
+        "open_source": true,
+        "series": "Step"
+      }
     },
     {
       "id": "step-3",
@@ -1787,7 +2669,13 @@
         "关系": "它在 Step 系列中，前一代是 Step-2",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "阶跃星辰",
+        "region": "中国",
+        "open_source": true,
+        "series": "Step"
+      }
     },
     {
       "id": "yi-1-5",
@@ -1799,7 +2687,13 @@
         "关系": "它在 Yi 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "零一万物",
+        "region": "中国",
+        "open_source": true,
+        "series": "Yi"
+      }
     },
     {
       "id": "yi-lightning",
@@ -1811,7 +2705,13 @@
         "关系": "它在 Yi 系列中，前一代是 Yi-1.5",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "零一万物",
+        "region": "中国",
+        "open_source": true,
+        "series": "Yi"
+      }
     },
     {
       "id": "yi-2",
@@ -1823,7 +2723,13 @@
         "关系": "它在 Yi 系列中，前一代是 Yi-Lightning",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": true
+      "needs_review": true,
+      "meta": {
+        "company": "零一万物",
+        "region": "中国",
+        "open_source": true,
+        "series": "Yi"
+      }
     },
     {
       "id": "baichuan-13b",
@@ -1835,7 +2741,13 @@
         "关系": "它在 Baichuan 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "百川智能",
+        "region": "中国",
+        "open_source": true,
+        "series": "Baichuan"
+      }
     },
     {
       "id": "baichuan2",
@@ -1847,7 +2759,13 @@
         "关系": "它在 Baichuan 系列中，前一代是 Baichuan-13B",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "百川智能",
+        "region": "中国",
+        "open_source": true,
+        "series": "Baichuan"
+      }
     },
     {
       "id": "baichuan4",
@@ -1859,7 +2777,13 @@
         "关系": "它在 Baichuan 系列中，前一代是 Baichuan2",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "百川智能",
+        "region": "中国",
+        "open_source": true,
+        "series": "Baichuan"
+      }
     },
     {
       "id": "skywork-13b",
@@ -1871,7 +2795,13 @@
         "关系": "它在 Skywork 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "昆仑万维",
+        "region": "中国",
+        "open_source": true,
+        "series": "Skywork"
+      }
     },
     {
       "id": "skywork-4o",
@@ -1883,7 +2813,13 @@
         "关系": "它在 Skywork 系列中，前一代是 Skywork-13B",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "昆仑万维",
+        "region": "中国",
+        "open_source": true,
+        "series": "Skywork"
+      }
     },
     {
       "id": "星火-v1-5",
@@ -1895,7 +2831,13 @@
         "关系": "它在 星火 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "科大讯飞",
+        "region": "中国",
+        "open_source": false,
+        "series": "星火"
+      }
     },
     {
       "id": "星火-v2-0",
@@ -1907,7 +2849,13 @@
         "关系": "它在 星火 系列中，前一代是 星火 V1.5",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "科大讯飞",
+        "region": "中国",
+        "open_source": false,
+        "series": "星火"
+      }
     },
     {
       "id": "星火-v3-0",
@@ -1919,7 +2867,13 @@
         "关系": "它在 星火 系列中，前一代是 星火 V2.0",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "科大讯飞",
+        "region": "中国",
+        "open_source": false,
+        "series": "星火"
+      }
     },
     {
       "id": "星火-v3-5",
@@ -1931,7 +2885,13 @@
         "关系": "它在 星火 系列中，前一代是 星火 V3.0",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "科大讯飞",
+        "region": "中国",
+        "open_source": false,
+        "series": "星火"
+      }
     },
     {
       "id": "星火-4-0",
@@ -1943,7 +2903,13 @@
         "关系": "它在 星火 系列中，前一代是 星火 V3.5",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "科大讯飞",
+        "region": "中国",
+        "open_source": false,
+        "series": "星火"
+      }
     },
     {
       "id": "星火-4-0-turbo",
@@ -1955,7 +2921,13 @@
         "关系": "它在 星火 系列中，前一代是 星火 4.0",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "科大讯飞",
+        "region": "中国",
+        "open_source": false,
+        "series": "星火"
+      }
     },
     {
       "id": "星火-x1",
@@ -1967,7 +2939,13 @@
         "关系": "它在 星火 系列中，前一代是 星火 4.0 Turbo",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "科大讯飞",
+        "region": "中国",
+        "open_source": false,
+        "series": "星火"
+      }
     },
     {
       "id": "internlm",
@@ -1979,7 +2957,13 @@
         "关系": "它在 书生 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "上海人工智能实验室",
+        "region": "中国",
+        "open_source": true,
+        "series": "书生"
+      }
     },
     {
       "id": "internlm2",
@@ -1991,7 +2975,13 @@
         "关系": "它在 书生 系列中，前一代是 InternLM",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "上海人工智能实验室",
+        "region": "中国",
+        "open_source": true,
+        "series": "书生"
+      }
     },
     {
       "id": "internlm2-5",
@@ -2003,7 +2993,13 @@
         "关系": "它在 书生 系列中，前一代是 InternLM2",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "上海人工智能实验室",
+        "region": "中国",
+        "open_source": true,
+        "series": "书生"
+      }
     },
     {
       "id": "internvl2-5",
@@ -2015,7 +3011,13 @@
         "关系": "它在 书生 系列中，前一代是 InternLM2.5",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "上海人工智能实验室",
+        "region": "中国",
+        "open_source": true,
+        "series": "书生"
+      }
     },
     {
       "id": "internlm3",
@@ -2027,7 +3029,13 @@
         "关系": "它在 书生 系列中，前一代是 InternVL2.5",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "上海人工智能实验室",
+        "region": "中国",
+        "open_source": true,
+        "series": "书生"
+      }
     },
     {
       "id": "minicpm",
@@ -2039,7 +3047,13 @@
         "关系": "它在 MiniCPM 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "面壁智能",
+        "region": "中国",
+        "open_source": true,
+        "series": "MiniCPM"
+      }
     },
     {
       "id": "minicpm-v-2-6",
@@ -2051,7 +3065,13 @@
         "关系": "它在 MiniCPM 系列中，前一代是 MiniCPM",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "面壁智能",
+        "region": "中国",
+        "open_source": true,
+        "series": "MiniCPM"
+      }
     },
     {
       "id": "minicpm3",
@@ -2063,7 +3083,13 @@
         "关系": "它在 MiniCPM 系列中，前一代是 MiniCPM-V 2.6",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "面壁智能",
+        "region": "中国",
+        "open_source": true,
+        "series": "MiniCPM"
+      }
     },
     {
       "id": "minicpm4",
@@ -2075,7 +3101,13 @@
         "关系": "它在 MiniCPM 系列中，前一代是 MiniCPM3",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "面壁智能",
+        "region": "中国",
+        "open_source": true,
+        "series": "MiniCPM"
+      }
     },
     {
       "id": "盘古-5-0",
@@ -2087,7 +3119,13 @@
         "关系": "它在 盘古 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "华为",
+        "region": "中国",
+        "open_source": false,
+        "series": "盘古"
+      }
     },
     {
       "id": "phi-1",
@@ -2099,7 +3137,13 @@
         "关系": "它在 Phi 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "微软",
+        "region": "美国",
+        "open_source": true,
+        "series": "Phi"
+      }
     },
     {
       "id": "phi-1-5",
@@ -2111,7 +3155,13 @@
         "关系": "它在 Phi 系列中，前一代是 Phi-1",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "微软",
+        "region": "美国",
+        "open_source": true,
+        "series": "Phi"
+      }
     },
     {
       "id": "phi-2",
@@ -2123,7 +3173,13 @@
         "关系": "它在 Phi 系列中，前一代是 Phi-1.5",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "微软",
+        "region": "美国",
+        "open_source": true,
+        "series": "Phi"
+      }
     },
     {
       "id": "phi-3-mini",
@@ -2135,7 +3191,13 @@
         "关系": "它在 Phi 系列中，前一代是 Phi-2",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "微软",
+        "region": "美国",
+        "open_source": true,
+        "series": "Phi"
+      }
     },
     {
       "id": "phi-3-small",
@@ -2147,7 +3209,13 @@
         "关系": "它在 Phi 系列中，前一代是 Phi-3-mini",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "微软",
+        "region": "美国",
+        "open_source": true,
+        "series": "Phi"
+      }
     },
     {
       "id": "phi-3-medium",
@@ -2159,7 +3227,13 @@
         "关系": "它在 Phi 系列中，前一代是 Phi-3-small",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "微软",
+        "region": "美国",
+        "open_source": true,
+        "series": "Phi"
+      }
     },
     {
       "id": "phi-3-5",
@@ -2171,7 +3245,13 @@
         "关系": "它在 Phi 系列中，前一代是 Phi-3-medium",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "微软",
+        "region": "美国",
+        "open_source": true,
+        "series": "Phi"
+      }
     },
     {
       "id": "phi-4",
@@ -2183,7 +3263,13 @@
         "关系": "它在 Phi 系列中，前一代是 Phi-3.5",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "微软",
+        "region": "美国",
+        "open_source": true,
+        "series": "Phi"
+      }
     },
     {
       "id": "phi-4-mini",
@@ -2195,7 +3281,13 @@
         "关系": "它在 Phi 系列中，前一代是 Phi-4",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "微软",
+        "region": "美国",
+        "open_source": true,
+        "series": "Phi"
+      }
     },
     {
       "id": "phi-4-multimodal",
@@ -2207,7 +3299,13 @@
         "关系": "它在 Phi 系列中，前一代是 Phi-4-mini",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "微软",
+        "region": "美国",
+        "open_source": true,
+        "series": "Phi"
+      }
     },
     {
       "id": "nemotron-4-340b",
@@ -2219,7 +3317,13 @@
         "关系": "它在 Nemotron 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "英伟达",
+        "region": "美国",
+        "open_source": true,
+        "series": "Nemotron"
+      }
     },
     {
       "id": "llama-3-1-nemotron-70b",
@@ -2231,7 +3335,13 @@
         "关系": "它在 Nemotron 系列中，前一代是 Nemotron-4 340B",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "英伟达",
+        "region": "美国",
+        "open_source": true,
+        "series": "Nemotron"
+      }
     },
     {
       "id": "llama-3-1-nemotron-ultra-253b",
@@ -2243,7 +3353,13 @@
         "关系": "它在 Nemotron 系列中，前一代是 Llama-3.1-Nemotron-70B",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "英伟达",
+        "region": "美国",
+        "open_source": true,
+        "series": "Nemotron"
+      }
     },
     {
       "id": "nova-micro",
@@ -2255,7 +3371,13 @@
         "关系": "它在 Nova 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "亚马逊",
+        "region": "美国",
+        "open_source": false,
+        "series": "Nova"
+      }
     },
     {
       "id": "nova-lite",
@@ -2267,7 +3389,13 @@
         "关系": "它在 Nova 系列中，前一代是 Nova Micro",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "亚马逊",
+        "region": "美国",
+        "open_source": false,
+        "series": "Nova"
+      }
     },
     {
       "id": "nova-pro",
@@ -2279,7 +3407,13 @@
         "关系": "它在 Nova 系列中，前一代是 Nova Lite",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "亚马逊",
+        "region": "美国",
+        "open_source": false,
+        "series": "Nova"
+      }
     },
     {
       "id": "nova-premier",
@@ -2291,7 +3425,13 @@
         "关系": "它在 Nova 系列中，前一代是 Nova Pro",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "亚马逊",
+        "region": "美国",
+        "open_source": false,
+        "series": "Nova"
+      }
     },
     {
       "id": "command-r",
@@ -2303,7 +3443,13 @@
         "关系": "它在 Command 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Cohere",
+        "region": "加拿大",
+        "open_source": true,
+        "series": "Command"
+      }
     },
     {
       "id": "command-r+",
@@ -2315,7 +3461,13 @@
         "关系": "它在 Command 系列中，前一代是 Command R",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Cohere",
+        "region": "加拿大",
+        "open_source": true,
+        "series": "Command"
+      }
     },
     {
       "id": "aya-expanse",
@@ -2327,7 +3479,13 @@
         "关系": "它在 Command 系列中，前一代是 Command R+",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Cohere",
+        "region": "加拿大",
+        "open_source": true,
+        "series": "Command"
+      }
     },
     {
       "id": "command-r7b",
@@ -2339,7 +3497,13 @@
         "关系": "它在 Command 系列中，前一代是 Aya Expanse",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Cohere",
+        "region": "加拿大",
+        "open_source": true,
+        "series": "Command"
+      }
     },
     {
       "id": "command-a",
@@ -2351,7 +3515,13 @@
         "关系": "它在 Command 系列中，前一代是 Command R7B",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Cohere",
+        "region": "加拿大",
+        "open_source": true,
+        "series": "Command"
+      }
     },
     {
       "id": "jamba",
@@ -2363,7 +3533,13 @@
         "关系": "它在 Jamba 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "AI21 Labs",
+        "region": "以色列",
+        "open_source": true,
+        "series": "Jamba"
+      }
     },
     {
       "id": "jamba-1-5-mini",
@@ -2375,7 +3551,13 @@
         "关系": "它在 Jamba 系列中，前一代是 Jamba",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "AI21 Labs",
+        "region": "以色列",
+        "open_source": true,
+        "series": "Jamba"
+      }
     },
     {
       "id": "jamba-1-5-large",
@@ -2387,7 +3569,13 @@
         "关系": "它在 Jamba 系列中，前一代是 Jamba 1.5 Mini",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "AI21 Labs",
+        "region": "以色列",
+        "open_source": true,
+        "series": "Jamba"
+      }
     },
     {
       "id": "falcon-40b",
@@ -2399,7 +3587,13 @@
         "关系": "它在 Falcon 系列中，是该系列早期版本",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "TII",
+        "region": "阿联酋",
+        "open_source": true,
+        "series": "Falcon"
+      }
     },
     {
       "id": "falcon-180b",
@@ -2411,7 +3605,13 @@
         "关系": "它在 Falcon 系列中，前一代是 Falcon 40B",
         "变化": "它于 2023 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "TII",
+        "region": "阿联酋",
+        "open_source": true,
+        "series": "Falcon"
+      }
     },
     {
       "id": "falcon-2",
@@ -2423,7 +3623,13 @@
         "关系": "它在 Falcon 系列中，前一代是 Falcon 180B",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "TII",
+        "region": "阿联酋",
+        "open_source": true,
+        "series": "Falcon"
+      }
     },
     {
       "id": "falcon-3",
@@ -2435,7 +3641,13 @@
         "关系": "它在 Falcon 系列中，前一代是 Falcon 2",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "TII",
+        "region": "阿联酋",
+        "open_source": true,
+        "series": "Falcon"
+      }
     },
     {
       "id": "olmo",
@@ -2447,7 +3659,13 @@
         "关系": "它在 OLMo 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Ai2",
+        "region": "美国",
+        "open_source": true,
+        "series": "OLMo"
+      }
     },
     {
       "id": "olmo-2",
@@ -2459,7 +3677,13 @@
         "关系": "它在 OLMo 系列中，前一代是 OLMo",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Ai2",
+        "region": "美国",
+        "open_source": true,
+        "series": "OLMo"
+      }
     },
     {
       "id": "olmo-2-32b",
@@ -2471,7 +3695,13 @@
         "关系": "它在 OLMo 系列中，前一代是 OLMo 2",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Ai2",
+        "region": "美国",
+        "open_source": true,
+        "series": "OLMo"
+      }
     },
     {
       "id": "smollm",
@@ -2483,7 +3713,13 @@
         "关系": "它在 SmolLM 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Hugging Face",
+        "region": "法国",
+        "open_source": true,
+        "series": "SmolLM"
+      }
     },
     {
       "id": "smollm2",
@@ -2495,7 +3731,13 @@
         "关系": "它在 SmolLM 系列中，前一代是 SmolLM",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Hugging Face",
+        "region": "法国",
+        "open_source": true,
+        "series": "SmolLM"
+      }
     },
     {
       "id": "smollm3",
@@ -2507,7 +3749,13 @@
         "关系": "它在 SmolLM 系列中，前一代是 SmolLM2",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Hugging Face",
+        "region": "法国",
+        "open_source": true,
+        "series": "SmolLM"
+      }
     },
     {
       "id": "dbrx",
@@ -2519,7 +3767,13 @@
         "关系": "它在 DBRX 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "Databricks",
+        "region": "美国",
+        "open_source": true,
+        "series": "DBRX"
+      }
     },
     {
       "id": "exaone-3-0",
@@ -2531,7 +3785,13 @@
         "关系": "它在 EXAONE 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "LG AI研究院",
+        "region": "韩国",
+        "open_source": true,
+        "series": "EXAONE"
+      }
     },
     {
       "id": "exaone-3-5",
@@ -2543,7 +3803,13 @@
         "关系": "它在 EXAONE 系列中，前一代是 EXAONE 3.0",
         "变化": "它于 2024 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "LG AI研究院",
+        "region": "韩国",
+        "open_source": true,
+        "series": "EXAONE"
+      }
     },
     {
       "id": "exaone-4-0",
@@ -2555,14 +3821,24 @@
         "关系": "它在 EXAONE 系列中，前一代是 EXAONE 3.5",
         "变化": "它于 2025 年发布"
       },
-      "needs_review": false
+      "needs_review": false,
+      "meta": {
+        "company": "LG AI研究院",
+        "region": "韩国",
+        "open_source": true,
+        "series": "EXAONE"
+      }
     }
   ],
   "queries": [
     {
       "text": "OpenAI 的 GPT 系列最新模型是什么？",
       "target_id": "gpt-5-4",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "OpenAI",
+        "series": "GPT"
+      }
     },
     {
       "text": "GPT 是哪一个模型？",
@@ -2572,7 +3848,11 @@
     {
       "text": "OpenAI 的 o 推理 系列最新模型是什么？",
       "target_id": "o4-mini",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "OpenAI",
+        "series": "o 推理"
+      }
     },
     {
       "text": "o 推理 是哪一个模型？",
@@ -2582,7 +3862,11 @@
     {
       "text": "Anthropic 的 Claude 系列最新模型是什么？",
       "target_id": "claude-opus-5",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "Anthropic",
+        "series": "Claude"
+      }
     },
     {
       "text": "Claude 是哪一个模型？",
@@ -2592,7 +3876,11 @@
     {
       "text": "Google 的 Gemini 系列最新模型是什么？",
       "target_id": "gemini-3-6-flash",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "Google",
+        "series": "Gemini"
+      }
     },
     {
       "text": "Gemini 是哪一个模型？",
@@ -2602,7 +3890,11 @@
     {
       "text": "Google 的 Gemma 系列最新模型是什么？",
       "target_id": "gemma-3",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "Google",
+        "series": "Gemma"
+      }
     },
     {
       "text": "Gemma 是哪一个模型？",
@@ -2612,7 +3904,11 @@
     {
       "text": "Google 的 PaLM 系列最新模型是什么？",
       "target_id": "palm-2",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "Google",
+        "series": "PaLM"
+      }
     },
     {
       "text": "PaLM 是哪一个模型？",
@@ -2622,7 +3918,11 @@
     {
       "text": "Meta 的 Llama 系列最新模型是什么？",
       "target_id": "llama-4-maverick",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "Meta",
+        "series": "Llama"
+      }
     },
     {
       "text": "Llama 是哪一个模型？",
@@ -2632,7 +3932,11 @@
     {
       "text": "Meta 的 Code Llama 系列最新模型是什么？",
       "target_id": "code-llama",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "Meta",
+        "series": "Code Llama"
+      }
     },
     {
       "text": "Code Llama 是哪一个模型？",
@@ -2642,7 +3946,11 @@
     {
       "text": "xAI 的 Grok 系列最新模型是什么？",
       "target_id": "grok-4-5",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "xAI",
+        "series": "Grok"
+      }
     },
     {
       "text": "Grok 是哪一个模型？",
@@ -2652,7 +3960,11 @@
     {
       "text": "Mistral AI 的 Mistral 系列最新模型是什么？",
       "target_id": "mistral-large-3",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "Mistral AI",
+        "series": "Mistral"
+      }
     },
     {
       "text": "Mistral 是哪一个模型？",
@@ -2662,7 +3974,11 @@
     {
       "text": "阿里巴巴 的 Qwen 系列最新模型是什么？",
       "target_id": "qwen3-7-max",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "阿里巴巴",
+        "series": "Qwen"
+      }
     },
     {
       "text": "Qwen 是哪一个模型？",
@@ -2672,7 +3988,11 @@
     {
       "text": "深度求索 的 DeepSeek 系列最新模型是什么？",
       "target_id": "deepseek-v4-pro",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "深度求索",
+        "series": "DeepSeek"
+      }
     },
     {
       "text": "DeepSeek 是哪一个模型？",
@@ -2682,7 +4002,11 @@
     {
       "text": "月之暗面 的 Kimi 系列最新模型是什么？",
       "target_id": "kimi-k2-6",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "月之暗面",
+        "series": "Kimi"
+      }
     },
     {
       "text": "Kimi 是哪一个模型？",
@@ -2692,7 +4016,11 @@
     {
       "text": "智谱AI 的 GLM 系列最新模型是什么？",
       "target_id": "glm-5-3",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "智谱AI",
+        "series": "GLM"
+      }
     },
     {
       "text": "GLM 是哪一个模型？",
@@ -2702,7 +4030,11 @@
     {
       "text": "MiniMax 的 MiniMax 系列最新模型是什么？",
       "target_id": "minimax-m2-7",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "MiniMax",
+        "series": "MiniMax"
+      }
     },
     {
       "text": "MiniMax 是哪一个模型？",
@@ -2712,7 +4044,11 @@
     {
       "text": "字节跳动 的 豆包 系列最新模型是什么？",
       "target_id": "豆包-2-0",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "字节跳动",
+        "series": "豆包"
+      }
     },
     {
       "text": "豆包 是哪一个模型？",
@@ -2722,7 +4058,11 @@
     {
       "text": "腾讯 的 混元 系列最新模型是什么？",
       "target_id": "混元-t1",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "腾讯",
+        "series": "混元"
+      }
     },
     {
       "text": "混元 是哪一个模型？",
@@ -2732,7 +4072,11 @@
     {
       "text": "百度 的 文心 系列最新模型是什么？",
       "target_id": "文心-4-5-turbo",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "百度",
+        "series": "文心"
+      }
     },
     {
       "text": "文心 是哪一个模型？",
@@ -2742,7 +4086,11 @@
     {
       "text": "阶跃星辰 的 Step 系列最新模型是什么？",
       "target_id": "step-3",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "阶跃星辰",
+        "series": "Step"
+      }
     },
     {
       "text": "Step 是哪一个模型？",
@@ -2752,7 +4100,11 @@
     {
       "text": "零一万物 的 Yi 系列最新模型是什么？",
       "target_id": "yi-2",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "零一万物",
+        "series": "Yi"
+      }
     },
     {
       "text": "Yi 是哪一个模型？",
@@ -2762,7 +4114,11 @@
     {
       "text": "百川智能 的 Baichuan 系列最新模型是什么？",
       "target_id": "baichuan4",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "百川智能",
+        "series": "Baichuan"
+      }
     },
     {
       "text": "Baichuan 是哪一个模型？",
@@ -2772,7 +4128,11 @@
     {
       "text": "昆仑万维 的 Skywork 系列最新模型是什么？",
       "target_id": "skywork-4o",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "昆仑万维",
+        "series": "Skywork"
+      }
     },
     {
       "text": "Skywork 是哪一个模型？",
@@ -2782,7 +4142,11 @@
     {
       "text": "科大讯飞 的 星火 系列最新模型是什么？",
       "target_id": "星火-x1",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "科大讯飞",
+        "series": "星火"
+      }
     },
     {
       "text": "星火 是哪一个模型？",
@@ -2792,7 +4156,11 @@
     {
       "text": "上海人工智能实验室 的 书生 系列最新模型是什么？",
       "target_id": "internlm3",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "上海人工智能实验室",
+        "series": "书生"
+      }
     },
     {
       "text": "书生 是哪一个模型？",
@@ -2802,7 +4170,11 @@
     {
       "text": "面壁智能 的 MiniCPM 系列最新模型是什么？",
       "target_id": "minicpm4",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "面壁智能",
+        "series": "MiniCPM"
+      }
     },
     {
       "text": "MiniCPM 是哪一个模型？",
@@ -2812,7 +4184,11 @@
     {
       "text": "华为 的 盘古 系列最新模型是什么？",
       "target_id": "盘古-5-0",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "华为",
+        "series": "盘古"
+      }
     },
     {
       "text": "盘古 是哪一个模型？",
@@ -2822,7 +4198,11 @@
     {
       "text": "微软 的 Phi 系列最新模型是什么？",
       "target_id": "phi-4-multimodal",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "微软",
+        "series": "Phi"
+      }
     },
     {
       "text": "Phi 是哪一个模型？",
@@ -2832,7 +4212,11 @@
     {
       "text": "英伟达 的 Nemotron 系列最新模型是什么？",
       "target_id": "llama-3-1-nemotron-ultra-253b",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "英伟达",
+        "series": "Nemotron"
+      }
     },
     {
       "text": "Nemotron 是哪一个模型？",
@@ -2842,7 +4226,11 @@
     {
       "text": "亚马逊 的 Nova 系列最新模型是什么？",
       "target_id": "nova-premier",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "亚马逊",
+        "series": "Nova"
+      }
     },
     {
       "text": "Nova 是哪一个模型？",
@@ -2852,7 +4240,11 @@
     {
       "text": "Cohere 的 Command 系列最新模型是什么？",
       "target_id": "command-a",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "Cohere",
+        "series": "Command"
+      }
     },
     {
       "text": "Command 是哪一个模型？",
@@ -2862,7 +4254,11 @@
     {
       "text": "AI21 Labs 的 Jamba 系列最新模型是什么？",
       "target_id": "jamba-1-5-large",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "AI21 Labs",
+        "series": "Jamba"
+      }
     },
     {
       "text": "Jamba 是哪一个模型？",
@@ -2872,7 +4268,11 @@
     {
       "text": "TII 的 Falcon 系列最新模型是什么？",
       "target_id": "falcon-3",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "TII",
+        "series": "Falcon"
+      }
     },
     {
       "text": "Falcon 是哪一个模型？",
@@ -2882,7 +4282,11 @@
     {
       "text": "Ai2 的 OLMo 系列最新模型是什么？",
       "target_id": "olmo-2-32b",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "Ai2",
+        "series": "OLMo"
+      }
     },
     {
       "text": "OLMo 是哪一个模型？",
@@ -2892,7 +4296,11 @@
     {
       "text": "Hugging Face 的 SmolLM 系列最新模型是什么？",
       "target_id": "smollm3",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "Hugging Face",
+        "series": "SmolLM"
+      }
     },
     {
       "text": "SmolLM 是哪一个模型？",
@@ -2902,7 +4310,11 @@
     {
       "text": "Databricks 的 DBRX 系列最新模型是什么？",
       "target_id": "dbrx",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "Databricks",
+        "series": "DBRX"
+      }
     },
     {
       "text": "DBRX 是哪一个模型？",
@@ -2912,7 +4324,11 @@
     {
       "text": "LG AI研究院 的 EXAONE 系列最新模型是什么？",
       "target_id": "exaone-4-0",
-      "kind": "known"
+      "kind": "known",
+      "meta": {
+        "company": "LG AI研究院",
+        "series": "EXAONE"
+      }
     },
     {
       "text": "EXAONE 是哪一个模型？",

@@ -281,16 +281,19 @@ def build():
                 "name": name,
                 "evidence": evidence,
                 "needs_review": bool(needs_review),
+                "meta": {"company": company, "region": region,
+                         "open_source": open_source, "series": series},
             })
             label += 1
 
-        # 每个系列生成：最新模型已知查询 + 系列级歧义查询
+        # 每个系列生成：最新模型已知查询 + 系列级歧义查询（meta 供改写增强使用）
         latest = models[-1][0]
         objects_by_name = {obj["name"]: obj["label"] for obj in objects}
         queries.append({
             "text": f"{company} 的 {series} 系列最新模型是什么？",
             "target_id": objects[objects_by_name[latest]]["id"],
             "kind": "known",
+            "meta": {"company": company, "series": series},
         })
         queries.append({
             "text": f"{series} 是哪一个模型？",

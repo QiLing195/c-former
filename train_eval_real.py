@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import random
 import statistics
 import time
 from pathlib import Path
@@ -11,7 +12,7 @@ import torch
 
 from cformer_v59 import CandidateStatus, EvidenceVerifier
 from cformer_v60 import ChineseTransformerConfig, TokenCFormerResolver
-from cformer_real import AIModelWorld
+from cformer_real import AIModelWorld, query_variants
 
 ROOT = Path(__file__).resolve().parent
 VERIFIER = EvidenceVerifier(minimum_score=0.50, minimum_margin=0.08, minimum_coverage=0.60)
@@ -33,18 +34,84 @@ def split_known(known: list[dict]) -> tuple[list[dict], list[dict]]:
     return train, heldout
 
 
-def train(model, world: AIModelWorld, device, *, queries: list[dict], steps: int, lr: float) -> dict:
-    encoded = torch.stack([world.encode_query(query["text"])[0] for query in queries])
-    targets = [world.objects[world.target_label(query["target_id"])] for query in queries]
-    positives = world.encode_candidates(targets)
+def build_training_entries(world: AIModelWorld, train_queries: list[dict]) -> list[dict]:
+    """One entry per training query with its paraphrase variants and target."""
+    entries = []
+    for query in train_queries:
+        entries.append({
+            "variants": query_variants(query["text"], query.get("meta")),
+            "target": world.target_label(query["target_id"]),
+        })
+    return entries
 
+
+def sample_batch(
+    world: AIModelWorld,
+    entries: list[dict],
+    rng: random.Random,
+    batch_size: int,
+    hard_k: int,
+) -> tuple[torch.Tensor, torch.Tensor, list[torch.Tensor]]:
+    """Draw a batch: random paraphrase per entry + same-series hard negatives.
+
+    Hard-negative column j holds the j-th sibling for every query in the batch,
+    matching contrastive_loss's batch-aligned negative-list contract. Sibling
+    shortages are filled with random objects.
+    """
+    chosen = (
+        rng.sample(entries, batch_size)
+        if len(entries) >= batch_size
+        else [rng.choice(entries) for _ in range(batch_size)]
+    )
+    queries = []
+    positives = []
+    negatives: list[list] = [[] for _ in range(hard_k)]
+    total = len(world.objects)
+    for entry in chosen:
+        text = rng.choice(entry["variants"])
+        tokens, _ = world.encode_query(text)
+        queries.append(tokens)
+        positives.append(world.objects[entry["target"]])
+        siblings = world.series_siblings(entry["target"])
+        picks = rng.sample(siblings, min(hard_k, len(siblings)))
+        while len(picks) < hard_k:
+            picks.append(rng.randrange(total))
+        for column, label in enumerate(picks):
+            negatives[column].append(world.objects[label])
+    return (
+        torch.stack(queries),
+        world.encode_candidates(positives),
+        [world.encode_candidates(column) for column in negatives],
+    )
+
+
+def train(
+    model,
+    world: AIModelWorld,
+    device,
+    *,
+    entries: list[dict],
+    steps: int,
+    lr: float,
+    batch_size: int,
+    hard_k: int,
+    seed: int,
+) -> dict:
+    rng = random.Random(seed)
     optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=1e-4)
     model.to(device).train()
     losses = []
     started = time.perf_counter()
     for _ in range(steps):
+        queries, positives, negatives = sample_batch(
+            world, entries, rng, batch_size, hard_k
+        )
         optimizer.zero_grad(set_to_none=True)
-        loss = model.contrastive_loss(encoded.to(device), positives.to(device))
+        loss = model.contrastive_loss(
+            queries.to(device),
+            positives.to(device),
+            [column.to(device) for column in negatives],
+        )
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
         optimizer.step()
@@ -147,6 +214,13 @@ def main() -> None:
     parser.add_argument("--blindset", type=Path, default=ROOT / "data" / "ai_models_blindset.json")
     parser.add_argument("--steps", type=int, default=400)
     parser.add_argument("--lr", type=float, default=1e-3)
+    parser.add_argument("--batch-size", type=int, default=16)
+    parser.add_argument("--hard-negatives", type=int, default=0,
+                        help="same-series hard negatives per query per step; "
+                             "ablation showed they degrade ambiguity detection "
+                             "and do not improve generalization")
+    parser.add_argument("--no-paraphrase", action="store_true",
+                        help="disable paraphrase variants (ablation switch)")
     parser.add_argument("--seeds", nargs="+", type=int, default=(1, 2, 3))
     parser.add_argument("--output", type=Path, default=ROOT / "artifacts" / "ai_models_results.json")
     args = parser.parse_args()
@@ -163,6 +237,13 @@ def main() -> None:
         output_dimensions=32,
     )
     known_train, known_heldout = split_known(world.known_queries())
+    entries = build_training_entries(
+        world,
+        [
+            {**query, "meta": None} if args.no_paraphrase else query
+            for query in known_train
+        ],
+    )
     blind = (
         json.loads(args.blindset.read_text(encoding="utf-8"))
         if args.blindset.exists()
@@ -174,7 +255,15 @@ def main() -> None:
         torch.manual_seed(seed)
         model = TokenCFormerResolver(config)
         training = train(
-            model, world, device, queries=known_train, steps=args.steps, lr=args.lr
+            model,
+            world,
+            device,
+            entries=entries,
+            steps=args.steps,
+            lr=args.lr,
+            batch_size=args.batch_size,
+            hard_k=args.hard_negatives,
+            seed=seed,
         )
         metrics = evaluate(
             model, world, device, known_train=known_train, known_heldout=known_heldout
@@ -216,8 +305,9 @@ def main() -> None:
             "known_heldout": len(known_heldout),
         },
         "note": (
-            "真实语料冒烟线：known 查询按内容哈希切分为训练/留出集，留出集不参与训练；"
-            "盲测集与生成模板隔离。结果仅验证流水线与给出诚实基线，不代表正式性能。"
+            "真实语料线：known 查询按内容哈希切分为训练/留出集；训练使用同义改写采样 + "
+            "同系列硬负例（contrastive_loss 负例列），迫使模型读证据而非背原句。"
+            "结果仅验证流水线与给出诚实基线，不代表正式性能。"
         ),
         "per_seed": per_seed,
         "aggregate": aggregate_result,
