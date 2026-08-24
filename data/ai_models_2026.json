@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "dataset": "ai_models_2026",
+    "description": "2026年8月主流 AI 大模型真实对象种子集，按 C-Former 四证据（名称/属性/关系/变化）结构化",
+    "collected_via": "web_search (2026-08)",
+    "status": "seed，需人工核对版本号与补充别名/同名样本",
+    "evidence_fields": ["名称", "属性", "关系", "变化"]
+  },
+  "objects": [
+    {"id": "gpt-5.2", "名称": {"canonical": "GPT-5.2", "aliases": ["GPT-5", "ChatGPT-5.2", "gpt5.2"]}, "属性": {"company": "OpenAI", "region": "美国", "open_source": false, "modality": "多模态", "positioning": "旗舰"}, "关系": {"series": "GPT", "predecessor": "GPT-5.1", "competitor_of": ["Claude Opus 4.8", "Gemini 3.5"]}, "变化": {"release": "2026", "note": "前沿闭源旗舰"}},
+    {"id": "claude-opus-4.8", "名称": {"canonical": "Claude Opus 4.8", "aliases": ["Claude 4.8", "Opus 4.8"]}, "属性": {"company": "Anthropic", "region": "美国", "open_source": false, "modality": "文本/多模态", "positioning": "旗舰"}, "关系": {"series": "Claude", "predecessor": "Claude Opus 4.7", "competitor_of": ["GPT-5.2", "Gemini 3.5"]}, "变化": {"release": "2026", "note": "SWE-bench 编码领先"}},
+    {"id": "claude-opus-4.7", "名称": {"canonical": "Claude Opus 4.7", "aliases": ["Claude 4.7", "Opus 4.7"]}, "属性": {"company": "Anthropic", "region": "美国", "open_source": false, "modality": "文本/多模态", "positioning": "旗舰"}, "关系": {"series": "Claude", "predecessor": "Claude Opus 4.5", "competitor_of": ["GPT-5"]}, "变化": {"release": "2026", "note": "SWE-bench Pro 87.6%"}},
+    {"id": "gemini-3.5-pro", "名称": {"canonical": "Gemini 3.5 Pro", "aliases": ["Gemini 3.5", "谷歌Gemini 3.5"]}, "属性": {"company": "Google", "region": "美国", "open_source": false, "modality": "多模态", "positioning": "旗舰/Agent"}, "关系": {"series": "Gemini", "predecessor": "Gemini 3", "competitor_of": ["GPT-5.2", "Claude Opus 4.8"]}, "变化": {"release": "2026-05", "note": "最强代理编码模型"}},
+    {"id": "gemini-3.5-flash", "名称": {"canonical": "Gemini 3.5 Flash", "aliases": ["Gemini Flash 3.5"]}, "属性": {"company": "Google", "region": "美国", "open_source": false, "modality": "多模态", "positioning": "轻量/Agent编码"}, "关系": {"series": "Gemini", "predecessor": "Gemini 3.5 Pro", "competitor_of": []}, "变化": {"release": "2026-05", "note": "最快代理编码模型"}},
+    {"id": "grok-5", "名称": {"canonical": "Grok 5", "aliases": ["Grok5", "xAI Grok 5"]}, "属性": {"company": "xAI", "region": "美国", "open_source": false, "modality": "多模态", "positioning": "旗舰"}, "关系": {"series": "Grok", "predecessor": "Grok 4", "competitor_of": ["GPT-5.2"]}, "变化": {"release": "2026", "note": ""}},
+    {"id": "llama-4", "名称": {"canonical": "Llama 4", "aliases": ["Meta Llama 4", "Llama4"]}, "属性": {"company": "Meta", "region": "美国", "open_source": true, "modality": "多模态", "positioning": "开源旗舰"}, "关系": {"series": "Llama", "predecessor": "Llama 3.3", "competitor_of": ["Qwen3.6", "DeepSeek-V4"]}, "变化": {"release": "2026", "note": "开源多模态"}},
+    {"id": "mistral-large", "名称": {"canonical": "Mistral Large", "aliases": ["Mistral", "Mistral Large 3"]}, "属性": {"company": "Mistral AI", "region": "法国", "open_source": true, "modality": "文本", "positioning": "开源"}, "关系": {"series": "Mistral", "predecessor": "Mistral Large 2", "competitor_of": ["Llama 4"]}, "变化": {"release": "2026", "note": ""}},
+    {"id": "qwen3.7-max", "名称": {"canonical": "Qwen3.7-Max", "aliases": ["千问3.7", "通义千问3.7", "Qwen 3.7 Max"]}, "属性": {"company": "阿里巴巴", "region": "中国", "open_source": false, "modality": "多模态", "positioning": "国产旗舰"}, "关系": {"series": "Qwen", "predecessor": "Qwen3.6", "competitor_of": ["DeepSeek-V4-Pro", "Kimi-K2.6", "GLM-5.1"]}, "变化": {"release": "2026-05", "note": "登顶国产模型第一"}},
+    {"id": "qwen3.6", "名称": {"canonical": "Qwen3.6", "aliases": ["千问3.6", "通义千问3.6"]}, "属性": {"company": "阿里巴巴", "region": "中国", "open_source": true, "modality": "多模态", "positioning": "开源旗舰"}, "关系": {"series": "Qwen", "predecessor": "Qwen3.5", "competitor_of": ["DeepSeek-V4", "GLM-5.1", "Kimi-K2.6"]}, "变化": {"release": "2026", "note": "国产开源五雄之一"}},
+    {"id": "deepseek-v4-pro", "名称": {"canonical": "DeepSeek-V4-Pro", "aliases": ["DeepSeek V4 Pro", "深度求索V4 Pro", "DeepSeek-V4"]}, "属性": {"company": "深度求索", "region": "中国", "open_source": true, "modality": "文本", "positioning": "开源旗舰"}, "关系": {"series": "DeepSeek", "predecessor": "DeepSeek-V3", "competitor_of": ["Qwen3.7-Max", "Kimi-K2.6"]}, "变化": {"release": "2026", "note": "千问办公首发接入"}},
+    {"id": "kimi-k2.6", "名称": {"canonical": "Kimi-K2.6", "aliases": ["Kimi K2.6", "Kimi", "月之暗面K2.6"]}, "属性": {"company": "月之暗面", "region": "中国", "open_source": true, "modality": "文本", "positioning": "开源旗舰"}, "关系": {"series": "Kimi", "predecessor": "Kimi-K2", "competitor_of": ["DeepSeek-V4-Pro", "Qwen3.7-Max"]}, "变化": {"release": "2026", "note": "国产开源五雄之一"}},
+    {"id": "glm-5.3", "名称": {"canonical": "GLM-5.3", "aliases": ["智谱GLM-5.3", "GLM 5.3"]}, "属性": {"company": "智谱AI", "region": "中国", "open_source": true, "modality": "文本", "positioning": "开源/编程"}, "关系": {"series": "GLM", "predecessor": "GLM-5.1", "competitor_of": ["Qwen3.6"]}, "变化": {"release": "2026-08", "note": "自称编程最强开源模型"}},
+    {"id": "glm-5.1", "名称": {"canonical": "GLM-5.1", "aliases": ["智谱GLM-5.1", "GLM 5.1"]}, "属性": {"company": "智谱AI", "region": "中国", "open_source": true, "modality": "文本", "positioning": "开源"}, "关系": {"series": "GLM", "predecessor": "GLM-5", "competitor_of": ["Qwen3.6", "DeepSeek-V4"]}, "变化": {"release": "2026", "note": ""}},
+    {"id": "minimax-m2.7", "名称": {"canonical": "MiniMax M2.7", "aliases": ["MiniMax M2", "M2.7"]}, "属性": {"company": "MiniMax", "region": "中国", "open_source": true, "modality": "多模态", "positioning": "开源"}, "关系": {"series": "MiniMax", "predecessor": "MiniMax M2", "competitor_of": ["Qwen3.6"]}, "变化": {"release": "2026", "note": "国产开源五雄之一"}},
+    {"id": "doubao-1.5-pro", "名称": {"canonical": "豆包 Doubao 1.5 Pro", "aliases": ["豆包1.5Pro", "Doubao 1.5 Pro", "字节豆包"]}, "属性": {"company": "字节跳动", "region": "中国", "open_source": false, "modality": "多模态", "positioning": "商用/推理"}, "关系": {"series": "豆包", "predecessor": "Doubao 1.5", "competitor_of": ["Qwen3.7-Max"]}, "变化": {"release": "2026", "note": "推理能力排名靠前"}},
+    {"id": "hunyuan", "名称": {"canonical": "腾讯混元", "aliases": ["混元", "Hunyuan", "腾讯元宝"]}, "属性": {"company": "腾讯", "region": "中国", "open_source": false, "modality": "多模态", "positioning": "商用"}, "关系": {"series": "混元", "predecessor": "", "competitor_of": []}, "变化": {"release": "2026", "note": ""}},
+    {"id": "ernie", "名称": {"canonical": "文心一言", "aliases": ["ERNIE", "百度文心", "文心大模型"]}, "属性": {"company": "百度", "region": "中国", "open_source": false, "modality": "多模态", "positioning": "商用"}, "关系": {"series": "文心", "predecessor": "", "competitor_of": []}, "变化": {"release": "2026", "note": ""}}
+  ],
+  "categorization": {
+    "by_company": {
+      "OpenAI": ["gpt-5.2"],
+      "Anthropic": ["claude-opus-4.8", "claude-opus-4.7"],
+      "Google": ["gemini-3.5-pro", "gemini-3.5-flash"],
+      "xAI": ["grok-5"],
+      "Meta": ["llama-4"],
+      "Mistral AI": ["mistral-large"],
+      "阿里巴巴": ["qwen3.7-max", "qwen3.6"],
+      "深度求索": ["deepseek-v4-pro"],
+      "月之暗面": ["kimi-k2.6"],
+      "智谱AI": ["glm-5.3", "glm-5.1"],
+      "MiniMax": ["minimax-m2.7"],
+      "字节跳动": ["doubao-1.5-pro"],
+      "腾讯": ["hunyuan"],
+      "百度": ["ernie"]
+    },
+    "by_open_source": {
+      "闭源": ["gpt-5.2", "claude-opus-4.8", "claude-opus-4.7", "gemini-3.5-pro", "gemini-3.5-flash", "grok-5", "qwen3.7-max", "doubao-1.5-pro", "hunyuan", "ernie"],
+      "开源": ["llama-4", "mistral-large", "qwen3.6", "deepseek-v4-pro", "kimi-k2.6", "glm-5.3", "glm-5.1", "minimax-m2.7"]
+    },
+    "by_positioning": {
+      "旗舰": ["gpt-5.2", "claude-opus-4.8", "gemini-3.5-pro", "grok-5", "qwen3.7-max"],
+      "开源旗舰": ["llama-4", "qwen3.6", "deepseek-v4-pro", "kimi-k2.6"],
+      "编程/Agent": ["gemini-3.5-flash", "glm-5.3"],
+      "商用/推理": ["doubao-1.5-pro", "hunyuan", "ernie"]
+    }
+  }
+}

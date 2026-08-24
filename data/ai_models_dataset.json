@@ -1,0 +1,7457 @@
+{
+  "meta": {
+    "dataset": "ai_models_dataset",
+    "description": "主流 AI 大模型四证据数据集（查询多样化版），版本号需人工核对",
+    "status": "自动生成；查询分 train/heldout，heldout 不参与训练；版本号与年份需人工核对",
+    "objects": 122,
+    "queries": {
+      "known": 708,
+      "ambiguous": 57,
+      "unknown": 11,
+      "train": 489,
+      "heldout": 287
+    }
+  },
+  "objects": [
+    {
+      "id": "gpt-1",
+      "label": 0,
+      "name": "GPT-1",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2018",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-1，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，是该系列早期版本",
+        "变化": "它于 2018 年发布"
+      }
+    },
+    {
+      "id": "gpt-2",
+      "label": 1,
+      "name": "GPT-2",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2019",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-2，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-1",
+        "变化": "它于 2019 年发布"
+      }
+    },
+    {
+      "id": "gpt-3",
+      "label": 2,
+      "name": "GPT-3",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2020",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-3，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-2",
+        "变化": "它于 2020 年发布"
+      }
+    },
+    {
+      "id": "gpt-3-5",
+      "label": 3,
+      "name": "GPT-3.5",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2022",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-3.5，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-3",
+        "变化": "它于 2022 年发布"
+      }
+    },
+    {
+      "id": "gpt-4",
+      "label": 4,
+      "name": "GPT-4",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-4，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-3.5",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "gpt-4-turbo",
+      "label": 5,
+      "name": "GPT-4 Turbo",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-4 Turbo，属于 GPT 系列，也常写作 GPT-4Turbo",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-4",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "gpt-4o",
+      "label": 6,
+      "name": "GPT-4o",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2024",
+      "note": "多模态",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-4o，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，多模态",
+        "关系": "它在 GPT 系列中，前一代是 GPT-4 Turbo",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "gpt-4o-mini",
+      "label": 7,
+      "name": "GPT-4o mini",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2024",
+      "note": "轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-4o mini，属于 GPT 系列，也常写作 GPT-4omini",
+        "属性": "它由 OpenAI 开发，是闭源模型，轻量",
+        "关系": "它在 GPT 系列中，前一代是 GPT-4o",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "gpt-4-1",
+      "label": 8,
+      "name": "GPT-4.1",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2025",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-4.1，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-4o mini",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "gpt-5",
+      "label": 9,
+      "name": "GPT-5",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2025",
+      "note": "前沿旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-5，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，前沿旗舰",
+        "关系": "它在 GPT 系列中，前一代是 GPT-4.1",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "gpt-5-1",
+      "label": 10,
+      "name": "GPT-5.1",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2026",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-5.1，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型",
+        "关系": "它在 GPT 系列中，前一代是 GPT-5",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "gpt-5-2",
+      "label": 11,
+      "name": "GPT-5.2",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "GPT",
+      "open_source": false,
+      "year": "2026",
+      "note": "当前前沿闭源旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 GPT-5.2，属于 GPT 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，当前前沿闭源旗舰",
+        "关系": "它在 GPT 系列中，前一代是 GPT-5.1，是该系列最新版本",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "o1",
+      "label": 12,
+      "name": "o1",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "o 推理",
+      "open_source": false,
+      "year": "2024",
+      "note": "推理",
+      "evidence": {
+        "名称": "这个模型的全称是 o1，属于 o 推理 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，推理",
+        "关系": "它在 o 推理 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "o1-mini",
+      "label": 13,
+      "name": "o1-mini",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "o 推理",
+      "open_source": false,
+      "year": "2024",
+      "note": "推理轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 o1-mini，属于 o 推理 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，推理轻量",
+        "关系": "它在 o 推理 系列中，前一代是 o1",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "o3",
+      "label": 14,
+      "name": "o3",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "o 推理",
+      "open_source": false,
+      "year": "2025",
+      "note": "推理",
+      "evidence": {
+        "名称": "这个模型的全称是 o3，属于 o 推理 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，推理",
+        "关系": "它在 o 推理 系列中，前一代是 o1-mini",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "o3-mini",
+      "label": 15,
+      "name": "o3-mini",
+      "company": "OpenAI",
+      "region": "美国",
+      "series": "o 推理",
+      "open_source": false,
+      "year": "2025",
+      "note": "推理轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 o3-mini，属于 o 推理 系列",
+        "属性": "它由 OpenAI 开发，是闭源模型，推理轻量",
+        "关系": "它在 o 推理 系列中，前一代是 o3，是该系列最新版本",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "claude-1",
+      "label": 16,
+      "name": "Claude 1",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 1，属于 Claude 系列，也常写作 Claude1",
+        "属性": "它由 Anthropic 开发，是闭源模型",
+        "关系": "它在 Claude 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "claude-2",
+      "label": 17,
+      "name": "Claude 2",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 2，属于 Claude 系列，也常写作 Claude2",
+        "属性": "它由 Anthropic 开发，是闭源模型",
+        "关系": "它在 Claude 系列中，前一代是 Claude 1",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "claude-2-1",
+      "label": 18,
+      "name": "Claude 2.1",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 2.1，属于 Claude 系列，也常写作 Claude2.1",
+        "属性": "它由 Anthropic 开发，是闭源模型",
+        "关系": "它在 Claude 系列中，前一代是 Claude 2",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "claude-3-opus",
+      "label": 19,
+      "name": "Claude 3 Opus",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2024",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 3 Opus，属于 Claude 系列，也常写作 Claude3Opus",
+        "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
+        "关系": "它在 Claude 系列中，前一代是 Claude 2.1",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "claude-3-sonnet",
+      "label": 20,
+      "name": "Claude 3 Sonnet",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2024",
+      "note": "均衡",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 3 Sonnet，属于 Claude 系列，也常写作 Claude3Sonnet",
+        "属性": "它由 Anthropic 开发，是闭源模型，均衡",
+        "关系": "它在 Claude 系列中，前一代是 Claude 3 Opus",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "claude-3-haiku",
+      "label": 21,
+      "name": "Claude 3 Haiku",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2024",
+      "note": "轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 3 Haiku，属于 Claude 系列，也常写作 Claude3Haiku",
+        "属性": "它由 Anthropic 开发，是闭源模型，轻量",
+        "关系": "它在 Claude 系列中，前一代是 Claude 3 Sonnet",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "claude-3-5-sonnet",
+      "label": 22,
+      "name": "Claude 3.5 Sonnet",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2024",
+      "note": "均衡",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 3.5 Sonnet，属于 Claude 系列，也常写作 Claude3.5Sonnet",
+        "属性": "它由 Anthropic 开发，是闭源模型，均衡",
+        "关系": "它在 Claude 系列中，前一代是 Claude 3 Haiku",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "claude-3-5-haiku",
+      "label": 23,
+      "name": "Claude 3.5 Haiku",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2024",
+      "note": "轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude 3.5 Haiku，属于 Claude 系列，也常写作 Claude3.5Haiku",
+        "属性": "它由 Anthropic 开发，是闭源模型，轻量",
+        "关系": "它在 Claude 系列中，前一代是 Claude 3.5 Sonnet",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "claude-opus-4",
+      "label": 24,
+      "name": "Claude Opus 4",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2025",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Opus 4，属于 Claude 系列，也常写作 ClaudeOpus4",
+        "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
+        "关系": "它在 Claude 系列中，前一代是 Claude 3.5 Haiku",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "claude-sonnet-4",
+      "label": 25,
+      "name": "Claude Sonnet 4",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2025",
+      "note": "均衡",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Sonnet 4，属于 Claude 系列，也常写作 ClaudeSonnet4",
+        "属性": "它由 Anthropic 开发，是闭源模型，均衡",
+        "关系": "它在 Claude 系列中，前一代是 Claude Opus 4",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "claude-haiku-4",
+      "label": 26,
+      "name": "Claude Haiku 4",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2025",
+      "note": "轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Haiku 4，属于 Claude 系列，也常写作 ClaudeHaiku4",
+        "属性": "它由 Anthropic 开发，是闭源模型，轻量",
+        "关系": "它在 Claude 系列中，前一代是 Claude Sonnet 4",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "claude-opus-4-5",
+      "label": 27,
+      "name": "Claude Opus 4.5",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2025",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Opus 4.5，属于 Claude 系列，也常写作 ClaudeOpus4.5",
+        "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
+        "关系": "它在 Claude 系列中，前一代是 Claude Haiku 4",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "claude-opus-4-7",
+      "label": 28,
+      "name": "Claude Opus 4.7",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2026",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Opus 4.7，属于 Claude 系列，也常写作 ClaudeOpus4.7",
+        "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
+        "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.5",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "claude-opus-4-8",
+      "label": 29,
+      "name": "Claude Opus 4.8",
+      "company": "Anthropic",
+      "region": "美国",
+      "series": "Claude",
+      "open_source": false,
+      "year": "2026",
+      "note": "SWE-bench 领先",
+      "evidence": {
+        "名称": "这个模型的全称是 Claude Opus 4.8，属于 Claude 系列，也常写作 ClaudeOpus4.8",
+        "属性": "它由 Anthropic 开发，是闭源模型，SWE-bench 领先",
+        "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.7，是该系列最新版本",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "gemini-1-0",
+      "label": 30,
+      "name": "Gemini 1.0",
+      "company": "Google",
+      "region": "美国",
+      "series": "Gemini",
+      "open_source": false,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 1.0，属于 Gemini 系列，也常写作 Gemini1.0",
+        "属性": "它由 Google 开发，是闭源模型",
+        "关系": "它在 Gemini 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "gemini-1-5-pro",
+      "label": 31,
+      "name": "Gemini 1.5 Pro",
+      "company": "Google",
+      "region": "美国",
+      "series": "Gemini",
+      "open_source": false,
+      "year": "2024",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 1.5 Pro，属于 Gemini 系列，也常写作 Gemini1.5Pro",
+        "属性": "它由 Google 开发，是闭源模型，旗舰",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 1.0",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "gemini-1-5-flash",
+      "label": 32,
+      "name": "Gemini 1.5 Flash",
+      "company": "Google",
+      "region": "美国",
+      "series": "Gemini",
+      "open_source": false,
+      "year": "2024",
+      "note": "轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 1.5 Flash，属于 Gemini 系列，也常写作 Gemini1.5Flash",
+        "属性": "它由 Google 开发，是闭源模型，轻量",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 1.5 Pro",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "gemini-2-0-flash",
+      "label": 33,
+      "name": "Gemini 2.0 Flash",
+      "company": "Google",
+      "region": "美国",
+      "series": "Gemini",
+      "open_source": false,
+      "year": "2024",
+      "note": "轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 2.0 Flash，属于 Gemini 系列，也常写作 Gemini2.0Flash",
+        "属性": "它由 Google 开发，是闭源模型，轻量",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 1.5 Flash",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "gemini-2-0-pro",
+      "label": 34,
+      "name": "Gemini 2.0 Pro",
+      "company": "Google",
+      "region": "美国",
+      "series": "Gemini",
+      "open_source": false,
+      "year": "2025",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 2.0 Pro，属于 Gemini 系列，也常写作 Gemini2.0Pro",
+        "属性": "它由 Google 开发，是闭源模型，旗舰",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 2.0 Flash",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "gemini-2-5-pro",
+      "label": 35,
+      "name": "Gemini 2.5 Pro",
+      "company": "Google",
+      "region": "美国",
+      "series": "Gemini",
+      "open_source": false,
+      "year": "2025",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 2.5 Pro，属于 Gemini 系列，也常写作 Gemini2.5Pro",
+        "属性": "它由 Google 开发，是闭源模型，旗舰",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 2.0 Pro",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "gemini-2-5-flash",
+      "label": 36,
+      "name": "Gemini 2.5 Flash",
+      "company": "Google",
+      "region": "美国",
+      "series": "Gemini",
+      "open_source": false,
+      "year": "2025",
+      "note": "轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 2.5 Flash，属于 Gemini 系列，也常写作 Gemini2.5Flash",
+        "属性": "它由 Google 开发，是闭源模型，轻量",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 2.5 Pro",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "gemini-3-pro",
+      "label": 37,
+      "name": "Gemini 3 Pro",
+      "company": "Google",
+      "region": "美国",
+      "series": "Gemini",
+      "open_source": false,
+      "year": "2025",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 3 Pro，属于 Gemini 系列，也常写作 Gemini3Pro",
+        "属性": "它由 Google 开发，是闭源模型，旗舰",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 2.5 Flash",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "gemini-3-flash",
+      "label": 38,
+      "name": "Gemini 3 Flash",
+      "company": "Google",
+      "region": "美国",
+      "series": "Gemini",
+      "open_source": false,
+      "year": "2025",
+      "note": "轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 3 Flash，属于 Gemini 系列，也常写作 Gemini3Flash",
+        "属性": "它由 Google 开发，是闭源模型，轻量",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 3 Pro",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "gemini-3-5-pro",
+      "label": 39,
+      "name": "Gemini 3.5 Pro",
+      "company": "Google",
+      "region": "美国",
+      "series": "Gemini",
+      "open_source": false,
+      "year": "2026",
+      "note": "代理编码旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 3.5 Pro，属于 Gemini 系列，也常写作 Gemini3.5Pro",
+        "属性": "它由 Google 开发，是闭源模型，代理编码旗舰",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 3 Flash",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "gemini-3-5-flash",
+      "label": 40,
+      "name": "Gemini 3.5 Flash",
+      "company": "Google",
+      "region": "美国",
+      "series": "Gemini",
+      "open_source": false,
+      "year": "2026",
+      "note": "最快代理编码",
+      "evidence": {
+        "名称": "这个模型的全称是 Gemini 3.5 Flash，属于 Gemini 系列，也常写作 Gemini3.5Flash",
+        "属性": "它由 Google 开发，是闭源模型，最快代理编码",
+        "关系": "它在 Gemini 系列中，前一代是 Gemini 3.5 Pro，是该系列最新版本",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "llama-1",
+      "label": 41,
+      "name": "Llama 1",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 1，属于 Llama 系列，也常写作 Llama1",
+        "属性": "它由 Meta 开发，是开源模型",
+        "关系": "它在 Llama 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "llama-2",
+      "label": 42,
+      "name": "Llama 2",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 2，属于 Llama 系列，也常写作 Llama2",
+        "属性": "它由 Meta 开发，是开源模型",
+        "关系": "它在 Llama 系列中，前一代是 Llama 1",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "llama-3",
+      "label": 43,
+      "name": "Llama 3",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3，属于 Llama 系列，也常写作 Llama3",
+        "属性": "它由 Meta 开发，是开源模型",
+        "关系": "它在 Llama 系列中，前一代是 Llama 2",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-3-1",
+      "label": 44,
+      "name": "Llama 3.1",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.1，属于 Llama 系列，也常写作 Llama3.1",
+        "属性": "它由 Meta 开发，是开源模型",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-3-2",
+      "label": 45,
+      "name": "Llama 3.2",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "多模态",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.2，属于 Llama 系列，也常写作 Llama3.2",
+        "属性": "它由 Meta 开发，是开源模型，多模态",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3.1",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-3-3",
+      "label": 46,
+      "name": "Llama 3.3",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.3，属于 Llama 系列，也常写作 Llama3.3",
+        "属性": "它由 Meta 开发，是开源模型",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3.2",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-4",
+      "label": 47,
+      "name": "Llama 4",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2026",
+      "note": "开源多模态旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 4，属于 Llama 系列，也常写作 Llama4",
+        "属性": "它由 Meta 开发，是开源模型，开源多模态旗舰",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3.3，是该系列最新版本",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "grok-1",
+      "label": 48,
+      "name": "Grok 1",
+      "company": "xAI",
+      "region": "美国",
+      "series": "Grok",
+      "open_source": false,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 1，属于 Grok 系列，也常写作 Grok1",
+        "属性": "它由 xAI 开发，是闭源模型",
+        "关系": "它在 Grok 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "grok-1-5",
+      "label": 49,
+      "name": "Grok 1.5",
+      "company": "xAI",
+      "region": "美国",
+      "series": "Grok",
+      "open_source": false,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 1.5，属于 Grok 系列，也常写作 Grok1.5",
+        "属性": "它由 xAI 开发，是闭源模型",
+        "关系": "它在 Grok 系列中，前一代是 Grok 1",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "grok-2",
+      "label": 50,
+      "name": "Grok 2",
+      "company": "xAI",
+      "region": "美国",
+      "series": "Grok",
+      "open_source": false,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 2，属于 Grok 系列，也常写作 Grok2",
+        "属性": "它由 xAI 开发，是闭源模型",
+        "关系": "它在 Grok 系列中，前一代是 Grok 1.5",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "grok-3",
+      "label": 51,
+      "name": "Grok 3",
+      "company": "xAI",
+      "region": "美国",
+      "series": "Grok",
+      "open_source": false,
+      "year": "2025",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 3，属于 Grok 系列，也常写作 Grok3",
+        "属性": "它由 xAI 开发，是闭源模型，旗舰",
+        "关系": "它在 Grok 系列中，前一代是 Grok 2",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "grok-4",
+      "label": 52,
+      "name": "Grok 4",
+      "company": "xAI",
+      "region": "美国",
+      "series": "Grok",
+      "open_source": false,
+      "year": "2025",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 4，属于 Grok 系列，也常写作 Grok4",
+        "属性": "它由 xAI 开发，是闭源模型，旗舰",
+        "关系": "它在 Grok 系列中，前一代是 Grok 3",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "grok-5",
+      "label": 53,
+      "name": "Grok 5",
+      "company": "xAI",
+      "region": "美国",
+      "series": "Grok",
+      "open_source": false,
+      "year": "2026",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Grok 5，属于 Grok 系列，也常写作 Grok5",
+        "属性": "它由 xAI 开发，是闭源模型，旗舰",
+        "关系": "它在 Grok 系列中，前一代是 Grok 4，是该系列最新版本",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "mistral-7b",
+      "label": 54,
+      "name": "Mistral 7B",
+      "company": "Mistral AI",
+      "region": "法国",
+      "series": "Mistral",
+      "open_source": true,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral 7B，属于 Mistral 系列，也常写作 Mistral7B",
+        "属性": "它由 Mistral AI 开发，是开源模型",
+        "关系": "它在 Mistral 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "mixtral-8x7b",
+      "label": 55,
+      "name": "Mixtral 8x7B",
+      "company": "Mistral AI",
+      "region": "法国",
+      "series": "Mistral",
+      "open_source": true,
+      "year": "2023",
+      "note": "MoE",
+      "evidence": {
+        "名称": "这个模型的全称是 Mixtral 8x7B，属于 Mistral 系列，也常写作 Mixtral8x7B",
+        "属性": "它由 Mistral AI 开发，是开源模型，MoE",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral 7B",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "mistral-small",
+      "label": 56,
+      "name": "Mistral Small",
+      "company": "Mistral AI",
+      "region": "法国",
+      "series": "Mistral",
+      "open_source": true,
+      "year": "2024",
+      "note": "轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Small，属于 Mistral 系列，也常写作 MistralSmall",
+        "属性": "它由 Mistral AI 开发，是开源模型，轻量",
+        "关系": "它在 Mistral 系列中，前一代是 Mixtral 8x7B",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "mistral-medium",
+      "label": 57,
+      "name": "Mistral Medium",
+      "company": "Mistral AI",
+      "region": "法国",
+      "series": "Mistral",
+      "open_source": true,
+      "year": "2024",
+      "note": "均衡",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Medium，属于 Mistral 系列，也常写作 MistralMedium",
+        "属性": "它由 Mistral AI 开发，是开源模型，均衡",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral Small",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "mistral-large-2",
+      "label": 58,
+      "name": "Mistral Large 2",
+      "company": "Mistral AI",
+      "region": "法国",
+      "series": "Mistral",
+      "open_source": true,
+      "year": "2024",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Large 2，属于 Mistral 系列，也常写作 MistralLarge2",
+        "属性": "它由 Mistral AI 开发，是开源模型，旗舰",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral Medium",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "mistral-nemo",
+      "label": 59,
+      "name": "Mistral Nemo",
+      "company": "Mistral AI",
+      "region": "法国",
+      "series": "Mistral",
+      "open_source": true,
+      "year": "2024",
+      "note": "轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Nemo，属于 Mistral 系列，也常写作 MistralNemo",
+        "属性": "它由 Mistral AI 开发，是开源模型，轻量",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral Large 2",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "mistral-large-3",
+      "label": 60,
+      "name": "Mistral Large 3",
+      "company": "Mistral AI",
+      "region": "法国",
+      "series": "Mistral",
+      "open_source": true,
+      "year": "2025",
+      "note": "旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Large 3，属于 Mistral 系列，也常写作 MistralLarge3",
+        "属性": "它由 Mistral AI 开发，是开源模型，旗舰",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral Nemo",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "mistral-small-3",
+      "label": 61,
+      "name": "Mistral Small 3",
+      "company": "Mistral AI",
+      "region": "法国",
+      "series": "Mistral",
+      "open_source": true,
+      "year": "2025",
+      "note": "轻量",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral Small 3，属于 Mistral 系列，也常写作 MistralSmall3",
+        "属性": "它由 Mistral AI 开发，是开源模型，轻量",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral Large 3，是该系列最新版本",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "qwen-1",
+      "label": 62,
+      "name": "Qwen 1",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen 1，属于 Qwen 系列，也常写作 Qwen1",
+        "属性": "它由 阿里巴巴 开发，是开源模型",
+        "关系": "它在 Qwen 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "qwen-1-5",
+      "label": 63,
+      "name": "Qwen 1.5",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen 1.5，属于 Qwen 系列，也常写作 Qwen1.5",
+        "属性": "它由 阿里巴巴 开发，是开源模型",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen 1",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen2",
+      "label": 64,
+      "name": "Qwen2",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen 1.5",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen2-5",
+      "label": 65,
+      "name": "Qwen2.5",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen2",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen3",
+      "label": 66,
+      "name": "Qwen3",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2025",
+      "note": "开源旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "qwen3-5",
+      "label": 67,
+      "name": "Qwen3.5",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2025",
+      "note": "开源旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3.5，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "qwen3-6",
+      "label": 68,
+      "name": "Qwen3.6",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2026",
+      "note": "开源旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3.6，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3.5",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "qwen3-7-max",
+      "label": 69,
+      "name": "Qwen3.7-Max",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2026",
+      "note": "闭源国产旗舰第一",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3.7-Max，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，闭源国产旗舰第一",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3.6",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "qwen-vl",
+      "label": 70,
+      "name": "Qwen-VL",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "多模态",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen-VL，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3.7-Max",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen2-5-coder",
+      "label": 71,
+      "name": "Qwen2.5-Coder",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "编程",
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5-Coder，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，编程",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen-VL，是该系列最新版本",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "deepseek-v1",
+      "label": 72,
+      "name": "DeepSeek-V1",
+      "company": "深度求索",
+      "region": "中国",
+      "series": "DeepSeek",
+      "open_source": true,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V1，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型",
+        "关系": "它在 DeepSeek 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "deepseek-v2",
+      "label": 73,
+      "name": "DeepSeek-V2",
+      "company": "深度求索",
+      "region": "中国",
+      "series": "DeepSeek",
+      "open_source": true,
+      "year": "2024",
+      "note": "MoE",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V2，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，MoE",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V1",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "deepseek-v2-5",
+      "label": 74,
+      "name": "DeepSeek-V2.5",
+      "company": "深度求索",
+      "region": "中国",
+      "series": "DeepSeek",
+      "open_source": true,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V2.5，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V2",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "deepseek-v3",
+      "label": 75,
+      "name": "DeepSeek-V3",
+      "company": "深度求索",
+      "region": "中国",
+      "series": "DeepSeek",
+      "open_source": true,
+      "year": "2024",
+      "note": "开源旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V3，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V2.5",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "deepseek-r1",
+      "label": 76,
+      "name": "DeepSeek-R1",
+      "company": "深度求索",
+      "region": "中国",
+      "series": "DeepSeek",
+      "open_source": true,
+      "year": "2025",
+      "note": "推理",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-R1，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，推理",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V3",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "deepseek-r1-zero",
+      "label": 77,
+      "name": "DeepSeek-R1-Zero",
+      "company": "深度求索",
+      "region": "中国",
+      "series": "DeepSeek",
+      "open_source": true,
+      "year": "2025",
+      "note": "推理",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-R1-Zero，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，推理",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-R1",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "deepseek-v3-1",
+      "label": 78,
+      "name": "DeepSeek-V3.1",
+      "company": "深度求索",
+      "region": "中国",
+      "series": "DeepSeek",
+      "open_source": true,
+      "year": "2025",
+      "note": "开源旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V3.1，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-R1-Zero",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "deepseek-v4",
+      "label": 79,
+      "name": "DeepSeek-V4",
+      "company": "深度求索",
+      "region": "中国",
+      "series": "DeepSeek",
+      "open_source": true,
+      "year": "2026",
+      "note": "开源旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V4，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V3.1",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "label": 80,
+      "name": "DeepSeek-V4-Pro",
+      "company": "深度求索",
+      "region": "中国",
+      "series": "DeepSeek",
+      "open_source": true,
+      "year": "2026",
+      "note": "开源旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-V4-Pro，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V4，是该系列最新版本",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "kimi-k1",
+      "label": 81,
+      "name": "Kimi K1",
+      "company": "月之暗面",
+      "region": "中国",
+      "series": "Kimi",
+      "open_source": true,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Kimi K1，属于 Kimi 系列，也常写作 KimiK1",
+        "属性": "它由 月之暗面 开发，是开源模型",
+        "关系": "它在 Kimi 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "kimi-k1-5",
+      "label": 82,
+      "name": "Kimi K1.5",
+      "company": "月之暗面",
+      "region": "中国",
+      "series": "Kimi",
+      "open_source": true,
+      "year": "2025",
+      "note": "推理",
+      "evidence": {
+        "名称": "这个模型的全称是 Kimi K1.5，属于 Kimi 系列，也常写作 KimiK1.5",
+        "属性": "它由 月之暗面 开发，是开源模型，推理",
+        "关系": "它在 Kimi 系列中，前一代是 Kimi K1",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "kimi-k2",
+      "label": 83,
+      "name": "Kimi K2",
+      "company": "月之暗面",
+      "region": "中国",
+      "series": "Kimi",
+      "open_source": true,
+      "year": "2025",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 Kimi K2，属于 Kimi 系列，也常写作 KimiK2",
+        "属性": "它由 月之暗面 开发，是开源模型，开源",
+        "关系": "它在 Kimi 系列中，前一代是 Kimi K1.5",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "kimi-k2-5",
+      "label": 84,
+      "name": "Kimi K2.5",
+      "company": "月之暗面",
+      "region": "中国",
+      "series": "Kimi",
+      "open_source": true,
+      "year": "2025",
+      "note": "开源旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Kimi K2.5，属于 Kimi 系列，也常写作 KimiK2.5",
+        "属性": "它由 月之暗面 开发，是开源模型，开源旗舰",
+        "关系": "它在 Kimi 系列中，前一代是 Kimi K2",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "kimi-k2-6",
+      "label": 85,
+      "name": "Kimi-K2.6",
+      "company": "月之暗面",
+      "region": "中国",
+      "series": "Kimi",
+      "open_source": true,
+      "year": "2026",
+      "note": "开源旗舰",
+      "evidence": {
+        "名称": "这个模型的全称是 Kimi-K2.6，属于 Kimi 系列",
+        "属性": "它由 月之暗面 开发，是开源模型，开源旗舰",
+        "关系": "它在 Kimi 系列中，前一代是 Kimi K2.5，是该系列最新版本",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "glm-4",
+      "label": 86,
+      "name": "GLM-4",
+      "company": "智谱AI",
+      "region": "中国",
+      "series": "GLM",
+      "open_source": true,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-4，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型",
+        "关系": "它在 GLM 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "glm-4-5",
+      "label": 87,
+      "name": "GLM-4.5",
+      "company": "智谱AI",
+      "region": "中国",
+      "series": "GLM",
+      "open_source": true,
+      "year": "2025",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-4.5，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型",
+        "关系": "它在 GLM 系列中，前一代是 GLM-4",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "glm-4-6",
+      "label": 88,
+      "name": "GLM-4.6",
+      "company": "智谱AI",
+      "region": "中国",
+      "series": "GLM",
+      "open_source": true,
+      "year": "2025",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-4.6，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型",
+        "关系": "它在 GLM 系列中，前一代是 GLM-4.5",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "glm-5",
+      "label": 89,
+      "name": "GLM-5",
+      "company": "智谱AI",
+      "region": "中国",
+      "series": "GLM",
+      "open_source": true,
+      "year": "2025",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-5，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型",
+        "关系": "它在 GLM 系列中，前一代是 GLM-4.6",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "glm-5-1",
+      "label": 90,
+      "name": "GLM-5.1",
+      "company": "智谱AI",
+      "region": "中国",
+      "series": "GLM",
+      "open_source": true,
+      "year": "2026",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-5.1，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型，开源",
+        "关系": "它在 GLM 系列中，前一代是 GLM-5",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "glm-5-3",
+      "label": 91,
+      "name": "GLM-5.3",
+      "company": "智谱AI",
+      "region": "中国",
+      "series": "GLM",
+      "open_source": true,
+      "year": "2026",
+      "note": "开源编程最强",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-5.3，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型，开源编程最强",
+        "关系": "它在 GLM 系列中，前一代是 GLM-5.1",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "glm-z1",
+      "label": 92,
+      "name": "GLM-Z1",
+      "company": "智谱AI",
+      "region": "中国",
+      "series": "GLM",
+      "open_source": true,
+      "year": "2025",
+      "note": "推理",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-Z1，属于 GLM 系列",
+        "属性": "它由 智谱AI 开发，是开源模型，推理",
+        "关系": "它在 GLM 系列中，前一代是 GLM-5.3，是该系列最新版本",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "minimax-m1",
+      "label": 93,
+      "name": "MiniMax M1",
+      "company": "MiniMax",
+      "region": "中国",
+      "series": "MiniMax",
+      "open_source": true,
+      "year": "2025",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniMax M1，属于 MiniMax 系列，也常写作 MiniMaxM1",
+        "属性": "它由 MiniMax 开发，是开源模型",
+        "关系": "它在 MiniMax 系列中，是该系列早期版本",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "minimax-m2",
+      "label": 94,
+      "name": "MiniMax M2",
+      "company": "MiniMax",
+      "region": "中国",
+      "series": "MiniMax",
+      "open_source": true,
+      "year": "2025",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniMax M2，属于 MiniMax 系列，也常写作 MiniMaxM2",
+        "属性": "它由 MiniMax 开发，是开源模型，开源",
+        "关系": "它在 MiniMax 系列中，前一代是 MiniMax M1",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "minimax-m2-5",
+      "label": 95,
+      "name": "MiniMax M2.5",
+      "company": "MiniMax",
+      "region": "中国",
+      "series": "MiniMax",
+      "open_source": true,
+      "year": "2025",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniMax M2.5，属于 MiniMax 系列，也常写作 MiniMaxM2.5",
+        "属性": "它由 MiniMax 开发，是开源模型，开源",
+        "关系": "它在 MiniMax 系列中，前一代是 MiniMax M2",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "minimax-m2-7",
+      "label": 96,
+      "name": "MiniMax M2.7",
+      "company": "MiniMax",
+      "region": "中国",
+      "series": "MiniMax",
+      "open_source": true,
+      "year": "2026",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 MiniMax M2.7，属于 MiniMax 系列，也常写作 MiniMaxM2.7",
+        "属性": "它由 MiniMax 开发，是开源模型，开源",
+        "关系": "它在 MiniMax 系列中，前一代是 MiniMax M2.5，是该系列最新版本",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "豆包-1-0",
+      "label": 97,
+      "name": "豆包 1.0",
+      "company": "字节跳动",
+      "region": "中国",
+      "series": "豆包",
+      "open_source": false,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 豆包 1.0，属于 豆包 系列，也常写作 豆包1.0",
+        "属性": "它由 字节跳动 开发，是闭源模型",
+        "关系": "它在 豆包 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "豆包-1-5",
+      "label": 98,
+      "name": "豆包 1.5",
+      "company": "字节跳动",
+      "region": "中国",
+      "series": "豆包",
+      "open_source": false,
+      "year": "2025",
+      "note": "商用",
+      "evidence": {
+        "名称": "这个模型的全称是 豆包 1.5，属于 豆包 系列，也常写作 豆包1.5",
+        "属性": "它由 字节跳动 开发，是闭源模型，商用",
+        "关系": "它在 豆包 系列中，前一代是 豆包 1.0",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "豆包-1-5-pro",
+      "label": 99,
+      "name": "豆包 1.5 Pro",
+      "company": "字节跳动",
+      "region": "中国",
+      "series": "豆包",
+      "open_source": false,
+      "year": "2026",
+      "note": "推理突出",
+      "evidence": {
+        "名称": "这个模型的全称是 豆包 1.5 Pro，属于 豆包 系列，也常写作 豆包1.5Pro",
+        "属性": "它由 字节跳动 开发，是闭源模型，推理突出",
+        "关系": "它在 豆包 系列中，前一代是 豆包 1.5",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "seed-1-5",
+      "label": 100,
+      "name": "Seed 1.5",
+      "company": "字节跳动",
+      "region": "中国",
+      "series": "豆包",
+      "open_source": false,
+      "year": "2025",
+      "note": "多模态",
+      "evidence": {
+        "名称": "这个模型的全称是 Seed 1.5，属于 豆包 系列，也常写作 Seed1.5",
+        "属性": "它由 字节跳动 开发，是闭源模型，多模态",
+        "关系": "它在 豆包 系列中，前一代是 豆包 1.5 Pro",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "seed-2-0",
+      "label": 101,
+      "name": "Seed 2.0",
+      "company": "字节跳动",
+      "region": "中国",
+      "series": "豆包",
+      "open_source": false,
+      "year": "2025",
+      "note": "多模态",
+      "evidence": {
+        "名称": "这个模型的全称是 Seed 2.0，属于 豆包 系列，也常写作 Seed2.0",
+        "属性": "它由 字节跳动 开发，是闭源模型，多模态",
+        "关系": "它在 豆包 系列中，前一代是 Seed 1.5，是该系列最新版本",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "混元",
+      "label": 102,
+      "name": "混元",
+      "company": "腾讯",
+      "region": "中国",
+      "series": "混元",
+      "open_source": false,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 混元，属于 混元 系列",
+        "属性": "它由 腾讯 开发，是闭源模型",
+        "关系": "它在 混元 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "混元-turbo",
+      "label": 103,
+      "name": "混元 Turbo",
+      "company": "腾讯",
+      "region": "中国",
+      "series": "混元",
+      "open_source": false,
+      "year": "2024",
+      "note": "商用",
+      "evidence": {
+        "名称": "这个模型的全称是 混元 Turbo，属于 混元 系列，也常写作 混元Turbo",
+        "属性": "它由 腾讯 开发，是闭源模型，商用",
+        "关系": "它在 混元 系列中，前一代是 混元",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "混元-large",
+      "label": 104,
+      "name": "混元 Large",
+      "company": "腾讯",
+      "region": "中国",
+      "series": "混元",
+      "open_source": false,
+      "year": "2024",
+      "note": "商用",
+      "evidence": {
+        "名称": "这个模型的全称是 混元 Large，属于 混元 系列，也常写作 混元Large",
+        "属性": "它由 腾讯 开发，是闭源模型，商用",
+        "关系": "它在 混元 系列中，前一代是 混元 Turbo",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "混元-t1",
+      "label": 105,
+      "name": "混元 T1",
+      "company": "腾讯",
+      "region": "中国",
+      "series": "混元",
+      "open_source": false,
+      "year": "2025",
+      "note": "推理",
+      "evidence": {
+        "名称": "这个模型的全称是 混元 T1，属于 混元 系列，也常写作 混元T1",
+        "属性": "它由 腾讯 开发，是闭源模型，推理",
+        "关系": "它在 混元 系列中，前一代是 混元 Large，是该系列最新版本",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "文心-ernie-3-0",
+      "label": 106,
+      "name": "文心 ERNIE 3.0",
+      "company": "百度",
+      "region": "中国",
+      "series": "文心",
+      "open_source": false,
+      "year": "2021",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 文心 ERNIE 3.0，属于 文心 系列，也常写作 文心ERNIE3.0",
+        "属性": "它由 百度 开发，是闭源模型",
+        "关系": "它在 文心 系列中，是该系列早期版本",
+        "变化": "它于 2021 年发布"
+      }
+    },
+    {
+      "id": "文心-ernie-3-5",
+      "label": 107,
+      "name": "文心 ERNIE 3.5",
+      "company": "百度",
+      "region": "中国",
+      "series": "文心",
+      "open_source": false,
+      "year": "2023",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 文心 ERNIE 3.5，属于 文心 系列，也常写作 文心ERNIE3.5",
+        "属性": "它由 百度 开发，是闭源模型",
+        "关系": "它在 文心 系列中，前一代是 文心 ERNIE 3.0",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "文心一言-4-0",
+      "label": 108,
+      "name": "文心一言 4.0",
+      "company": "百度",
+      "region": "中国",
+      "series": "文心",
+      "open_source": false,
+      "year": "2023",
+      "note": "商用",
+      "evidence": {
+        "名称": "这个模型的全称是 文心一言 4.0，属于 文心 系列，也常写作 文心一言4.0",
+        "属性": "它由 百度 开发，是闭源模型，商用",
+        "关系": "它在 文心 系列中，前一代是 文心 ERNIE 3.5",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "文心一言-4-5",
+      "label": 109,
+      "name": "文心一言 4.5",
+      "company": "百度",
+      "region": "中国",
+      "series": "文心",
+      "open_source": false,
+      "year": "2025",
+      "note": "商用",
+      "evidence": {
+        "名称": "这个模型的全称是 文心一言 4.5，属于 文心 系列，也常写作 文心一言4.5",
+        "属性": "它由 百度 开发，是闭源模型，商用",
+        "关系": "它在 文心 系列中，前一代是 文心一言 4.0",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "文心-4-5-turbo",
+      "label": 110,
+      "name": "文心 4.5 Turbo",
+      "company": "百度",
+      "region": "中国",
+      "series": "文心",
+      "open_source": false,
+      "year": "2025",
+      "note": "商用",
+      "evidence": {
+        "名称": "这个模型的全称是 文心 4.5 Turbo，属于 文心 系列，也常写作 文心4.5Turbo",
+        "属性": "它由 百度 开发，是闭源模型，商用",
+        "关系": "它在 文心 系列中，前一代是 文心一言 4.5，是该系列最新版本",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "step-1",
+      "label": 111,
+      "name": "Step-1",
+      "company": "阶跃星辰",
+      "region": "中国",
+      "series": "Step",
+      "open_source": true,
+      "year": "2024",
+      "note": "",
+      "evidence": {
+        "名称": "这个模型的全称是 Step-1，属于 Step 系列",
+        "属性": "它由 阶跃星辰 开发，是开源模型",
+        "关系": "它在 Step 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "step-2",
+      "label": 112,
+      "name": "Step-2",
+      "company": "阶跃星辰",
+      "region": "中国",
+      "series": "Step",
+      "open_source": true,
+      "year": "2024",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 Step-2，属于 Step 系列",
+        "属性": "它由 阶跃星辰 开发，是开源模型，开源",
+        "关系": "它在 Step 系列中，前一代是 Step-1",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "step-3",
+      "label": 113,
+      "name": "Step-3",
+      "company": "阶跃星辰",
+      "region": "中国",
+      "series": "Step",
+      "open_source": true,
+      "year": "2025",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 Step-3，属于 Step 系列",
+        "属性": "它由 阶跃星辰 开发，是开源模型，开源",
+        "关系": "它在 Step 系列中，前一代是 Step-2，是该系列最新版本",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "yi-1-5",
+      "label": 114,
+      "name": "Yi-1.5",
+      "company": "零一万物",
+      "region": "中国",
+      "series": "Yi",
+      "open_source": true,
+      "year": "2024",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 Yi-1.5，属于 Yi 系列",
+        "属性": "它由 零一万物 开发，是开源模型，开源",
+        "关系": "它在 Yi 系列中，是该系列早期版本",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "yi-lightning",
+      "label": 115,
+      "name": "Yi-Lightning",
+      "company": "零一万物",
+      "region": "中国",
+      "series": "Yi",
+      "open_source": true,
+      "year": "2024",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 Yi-Lightning，属于 Yi 系列",
+        "属性": "它由 零一万物 开发，是开源模型，开源",
+        "关系": "它在 Yi 系列中，前一代是 Yi-1.5",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "yi-2",
+      "label": 116,
+      "name": "Yi-2",
+      "company": "零一万物",
+      "region": "中国",
+      "series": "Yi",
+      "open_source": true,
+      "year": "2025",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 Yi-2，属于 Yi 系列",
+        "属性": "它由 零一万物 开发，是开源模型，开源",
+        "关系": "它在 Yi 系列中，前一代是 Yi-Lightning，是该系列最新版本",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "baichuan-13b",
+      "label": 117,
+      "name": "Baichuan-13B",
+      "company": "百川智能",
+      "region": "中国",
+      "series": "Baichuan",
+      "open_source": true,
+      "year": "2023",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 Baichuan-13B，属于 Baichuan 系列",
+        "属性": "它由 百川智能 开发，是开源模型，开源",
+        "关系": "它在 Baichuan 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "baichuan2",
+      "label": 118,
+      "name": "Baichuan2",
+      "company": "百川智能",
+      "region": "中国",
+      "series": "Baichuan",
+      "open_source": true,
+      "year": "2023",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 Baichuan2，属于 Baichuan 系列",
+        "属性": "它由 百川智能 开发，是开源模型，开源",
+        "关系": "它在 Baichuan 系列中，前一代是 Baichuan-13B",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "baichuan4",
+      "label": 119,
+      "name": "Baichuan4",
+      "company": "百川智能",
+      "region": "中国",
+      "series": "Baichuan",
+      "open_source": true,
+      "year": "2024",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 Baichuan4，属于 Baichuan 系列",
+        "属性": "它由 百川智能 开发，是开源模型，开源",
+        "关系": "它在 Baichuan 系列中，前一代是 Baichuan2，是该系列最新版本",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "skywork-13b",
+      "label": 120,
+      "name": "Skywork-13B",
+      "company": "昆仑万维",
+      "region": "中国",
+      "series": "Skywork",
+      "open_source": true,
+      "year": "2023",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 Skywork-13B，属于 Skywork 系列",
+        "属性": "它由 昆仑万维 开发，是开源模型，开源",
+        "关系": "它在 Skywork 系列中，是该系列早期版本",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "skywork-4-0",
+      "label": 121,
+      "name": "Skywork 4.0",
+      "company": "昆仑万维",
+      "region": "中国",
+      "series": "Skywork",
+      "open_source": true,
+      "year": "2024",
+      "note": "开源",
+      "evidence": {
+        "名称": "这个模型的全称是 Skywork 4.0，属于 Skywork 系列，也常写作 Skywork4.0",
+        "属性": "它由 昆仑万维 开发，是开源模型，开源",
+        "关系": "它在 Skywork 系列中，前一代是 Skywork-13B，是该系列最新版本",
+        "变化": "它于 2024 年发布"
+      }
+    }
+  ],
+  "queries": [
+    {
+      "text": "介绍一下GPT-1这个模型",
+      "target_id": "gpt-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-1是什么模型？",
+      "target_id": "gpt-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-1这个模型",
+      "target_id": "gpt-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GPT-2这个模型",
+      "target_id": "gpt-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-2是什么模型？",
+      "target_id": "gpt-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-2这个模型",
+      "target_id": "gpt-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GPT系列中，前一代是GPT-1的模型是哪个？",
+      "target_id": "gpt-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GPT-1？",
+      "target_id": "gpt-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GPT-3这个模型",
+      "target_id": "gpt-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-3是什么模型？",
+      "target_id": "gpt-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-3这个模型",
+      "target_id": "gpt-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GPT系列中，前一代是GPT-2的模型是哪个？",
+      "target_id": "gpt-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GPT-2？",
+      "target_id": "gpt-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GPT-3.5这个模型",
+      "target_id": "gpt-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-3.5是什么模型？",
+      "target_id": "gpt-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-3.5这个模型",
+      "target_id": "gpt-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GPT系列中，前一代是GPT-3的模型是哪个？",
+      "target_id": "gpt-3-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GPT-3？",
+      "target_id": "gpt-3-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GPT-4这个模型",
+      "target_id": "gpt-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4是什么模型？",
+      "target_id": "gpt-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-4这个模型",
+      "target_id": "gpt-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GPT系列中，前一代是GPT-3.5的模型是哪个？",
+      "target_id": "gpt-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GPT-3.5？",
+      "target_id": "gpt-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GPT-4 Turbo这个模型",
+      "target_id": "gpt-4-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4 Turbo是什么模型？",
+      "target_id": "gpt-4-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-4 Turbo这个模型",
+      "target_id": "gpt-4-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GPT系列中，前一代是GPT-4的模型是哪个？",
+      "target_id": "gpt-4-turbo",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GPT-4？",
+      "target_id": "gpt-4-turbo",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GPT-4o这个模型",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4o是什么模型？",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-4o这个模型",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GPT系列中，前一代是GPT-4 Turbo的模型是哪个？",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GPT-4 Turbo？",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GPT-4o mini这个模型",
+      "target_id": "gpt-4o-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4o mini是什么模型？",
+      "target_id": "gpt-4o-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-4o mini这个模型",
+      "target_id": "gpt-4o-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GPT系列中，前一代是GPT-4o的模型是哪个？",
+      "target_id": "gpt-4o-mini",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GPT-4o？",
+      "target_id": "gpt-4o-mini",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GPT-4.1这个模型",
+      "target_id": "gpt-4-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4.1是什么模型？",
+      "target_id": "gpt-4-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-4.1这个模型",
+      "target_id": "gpt-4-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GPT系列中，前一代是GPT-4o mini的模型是哪个？",
+      "target_id": "gpt-4-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GPT-4o mini？",
+      "target_id": "gpt-4-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GPT-5这个模型",
+      "target_id": "gpt-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-5是什么模型？",
+      "target_id": "gpt-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-5这个模型",
+      "target_id": "gpt-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GPT系列中，前一代是GPT-4.1的模型是哪个？",
+      "target_id": "gpt-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GPT-4.1？",
+      "target_id": "gpt-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GPT-5.1这个模型",
+      "target_id": "gpt-5-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-5.1是什么模型？",
+      "target_id": "gpt-5-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-5.1这个模型",
+      "target_id": "gpt-5-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GPT系列中，前一代是GPT-5的模型是哪个？",
+      "target_id": "gpt-5-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GPT-5？",
+      "target_id": "gpt-5-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GPT-5.2这个模型",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-5.2是什么模型？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GPT-5.2这个模型",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GPT系列中，前一代是GPT-5.1的模型是哪个？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GPT-5.1？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "OpenAI的GPT系列最新模型是什么？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "GPT系列现在最新的是哪一款？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是OpenAI最新的GPT模型？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "GPT家族当前最新的版本是哪个？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "GPT系列现在出到哪个版本了？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "GPT系列最近有什么新旗舰？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "OpenAI刚发布的GPT模型是哪一个？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "GPT是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "OpenAI的GPT系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "GPT系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下o1这个模型",
+      "target_id": "o1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "o1是什么模型？",
+      "target_id": "o1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解o1这个模型",
+      "target_id": "o1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下o1-mini这个模型",
+      "target_id": "o1-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "o1-mini是什么模型？",
+      "target_id": "o1-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解o1-mini这个模型",
+      "target_id": "o1-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在o 推理系列中，前一代是o1的模型是哪个？",
+      "target_id": "o1-mini",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是o1？",
+      "target_id": "o1-mini",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下o3这个模型",
+      "target_id": "o3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "o3是什么模型？",
+      "target_id": "o3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解o3这个模型",
+      "target_id": "o3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在o 推理系列中，前一代是o1-mini的模型是哪个？",
+      "target_id": "o3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是o1-mini？",
+      "target_id": "o3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下o3-mini这个模型",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "o3-mini是什么模型？",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解o3-mini这个模型",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在o 推理系列中，前一代是o3的模型是哪个？",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是o3？",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "OpenAI的o 推理系列最新模型是什么？",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "o 推理系列现在最新的是哪一款？",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是OpenAI最新的o 推理模型？",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "o 推理家族当前最新的版本是哪个？",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "o 推理系列现在出到哪个版本了？",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "o 推理系列最近有什么新旗舰？",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "OpenAI刚发布的o 推理模型是哪一个？",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "o 推理是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "OpenAI的o 推理系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "o 推理系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude 1这个模型",
+      "target_id": "claude-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 1是什么模型？",
+      "target_id": "claude-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude 1这个模型",
+      "target_id": "claude-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude 2这个模型",
+      "target_id": "claude-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 2是什么模型？",
+      "target_id": "claude-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude 2这个模型",
+      "target_id": "claude-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude 1的模型是哪个？",
+      "target_id": "claude-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude 1？",
+      "target_id": "claude-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude 2.1这个模型",
+      "target_id": "claude-2-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 2.1是什么模型？",
+      "target_id": "claude-2-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude 2.1这个模型",
+      "target_id": "claude-2-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude 2的模型是哪个？",
+      "target_id": "claude-2-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude 2？",
+      "target_id": "claude-2-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude 3 Opus这个模型",
+      "target_id": "claude-3-opus",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 3 Opus是什么模型？",
+      "target_id": "claude-3-opus",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude 3 Opus这个模型",
+      "target_id": "claude-3-opus",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude 2.1的模型是哪个？",
+      "target_id": "claude-3-opus",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude 2.1？",
+      "target_id": "claude-3-opus",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude 3 Sonnet这个模型",
+      "target_id": "claude-3-sonnet",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 3 Sonnet是什么模型？",
+      "target_id": "claude-3-sonnet",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude 3 Sonnet这个模型",
+      "target_id": "claude-3-sonnet",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude 3 Opus的模型是哪个？",
+      "target_id": "claude-3-sonnet",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude 3 Opus？",
+      "target_id": "claude-3-sonnet",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude 3 Haiku这个模型",
+      "target_id": "claude-3-haiku",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 3 Haiku是什么模型？",
+      "target_id": "claude-3-haiku",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude 3 Haiku这个模型",
+      "target_id": "claude-3-haiku",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude 3 Sonnet的模型是哪个？",
+      "target_id": "claude-3-haiku",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude 3 Sonnet？",
+      "target_id": "claude-3-haiku",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude 3.5 Sonnet这个模型",
+      "target_id": "claude-3-5-sonnet",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 3.5 Sonnet是什么模型？",
+      "target_id": "claude-3-5-sonnet",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude 3.5 Sonnet这个模型",
+      "target_id": "claude-3-5-sonnet",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude 3 Haiku的模型是哪个？",
+      "target_id": "claude-3-5-sonnet",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude 3 Haiku？",
+      "target_id": "claude-3-5-sonnet",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude 3.5 Haiku这个模型",
+      "target_id": "claude-3-5-haiku",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 3.5 Haiku是什么模型？",
+      "target_id": "claude-3-5-haiku",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude 3.5 Haiku这个模型",
+      "target_id": "claude-3-5-haiku",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude 3.5 Sonnet的模型是哪个？",
+      "target_id": "claude-3-5-haiku",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude 3.5 Sonnet？",
+      "target_id": "claude-3-5-haiku",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude Opus 4这个模型",
+      "target_id": "claude-opus-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Opus 4是什么模型？",
+      "target_id": "claude-opus-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude Opus 4这个模型",
+      "target_id": "claude-opus-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude 3.5 Haiku的模型是哪个？",
+      "target_id": "claude-opus-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude 3.5 Haiku？",
+      "target_id": "claude-opus-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude Sonnet 4这个模型",
+      "target_id": "claude-sonnet-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Sonnet 4是什么模型？",
+      "target_id": "claude-sonnet-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude Sonnet 4这个模型",
+      "target_id": "claude-sonnet-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude Opus 4的模型是哪个？",
+      "target_id": "claude-sonnet-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude Opus 4？",
+      "target_id": "claude-sonnet-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude Haiku 4这个模型",
+      "target_id": "claude-haiku-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Haiku 4是什么模型？",
+      "target_id": "claude-haiku-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude Haiku 4这个模型",
+      "target_id": "claude-haiku-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude Sonnet 4的模型是哪个？",
+      "target_id": "claude-haiku-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude Sonnet 4？",
+      "target_id": "claude-haiku-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude Opus 4.5这个模型",
+      "target_id": "claude-opus-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Opus 4.5是什么模型？",
+      "target_id": "claude-opus-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude Opus 4.5这个模型",
+      "target_id": "claude-opus-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude Haiku 4的模型是哪个？",
+      "target_id": "claude-opus-4-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude Haiku 4？",
+      "target_id": "claude-opus-4-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude Opus 4.7这个模型",
+      "target_id": "claude-opus-4-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Opus 4.7是什么模型？",
+      "target_id": "claude-opus-4-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude Opus 4.7这个模型",
+      "target_id": "claude-opus-4-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude Opus 4.5的模型是哪个？",
+      "target_id": "claude-opus-4-7",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude Opus 4.5？",
+      "target_id": "claude-opus-4-7",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude Opus 4.8这个模型",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Opus 4.8是什么模型？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Claude Opus 4.8这个模型",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Claude系列中，前一代是Claude Opus 4.7的模型是哪个？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Claude Opus 4.7？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "Anthropic的Claude系列最新模型是什么？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Claude系列现在最新的是哪一款？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是Anthropic最新的Claude模型？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Claude家族当前最新的版本是哪个？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Claude系列现在出到哪个版本了？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Claude系列最近有什么新旗舰？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Anthropic刚发布的Claude模型是哪一个？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Claude是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Anthropic的Claude系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Claude系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini 1.0这个模型",
+      "target_id": "gemini-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 1.0是什么模型？",
+      "target_id": "gemini-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Gemini 1.0这个模型",
+      "target_id": "gemini-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini 1.5 Pro这个模型",
+      "target_id": "gemini-1-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 1.5 Pro是什么模型？",
+      "target_id": "gemini-1-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Gemini 1.5 Pro这个模型",
+      "target_id": "gemini-1-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Gemini系列中，前一代是Gemini 1.0的模型是哪个？",
+      "target_id": "gemini-1-5-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Gemini 1.0？",
+      "target_id": "gemini-1-5-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini 1.5 Flash这个模型",
+      "target_id": "gemini-1-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 1.5 Flash是什么模型？",
+      "target_id": "gemini-1-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Gemini 1.5 Flash这个模型",
+      "target_id": "gemini-1-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Gemini系列中，前一代是Gemini 1.5 Pro的模型是哪个？",
+      "target_id": "gemini-1-5-flash",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Gemini 1.5 Pro？",
+      "target_id": "gemini-1-5-flash",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini 2.0 Flash这个模型",
+      "target_id": "gemini-2-0-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 2.0 Flash是什么模型？",
+      "target_id": "gemini-2-0-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Gemini 2.0 Flash这个模型",
+      "target_id": "gemini-2-0-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Gemini系列中，前一代是Gemini 1.5 Flash的模型是哪个？",
+      "target_id": "gemini-2-0-flash",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Gemini 1.5 Flash？",
+      "target_id": "gemini-2-0-flash",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini 2.0 Pro这个模型",
+      "target_id": "gemini-2-0-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 2.0 Pro是什么模型？",
+      "target_id": "gemini-2-0-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Gemini 2.0 Pro这个模型",
+      "target_id": "gemini-2-0-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Gemini系列中，前一代是Gemini 2.0 Flash的模型是哪个？",
+      "target_id": "gemini-2-0-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Gemini 2.0 Flash？",
+      "target_id": "gemini-2-0-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini 2.5 Pro这个模型",
+      "target_id": "gemini-2-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 2.5 Pro是什么模型？",
+      "target_id": "gemini-2-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Gemini 2.5 Pro这个模型",
+      "target_id": "gemini-2-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Gemini系列中，前一代是Gemini 2.0 Pro的模型是哪个？",
+      "target_id": "gemini-2-5-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Gemini 2.0 Pro？",
+      "target_id": "gemini-2-5-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini 2.5 Flash这个模型",
+      "target_id": "gemini-2-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 2.5 Flash是什么模型？",
+      "target_id": "gemini-2-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Gemini 2.5 Flash这个模型",
+      "target_id": "gemini-2-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Gemini系列中，前一代是Gemini 2.5 Pro的模型是哪个？",
+      "target_id": "gemini-2-5-flash",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Gemini 2.5 Pro？",
+      "target_id": "gemini-2-5-flash",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini 3 Pro这个模型",
+      "target_id": "gemini-3-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 3 Pro是什么模型？",
+      "target_id": "gemini-3-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Gemini 3 Pro这个模型",
+      "target_id": "gemini-3-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Gemini系列中，前一代是Gemini 2.5 Flash的模型是哪个？",
+      "target_id": "gemini-3-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Gemini 2.5 Flash？",
+      "target_id": "gemini-3-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini 3 Flash这个模型",
+      "target_id": "gemini-3-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 3 Flash是什么模型？",
+      "target_id": "gemini-3-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Gemini 3 Flash这个模型",
+      "target_id": "gemini-3-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Gemini系列中，前一代是Gemini 3 Pro的模型是哪个？",
+      "target_id": "gemini-3-flash",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Gemini 3 Pro？",
+      "target_id": "gemini-3-flash",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini 3.5 Pro这个模型",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 3.5 Pro是什么模型？",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Gemini 3.5 Pro这个模型",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Gemini系列中，前一代是Gemini 3 Flash的模型是哪个？",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Gemini 3 Flash？",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini 3.5 Flash这个模型",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 3.5 Flash是什么模型？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Gemini 3.5 Flash这个模型",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Gemini系列中，前一代是Gemini 3.5 Pro的模型是哪个？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Gemini 3.5 Pro？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "Google的Gemini系列最新模型是什么？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Gemini系列现在最新的是哪一款？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是Google最新的Gemini模型？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Gemini家族当前最新的版本是哪个？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Gemini系列现在出到哪个版本了？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Gemini系列最近有什么新旗舰？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Google刚发布的Gemini模型是哪一个？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Gemini是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Google的Gemini系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Gemini系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 1这个模型",
+      "target_id": "llama-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 1是什么模型？",
+      "target_id": "llama-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 1这个模型",
+      "target_id": "llama-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 2这个模型",
+      "target_id": "llama-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 2是什么模型？",
+      "target_id": "llama-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 2这个模型",
+      "target_id": "llama-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Llama系列中，前一代是Llama 1的模型是哪个？",
+      "target_id": "llama-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Llama 1？",
+      "target_id": "llama-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3这个模型",
+      "target_id": "llama-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3是什么模型？",
+      "target_id": "llama-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3这个模型",
+      "target_id": "llama-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Llama系列中，前一代是Llama 2的模型是哪个？",
+      "target_id": "llama-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Llama 2？",
+      "target_id": "llama-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3.1这个模型",
+      "target_id": "llama-3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.1是什么模型？",
+      "target_id": "llama-3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3.1这个模型",
+      "target_id": "llama-3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Llama系列中，前一代是Llama 3的模型是哪个？",
+      "target_id": "llama-3-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Llama 3？",
+      "target_id": "llama-3-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3.2这个模型",
+      "target_id": "llama-3-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.2是什么模型？",
+      "target_id": "llama-3-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3.2这个模型",
+      "target_id": "llama-3-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Llama系列中，前一代是Llama 3.1的模型是哪个？",
+      "target_id": "llama-3-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Llama 3.1？",
+      "target_id": "llama-3-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3.3这个模型",
+      "target_id": "llama-3-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.3是什么模型？",
+      "target_id": "llama-3-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3.3这个模型",
+      "target_id": "llama-3-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Llama系列中，前一代是Llama 3.2的模型是哪个？",
+      "target_id": "llama-3-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Llama 3.2？",
+      "target_id": "llama-3-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 4这个模型",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 4是什么模型？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 4这个模型",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Llama系列中，前一代是Llama 3.3的模型是哪个？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Llama 3.3？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "Meta的Llama系列最新模型是什么？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Llama系列现在最新的是哪一款？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是Meta最新的Llama模型？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Llama家族当前最新的版本是哪个？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Llama系列现在出到哪个版本了？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Llama系列最近有什么新旗舰？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Meta刚发布的Llama模型是哪一个？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Llama是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Meta的Llama系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Llama系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Grok 1这个模型",
+      "target_id": "grok-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 1是什么模型？",
+      "target_id": "grok-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Grok 1这个模型",
+      "target_id": "grok-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Grok 1.5这个模型",
+      "target_id": "grok-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 1.5是什么模型？",
+      "target_id": "grok-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Grok 1.5这个模型",
+      "target_id": "grok-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Grok系列中，前一代是Grok 1的模型是哪个？",
+      "target_id": "grok-1-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Grok 1？",
+      "target_id": "grok-1-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Grok 2这个模型",
+      "target_id": "grok-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 2是什么模型？",
+      "target_id": "grok-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Grok 2这个模型",
+      "target_id": "grok-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Grok系列中，前一代是Grok 1.5的模型是哪个？",
+      "target_id": "grok-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Grok 1.5？",
+      "target_id": "grok-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Grok 3这个模型",
+      "target_id": "grok-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 3是什么模型？",
+      "target_id": "grok-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Grok 3这个模型",
+      "target_id": "grok-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Grok系列中，前一代是Grok 2的模型是哪个？",
+      "target_id": "grok-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Grok 2？",
+      "target_id": "grok-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Grok 4这个模型",
+      "target_id": "grok-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 4是什么模型？",
+      "target_id": "grok-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Grok 4这个模型",
+      "target_id": "grok-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Grok系列中，前一代是Grok 3的模型是哪个？",
+      "target_id": "grok-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Grok 3？",
+      "target_id": "grok-4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Grok 5这个模型",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 5是什么模型？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Grok 5这个模型",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Grok系列中，前一代是Grok 4的模型是哪个？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Grok 4？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "xAI的Grok系列最新模型是什么？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Grok系列现在最新的是哪一款？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是xAI最新的Grok模型？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Grok家族当前最新的版本是哪个？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Grok系列现在出到哪个版本了？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Grok系列最近有什么新旗舰？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "xAI刚发布的Grok模型是哪一个？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Grok是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "xAI的Grok系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Grok系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mistral 7B这个模型",
+      "target_id": "mistral-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral 7B是什么模型？",
+      "target_id": "mistral-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Mistral 7B这个模型",
+      "target_id": "mistral-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mixtral 8x7B这个模型",
+      "target_id": "mixtral-8x7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mixtral 8x7B是什么模型？",
+      "target_id": "mixtral-8x7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Mixtral 8x7B这个模型",
+      "target_id": "mixtral-8x7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Mistral系列中，前一代是Mistral 7B的模型是哪个？",
+      "target_id": "mixtral-8x7b",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Mistral 7B？",
+      "target_id": "mixtral-8x7b",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mistral Small这个模型",
+      "target_id": "mistral-small",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Small是什么模型？",
+      "target_id": "mistral-small",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Mistral Small这个模型",
+      "target_id": "mistral-small",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Mistral系列中，前一代是Mixtral 8x7B的模型是哪个？",
+      "target_id": "mistral-small",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Mixtral 8x7B？",
+      "target_id": "mistral-small",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mistral Medium这个模型",
+      "target_id": "mistral-medium",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Medium是什么模型？",
+      "target_id": "mistral-medium",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Mistral Medium这个模型",
+      "target_id": "mistral-medium",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Mistral系列中，前一代是Mistral Small的模型是哪个？",
+      "target_id": "mistral-medium",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Mistral Small？",
+      "target_id": "mistral-medium",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mistral Large 2这个模型",
+      "target_id": "mistral-large-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Large 2是什么模型？",
+      "target_id": "mistral-large-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Mistral Large 2这个模型",
+      "target_id": "mistral-large-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Mistral系列中，前一代是Mistral Medium的模型是哪个？",
+      "target_id": "mistral-large-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Mistral Medium？",
+      "target_id": "mistral-large-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mistral Nemo这个模型",
+      "target_id": "mistral-nemo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Nemo是什么模型？",
+      "target_id": "mistral-nemo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Mistral Nemo这个模型",
+      "target_id": "mistral-nemo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Mistral系列中，前一代是Mistral Large 2的模型是哪个？",
+      "target_id": "mistral-nemo",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Mistral Large 2？",
+      "target_id": "mistral-nemo",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mistral Large 3这个模型",
+      "target_id": "mistral-large-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Large 3是什么模型？",
+      "target_id": "mistral-large-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Mistral Large 3这个模型",
+      "target_id": "mistral-large-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Mistral系列中，前一代是Mistral Nemo的模型是哪个？",
+      "target_id": "mistral-large-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Mistral Nemo？",
+      "target_id": "mistral-large-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mistral Small 3这个模型",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Small 3是什么模型？",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Mistral Small 3这个模型",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Mistral系列中，前一代是Mistral Large 3的模型是哪个？",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Mistral Large 3？",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "Mistral AI的Mistral系列最新模型是什么？",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Mistral系列现在最新的是哪一款？",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是Mistral AI最新的Mistral模型？",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Mistral家族当前最新的版本是哪个？",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Mistral系列现在出到哪个版本了？",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Mistral系列最近有什么新旗舰？",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Mistral AI刚发布的Mistral模型是哪一个？",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Mistral是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Mistral AI的Mistral系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Mistral系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen 1这个模型",
+      "target_id": "qwen-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen 1是什么模型？",
+      "target_id": "qwen-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen 1这个模型",
+      "target_id": "qwen-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen 1.5这个模型",
+      "target_id": "qwen-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen 1.5是什么模型？",
+      "target_id": "qwen-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen 1.5这个模型",
+      "target_id": "qwen-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Qwen系列中，前一代是Qwen 1的模型是哪个？",
+      "target_id": "qwen-1-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Qwen 1？",
+      "target_id": "qwen-1-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen2这个模型",
+      "target_id": "qwen2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2是什么模型？",
+      "target_id": "qwen2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2这个模型",
+      "target_id": "qwen2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Qwen系列中，前一代是Qwen 1.5的模型是哪个？",
+      "target_id": "qwen2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Qwen 1.5？",
+      "target_id": "qwen2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen2.5这个模型",
+      "target_id": "qwen2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5是什么模型？",
+      "target_id": "qwen2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2.5这个模型",
+      "target_id": "qwen2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Qwen系列中，前一代是Qwen2的模型是哪个？",
+      "target_id": "qwen2-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Qwen2？",
+      "target_id": "qwen2-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3这个模型",
+      "target_id": "qwen3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3是什么模型？",
+      "target_id": "qwen3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3这个模型",
+      "target_id": "qwen3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Qwen系列中，前一代是Qwen2.5的模型是哪个？",
+      "target_id": "qwen3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Qwen2.5？",
+      "target_id": "qwen3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3.5这个模型",
+      "target_id": "qwen3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3.5是什么模型？",
+      "target_id": "qwen3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3.5这个模型",
+      "target_id": "qwen3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Qwen系列中，前一代是Qwen3的模型是哪个？",
+      "target_id": "qwen3-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Qwen3？",
+      "target_id": "qwen3-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3.6这个模型",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3.6是什么模型？",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3.6这个模型",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Qwen系列中，前一代是Qwen3.5的模型是哪个？",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Qwen3.5？",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3.7-Max这个模型",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3.7-Max是什么模型？",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3.7-Max这个模型",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Qwen系列中，前一代是Qwen3.6的模型是哪个？",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Qwen3.6？",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen-VL这个模型",
+      "target_id": "qwen-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen-VL是什么模型？",
+      "target_id": "qwen-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen-VL这个模型",
+      "target_id": "qwen-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Qwen系列中，前一代是Qwen3.7-Max的模型是哪个？",
+      "target_id": "qwen-vl",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Qwen3.7-Max？",
+      "target_id": "qwen-vl",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen2.5-Coder这个模型",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5-Coder是什么模型？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2.5-Coder这个模型",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Qwen系列中，前一代是Qwen-VL的模型是哪个？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Qwen-VL？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "阿里巴巴的Qwen系列最新模型是什么？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Qwen系列现在最新的是哪一款？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是阿里巴巴最新的Qwen模型？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Qwen家族当前最新的版本是哪个？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Qwen系列现在出到哪个版本了？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Qwen系列最近有什么新旗舰？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "阿里巴巴刚发布的Qwen模型是哪一个？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Qwen是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "阿里巴巴的Qwen系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Qwen系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下DeepSeek-V1这个模型",
+      "target_id": "deepseek-v1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V1是什么模型？",
+      "target_id": "deepseek-v1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解DeepSeek-V1这个模型",
+      "target_id": "deepseek-v1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下DeepSeek-V2这个模型",
+      "target_id": "deepseek-v2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V2是什么模型？",
+      "target_id": "deepseek-v2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解DeepSeek-V2这个模型",
+      "target_id": "deepseek-v2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在DeepSeek系列中，前一代是DeepSeek-V1的模型是哪个？",
+      "target_id": "deepseek-v2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是DeepSeek-V1？",
+      "target_id": "deepseek-v2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下DeepSeek-V2.5这个模型",
+      "target_id": "deepseek-v2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V2.5是什么模型？",
+      "target_id": "deepseek-v2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解DeepSeek-V2.5这个模型",
+      "target_id": "deepseek-v2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在DeepSeek系列中，前一代是DeepSeek-V2的模型是哪个？",
+      "target_id": "deepseek-v2-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是DeepSeek-V2？",
+      "target_id": "deepseek-v2-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下DeepSeek-V3这个模型",
+      "target_id": "deepseek-v3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V3是什么模型？",
+      "target_id": "deepseek-v3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解DeepSeek-V3这个模型",
+      "target_id": "deepseek-v3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在DeepSeek系列中，前一代是DeepSeek-V2.5的模型是哪个？",
+      "target_id": "deepseek-v3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是DeepSeek-V2.5？",
+      "target_id": "deepseek-v3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下DeepSeek-R1这个模型",
+      "target_id": "deepseek-r1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-R1是什么模型？",
+      "target_id": "deepseek-r1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解DeepSeek-R1这个模型",
+      "target_id": "deepseek-r1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在DeepSeek系列中，前一代是DeepSeek-V3的模型是哪个？",
+      "target_id": "deepseek-r1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是DeepSeek-V3？",
+      "target_id": "deepseek-r1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下DeepSeek-R1-Zero这个模型",
+      "target_id": "deepseek-r1-zero",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-R1-Zero是什么模型？",
+      "target_id": "deepseek-r1-zero",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解DeepSeek-R1-Zero这个模型",
+      "target_id": "deepseek-r1-zero",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在DeepSeek系列中，前一代是DeepSeek-R1的模型是哪个？",
+      "target_id": "deepseek-r1-zero",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是DeepSeek-R1？",
+      "target_id": "deepseek-r1-zero",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下DeepSeek-V3.1这个模型",
+      "target_id": "deepseek-v3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V3.1是什么模型？",
+      "target_id": "deepseek-v3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解DeepSeek-V3.1这个模型",
+      "target_id": "deepseek-v3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在DeepSeek系列中，前一代是DeepSeek-R1-Zero的模型是哪个？",
+      "target_id": "deepseek-v3-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是DeepSeek-R1-Zero？",
+      "target_id": "deepseek-v3-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下DeepSeek-V4这个模型",
+      "target_id": "deepseek-v4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V4是什么模型？",
+      "target_id": "deepseek-v4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解DeepSeek-V4这个模型",
+      "target_id": "deepseek-v4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在DeepSeek系列中，前一代是DeepSeek-V3.1的模型是哪个？",
+      "target_id": "deepseek-v4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是DeepSeek-V3.1？",
+      "target_id": "deepseek-v4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下DeepSeek-V4-Pro这个模型",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V4-Pro是什么模型？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解DeepSeek-V4-Pro这个模型",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在DeepSeek系列中，前一代是DeepSeek-V4的模型是哪个？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是DeepSeek-V4？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "深度求索的DeepSeek系列最新模型是什么？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek系列现在最新的是哪一款？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是深度求索最新的DeepSeek模型？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek家族当前最新的版本是哪个？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek系列现在出到哪个版本了？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek系列最近有什么新旗舰？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "深度求索刚发布的DeepSeek模型是哪一个？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "DeepSeek是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "深度求索的DeepSeek系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Kimi K1这个模型",
+      "target_id": "kimi-k1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Kimi K1是什么模型？",
+      "target_id": "kimi-k1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Kimi K1这个模型",
+      "target_id": "kimi-k1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Kimi K1.5这个模型",
+      "target_id": "kimi-k1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Kimi K1.5是什么模型？",
+      "target_id": "kimi-k1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Kimi K1.5这个模型",
+      "target_id": "kimi-k1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Kimi系列中，前一代是Kimi K1的模型是哪个？",
+      "target_id": "kimi-k1-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Kimi K1？",
+      "target_id": "kimi-k1-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Kimi K2这个模型",
+      "target_id": "kimi-k2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Kimi K2是什么模型？",
+      "target_id": "kimi-k2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Kimi K2这个模型",
+      "target_id": "kimi-k2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Kimi系列中，前一代是Kimi K1.5的模型是哪个？",
+      "target_id": "kimi-k2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Kimi K1.5？",
+      "target_id": "kimi-k2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Kimi K2.5这个模型",
+      "target_id": "kimi-k2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Kimi K2.5是什么模型？",
+      "target_id": "kimi-k2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Kimi K2.5这个模型",
+      "target_id": "kimi-k2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Kimi系列中，前一代是Kimi K2的模型是哪个？",
+      "target_id": "kimi-k2-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Kimi K2？",
+      "target_id": "kimi-k2-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Kimi-K2.6这个模型",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Kimi-K2.6是什么模型？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Kimi-K2.6这个模型",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Kimi系列中，前一代是Kimi K2.5的模型是哪个？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Kimi K2.5？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "月之暗面的Kimi系列最新模型是什么？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Kimi系列现在最新的是哪一款？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是月之暗面最新的Kimi模型？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Kimi家族当前最新的版本是哪个？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Kimi系列现在出到哪个版本了？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Kimi系列最近有什么新旗舰？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "月之暗面刚发布的Kimi模型是哪一个？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Kimi是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "月之暗面的Kimi系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Kimi系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GLM-4这个模型",
+      "target_id": "glm-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-4是什么模型？",
+      "target_id": "glm-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GLM-4这个模型",
+      "target_id": "glm-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GLM-4.5这个模型",
+      "target_id": "glm-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-4.5是什么模型？",
+      "target_id": "glm-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GLM-4.5这个模型",
+      "target_id": "glm-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GLM系列中，前一代是GLM-4的模型是哪个？",
+      "target_id": "glm-4-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GLM-4？",
+      "target_id": "glm-4-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GLM-4.6这个模型",
+      "target_id": "glm-4-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-4.6是什么模型？",
+      "target_id": "glm-4-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GLM-4.6这个模型",
+      "target_id": "glm-4-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GLM系列中，前一代是GLM-4.5的模型是哪个？",
+      "target_id": "glm-4-6",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GLM-4.5？",
+      "target_id": "glm-4-6",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GLM-5这个模型",
+      "target_id": "glm-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-5是什么模型？",
+      "target_id": "glm-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GLM-5这个模型",
+      "target_id": "glm-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GLM系列中，前一代是GLM-4.6的模型是哪个？",
+      "target_id": "glm-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GLM-4.6？",
+      "target_id": "glm-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GLM-5.1这个模型",
+      "target_id": "glm-5-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-5.1是什么模型？",
+      "target_id": "glm-5-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GLM-5.1这个模型",
+      "target_id": "glm-5-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GLM系列中，前一代是GLM-5的模型是哪个？",
+      "target_id": "glm-5-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GLM-5？",
+      "target_id": "glm-5-1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GLM-5.3这个模型",
+      "target_id": "glm-5-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-5.3是什么模型？",
+      "target_id": "glm-5-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GLM-5.3这个模型",
+      "target_id": "glm-5-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GLM系列中，前一代是GLM-5.1的模型是哪个？",
+      "target_id": "glm-5-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GLM-5.1？",
+      "target_id": "glm-5-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GLM-Z1这个模型",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-Z1是什么模型？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GLM-Z1这个模型",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GLM系列中，前一代是GLM-5.3的模型是哪个？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GLM-5.3？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "智谱AI的GLM系列最新模型是什么？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "GLM系列现在最新的是哪一款？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是智谱AI最新的GLM模型？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "GLM家族当前最新的版本是哪个？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "GLM系列现在出到哪个版本了？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "GLM系列最近有什么新旗舰？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "智谱AI刚发布的GLM模型是哪一个？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "GLM是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "智谱AI的GLM系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "GLM系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下MiniMax M1这个模型",
+      "target_id": "minimax-m1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax M1是什么模型？",
+      "target_id": "minimax-m1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解MiniMax M1这个模型",
+      "target_id": "minimax-m1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下MiniMax M2这个模型",
+      "target_id": "minimax-m2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax M2是什么模型？",
+      "target_id": "minimax-m2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解MiniMax M2这个模型",
+      "target_id": "minimax-m2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在MiniMax系列中，前一代是MiniMax M1的模型是哪个？",
+      "target_id": "minimax-m2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是MiniMax M1？",
+      "target_id": "minimax-m2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下MiniMax M2.5这个模型",
+      "target_id": "minimax-m2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax M2.5是什么模型？",
+      "target_id": "minimax-m2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解MiniMax M2.5这个模型",
+      "target_id": "minimax-m2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在MiniMax系列中，前一代是MiniMax M2的模型是哪个？",
+      "target_id": "minimax-m2-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是MiniMax M2？",
+      "target_id": "minimax-m2-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下MiniMax M2.7这个模型",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax M2.7是什么模型？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解MiniMax M2.7这个模型",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在MiniMax系列中，前一代是MiniMax M2.5的模型是哪个？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是MiniMax M2.5？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "MiniMax的MiniMax系列最新模型是什么？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax系列现在最新的是哪一款？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是MiniMax最新的MiniMax模型？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax家族当前最新的版本是哪个？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax系列现在出到哪个版本了？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax系列最近有什么新旗舰？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "MiniMax刚发布的MiniMax模型是哪一个？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "MiniMax是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax的MiniMax系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下豆包 1.0这个模型",
+      "target_id": "豆包-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "豆包 1.0是什么模型？",
+      "target_id": "豆包-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解豆包 1.0这个模型",
+      "target_id": "豆包-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下豆包 1.5这个模型",
+      "target_id": "豆包-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "豆包 1.5是什么模型？",
+      "target_id": "豆包-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解豆包 1.5这个模型",
+      "target_id": "豆包-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在豆包系列中，前一代是豆包 1.0的模型是哪个？",
+      "target_id": "豆包-1-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是豆包 1.0？",
+      "target_id": "豆包-1-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下豆包 1.5 Pro这个模型",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "豆包 1.5 Pro是什么模型？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解豆包 1.5 Pro这个模型",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在豆包系列中，前一代是豆包 1.5的模型是哪个？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是豆包 1.5？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Seed 1.5这个模型",
+      "target_id": "seed-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Seed 1.5是什么模型？",
+      "target_id": "seed-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Seed 1.5这个模型",
+      "target_id": "seed-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在豆包系列中，前一代是豆包 1.5 Pro的模型是哪个？",
+      "target_id": "seed-1-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是豆包 1.5 Pro？",
+      "target_id": "seed-1-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Seed 2.0这个模型",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Seed 2.0是什么模型？",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Seed 2.0这个模型",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在豆包系列中，前一代是Seed 1.5的模型是哪个？",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Seed 1.5？",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "字节跳动的豆包系列最新模型是什么？",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "豆包系列现在最新的是哪一款？",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是字节跳动最新的豆包模型？",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "豆包家族当前最新的版本是哪个？",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "豆包系列现在出到哪个版本了？",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "豆包系列最近有什么新旗舰？",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "字节跳动刚发布的豆包模型是哪一个？",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "豆包是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "字节跳动的豆包系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "豆包系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下混元这个模型",
+      "target_id": "混元",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "混元是什么模型？",
+      "target_id": "混元",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解混元这个模型",
+      "target_id": "混元",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下混元 Turbo这个模型",
+      "target_id": "混元-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "混元 Turbo是什么模型？",
+      "target_id": "混元-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解混元 Turbo这个模型",
+      "target_id": "混元-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在混元系列中，前一代是混元的模型是哪个？",
+      "target_id": "混元-turbo",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是混元？",
+      "target_id": "混元-turbo",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下混元 Large这个模型",
+      "target_id": "混元-large",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "混元 Large是什么模型？",
+      "target_id": "混元-large",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解混元 Large这个模型",
+      "target_id": "混元-large",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在混元系列中，前一代是混元 Turbo的模型是哪个？",
+      "target_id": "混元-large",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是混元 Turbo？",
+      "target_id": "混元-large",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下混元 T1这个模型",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "混元 T1是什么模型？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解混元 T1这个模型",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在混元系列中，前一代是混元 Large的模型是哪个？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是混元 Large？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "腾讯的混元系列最新模型是什么？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "混元系列现在最新的是哪一款？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是腾讯最新的混元模型？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "混元家族当前最新的版本是哪个？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "混元系列现在出到哪个版本了？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "混元系列最近有什么新旗舰？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "腾讯刚发布的混元模型是哪一个？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "混元是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "腾讯的混元系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "混元系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下文心 ERNIE 3.0这个模型",
+      "target_id": "文心-ernie-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "文心 ERNIE 3.0是什么模型？",
+      "target_id": "文心-ernie-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解文心 ERNIE 3.0这个模型",
+      "target_id": "文心-ernie-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下文心 ERNIE 3.5这个模型",
+      "target_id": "文心-ernie-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "文心 ERNIE 3.5是什么模型？",
+      "target_id": "文心-ernie-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解文心 ERNIE 3.5这个模型",
+      "target_id": "文心-ernie-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在文心系列中，前一代是文心 ERNIE 3.0的模型是哪个？",
+      "target_id": "文心-ernie-3-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是文心 ERNIE 3.0？",
+      "target_id": "文心-ernie-3-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下文心一言 4.0这个模型",
+      "target_id": "文心一言-4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "文心一言 4.0是什么模型？",
+      "target_id": "文心一言-4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解文心一言 4.0这个模型",
+      "target_id": "文心一言-4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在文心系列中，前一代是文心 ERNIE 3.5的模型是哪个？",
+      "target_id": "文心一言-4-0",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是文心 ERNIE 3.5？",
+      "target_id": "文心一言-4-0",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下文心一言 4.5这个模型",
+      "target_id": "文心一言-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "文心一言 4.5是什么模型？",
+      "target_id": "文心一言-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解文心一言 4.5这个模型",
+      "target_id": "文心一言-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在文心系列中，前一代是文心一言 4.0的模型是哪个？",
+      "target_id": "文心一言-4-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是文心一言 4.0？",
+      "target_id": "文心一言-4-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下文心 4.5 Turbo这个模型",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "文心 4.5 Turbo是什么模型？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解文心 4.5 Turbo这个模型",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在文心系列中，前一代是文心一言 4.5的模型是哪个？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是文心一言 4.5？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "百度的文心系列最新模型是什么？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "文心系列现在最新的是哪一款？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是百度最新的文心模型？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "文心家族当前最新的版本是哪个？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "文心系列现在出到哪个版本了？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "文心系列最近有什么新旗舰？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "百度刚发布的文心模型是哪一个？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "文心是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "百度的文心系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "文心系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Step-1这个模型",
+      "target_id": "step-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Step-1是什么模型？",
+      "target_id": "step-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Step-1这个模型",
+      "target_id": "step-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Step-2这个模型",
+      "target_id": "step-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Step-2是什么模型？",
+      "target_id": "step-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Step-2这个模型",
+      "target_id": "step-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Step系列中，前一代是Step-1的模型是哪个？",
+      "target_id": "step-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Step-1？",
+      "target_id": "step-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Step-3这个模型",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Step-3是什么模型？",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Step-3这个模型",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Step系列中，前一代是Step-2的模型是哪个？",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Step-2？",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "阶跃星辰的Step系列最新模型是什么？",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Step系列现在最新的是哪一款？",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是阶跃星辰最新的Step模型？",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Step家族当前最新的版本是哪个？",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Step系列现在出到哪个版本了？",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Step系列最近有什么新旗舰？",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "阶跃星辰刚发布的Step模型是哪一个？",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Step是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "阶跃星辰的Step系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Step系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Yi-1.5这个模型",
+      "target_id": "yi-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Yi-1.5是什么模型？",
+      "target_id": "yi-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Yi-1.5这个模型",
+      "target_id": "yi-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Yi-Lightning这个模型",
+      "target_id": "yi-lightning",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Yi-Lightning是什么模型？",
+      "target_id": "yi-lightning",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Yi-Lightning这个模型",
+      "target_id": "yi-lightning",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Yi系列中，前一代是Yi-1.5的模型是哪个？",
+      "target_id": "yi-lightning",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Yi-1.5？",
+      "target_id": "yi-lightning",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Yi-2这个模型",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Yi-2是什么模型？",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Yi-2这个模型",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Yi系列中，前一代是Yi-Lightning的模型是哪个？",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Yi-Lightning？",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "零一万物的Yi系列最新模型是什么？",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Yi系列现在最新的是哪一款？",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是零一万物最新的Yi模型？",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Yi家族当前最新的版本是哪个？",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Yi系列现在出到哪个版本了？",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Yi系列最近有什么新旗舰？",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "零一万物刚发布的Yi模型是哪一个？",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Yi是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "零一万物的Yi系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Yi系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Baichuan-13B这个模型",
+      "target_id": "baichuan-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Baichuan-13B是什么模型？",
+      "target_id": "baichuan-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Baichuan-13B这个模型",
+      "target_id": "baichuan-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Baichuan2这个模型",
+      "target_id": "baichuan2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Baichuan2是什么模型？",
+      "target_id": "baichuan2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Baichuan2这个模型",
+      "target_id": "baichuan2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Baichuan系列中，前一代是Baichuan-13B的模型是哪个？",
+      "target_id": "baichuan2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Baichuan-13B？",
+      "target_id": "baichuan2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Baichuan4这个模型",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Baichuan4是什么模型？",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Baichuan4这个模型",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Baichuan系列中，前一代是Baichuan2的模型是哪个？",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Baichuan2？",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "百川智能的Baichuan系列最新模型是什么？",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Baichuan系列现在最新的是哪一款？",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是百川智能最新的Baichuan模型？",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Baichuan家族当前最新的版本是哪个？",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Baichuan系列现在出到哪个版本了？",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Baichuan系列最近有什么新旗舰？",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "百川智能刚发布的Baichuan模型是哪一个？",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Baichuan是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "百川智能的Baichuan系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Baichuan系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Skywork-13B这个模型",
+      "target_id": "skywork-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Skywork-13B是什么模型？",
+      "target_id": "skywork-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Skywork-13B这个模型",
+      "target_id": "skywork-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Skywork 4.0这个模型",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Skywork 4.0是什么模型？",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Skywork 4.0这个模型",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Skywork系列中，前一代是Skywork-13B的模型是哪个？",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Skywork-13B？",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "昆仑万维的Skywork系列最新模型是什么？",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Skywork系列现在最新的是哪一款？",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是昆仑万维最新的Skywork模型？",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Skywork家族当前最新的版本是哪个？",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Skywork系列现在出到哪个版本了？",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Skywork系列最近有什么新旗舰？",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "昆仑万维刚发布的Skywork模型是哪一个？",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Skywork是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "昆仑万维的Skywork系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "Skywork系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "OpenAI 最新发布的旗舰模型是哪一个？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "谷歌推出的代理编码旗舰模型叫什么？",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "Meta 最新的开源模型叫什么？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "GPT-6 是什么时候发布的？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "train"
+    },
+    {
+      "text": "介绍一下百度的文心 5.0",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "train"
+    },
+    {
+      "text": "OpenAI 的 o5 推理模型参数量是多少？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "train"
+    },
+    {
+      "text": "Claude Opus 5 的最新版本是什么？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "train"
+    },
+    {
+      "text": "Mistral 的 Medium 最新型号是什么？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "train"
+    },
+    {
+      "text": "帮我写一段关于秋天的散文",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek 的 R2 推理模型什么时候发布？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "heldout"
+    },
+    {
+      "text": "谷歌的 Gemini 4 有什么新特性？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "heldout"
+    },
+    {
+      "text": "智谱的 GLM-6 参数规模是多少？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下字节跳动的豆包 2.0 模型",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "heldout"
+    },
+    {
+      "text": "明天会下雨吗",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "heldout"
+    }
+  ]
+}
