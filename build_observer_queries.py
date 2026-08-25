@@ -34,7 +34,11 @@ OBSERVERS = {
     "中国": lambda o: o["company"] in CHINESE_COMPANIES,
     "美国": lambda o: o["region"] == "美国",
     "2026年": lambda o: o["year"] == 2026,
+    "2025年": lambda o: o["year"] == 2025,
     "编程": lambda o: "编程" in o["note"] or "编码" in o["note"] or "SWE" in o["note"] or "代理" in o["note"],
+    "旗舰": lambda o: "旗舰" in o["note"],
+    "推理": lambda o: "推理" in o["note"],
+    "多模态": lambda o: "多模态" in o["note"],
 }
 
 
@@ -79,23 +83,23 @@ def main():
                 "visible_labels": [o["label"] for o in visible],
             })
 
-    # C) 权限/防泄漏：观测点不可见的对象不得被解析出来
+    # C) 权限/防泄漏：观测点不可见的对象不得被解析出来（对每个不可见对象都生成）
     for series, objs in series_order.items():
         for observer, predicate in OBSERVERS.items():
             invisible = [obj for obj in objs if not predicate(obj)]
             visible = [obj for obj in objs if predicate(obj)]
             if not invisible or not visible:
                 continue
-            forbidden = invisible[0]
-            queries.append({
-                "text": f"从{observer}视角看，{series}系列里有{forbidden['name']}吗？",
-                "identity_text": f"{series}系列里有{forbidden['name']}吗？",
-                "observer": observer,
-                "kind": "permission",
-                "target_label": -1,
-                "forbidden_label": forbidden["label"],
-                "visible_labels": [obj["label"] for obj in visible],
-            })
+            for forbidden in invisible:
+                queries.append({
+                    "text": f"从{observer}视角看，{series}系列里有{forbidden['name']}吗？",
+                    "identity_text": f"{series}系列里有{forbidden['name']}吗？",
+                    "observer": observer,
+                    "kind": "permission",
+                    "target_label": -1,
+                    "forbidden_label": forbidden["label"],
+                    "visible_labels": [obj["label"] for obj in visible],
+                })
 
     payload = {
         "meta": {

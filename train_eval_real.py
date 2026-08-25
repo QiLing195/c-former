@@ -18,12 +18,15 @@ VERIFIER = EvidenceVerifier(minimum_score=0.50, minimum_margin=0.08, minimum_cov
 
 
 def train(model, world: AIModelWorld, device, *, steps: int, lr: float,
-          reject_weight: float = 1.0, margin_weight: float = 1.0) -> dict:
-    """训练 = 已知对比损失 + 未知拒答损失 + 歧义 margin 损失。
+          reject_weight: float = 1.0, margin_weight: float = 1.0,
+          margin_target: float = 0.05, reject_target: float = 0.45,
+          score_floor: float = 0.50, score_weight: float = 1.5) -> dict:
+    """训练 = 已知对比损失 + 未知拒答损失 + 歧义 margin/分数地板损失。
 
     - known:     query -> 正确对象（对比损失，教"找到它"）
-    - unknown:   库外 query 的 top 分数压到 0.45 以下（教"不知道"）
-    - ambiguous: 系列级 query 的 top1-top2 间隔压到 0.05 以下（教"拿不准"）
+    - unknown:   库外 query 的 top 分数压到 reject_target 以下（教"不知道"）
+    - ambiguous: top1-top2 间隔压到 margin_target 以下，同时 top 分数保持
+                 >= score_floor（避免低分歧义被 verifier 路由到 UNKNOWN 而非 AMBIGUOUS）
     """
     known = world.known_queries("train")
     known_q = torch.stack([world.encode_query(query["text"])[0] for query in known])
@@ -52,14 +55,17 @@ def train(model, world: AIModelWorld, device, *, steps: int, lr: float,
         if unknown_q.shape[0]:
             unknown_vec = F.normalize(model.encode_query(unknown_q.to(device)), dim=-1)
             top_unknown = (unknown_vec @ bank_vec.T).max(dim=-1).values
-            loss = loss + reject_weight * torch.relu(top_unknown - 0.45).mean()
+            loss = loss + reject_weight * torch.relu(top_unknown - reject_target).mean()
 
         if ambiguous_q.shape[0]:
             ambiguous_vec = F.normalize(model.encode_query(ambiguous_q.to(device)), dim=-1)
             scores = ambiguous_vec @ bank_vec.T
             top2 = torch.topk(scores, 2, dim=-1).values
             margin = top2[:, 0] - top2[:, 1]
-            loss = loss + margin_weight * torch.relu(margin - 0.05).mean()
+            loss = loss + margin_weight * torch.relu(margin - margin_target).mean()
+            # 分数地板：歧义查询 top 分数保持 >= verifier.minimum_score(0.50)，
+            # 否则会被 verifier 路由到 UNKNOWN 而非 AMBIGUOUS（diag_margins 发现的问题）
+            loss = loss + score_weight * torch.relu(score_floor - top2[:, 0]).mean()
 
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
@@ -142,8 +148,15 @@ def main() -> None:
     parser.add_argument("--steps", type=int, default=600)
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--seeds", nargs="+", type=int, default=(1, 2, 3))
+    parser.add_argument("--d-model", type=int, default=128)
+    parser.add_argument("--layers", type=int, default=2)
+    parser.add_argument("--ffn", type=int, default=256)
     parser.add_argument("--reject-weight", type=float, default=2.0)
     parser.add_argument("--margin-weight", type=float, default=1.0)
+    parser.add_argument("--margin-target", type=float, default=0.05)
+    parser.add_argument("--reject-target", type=float, default=0.45)
+    parser.add_argument("--score-floor", type=float, default=0.50)
+    parser.add_argument("--score-weight", type=float, default=1.5)
     parser.add_argument("--output", type=Path, default=ROOT / "artifacts" / "ai_models_results.json")
     args = parser.parse_args()
 
@@ -152,10 +165,10 @@ def main() -> None:
     world = AIModelWorld(args.data)
     config = ChineseTransformerConfig(
         world.tokenizer.size,
-        layers=2,
-        d_model=128,
+        layers=args.layers,
+        d_model=args.d_model,
         heads=4,
-        ffn_dimensions=256,
+        ffn_dimensions=args.ffn,
         output_dimensions=32,
     )
 
@@ -165,14 +178,25 @@ def main() -> None:
     for seed in args.seeds:
         torch.manual_seed(seed)
         model = TokenCFormerResolver(config)
-        training = train(model, world, device, steps=args.steps, lr=args.lr,
-                         reject_weight=args.reject_weight, margin_weight=args.margin_weight)
-        torch.save(model.state_dict(), checkpoint_dir / f"real_seed{seed}.pt")
-        metrics = evaluate(model, world, device)
+        try:
+            training = train(model, world, device, steps=args.steps, lr=args.lr,
+                             reject_weight=args.reject_weight, margin_weight=args.margin_weight,
+                             margin_target=args.margin_target, reject_target=args.reject_target,
+                             score_floor=args.score_floor, score_weight=args.score_weight)
+            torch.save(model.state_dict(), checkpoint_dir / f"real_seed{seed}.pt")
+            metrics = evaluate(model, world, device)
+        except Exception as error:  # noqa: BLE001 —— 打印真实错误，避免静默退出
+            import traceback
+            traceback.print_exc()
+            raise SystemExit(f"seed {seed} 失败: {error}")
         per_seed[str(seed)] = {**training, **metrics}
         print(json.dumps({"phase": "seed", "seed": seed,
                           "train": metrics["train"], "heldout": metrics["heldout"]},
                          ensure_ascii=False), flush=True)
+        # 释放 GPU 显存，否则多种子串行时 d=256 会在下一个种子 OOM（静默退出）
+        del model
+        if device.type == "cuda":
+            torch.cuda.empty_cache()
 
     def mean_metric(metric: str, split: str) -> float:
         return statistics.mean(

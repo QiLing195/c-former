@@ -129,6 +129,32 @@ def _prev(model_list, index):
     return model_list[index - 1][0] if index > 0 else None
 
 
+# 真实别名表：只收录「唯一指向该对象」的别名（近名/系列级模糊别名会制造歧义，
+# 那些应该走 ambiguous 查询而不是 known）。别名会进证据文本 + 生成别名查询。
+ALIASES = {
+    "GPT-4o": ["GPT-4 Omni", "Omni"],
+    "GPT-5.2": ["GPT-5 最新版"],
+    "Qwen3.7-Max": ["千问3.7", "通义千问3.7"],
+    "Qwen3.6": ["千问3.6", "通义千问3.6"],
+    "Claude Opus 4.8": ["Claude 4.8", "Opus 4.8"],
+    "Claude Opus 4.7": ["Opus 4.7"],
+    "Gemini 3.5 Pro": ["Gemini 3.5 旗舰"],
+    "Gemini 3.5 Flash": ["Gemini Flash 3.5"],
+    "DeepSeek-V4-Pro": ["DeepSeek V4 Pro", "深度求索V4 Pro"],
+    "Kimi-K2.6": ["Kimi K2.6", "月之暗面K2.6"],
+    "GLM-5.3": ["智谱GLM 5.3"],
+    "GLM-5.1": ["智谱GLM 5.1"],
+    "豆包 1.5 Pro": ["豆包1.5Pro", "Doubao 1.5 Pro"],
+    "文心一言 4.5": ["文心4.5"],
+    "混元 T1": ["混元T1", "Hunyuan T1"],
+    "Llama 4": ["Meta Llama 4"],
+    "Mistral Large 3": ["Mistral Large 最新版"],
+    "Grok 5": ["xAI Grok 5"],
+    "o3": ["OpenAI o3"],
+    "MiniMax M2.7": ["MiniMax M2 最新版"],
+}
+
+
 def build():
     objects = []
     queries = []
@@ -140,9 +166,11 @@ def build():
             prev = _prev(models, index)
             is_latest = index == series_count - 1
             alias_note = "" if " " not in name else name.replace(" ", "")
+            aliases = ALIASES.get(name, ())
             evidence = {
                 "名称": f"这个模型的全称是 {name}，属于 {series} 系列"
-                       + (f"，也常写作 {alias_note}" if alias_note and alias_note != name else ""),
+                       + (f"，也常写作 {alias_note}" if alias_note and alias_note != name else "")
+                       + (f"，也常被称作{'、'.join(aliases)}" if aliases else ""),
                 "属性": f"它由 {company} 开发，是{'开源' if open_source else '闭源'}模型"
                         + (f"，{note}" if note else ""),
                 "关系": f"它在 {series} 系列中"
@@ -170,6 +198,15 @@ def build():
             queries.append({"text": f"介绍一下{name}这个模型", "target_id": object_id, "kind": "known", "subtype": "name", "split": "train"})
             queries.append({"text": f"{name}是什么模型？", "target_id": object_id, "kind": "known", "subtype": "name", "split": "train"})
             queries.append({"text": f"我想了解{name}这个模型", "target_id": object_id, "kind": "known", "subtype": "name", "split": "heldout"})
+
+            # 别名查询：每个别名 1 训练 + 1 留出（测真实别名的身份解析）
+            for alias_index, alias in enumerate(aliases):
+                if alias_index % 2 == 0:
+                    queries.append({"text": f"介绍一下{alias}", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "train"})
+                    queries.append({"text": f"{alias}是哪个模型？", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "heldout"})
+                else:
+                    queries.append({"text": f"查一下{alias}的情况", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "train"})
+                    queries.append({"text": f"帮我找{alias}", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "heldout"})
 
             # 前代推理查询：1 训练 + 1 留出（测「关系」证据）
             if prev:

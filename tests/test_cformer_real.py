@@ -33,9 +33,9 @@ def test_tokenizer_mixed_latin_chinese() -> None:
 
 def test_loader_shapes() -> None:
     world = _load()
-    assert len(world.objects) == 18
+    assert len(world.objects) >= 100  # 生成器展开后的真实对象库（当前 122）
     candidates = world.encode_candidates(world.objects)
-    assert candidates.shape == (18, 4, world.field_length)
+    assert candidates.shape == (len(world.objects), 4, world.field_length)
     tokens, coverage = world.encode_query("阿里巴巴的旗舰模型叫什么？")
     assert tokens.shape == (world.query_length,)
     assert 0.0 <= coverage <= 1.0
@@ -44,7 +44,7 @@ def test_loader_shapes() -> None:
 def test_queries_have_valid_targets() -> None:
     world = _load()
     known = world.known_queries()
-    assert len(known) == 15
+    assert len(known) >= 100
     for query in known:
         assert 0 <= world.target_label(query["target_id"]) < len(world.objects)
     for query in world.ambiguous_queries() + world.unknown_queries():

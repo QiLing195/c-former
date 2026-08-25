@@ -7,12 +7,16 @@
       "中国",
       "美国",
       "2026年",
-      "编程"
+      "2025年",
+      "编程",
+      "旗舰",
+      "推理",
+      "多模态"
     ],
     "queries": {
-      "selection": 41,
+      "selection": 60,
       "invariance": 12,
-      "permission": 4
+      "permission": 144
     }
   },
   "queries": [
@@ -59,6 +63,27 @@
       ]
     },
     {
+      "text": "从旗舰视角看，GPT系列最新的模型是哪个？",
+      "identity_text": "GPT系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 11,
+      "visible_labels": [
+        9,
+        11
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列最新的模型是哪个？",
+      "identity_text": "GPT系列最新的模型是哪个？",
+      "observer": "多模态",
+      "kind": "selection",
+      "target_label": 6,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
       "text": "从闭源视角看，o 推理系列最新的模型是哪个？",
       "identity_text": "o 推理系列最新的模型是哪个？",
       "observer": "闭源",
@@ -75,6 +100,19 @@
       "text": "从美国视角看，o 推理系列最新的模型是哪个？",
       "identity_text": "o 推理系列最新的模型是哪个？",
       "observer": "美国",
+      "kind": "selection",
+      "target_label": 15,
+      "visible_labels": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "text": "从推理视角看，o 推理系列最新的模型是哪个？",
+      "identity_text": "o 推理系列最新的模型是哪个？",
+      "observer": "推理",
       "kind": "selection",
       "target_label": 15,
       "visible_labels": [
@@ -141,6 +179,19 @@
       ]
     },
     {
+      "text": "从旗舰视角看，Claude系列最新的模型是哪个？",
+      "identity_text": "Claude系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 28,
+      "visible_labels": [
+        19,
+        24,
+        27,
+        28
+      ]
+    },
+    {
       "text": "从闭源视角看，Gemini系列最新的模型是哪个？",
       "identity_text": "Gemini系列最新的模型是哪个？",
       "observer": "闭源",
@@ -192,6 +243,20 @@
       ]
     },
     {
+      "text": "从旗舰视角看，Gemini系列最新的模型是哪个？",
+      "identity_text": "Gemini系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 39,
+      "visible_labels": [
+        31,
+        34,
+        35,
+        37,
+        39
+      ]
+    },
+    {
       "text": "从开源视角看，Llama系列最新的模型是哪个？",
       "identity_text": "Llama系列最新的模型是哪个？",
       "observer": "开源",
@@ -220,6 +285,27 @@
         44,
         45,
         46,
+        47
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Llama系列最新的模型是哪个？",
+      "identity_text": "Llama系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 47,
+      "visible_labels": [
+        47
+      ]
+    },
+    {
+      "text": "从多模态视角看，Llama系列最新的模型是哪个？",
+      "identity_text": "Llama系列最新的模型是哪个？",
+      "observer": "多模态",
+      "kind": "selection",
+      "target_label": 47,
+      "visible_labels": [
+        45,
         47
       ]
     },
@@ -254,6 +340,18 @@
       ]
     },
     {
+      "text": "从旗舰视角看，Grok系列最新的模型是哪个？",
+      "identity_text": "Grok系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 53,
+      "visible_labels": [
+        51,
+        52,
+        53
+      ]
+    },
+    {
       "text": "从开源视角看，Mistral系列最新的模型是哪个？",
       "identity_text": "Mistral系列最新的模型是哪个？",
       "observer": "开源",
@@ -268,6 +366,17 @@
         59,
         60,
         61
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Mistral系列最新的模型是哪个？",
+      "identity_text": "Mistral系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 60,
+      "visible_labels": [
+        58,
+        60
       ]
     },
     {
@@ -319,6 +428,29 @@
       ]
     },
     {
+      "text": "从旗舰视角看，Qwen系列最新的模型是哪个？",
+      "identity_text": "Qwen系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 69,
+      "visible_labels": [
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列最新的模型是哪个？",
+      "identity_text": "Qwen系列最新的模型是哪个？",
+      "observer": "多模态",
+      "kind": "selection",
+      "target_label": 70,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
       "text": "从开源视角看，DeepSeek系列最新的模型是哪个？",
       "identity_text": "DeepSeek系列最新的模型是哪个？",
       "observer": "开源",
@@ -355,6 +487,30 @@
       ]
     },
     {
+      "text": "从旗舰视角看，DeepSeek系列最新的模型是哪个？",
+      "identity_text": "DeepSeek系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 80,
+      "visible_labels": [
+        75,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "text": "从推理视角看，DeepSeek系列最新的模型是哪个？",
+      "identity_text": "DeepSeek系列最新的模型是哪个？",
+      "observer": "推理",
+      "kind": "selection",
+      "target_label": 77,
+      "visible_labels": [
+        76,
+        77
+      ]
+    },
+    {
       "text": "从开源视角看，Kimi系列最新的模型是哪个？",
       "identity_text": "Kimi系列最新的模型是哪个？",
       "observer": "开源",
@@ -380,6 +536,27 @@
         83,
         84,
         85
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Kimi系列最新的模型是哪个？",
+      "identity_text": "Kimi系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 85,
+      "visible_labels": [
+        84,
+        85
+      ]
+    },
+    {
+      "text": "从推理视角看，Kimi系列最新的模型是哪个？",
+      "identity_text": "Kimi系列最新的模型是哪个？",
+      "observer": "推理",
+      "kind": "selection",
+      "target_label": 82,
+      "visible_labels": [
+        82
       ]
     },
     {
@@ -422,6 +599,16 @@
       "target_label": 91,
       "visible_labels": [
         91
+      ]
+    },
+    {
+      "text": "从推理视角看，GLM系列最新的模型是哪个？",
+      "identity_text": "GLM系列最新的模型是哪个？",
+      "observer": "推理",
+      "kind": "selection",
+      "target_label": 92,
+      "visible_labels": [
+        92
       ]
     },
     {
@@ -479,6 +666,27 @@
       ]
     },
     {
+      "text": "从推理视角看，豆包系列最新的模型是哪个？",
+      "identity_text": "豆包系列最新的模型是哪个？",
+      "observer": "推理",
+      "kind": "selection",
+      "target_label": 99,
+      "visible_labels": [
+        99
+      ]
+    },
+    {
+      "text": "从多模态视角看，豆包系列最新的模型是哪个？",
+      "identity_text": "豆包系列最新的模型是哪个？",
+      "observer": "多模态",
+      "kind": "selection",
+      "target_label": 101,
+      "visible_labels": [
+        100,
+        101
+      ]
+    },
+    {
       "text": "从闭源视角看，混元系列最新的模型是哪个？",
       "identity_text": "混元系列最新的模型是哪个？",
       "observer": "闭源",
@@ -501,6 +709,16 @@
         102,
         103,
         104,
+        105
+      ]
+    },
+    {
+      "text": "从推理视角看，混元系列最新的模型是哪个？",
+      "identity_text": "混元系列最新的模型是哪个？",
+      "observer": "推理",
+      "kind": "selection",
+      "target_label": 105,
+      "visible_labels": [
         105
       ]
     },
@@ -1467,6 +1685,247 @@
       ]
     },
     {
+      "text": "从旗舰视角看，GPT系列里有GPT-1吗？",
+      "identity_text": "GPT系列里有GPT-1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 0,
+      "visible_labels": [
+        9,
+        11
+      ]
+    },
+    {
+      "text": "从旗舰视角看，GPT系列里有GPT-2吗？",
+      "identity_text": "GPT系列里有GPT-2吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 1,
+      "visible_labels": [
+        9,
+        11
+      ]
+    },
+    {
+      "text": "从旗舰视角看，GPT系列里有GPT-3吗？",
+      "identity_text": "GPT系列里有GPT-3吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 2,
+      "visible_labels": [
+        9,
+        11
+      ]
+    },
+    {
+      "text": "从旗舰视角看，GPT系列里有GPT-3.5吗？",
+      "identity_text": "GPT系列里有GPT-3.5吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 3,
+      "visible_labels": [
+        9,
+        11
+      ]
+    },
+    {
+      "text": "从旗舰视角看，GPT系列里有GPT-4吗？",
+      "identity_text": "GPT系列里有GPT-4吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 4,
+      "visible_labels": [
+        9,
+        11
+      ]
+    },
+    {
+      "text": "从旗舰视角看，GPT系列里有GPT-4 Turbo吗？",
+      "identity_text": "GPT系列里有GPT-4 Turbo吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 5,
+      "visible_labels": [
+        9,
+        11
+      ]
+    },
+    {
+      "text": "从旗舰视角看，GPT系列里有GPT-4o吗？",
+      "identity_text": "GPT系列里有GPT-4o吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 6,
+      "visible_labels": [
+        9,
+        11
+      ]
+    },
+    {
+      "text": "从旗舰视角看，GPT系列里有GPT-4o mini吗？",
+      "identity_text": "GPT系列里有GPT-4o mini吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 7,
+      "visible_labels": [
+        9,
+        11
+      ]
+    },
+    {
+      "text": "从旗舰视角看，GPT系列里有GPT-4.1吗？",
+      "identity_text": "GPT系列里有GPT-4.1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 8,
+      "visible_labels": [
+        9,
+        11
+      ]
+    },
+    {
+      "text": "从旗舰视角看，GPT系列里有GPT-5.1吗？",
+      "identity_text": "GPT系列里有GPT-5.1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 10,
+      "visible_labels": [
+        9,
+        11
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-1吗？",
+      "identity_text": "GPT系列里有GPT-1吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 0,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-2吗？",
+      "identity_text": "GPT系列里有GPT-2吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 1,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-3吗？",
+      "identity_text": "GPT系列里有GPT-3吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 2,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-3.5吗？",
+      "identity_text": "GPT系列里有GPT-3.5吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 3,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-4吗？",
+      "identity_text": "GPT系列里有GPT-4吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 4,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-4 Turbo吗？",
+      "identity_text": "GPT系列里有GPT-4 Turbo吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 5,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-4o mini吗？",
+      "identity_text": "GPT系列里有GPT-4o mini吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 7,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-4.1吗？",
+      "identity_text": "GPT系列里有GPT-4.1吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 8,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-5吗？",
+      "identity_text": "GPT系列里有GPT-5吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 9,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-5.1吗？",
+      "identity_text": "GPT系列里有GPT-5.1吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 10,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-5.2吗？",
+      "identity_text": "GPT系列里有GPT-5.2吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 11,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
       "text": "从编程视角看，Claude系列里有Claude 1吗？",
       "identity_text": "Claude系列里有Claude 1吗？",
       "observer": "编程",
@@ -1475,6 +1934,278 @@
       "forbidden_label": 16,
       "visible_labels": [
         29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude 2吗？",
+      "identity_text": "Claude系列里有Claude 2吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 17,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude 2.1吗？",
+      "identity_text": "Claude系列里有Claude 2.1吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 18,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude 3 Opus吗？",
+      "identity_text": "Claude系列里有Claude 3 Opus吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 19,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude 3 Sonnet吗？",
+      "identity_text": "Claude系列里有Claude 3 Sonnet吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 20,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude 3 Haiku吗？",
+      "identity_text": "Claude系列里有Claude 3 Haiku吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 21,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude 3.5 Sonnet吗？",
+      "identity_text": "Claude系列里有Claude 3.5 Sonnet吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 22,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude 3.5 Haiku吗？",
+      "identity_text": "Claude系列里有Claude 3.5 Haiku吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 23,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude Opus 4吗？",
+      "identity_text": "Claude系列里有Claude Opus 4吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 24,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude Sonnet 4吗？",
+      "identity_text": "Claude系列里有Claude Sonnet 4吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 25,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude Haiku 4吗？",
+      "identity_text": "Claude系列里有Claude Haiku 4吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 26,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude Opus 4.5吗？",
+      "identity_text": "Claude系列里有Claude Opus 4.5吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 27,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude Opus 4.7吗？",
+      "identity_text": "Claude系列里有Claude Opus 4.7吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 28,
+      "visible_labels": [
+        29
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude 1吗？",
+      "identity_text": "Claude系列里有Claude 1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 16,
+      "visible_labels": [
+        19,
+        24,
+        27,
+        28
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude 2吗？",
+      "identity_text": "Claude系列里有Claude 2吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 17,
+      "visible_labels": [
+        19,
+        24,
+        27,
+        28
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude 2.1吗？",
+      "identity_text": "Claude系列里有Claude 2.1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 18,
+      "visible_labels": [
+        19,
+        24,
+        27,
+        28
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude 3 Sonnet吗？",
+      "identity_text": "Claude系列里有Claude 3 Sonnet吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 20,
+      "visible_labels": [
+        19,
+        24,
+        27,
+        28
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude 3 Haiku吗？",
+      "identity_text": "Claude系列里有Claude 3 Haiku吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 21,
+      "visible_labels": [
+        19,
+        24,
+        27,
+        28
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude 3.5 Sonnet吗？",
+      "identity_text": "Claude系列里有Claude 3.5 Sonnet吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 22,
+      "visible_labels": [
+        19,
+        24,
+        27,
+        28
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude 3.5 Haiku吗？",
+      "identity_text": "Claude系列里有Claude 3.5 Haiku吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 23,
+      "visible_labels": [
+        19,
+        24,
+        27,
+        28
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude Sonnet 4吗？",
+      "identity_text": "Claude系列里有Claude Sonnet 4吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 25,
+      "visible_labels": [
+        19,
+        24,
+        27,
+        28
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude Haiku 4吗？",
+      "identity_text": "Claude系列里有Claude Haiku 4吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 26,
+      "visible_labels": [
+        19,
+        24,
+        27,
+        28
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude Opus 4.8吗？",
+      "identity_text": "Claude系列里有Claude Opus 4.8吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 29,
+      "visible_labels": [
+        19,
+        24,
+        27,
+        28
       ]
     },
     {
@@ -1490,6 +2221,429 @@
       ]
     },
     {
+      "text": "从编程视角看，Gemini系列里有Gemini 1.5 Pro吗？",
+      "identity_text": "Gemini系列里有Gemini 1.5 Pro吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 31,
+      "visible_labels": [
+        39,
+        40
+      ]
+    },
+    {
+      "text": "从编程视角看，Gemini系列里有Gemini 1.5 Flash吗？",
+      "identity_text": "Gemini系列里有Gemini 1.5 Flash吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 32,
+      "visible_labels": [
+        39,
+        40
+      ]
+    },
+    {
+      "text": "从编程视角看，Gemini系列里有Gemini 2.0 Flash吗？",
+      "identity_text": "Gemini系列里有Gemini 2.0 Flash吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 33,
+      "visible_labels": [
+        39,
+        40
+      ]
+    },
+    {
+      "text": "从编程视角看，Gemini系列里有Gemini 2.0 Pro吗？",
+      "identity_text": "Gemini系列里有Gemini 2.0 Pro吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 34,
+      "visible_labels": [
+        39,
+        40
+      ]
+    },
+    {
+      "text": "从编程视角看，Gemini系列里有Gemini 2.5 Pro吗？",
+      "identity_text": "Gemini系列里有Gemini 2.5 Pro吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 35,
+      "visible_labels": [
+        39,
+        40
+      ]
+    },
+    {
+      "text": "从编程视角看，Gemini系列里有Gemini 2.5 Flash吗？",
+      "identity_text": "Gemini系列里有Gemini 2.5 Flash吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 36,
+      "visible_labels": [
+        39,
+        40
+      ]
+    },
+    {
+      "text": "从编程视角看，Gemini系列里有Gemini 3 Pro吗？",
+      "identity_text": "Gemini系列里有Gemini 3 Pro吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 37,
+      "visible_labels": [
+        39,
+        40
+      ]
+    },
+    {
+      "text": "从编程视角看，Gemini系列里有Gemini 3 Flash吗？",
+      "identity_text": "Gemini系列里有Gemini 3 Flash吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 38,
+      "visible_labels": [
+        39,
+        40
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Gemini系列里有Gemini 1.0吗？",
+      "identity_text": "Gemini系列里有Gemini 1.0吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 30,
+      "visible_labels": [
+        31,
+        34,
+        35,
+        37,
+        39
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Gemini系列里有Gemini 1.5 Flash吗？",
+      "identity_text": "Gemini系列里有Gemini 1.5 Flash吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 32,
+      "visible_labels": [
+        31,
+        34,
+        35,
+        37,
+        39
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Gemini系列里有Gemini 2.0 Flash吗？",
+      "identity_text": "Gemini系列里有Gemini 2.0 Flash吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 33,
+      "visible_labels": [
+        31,
+        34,
+        35,
+        37,
+        39
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Gemini系列里有Gemini 2.5 Flash吗？",
+      "identity_text": "Gemini系列里有Gemini 2.5 Flash吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 36,
+      "visible_labels": [
+        31,
+        34,
+        35,
+        37,
+        39
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Gemini系列里有Gemini 3 Flash吗？",
+      "identity_text": "Gemini系列里有Gemini 3 Flash吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 38,
+      "visible_labels": [
+        31,
+        34,
+        35,
+        37,
+        39
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Gemini系列里有Gemini 3.5 Flash吗？",
+      "identity_text": "Gemini系列里有Gemini 3.5 Flash吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 40,
+      "visible_labels": [
+        31,
+        34,
+        35,
+        37,
+        39
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Llama系列里有Llama 1吗？",
+      "identity_text": "Llama系列里有Llama 1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 41,
+      "visible_labels": [
+        47
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Llama系列里有Llama 2吗？",
+      "identity_text": "Llama系列里有Llama 2吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 42,
+      "visible_labels": [
+        47
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Llama系列里有Llama 3吗？",
+      "identity_text": "Llama系列里有Llama 3吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 43,
+      "visible_labels": [
+        47
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Llama系列里有Llama 3.1吗？",
+      "identity_text": "Llama系列里有Llama 3.1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 44,
+      "visible_labels": [
+        47
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Llama系列里有Llama 3.2吗？",
+      "identity_text": "Llama系列里有Llama 3.2吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 45,
+      "visible_labels": [
+        47
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Llama系列里有Llama 3.3吗？",
+      "identity_text": "Llama系列里有Llama 3.3吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 46,
+      "visible_labels": [
+        47
+      ]
+    },
+    {
+      "text": "从多模态视角看，Llama系列里有Llama 1吗？",
+      "identity_text": "Llama系列里有Llama 1吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 41,
+      "visible_labels": [
+        45,
+        47
+      ]
+    },
+    {
+      "text": "从多模态视角看，Llama系列里有Llama 2吗？",
+      "identity_text": "Llama系列里有Llama 2吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 42,
+      "visible_labels": [
+        45,
+        47
+      ]
+    },
+    {
+      "text": "从多模态视角看，Llama系列里有Llama 3吗？",
+      "identity_text": "Llama系列里有Llama 3吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 43,
+      "visible_labels": [
+        45,
+        47
+      ]
+    },
+    {
+      "text": "从多模态视角看，Llama系列里有Llama 3.1吗？",
+      "identity_text": "Llama系列里有Llama 3.1吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 44,
+      "visible_labels": [
+        45,
+        47
+      ]
+    },
+    {
+      "text": "从多模态视角看，Llama系列里有Llama 3.3吗？",
+      "identity_text": "Llama系列里有Llama 3.3吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 46,
+      "visible_labels": [
+        45,
+        47
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Grok系列里有Grok 1吗？",
+      "identity_text": "Grok系列里有Grok 1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 48,
+      "visible_labels": [
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Grok系列里有Grok 1.5吗？",
+      "identity_text": "Grok系列里有Grok 1.5吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 49,
+      "visible_labels": [
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Grok系列里有Grok 2吗？",
+      "identity_text": "Grok系列里有Grok 2吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 50,
+      "visible_labels": [
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Mistral系列里有Mistral 7B吗？",
+      "identity_text": "Mistral系列里有Mistral 7B吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 54,
+      "visible_labels": [
+        58,
+        60
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Mistral系列里有Mixtral 8x7B吗？",
+      "identity_text": "Mistral系列里有Mixtral 8x7B吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 55,
+      "visible_labels": [
+        58,
+        60
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Mistral系列里有Mistral Small吗？",
+      "identity_text": "Mistral系列里有Mistral Small吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 56,
+      "visible_labels": [
+        58,
+        60
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Mistral系列里有Mistral Medium吗？",
+      "identity_text": "Mistral系列里有Mistral Medium吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 57,
+      "visible_labels": [
+        58,
+        60
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Mistral系列里有Mistral Nemo吗？",
+      "identity_text": "Mistral系列里有Mistral Nemo吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 59,
+      "visible_labels": [
+        58,
+        60
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Mistral系列里有Mistral Small 3吗？",
+      "identity_text": "Mistral系列里有Mistral Small 3吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 61,
+      "visible_labels": [
+        58,
+        60
+      ]
+    },
+    {
       "text": "从编程视角看，Qwen系列里有Qwen 1吗？",
       "identity_text": "Qwen系列里有Qwen 1吗？",
       "observer": "编程",
@@ -1501,6 +2655,511 @@
       ]
     },
     {
+      "text": "从编程视角看，Qwen系列里有Qwen 1.5吗？",
+      "identity_text": "Qwen系列里有Qwen 1.5吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 63,
+      "visible_labels": [
+        71
+      ]
+    },
+    {
+      "text": "从编程视角看，Qwen系列里有Qwen2吗？",
+      "identity_text": "Qwen系列里有Qwen2吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 64,
+      "visible_labels": [
+        71
+      ]
+    },
+    {
+      "text": "从编程视角看，Qwen系列里有Qwen2.5吗？",
+      "identity_text": "Qwen系列里有Qwen2.5吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 65,
+      "visible_labels": [
+        71
+      ]
+    },
+    {
+      "text": "从编程视角看，Qwen系列里有Qwen3吗？",
+      "identity_text": "Qwen系列里有Qwen3吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 66,
+      "visible_labels": [
+        71
+      ]
+    },
+    {
+      "text": "从编程视角看，Qwen系列里有Qwen3.5吗？",
+      "identity_text": "Qwen系列里有Qwen3.5吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 67,
+      "visible_labels": [
+        71
+      ]
+    },
+    {
+      "text": "从编程视角看，Qwen系列里有Qwen3.6吗？",
+      "identity_text": "Qwen系列里有Qwen3.6吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 68,
+      "visible_labels": [
+        71
+      ]
+    },
+    {
+      "text": "从编程视角看，Qwen系列里有Qwen3.7-Max吗？",
+      "identity_text": "Qwen系列里有Qwen3.7-Max吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 69,
+      "visible_labels": [
+        71
+      ]
+    },
+    {
+      "text": "从编程视角看，Qwen系列里有Qwen-VL吗？",
+      "identity_text": "Qwen系列里有Qwen-VL吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 70,
+      "visible_labels": [
+        71
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Qwen系列里有Qwen 1吗？",
+      "identity_text": "Qwen系列里有Qwen 1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 62,
+      "visible_labels": [
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Qwen系列里有Qwen 1.5吗？",
+      "identity_text": "Qwen系列里有Qwen 1.5吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 63,
+      "visible_labels": [
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Qwen系列里有Qwen2吗？",
+      "identity_text": "Qwen系列里有Qwen2吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 64,
+      "visible_labels": [
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Qwen系列里有Qwen2.5吗？",
+      "identity_text": "Qwen系列里有Qwen2.5吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 65,
+      "visible_labels": [
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Qwen系列里有Qwen-VL吗？",
+      "identity_text": "Qwen系列里有Qwen-VL吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 70,
+      "visible_labels": [
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Qwen系列里有Qwen2.5-Coder吗？",
+      "identity_text": "Qwen系列里有Qwen2.5-Coder吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 71,
+      "visible_labels": [
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列里有Qwen 1吗？",
+      "identity_text": "Qwen系列里有Qwen 1吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 62,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列里有Qwen 1.5吗？",
+      "identity_text": "Qwen系列里有Qwen 1.5吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 63,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列里有Qwen2吗？",
+      "identity_text": "Qwen系列里有Qwen2吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 64,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列里有Qwen2.5吗？",
+      "identity_text": "Qwen系列里有Qwen2.5吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 65,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列里有Qwen3吗？",
+      "identity_text": "Qwen系列里有Qwen3吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 66,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列里有Qwen3.5吗？",
+      "identity_text": "Qwen系列里有Qwen3.5吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 67,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列里有Qwen3.6吗？",
+      "identity_text": "Qwen系列里有Qwen3.6吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 68,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列里有Qwen3.7-Max吗？",
+      "identity_text": "Qwen系列里有Qwen3.7-Max吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 69,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列里有Qwen2.5-Coder吗？",
+      "identity_text": "Qwen系列里有Qwen2.5-Coder吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 71,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从旗舰视角看，DeepSeek系列里有DeepSeek-V1吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 72,
+      "visible_labels": [
+        75,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "text": "从旗舰视角看，DeepSeek系列里有DeepSeek-V2吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V2吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 73,
+      "visible_labels": [
+        75,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "text": "从旗舰视角看，DeepSeek系列里有DeepSeek-V2.5吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V2.5吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 74,
+      "visible_labels": [
+        75,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "text": "从旗舰视角看，DeepSeek系列里有DeepSeek-R1吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-R1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 76,
+      "visible_labels": [
+        75,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "text": "从旗舰视角看，DeepSeek系列里有DeepSeek-R1-Zero吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-R1-Zero吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 77,
+      "visible_labels": [
+        75,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "text": "从推理视角看，DeepSeek系列里有DeepSeek-V1吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V1吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 72,
+      "visible_labels": [
+        76,
+        77
+      ]
+    },
+    {
+      "text": "从推理视角看，DeepSeek系列里有DeepSeek-V2吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V2吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 73,
+      "visible_labels": [
+        76,
+        77
+      ]
+    },
+    {
+      "text": "从推理视角看，DeepSeek系列里有DeepSeek-V2.5吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V2.5吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 74,
+      "visible_labels": [
+        76,
+        77
+      ]
+    },
+    {
+      "text": "从推理视角看，DeepSeek系列里有DeepSeek-V3吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V3吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 75,
+      "visible_labels": [
+        76,
+        77
+      ]
+    },
+    {
+      "text": "从推理视角看，DeepSeek系列里有DeepSeek-V3.1吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V3.1吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 78,
+      "visible_labels": [
+        76,
+        77
+      ]
+    },
+    {
+      "text": "从推理视角看，DeepSeek系列里有DeepSeek-V4吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V4吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 79,
+      "visible_labels": [
+        76,
+        77
+      ]
+    },
+    {
+      "text": "从推理视角看，DeepSeek系列里有DeepSeek-V4-Pro吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V4-Pro吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 80,
+      "visible_labels": [
+        76,
+        77
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Kimi系列里有Kimi K1吗？",
+      "identity_text": "Kimi系列里有Kimi K1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 81,
+      "visible_labels": [
+        84,
+        85
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Kimi系列里有Kimi K1.5吗？",
+      "identity_text": "Kimi系列里有Kimi K1.5吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 82,
+      "visible_labels": [
+        84,
+        85
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Kimi系列里有Kimi K2吗？",
+      "identity_text": "Kimi系列里有Kimi K2吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 83,
+      "visible_labels": [
+        84,
+        85
+      ]
+    },
+    {
+      "text": "从推理视角看，Kimi系列里有Kimi K1吗？",
+      "identity_text": "Kimi系列里有Kimi K1吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 81,
+      "visible_labels": [
+        82
+      ]
+    },
+    {
+      "text": "从推理视角看，Kimi系列里有Kimi K2吗？",
+      "identity_text": "Kimi系列里有Kimi K2吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 83,
+      "visible_labels": [
+        82
+      ]
+    },
+    {
+      "text": "从推理视角看，Kimi系列里有Kimi K2.5吗？",
+      "identity_text": "Kimi系列里有Kimi K2.5吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 84,
+      "visible_labels": [
+        82
+      ]
+    },
+    {
+      "text": "从推理视角看，Kimi系列里有Kimi-K2.6吗？",
+      "identity_text": "Kimi系列里有Kimi-K2.6吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 85,
+      "visible_labels": [
+        82
+      ]
+    },
+    {
       "text": "从编程视角看，GLM系列里有GLM-4吗？",
       "identity_text": "GLM系列里有GLM-4吗？",
       "observer": "编程",
@@ -1509,6 +3168,240 @@
       "forbidden_label": 86,
       "visible_labels": [
         91
+      ]
+    },
+    {
+      "text": "从编程视角看，GLM系列里有GLM-4.5吗？",
+      "identity_text": "GLM系列里有GLM-4.5吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 87,
+      "visible_labels": [
+        91
+      ]
+    },
+    {
+      "text": "从编程视角看，GLM系列里有GLM-4.6吗？",
+      "identity_text": "GLM系列里有GLM-4.6吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 88,
+      "visible_labels": [
+        91
+      ]
+    },
+    {
+      "text": "从编程视角看，GLM系列里有GLM-5吗？",
+      "identity_text": "GLM系列里有GLM-5吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 89,
+      "visible_labels": [
+        91
+      ]
+    },
+    {
+      "text": "从编程视角看，GLM系列里有GLM-5.1吗？",
+      "identity_text": "GLM系列里有GLM-5.1吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 90,
+      "visible_labels": [
+        91
+      ]
+    },
+    {
+      "text": "从编程视角看，GLM系列里有GLM-Z1吗？",
+      "identity_text": "GLM系列里有GLM-Z1吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 92,
+      "visible_labels": [
+        91
+      ]
+    },
+    {
+      "text": "从推理视角看，GLM系列里有GLM-4吗？",
+      "identity_text": "GLM系列里有GLM-4吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 86,
+      "visible_labels": [
+        92
+      ]
+    },
+    {
+      "text": "从推理视角看，GLM系列里有GLM-4.5吗？",
+      "identity_text": "GLM系列里有GLM-4.5吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 87,
+      "visible_labels": [
+        92
+      ]
+    },
+    {
+      "text": "从推理视角看，GLM系列里有GLM-4.6吗？",
+      "identity_text": "GLM系列里有GLM-4.6吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 88,
+      "visible_labels": [
+        92
+      ]
+    },
+    {
+      "text": "从推理视角看，GLM系列里有GLM-5吗？",
+      "identity_text": "GLM系列里有GLM-5吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 89,
+      "visible_labels": [
+        92
+      ]
+    },
+    {
+      "text": "从推理视角看，GLM系列里有GLM-5.1吗？",
+      "identity_text": "GLM系列里有GLM-5.1吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 90,
+      "visible_labels": [
+        92
+      ]
+    },
+    {
+      "text": "从推理视角看，GLM系列里有GLM-5.3吗？",
+      "identity_text": "GLM系列里有GLM-5.3吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 91,
+      "visible_labels": [
+        92
+      ]
+    },
+    {
+      "text": "从推理视角看，豆包系列里有豆包 1.0吗？",
+      "identity_text": "豆包系列里有豆包 1.0吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 97,
+      "visible_labels": [
+        99
+      ]
+    },
+    {
+      "text": "从推理视角看，豆包系列里有豆包 1.5吗？",
+      "identity_text": "豆包系列里有豆包 1.5吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 98,
+      "visible_labels": [
+        99
+      ]
+    },
+    {
+      "text": "从推理视角看，豆包系列里有Seed 1.5吗？",
+      "identity_text": "豆包系列里有Seed 1.5吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 100,
+      "visible_labels": [
+        99
+      ]
+    },
+    {
+      "text": "从推理视角看，豆包系列里有Seed 2.0吗？",
+      "identity_text": "豆包系列里有Seed 2.0吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 101,
+      "visible_labels": [
+        99
+      ]
+    },
+    {
+      "text": "从多模态视角看，豆包系列里有豆包 1.0吗？",
+      "identity_text": "豆包系列里有豆包 1.0吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 97,
+      "visible_labels": [
+        100,
+        101
+      ]
+    },
+    {
+      "text": "从多模态视角看，豆包系列里有豆包 1.5吗？",
+      "identity_text": "豆包系列里有豆包 1.5吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 98,
+      "visible_labels": [
+        100,
+        101
+      ]
+    },
+    {
+      "text": "从多模态视角看，豆包系列里有豆包 1.5 Pro吗？",
+      "identity_text": "豆包系列里有豆包 1.5 Pro吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 99,
+      "visible_labels": [
+        100,
+        101
+      ]
+    },
+    {
+      "text": "从推理视角看，混元系列里有混元吗？",
+      "identity_text": "混元系列里有混元吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 102,
+      "visible_labels": [
+        105
+      ]
+    },
+    {
+      "text": "从推理视角看，混元系列里有混元 Turbo吗？",
+      "identity_text": "混元系列里有混元 Turbo吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 103,
+      "visible_labels": [
+        105
+      ]
+    },
+    {
+      "text": "从推理视角看，混元系列里有混元 Large吗？",
+      "identity_text": "混元系列里有混元 Large吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 104,
+      "visible_labels": [
+        105
       ]
     }
   ]

@@ -5,11 +5,11 @@
     "status": "自动生成；查询分 train/heldout，heldout 不参与训练；版本号与年份需人工核对",
     "objects": 122,
     "queries": {
-      "known": 708,
+      "known": 764,
       "ambiguous": 57,
       "unknown": 11,
-      "train": 489,
-      "heldout": 287
+      "train": 517,
+      "heldout": 315
     }
   },
   "objects": [
@@ -126,7 +126,7 @@
       "year": "2024",
       "note": "多模态",
       "evidence": {
-        "名称": "这个模型的全称是 GPT-4o，属于 GPT 系列",
+        "名称": "这个模型的全称是 GPT-4o，属于 GPT 系列，也常被称作GPT-4 Omni、Omni",
         "属性": "它由 OpenAI 开发，是闭源模型，多模态",
         "关系": "它在 GPT 系列中，前一代是 GPT-4 Turbo",
         "变化": "它于 2024 年发布"
@@ -211,7 +211,7 @@
       "year": "2026",
       "note": "当前前沿闭源旗舰",
       "evidence": {
-        "名称": "这个模型的全称是 GPT-5.2，属于 GPT 系列",
+        "名称": "这个模型的全称是 GPT-5.2，属于 GPT 系列，也常被称作GPT-5 最新版",
         "属性": "它由 OpenAI 开发，是闭源模型，当前前沿闭源旗舰",
         "关系": "它在 GPT 系列中，前一代是 GPT-5.1，是该系列最新版本",
         "变化": "它于 2026 年发布"
@@ -262,7 +262,7 @@
       "year": "2025",
       "note": "推理",
       "evidence": {
-        "名称": "这个模型的全称是 o3，属于 o 推理 系列",
+        "名称": "这个模型的全称是 o3，属于 o 推理 系列，也常被称作OpenAI o3",
         "属性": "它由 OpenAI 开发，是闭源模型，推理",
         "关系": "它在 o 推理 系列中，前一代是 o1-mini",
         "变化": "它于 2025 年发布"
@@ -500,7 +500,7 @@
       "year": "2026",
       "note": "旗舰",
       "evidence": {
-        "名称": "这个模型的全称是 Claude Opus 4.7，属于 Claude 系列，也常写作 ClaudeOpus4.7",
+        "名称": "这个模型的全称是 Claude Opus 4.7，属于 Claude 系列，也常写作 ClaudeOpus4.7，也常被称作Opus 4.7",
         "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
         "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.5",
         "变化": "它于 2026 年发布"
@@ -517,7 +517,7 @@
       "year": "2026",
       "note": "SWE-bench 领先",
       "evidence": {
-        "名称": "这个模型的全称是 Claude Opus 4.8，属于 Claude 系列，也常写作 ClaudeOpus4.8",
+        "名称": "这个模型的全称是 Claude Opus 4.8，属于 Claude 系列，也常写作 ClaudeOpus4.8，也常被称作Claude 4.8、Opus 4.8",
         "属性": "它由 Anthropic 开发，是闭源模型，SWE-bench 领先",
         "关系": "它在 Claude 系列中，前一代是 Claude Opus 4.7，是该系列最新版本",
         "变化": "它于 2026 年发布"
@@ -687,7 +687,7 @@
       "year": "2026",
       "note": "代理编码旗舰",
       "evidence": {
-        "名称": "这个模型的全称是 Gemini 3.5 Pro，属于 Gemini 系列，也常写作 Gemini3.5Pro",
+        "名称": "这个模型的全称是 Gemini 3.5 Pro，属于 Gemini 系列，也常写作 Gemini3.5Pro，也常被称作Gemini 3.5 旗舰",
         "属性": "它由 Google 开发，是闭源模型，代理编码旗舰",
         "关系": "它在 Gemini 系列中，前一代是 Gemini 3 Flash",
         "变化": "它于 2026 年发布"
@@ -704,7 +704,7 @@
       "year": "2026",
       "note": "最快代理编码",
       "evidence": {
-        "名称": "这个模型的全称是 Gemini 3.5 Flash，属于 Gemini 系列，也常写作 Gemini3.5Flash",
+        "名称": "这个模型的全称是 Gemini 3.5 Flash，属于 Gemini 系列，也常写作 Gemini3.5Flash，也常被称作Gemini Flash 3.5",
         "属性": "它由 Google 开发，是闭源模型，最快代理编码",
         "关系": "它在 Gemini 系列中，前一代是 Gemini 3.5 Pro，是该系列最新版本",
         "变化": "它于 2026 年发布"
@@ -823,7 +823,7 @@
       "year": "2026",
       "note": "开源多模态旗舰",
       "evidence": {
-        "名称": "这个模型的全称是 Llama 4，属于 Llama 系列，也常写作 Llama4",
+        "名称": "这个模型的全称是 Llama 4，属于 Llama 系列，也常写作 Llama4，也常被称作Meta Llama 4",
         "属性": "它由 Meta 开发，是开源模型，开源多模态旗舰",
         "关系": "它在 Llama 系列中，前一代是 Llama 3.3，是该系列最新版本",
         "变化": "它于 2026 年发布"
@@ -925,7 +925,7 @@
       "year": "2026",
       "note": "旗舰",
       "evidence": {
-        "名称": "这个模型的全称是 Grok 5，属于 Grok 系列，也常写作 Grok5",
+        "名称": "这个模型的全称是 Grok 5，属于 Grok 系列，也常写作 Grok5，也常被称作xAI Grok 5",
         "属性": "它由 xAI 开发，是闭源模型，旗舰",
         "关系": "它在 Grok 系列中，前一代是 Grok 4，是该系列最新版本",
         "变化": "它于 2026 年发布"
@@ -1044,7 +1044,7 @@
       "year": "2025",
       "note": "旗舰",
       "evidence": {
-        "名称": "这个模型的全称是 Mistral Large 3，属于 Mistral 系列，也常写作 MistralLarge3",
+        "名称": "这个模型的全称是 Mistral Large 3，属于 Mistral 系列，也常写作 MistralLarge3，也常被称作Mistral Large 最新版",
         "属性": "它由 Mistral AI 开发，是开源模型，旗舰",
         "关系": "它在 Mistral 系列中，前一代是 Mistral Nemo",
         "变化": "它于 2025 年发布"
@@ -1180,7 +1180,7 @@
       "year": "2026",
       "note": "开源旗舰",
       "evidence": {
-        "名称": "这个模型的全称是 Qwen3.6，属于 Qwen 系列",
+        "名称": "这个模型的全称是 Qwen3.6，属于 Qwen 系列，也常被称作千问3.6、通义千问3.6",
         "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
         "关系": "它在 Qwen 系列中，前一代是 Qwen3.5",
         "变化": "它于 2026 年发布"
@@ -1197,7 +1197,7 @@
       "year": "2026",
       "note": "闭源国产旗舰第一",
       "evidence": {
-        "名称": "这个模型的全称是 Qwen3.7-Max，属于 Qwen 系列",
+        "名称": "这个模型的全称是 Qwen3.7-Max，属于 Qwen 系列，也常被称作千问3.7、通义千问3.7",
         "属性": "它由 阿里巴巴 开发，是开源模型，闭源国产旗舰第一",
         "关系": "它在 Qwen 系列中，前一代是 Qwen3.6",
         "变化": "它于 2026 年发布"
@@ -1384,7 +1384,7 @@
       "year": "2026",
       "note": "开源旗舰",
       "evidence": {
-        "名称": "这个模型的全称是 DeepSeek-V4-Pro，属于 DeepSeek 系列",
+        "名称": "这个模型的全称是 DeepSeek-V4-Pro，属于 DeepSeek 系列，也常被称作DeepSeek V4 Pro、深度求索V4 Pro",
         "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
         "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V4，是该系列最新版本",
         "变化": "它于 2026 年发布"
@@ -1469,7 +1469,7 @@
       "year": "2026",
       "note": "开源旗舰",
       "evidence": {
-        "名称": "这个模型的全称是 Kimi-K2.6，属于 Kimi 系列",
+        "名称": "这个模型的全称是 Kimi-K2.6，属于 Kimi 系列，也常被称作Kimi K2.6、月之暗面K2.6",
         "属性": "它由 月之暗面 开发，是开源模型，开源旗舰",
         "关系": "它在 Kimi 系列中，前一代是 Kimi K2.5，是该系列最新版本",
         "变化": "它于 2026 年发布"
@@ -1554,7 +1554,7 @@
       "year": "2026",
       "note": "开源",
       "evidence": {
-        "名称": "这个模型的全称是 GLM-5.1，属于 GLM 系列",
+        "名称": "这个模型的全称是 GLM-5.1，属于 GLM 系列，也常被称作智谱GLM 5.1",
         "属性": "它由 智谱AI 开发，是开源模型，开源",
         "关系": "它在 GLM 系列中，前一代是 GLM-5",
         "变化": "它于 2026 年发布"
@@ -1571,7 +1571,7 @@
       "year": "2026",
       "note": "开源编程最强",
       "evidence": {
-        "名称": "这个模型的全称是 GLM-5.3，属于 GLM 系列",
+        "名称": "这个模型的全称是 GLM-5.3，属于 GLM 系列，也常被称作智谱GLM 5.3",
         "属性": "它由 智谱AI 开发，是开源模型，开源编程最强",
         "关系": "它在 GLM 系列中，前一代是 GLM-5.1",
         "变化": "它于 2026 年发布"
@@ -1656,7 +1656,7 @@
       "year": "2026",
       "note": "开源",
       "evidence": {
-        "名称": "这个模型的全称是 MiniMax M2.7，属于 MiniMax 系列，也常写作 MiniMaxM2.7",
+        "名称": "这个模型的全称是 MiniMax M2.7，属于 MiniMax 系列，也常写作 MiniMaxM2.7，也常被称作MiniMax M2 最新版",
         "属性": "它由 MiniMax 开发，是开源模型，开源",
         "关系": "它在 MiniMax 系列中，前一代是 MiniMax M2.5，是该系列最新版本",
         "变化": "它于 2026 年发布"
@@ -1707,7 +1707,7 @@
       "year": "2026",
       "note": "推理突出",
       "evidence": {
-        "名称": "这个模型的全称是 豆包 1.5 Pro，属于 豆包 系列，也常写作 豆包1.5Pro",
+        "名称": "这个模型的全称是 豆包 1.5 Pro，属于 豆包 系列，也常写作 豆包1.5Pro，也常被称作豆包1.5Pro、Doubao 1.5 Pro",
         "属性": "它由 字节跳动 开发，是闭源模型，推理突出",
         "关系": "它在 豆包 系列中，前一代是 豆包 1.5",
         "变化": "它于 2026 年发布"
@@ -1809,7 +1809,7 @@
       "year": "2025",
       "note": "推理",
       "evidence": {
-        "名称": "这个模型的全称是 混元 T1，属于 混元 系列，也常写作 混元T1",
+        "名称": "这个模型的全称是 混元 T1，属于 混元 系列，也常写作 混元T1，也常被称作混元T1、Hunyuan T1",
         "属性": "它由 腾讯 开发，是闭源模型，推理",
         "关系": "它在 混元 系列中，前一代是 混元 Large，是该系列最新版本",
         "变化": "它于 2025 年发布"
@@ -1877,7 +1877,7 @@
       "year": "2025",
       "note": "商用",
       "evidence": {
-        "名称": "这个模型的全称是 文心一言 4.5，属于 文心 系列，也常写作 文心一言4.5",
+        "名称": "这个模型的全称是 文心一言 4.5，属于 文心 系列，也常写作 文心一言4.5，也常被称作文心4.5",
         "属性": "它由 百度 开发，是闭源模型，商用",
         "关系": "它在 文心 系列中，前一代是 文心一言 4.0",
         "变化": "它于 2025 年发布"
@@ -2307,6 +2307,34 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下GPT-4 Omni",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4 Omni是哪个模型？",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "查一下Omni的情况",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我找Omni",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
       "text": "在GPT系列中，前一代是GPT-4 Turbo的模型是哪个？",
       "target_id": "gpt-4o",
       "kind": "known",
@@ -2482,6 +2510,20 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下GPT-5 最新版",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "GPT-5 最新版是哪个模型？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
       "text": "在GPT系列中，前一代是GPT-5.1的模型是哪个？",
       "target_id": "gpt-5-2",
       "kind": "known",
@@ -2637,6 +2679,20 @@
       "target_id": "o3",
       "kind": "known",
       "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下OpenAI o3",
+      "target_id": "o3",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "OpenAI o3是哪个模型？",
+      "target_id": "o3",
+      "kind": "known",
+      "subtype": "alias",
       "split": "heldout"
     },
     {
@@ -3183,6 +3239,20 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下Opus 4.7",
+      "target_id": "claude-opus-4-7",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Opus 4.7是哪个模型？",
+      "target_id": "claude-opus-4-7",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
       "text": "在Claude系列中，前一代是Claude Opus 4.5的模型是哪个？",
       "target_id": "claude-opus-4-7",
       "kind": "known",
@@ -3215,6 +3285,34 @@
       "target_id": "claude-opus-4-8",
       "kind": "known",
       "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Claude 4.8",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Claude 4.8是哪个模型？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "查一下Opus 4.8的情况",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我找Opus 4.8",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "alias",
       "split": "heldout"
     },
     {
@@ -3621,6 +3719,20 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下Gemini 3.5 旗舰",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 3.5 旗舰是哪个模型？",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
       "text": "在Gemini系列中，前一代是Gemini 3 Flash的模型是哪个？",
       "target_id": "gemini-3-5-pro",
       "kind": "known",
@@ -3653,6 +3765,20 @@
       "target_id": "gemini-3-5-flash",
       "kind": "known",
       "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Gemini Flash 3.5",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Gemini Flash 3.5是哪个模型？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "alias",
       "split": "heldout"
     },
     {
@@ -3954,6 +4080,20 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下Meta Llama 4",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Meta Llama 4是哪个模型？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
       "text": "在Llama系列中，前一代是Llama 3.3的模型是哪个？",
       "target_id": "llama-4",
       "kind": "known",
@@ -4214,6 +4354,20 @@
       "target_id": "grok-5",
       "kind": "known",
       "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下xAI Grok 5",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "xAI Grok 5是哪个模型？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "alias",
       "split": "heldout"
     },
     {
@@ -4512,6 +4666,20 @@
       "target_id": "mistral-large-3",
       "kind": "known",
       "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mistral Large 最新版",
+      "target_id": "mistral-large-3",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Large 最新版是哪个模型？",
+      "target_id": "mistral-large-3",
+      "kind": "known",
+      "subtype": "alias",
       "split": "heldout"
     },
     {
@@ -4848,6 +5016,34 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下千问3.6",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "千问3.6是哪个模型？",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "查一下通义千问3.6的情况",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我找通义千问3.6",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
       "text": "在Qwen系列中，前一代是Qwen3.5的模型是哪个？",
       "target_id": "qwen3-6",
       "kind": "known",
@@ -4880,6 +5076,34 @@
       "target_id": "qwen3-7-max",
       "kind": "known",
       "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下千问3.7",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "千问3.7是哪个模型？",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "查一下通义千问3.7的情况",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我找通义千问3.7",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "alias",
       "split": "heldout"
     },
     {
@@ -5321,6 +5545,34 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下DeepSeek V4 Pro",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek V4 Pro是哪个模型？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "查一下深度求索V4 Pro的情况",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我找深度求索V4 Pro",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
       "text": "在DeepSeek系列中，前一代是DeepSeek-V4的模型是哪个？",
       "target_id": "deepseek-v4-pro",
       "kind": "known",
@@ -5546,6 +5798,34 @@
       "target_id": "kimi-k2-6",
       "kind": "known",
       "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Kimi K2.6",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Kimi K2.6是哪个模型？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "查一下月之暗面K2.6的情况",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我找月之暗面K2.6",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "alias",
       "split": "heldout"
     },
     {
@@ -5777,6 +6057,20 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下智谱GLM 5.1",
+      "target_id": "glm-5-1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "智谱GLM 5.1是哪个模型？",
+      "target_id": "glm-5-1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
       "text": "在GLM系列中，前一代是GLM-5的模型是哪个？",
       "target_id": "glm-5-1",
       "kind": "known",
@@ -5809,6 +6103,20 @@
       "target_id": "glm-5-3",
       "kind": "known",
       "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下智谱GLM 5.3",
+      "target_id": "glm-5-3",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "智谱GLM 5.3是哪个模型？",
+      "target_id": "glm-5-3",
+      "kind": "known",
+      "subtype": "alias",
       "split": "heldout"
     },
     {
@@ -6040,6 +6348,20 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下MiniMax M2 最新版",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax M2 最新版是哪个模型？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
       "text": "在MiniMax系列中，前一代是MiniMax M2.5的模型是哪个？",
       "target_id": "minimax-m2-7",
       "kind": "known",
@@ -6195,6 +6517,34 @@
       "target_id": "豆包-1-5-pro",
       "kind": "known",
       "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下豆包1.5Pro",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "豆包1.5Pro是哪个模型？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "查一下Doubao 1.5 Pro的情况",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我找Doubao 1.5 Pro",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "alias",
       "split": "heldout"
     },
     {
@@ -6461,6 +6811,34 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下混元T1",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "混元T1是哪个模型？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "查一下Hunyuan T1的情况",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我找Hunyuan T1",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
       "text": "在混元系列中，前一代是混元 Large的模型是哪个？",
       "target_id": "混元-t1",
       "kind": "known",
@@ -6651,6 +7029,20 @@
       "target_id": "文心一言-4-5",
       "kind": "known",
       "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下文心4.5",
+      "target_id": "文心一言-4-5",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "文心4.5是哪个模型？",
+      "target_id": "文心一言-4-5",
+      "kind": "known",
+      "subtype": "alias",
       "split": "heldout"
     },
     {
