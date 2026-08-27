@@ -14,9 +14,9 @@
       "多模态"
     ],
     "queries": {
-      "selection": 60,
+      "selection": 90,
       "invariance": 12,
-      "permission": 144
+      "permission": 197
     }
   },
   "queries": [
@@ -25,7 +25,7 @@
       "identity_text": "GPT系列最新的模型是哪个？",
       "observer": "闭源",
       "kind": "selection",
-      "target_label": 11,
+      "target_label": 13,
       "visible_labels": [
         0,
         1,
@@ -38,7 +38,9 @@
         8,
         9,
         10,
-        11
+        11,
+        12,
+        13
       ]
     },
     {
@@ -46,7 +48,7 @@
       "identity_text": "GPT系列最新的模型是哪个？",
       "observer": "美国",
       "kind": "selection",
-      "target_label": 11,
+      "target_label": 13,
       "visible_labels": [
         0,
         1,
@@ -59,7 +61,9 @@
         8,
         9,
         10,
-        11
+        11,
+        12,
+        13
       ]
     },
     {
@@ -67,10 +71,10 @@
       "identity_text": "GPT系列最新的模型是哪个？",
       "observer": "旗舰",
       "kind": "selection",
-      "target_label": 11,
+      "target_label": 13,
       "visible_labels": [
-        9,
-        11
+        11,
+        13
       ]
     },
     {
@@ -88,12 +92,14 @@
       "identity_text": "o 推理系列最新的模型是哪个？",
       "observer": "闭源",
       "kind": "selection",
-      "target_label": 15,
+      "target_label": 19,
       "visible_labels": [
-        12,
-        13,
         14,
-        15
+        15,
+        16,
+        17,
+        18,
+        19
       ]
     },
     {
@@ -101,12 +107,14 @@
       "identity_text": "o 推理系列最新的模型是哪个？",
       "observer": "美国",
       "kind": "selection",
-      "target_label": 15,
+      "target_label": 19,
       "visible_labels": [
-        12,
-        13,
         14,
-        15
+        15,
+        16,
+        17,
+        18,
+        19
       ]
     },
     {
@@ -114,12 +122,14 @@
       "identity_text": "o 推理系列最新的模型是哪个？",
       "observer": "推理",
       "kind": "selection",
-      "target_label": 15,
+      "target_label": 19,
       "visible_labels": [
-        12,
-        13,
         14,
-        15
+        15,
+        16,
+        17,
+        18,
+        19
       ]
     },
     {
@@ -127,12 +137,8 @@
       "identity_text": "Claude系列最新的模型是哪个？",
       "observer": "闭源",
       "kind": "selection",
-      "target_label": 29,
+      "target_label": 35,
       "visible_labels": [
-        16,
-        17,
-        18,
-        19,
         20,
         21,
         22,
@@ -142,7 +148,13 @@
         26,
         27,
         28,
-        29
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
       ]
     },
     {
@@ -150,12 +162,8 @@
       "identity_text": "Claude系列最新的模型是哪个？",
       "observer": "美国",
       "kind": "selection",
-      "target_label": 29,
+      "target_label": 35,
       "visible_labels": [
-        16,
-        17,
-        18,
-        19,
         20,
         21,
         22,
@@ -165,7 +173,13 @@
         26,
         27,
         28,
-        29
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
       ]
     },
     {
@@ -173,9 +187,9 @@
       "identity_text": "Claude系列最新的模型是哪个？",
       "observer": "编程",
       "kind": "selection",
-      "target_label": 29,
+      "target_label": 35,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -183,12 +197,12 @@
       "identity_text": "Claude系列最新的模型是哪个？",
       "observer": "旗舰",
       "kind": "selection",
-      "target_label": 28,
+      "target_label": 34,
       "visible_labels": [
-        19,
-        24,
-        27,
-        28
+        23,
+        28,
+        31,
+        34
       ]
     },
     {
@@ -196,19 +210,20 @@
       "identity_text": "Gemini系列最新的模型是哪个？",
       "observer": "闭源",
       "kind": "selection",
-      "target_label": 40,
+      "target_label": 47,
       "visible_labels": [
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
         36,
         37,
         38,
         39,
-        40
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
       ]
     },
     {
@@ -216,19 +231,20 @@
       "identity_text": "Gemini系列最新的模型是哪个？",
       "observer": "美国",
       "kind": "selection",
-      "target_label": 40,
+      "target_label": 47,
       "visible_labels": [
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
         36,
         37,
         38,
         39,
-        40
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
       ]
     },
     {
@@ -236,10 +252,10 @@
       "identity_text": "Gemini系列最新的模型是哪个？",
       "observer": "编程",
       "kind": "selection",
-      "target_label": 40,
+      "target_label": 47,
       "visible_labels": [
-        39,
-        40
+        46,
+        47
       ]
     },
     {
@@ -247,13 +263,13 @@
       "identity_text": "Gemini系列最新的模型是哪个？",
       "observer": "旗舰",
       "kind": "selection",
-      "target_label": 39,
+      "target_label": 46,
       "visible_labels": [
-        31,
-        34,
-        35,
         37,
-        39
+        41,
+        42,
+        44,
+        46
       ]
     },
     {
@@ -261,15 +277,17 @@
       "identity_text": "Llama系列最新的模型是哪个？",
       "observer": "开源",
       "kind": "selection",
-      "target_label": 47,
+      "target_label": 56,
       "visible_labels": [
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
       ]
     },
     {
@@ -277,15 +295,17 @@
       "identity_text": "Llama系列最新的模型是哪个？",
       "observer": "美国",
       "kind": "selection",
-      "target_label": 47,
+      "target_label": 56,
       "visible_labels": [
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
       ]
     },
     {
@@ -293,9 +313,9 @@
       "identity_text": "Llama系列最新的模型是哪个？",
       "observer": "旗舰",
       "kind": "selection",
-      "target_label": 47,
+      "target_label": 56,
       "visible_labels": [
-        47
+        56
       ]
     },
     {
@@ -303,10 +323,10 @@
       "identity_text": "Llama系列最新的模型是哪个？",
       "observer": "多模态",
       "kind": "selection",
-      "target_label": 47,
+      "target_label": 56,
       "visible_labels": [
-        45,
-        47
+        52,
+        56
       ]
     },
     {
@@ -314,14 +334,15 @@
       "identity_text": "Grok系列最新的模型是哪个？",
       "observer": "闭源",
       "kind": "selection",
-      "target_label": 53,
+      "target_label": 63,
       "visible_labels": [
-        48,
-        49,
-        50,
-        51,
-        52,
-        53
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
       ]
     },
     {
@@ -329,14 +350,15 @@
       "identity_text": "Grok系列最新的模型是哪个？",
       "observer": "美国",
       "kind": "selection",
-      "target_label": 53,
+      "target_label": 63,
       "visible_labels": [
-        48,
-        49,
-        50,
-        51,
-        52,
-        53
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
       ]
     },
     {
@@ -344,11 +366,11 @@
       "identity_text": "Grok系列最新的模型是哪个？",
       "observer": "旗舰",
       "kind": "selection",
-      "target_label": 53,
+      "target_label": 63,
       "visible_labels": [
-        51,
-        52,
-        53
+        61,
+        62,
+        63
       ]
     },
     {
@@ -356,94 +378,25 @@
       "identity_text": "Mistral系列最新的模型是哪个？",
       "observer": "开源",
       "kind": "selection",
-      "target_label": 61,
+      "target_label": 74,
       "visible_labels": [
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
       ]
     },
     {
-      "text": "从旗舰视角看，Mistral系列最新的模型是哪个？",
+      "text": "从编程视角看，Mistral系列最新的模型是哪个？",
       "identity_text": "Mistral系列最新的模型是哪个？",
-      "observer": "旗舰",
-      "kind": "selection",
-      "target_label": 60,
-      "visible_labels": [
-        58,
-        60
-      ]
-    },
-    {
-      "text": "从开源视角看，Qwen系列最新的模型是哪个？",
-      "identity_text": "Qwen系列最新的模型是哪个？",
-      "observer": "开源",
-      "kind": "selection",
-      "target_label": 69,
-      "visible_labels": [
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71
-      ]
-    },
-    {
-      "text": "从中国视角看，Qwen系列最新的模型是哪个？",
-      "identity_text": "Qwen系列最新的模型是哪个？",
-      "observer": "中国",
-      "kind": "selection",
-      "target_label": 69,
-      "visible_labels": [
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71
-      ]
-    },
-    {
-      "text": "从编程视角看，Qwen系列最新的模型是哪个？",
-      "identity_text": "Qwen系列最新的模型是哪个？",
       "observer": "编程",
-      "kind": "selection",
-      "target_label": 71,
-      "visible_labels": [
-        71
-      ]
-    },
-    {
-      "text": "从旗舰视角看，Qwen系列最新的模型是哪个？",
-      "identity_text": "Qwen系列最新的模型是哪个？",
-      "observer": "旗舰",
-      "kind": "selection",
-      "target_label": 69,
-      "visible_labels": [
-        66,
-        67,
-        68,
-        69
-      ]
-    },
-    {
-      "text": "从多模态视角看，Qwen系列最新的模型是哪个？",
-      "identity_text": "Qwen系列最新的模型是哪个？",
-      "observer": "多模态",
       "kind": "selection",
       "target_label": 70,
       "visible_labels": [
@@ -451,21 +404,334 @@
       ]
     },
     {
-      "text": "从开源视角看，DeepSeek系列最新的模型是哪个？",
-      "identity_text": "DeepSeek系列最新的模型是哪个？",
+      "text": "从旗舰视角看，Mistral系列最新的模型是哪个？",
+      "identity_text": "Mistral系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 72,
+      "visible_labels": [
+        68,
+        72
+      ]
+    },
+    {
+      "text": "从开源视角看，Phi系列最新的模型是哪个？",
+      "identity_text": "Phi系列最新的模型是哪个？",
       "observer": "开源",
       "kind": "selection",
-      "target_label": 80,
+      "target_label": 81,
       "visible_labels": [
-        72,
-        73,
-        74,
         75,
         76,
         77,
         78,
         79,
-        80
+        80,
+        81
+      ]
+    },
+    {
+      "text": "从美国视角看，Phi系列最新的模型是哪个？",
+      "identity_text": "Phi系列最新的模型是哪个？",
+      "observer": "美国",
+      "kind": "selection",
+      "target_label": 81,
+      "visible_labels": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ]
+    },
+    {
+      "text": "从闭源视角看，Nova系列最新的模型是哪个？",
+      "identity_text": "Nova系列最新的模型是哪个？",
+      "observer": "闭源",
+      "kind": "selection",
+      "target_label": 84,
+      "visible_labels": [
+        82,
+        83,
+        84
+      ]
+    },
+    {
+      "text": "从美国视角看，Nova系列最新的模型是哪个？",
+      "identity_text": "Nova系列最新的模型是哪个？",
+      "observer": "美国",
+      "kind": "selection",
+      "target_label": 84,
+      "visible_labels": [
+        82,
+        83,
+        84
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Nova系列最新的模型是哪个？",
+      "identity_text": "Nova系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 84,
+      "visible_labels": [
+        84
+      ]
+    },
+    {
+      "text": "从开源视角看，Nemotron系列最新的模型是哪个？",
+      "identity_text": "Nemotron系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 87,
+      "visible_labels": [
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "text": "从美国视角看，Nemotron系列最新的模型是哪个？",
+      "identity_text": "Nemotron系列最新的模型是哪个？",
+      "observer": "美国",
+      "kind": "selection",
+      "target_label": 87,
+      "visible_labels": [
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "text": "从开源视角看，Granite系列最新的模型是哪个？",
+      "identity_text": "Granite系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 90,
+      "visible_labels": [
+        88,
+        89,
+        90
+      ]
+    },
+    {
+      "text": "从美国视角看，Granite系列最新的模型是哪个？",
+      "identity_text": "Granite系列最新的模型是哪个？",
+      "observer": "美国",
+      "kind": "selection",
+      "target_label": 90,
+      "visible_labels": [
+        88,
+        89,
+        90
+      ]
+    },
+    {
+      "text": "从开源视角看，Command系列最新的模型是哪个？",
+      "identity_text": "Command系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 93,
+      "visible_labels": [
+        91,
+        92,
+        93
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Command系列最新的模型是哪个？",
+      "identity_text": "Command系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 93,
+      "visible_labels": [
+        93
+      ]
+    },
+    {
+      "text": "从开源视角看，DBRX系列最新的模型是哪个？",
+      "identity_text": "DBRX系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 94,
+      "visible_labels": [
+        94
+      ]
+    },
+    {
+      "text": "从美国视角看，DBRX系列最新的模型是哪个？",
+      "identity_text": "DBRX系列最新的模型是哪个？",
+      "observer": "美国",
+      "kind": "selection",
+      "target_label": 94,
+      "visible_labels": [
+        94
+      ]
+    },
+    {
+      "text": "从开源视角看，Jamba系列最新的模型是哪个？",
+      "identity_text": "Jamba系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 96,
+      "visible_labels": [
+        95,
+        96
+      ]
+    },
+    {
+      "text": "从开源视角看，Apple系列最新的模型是哪个？",
+      "identity_text": "Apple系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 98,
+      "visible_labels": [
+        97,
+        98
+      ]
+    },
+    {
+      "text": "从美国视角看，Apple系列最新的模型是哪个？",
+      "identity_text": "Apple系列最新的模型是哪个？",
+      "observer": "美国",
+      "kind": "selection",
+      "target_label": 98,
+      "visible_labels": [
+        97,
+        98
+      ]
+    },
+    {
+      "text": "从开源视角看，Falcon系列最新的模型是哪个？",
+      "identity_text": "Falcon系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 101,
+      "visible_labels": [
+        99,
+        100,
+        101
+      ]
+    },
+    {
+      "text": "从闭源视角看，HyperCLOVA系列最新的模型是哪个？",
+      "identity_text": "HyperCLOVA系列最新的模型是哪个？",
+      "observer": "闭源",
+      "kind": "selection",
+      "target_label": 103,
+      "visible_labels": [
+        102,
+        103
+      ]
+    },
+    {
+      "text": "从开源视角看，EXAONE系列最新的模型是哪个？",
+      "identity_text": "EXAONE系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 106,
+      "visible_labels": [
+        104,
+        105,
+        106
+      ]
+    },
+    {
+      "text": "从开源视角看，Qwen系列最新的模型是哪个？",
+      "identity_text": "Qwen系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 114,
+      "visible_labels": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
+      ]
+    },
+    {
+      "text": "从中国视角看，Qwen系列最新的模型是哪个？",
+      "identity_text": "Qwen系列最新的模型是哪个？",
+      "observer": "中国",
+      "kind": "selection",
+      "target_label": 114,
+      "visible_labels": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
+      ]
+    },
+    {
+      "text": "从编程视角看，Qwen系列最新的模型是哪个？",
+      "identity_text": "Qwen系列最新的模型是哪个？",
+      "observer": "编程",
+      "kind": "selection",
+      "target_label": 116,
+      "visible_labels": [
+        116
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Qwen系列最新的模型是哪个？",
+      "identity_text": "Qwen系列最新的模型是哪个？",
+      "observer": "旗舰",
+      "kind": "selection",
+      "target_label": 114,
+      "visible_labels": [
+        111,
+        112,
+        113,
+        114
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列最新的模型是哪个？",
+      "identity_text": "Qwen系列最新的模型是哪个？",
+      "observer": "多模态",
+      "kind": "selection",
+      "target_label": 118,
+      "visible_labels": [
+        115,
+        118
+      ]
+    },
+    {
+      "text": "从开源视角看，DeepSeek系列最新的模型是哪个？",
+      "identity_text": "DeepSeek系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 129,
+      "visible_labels": [
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129
       ]
     },
     {
@@ -473,17 +739,29 @@
       "identity_text": "DeepSeek系列最新的模型是哪个？",
       "observer": "中国",
       "kind": "selection",
-      "target_label": 80,
+      "target_label": 129,
       "visible_labels": [
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129
+      ]
+    },
+    {
+      "text": "从编程视角看，DeepSeek系列最新的模型是哪个？",
+      "identity_text": "DeepSeek系列最新的模型是哪个？",
+      "observer": "编程",
+      "kind": "selection",
+      "target_label": 126,
+      "visible_labels": [
+        126
       ]
     },
     {
@@ -491,12 +769,12 @@
       "identity_text": "DeepSeek系列最新的模型是哪个？",
       "observer": "旗舰",
       "kind": "selection",
-      "target_label": 80,
+      "target_label": 128,
       "visible_labels": [
-        75,
-        78,
-        79,
-        80
+        122,
+        125,
+        127,
+        128
       ]
     },
     {
@@ -504,10 +782,11 @@
       "identity_text": "DeepSeek系列最新的模型是哪个？",
       "observer": "推理",
       "kind": "selection",
-      "target_label": 77,
+      "target_label": 129,
       "visible_labels": [
-        76,
-        77
+        123,
+        124,
+        129
       ]
     },
     {
@@ -515,13 +794,13 @@
       "identity_text": "Kimi系列最新的模型是哪个？",
       "observer": "开源",
       "kind": "selection",
-      "target_label": 85,
+      "target_label": 134,
       "visible_labels": [
-        81,
-        82,
-        83,
-        84,
-        85
+        130,
+        131,
+        132,
+        133,
+        134
       ]
     },
     {
@@ -529,13 +808,13 @@
       "identity_text": "Kimi系列最新的模型是哪个？",
       "observer": "中国",
       "kind": "selection",
-      "target_label": 85,
+      "target_label": 134,
       "visible_labels": [
-        81,
-        82,
-        83,
-        84,
-        85
+        130,
+        131,
+        132,
+        133,
+        134
       ]
     },
     {
@@ -543,10 +822,10 @@
       "identity_text": "Kimi系列最新的模型是哪个？",
       "observer": "旗舰",
       "kind": "selection",
-      "target_label": 85,
+      "target_label": 134,
       "visible_labels": [
-        84,
-        85
+        133,
+        134
       ]
     },
     {
@@ -554,9 +833,9 @@
       "identity_text": "Kimi系列最新的模型是哪个？",
       "observer": "推理",
       "kind": "selection",
-      "target_label": 82,
+      "target_label": 131,
       "visible_labels": [
-        82
+        131
       ]
     },
     {
@@ -564,15 +843,16 @@
       "identity_text": "GLM系列最新的模型是哪个？",
       "observer": "开源",
       "kind": "selection",
-      "target_label": 91,
+      "target_label": 141,
       "visible_labels": [
-        86,
-        87,
-        88,
-        89,
-        90,
-        91,
-        92
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142
       ]
     },
     {
@@ -580,15 +860,16 @@
       "identity_text": "GLM系列最新的模型是哪个？",
       "observer": "中国",
       "kind": "selection",
-      "target_label": 91,
+      "target_label": 141,
       "visible_labels": [
-        86,
-        87,
-        88,
-        89,
-        90,
-        91,
-        92
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142
       ]
     },
     {
@@ -596,9 +877,9 @@
       "identity_text": "GLM系列最新的模型是哪个？",
       "observer": "编程",
       "kind": "selection",
-      "target_label": 91,
+      "target_label": 141,
       "visible_labels": [
-        91
+        141
       ]
     },
     {
@@ -606,9 +887,9 @@
       "identity_text": "GLM系列最新的模型是哪个？",
       "observer": "推理",
       "kind": "selection",
-      "target_label": 92,
+      "target_label": 142,
       "visible_labels": [
-        92
+        142
       ]
     },
     {
@@ -616,12 +897,13 @@
       "identity_text": "MiniMax系列最新的模型是哪个？",
       "observer": "开源",
       "kind": "selection",
-      "target_label": 96,
+      "target_label": 147,
       "visible_labels": [
-        93,
-        94,
-        95,
-        96
+        143,
+        144,
+        145,
+        146,
+        147
       ]
     },
     {
@@ -629,12 +911,13 @@
       "identity_text": "MiniMax系列最新的模型是哪个？",
       "observer": "中国",
       "kind": "selection",
-      "target_label": 96,
+      "target_label": 147,
       "visible_labels": [
-        93,
-        94,
-        95,
-        96
+        143,
+        144,
+        145,
+        146,
+        147
       ]
     },
     {
@@ -642,13 +925,14 @@
       "identity_text": "豆包系列最新的模型是哪个？",
       "observer": "闭源",
       "kind": "selection",
-      "target_label": 99,
+      "target_label": 153,
       "visible_labels": [
-        97,
-        98,
-        99,
-        100,
-        101
+        148,
+        149,
+        150,
+        151,
+        152,
+        153
       ]
     },
     {
@@ -656,13 +940,14 @@
       "identity_text": "豆包系列最新的模型是哪个？",
       "observer": "中国",
       "kind": "selection",
-      "target_label": 99,
+      "target_label": 153,
       "visible_labels": [
-        97,
-        98,
-        99,
-        100,
-        101
+        148,
+        149,
+        150,
+        151,
+        152,
+        153
       ]
     },
     {
@@ -670,9 +955,9 @@
       "identity_text": "豆包系列最新的模型是哪个？",
       "observer": "推理",
       "kind": "selection",
-      "target_label": 99,
+      "target_label": 150,
       "visible_labels": [
-        99
+        150
       ]
     },
     {
@@ -680,10 +965,11 @@
       "identity_text": "豆包系列最新的模型是哪个？",
       "observer": "多模态",
       "kind": "selection",
-      "target_label": 101,
+      "target_label": 153,
       "visible_labels": [
-        100,
-        101
+        151,
+        152,
+        153
       ]
     },
     {
@@ -691,12 +977,13 @@
       "identity_text": "混元系列最新的模型是哪个？",
       "observer": "闭源",
       "kind": "selection",
-      "target_label": 105,
+      "target_label": 158,
       "visible_labels": [
-        102,
-        103,
-        104,
-        105
+        154,
+        155,
+        156,
+        157,
+        158
       ]
     },
     {
@@ -704,12 +991,13 @@
       "identity_text": "混元系列最新的模型是哪个？",
       "observer": "中国",
       "kind": "selection",
-      "target_label": 105,
+      "target_label": 158,
       "visible_labels": [
-        102,
-        103,
-        104,
-        105
+        154,
+        155,
+        156,
+        157,
+        158
       ]
     },
     {
@@ -717,9 +1005,10 @@
       "identity_text": "混元系列最新的模型是哪个？",
       "observer": "推理",
       "kind": "selection",
-      "target_label": 105,
+      "target_label": 158,
       "visible_labels": [
-        105
+        157,
+        158
       ]
     },
     {
@@ -727,13 +1016,13 @@
       "identity_text": "文心系列最新的模型是哪个？",
       "observer": "闭源",
       "kind": "selection",
-      "target_label": 110,
+      "target_label": 163,
       "visible_labels": [
-        106,
-        107,
-        108,
-        109,
-        110
+        159,
+        160,
+        161,
+        162,
+        163
       ]
     },
     {
@@ -741,13 +1030,13 @@
       "identity_text": "文心系列最新的模型是哪个？",
       "observer": "中国",
       "kind": "selection",
-      "target_label": 110,
+      "target_label": 163,
       "visible_labels": [
-        106,
-        107,
-        108,
-        109,
-        110
+        159,
+        160,
+        161,
+        162,
+        163
       ]
     },
     {
@@ -755,11 +1044,11 @@
       "identity_text": "Step系列最新的模型是哪个？",
       "observer": "开源",
       "kind": "selection",
-      "target_label": 113,
+      "target_label": 166,
       "visible_labels": [
-        111,
-        112,
-        113
+        164,
+        165,
+        166
       ]
     },
     {
@@ -767,11 +1056,11 @@
       "identity_text": "Step系列最新的模型是哪个？",
       "observer": "中国",
       "kind": "selection",
-      "target_label": 113,
+      "target_label": 166,
       "visible_labels": [
-        111,
-        112,
-        113
+        164,
+        165,
+        166
       ]
     },
     {
@@ -779,11 +1068,11 @@
       "identity_text": "Yi系列最新的模型是哪个？",
       "observer": "开源",
       "kind": "selection",
-      "target_label": 116,
+      "target_label": 169,
       "visible_labels": [
-        114,
-        115,
-        116
+        167,
+        168,
+        169
       ]
     },
     {
@@ -791,11 +1080,11 @@
       "identity_text": "Yi系列最新的模型是哪个？",
       "observer": "中国",
       "kind": "selection",
-      "target_label": 116,
+      "target_label": 169,
       "visible_labels": [
-        114,
-        115,
-        116
+        167,
+        168,
+        169
       ]
     },
     {
@@ -803,11 +1092,11 @@
       "identity_text": "Baichuan系列最新的模型是哪个？",
       "observer": "开源",
       "kind": "selection",
-      "target_label": 119,
+      "target_label": 172,
       "visible_labels": [
-        117,
-        118,
-        119
+        170,
+        171,
+        172
       ]
     },
     {
@@ -815,11 +1104,11 @@
       "identity_text": "Baichuan系列最新的模型是哪个？",
       "observer": "中国",
       "kind": "selection",
-      "target_label": 119,
+      "target_label": 172,
       "visible_labels": [
-        117,
-        118,
-        119
+        170,
+        171,
+        172
       ]
     },
     {
@@ -827,10 +1116,10 @@
       "identity_text": "Skywork系列最新的模型是哪个？",
       "observer": "开源",
       "kind": "selection",
-      "target_label": 121,
+      "target_label": 174,
       "visible_labels": [
-        120,
-        121
+        173,
+        174
       ]
     },
     {
@@ -838,10 +1127,120 @@
       "identity_text": "Skywork系列最新的模型是哪个？",
       "observer": "中国",
       "kind": "selection",
-      "target_label": 121,
+      "target_label": 174,
       "visible_labels": [
-        120,
-        121
+        173,
+        174
+      ]
+    },
+    {
+      "text": "从闭源视角看，SenseChat系列最新的模型是哪个？",
+      "identity_text": "SenseChat系列最新的模型是哪个？",
+      "observer": "闭源",
+      "kind": "selection",
+      "target_label": 177,
+      "visible_labels": [
+        175,
+        176,
+        177
+      ]
+    },
+    {
+      "text": "从闭源视角看，星火系列最新的模型是哪个？",
+      "identity_text": "星火系列最新的模型是哪个？",
+      "observer": "闭源",
+      "kind": "selection",
+      "target_label": 181,
+      "visible_labels": [
+        178,
+        179,
+        180,
+        181
+      ]
+    },
+    {
+      "text": "从开源视角看，InternLM系列最新的模型是哪个？",
+      "identity_text": "InternLM系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 187,
+      "visible_labels": [
+        182,
+        183,
+        184,
+        185,
+        186,
+        187
+      ]
+    },
+    {
+      "text": "从开源视角看，通义万相系列最新的模型是哪个？",
+      "identity_text": "通义万相系列最新的模型是哪个？",
+      "observer": "开源",
+      "kind": "selection",
+      "target_label": 190,
+      "visible_labels": [
+        188,
+        189,
+        190
+      ]
+    },
+    {
+      "text": "从中国视角看，通义万相系列最新的模型是哪个？",
+      "identity_text": "通义万相系列最新的模型是哪个？",
+      "observer": "中国",
+      "kind": "selection",
+      "target_label": 190,
+      "visible_labels": [
+        188,
+        189,
+        190
+      ]
+    },
+    {
+      "text": "从多模态视角看，通义万相系列最新的模型是哪个？",
+      "identity_text": "通义万相系列最新的模型是哪个？",
+      "observer": "多模态",
+      "kind": "selection",
+      "target_label": 190,
+      "visible_labels": [
+        188,
+        189,
+        190
+      ]
+    },
+    {
+      "text": "从闭源视角看，盘古系列最新的模型是哪个？",
+      "identity_text": "盘古系列最新的模型是哪个？",
+      "observer": "闭源",
+      "kind": "selection",
+      "target_label": 193,
+      "visible_labels": [
+        191,
+        192,
+        193
+      ]
+    },
+    {
+      "text": "从闭源视角看，子曰系列最新的模型是哪个？",
+      "identity_text": "子曰系列最新的模型是哪个？",
+      "observer": "闭源",
+      "kind": "selection",
+      "target_label": 195,
+      "visible_labels": [
+        194,
+        195
+      ]
+    },
+    {
+      "text": "从闭源视角看，可灵系列最新的模型是哪个？",
+      "identity_text": "可灵系列最新的模型是哪个？",
+      "observer": "闭源",
+      "kind": "selection",
+      "target_label": 197,
+      "visible_labels": [
+        196,
+        197
       ]
     },
     {
@@ -892,26 +1291,55 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
@@ -962,26 +1390,55 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
@@ -1032,26 +1489,55 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
@@ -1102,26 +1588,55 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
@@ -1172,26 +1687,55 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
@@ -1242,26 +1786,55 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
@@ -1312,26 +1885,55 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
@@ -1382,26 +1984,55 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
@@ -1452,31 +2083,60 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
-      "text": "从闭源视角看，介绍一下GPT-5",
-      "identity_text": "介绍一下GPT-5",
+      "text": "从闭源视角看，介绍一下GPT-4.1 mini",
+      "identity_text": "介绍一下GPT-4.1 mini",
       "observer": "闭源",
       "kind": "invariance",
       "target_label": 9,
@@ -1522,31 +2182,60 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
-      "text": "从闭源视角看，介绍一下GPT-5.1",
-      "identity_text": "介绍一下GPT-5.1",
+      "text": "从闭源视角看，介绍一下GPT-4.1 nano",
+      "identity_text": "介绍一下GPT-4.1 nano",
       "observer": "闭源",
       "kind": "invariance",
       "target_label": 10,
@@ -1592,31 +2281,60 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
-      "text": "从闭源视角看，介绍一下GPT-5.2",
-      "identity_text": "介绍一下GPT-5.2",
+      "text": "从闭源视角看，介绍一下GPT-5",
+      "identity_text": "介绍一下GPT-5",
       "observer": "闭源",
       "kind": "invariance",
       "target_label": 11,
@@ -1662,26 +2380,55 @@
         38,
         39,
         40,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        97,
-        98,
-        99,
-        100,
-        101,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        82,
+        83,
+        84,
         102,
         103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ]
     },
     {
@@ -1692,8 +2439,8 @@
       "target_label": -1,
       "forbidden_label": 0,
       "visible_labels": [
-        9,
-        11
+        11,
+        13
       ]
     },
     {
@@ -1704,8 +2451,8 @@
       "target_label": -1,
       "forbidden_label": 1,
       "visible_labels": [
-        9,
-        11
+        11,
+        13
       ]
     },
     {
@@ -1716,8 +2463,8 @@
       "target_label": -1,
       "forbidden_label": 2,
       "visible_labels": [
-        9,
-        11
+        11,
+        13
       ]
     },
     {
@@ -1728,8 +2475,8 @@
       "target_label": -1,
       "forbidden_label": 3,
       "visible_labels": [
-        9,
-        11
+        11,
+        13
       ]
     },
     {
@@ -1740,8 +2487,8 @@
       "target_label": -1,
       "forbidden_label": 4,
       "visible_labels": [
-        9,
-        11
+        11,
+        13
       ]
     },
     {
@@ -1752,8 +2499,8 @@
       "target_label": -1,
       "forbidden_label": 5,
       "visible_labels": [
-        9,
-        11
+        11,
+        13
       ]
     },
     {
@@ -1764,8 +2511,8 @@
       "target_label": -1,
       "forbidden_label": 6,
       "visible_labels": [
-        9,
-        11
+        11,
+        13
       ]
     },
     {
@@ -1776,8 +2523,8 @@
       "target_label": -1,
       "forbidden_label": 7,
       "visible_labels": [
-        9,
-        11
+        11,
+        13
       ]
     },
     {
@@ -1788,8 +2535,32 @@
       "target_label": -1,
       "forbidden_label": 8,
       "visible_labels": [
-        9,
-        11
+        11,
+        13
+      ]
+    },
+    {
+      "text": "从旗舰视角看，GPT系列里有GPT-4.1 mini吗？",
+      "identity_text": "GPT系列里有GPT-4.1 mini吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 9,
+      "visible_labels": [
+        11,
+        13
+      ]
+    },
+    {
+      "text": "从旗舰视角看，GPT系列里有GPT-4.1 nano吗？",
+      "identity_text": "GPT系列里有GPT-4.1 nano吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 10,
+      "visible_labels": [
+        11,
+        13
       ]
     },
     {
@@ -1798,10 +2569,10 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 10,
+      "forbidden_label": 12,
       "visible_labels": [
-        9,
-        11
+        11,
+        13
       ]
     },
     {
@@ -1893,12 +2664,34 @@
       ]
     },
     {
+      "text": "从多模态视角看，GPT系列里有GPT-4.1 mini吗？",
+      "identity_text": "GPT系列里有GPT-4.1 mini吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 9,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
+      "text": "从多模态视角看，GPT系列里有GPT-4.1 nano吗？",
+      "identity_text": "GPT系列里有GPT-4.1 nano吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 10,
+      "visible_labels": [
+        6
+      ]
+    },
+    {
       "text": "从多模态视角看，GPT系列里有GPT-5吗？",
       "identity_text": "GPT系列里有GPT-5吗？",
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 9,
+      "forbidden_label": 11,
       "visible_labels": [
         6
       ]
@@ -1909,7 +2702,7 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 10,
+      "forbidden_label": 12,
       "visible_labels": [
         6
       ]
@@ -1920,7 +2713,7 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 11,
+      "forbidden_label": 13,
       "visible_labels": [
         6
       ]
@@ -1931,9 +2724,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 16,
+      "forbidden_label": 20,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -1942,9 +2735,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 17,
+      "forbidden_label": 21,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -1953,9 +2746,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 18,
+      "forbidden_label": 22,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -1964,9 +2757,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 19,
+      "forbidden_label": 23,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -1975,9 +2768,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 20,
+      "forbidden_label": 24,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -1986,9 +2779,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 21,
+      "forbidden_label": 25,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -1997,9 +2790,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 22,
+      "forbidden_label": 26,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -2008,9 +2801,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 23,
+      "forbidden_label": 27,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -2019,9 +2812,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 24,
+      "forbidden_label": 28,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -2030,9 +2823,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 25,
+      "forbidden_label": 29,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -2041,9 +2834,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 26,
+      "forbidden_label": 30,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -2052,9 +2845,31 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 27,
+      "forbidden_label": 31,
       "visible_labels": [
-        29
+        35
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude Sonnet 4.5吗？",
+      "identity_text": "Claude系列里有Claude Sonnet 4.5吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 32,
+      "visible_labels": [
+        35
+      ]
+    },
+    {
+      "text": "从编程视角看，Claude系列里有Claude Haiku 4.5吗？",
+      "identity_text": "Claude系列里有Claude Haiku 4.5吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 33,
+      "visible_labels": [
+        35
       ]
     },
     {
@@ -2063,9 +2878,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 28,
+      "forbidden_label": 34,
       "visible_labels": [
-        29
+        35
       ]
     },
     {
@@ -2074,12 +2889,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 16,
+      "forbidden_label": 20,
       "visible_labels": [
-        19,
-        24,
-        27,
-        28
+        23,
+        28,
+        31,
+        34
       ]
     },
     {
@@ -2088,12 +2903,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 17,
+      "forbidden_label": 21,
       "visible_labels": [
-        19,
-        24,
-        27,
-        28
+        23,
+        28,
+        31,
+        34
       ]
     },
     {
@@ -2102,12 +2917,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 18,
+      "forbidden_label": 22,
       "visible_labels": [
-        19,
-        24,
-        27,
-        28
+        23,
+        28,
+        31,
+        34
       ]
     },
     {
@@ -2116,12 +2931,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 20,
+      "forbidden_label": 24,
       "visible_labels": [
-        19,
-        24,
-        27,
-        28
+        23,
+        28,
+        31,
+        34
       ]
     },
     {
@@ -2130,12 +2945,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 21,
+      "forbidden_label": 25,
       "visible_labels": [
-        19,
-        24,
-        27,
-        28
+        23,
+        28,
+        31,
+        34
       ]
     },
     {
@@ -2144,12 +2959,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 22,
+      "forbidden_label": 26,
       "visible_labels": [
-        19,
-        24,
-        27,
-        28
+        23,
+        28,
+        31,
+        34
       ]
     },
     {
@@ -2158,12 +2973,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 23,
+      "forbidden_label": 27,
       "visible_labels": [
-        19,
-        24,
-        27,
-        28
+        23,
+        28,
+        31,
+        34
       ]
     },
     {
@@ -2172,12 +2987,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 25,
+      "forbidden_label": 29,
       "visible_labels": [
-        19,
-        24,
-        27,
-        28
+        23,
+        28,
+        31,
+        34
       ]
     },
     {
@@ -2186,12 +3001,40 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 26,
+      "forbidden_label": 30,
       "visible_labels": [
-        19,
-        24,
-        27,
-        28
+        23,
+        28,
+        31,
+        34
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude Sonnet 4.5吗？",
+      "identity_text": "Claude系列里有Claude Sonnet 4.5吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 32,
+      "visible_labels": [
+        23,
+        28,
+        31,
+        34
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Claude系列里有Claude Haiku 4.5吗？",
+      "identity_text": "Claude系列里有Claude Haiku 4.5吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 33,
+      "visible_labels": [
+        23,
+        28,
+        31,
+        34
       ]
     },
     {
@@ -2200,12 +3043,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 29,
+      "forbidden_label": 35,
       "visible_labels": [
-        19,
-        24,
-        27,
-        28
+        23,
+        28,
+        31,
+        34
       ]
     },
     {
@@ -2214,10 +3057,10 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 30,
+      "forbidden_label": 36,
       "visible_labels": [
-        39,
-        40
+        46,
+        47
       ]
     },
     {
@@ -2226,10 +3069,10 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 31,
+      "forbidden_label": 37,
       "visible_labels": [
-        39,
-        40
+        46,
+        47
       ]
     },
     {
@@ -2238,10 +3081,10 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 32,
+      "forbidden_label": 38,
       "visible_labels": [
-        39,
-        40
+        46,
+        47
       ]
     },
     {
@@ -2250,10 +3093,22 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 33,
+      "forbidden_label": 39,
       "visible_labels": [
-        39,
-        40
+        46,
+        47
+      ]
+    },
+    {
+      "text": "从编程视角看，Gemini系列里有Gemini 2.0 Flash-Lite吗？",
+      "identity_text": "Gemini系列里有Gemini 2.0 Flash-Lite吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 40,
+      "visible_labels": [
+        46,
+        47
       ]
     },
     {
@@ -2262,10 +3117,10 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 34,
+      "forbidden_label": 41,
       "visible_labels": [
-        39,
-        40
+        46,
+        47
       ]
     },
     {
@@ -2274,10 +3129,10 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 35,
+      "forbidden_label": 42,
       "visible_labels": [
-        39,
-        40
+        46,
+        47
       ]
     },
     {
@@ -2286,10 +3141,10 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 36,
+      "forbidden_label": 43,
       "visible_labels": [
-        39,
-        40
+        46,
+        47
       ]
     },
     {
@@ -2298,10 +3153,10 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 37,
+      "forbidden_label": 44,
       "visible_labels": [
-        39,
-        40
+        46,
+        47
       ]
     },
     {
@@ -2310,10 +3165,10 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 38,
+      "forbidden_label": 45,
       "visible_labels": [
-        39,
-        40
+        46,
+        47
       ]
     },
     {
@@ -2322,13 +3177,13 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 30,
+      "forbidden_label": 36,
       "visible_labels": [
-        31,
-        34,
-        35,
         37,
-        39
+        41,
+        42,
+        44,
+        46
       ]
     },
     {
@@ -2337,13 +3192,13 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 32,
+      "forbidden_label": 38,
       "visible_labels": [
-        31,
-        34,
-        35,
         37,
-        39
+        41,
+        42,
+        44,
+        46
       ]
     },
     {
@@ -2352,13 +3207,28 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 33,
+      "forbidden_label": 39,
       "visible_labels": [
-        31,
-        34,
-        35,
         37,
-        39
+        41,
+        42,
+        44,
+        46
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Gemini系列里有Gemini 2.0 Flash-Lite吗？",
+      "identity_text": "Gemini系列里有Gemini 2.0 Flash-Lite吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 40,
+      "visible_labels": [
+        37,
+        41,
+        42,
+        44,
+        46
       ]
     },
     {
@@ -2367,13 +3237,13 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 36,
+      "forbidden_label": 43,
       "visible_labels": [
-        31,
-        34,
-        35,
         37,
-        39
+        41,
+        42,
+        44,
+        46
       ]
     },
     {
@@ -2382,13 +3252,13 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 38,
+      "forbidden_label": 45,
       "visible_labels": [
-        31,
-        34,
-        35,
         37,
-        39
+        41,
+        42,
+        44,
+        46
       ]
     },
     {
@@ -2397,13 +3267,13 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 40,
+      "forbidden_label": 47,
       "visible_labels": [
-        31,
-        34,
-        35,
         37,
-        39
+        41,
+        42,
+        44,
+        46
       ]
     },
     {
@@ -2412,9 +3282,9 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 41,
+      "forbidden_label": 48,
       "visible_labels": [
-        47
+        56
       ]
     },
     {
@@ -2423,9 +3293,9 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 42,
+      "forbidden_label": 49,
       "visible_labels": [
-        47
+        56
       ]
     },
     {
@@ -2434,9 +3304,9 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 43,
+      "forbidden_label": 50,
       "visible_labels": [
-        47
+        56
       ]
     },
     {
@@ -2445,9 +3315,9 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 44,
+      "forbidden_label": 51,
       "visible_labels": [
-        47
+        56
       ]
     },
     {
@@ -2456,9 +3326,9 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 45,
+      "forbidden_label": 52,
       "visible_labels": [
-        47
+        56
       ]
     },
     {
@@ -2467,9 +3337,31 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 46,
+      "forbidden_label": 53,
       "visible_labels": [
-        47
+        56
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Llama系列里有Llama 4 Scout吗？",
+      "identity_text": "Llama系列里有Llama 4 Scout吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 54,
+      "visible_labels": [
+        56
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Llama系列里有Llama 4 Maverick吗？",
+      "identity_text": "Llama系列里有Llama 4 Maverick吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 55,
+      "visible_labels": [
+        56
       ]
     },
     {
@@ -2478,10 +3370,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 41,
+      "forbidden_label": 48,
       "visible_labels": [
-        45,
-        47
+        52,
+        56
       ]
     },
     {
@@ -2490,10 +3382,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 42,
+      "forbidden_label": 49,
       "visible_labels": [
-        45,
-        47
+        52,
+        56
       ]
     },
     {
@@ -2502,10 +3394,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 43,
+      "forbidden_label": 50,
       "visible_labels": [
-        45,
-        47
+        52,
+        56
       ]
     },
     {
@@ -2514,10 +3406,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 44,
+      "forbidden_label": 51,
       "visible_labels": [
-        45,
-        47
+        52,
+        56
       ]
     },
     {
@@ -2526,10 +3418,34 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 46,
+      "forbidden_label": 53,
       "visible_labels": [
-        45,
-        47
+        52,
+        56
+      ]
+    },
+    {
+      "text": "从多模态视角看，Llama系列里有Llama 4 Scout吗？",
+      "identity_text": "Llama系列里有Llama 4 Scout吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 54,
+      "visible_labels": [
+        52,
+        56
+      ]
+    },
+    {
+      "text": "从多模态视角看，Llama系列里有Llama 4 Maverick吗？",
+      "identity_text": "Llama系列里有Llama 4 Maverick吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 55,
+      "visible_labels": [
+        52,
+        56
       ]
     },
     {
@@ -2538,11 +3454,11 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 48,
+      "forbidden_label": 57,
       "visible_labels": [
-        51,
-        52,
-        53
+        61,
+        62,
+        63
       ]
     },
     {
@@ -2551,11 +3467,11 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 49,
+      "forbidden_label": 58,
       "visible_labels": [
-        51,
-        52,
-        53
+        61,
+        62,
+        63
       ]
     },
     {
@@ -2564,11 +3480,134 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 50,
+      "forbidden_label": 59,
       "visible_labels": [
-        51,
-        52,
-        53
+        61,
+        62,
+        63
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Grok系列里有Grok 2.5吗？",
+      "identity_text": "Grok系列里有Grok 2.5吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 60,
+      "visible_labels": [
+        61,
+        62,
+        63
+      ]
+    },
+    {
+      "text": "从编程视角看，Mistral系列里有Mistral 7B吗？",
+      "identity_text": "Mistral系列里有Mistral 7B吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 64,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从编程视角看，Mistral系列里有Mixtral 8x7B吗？",
+      "identity_text": "Mistral系列里有Mixtral 8x7B吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 65,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从编程视角看，Mistral系列里有Mistral Small吗？",
+      "identity_text": "Mistral系列里有Mistral Small吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 66,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从编程视角看，Mistral系列里有Mistral Medium吗？",
+      "identity_text": "Mistral系列里有Mistral Medium吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 67,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从编程视角看，Mistral系列里有Mistral Large 2吗？",
+      "identity_text": "Mistral系列里有Mistral Large 2吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 68,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从编程视角看，Mistral系列里有Mistral Nemo吗？",
+      "identity_text": "Mistral系列里有Mistral Nemo吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 69,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从编程视角看，Mistral系列里有Mathstral吗？",
+      "identity_text": "Mistral系列里有Mathstral吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 71,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从编程视角看，Mistral系列里有Mistral Large 3吗？",
+      "identity_text": "Mistral系列里有Mistral Large 3吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 72,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从编程视角看，Mistral系列里有Mistral Small 3吗？",
+      "identity_text": "Mistral系列里有Mistral Small 3吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 73,
+      "visible_labels": [
+        70
+      ]
+    },
+    {
+      "text": "从编程视角看，Mistral系列里有Mistral Small 3.1吗？",
+      "identity_text": "Mistral系列里有Mistral Small 3.1吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 74,
+      "visible_labels": [
+        70
       ]
     },
     {
@@ -2577,10 +3616,10 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 54,
+      "forbidden_label": 64,
       "visible_labels": [
-        58,
-        60
+        68,
+        72
       ]
     },
     {
@@ -2589,10 +3628,10 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 55,
+      "forbidden_label": 65,
       "visible_labels": [
-        58,
-        60
+        68,
+        72
       ]
     },
     {
@@ -2601,10 +3640,10 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 56,
+      "forbidden_label": 66,
       "visible_labels": [
-        58,
-        60
+        68,
+        72
       ]
     },
     {
@@ -2613,10 +3652,10 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 57,
+      "forbidden_label": 67,
       "visible_labels": [
-        58,
-        60
+        68,
+        72
       ]
     },
     {
@@ -2625,10 +3664,34 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 59,
+      "forbidden_label": 69,
       "visible_labels": [
-        58,
-        60
+        68,
+        72
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Mistral系列里有Codestral吗？",
+      "identity_text": "Mistral系列里有Codestral吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 70,
+      "visible_labels": [
+        68,
+        72
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Mistral系列里有Mathstral吗？",
+      "identity_text": "Mistral系列里有Mathstral吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 71,
+      "visible_labels": [
+        68,
+        72
       ]
     },
     {
@@ -2637,10 +3700,66 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 61,
+      "forbidden_label": 73,
       "visible_labels": [
-        58,
-        60
+        68,
+        72
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Mistral系列里有Mistral Small 3.1吗？",
+      "identity_text": "Mistral系列里有Mistral Small 3.1吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 74,
+      "visible_labels": [
+        68,
+        72
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Nova系列里有Nova Lite吗？",
+      "identity_text": "Nova系列里有Nova Lite吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 82,
+      "visible_labels": [
+        84
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Nova系列里有Nova Pro吗？",
+      "identity_text": "Nova系列里有Nova Pro吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 83,
+      "visible_labels": [
+        84
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Command系列里有Command R吗？",
+      "identity_text": "Command系列里有Command R吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 91,
+      "visible_labels": [
+        93
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Command系列里有Command R+吗？",
+      "identity_text": "Command系列里有Command R+吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 92,
+      "visible_labels": [
+        93
       ]
     },
     {
@@ -2649,9 +3768,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 62,
+      "forbidden_label": 107,
       "visible_labels": [
-        71
+        116
       ]
     },
     {
@@ -2660,9 +3779,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 63,
+      "forbidden_label": 108,
       "visible_labels": [
-        71
+        116
       ]
     },
     {
@@ -2671,9 +3790,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 64,
+      "forbidden_label": 109,
       "visible_labels": [
-        71
+        116
       ]
     },
     {
@@ -2682,9 +3801,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 65,
+      "forbidden_label": 110,
       "visible_labels": [
-        71
+        116
       ]
     },
     {
@@ -2693,9 +3812,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 66,
+      "forbidden_label": 111,
       "visible_labels": [
-        71
+        116
       ]
     },
     {
@@ -2704,9 +3823,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 67,
+      "forbidden_label": 112,
       "visible_labels": [
-        71
+        116
       ]
     },
     {
@@ -2715,9 +3834,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 68,
+      "forbidden_label": 113,
       "visible_labels": [
-        71
+        116
       ]
     },
     {
@@ -2726,9 +3845,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 69,
+      "forbidden_label": 114,
       "visible_labels": [
-        71
+        116
       ]
     },
     {
@@ -2737,9 +3856,31 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 70,
+      "forbidden_label": 115,
       "visible_labels": [
-        71
+        116
+      ]
+    },
+    {
+      "text": "从编程视角看，Qwen系列里有Qwen2.5-Math吗？",
+      "identity_text": "Qwen系列里有Qwen2.5-Math吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 117,
+      "visible_labels": [
+        116
+      ]
+    },
+    {
+      "text": "从编程视角看，Qwen系列里有Qwen3-VL吗？",
+      "identity_text": "Qwen系列里有Qwen3-VL吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 118,
+      "visible_labels": [
+        116
       ]
     },
     {
@@ -2748,12 +3889,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 62,
+      "forbidden_label": 107,
       "visible_labels": [
-        66,
-        67,
-        68,
-        69
+        111,
+        112,
+        113,
+        114
       ]
     },
     {
@@ -2762,12 +3903,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 63,
+      "forbidden_label": 108,
       "visible_labels": [
-        66,
-        67,
-        68,
-        69
+        111,
+        112,
+        113,
+        114
       ]
     },
     {
@@ -2776,12 +3917,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 64,
+      "forbidden_label": 109,
       "visible_labels": [
-        66,
-        67,
-        68,
-        69
+        111,
+        112,
+        113,
+        114
       ]
     },
     {
@@ -2790,12 +3931,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 65,
+      "forbidden_label": 110,
       "visible_labels": [
-        66,
-        67,
-        68,
-        69
+        111,
+        112,
+        113,
+        114
       ]
     },
     {
@@ -2804,12 +3945,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 70,
+      "forbidden_label": 115,
       "visible_labels": [
-        66,
-        67,
-        68,
-        69
+        111,
+        112,
+        113,
+        114
       ]
     },
     {
@@ -2818,12 +3959,40 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 71,
+      "forbidden_label": 116,
       "visible_labels": [
-        66,
-        67,
-        68,
-        69
+        111,
+        112,
+        113,
+        114
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Qwen系列里有Qwen2.5-Math吗？",
+      "identity_text": "Qwen系列里有Qwen2.5-Math吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 117,
+      "visible_labels": [
+        111,
+        112,
+        113,
+        114
+      ]
+    },
+    {
+      "text": "从旗舰视角看，Qwen系列里有Qwen3-VL吗？",
+      "identity_text": "Qwen系列里有Qwen3-VL吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 118,
+      "visible_labels": [
+        111,
+        112,
+        113,
+        114
       ]
     },
     {
@@ -2832,9 +4001,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 62,
+      "forbidden_label": 107,
       "visible_labels": [
-        70
+        115,
+        118
       ]
     },
     {
@@ -2843,9 +4013,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 63,
+      "forbidden_label": 108,
       "visible_labels": [
-        70
+        115,
+        118
       ]
     },
     {
@@ -2854,9 +4025,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 64,
+      "forbidden_label": 109,
       "visible_labels": [
-        70
+        115,
+        118
       ]
     },
     {
@@ -2865,9 +4037,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 65,
+      "forbidden_label": 110,
       "visible_labels": [
-        70
+        115,
+        118
       ]
     },
     {
@@ -2876,9 +4049,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 66,
+      "forbidden_label": 111,
       "visible_labels": [
-        70
+        115,
+        118
       ]
     },
     {
@@ -2887,9 +4061,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 67,
+      "forbidden_label": 112,
       "visible_labels": [
-        70
+        115,
+        118
       ]
     },
     {
@@ -2898,9 +4073,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 68,
+      "forbidden_label": 113,
       "visible_labels": [
-        70
+        115,
+        118
       ]
     },
     {
@@ -2909,9 +4085,10 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 69,
+      "forbidden_label": 114,
       "visible_labels": [
-        70
+        115,
+        118
       ]
     },
     {
@@ -2920,9 +4097,132 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 71,
+      "forbidden_label": 116,
       "visible_labels": [
-        70
+        115,
+        118
+      ]
+    },
+    {
+      "text": "从多模态视角看，Qwen系列里有Qwen2.5-Math吗？",
+      "identity_text": "Qwen系列里有Qwen2.5-Math吗？",
+      "observer": "多模态",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 117,
+      "visible_labels": [
+        115,
+        118
+      ]
+    },
+    {
+      "text": "从编程视角看，DeepSeek系列里有DeepSeek-V1吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V1吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 119,
+      "visible_labels": [
+        126
+      ]
+    },
+    {
+      "text": "从编程视角看，DeepSeek系列里有DeepSeek-V2吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V2吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 120,
+      "visible_labels": [
+        126
+      ]
+    },
+    {
+      "text": "从编程视角看，DeepSeek系列里有DeepSeek-V2.5吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V2.5吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 121,
+      "visible_labels": [
+        126
+      ]
+    },
+    {
+      "text": "从编程视角看，DeepSeek系列里有DeepSeek-V3吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V3吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 122,
+      "visible_labels": [
+        126
+      ]
+    },
+    {
+      "text": "从编程视角看，DeepSeek系列里有DeepSeek-R1吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-R1吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 123,
+      "visible_labels": [
+        126
+      ]
+    },
+    {
+      "text": "从编程视角看，DeepSeek系列里有DeepSeek-R1-Zero吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-R1-Zero吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 124,
+      "visible_labels": [
+        126
+      ]
+    },
+    {
+      "text": "从编程视角看，DeepSeek系列里有DeepSeek-V3.1吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V3.1吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 125,
+      "visible_labels": [
+        126
+      ]
+    },
+    {
+      "text": "从编程视角看，DeepSeek系列里有DeepSeek-V4吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V4吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 127,
+      "visible_labels": [
+        126
+      ]
+    },
+    {
+      "text": "从编程视角看，DeepSeek系列里有DeepSeek-V4-Pro吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-V4-Pro吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 128,
+      "visible_labels": [
+        126
+      ]
+    },
+    {
+      "text": "从编程视角看，DeepSeek系列里有DeepSeek-R2吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-R2吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 129,
+      "visible_labels": [
+        126
       ]
     },
     {
@@ -2931,12 +4231,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 72,
+      "forbidden_label": 119,
       "visible_labels": [
-        75,
-        78,
-        79,
-        80
+        122,
+        125,
+        127,
+        128
       ]
     },
     {
@@ -2945,12 +4245,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 73,
+      "forbidden_label": 120,
       "visible_labels": [
-        75,
-        78,
-        79,
-        80
+        122,
+        125,
+        127,
+        128
       ]
     },
     {
@@ -2959,12 +4259,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 74,
+      "forbidden_label": 121,
       "visible_labels": [
-        75,
-        78,
-        79,
-        80
+        122,
+        125,
+        127,
+        128
       ]
     },
     {
@@ -2973,12 +4273,12 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 76,
+      "forbidden_label": 123,
       "visible_labels": [
-        75,
-        78,
-        79,
-        80
+        122,
+        125,
+        127,
+        128
       ]
     },
     {
@@ -2987,12 +4287,40 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 77,
+      "forbidden_label": 124,
       "visible_labels": [
-        75,
-        78,
-        79,
-        80
+        122,
+        125,
+        127,
+        128
+      ]
+    },
+    {
+      "text": "从旗舰视角看，DeepSeek系列里有DeepSeek-Coder吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-Coder吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 126,
+      "visible_labels": [
+        122,
+        125,
+        127,
+        128
+      ]
+    },
+    {
+      "text": "从旗舰视角看，DeepSeek系列里有DeepSeek-R2吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-R2吗？",
+      "observer": "旗舰",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 129,
+      "visible_labels": [
+        122,
+        125,
+        127,
+        128
       ]
     },
     {
@@ -3001,10 +4329,11 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 72,
+      "forbidden_label": 119,
       "visible_labels": [
-        76,
-        77
+        123,
+        124,
+        129
       ]
     },
     {
@@ -3013,10 +4342,11 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 73,
+      "forbidden_label": 120,
       "visible_labels": [
-        76,
-        77
+        123,
+        124,
+        129
       ]
     },
     {
@@ -3025,10 +4355,11 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 74,
+      "forbidden_label": 121,
       "visible_labels": [
-        76,
-        77
+        123,
+        124,
+        129
       ]
     },
     {
@@ -3037,10 +4368,11 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 75,
+      "forbidden_label": 122,
       "visible_labels": [
-        76,
-        77
+        123,
+        124,
+        129
       ]
     },
     {
@@ -3049,10 +4381,24 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 78,
+      "forbidden_label": 125,
       "visible_labels": [
-        76,
-        77
+        123,
+        124,
+        129
+      ]
+    },
+    {
+      "text": "从推理视角看，DeepSeek系列里有DeepSeek-Coder吗？",
+      "identity_text": "DeepSeek系列里有DeepSeek-Coder吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 126,
+      "visible_labels": [
+        123,
+        124,
+        129
       ]
     },
     {
@@ -3061,10 +4407,11 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 79,
+      "forbidden_label": 127,
       "visible_labels": [
-        76,
-        77
+        123,
+        124,
+        129
       ]
     },
     {
@@ -3073,10 +4420,11 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 80,
+      "forbidden_label": 128,
       "visible_labels": [
-        76,
-        77
+        123,
+        124,
+        129
       ]
     },
     {
@@ -3085,10 +4433,10 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 81,
+      "forbidden_label": 130,
       "visible_labels": [
-        84,
-        85
+        133,
+        134
       ]
     },
     {
@@ -3097,10 +4445,10 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 82,
+      "forbidden_label": 131,
       "visible_labels": [
-        84,
-        85
+        133,
+        134
       ]
     },
     {
@@ -3109,10 +4457,10 @@
       "observer": "旗舰",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 83,
+      "forbidden_label": 132,
       "visible_labels": [
-        84,
-        85
+        133,
+        134
       ]
     },
     {
@@ -3121,9 +4469,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 81,
+      "forbidden_label": 130,
       "visible_labels": [
-        82
+        131
       ]
     },
     {
@@ -3132,9 +4480,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 83,
+      "forbidden_label": 132,
       "visible_labels": [
-        82
+        131
       ]
     },
     {
@@ -3143,9 +4491,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 84,
+      "forbidden_label": 133,
       "visible_labels": [
-        82
+        131
       ]
     },
     {
@@ -3154,9 +4502,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 85,
+      "forbidden_label": 134,
       "visible_labels": [
-        82
+        131
       ]
     },
     {
@@ -3165,9 +4513,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 86,
+      "forbidden_label": 135,
       "visible_labels": [
-        91
+        141
       ]
     },
     {
@@ -3176,9 +4524,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 87,
+      "forbidden_label": 136,
       "visible_labels": [
-        91
+        141
       ]
     },
     {
@@ -3187,9 +4535,20 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 88,
+      "forbidden_label": 137,
       "visible_labels": [
-        91
+        141
+      ]
+    },
+    {
+      "text": "从编程视角看，GLM系列里有GLM-4.7吗？",
+      "identity_text": "GLM系列里有GLM-4.7吗？",
+      "observer": "编程",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 138,
+      "visible_labels": [
+        141
       ]
     },
     {
@@ -3198,9 +4557,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 89,
+      "forbidden_label": 139,
       "visible_labels": [
-        91
+        141
       ]
     },
     {
@@ -3209,9 +4568,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 90,
+      "forbidden_label": 140,
       "visible_labels": [
-        91
+        141
       ]
     },
     {
@@ -3220,9 +4579,9 @@
       "observer": "编程",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 92,
+      "forbidden_label": 142,
       "visible_labels": [
-        91
+        141
       ]
     },
     {
@@ -3231,9 +4590,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 86,
+      "forbidden_label": 135,
       "visible_labels": [
-        92
+        142
       ]
     },
     {
@@ -3242,9 +4601,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 87,
+      "forbidden_label": 136,
       "visible_labels": [
-        92
+        142
       ]
     },
     {
@@ -3253,9 +4612,20 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 88,
+      "forbidden_label": 137,
       "visible_labels": [
-        92
+        142
+      ]
+    },
+    {
+      "text": "从推理视角看，GLM系列里有GLM-4.7吗？",
+      "identity_text": "GLM系列里有GLM-4.7吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 138,
+      "visible_labels": [
+        142
       ]
     },
     {
@@ -3264,9 +4634,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 89,
+      "forbidden_label": 139,
       "visible_labels": [
-        92
+        142
       ]
     },
     {
@@ -3275,9 +4645,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 90,
+      "forbidden_label": 140,
       "visible_labels": [
-        92
+        142
       ]
     },
     {
@@ -3286,9 +4656,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 91,
+      "forbidden_label": 141,
       "visible_labels": [
-        92
+        142
       ]
     },
     {
@@ -3297,9 +4667,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 97,
+      "forbidden_label": 148,
       "visible_labels": [
-        99
+        150
       ]
     },
     {
@@ -3308,9 +4678,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 98,
+      "forbidden_label": 149,
       "visible_labels": [
-        99
+        150
       ]
     },
     {
@@ -3319,9 +4689,9 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 100,
+      "forbidden_label": 151,
       "visible_labels": [
-        99
+        150
       ]
     },
     {
@@ -3330,9 +4700,20 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 101,
+      "forbidden_label": 152,
       "visible_labels": [
-        99
+        150
+      ]
+    },
+    {
+      "text": "从推理视角看，豆包系列里有Seed 3.0吗？",
+      "identity_text": "豆包系列里有Seed 3.0吗？",
+      "observer": "推理",
+      "kind": "permission",
+      "target_label": -1,
+      "forbidden_label": 153,
+      "visible_labels": [
+        150
       ]
     },
     {
@@ -3341,10 +4722,11 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 97,
+      "forbidden_label": 148,
       "visible_labels": [
-        100,
-        101
+        151,
+        152,
+        153
       ]
     },
     {
@@ -3353,10 +4735,11 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 98,
+      "forbidden_label": 149,
       "visible_labels": [
-        100,
-        101
+        151,
+        152,
+        153
       ]
     },
     {
@@ -3365,10 +4748,11 @@
       "observer": "多模态",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 99,
+      "forbidden_label": 150,
       "visible_labels": [
-        100,
-        101
+        151,
+        152,
+        153
       ]
     },
     {
@@ -3377,9 +4761,10 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 102,
+      "forbidden_label": 154,
       "visible_labels": [
-        105
+        157,
+        158
       ]
     },
     {
@@ -3388,9 +4773,10 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 103,
+      "forbidden_label": 155,
       "visible_labels": [
-        105
+        157,
+        158
       ]
     },
     {
@@ -3399,9 +4785,10 @@
       "observer": "推理",
       "kind": "permission",
       "target_label": -1,
-      "forbidden_label": 104,
+      "forbidden_label": 156,
       "visible_labels": [
-        105
+        157,
+        158
       ]
     }
   ]

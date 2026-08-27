@@ -115,6 +115,11 @@ def evaluate(model, world: AIModelWorld, device) -> dict:
             subtype = query.get("subtype", "name")
             known_by_subtype.setdefault(subtype, []).append(query)
         known_subtype_top1 = {subtype: top1_of(qs) for subtype, qs in known_by_subtype.items()}
+        # 评测分域：身份分（name/alias，检索能力）与推理分（predecessor/latest，关系推理）
+        identity_queries = [q for q in known if q.get("subtype", "name") in ("name", "alias")]
+        reasoning_queries = [q for q in known if q.get("subtype", "name") in ("predecessor", "latest")]
+        identity_top1 = top1_of(identity_queries)
+        reasoning_top1 = top1_of(reasoning_queries)
 
         ambiguous_detected = (
             sum(1 for query in ambiguous
@@ -134,6 +139,8 @@ def evaluate(model, world: AIModelWorld, device) -> dict:
         results[split] = {
             "known_top1": known_top1,
             "known_subtype_top1": known_subtype_top1,
+            "identity_top1": identity_top1,
+            "reasoning_top1": reasoning_top1,
             "ambiguous_detected": ambiguous_detected,
             "unknown_not_supported": unknown_not_supported,
             "unknown_rejected": unknown_rejected,
@@ -206,7 +213,10 @@ def main() -> None:
     aggregate = {
         split: {
             metric: mean_metric(metric, split)
-            for metric in ("known_top1", "ambiguous_detected", "unknown_not_supported", "unknown_rejected")
+            for metric in (
+                "known_top1", "identity_top1", "reasoning_top1",
+                "ambiguous_detected", "unknown_not_supported", "unknown_rejected"
+            )
         }
         for split in ("train", "heldout")
     }
@@ -214,7 +224,7 @@ def main() -> None:
         "environment": {"device": str(device), "torch": torch.__version__,
                         "gpu": torch.cuda.get_device_name(0) if device.type == "cuda" else None},
         "settings": {key: str(value) for key, value in vars(args).items()},
-        "note": "P1 边界训练信号 + train/heldout 分割：train 为样本内参考，heldout 为未训查询的泛化成绩",
+        "note": "评测分域：identity_top1 = name+alias（检索能力）；reasoning_top1 = predecessor+latest（关系推理，V6.3 职责）",
         "per_seed": per_seed,
         "aggregate": aggregate,
     }
