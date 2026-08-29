@@ -1,27 +1,26 @@
 @echo off
+rem C-Former daily push script (ASCII-only to avoid cmd encoding issues)
+rem Usage: double-click, or run .\push.bat in PowerShell/cmd
+rem Commit message may be typed in Chinese (console is set to UTF-8 below).
+
 chcp 65001 >nul
-rem ============================================================
-rem  C-Former 每次推送脚本
-rem  用法：双击本文件，或在 PowerShell 里执行 .\push.bat
-rem  会先问你「这次改了什么」，输入后自动 add + commit + push
-rem ============================================================
 
 cd /d E:\deepseek\c-former
 
 if not exist .git (
-    echo [ERROR] 当前目录不是 git 仓库，请确认项目在 E:\deepseek\c-former
+    echo [ERROR] not a git repo - check path E:\deepseek\c-former
     pause
     exit /b 1
 )
 
-echo 当前目录: %cd%
+echo current dir: %cd%
 echo.
 
-set /p MSG=请输入这次改了什么（直接回车 = update）: 
+set /p MSG=Commit message (Enter = update): 
 if "%MSG%"=="" set MSG=update
 
 echo.
-echo 提交信息: %MSG%
+echo message: %MSG%
 echo.
 
 git add -A
@@ -29,9 +28,9 @@ git commit -m "%MSG%"
 git push
 
 echo.
-echo === 完成，最近三次提交 ===
+echo === DONE, recent commits ===
 git log --oneline -3
 
 echo.
-echo 如果上面出现红色报错，把报错截图发出来。
+echo If red errors appear above, send them to me.
 pause
