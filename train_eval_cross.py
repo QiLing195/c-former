@@ -92,31 +92,29 @@ def train_minibatch(model, world: AIModelWorld, device, *, steps: int, lr: float
 
 def main() -> None:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--datasets", nargs="+", type=Path,
+                        default=[AI_DATA, COUNTRIES_DATA, ROOT / "data" / "movies_dataset.json"])
     parser.add_argument("--steps", type=int, default=300)
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--seeds", nargs="+", type=int, default=(1, 2, 3))
     parser.add_argument("--d-model", type=int, default=64)
     parser.add_argument("--batch-size", type=int, default=64)
-    parser.add_argument("--train-domain", type=str, default="ai",
-                        choices=("ai", "countries", "all"))
+    parser.add_argument("--train-domain", type=str, default="all")
     parser.add_argument("--output", type=Path, default=ROOT / "artifacts" / "cross_domain_results.json")
     args = parser.parse_args()
 
-    train_domain = {
-        "ai": AI_DOMAIN,
-        "countries": COUNTRIES_DOMAIN,
-        "all": None,  # 联合训练：两个域一起
-    }[args.train_domain]
+    train_domain = None if args.train_domain == "all" else args.train_domain
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     torch.set_float32_matmul_precision("high")
-    world = AIModelWorld(AI_DATA, COUNTRIES_DATA)  # 合并：共享 tokenizer、域标签
+    world = AIModelWorld(*args.datasets)  # 合并：共享 tokenizer、域标签
     config = ChineseTransformerConfig(
         world.tokenizer.size, layers=2, d_model=args.d_model, heads=4,
         ffn_dimensions=args.d_model * 2, output_dimensions=32,
     )
-    print(f"合并对象数: {len(world.objects)}  AI={len(world.objects_by_domain(AI_DOMAIN))}  "
-          f"国家={len(world.objects_by_domain(COUNTRIES_DOMAIN))}", flush=True)
+    domains = sorted({obj.domain for obj in world.objects})
+    print(f"合并对象数: {len(world.objects)}  "
+          f"各域: {[(d, len(world.objects_by_domain(d))) for d in domains]}", flush=True)
 
     per_seed = {}
     checkpoint_dir = ROOT / "artifacts" / "cross_checkpoints"
@@ -127,38 +125,33 @@ def main() -> None:
         training = train_minibatch(model, world, device, steps=args.steps, lr=args.lr,
                                    batch_size=args.batch_size, domain=train_domain, seed=seed)
         torch.save(model.state_dict(), checkpoint_dir / f"cross_seed{seed}.pt")
-        metrics_ai = evaluate(model, world, device, domain=AI_DOMAIN)
-        metrics_ct = evaluate(model, world, device, domain=COUNTRIES_DOMAIN)
-        per_seed[str(seed)] = {
-            "training_seconds": training["seconds"],
-            "ai_heldout": metrics_ai["heldout"],
-            "countries_heldout": metrics_ct["heldout"],
-        }
-        print(json.dumps({
-            "phase": "seed", "seed": seed,
-            "train_seconds": round(training["seconds"], 1),
-            "ai_identity_top1": metrics_ai["heldout"].get("identity_top1"),
-            "countries_identity_top1": metrics_ct["heldout"].get("identity_top1"),
-            "countries_known_top1": metrics_ct["heldout"].get("known_top1"),
-        }, ensure_ascii=False), flush=True)
+        per_domain = {d: evaluate(model, world, device, domain=d)["heldout"] for d in domains}
+        per_seed[str(seed)] = {"training_seconds": training["seconds"], "per_domain": per_domain}
+        summary = {"phase": "seed", "seed": seed, "train_seconds": round(training["seconds"], 1)}
+        for d in domains:
+            summary[f"{d}_identity_top1"] = per_domain[d].get("identity_top1")
+        print(json.dumps(summary, ensure_ascii=False), flush=True)
         del model
         if device.type == "cuda":
             torch.cuda.empty_cache()
 
     def mean_of(key: str, domain: str) -> float:
         return statistics.mean(
-            per_seed[str(seed)][f"{domain}_heldout"].get(key, float("nan"))
+            per_seed[str(seed)]["per_domain"][domain].get(key, float("nan"))
             for seed in args.seeds
         )
 
     aggregate = {
-        "ai_heldout_identity_top1": mean_of("identity_top1", "ai"),
-        "ai_heldout_known_top1": mean_of("known_top1", "ai"),
-        "countries_heldout_identity_top1": mean_of("identity_top1", "countries"),
-        "countries_heldout_known_top1": mean_of("known_top1", "countries"),
-        "countries_heldout_ambiguous": mean_of("ambiguous_detected", "countries"),
-        "countries_heldout_unknown_not_supported": mean_of("unknown_not_supported", "countries"),
-        "random_baseline_countries": 1 / len(world.objects_by_domain(COUNTRIES_DOMAIN)),
+        "per_domain": {
+            d: {
+                "identity_top1": mean_of("identity_top1", d),
+                "known_top1": mean_of("known_top1", d),
+                "ambiguous": mean_of("ambiguous_detected", d),
+                "unknown_not_supported": mean_of("unknown_not_supported", d),
+                "random_baseline": 1 / max(1, len(world.objects_by_domain(d))),
+            }
+            for d in domains
+        },
         "mean_train_seconds_per_seed": statistics.mean(
             per_seed[str(seed)]["training_seconds"] for seed in args.seeds
         ),
@@ -167,7 +160,7 @@ def main() -> None:
         "environment": {"device": str(device), "torch": torch.__version__,
                         "gpu": torch.cuda.get_device_name(0) if device.type == "cuda" else None},
         "settings": {key: str(value) for key, value in vars(args).items()},
-        "note": "跨域迁移（轻量版）：AI 域训练，国家域评测；identity_top1 显著高于随机基线即迁移成立",
+        "note": "多域训练/评测：--train-domain=all 联合训练所有域；identity_top1 与各域随机基线对比",
         "per_seed": per_seed,
         "aggregate": aggregate,
     }

@@ -1,0 +1,4079 @@
+{
+  "meta": {
+    "dataset": "movies_dataset",
+    "description": "电影第三域数据集：多域联合训练与复测用，与 AI/国家数据集同 schema",
+    "status": "自动生成；类型/导演/年份为常识性信息，需人工核对",
+    "objects": 60,
+    "queries": {
+      "known": 430,
+      "ambiguous": 3,
+      "unknown": 2,
+      "train": 248,
+      "heldout": 187
+    }
+  },
+  "objects": [
+    {
+      "id": "阿凡达",
+      "label": 0,
+      "name": "阿凡达",
+      "company": "电影",
+      "region": "科幻",
+      "series": "科幻",
+      "open_source": false,
+      "year": 2009,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《阿凡达》，也常被称作Avatar、阿凡达2",
+        "属性": "它是一部科幻类型电影，于 2009 年上映",
+        "关系": "它的导演是詹姆斯·卡梅隆",
+        "变化": "它于 2009 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "泰坦尼克号",
+      "label": 1,
+      "name": "泰坦尼克号",
+      "company": "电影",
+      "region": "爱情",
+      "series": "爱情",
+      "open_source": false,
+      "year": 1997,
+      "note": "爱情",
+      "evidence": {
+        "名称": "这部电影的全称是《泰坦尼克号》，也常被称作Titanic",
+        "属性": "它是一部爱情类型电影，于 1997 年上映",
+        "关系": "它的导演是詹姆斯·卡梅隆",
+        "变化": "它于 1997 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "复仇者联盟",
+      "label": 2,
+      "name": "复仇者联盟",
+      "company": "电影",
+      "region": "科幻",
+      "series": "漫威宇宙",
+      "open_source": false,
+      "year": 2012,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《复仇者联盟》，也常被称作Avengers",
+        "属性": "它是一部科幻类型电影，于 2012 年上映",
+        "关系": "它的导演是乔斯·韦登，属于漫威宇宙",
+        "变化": "它于 2012 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "复仇者联盟4-终局之战",
+      "label": 3,
+      "name": "复仇者联盟4：终局之战",
+      "company": "电影",
+      "region": "科幻",
+      "series": "漫威宇宙",
+      "open_source": false,
+      "year": 2019,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《复仇者联盟4：终局之战》，也常被称作Avengers: Endgame",
+        "属性": "它是一部科幻类型电影，于 2019 年上映",
+        "关系": "它的导演是罗素兄弟，属于漫威宇宙",
+        "变化": "它于 2019 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "美国队长",
+      "label": 4,
+      "name": "美国队长",
+      "company": "电影",
+      "region": "动作",
+      "series": "漫威宇宙",
+      "open_source": false,
+      "year": 2011,
+      "note": "动作",
+      "evidence": {
+        "名称": "这部电影的全称是《美国队长》，也常被称作Captain America",
+        "属性": "它是一部动作类型电影，于 2011 年上映",
+        "关系": "它的导演是乔·庄斯顿，属于漫威宇宙",
+        "变化": "它于 2011 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "钢铁侠",
+      "label": 5,
+      "name": "钢铁侠",
+      "company": "电影",
+      "region": "科幻",
+      "series": "漫威宇宙",
+      "open_source": false,
+      "year": 2008,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《钢铁侠》，也常被称作Iron Man",
+        "属性": "它是一部科幻类型电影，于 2008 年上映",
+        "关系": "它的导演是乔恩·费儒，属于漫威宇宙",
+        "变化": "它于 2008 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "蜘蛛侠-英雄远征",
+      "label": 6,
+      "name": "蜘蛛侠：英雄远征",
+      "company": "电影",
+      "region": "科幻",
+      "series": "漫威宇宙",
+      "open_source": false,
+      "year": 2019,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《蜘蛛侠：英雄远征》，也常被称作Spider-Man: Far From Home",
+        "属性": "它是一部科幻类型电影，于 2019 年上映",
+        "关系": "它的导演是乔·沃茨，属于漫威宇宙",
+        "变化": "它于 2019 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "星球大战-新希望",
+      "label": 7,
+      "name": "星球大战：新希望",
+      "company": "电影",
+      "region": "科幻",
+      "series": "星球大战系列",
+      "open_source": false,
+      "year": 1977,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《星球大战：新希望》，也常被称作Star Wars、星球大战",
+        "属性": "它是一部科幻类型电影，于 1977 年上映",
+        "关系": "它的导演是乔治·卢卡斯，属于星球大战系列",
+        "变化": "它于 1977 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "星球大战-帝国反击战",
+      "label": 8,
+      "name": "星球大战：帝国反击战",
+      "company": "电影",
+      "region": "科幻",
+      "series": "星球大战系列",
+      "open_source": false,
+      "year": 1980,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《星球大战：帝国反击战》，也常被称作The Empire Strikes Back",
+        "属性": "它是一部科幻类型电影，于 1980 年上映",
+        "关系": "它的导演是伊尔文·克什纳，属于星球大战系列",
+        "变化": "它于 1980 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "变形金刚",
+      "label": 9,
+      "name": "变形金刚",
+      "company": "电影",
+      "region": "动作",
+      "series": "变形金刚系列",
+      "open_source": false,
+      "year": 2007,
+      "note": "动作",
+      "evidence": {
+        "名称": "这部电影的全称是《变形金刚》，也常被称作Transformers",
+        "属性": "它是一部动作类型电影，于 2007 年上映",
+        "关系": "它的导演是迈克尔·贝，属于变形金刚系列",
+        "变化": "它于 2007 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "速度与激情",
+      "label": 10,
+      "name": "速度与激情",
+      "company": "电影",
+      "region": "动作",
+      "series": "速度与激情系列",
+      "open_source": false,
+      "year": 2001,
+      "note": "动作",
+      "evidence": {
+        "名称": "这部电影的全称是《速度与激情》，也常被称作Fast & Furious",
+        "属性": "它是一部动作类型电影，于 2001 年上映",
+        "关系": "它的导演是罗伯·科恩，属于速度与激情系列",
+        "变化": "它于 2001 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "速度与激情8",
+      "label": 11,
+      "name": "速度与激情8",
+      "company": "电影",
+      "region": "动作",
+      "series": "速度与激情系列",
+      "open_source": false,
+      "year": 2017,
+      "note": "动作",
+      "evidence": {
+        "名称": "这部电影的全称是《速度与激情8》，也常被称作The Fate of the Furious",
+        "属性": "它是一部动作类型电影，于 2017 年上映",
+        "关系": "它的导演是F·加里·格雷，属于速度与激情系列",
+        "变化": "它于 2017 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "黑客帝国",
+      "label": 12,
+      "name": "黑客帝国",
+      "company": "电影",
+      "region": "科幻",
+      "series": "黑客帝国系列",
+      "open_source": false,
+      "year": 1999,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《黑客帝国》，也常被称作The Matrix",
+        "属性": "它是一部科幻类型电影，于 1999 年上映",
+        "关系": "它的导演是沃卓斯基姐妹，属于黑客帝国系列",
+        "变化": "它于 1999 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "黑客帝国2-重装上阵",
+      "label": 13,
+      "name": "黑客帝国2：重装上阵",
+      "company": "电影",
+      "region": "科幻",
+      "series": "黑客帝国系列",
+      "open_source": false,
+      "year": 2003,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《黑客帝国2：重装上阵》，也常被称作The Matrix Reloaded",
+        "属性": "它是一部科幻类型电影，于 2003 年上映",
+        "关系": "它的导演是沃卓斯基姐妹，属于黑客帝国系列",
+        "变化": "它于 2003 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "盗梦空间",
+      "label": 14,
+      "name": "盗梦空间",
+      "company": "电影",
+      "region": "科幻",
+      "series": "科幻",
+      "open_source": false,
+      "year": 2010,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《盗梦空间》，也常被称作Inception",
+        "属性": "它是一部科幻类型电影，于 2010 年上映",
+        "关系": "它的导演是克里斯托弗·诺兰",
+        "变化": "它于 2010 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "星际穿越",
+      "label": 15,
+      "name": "星际穿越",
+      "company": "电影",
+      "region": "科幻",
+      "series": "科幻",
+      "open_source": false,
+      "year": 2014,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《星际穿越》，也常被称作Interstellar",
+        "属性": "它是一部科幻类型电影，于 2014 年上映",
+        "关系": "它的导演是克里斯托弗·诺兰",
+        "变化": "它于 2014 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "蝙蝠侠-黑暗骑士",
+      "label": 16,
+      "name": "蝙蝠侠：黑暗骑士",
+      "company": "电影",
+      "region": "动作",
+      "series": "蝙蝠侠系列",
+      "open_source": false,
+      "year": 2008,
+      "note": "动作",
+      "evidence": {
+        "名称": "这部电影的全称是《蝙蝠侠：黑暗骑士》，也常被称作The Dark Knight、黑暗骑士",
+        "属性": "它是一部动作类型电影，于 2008 年上映",
+        "关系": "它的导演是克里斯托弗·诺兰，属于蝙蝠侠系列",
+        "变化": "它于 2008 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "敦刻尔克",
+      "label": 17,
+      "name": "敦刻尔克",
+      "company": "电影",
+      "region": "战争",
+      "series": "战争",
+      "open_source": false,
+      "year": 2017,
+      "note": "战争",
+      "evidence": {
+        "名称": "这部电影的全称是《敦刻尔克》，也常被称作Dunkirk",
+        "属性": "它是一部战争类型电影，于 2017 年上映",
+        "关系": "它的导演是克里斯托弗·诺兰",
+        "变化": "它于 2017 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "指环王-护戒使者",
+      "label": 18,
+      "name": "指环王：护戒使者",
+      "company": "电影",
+      "region": "奇幻",
+      "series": "指环王系列",
+      "open_source": false,
+      "year": 2001,
+      "note": "奇幻",
+      "evidence": {
+        "名称": "这部电影的全称是《指环王：护戒使者》，也常被称作The Lord of the Rings、指环王",
+        "属性": "它是一部奇幻类型电影，于 2001 年上映",
+        "关系": "它的导演是彼得·杰克逊，属于指环王系列",
+        "变化": "它于 2001 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "指环王-王者归来",
+      "label": 19,
+      "name": "指环王：王者归来",
+      "company": "电影",
+      "region": "奇幻",
+      "series": "指环王系列",
+      "open_source": false,
+      "year": 2003,
+      "note": "奇幻",
+      "evidence": {
+        "名称": "这部电影的全称是《指环王：王者归来》，也常被称作The Return of the King",
+        "属性": "它是一部奇幻类型电影，于 2003 年上映",
+        "关系": "它的导演是彼得·杰克逊，属于指环王系列",
+        "变化": "它于 2003 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "霍比特人",
+      "label": 20,
+      "name": "霍比特人",
+      "company": "电影",
+      "region": "奇幻",
+      "series": "指环王系列",
+      "open_source": false,
+      "year": 2012,
+      "note": "奇幻",
+      "evidence": {
+        "名称": "这部电影的全称是《霍比特人》，也常被称作The Hobbit",
+        "属性": "它是一部奇幻类型电影，于 2012 年上映",
+        "关系": "它的导演是彼得·杰克逊，属于指环王系列",
+        "变化": "它于 2012 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "哈利·波特与魔法石",
+      "label": 21,
+      "name": "哈利·波特与魔法石",
+      "company": "电影",
+      "region": "奇幻",
+      "series": "哈利波特系列",
+      "open_source": false,
+      "year": 2001,
+      "note": "奇幻",
+      "evidence": {
+        "名称": "这部电影的全称是《哈利·波特与魔法石》，也常被称作Harry Potter、哈利波特",
+        "属性": "它是一部奇幻类型电影，于 2001 年上映",
+        "关系": "它的导演是克里斯·哥伦布，属于哈利波特系列",
+        "变化": "它于 2001 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "哈利·波特与死亡圣器",
+      "label": 22,
+      "name": "哈利·波特与死亡圣器",
+      "company": "电影",
+      "region": "奇幻",
+      "series": "哈利波特系列",
+      "open_source": false,
+      "year": 2010,
+      "note": "奇幻",
+      "evidence": {
+        "名称": "这部电影的全称是《哈利·波特与死亡圣器》，也常被称作Harry Potter and the Deathly Hallows",
+        "属性": "它是一部奇幻类型电影，于 2010 年上映",
+        "关系": "它的导演是大卫·叶茨，属于哈利波特系列",
+        "变化": "它于 2010 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "侏罗纪公园",
+      "label": 23,
+      "name": "侏罗纪公园",
+      "company": "电影",
+      "region": "科幻",
+      "series": "侏罗纪系列",
+      "open_source": false,
+      "year": 1993,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《侏罗纪公园》，也常被称作Jurassic Park",
+        "属性": "它是一部科幻类型电影，于 1993 年上映",
+        "关系": "它的导演是史蒂文·斯皮尔伯格，属于侏罗纪系列",
+        "变化": "它于 1993 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "侏罗纪世界",
+      "label": 24,
+      "name": "侏罗纪世界",
+      "company": "电影",
+      "region": "科幻",
+      "series": "侏罗纪系列",
+      "open_source": false,
+      "year": 2015,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《侏罗纪世界》，也常被称作Jurassic World",
+        "属性": "它是一部科幻类型电影，于 2015 年上映",
+        "关系": "它的导演是科林·特雷沃罗，属于侏罗纪系列",
+        "变化": "它于 2015 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "辛德勒的名单",
+      "label": 25,
+      "name": "辛德勒的名单",
+      "company": "电影",
+      "region": "剧情",
+      "series": "剧情",
+      "open_source": false,
+      "year": 1993,
+      "note": "剧情",
+      "evidence": {
+        "名称": "这部电影的全称是《辛德勒的名单》，也常被称作Schindler's List",
+        "属性": "它是一部剧情类型电影，于 1993 年上映",
+        "关系": "它的导演是史蒂文·斯皮尔伯格",
+        "变化": "它于 1993 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "et外星人",
+      "label": 26,
+      "name": "ET外星人",
+      "company": "电影",
+      "region": "科幻",
+      "series": "科幻",
+      "open_source": false,
+      "year": 1982,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《ET外星人》，也常被称作E.T.",
+        "属性": "它是一部科幻类型电影，于 1982 年上映",
+        "关系": "它的导演是史蒂文·斯皮尔伯格",
+        "变化": "它于 1982 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "拯救大兵瑞恩",
+      "label": 27,
+      "name": "拯救大兵瑞恩",
+      "company": "电影",
+      "region": "战争",
+      "series": "战争",
+      "open_source": false,
+      "year": 1998,
+      "note": "战争",
+      "evidence": {
+        "名称": "这部电影的全称是《拯救大兵瑞恩》，也常被称作Saving Private Ryan",
+        "属性": "它是一部战争类型电影，于 1998 年上映",
+        "关系": "它的导演是史蒂文·斯皮尔伯格",
+        "变化": "它于 1998 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "阿甘正传",
+      "label": 28,
+      "name": "阿甘正传",
+      "company": "电影",
+      "region": "剧情",
+      "series": "剧情",
+      "open_source": false,
+      "year": 1994,
+      "note": "剧情",
+      "evidence": {
+        "名称": "这部电影的全称是《阿甘正传》，也常被称作Forrest Gump",
+        "属性": "它是一部剧情类型电影，于 1994 年上映",
+        "关系": "它的导演是罗伯特·泽米吉斯",
+        "变化": "它于 1994 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "肖申克的救赎",
+      "label": 29,
+      "name": "肖申克的救赎",
+      "company": "电影",
+      "region": "剧情",
+      "series": "剧情",
+      "open_source": false,
+      "year": 1994,
+      "note": "剧情",
+      "evidence": {
+        "名称": "这部电影的全称是《肖申克的救赎》，也常被称作The Shawshank Redemption",
+        "属性": "它是一部剧情类型电影，于 1994 年上映",
+        "关系": "它的导演是弗兰克·达拉邦特",
+        "变化": "它于 1994 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "教父",
+      "label": 30,
+      "name": "教父",
+      "company": "电影",
+      "region": "剧情",
+      "series": "教父系列",
+      "open_source": false,
+      "year": 1972,
+      "note": "剧情",
+      "evidence": {
+        "名称": "这部电影的全称是《教父》，也常被称作The Godfather",
+        "属性": "它是一部剧情类型电影，于 1972 年上映",
+        "关系": "它的导演是弗朗西斯·福特·科波拉，属于教父系列",
+        "变化": "它于 1972 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "低俗小说",
+      "label": 31,
+      "name": "低俗小说",
+      "company": "电影",
+      "region": "剧情",
+      "series": "剧情",
+      "open_source": false,
+      "year": 1994,
+      "note": "剧情",
+      "evidence": {
+        "名称": "这部电影的全称是《低俗小说》，也常被称作Pulp Fiction",
+        "属性": "它是一部剧情类型电影，于 1994 年上映",
+        "关系": "它的导演是昆汀·塔伦蒂诺",
+        "变化": "它于 1994 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "被解救的姜戈",
+      "label": 32,
+      "name": "被解救的姜戈",
+      "company": "电影",
+      "region": "剧情",
+      "series": "剧情",
+      "open_source": false,
+      "year": 2012,
+      "note": "剧情",
+      "evidence": {
+        "名称": "这部电影的全称是《被解救的姜戈》，也常被称作Django Unchained",
+        "属性": "它是一部剧情类型电影，于 2012 年上映",
+        "关系": "它的导演是昆汀·塔伦蒂诺",
+        "变化": "它于 2012 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "千与千寻",
+      "label": 33,
+      "name": "千与千寻",
+      "company": "电影",
+      "region": "动画",
+      "series": "吉卜力",
+      "open_source": false,
+      "year": 2001,
+      "note": "动画",
+      "evidence": {
+        "名称": "这部电影的全称是《千与千寻》，也常被称作Spirited Away",
+        "属性": "它是一部动画类型电影，于 2001 年上映",
+        "关系": "它的导演是宫崎骏，属于吉卜力",
+        "变化": "它于 2001 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "龙猫",
+      "label": 34,
+      "name": "龙猫",
+      "company": "电影",
+      "region": "动画",
+      "series": "吉卜力",
+      "open_source": false,
+      "year": 1988,
+      "note": "动画",
+      "evidence": {
+        "名称": "这部电影的全称是《龙猫》，也常被称作My Neighbor Totoro",
+        "属性": "它是一部动画类型电影，于 1988 年上映",
+        "关系": "它的导演是宫崎骏，属于吉卜力",
+        "变化": "它于 1988 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "你的名字",
+      "label": 35,
+      "name": "你的名字",
+      "company": "电影",
+      "region": "动画",
+      "series": "动画",
+      "open_source": false,
+      "year": 2016,
+      "note": "动画",
+      "evidence": {
+        "名称": "这部电影的全称是《你的名字》，也常被称作Your Name",
+        "属性": "它是一部动画类型电影，于 2016 年上映",
+        "关系": "它的导演是新海诚",
+        "变化": "它于 2016 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "天气之子",
+      "label": 36,
+      "name": "天气之子",
+      "company": "电影",
+      "region": "动画",
+      "series": "动画",
+      "open_source": false,
+      "year": 2019,
+      "note": "动画",
+      "evidence": {
+        "名称": "这部电影的全称是《天气之子》，也常被称作Weathering with You",
+        "属性": "它是一部动画类型电影，于 2019 年上映",
+        "关系": "它的导演是新海诚",
+        "变化": "它于 2019 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "流浪地球",
+      "label": 37,
+      "name": "流浪地球",
+      "company": "电影",
+      "region": "科幻",
+      "series": "流浪地球系列",
+      "open_source": false,
+      "year": 2019,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《流浪地球》，也常被称作The Wandering Earth",
+        "属性": "它是一部科幻类型电影，于 2019 年上映",
+        "关系": "它的导演是郭帆，属于流浪地球系列",
+        "变化": "它于 2019 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "流浪地球2",
+      "label": 38,
+      "name": "流浪地球2",
+      "company": "电影",
+      "region": "科幻",
+      "series": "流浪地球系列",
+      "open_source": false,
+      "year": 2023,
+      "note": "科幻",
+      "evidence": {
+        "名称": "这部电影的全称是《流浪地球2》，也常被称作The Wandering Earth 2",
+        "属性": "它是一部科幻类型电影，于 2023 年上映",
+        "关系": "它的导演是郭帆，属于流浪地球系列",
+        "变化": "它于 2023 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "战狼2",
+      "label": 39,
+      "name": "战狼2",
+      "company": "电影",
+      "region": "动作",
+      "series": "战狼系列",
+      "open_source": false,
+      "year": 2017,
+      "note": "动作",
+      "evidence": {
+        "名称": "这部电影的全称是《战狼2》，也常被称作Wolf Warrior 2",
+        "属性": "它是一部动作类型电影，于 2017 年上映",
+        "关系": "它的导演是吴京，属于战狼系列",
+        "变化": "它于 2017 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "战狼",
+      "label": 40,
+      "name": "战狼",
+      "company": "电影",
+      "region": "动作",
+      "series": "战狼系列",
+      "open_source": false,
+      "year": 2015,
+      "note": "动作",
+      "evidence": {
+        "名称": "这部电影的全称是《战狼》，也常被称作Wolf Warrior",
+        "属性": "它是一部动作类型电影，于 2015 年上映",
+        "关系": "它的导演是吴京，属于战狼系列",
+        "变化": "它于 2015 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "红海行动",
+      "label": 41,
+      "name": "红海行动",
+      "company": "电影",
+      "region": "动作",
+      "series": "动作",
+      "open_source": false,
+      "year": 2018,
+      "note": "动作",
+      "evidence": {
+        "名称": "这部电影的全称是《红海行动》，也常被称作Operation Red Sea",
+        "属性": "它是一部动作类型电影，于 2018 年上映",
+        "关系": "它的导演是林超贤",
+        "变化": "它于 2018 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "唐人街探案",
+      "label": 42,
+      "name": "唐人街探案",
+      "company": "电影",
+      "region": "喜剧",
+      "series": "唐人街系列",
+      "open_source": false,
+      "year": 2015,
+      "note": "喜剧",
+      "evidence": {
+        "名称": "这部电影的全称是《唐人街探案》，也常被称作Detective Chinatown",
+        "属性": "它是一部喜剧类型电影，于 2015 年上映",
+        "关系": "它的导演是陈思诚，属于唐人街系列",
+        "变化": "它于 2015 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "唐人街探案3",
+      "label": 43,
+      "name": "唐人街探案3",
+      "company": "电影",
+      "region": "喜剧",
+      "series": "唐人街系列",
+      "open_source": false,
+      "year": 2021,
+      "note": "喜剧",
+      "evidence": {
+        "名称": "这部电影的全称是《唐人街探案3》，也常被称作Detective Chinatown 3",
+        "属性": "它是一部喜剧类型电影，于 2021 年上映",
+        "关系": "它的导演是陈思诚，属于唐人街系列",
+        "变化": "它于 2021 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "哪吒之魔童降世",
+      "label": 44,
+      "name": "哪吒之魔童降世",
+      "company": "电影",
+      "region": "动画",
+      "series": "动画",
+      "open_source": false,
+      "year": 2019,
+      "note": "动画",
+      "evidence": {
+        "名称": "这部电影的全称是《哪吒之魔童降世》，也常被称作Ne Zha",
+        "属性": "它是一部动画类型电影，于 2019 年上映",
+        "关系": "它的导演是饺子",
+        "变化": "它于 2019 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "姜子牙",
+      "label": 45,
+      "name": "姜子牙",
+      "company": "电影",
+      "region": "动画",
+      "series": "动画",
+      "open_source": false,
+      "year": 2020,
+      "note": "动画",
+      "evidence": {
+        "名称": "这部电影的全称是《姜子牙》，也常被称作Jiang Ziya",
+        "属性": "它是一部动画类型电影，于 2020 年上映",
+        "关系": "它的导演是程腾",
+        "变化": "它于 2020 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "长津湖",
+      "label": 46,
+      "name": "长津湖",
+      "company": "电影",
+      "region": "战争",
+      "series": "长津湖系列",
+      "open_source": false,
+      "year": 2021,
+      "note": "战争",
+      "evidence": {
+        "名称": "这部电影的全称是《长津湖》，也常被称作The Battle at Lake Changjin",
+        "属性": "它是一部战争类型电影，于 2021 年上映",
+        "关系": "它的导演是陈凯歌，属于长津湖系列",
+        "变化": "它于 2021 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "长津湖之水门桥",
+      "label": 47,
+      "name": "长津湖之水门桥",
+      "company": "电影",
+      "region": "战争",
+      "series": "长津湖系列",
+      "open_source": false,
+      "year": 2022,
+      "note": "战争",
+      "evidence": {
+        "名称": "这部电影的全称是《长津湖之水门桥》，也常被称作Water Gate Bridge",
+        "属性": "它是一部战争类型电影，于 2022 年上映",
+        "关系": "它的导演是陈凯歌，属于长津湖系列",
+        "变化": "它于 2022 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "满江红",
+      "label": 48,
+      "name": "满江红",
+      "company": "电影",
+      "region": "悬疑",
+      "series": "悬疑",
+      "open_source": false,
+      "year": 2023,
+      "note": "悬疑",
+      "evidence": {
+        "名称": "这部电影的全称是《满江红》，也常被称作Full River Red",
+        "属性": "它是一部悬疑类型电影，于 2023 年上映",
+        "关系": "它的导演是张艺谋",
+        "变化": "它于 2023 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "悬崖之上",
+      "label": 49,
+      "name": "悬崖之上",
+      "company": "电影",
+      "region": "悬疑",
+      "series": "悬疑",
+      "open_source": false,
+      "year": 2021,
+      "note": "悬疑",
+      "evidence": {
+        "名称": "这部电影的全称是《悬崖之上》，也常被称作Cliff Walkers",
+        "属性": "它是一部悬疑类型电影，于 2021 年上映",
+        "关系": "它的导演是张艺谋",
+        "变化": "它于 2021 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "英雄",
+      "label": 50,
+      "name": "英雄",
+      "company": "电影",
+      "region": "动作",
+      "series": "动作",
+      "open_source": false,
+      "year": 2002,
+      "note": "动作",
+      "evidence": {
+        "名称": "这部电影的全称是《英雄》，也常被称作Hero",
+        "属性": "它是一部动作类型电影，于 2002 年上映",
+        "关系": "它的导演是张艺谋",
+        "变化": "它于 2002 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "霸王别姬",
+      "label": 51,
+      "name": "霸王别姬",
+      "company": "电影",
+      "region": "剧情",
+      "series": "剧情",
+      "open_source": false,
+      "year": 1993,
+      "note": "剧情",
+      "evidence": {
+        "名称": "这部电影的全称是《霸王别姬》，也常被称作Farewell My Concubine",
+        "属性": "它是一部剧情类型电影，于 1993 年上映",
+        "关系": "它的导演是陈凯歌",
+        "变化": "它于 1993 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "卧虎藏龙",
+      "label": 52,
+      "name": "卧虎藏龙",
+      "company": "电影",
+      "region": "武侠",
+      "series": "武侠",
+      "open_source": false,
+      "year": 2000,
+      "note": "武侠",
+      "evidence": {
+        "名称": "这部电影的全称是《卧虎藏龙》，也常被称作Crouching Tiger, Hidden Dragon",
+        "属性": "它是一部武侠类型电影，于 2000 年上映",
+        "关系": "它的导演是李安",
+        "变化": "它于 2000 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "少年派的奇幻漂流",
+      "label": 53,
+      "name": "少年派的奇幻漂流",
+      "company": "电影",
+      "region": "剧情",
+      "series": "剧情",
+      "open_source": false,
+      "year": 2012,
+      "note": "剧情",
+      "evidence": {
+        "名称": "这部电影的全称是《少年派的奇幻漂流》，也常被称作Life of Pi",
+        "属性": "它是一部剧情类型电影，于 2012 年上映",
+        "关系": "它的导演是李安",
+        "变化": "它于 2012 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "断背山",
+      "label": 54,
+      "name": "断背山",
+      "company": "电影",
+      "region": "剧情",
+      "series": "剧情",
+      "open_source": false,
+      "year": 2005,
+      "note": "剧情",
+      "evidence": {
+        "名称": "这部电影的全称是《断背山》，也常被称作Brokeback Mountain",
+        "属性": "它是一部剧情类型电影，于 2005 年上映",
+        "关系": "它的导演是李安",
+        "变化": "它于 2005 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "让子弹飞",
+      "label": 55,
+      "name": "让子弹飞",
+      "company": "电影",
+      "region": "剧情",
+      "series": "剧情",
+      "open_source": false,
+      "year": 2010,
+      "note": "剧情",
+      "evidence": {
+        "名称": "这部电影的全称是《让子弹飞》，也常被称作Let the Bullets Fly",
+        "属性": "它是一部剧情类型电影，于 2010 年上映",
+        "关系": "它的导演是姜文",
+        "变化": "它于 2010 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "邪不压正",
+      "label": 56,
+      "name": "邪不压正",
+      "company": "电影",
+      "region": "动作",
+      "series": "动作",
+      "open_source": false,
+      "year": 2018,
+      "note": "动作",
+      "evidence": {
+        "名称": "这部电影的全称是《邪不压正》，也常被称作Hidden Man",
+        "属性": "它是一部动作类型电影，于 2018 年上映",
+        "关系": "它的导演是姜文",
+        "变化": "它于 2018 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "疯狂的石头",
+      "label": 57,
+      "name": "疯狂的石头",
+      "company": "电影",
+      "region": "喜剧",
+      "series": "喜剧",
+      "open_source": false,
+      "year": 2006,
+      "note": "喜剧",
+      "evidence": {
+        "名称": "这部电影的全称是《疯狂的石头》，也常被称作Crazy Stone",
+        "属性": "它是一部喜剧类型电影，于 2006 年上映",
+        "关系": "它的导演是宁浩",
+        "变化": "它于 2006 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "疯狂的外星人",
+      "label": 58,
+      "name": "疯狂的外星人",
+      "company": "电影",
+      "region": "喜剧",
+      "series": "喜剧",
+      "open_source": false,
+      "year": 2019,
+      "note": "喜剧",
+      "evidence": {
+        "名称": "这部电影的全称是《疯狂的外星人》，也常被称作Crazy Alien",
+        "属性": "它是一部喜剧类型电影，于 2019 年上映",
+        "关系": "它的导演是宁浩",
+        "变化": "它于 2019 年上映，是当年的热门影片"
+      }
+    },
+    {
+      "id": "我不是药神",
+      "label": 59,
+      "name": "我不是药神",
+      "company": "电影",
+      "region": "剧情",
+      "series": "剧情",
+      "open_source": false,
+      "year": 2018,
+      "note": "剧情",
+      "evidence": {
+        "名称": "这部电影的全称是《我不是药神》，也常被称作Dying to Survive",
+        "属性": "它是一部剧情类型电影，于 2018 年上映",
+        "关系": "它的导演是文牧野",
+        "变化": "它于 2018 年上映，是当年的热门影片"
+      }
+    }
+  ],
+  "queries": [
+    {
+      "text": "介绍一下电影《阿凡达》",
+      "target_id": "阿凡达",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《阿凡达》的导演是谁？",
+      "target_id": "阿凡达",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《阿凡达》是什么类型？",
+      "target_id": "阿凡达",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《阿凡达》",
+      "target_id": "阿凡达",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《阿凡达》是哪一年上映的？",
+      "target_id": "阿凡达",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Avatar这部电影",
+      "target_id": "阿凡达",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Avatar是部什么电影？",
+      "target_id": "阿凡达",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下阿凡达2这部电影",
+      "target_id": "阿凡达",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "阿凡达2是部什么电影？",
+      "target_id": "阿凡达",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《泰坦尼克号》",
+      "target_id": "泰坦尼克号",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《泰坦尼克号》的导演是谁？",
+      "target_id": "泰坦尼克号",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《泰坦尼克号》是什么类型？",
+      "target_id": "泰坦尼克号",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《泰坦尼克号》",
+      "target_id": "泰坦尼克号",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《泰坦尼克号》是哪一年上映的？",
+      "target_id": "泰坦尼克号",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Titanic这部电影",
+      "target_id": "泰坦尼克号",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Titanic是部什么电影？",
+      "target_id": "泰坦尼克号",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《复仇者联盟》",
+      "target_id": "复仇者联盟",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《复仇者联盟》的导演是谁？",
+      "target_id": "复仇者联盟",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《复仇者联盟》是什么类型？",
+      "target_id": "复仇者联盟",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《复仇者联盟》",
+      "target_id": "复仇者联盟",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《复仇者联盟》是哪一年上映的？",
+      "target_id": "复仇者联盟",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Avengers这部电影",
+      "target_id": "复仇者联盟",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Avengers是部什么电影？",
+      "target_id": "复仇者联盟",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《复仇者联盟4：终局之战》",
+      "target_id": "复仇者联盟4-终局之战",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《复仇者联盟4：终局之战》的导演是谁？",
+      "target_id": "复仇者联盟4-终局之战",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《复仇者联盟4：终局之战》是什么类型？",
+      "target_id": "复仇者联盟4-终局之战",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《复仇者联盟4：终局之战》",
+      "target_id": "复仇者联盟4-终局之战",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《复仇者联盟4：终局之战》是哪一年上映的？",
+      "target_id": "复仇者联盟4-终局之战",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Avengers: Endgame这部电影",
+      "target_id": "复仇者联盟4-终局之战",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Avengers: Endgame是部什么电影？",
+      "target_id": "复仇者联盟4-终局之战",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《美国队长》",
+      "target_id": "美国队长",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《美国队长》的导演是谁？",
+      "target_id": "美国队长",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《美国队长》是什么类型？",
+      "target_id": "美国队长",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《美国队长》",
+      "target_id": "美国队长",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《美国队长》是哪一年上映的？",
+      "target_id": "美国队长",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Captain America这部电影",
+      "target_id": "美国队长",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Captain America是部什么电影？",
+      "target_id": "美国队长",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《钢铁侠》",
+      "target_id": "钢铁侠",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《钢铁侠》的导演是谁？",
+      "target_id": "钢铁侠",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《钢铁侠》是什么类型？",
+      "target_id": "钢铁侠",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《钢铁侠》",
+      "target_id": "钢铁侠",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《钢铁侠》是哪一年上映的？",
+      "target_id": "钢铁侠",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Iron Man这部电影",
+      "target_id": "钢铁侠",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Iron Man是部什么电影？",
+      "target_id": "钢铁侠",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《蜘蛛侠：英雄远征》",
+      "target_id": "蜘蛛侠-英雄远征",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《蜘蛛侠：英雄远征》的导演是谁？",
+      "target_id": "蜘蛛侠-英雄远征",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《蜘蛛侠：英雄远征》是什么类型？",
+      "target_id": "蜘蛛侠-英雄远征",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《蜘蛛侠：英雄远征》",
+      "target_id": "蜘蛛侠-英雄远征",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《蜘蛛侠：英雄远征》是哪一年上映的？",
+      "target_id": "蜘蛛侠-英雄远征",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Spider-Man: Far From Home这部电影",
+      "target_id": "蜘蛛侠-英雄远征",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Spider-Man: Far From Home是部什么电影？",
+      "target_id": "蜘蛛侠-英雄远征",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《星球大战：新希望》",
+      "target_id": "星球大战-新希望",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《星球大战：新希望》的导演是谁？",
+      "target_id": "星球大战-新希望",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《星球大战：新希望》是什么类型？",
+      "target_id": "星球大战-新希望",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《星球大战：新希望》",
+      "target_id": "星球大战-新希望",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《星球大战：新希望》是哪一年上映的？",
+      "target_id": "星球大战-新希望",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Star Wars这部电影",
+      "target_id": "星球大战-新希望",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Star Wars是部什么电影？",
+      "target_id": "星球大战-新希望",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下星球大战这部电影",
+      "target_id": "星球大战-新希望",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "星球大战是部什么电影？",
+      "target_id": "星球大战-新希望",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《星球大战：帝国反击战》",
+      "target_id": "星球大战-帝国反击战",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《星球大战：帝国反击战》的导演是谁？",
+      "target_id": "星球大战-帝国反击战",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《星球大战：帝国反击战》是什么类型？",
+      "target_id": "星球大战-帝国反击战",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《星球大战：帝国反击战》",
+      "target_id": "星球大战-帝国反击战",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《星球大战：帝国反击战》是哪一年上映的？",
+      "target_id": "星球大战-帝国反击战",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Empire Strikes Back这部电影",
+      "target_id": "星球大战-帝国反击战",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Empire Strikes Back是部什么电影？",
+      "target_id": "星球大战-帝国反击战",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《变形金刚》",
+      "target_id": "变形金刚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《变形金刚》的导演是谁？",
+      "target_id": "变形金刚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《变形金刚》是什么类型？",
+      "target_id": "变形金刚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《变形金刚》",
+      "target_id": "变形金刚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《变形金刚》是哪一年上映的？",
+      "target_id": "变形金刚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Transformers这部电影",
+      "target_id": "变形金刚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Transformers是部什么电影？",
+      "target_id": "变形金刚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《速度与激情》",
+      "target_id": "速度与激情",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《速度与激情》的导演是谁？",
+      "target_id": "速度与激情",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《速度与激情》是什么类型？",
+      "target_id": "速度与激情",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《速度与激情》",
+      "target_id": "速度与激情",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《速度与激情》是哪一年上映的？",
+      "target_id": "速度与激情",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Fast & Furious这部电影",
+      "target_id": "速度与激情",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Fast & Furious是部什么电影？",
+      "target_id": "速度与激情",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《速度与激情8》",
+      "target_id": "速度与激情8",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《速度与激情8》的导演是谁？",
+      "target_id": "速度与激情8",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《速度与激情8》是什么类型？",
+      "target_id": "速度与激情8",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《速度与激情8》",
+      "target_id": "速度与激情8",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《速度与激情8》是哪一年上映的？",
+      "target_id": "速度与激情8",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Fate of the Furious这部电影",
+      "target_id": "速度与激情8",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Fate of the Furious是部什么电影？",
+      "target_id": "速度与激情8",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《黑客帝国》",
+      "target_id": "黑客帝国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《黑客帝国》的导演是谁？",
+      "target_id": "黑客帝国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《黑客帝国》是什么类型？",
+      "target_id": "黑客帝国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《黑客帝国》",
+      "target_id": "黑客帝国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《黑客帝国》是哪一年上映的？",
+      "target_id": "黑客帝国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Matrix这部电影",
+      "target_id": "黑客帝国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Matrix是部什么电影？",
+      "target_id": "黑客帝国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《黑客帝国2：重装上阵》",
+      "target_id": "黑客帝国2-重装上阵",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《黑客帝国2：重装上阵》的导演是谁？",
+      "target_id": "黑客帝国2-重装上阵",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《黑客帝国2：重装上阵》是什么类型？",
+      "target_id": "黑客帝国2-重装上阵",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《黑客帝国2：重装上阵》",
+      "target_id": "黑客帝国2-重装上阵",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《黑客帝国2：重装上阵》是哪一年上映的？",
+      "target_id": "黑客帝国2-重装上阵",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Matrix Reloaded这部电影",
+      "target_id": "黑客帝国2-重装上阵",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Matrix Reloaded是部什么电影？",
+      "target_id": "黑客帝国2-重装上阵",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《盗梦空间》",
+      "target_id": "盗梦空间",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《盗梦空间》的导演是谁？",
+      "target_id": "盗梦空间",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《盗梦空间》是什么类型？",
+      "target_id": "盗梦空间",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《盗梦空间》",
+      "target_id": "盗梦空间",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《盗梦空间》是哪一年上映的？",
+      "target_id": "盗梦空间",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Inception这部电影",
+      "target_id": "盗梦空间",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Inception是部什么电影？",
+      "target_id": "盗梦空间",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《星际穿越》",
+      "target_id": "星际穿越",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《星际穿越》的导演是谁？",
+      "target_id": "星际穿越",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《星际穿越》是什么类型？",
+      "target_id": "星际穿越",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《星际穿越》",
+      "target_id": "星际穿越",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《星际穿越》是哪一年上映的？",
+      "target_id": "星际穿越",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Interstellar这部电影",
+      "target_id": "星际穿越",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Interstellar是部什么电影？",
+      "target_id": "星际穿越",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《蝙蝠侠：黑暗骑士》",
+      "target_id": "蝙蝠侠-黑暗骑士",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《蝙蝠侠：黑暗骑士》的导演是谁？",
+      "target_id": "蝙蝠侠-黑暗骑士",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《蝙蝠侠：黑暗骑士》是什么类型？",
+      "target_id": "蝙蝠侠-黑暗骑士",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《蝙蝠侠：黑暗骑士》",
+      "target_id": "蝙蝠侠-黑暗骑士",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《蝙蝠侠：黑暗骑士》是哪一年上映的？",
+      "target_id": "蝙蝠侠-黑暗骑士",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Dark Knight这部电影",
+      "target_id": "蝙蝠侠-黑暗骑士",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Dark Knight是部什么电影？",
+      "target_id": "蝙蝠侠-黑暗骑士",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下黑暗骑士这部电影",
+      "target_id": "蝙蝠侠-黑暗骑士",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "黑暗骑士是部什么电影？",
+      "target_id": "蝙蝠侠-黑暗骑士",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《敦刻尔克》",
+      "target_id": "敦刻尔克",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《敦刻尔克》的导演是谁？",
+      "target_id": "敦刻尔克",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《敦刻尔克》是什么类型？",
+      "target_id": "敦刻尔克",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《敦刻尔克》",
+      "target_id": "敦刻尔克",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《敦刻尔克》是哪一年上映的？",
+      "target_id": "敦刻尔克",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Dunkirk这部电影",
+      "target_id": "敦刻尔克",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Dunkirk是部什么电影？",
+      "target_id": "敦刻尔克",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《指环王：护戒使者》",
+      "target_id": "指环王-护戒使者",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《指环王：护戒使者》的导演是谁？",
+      "target_id": "指环王-护戒使者",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《指环王：护戒使者》是什么类型？",
+      "target_id": "指环王-护戒使者",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《指环王：护戒使者》",
+      "target_id": "指环王-护戒使者",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《指环王：护戒使者》是哪一年上映的？",
+      "target_id": "指环王-护戒使者",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Lord of the Rings这部电影",
+      "target_id": "指环王-护戒使者",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Lord of the Rings是部什么电影？",
+      "target_id": "指环王-护戒使者",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下指环王这部电影",
+      "target_id": "指环王-护戒使者",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "指环王是部什么电影？",
+      "target_id": "指环王-护戒使者",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《指环王：王者归来》",
+      "target_id": "指环王-王者归来",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《指环王：王者归来》的导演是谁？",
+      "target_id": "指环王-王者归来",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《指环王：王者归来》是什么类型？",
+      "target_id": "指环王-王者归来",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《指环王：王者归来》",
+      "target_id": "指环王-王者归来",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《指环王：王者归来》是哪一年上映的？",
+      "target_id": "指环王-王者归来",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Return of the King这部电影",
+      "target_id": "指环王-王者归来",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Return of the King是部什么电影？",
+      "target_id": "指环王-王者归来",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《霍比特人》",
+      "target_id": "霍比特人",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《霍比特人》的导演是谁？",
+      "target_id": "霍比特人",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《霍比特人》是什么类型？",
+      "target_id": "霍比特人",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《霍比特人》",
+      "target_id": "霍比特人",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《霍比特人》是哪一年上映的？",
+      "target_id": "霍比特人",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Hobbit这部电影",
+      "target_id": "霍比特人",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Hobbit是部什么电影？",
+      "target_id": "霍比特人",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《哈利·波特与魔法石》",
+      "target_id": "哈利·波特与魔法石",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《哈利·波特与魔法石》的导演是谁？",
+      "target_id": "哈利·波特与魔法石",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《哈利·波特与魔法石》是什么类型？",
+      "target_id": "哈利·波特与魔法石",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《哈利·波特与魔法石》",
+      "target_id": "哈利·波特与魔法石",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《哈利·波特与魔法石》是哪一年上映的？",
+      "target_id": "哈利·波特与魔法石",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Harry Potter这部电影",
+      "target_id": "哈利·波特与魔法石",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Harry Potter是部什么电影？",
+      "target_id": "哈利·波特与魔法石",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下哈利波特这部电影",
+      "target_id": "哈利·波特与魔法石",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "哈利波特是部什么电影？",
+      "target_id": "哈利·波特与魔法石",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《哈利·波特与死亡圣器》",
+      "target_id": "哈利·波特与死亡圣器",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《哈利·波特与死亡圣器》的导演是谁？",
+      "target_id": "哈利·波特与死亡圣器",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《哈利·波特与死亡圣器》是什么类型？",
+      "target_id": "哈利·波特与死亡圣器",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《哈利·波特与死亡圣器》",
+      "target_id": "哈利·波特与死亡圣器",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《哈利·波特与死亡圣器》是哪一年上映的？",
+      "target_id": "哈利·波特与死亡圣器",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Harry Potter and the Deathly Hallows这部电影",
+      "target_id": "哈利·波特与死亡圣器",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Harry Potter and the Deathly Hallows是部什么电影？",
+      "target_id": "哈利·波特与死亡圣器",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《侏罗纪公园》",
+      "target_id": "侏罗纪公园",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《侏罗纪公园》的导演是谁？",
+      "target_id": "侏罗纪公园",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《侏罗纪公园》是什么类型？",
+      "target_id": "侏罗纪公园",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《侏罗纪公园》",
+      "target_id": "侏罗纪公园",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《侏罗纪公园》是哪一年上映的？",
+      "target_id": "侏罗纪公园",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Jurassic Park这部电影",
+      "target_id": "侏罗纪公园",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Jurassic Park是部什么电影？",
+      "target_id": "侏罗纪公园",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《侏罗纪世界》",
+      "target_id": "侏罗纪世界",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《侏罗纪世界》的导演是谁？",
+      "target_id": "侏罗纪世界",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《侏罗纪世界》是什么类型？",
+      "target_id": "侏罗纪世界",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《侏罗纪世界》",
+      "target_id": "侏罗纪世界",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《侏罗纪世界》是哪一年上映的？",
+      "target_id": "侏罗纪世界",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Jurassic World这部电影",
+      "target_id": "侏罗纪世界",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Jurassic World是部什么电影？",
+      "target_id": "侏罗纪世界",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《辛德勒的名单》",
+      "target_id": "辛德勒的名单",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《辛德勒的名单》的导演是谁？",
+      "target_id": "辛德勒的名单",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《辛德勒的名单》是什么类型？",
+      "target_id": "辛德勒的名单",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《辛德勒的名单》",
+      "target_id": "辛德勒的名单",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《辛德勒的名单》是哪一年上映的？",
+      "target_id": "辛德勒的名单",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Schindler's List这部电影",
+      "target_id": "辛德勒的名单",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Schindler's List是部什么电影？",
+      "target_id": "辛德勒的名单",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《ET外星人》",
+      "target_id": "et外星人",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《ET外星人》的导演是谁？",
+      "target_id": "et外星人",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《ET外星人》是什么类型？",
+      "target_id": "et外星人",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《ET外星人》",
+      "target_id": "et外星人",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《ET外星人》是哪一年上映的？",
+      "target_id": "et外星人",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下E.T.这部电影",
+      "target_id": "et外星人",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "E.T.是部什么电影？",
+      "target_id": "et外星人",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《拯救大兵瑞恩》",
+      "target_id": "拯救大兵瑞恩",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《拯救大兵瑞恩》的导演是谁？",
+      "target_id": "拯救大兵瑞恩",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《拯救大兵瑞恩》是什么类型？",
+      "target_id": "拯救大兵瑞恩",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《拯救大兵瑞恩》",
+      "target_id": "拯救大兵瑞恩",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《拯救大兵瑞恩》是哪一年上映的？",
+      "target_id": "拯救大兵瑞恩",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Saving Private Ryan这部电影",
+      "target_id": "拯救大兵瑞恩",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Saving Private Ryan是部什么电影？",
+      "target_id": "拯救大兵瑞恩",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《阿甘正传》",
+      "target_id": "阿甘正传",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《阿甘正传》的导演是谁？",
+      "target_id": "阿甘正传",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《阿甘正传》是什么类型？",
+      "target_id": "阿甘正传",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《阿甘正传》",
+      "target_id": "阿甘正传",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《阿甘正传》是哪一年上映的？",
+      "target_id": "阿甘正传",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Forrest Gump这部电影",
+      "target_id": "阿甘正传",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Forrest Gump是部什么电影？",
+      "target_id": "阿甘正传",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《肖申克的救赎》",
+      "target_id": "肖申克的救赎",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《肖申克的救赎》的导演是谁？",
+      "target_id": "肖申克的救赎",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《肖申克的救赎》是什么类型？",
+      "target_id": "肖申克的救赎",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《肖申克的救赎》",
+      "target_id": "肖申克的救赎",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《肖申克的救赎》是哪一年上映的？",
+      "target_id": "肖申克的救赎",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Shawshank Redemption这部电影",
+      "target_id": "肖申克的救赎",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Shawshank Redemption是部什么电影？",
+      "target_id": "肖申克的救赎",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《教父》",
+      "target_id": "教父",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《教父》的导演是谁？",
+      "target_id": "教父",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《教父》是什么类型？",
+      "target_id": "教父",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《教父》",
+      "target_id": "教父",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《教父》是哪一年上映的？",
+      "target_id": "教父",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Godfather这部电影",
+      "target_id": "教父",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Godfather是部什么电影？",
+      "target_id": "教父",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《低俗小说》",
+      "target_id": "低俗小说",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《低俗小说》的导演是谁？",
+      "target_id": "低俗小说",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《低俗小说》是什么类型？",
+      "target_id": "低俗小说",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《低俗小说》",
+      "target_id": "低俗小说",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《低俗小说》是哪一年上映的？",
+      "target_id": "低俗小说",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Pulp Fiction这部电影",
+      "target_id": "低俗小说",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Pulp Fiction是部什么电影？",
+      "target_id": "低俗小说",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《被解救的姜戈》",
+      "target_id": "被解救的姜戈",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《被解救的姜戈》的导演是谁？",
+      "target_id": "被解救的姜戈",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《被解救的姜戈》是什么类型？",
+      "target_id": "被解救的姜戈",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《被解救的姜戈》",
+      "target_id": "被解救的姜戈",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《被解救的姜戈》是哪一年上映的？",
+      "target_id": "被解救的姜戈",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Django Unchained这部电影",
+      "target_id": "被解救的姜戈",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Django Unchained是部什么电影？",
+      "target_id": "被解救的姜戈",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《千与千寻》",
+      "target_id": "千与千寻",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《千与千寻》的导演是谁？",
+      "target_id": "千与千寻",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《千与千寻》是什么类型？",
+      "target_id": "千与千寻",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《千与千寻》",
+      "target_id": "千与千寻",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《千与千寻》是哪一年上映的？",
+      "target_id": "千与千寻",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Spirited Away这部电影",
+      "target_id": "千与千寻",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Spirited Away是部什么电影？",
+      "target_id": "千与千寻",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《龙猫》",
+      "target_id": "龙猫",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《龙猫》的导演是谁？",
+      "target_id": "龙猫",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《龙猫》是什么类型？",
+      "target_id": "龙猫",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《龙猫》",
+      "target_id": "龙猫",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《龙猫》是哪一年上映的？",
+      "target_id": "龙猫",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下My Neighbor Totoro这部电影",
+      "target_id": "龙猫",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "My Neighbor Totoro是部什么电影？",
+      "target_id": "龙猫",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《你的名字》",
+      "target_id": "你的名字",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《你的名字》的导演是谁？",
+      "target_id": "你的名字",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《你的名字》是什么类型？",
+      "target_id": "你的名字",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《你的名字》",
+      "target_id": "你的名字",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《你的名字》是哪一年上映的？",
+      "target_id": "你的名字",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Your Name这部电影",
+      "target_id": "你的名字",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Your Name是部什么电影？",
+      "target_id": "你的名字",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《天气之子》",
+      "target_id": "天气之子",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《天气之子》的导演是谁？",
+      "target_id": "天气之子",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《天气之子》是什么类型？",
+      "target_id": "天气之子",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《天气之子》",
+      "target_id": "天气之子",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《天气之子》是哪一年上映的？",
+      "target_id": "天气之子",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Weathering with You这部电影",
+      "target_id": "天气之子",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Weathering with You是部什么电影？",
+      "target_id": "天气之子",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《流浪地球》",
+      "target_id": "流浪地球",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《流浪地球》的导演是谁？",
+      "target_id": "流浪地球",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《流浪地球》是什么类型？",
+      "target_id": "流浪地球",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《流浪地球》",
+      "target_id": "流浪地球",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《流浪地球》是哪一年上映的？",
+      "target_id": "流浪地球",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Wandering Earth这部电影",
+      "target_id": "流浪地球",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Wandering Earth是部什么电影？",
+      "target_id": "流浪地球",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《流浪地球2》",
+      "target_id": "流浪地球2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《流浪地球2》的导演是谁？",
+      "target_id": "流浪地球2",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《流浪地球2》是什么类型？",
+      "target_id": "流浪地球2",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《流浪地球2》",
+      "target_id": "流浪地球2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《流浪地球2》是哪一年上映的？",
+      "target_id": "流浪地球2",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Wandering Earth 2这部电影",
+      "target_id": "流浪地球2",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Wandering Earth 2是部什么电影？",
+      "target_id": "流浪地球2",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《战狼2》",
+      "target_id": "战狼2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《战狼2》的导演是谁？",
+      "target_id": "战狼2",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《战狼2》是什么类型？",
+      "target_id": "战狼2",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《战狼2》",
+      "target_id": "战狼2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《战狼2》是哪一年上映的？",
+      "target_id": "战狼2",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Wolf Warrior 2这部电影",
+      "target_id": "战狼2",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Wolf Warrior 2是部什么电影？",
+      "target_id": "战狼2",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《战狼》",
+      "target_id": "战狼",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《战狼》的导演是谁？",
+      "target_id": "战狼",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《战狼》是什么类型？",
+      "target_id": "战狼",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《战狼》",
+      "target_id": "战狼",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《战狼》是哪一年上映的？",
+      "target_id": "战狼",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Wolf Warrior这部电影",
+      "target_id": "战狼",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Wolf Warrior是部什么电影？",
+      "target_id": "战狼",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《红海行动》",
+      "target_id": "红海行动",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《红海行动》的导演是谁？",
+      "target_id": "红海行动",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《红海行动》是什么类型？",
+      "target_id": "红海行动",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《红海行动》",
+      "target_id": "红海行动",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《红海行动》是哪一年上映的？",
+      "target_id": "红海行动",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Operation Red Sea这部电影",
+      "target_id": "红海行动",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Operation Red Sea是部什么电影？",
+      "target_id": "红海行动",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《唐人街探案》",
+      "target_id": "唐人街探案",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《唐人街探案》的导演是谁？",
+      "target_id": "唐人街探案",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《唐人街探案》是什么类型？",
+      "target_id": "唐人街探案",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《唐人街探案》",
+      "target_id": "唐人街探案",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《唐人街探案》是哪一年上映的？",
+      "target_id": "唐人街探案",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Detective Chinatown这部电影",
+      "target_id": "唐人街探案",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Detective Chinatown是部什么电影？",
+      "target_id": "唐人街探案",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《唐人街探案3》",
+      "target_id": "唐人街探案3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《唐人街探案3》的导演是谁？",
+      "target_id": "唐人街探案3",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《唐人街探案3》是什么类型？",
+      "target_id": "唐人街探案3",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《唐人街探案3》",
+      "target_id": "唐人街探案3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《唐人街探案3》是哪一年上映的？",
+      "target_id": "唐人街探案3",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Detective Chinatown 3这部电影",
+      "target_id": "唐人街探案3",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Detective Chinatown 3是部什么电影？",
+      "target_id": "唐人街探案3",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《哪吒之魔童降世》",
+      "target_id": "哪吒之魔童降世",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《哪吒之魔童降世》的导演是谁？",
+      "target_id": "哪吒之魔童降世",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《哪吒之魔童降世》是什么类型？",
+      "target_id": "哪吒之魔童降世",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《哪吒之魔童降世》",
+      "target_id": "哪吒之魔童降世",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《哪吒之魔童降世》是哪一年上映的？",
+      "target_id": "哪吒之魔童降世",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Ne Zha这部电影",
+      "target_id": "哪吒之魔童降世",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Ne Zha是部什么电影？",
+      "target_id": "哪吒之魔童降世",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《姜子牙》",
+      "target_id": "姜子牙",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《姜子牙》的导演是谁？",
+      "target_id": "姜子牙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《姜子牙》是什么类型？",
+      "target_id": "姜子牙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《姜子牙》",
+      "target_id": "姜子牙",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《姜子牙》是哪一年上映的？",
+      "target_id": "姜子牙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Jiang Ziya这部电影",
+      "target_id": "姜子牙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Jiang Ziya是部什么电影？",
+      "target_id": "姜子牙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《长津湖》",
+      "target_id": "长津湖",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《长津湖》的导演是谁？",
+      "target_id": "长津湖",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《长津湖》是什么类型？",
+      "target_id": "长津湖",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《长津湖》",
+      "target_id": "长津湖",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《长津湖》是哪一年上映的？",
+      "target_id": "长津湖",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下The Battle at Lake Changjin这部电影",
+      "target_id": "长津湖",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "The Battle at Lake Changjin是部什么电影？",
+      "target_id": "长津湖",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《长津湖之水门桥》",
+      "target_id": "长津湖之水门桥",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《长津湖之水门桥》的导演是谁？",
+      "target_id": "长津湖之水门桥",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《长津湖之水门桥》是什么类型？",
+      "target_id": "长津湖之水门桥",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《长津湖之水门桥》",
+      "target_id": "长津湖之水门桥",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《长津湖之水门桥》是哪一年上映的？",
+      "target_id": "长津湖之水门桥",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Water Gate Bridge这部电影",
+      "target_id": "长津湖之水门桥",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Water Gate Bridge是部什么电影？",
+      "target_id": "长津湖之水门桥",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《满江红》",
+      "target_id": "满江红",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《满江红》的导演是谁？",
+      "target_id": "满江红",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《满江红》是什么类型？",
+      "target_id": "满江红",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《满江红》",
+      "target_id": "满江红",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《满江红》是哪一年上映的？",
+      "target_id": "满江红",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Full River Red这部电影",
+      "target_id": "满江红",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Full River Red是部什么电影？",
+      "target_id": "满江红",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《悬崖之上》",
+      "target_id": "悬崖之上",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《悬崖之上》的导演是谁？",
+      "target_id": "悬崖之上",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《悬崖之上》是什么类型？",
+      "target_id": "悬崖之上",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《悬崖之上》",
+      "target_id": "悬崖之上",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《悬崖之上》是哪一年上映的？",
+      "target_id": "悬崖之上",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Cliff Walkers这部电影",
+      "target_id": "悬崖之上",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Cliff Walkers是部什么电影？",
+      "target_id": "悬崖之上",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《英雄》",
+      "target_id": "英雄",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《英雄》的导演是谁？",
+      "target_id": "英雄",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《英雄》是什么类型？",
+      "target_id": "英雄",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《英雄》",
+      "target_id": "英雄",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《英雄》是哪一年上映的？",
+      "target_id": "英雄",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Hero这部电影",
+      "target_id": "英雄",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Hero是部什么电影？",
+      "target_id": "英雄",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《霸王别姬》",
+      "target_id": "霸王别姬",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《霸王别姬》的导演是谁？",
+      "target_id": "霸王别姬",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《霸王别姬》是什么类型？",
+      "target_id": "霸王别姬",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《霸王别姬》",
+      "target_id": "霸王别姬",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《霸王别姬》是哪一年上映的？",
+      "target_id": "霸王别姬",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Farewell My Concubine这部电影",
+      "target_id": "霸王别姬",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Farewell My Concubine是部什么电影？",
+      "target_id": "霸王别姬",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《卧虎藏龙》",
+      "target_id": "卧虎藏龙",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《卧虎藏龙》的导演是谁？",
+      "target_id": "卧虎藏龙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《卧虎藏龙》是什么类型？",
+      "target_id": "卧虎藏龙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《卧虎藏龙》",
+      "target_id": "卧虎藏龙",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《卧虎藏龙》是哪一年上映的？",
+      "target_id": "卧虎藏龙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Crouching Tiger, Hidden Dragon这部电影",
+      "target_id": "卧虎藏龙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Crouching Tiger, Hidden Dragon是部什么电影？",
+      "target_id": "卧虎藏龙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《少年派的奇幻漂流》",
+      "target_id": "少年派的奇幻漂流",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《少年派的奇幻漂流》的导演是谁？",
+      "target_id": "少年派的奇幻漂流",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《少年派的奇幻漂流》是什么类型？",
+      "target_id": "少年派的奇幻漂流",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《少年派的奇幻漂流》",
+      "target_id": "少年派的奇幻漂流",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《少年派的奇幻漂流》是哪一年上映的？",
+      "target_id": "少年派的奇幻漂流",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Life of Pi这部电影",
+      "target_id": "少年派的奇幻漂流",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Life of Pi是部什么电影？",
+      "target_id": "少年派的奇幻漂流",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《断背山》",
+      "target_id": "断背山",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《断背山》的导演是谁？",
+      "target_id": "断背山",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《断背山》是什么类型？",
+      "target_id": "断背山",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《断背山》",
+      "target_id": "断背山",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《断背山》是哪一年上映的？",
+      "target_id": "断背山",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Brokeback Mountain这部电影",
+      "target_id": "断背山",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Brokeback Mountain是部什么电影？",
+      "target_id": "断背山",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《让子弹飞》",
+      "target_id": "让子弹飞",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《让子弹飞》的导演是谁？",
+      "target_id": "让子弹飞",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《让子弹飞》是什么类型？",
+      "target_id": "让子弹飞",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《让子弹飞》",
+      "target_id": "让子弹飞",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《让子弹飞》是哪一年上映的？",
+      "target_id": "让子弹飞",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Let the Bullets Fly这部电影",
+      "target_id": "让子弹飞",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Let the Bullets Fly是部什么电影？",
+      "target_id": "让子弹飞",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《邪不压正》",
+      "target_id": "邪不压正",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《邪不压正》的导演是谁？",
+      "target_id": "邪不压正",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《邪不压正》是什么类型？",
+      "target_id": "邪不压正",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《邪不压正》",
+      "target_id": "邪不压正",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《邪不压正》是哪一年上映的？",
+      "target_id": "邪不压正",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Hidden Man这部电影",
+      "target_id": "邪不压正",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Hidden Man是部什么电影？",
+      "target_id": "邪不压正",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《疯狂的石头》",
+      "target_id": "疯狂的石头",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《疯狂的石头》的导演是谁？",
+      "target_id": "疯狂的石头",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《疯狂的石头》是什么类型？",
+      "target_id": "疯狂的石头",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《疯狂的石头》",
+      "target_id": "疯狂的石头",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《疯狂的石头》是哪一年上映的？",
+      "target_id": "疯狂的石头",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Crazy Stone这部电影",
+      "target_id": "疯狂的石头",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Crazy Stone是部什么电影？",
+      "target_id": "疯狂的石头",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《疯狂的外星人》",
+      "target_id": "疯狂的外星人",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《疯狂的外星人》的导演是谁？",
+      "target_id": "疯狂的外星人",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《疯狂的外星人》是什么类型？",
+      "target_id": "疯狂的外星人",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《疯狂的外星人》",
+      "target_id": "疯狂的外星人",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《疯狂的外星人》是哪一年上映的？",
+      "target_id": "疯狂的外星人",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Crazy Alien这部电影",
+      "target_id": "疯狂的外星人",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Crazy Alien是部什么电影？",
+      "target_id": "疯狂的外星人",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下电影《我不是药神》",
+      "target_id": "我不是药神",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "《我不是药神》的导演是谁？",
+      "target_id": "我不是药神",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "《我不是药神》是什么类型？",
+      "target_id": "我不是药神",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解电影《我不是药神》",
+      "target_id": "我不是药神",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "《我不是药神》是哪一年上映的？",
+      "target_id": "我不是药神",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Dying to Survive这部电影",
+      "target_id": "我不是药神",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Dying to Survive是部什么电影？",
+      "target_id": "我不是药神",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "克里斯托弗·诺兰导演的科幻片有哪些？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "漫威宇宙系列里有哪些电影？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "宫崎骏的动画电影有哪些？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "《泰坦尼克号2》是什么时候上映的？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "heldout"
+    },
+    {
+      "text": "《西游记之大圣归来2》的导演是谁？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "train"
+    }
+  ]
+}
