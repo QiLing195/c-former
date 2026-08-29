@@ -23,6 +23,7 @@
       "open_source": false,
       "year": "2018",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 GPT-1，属于 GPT 系列",
         "属性": "它由 OpenAI 开发，是闭源模型",
@@ -40,6 +41,7 @@
       "open_source": false,
       "year": "2019",
       "note": "",
+      "predecessor": "gpt-1",
       "evidence": {
         "名称": "这个模型的全称是 GPT-2，属于 GPT 系列",
         "属性": "它由 OpenAI 开发，是闭源模型",
@@ -57,6 +59,7 @@
       "open_source": false,
       "year": "2020",
       "note": "",
+      "predecessor": "gpt-2",
       "evidence": {
         "名称": "这个模型的全称是 GPT-3，属于 GPT 系列",
         "属性": "它由 OpenAI 开发，是闭源模型",
@@ -74,6 +77,7 @@
       "open_source": false,
       "year": "2022",
       "note": "",
+      "predecessor": "gpt-3",
       "evidence": {
         "名称": "这个模型的全称是 GPT-3.5，属于 GPT 系列，也常被称作GPT-3.5 Turbo",
         "属性": "它由 OpenAI 开发，是闭源模型",
@@ -91,6 +95,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": "gpt-3-5",
       "evidence": {
         "名称": "这个模型的全称是 GPT-4，属于 GPT 系列",
         "属性": "它由 OpenAI 开发，是闭源模型",
@@ -108,6 +113,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": "gpt-4",
       "evidence": {
         "名称": "这个模型的全称是 GPT-4 Turbo，属于 GPT 系列，也常写作 GPT-4Turbo",
         "属性": "它由 OpenAI 开发，是闭源模型",
@@ -125,6 +131,7 @@
       "open_source": false,
       "year": "2024",
       "note": "多模态",
+      "predecessor": "gpt-4-turbo",
       "evidence": {
         "名称": "这个模型的全称是 GPT-4o，属于 GPT 系列，也常被称作GPT-4 Omni、Omni",
         "属性": "它由 OpenAI 开发，是闭源模型，多模态",
@@ -142,6 +149,7 @@
       "open_source": false,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "gpt-4o",
       "evidence": {
         "名称": "这个模型的全称是 GPT-4o mini，属于 GPT 系列，也常写作 GPT-4omini",
         "属性": "它由 OpenAI 开发，是闭源模型，轻量",
@@ -159,6 +167,7 @@
       "open_source": false,
       "year": "2025",
       "note": "",
+      "predecessor": "gpt-4o-mini",
       "evidence": {
         "名称": "这个模型的全称是 GPT-4.1，属于 GPT 系列",
         "属性": "它由 OpenAI 开发，是闭源模型",
@@ -176,6 +185,7 @@
       "open_source": false,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "gpt-4-1",
       "evidence": {
         "名称": "这个模型的全称是 GPT-4.1 mini，属于 GPT 系列，也常写作 GPT-4.1mini",
         "属性": "它由 OpenAI 开发，是闭源模型，轻量",
@@ -193,6 +203,7 @@
       "open_source": false,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "gpt-4-1-mini",
       "evidence": {
         "名称": "这个模型的全称是 GPT-4.1 nano，属于 GPT 系列，也常写作 GPT-4.1nano",
         "属性": "它由 OpenAI 开发，是闭源模型，轻量",
@@ -210,6 +221,7 @@
       "open_source": false,
       "year": "2025",
       "note": "前沿旗舰",
+      "predecessor": "gpt-4-1-nano",
       "evidence": {
         "名称": "这个模型的全称是 GPT-5，属于 GPT 系列",
         "属性": "它由 OpenAI 开发，是闭源模型，前沿旗舰",
@@ -227,6 +239,7 @@
       "open_source": false,
       "year": "2026",
       "note": "",
+      "predecessor": "gpt-5",
       "evidence": {
         "名称": "这个模型的全称是 GPT-5.1，属于 GPT 系列",
         "属性": "它由 OpenAI 开发，是闭源模型",
@@ -244,6 +257,7 @@
       "open_source": false,
       "year": "2026",
       "note": "当前前沿闭源旗舰",
+      "predecessor": "gpt-5-1",
       "evidence": {
         "名称": "这个模型的全称是 GPT-5.2，属于 GPT 系列，也常被称作GPT-5 最新版",
         "属性": "它由 OpenAI 开发，是闭源模型，当前前沿闭源旗舰",
@@ -261,6 +275,7 @@
       "open_source": false,
       "year": "2024",
       "note": "推理",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 o1，属于 o 推理 系列",
         "属性": "它由 OpenAI 开发，是闭源模型，推理",
@@ -278,6 +293,7 @@
       "open_source": false,
       "year": "2024",
       "note": "推理轻量",
+      "predecessor": "o1",
       "evidence": {
         "名称": "这个模型的全称是 o1-mini，属于 o 推理 系列",
         "属性": "它由 OpenAI 开发，是闭源模型，推理轻量",
@@ -295,6 +311,7 @@
       "open_source": false,
       "year": "2025",
       "note": "推理",
+      "predecessor": "o1-mini",
       "evidence": {
         "名称": "这个模型的全称是 o3，属于 o 推理 系列，也常被称作OpenAI o3",
         "属性": "它由 OpenAI 开发，是闭源模型，推理",
@@ -312,6 +329,7 @@
       "open_source": false,
       "year": "2025",
       "note": "推理轻量",
+      "predecessor": "o3",
       "evidence": {
         "名称": "这个模型的全称是 o3-mini，属于 o 推理 系列",
         "属性": "它由 OpenAI 开发，是闭源模型，推理轻量",
@@ -329,6 +347,7 @@
       "open_source": false,
       "year": "2026",
       "note": "推理",
+      "predecessor": "o3-mini",
       "evidence": {
         "名称": "这个模型的全称是 o4，属于 o 推理 系列，也常被称作OpenAI o4",
         "属性": "它由 OpenAI 开发，是闭源模型，推理",
@@ -346,6 +365,7 @@
       "open_source": false,
       "year": "2026",
       "note": "推理轻量",
+      "predecessor": "o4",
       "evidence": {
         "名称": "这个模型的全称是 o4-mini，属于 o 推理 系列",
         "属性": "它由 OpenAI 开发，是闭源模型，推理轻量",
@@ -363,6 +383,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Claude 1，属于 Claude 系列，也常写作 Claude1",
         "属性": "它由 Anthropic 开发，是闭源模型",
@@ -380,6 +401,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": "claude-1",
       "evidence": {
         "名称": "这个模型的全称是 Claude 2，属于 Claude 系列，也常写作 Claude2",
         "属性": "它由 Anthropic 开发，是闭源模型",
@@ -397,6 +419,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": "claude-2",
       "evidence": {
         "名称": "这个模型的全称是 Claude 2.1，属于 Claude 系列，也常写作 Claude2.1",
         "属性": "它由 Anthropic 开发，是闭源模型",
@@ -414,6 +437,7 @@
       "open_source": false,
       "year": "2024",
       "note": "旗舰",
+      "predecessor": "claude-2-1",
       "evidence": {
         "名称": "这个模型的全称是 Claude 3 Opus，属于 Claude 系列，也常写作 Claude3Opus",
         "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
@@ -431,6 +455,7 @@
       "open_source": false,
       "year": "2024",
       "note": "均衡",
+      "predecessor": "claude-3-opus",
       "evidence": {
         "名称": "这个模型的全称是 Claude 3 Sonnet，属于 Claude 系列，也常写作 Claude3Sonnet",
         "属性": "它由 Anthropic 开发，是闭源模型，均衡",
@@ -448,6 +473,7 @@
       "open_source": false,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "claude-3-sonnet",
       "evidence": {
         "名称": "这个模型的全称是 Claude 3 Haiku，属于 Claude 系列，也常写作 Claude3Haiku",
         "属性": "它由 Anthropic 开发，是闭源模型，轻量",
@@ -465,6 +491,7 @@
       "open_source": false,
       "year": "2024",
       "note": "均衡",
+      "predecessor": "claude-3-haiku",
       "evidence": {
         "名称": "这个模型的全称是 Claude 3.5 Sonnet，属于 Claude 系列，也常写作 Claude3.5Sonnet",
         "属性": "它由 Anthropic 开发，是闭源模型，均衡",
@@ -482,6 +509,7 @@
       "open_source": false,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "claude-3-5-sonnet",
       "evidence": {
         "名称": "这个模型的全称是 Claude 3.5 Haiku，属于 Claude 系列，也常写作 Claude3.5Haiku",
         "属性": "它由 Anthropic 开发，是闭源模型，轻量",
@@ -499,6 +527,7 @@
       "open_source": false,
       "year": "2025",
       "note": "旗舰",
+      "predecessor": "claude-3-5-haiku",
       "evidence": {
         "名称": "这个模型的全称是 Claude Opus 4，属于 Claude 系列，也常写作 ClaudeOpus4",
         "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
@@ -516,6 +545,7 @@
       "open_source": false,
       "year": "2025",
       "note": "均衡",
+      "predecessor": "claude-opus-4",
       "evidence": {
         "名称": "这个模型的全称是 Claude Sonnet 4，属于 Claude 系列，也常写作 ClaudeSonnet4",
         "属性": "它由 Anthropic 开发，是闭源模型，均衡",
@@ -533,6 +563,7 @@
       "open_source": false,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "claude-sonnet-4",
       "evidence": {
         "名称": "这个模型的全称是 Claude Haiku 4，属于 Claude 系列，也常写作 ClaudeHaiku4",
         "属性": "它由 Anthropic 开发，是闭源模型，轻量",
@@ -550,6 +581,7 @@
       "open_source": false,
       "year": "2025",
       "note": "旗舰",
+      "predecessor": "claude-haiku-4",
       "evidence": {
         "名称": "这个模型的全称是 Claude Opus 4.5，属于 Claude 系列，也常写作 ClaudeOpus4.5",
         "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
@@ -567,6 +599,7 @@
       "open_source": false,
       "year": "2025",
       "note": "均衡",
+      "predecessor": "claude-opus-4-5",
       "evidence": {
         "名称": "这个模型的全称是 Claude Sonnet 4.5，属于 Claude 系列，也常写作 ClaudeSonnet4.5",
         "属性": "它由 Anthropic 开发，是闭源模型，均衡",
@@ -584,6 +617,7 @@
       "open_source": false,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "claude-sonnet-4-5",
       "evidence": {
         "名称": "这个模型的全称是 Claude Haiku 4.5，属于 Claude 系列，也常写作 ClaudeHaiku4.5",
         "属性": "它由 Anthropic 开发，是闭源模型，轻量",
@@ -601,6 +635,7 @@
       "open_source": false,
       "year": "2026",
       "note": "旗舰",
+      "predecessor": "claude-haiku-4-5",
       "evidence": {
         "名称": "这个模型的全称是 Claude Opus 4.7，属于 Claude 系列，也常写作 ClaudeOpus4.7，也常被称作Opus 4.7",
         "属性": "它由 Anthropic 开发，是闭源模型，旗舰",
@@ -618,6 +653,7 @@
       "open_source": false,
       "year": "2026",
       "note": "SWE-bench 领先",
+      "predecessor": "claude-opus-4-7",
       "evidence": {
         "名称": "这个模型的全称是 Claude Opus 4.8，属于 Claude 系列，也常写作 ClaudeOpus4.8，也常被称作Claude 4.8、Opus 4.8",
         "属性": "它由 Anthropic 开发，是闭源模型，SWE-bench 领先",
@@ -635,6 +671,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Gemini 1.0，属于 Gemini 系列，也常写作 Gemini1.0",
         "属性": "它由 Google 开发，是闭源模型",
@@ -652,6 +689,7 @@
       "open_source": false,
       "year": "2024",
       "note": "旗舰",
+      "predecessor": "gemini-1-0",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 1.5 Pro，属于 Gemini 系列，也常写作 Gemini1.5Pro",
         "属性": "它由 Google 开发，是闭源模型，旗舰",
@@ -669,6 +707,7 @@
       "open_source": false,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "gemini-1-5-pro",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 1.5 Flash，属于 Gemini 系列，也常写作 Gemini1.5Flash",
         "属性": "它由 Google 开发，是闭源模型，轻量",
@@ -686,6 +725,7 @@
       "open_source": false,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "gemini-1-5-flash",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 2.0 Flash，属于 Gemini 系列，也常写作 Gemini2.0Flash",
         "属性": "它由 Google 开发，是闭源模型，轻量",
@@ -703,6 +743,7 @@
       "open_source": false,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "gemini-2-0-flash",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 2.0 Flash-Lite，属于 Gemini 系列，也常写作 Gemini2.0Flash-Lite",
         "属性": "它由 Google 开发，是闭源模型，轻量",
@@ -720,6 +761,7 @@
       "open_source": false,
       "year": "2025",
       "note": "旗舰",
+      "predecessor": "gemini-2-0-flash-lite",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 2.0 Pro，属于 Gemini 系列，也常写作 Gemini2.0Pro",
         "属性": "它由 Google 开发，是闭源模型，旗舰",
@@ -737,6 +779,7 @@
       "open_source": false,
       "year": "2025",
       "note": "旗舰",
+      "predecessor": "gemini-2-0-pro",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 2.5 Pro，属于 Gemini 系列，也常写作 Gemini2.5Pro",
         "属性": "它由 Google 开发，是闭源模型，旗舰",
@@ -754,6 +797,7 @@
       "open_source": false,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "gemini-2-5-pro",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 2.5 Flash，属于 Gemini 系列，也常写作 Gemini2.5Flash",
         "属性": "它由 Google 开发，是闭源模型，轻量",
@@ -771,6 +815,7 @@
       "open_source": false,
       "year": "2025",
       "note": "旗舰",
+      "predecessor": "gemini-2-5-flash",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 3 Pro，属于 Gemini 系列，也常写作 Gemini3Pro",
         "属性": "它由 Google 开发，是闭源模型，旗舰",
@@ -788,6 +833,7 @@
       "open_source": false,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "gemini-3-pro",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 3 Flash，属于 Gemini 系列，也常写作 Gemini3Flash",
         "属性": "它由 Google 开发，是闭源模型，轻量",
@@ -805,6 +851,7 @@
       "open_source": false,
       "year": "2026",
       "note": "代理编码旗舰",
+      "predecessor": "gemini-3-flash",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 3.5 Pro，属于 Gemini 系列，也常写作 Gemini3.5Pro，也常被称作Gemini 3.5 旗舰",
         "属性": "它由 Google 开发，是闭源模型，代理编码旗舰",
@@ -822,6 +869,7 @@
       "open_source": false,
       "year": "2026",
       "note": "最快代理编码",
+      "predecessor": "gemini-3-5-pro",
       "evidence": {
         "名称": "这个模型的全称是 Gemini 3.5 Flash，属于 Gemini 系列，也常写作 Gemini3.5Flash，也常被称作Gemini Flash 3.5",
         "属性": "它由 Google 开发，是闭源模型，最快代理编码",
@@ -839,6 +887,7 @@
       "open_source": true,
       "year": "2023",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Llama 1，属于 Llama 系列，也常写作 Llama1",
         "属性": "它由 Meta 开发，是开源模型",
@@ -856,6 +905,7 @@
       "open_source": true,
       "year": "2023",
       "note": "",
+      "predecessor": "llama-1",
       "evidence": {
         "名称": "这个模型的全称是 Llama 2，属于 Llama 系列，也常写作 Llama2",
         "属性": "它由 Meta 开发，是开源模型",
@@ -873,6 +923,7 @@
       "open_source": true,
       "year": "2023",
       "note": "轻量",
+      "predecessor": "llama-2",
       "evidence": {
         "名称": "这个模型的全称是 Llama 2 7B，属于 Llama 系列，也常写作 Llama27B",
         "属性": "它由 Meta 开发，是开源模型，轻量",
@@ -890,6 +941,7 @@
       "open_source": true,
       "year": "2023",
       "note": "均衡",
+      "predecessor": "llama-2-7b",
       "evidence": {
         "名称": "这个模型的全称是 Llama 2 13B，属于 Llama 系列，也常写作 Llama213B",
         "属性": "它由 Meta 开发，是开源模型，均衡",
@@ -907,6 +959,7 @@
       "open_source": true,
       "year": "2023",
       "note": "旗舰",
+      "predecessor": "llama-2-13b",
       "evidence": {
         "名称": "这个模型的全称是 Llama 2 70B，属于 Llama 系列，也常写作 Llama270B",
         "属性": "它由 Meta 开发，是开源模型，旗舰",
@@ -924,6 +977,7 @@
       "open_source": true,
       "year": "2024",
       "note": "",
+      "predecessor": "llama-2-70b",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3，属于 Llama 系列，也常写作 Llama3",
         "属性": "它由 Meta 开发，是开源模型",
@@ -941,6 +995,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "llama-3",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3 8B，属于 Llama 系列，也常写作 Llama38B",
         "属性": "它由 Meta 开发，是开源模型，轻量",
@@ -958,6 +1013,7 @@
       "open_source": true,
       "year": "2024",
       "note": "旗舰",
+      "predecessor": "llama-3-8b",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3 70B，属于 Llama 系列，也常写作 Llama370B",
         "属性": "它由 Meta 开发，是开源模型，旗舰",
@@ -975,6 +1031,7 @@
       "open_source": true,
       "year": "2024",
       "note": "",
+      "predecessor": "llama-3-70b",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.1，属于 Llama 系列，也常写作 Llama3.1，也常被称作Llama 3.1 405B",
         "属性": "它由 Meta 开发，是开源模型",
@@ -992,6 +1049,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "llama-3-1",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.1 8B，属于 Llama 系列，也常写作 Llama3.18B",
         "属性": "它由 Meta 开发，是开源模型，轻量",
@@ -1009,6 +1067,7 @@
       "open_source": true,
       "year": "2024",
       "note": "均衡",
+      "predecessor": "llama-3-1-8b",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.1 70B，属于 Llama 系列，也常写作 Llama3.170B",
         "属性": "它由 Meta 开发，是开源模型，均衡",
@@ -1026,6 +1085,7 @@
       "open_source": true,
       "year": "2024",
       "note": "旗舰",
+      "predecessor": "llama-3-1-70b",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.1 405B，属于 Llama 系列，也常写作 Llama3.1405B",
         "属性": "它由 Meta 开发，是开源模型，旗舰",
@@ -1043,6 +1103,7 @@
       "open_source": true,
       "year": "2024",
       "note": "多模态",
+      "predecessor": "llama-3-1-405b",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.2，属于 Llama 系列，也常写作 Llama3.2",
         "属性": "它由 Meta 开发，是开源模型，多模态",
@@ -1060,6 +1121,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "llama-3-2",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.2 1B，属于 Llama 系列，也常写作 Llama3.21B",
         "属性": "它由 Meta 开发，是开源模型，轻量",
@@ -1077,6 +1139,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "llama-3-2-1b",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.2 3B，属于 Llama 系列，也常写作 Llama3.23B",
         "属性": "它由 Meta 开发，是开源模型，轻量",
@@ -1094,6 +1157,7 @@
       "open_source": true,
       "year": "2024",
       "note": "均衡",
+      "predecessor": "llama-3-2-3b",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.2 11B，属于 Llama 系列，也常写作 Llama3.211B",
         "属性": "它由 Meta 开发，是开源模型，均衡",
@@ -1111,6 +1175,7 @@
       "open_source": true,
       "year": "2024",
       "note": "70B 旗舰",
+      "predecessor": "llama-3-2-11b",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.3，属于 Llama 系列，也常写作 Llama3.3",
         "属性": "它由 Meta 开发，是开源模型，70B 旗舰",
@@ -1128,6 +1193,7 @@
       "open_source": true,
       "year": "2026",
       "note": "轻量开源",
+      "predecessor": "llama-3-3",
       "evidence": {
         "名称": "这个模型的全称是 Llama 4 Scout，属于 Llama 系列，也常写作 Llama4Scout",
         "属性": "它由 Meta 开发，是开源模型，轻量开源",
@@ -1145,6 +1211,7 @@
       "open_source": true,
       "year": "2026",
       "note": "均衡开源",
+      "predecessor": "llama-4-scout",
       "evidence": {
         "名称": "这个模型的全称是 Llama 4 Maverick，属于 Llama 系列，也常写作 Llama4Maverick",
         "属性": "它由 Meta 开发，是开源模型，均衡开源",
@@ -1162,6 +1229,7 @@
       "open_source": true,
       "year": "2026",
       "note": "开源多模态旗舰",
+      "predecessor": "llama-4-maverick",
       "evidence": {
         "名称": "这个模型的全称是 Llama 4，属于 Llama 系列，也常写作 Llama4，也常被称作Meta Llama 4",
         "属性": "它由 Meta 开发，是开源模型，开源多模态旗舰",
@@ -1179,6 +1247,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Grok 1，属于 Grok 系列，也常写作 Grok1",
         "属性": "它由 xAI 开发，是闭源模型",
@@ -1196,6 +1265,7 @@
       "open_source": false,
       "year": "2024",
       "note": "",
+      "predecessor": "grok-1",
       "evidence": {
         "名称": "这个模型的全称是 Grok 1.5，属于 Grok 系列，也常写作 Grok1.5",
         "属性": "它由 xAI 开发，是闭源模型",
@@ -1213,6 +1283,7 @@
       "open_source": false,
       "year": "2024",
       "note": "",
+      "predecessor": "grok-1-5",
       "evidence": {
         "名称": "这个模型的全称是 Grok 2，属于 Grok 系列，也常写作 Grok2",
         "属性": "它由 xAI 开发，是闭源模型",
@@ -1230,6 +1301,7 @@
       "open_source": false,
       "year": "2025",
       "note": "",
+      "predecessor": "grok-2",
       "evidence": {
         "名称": "这个模型的全称是 Grok 2.5，属于 Grok 系列，也常写作 Grok2.5",
         "属性": "它由 xAI 开发，是闭源模型",
@@ -1247,6 +1319,7 @@
       "open_source": false,
       "year": "2025",
       "note": "旗舰",
+      "predecessor": "grok-2-5",
       "evidence": {
         "名称": "这个模型的全称是 Grok 3，属于 Grok 系列，也常写作 Grok3",
         "属性": "它由 xAI 开发，是闭源模型，旗舰",
@@ -1264,6 +1337,7 @@
       "open_source": false,
       "year": "2025",
       "note": "旗舰",
+      "predecessor": "grok-3",
       "evidence": {
         "名称": "这个模型的全称是 Grok 4，属于 Grok 系列，也常写作 Grok4",
         "属性": "它由 xAI 开发，是闭源模型，旗舰",
@@ -1281,6 +1355,7 @@
       "open_source": false,
       "year": "2026",
       "note": "旗舰",
+      "predecessor": "grok-4",
       "evidence": {
         "名称": "这个模型的全称是 Grok 5，属于 Grok 系列，也常写作 Grok5，也常被称作xAI Grok 5",
         "属性": "它由 xAI 开发，是闭源模型，旗舰",
@@ -1298,6 +1373,7 @@
       "open_source": true,
       "year": "2023",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Mistral 7B，属于 Mistral 系列，也常写作 Mistral7B",
         "属性": "它由 Mistral AI 开发，是开源模型",
@@ -1315,6 +1391,7 @@
       "open_source": true,
       "year": "2023",
       "note": "MoE",
+      "predecessor": "mistral-7b",
       "evidence": {
         "名称": "这个模型的全称是 Mixtral 8x7B，属于 Mistral 系列，也常写作 Mixtral8x7B",
         "属性": "它由 Mistral AI 开发，是开源模型，MoE",
@@ -1332,6 +1409,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "mixtral-8x7b",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Small，属于 Mistral 系列，也常写作 MistralSmall",
         "属性": "它由 Mistral AI 开发，是开源模型，轻量",
@@ -1349,6 +1427,7 @@
       "open_source": true,
       "year": "2024",
       "note": "均衡",
+      "predecessor": "mistral-small",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Medium，属于 Mistral 系列，也常写作 MistralMedium",
         "属性": "它由 Mistral AI 开发，是开源模型，均衡",
@@ -1366,6 +1445,7 @@
       "open_source": true,
       "year": "2024",
       "note": "旗舰",
+      "predecessor": "mistral-medium",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Large 2，属于 Mistral 系列，也常写作 MistralLarge2",
         "属性": "它由 Mistral AI 开发，是开源模型，旗舰",
@@ -1383,6 +1463,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "mistral-large-2",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Nemo，属于 Mistral 系列，也常写作 MistralNemo",
         "属性": "它由 Mistral AI 开发，是开源模型，轻量",
@@ -1400,6 +1481,7 @@
       "open_source": true,
       "year": "2024",
       "note": "编程",
+      "predecessor": "mistral-nemo",
       "evidence": {
         "名称": "这个模型的全称是 Codestral，属于 Mistral 系列",
         "属性": "它由 Mistral AI 开发，是开源模型，编程",
@@ -1417,6 +1499,7 @@
       "open_source": true,
       "year": "2024",
       "note": "数学",
+      "predecessor": "codestral",
       "evidence": {
         "名称": "这个模型的全称是 Mathstral，属于 Mistral 系列",
         "属性": "它由 Mistral AI 开发，是开源模型，数学",
@@ -1434,6 +1517,7 @@
       "open_source": true,
       "year": "2025",
       "note": "旗舰",
+      "predecessor": "mathstral",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Large 3，属于 Mistral 系列，也常写作 MistralLarge3，也常被称作Mistral Large 最新版",
         "属性": "它由 Mistral AI 开发，是开源模型，旗舰",
@@ -1451,6 +1535,7 @@
       "open_source": true,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "mistral-large-3",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Small 3，属于 Mistral 系列，也常写作 MistralSmall3",
         "属性": "它由 Mistral AI 开发，是开源模型，轻量",
@@ -1468,6 +1553,7 @@
       "open_source": true,
       "year": "2026",
       "note": "轻量",
+      "predecessor": "mistral-small-3",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Small 3.1，属于 Mistral 系列，也常写作 MistralSmall3.1",
         "属性": "它由 Mistral AI 开发，是开源模型，轻量",
@@ -1485,6 +1571,7 @@
       "open_source": true,
       "year": "2024",
       "note": "MoE",
+      "predecessor": "mistral-small-3-1",
       "evidence": {
         "名称": "这个模型的全称是 Mixtral 8x22B，属于 Mistral 系列，也常写作 Mixtral8x22B",
         "属性": "它由 Mistral AI 开发，是开源模型，MoE",
@@ -1502,6 +1589,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "mixtral-8x22b",
       "evidence": {
         "名称": "这个模型的全称是 Mistral 7B v0.3，属于 Mistral 系列，也常写作 Mistral7Bv0.3",
         "属性": "它由 Mistral AI 开发，是开源模型，开源",
@@ -1519,6 +1607,7 @@
       "open_source": true,
       "year": "2023",
       "note": "轻量",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Phi-1，属于 Phi 系列",
         "属性": "它由 Microsoft 开发，是开源模型，轻量",
@@ -1536,6 +1625,7 @@
       "open_source": true,
       "year": "2023",
       "note": "轻量",
+      "predecessor": "phi-1",
       "evidence": {
         "名称": "这个模型的全称是 Phi-1.5，属于 Phi 系列",
         "属性": "它由 Microsoft 开发，是开源模型，轻量",
@@ -1553,6 +1643,7 @@
       "open_source": true,
       "year": "2023",
       "note": "轻量",
+      "predecessor": "phi-1-5",
       "evidence": {
         "名称": "这个模型的全称是 Phi-2，属于 Phi 系列",
         "属性": "它由 Microsoft 开发，是开源模型，轻量",
@@ -1570,6 +1661,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "phi-2",
       "evidence": {
         "名称": "这个模型的全称是 Phi-3-mini，属于 Phi 系列，也常被称作Phi-3",
         "属性": "它由 Microsoft 开发，是开源模型，轻量",
@@ -1587,6 +1679,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "phi-3-mini",
       "evidence": {
         "名称": "这个模型的全称是 Phi-3-small，属于 Phi 系列",
         "属性": "它由 Microsoft 开发，是开源模型，轻量",
@@ -1604,6 +1697,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "phi-3-small",
       "evidence": {
         "名称": "这个模型的全称是 Phi-3.5，属于 Phi 系列",
         "属性": "它由 Microsoft 开发，是开源模型，轻量",
@@ -1621,6 +1715,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "phi-3-5",
       "evidence": {
         "名称": "这个模型的全称是 Phi-4，属于 Phi 系列",
         "属性": "它由 Microsoft 开发，是开源模型，轻量",
@@ -1638,6 +1733,7 @@
       "open_source": false,
       "year": "2024",
       "note": "轻量",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Nova Lite，属于 Nova 系列，也常写作 NovaLite",
         "属性": "它由 Amazon 开发，是闭源模型，轻量",
@@ -1655,6 +1751,7 @@
       "open_source": false,
       "year": "2024",
       "note": "均衡",
+      "predecessor": "nova-lite",
       "evidence": {
         "名称": "这个模型的全称是 Nova Pro，属于 Nova 系列，也常写作 NovaPro",
         "属性": "它由 Amazon 开发，是闭源模型，均衡",
@@ -1672,6 +1769,7 @@
       "open_source": false,
       "year": "2024",
       "note": "旗舰",
+      "predecessor": "nova-pro",
       "evidence": {
         "名称": "这个模型的全称是 Nova Premier，属于 Nova 系列，也常写作 NovaPremier",
         "属性": "它由 Amazon 开发，是闭源模型，旗舰",
@@ -1689,6 +1787,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Nemotron-4，属于 Nemotron 系列",
         "属性": "它由 NVIDIA 开发，是开源模型，开源",
@@ -1706,6 +1805,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "nemotron-4",
       "evidence": {
         "名称": "这个模型的全称是 Nemotron-4-340B，属于 Nemotron 系列",
         "属性": "它由 NVIDIA 开发，是开源模型，开源",
@@ -1723,6 +1823,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源",
+      "predecessor": "nemotron-4-340b",
       "evidence": {
         "名称": "这个模型的全称是 Nemotron-H，属于 Nemotron 系列，也常被称作英伟达Nemotron",
         "属性": "它由 NVIDIA 开发，是开源模型，开源",
@@ -1740,6 +1841,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Granite-7B，属于 Granite 系列",
         "属性": "它由 IBM 开发，是开源模型，开源",
@@ -1757,6 +1859,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": "granite-7b",
       "evidence": {
         "名称": "这个模型的全称是 Granite-13B，属于 Granite 系列",
         "属性": "它由 IBM 开发，是开源模型，开源",
@@ -1774,6 +1877,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "granite-13b",
       "evidence": {
         "名称": "这个模型的全称是 Granite-20B，属于 Granite 系列",
         "属性": "它由 IBM 开发，是开源模型，开源",
@@ -1791,6 +1895,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Command R，属于 Command 系列，也常写作 CommandR",
         "属性": "它由 Cohere 开发，是开源模型，开源",
@@ -1808,6 +1913,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "command-r",
       "evidence": {
         "名称": "这个模型的全称是 Command R+，属于 Command 系列，也常写作 CommandR+",
         "属性": "它由 Cohere 开发，是开源模型，开源",
@@ -1825,6 +1931,7 @@
       "open_source": true,
       "year": "2025",
       "note": "旗舰",
+      "predecessor": "command-r+",
       "evidence": {
         "名称": "这个模型的全称是 Command A，属于 Command 系列，也常写作 CommandA，也常被称作Cohere Command A",
         "属性": "它由 Cohere 开发，是开源模型，旗舰",
@@ -1842,6 +1949,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 DBRX，属于 DBRX 系列",
         "属性": "它由 Databricks 开发，是开源模型，开源",
@@ -1859,6 +1967,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Jamba，属于 Jamba 系列",
         "属性": "它由 AI21 开发，是开源模型，开源",
@@ -1876,6 +1985,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "jamba",
       "evidence": {
         "名称": "这个模型的全称是 Jamba 1.5，属于 Jamba 系列，也常写作 Jamba1.5",
         "属性": "它由 AI21 开发，是开源模型，开源",
@@ -1893,6 +2003,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 OpenELM，属于 Apple 系列",
         "属性": "它由 Apple 开发，是开源模型，开源",
@@ -1910,6 +2021,7 @@
       "open_source": true,
       "year": "2025",
       "note": "闭源",
+      "predecessor": "openelm",
       "evidence": {
         "名称": "这个模型的全称是 Apple Foundation Model，属于 Apple 系列，也常写作 AppleFoundationModel",
         "属性": "它由 Apple 开发，是开源模型，闭源",
@@ -1927,6 +2039,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Falcon-40B，属于 Falcon 系列",
         "属性": "它由 TII 开发，是开源模型，开源",
@@ -1944,6 +2057,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": "falcon-40b",
       "evidence": {
         "名称": "这个模型的全称是 Falcon-180B，属于 Falcon 系列",
         "属性": "它由 TII 开发，是开源模型，开源",
@@ -1961,6 +2075,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "falcon-180b",
       "evidence": {
         "名称": "这个模型的全称是 Falcon-3，属于 Falcon 系列",
         "属性": "它由 TII 开发，是开源模型，开源",
@@ -1978,6 +2093,7 @@
       "open_source": false,
       "year": "2023",
       "note": "闭源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 HyperCLOVA X，属于 HyperCLOVA 系列，也常写作 HyperCLOVAX",
         "属性": "它由 Naver 开发，是闭源模型，闭源",
@@ -1995,6 +2111,7 @@
       "open_source": false,
       "year": "2025",
       "note": "闭源",
+      "predecessor": "hyperclova-x",
       "evidence": {
         "名称": "这个模型的全称是 HyperCLOVA X2，属于 HyperCLOVA 系列，也常写作 HyperCLOVAX2",
         "属性": "它由 Naver 开发，是闭源模型，闭源",
@@ -2012,6 +2129,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 EXAONE 1.0，属于 EXAONE 系列，也常写作 EXAONE1.0",
         "属性": "它由 LG 开发，是开源模型，开源",
@@ -2029,6 +2147,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源",
+      "predecessor": "exaone-1-0",
       "evidence": {
         "名称": "这个模型的全称是 EXAONE 2.0，属于 EXAONE 系列，也常写作 EXAONE2.0",
         "属性": "它由 LG 开发，是开源模型，开源",
@@ -2046,6 +2165,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源",
+      "predecessor": "exaone-2-0",
       "evidence": {
         "名称": "这个模型的全称是 EXAONE 3.0，属于 EXAONE 系列，也常写作 EXAONE3.0",
         "属性": "它由 LG 开发，是开源模型，开源",
@@ -2063,6 +2183,7 @@
       "open_source": true,
       "year": "2023",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Qwen 1，属于 Qwen 系列，也常写作 Qwen1",
         "属性": "它由 阿里巴巴 开发，是开源模型",
@@ -2080,6 +2201,7 @@
       "open_source": true,
       "year": "2024",
       "note": "",
+      "predecessor": "qwen-1",
       "evidence": {
         "名称": "这个模型的全称是 Qwen 1.5，属于 Qwen 系列，也常写作 Qwen1.5",
         "属性": "它由 阿里巴巴 开发，是开源模型",
@@ -2097,6 +2219,7 @@
       "open_source": true,
       "year": "2024",
       "note": "",
+      "predecessor": "qwen-1-5",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型",
@@ -2114,6 +2237,7 @@
       "open_source": true,
       "year": "2024",
       "note": "",
+      "predecessor": "qwen2",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型",
@@ -2131,6 +2255,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "qwen2-5",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5 0.5B，属于 Qwen 系列，也常写作 Qwen2.50.5B",
         "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
@@ -2148,6 +2273,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "qwen2-5-0-5b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5 1.5B，属于 Qwen 系列，也常写作 Qwen2.51.5B",
         "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
@@ -2165,6 +2291,7 @@
       "open_source": true,
       "year": "2024",
       "note": "轻量",
+      "predecessor": "qwen2-5-1-5b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5 3B，属于 Qwen 系列，也常写作 Qwen2.53B",
         "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
@@ -2182,6 +2309,7 @@
       "open_source": true,
       "year": "2024",
       "note": "均衡",
+      "predecessor": "qwen2-5-3b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5 7B，属于 Qwen 系列，也常写作 Qwen2.57B",
         "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
@@ -2199,6 +2327,7 @@
       "open_source": true,
       "year": "2024",
       "note": "均衡",
+      "predecessor": "qwen2-5-7b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5 14B，属于 Qwen 系列，也常写作 Qwen2.514B",
         "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
@@ -2216,6 +2345,7 @@
       "open_source": true,
       "year": "2025",
       "note": "旗舰",
+      "predecessor": "qwen2-5-14b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5 32B，属于 Qwen 系列，也常写作 Qwen2.532B",
         "属性": "它由 阿里巴巴 开发，是开源模型，旗舰",
@@ -2233,6 +2363,7 @@
       "open_source": true,
       "year": "2025",
       "note": "旗舰",
+      "predecessor": "qwen2-5-32b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5 72B，属于 Qwen 系列，也常写作 Qwen2.572B",
         "属性": "它由 阿里巴巴 开发，是开源模型，旗舰",
@@ -2250,6 +2381,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源旗舰",
+      "predecessor": "qwen2-5-72b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
@@ -2267,6 +2399,7 @@
       "open_source": true,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "qwen3",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3 0.6B，属于 Qwen 系列，也常写作 Qwen30.6B",
         "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
@@ -2284,6 +2417,7 @@
       "open_source": true,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "qwen3-0-6b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3 1.7B，属于 Qwen 系列，也常写作 Qwen31.7B",
         "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
@@ -2301,6 +2435,7 @@
       "open_source": true,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "qwen3-1-7b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3 4B，属于 Qwen 系列，也常写作 Qwen34B",
         "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
@@ -2318,6 +2453,7 @@
       "open_source": true,
       "year": "2025",
       "note": "均衡",
+      "predecessor": "qwen3-4b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3 8B，属于 Qwen 系列，也常写作 Qwen38B",
         "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
@@ -2335,6 +2471,7 @@
       "open_source": true,
       "year": "2025",
       "note": "均衡",
+      "predecessor": "qwen3-8b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3 14B，属于 Qwen 系列，也常写作 Qwen314B",
         "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
@@ -2352,6 +2489,7 @@
       "open_source": true,
       "year": "2026",
       "note": "旗舰",
+      "predecessor": "qwen3-14b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3 32B，属于 Qwen 系列，也常写作 Qwen332B",
         "属性": "它由 阿里巴巴 开发，是开源模型，旗舰",
@@ -2369,6 +2507,7 @@
       "open_source": true,
       "year": "2026",
       "note": "超大型",
+      "predecessor": "qwen3-32b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3 235B，属于 Qwen 系列，也常写作 Qwen3235B",
         "属性": "它由 阿里巴巴 开发，是开源模型，超大型",
@@ -2386,6 +2525,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源旗舰",
+      "predecessor": "qwen3-235b",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3.5，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
@@ -2403,6 +2543,7 @@
       "open_source": true,
       "year": "2026",
       "note": "开源旗舰",
+      "predecessor": "qwen3-5",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3.6，属于 Qwen 系列，也常被称作千问3.6、通义千问3.6",
         "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
@@ -2420,6 +2561,7 @@
       "open_source": true,
       "year": "2026",
       "note": "闭源国产旗舰第一",
+      "predecessor": "qwen3-6",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3.7-Max，属于 Qwen 系列，也常被称作千问3.7、通义千问3.7",
         "属性": "它由 阿里巴巴 开发，是开源模型，闭源国产旗舰第一",
@@ -2437,6 +2579,7 @@
       "open_source": true,
       "year": "2024",
       "note": "多模态",
+      "predecessor": "qwen3-7-max",
       "evidence": {
         "名称": "这个模型的全称是 Qwen-VL，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
@@ -2454,6 +2597,7 @@
       "open_source": true,
       "year": "2024",
       "note": "编程",
+      "predecessor": "qwen-vl",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5-Coder，属于 Qwen 系列，也常被称作通义代码模型",
         "属性": "它由 阿里巴巴 开发，是开源模型，编程",
@@ -2471,6 +2615,7 @@
       "open_source": true,
       "year": "2024",
       "note": "数学",
+      "predecessor": "qwen2-5-coder",
       "evidence": {
         "名称": "这个模型的全称是 Qwen2.5-Math，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型，数学",
@@ -2488,6 +2633,7 @@
       "open_source": true,
       "year": "2025",
       "note": "多模态",
+      "predecessor": "qwen2-5-math",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3-VL，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
@@ -2505,6 +2651,7 @@
       "open_source": true,
       "year": "2024",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V1，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型",
@@ -2522,6 +2669,7 @@
       "open_source": true,
       "year": "2024",
       "note": "MoE",
+      "predecessor": "deepseek-v1",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V2，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，MoE",
@@ -2539,6 +2687,7 @@
       "open_source": true,
       "year": "2024",
       "note": "",
+      "predecessor": "deepseek-v2",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V2.5，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型",
@@ -2556,6 +2705,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源旗舰",
+      "predecessor": "deepseek-v2-5",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V3，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
@@ -2573,6 +2723,7 @@
       "open_source": true,
       "year": "2025",
       "note": "推理",
+      "predecessor": "deepseek-v3",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-R1，属于 DeepSeek 系列，也常被称作深度求索R1",
         "属性": "它由 深度求索 开发，是开源模型，推理",
@@ -2590,6 +2741,7 @@
       "open_source": true,
       "year": "2025",
       "note": "推理",
+      "predecessor": "deepseek-r1",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-R1-Zero，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，推理",
@@ -2607,6 +2759,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源旗舰",
+      "predecessor": "deepseek-r1-zero",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V3.1，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
@@ -2624,6 +2777,7 @@
       "open_source": true,
       "year": "2025",
       "note": "编程",
+      "predecessor": "deepseek-v3-1",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-Coder，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，编程",
@@ -2641,6 +2795,7 @@
       "open_source": true,
       "year": "2025",
       "note": "MoE 超大型",
+      "predecessor": "deepseek-coder",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V3 671B，属于 DeepSeek 系列，也常写作 DeepSeek-V3671B",
         "属性": "它由 深度求索 开发，是开源模型，MoE 超大型",
@@ -2658,6 +2813,7 @@
       "open_source": true,
       "year": "2025",
       "note": "推理",
+      "predecessor": "deepseek-v3-671b",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-R1-0528，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，推理",
@@ -2675,6 +2831,7 @@
       "open_source": true,
       "year": "2024",
       "note": "编程",
+      "predecessor": "deepseek-r1-0528",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-Coder-V2，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，编程",
@@ -2692,6 +2849,7 @@
       "open_source": true,
       "year": "2026",
       "note": "开源旗舰",
+      "predecessor": "deepseek-coder-v2",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V4，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
@@ -2709,6 +2867,7 @@
       "open_source": true,
       "year": "2026",
       "note": "开源旗舰",
+      "predecessor": "deepseek-v4",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V4-Pro，属于 DeepSeek 系列，也常被称作DeepSeek V4 Pro、深度求索V4 Pro",
         "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
@@ -2726,6 +2885,7 @@
       "open_source": true,
       "year": "2026",
       "note": "推理",
+      "predecessor": "deepseek-v4-pro",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-R2，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，推理",
@@ -2743,6 +2903,7 @@
       "open_source": true,
       "year": "2024",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Kimi K1，属于 Kimi 系列，也常写作 KimiK1",
         "属性": "它由 月之暗面 开发，是开源模型",
@@ -2760,6 +2921,7 @@
       "open_source": true,
       "year": "2025",
       "note": "推理",
+      "predecessor": "kimi-k1",
       "evidence": {
         "名称": "这个模型的全称是 Kimi K1.5，属于 Kimi 系列，也常写作 KimiK1.5",
         "属性": "它由 月之暗面 开发，是开源模型，推理",
@@ -2777,6 +2939,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源",
+      "predecessor": "kimi-k1-5",
       "evidence": {
         "名称": "这个模型的全称是 Kimi K2，属于 Kimi 系列，也常写作 KimiK2",
         "属性": "它由 月之暗面 开发，是开源模型，开源",
@@ -2794,6 +2957,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源旗舰",
+      "predecessor": "kimi-k2",
       "evidence": {
         "名称": "这个模型的全称是 Kimi K2.5，属于 Kimi 系列，也常写作 KimiK2.5",
         "属性": "它由 月之暗面 开发，是开源模型，开源旗舰",
@@ -2811,6 +2975,7 @@
       "open_source": true,
       "year": "2026",
       "note": "开源旗舰",
+      "predecessor": "kimi-k2-5",
       "evidence": {
         "名称": "这个模型的全称是 Kimi-K2.6，属于 Kimi 系列，也常被称作Kimi K2.6、月之暗面K2.6",
         "属性": "它由 月之暗面 开发，是开源模型，开源旗舰",
@@ -2828,6 +2993,7 @@
       "open_source": true,
       "year": "2024",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 GLM-4，属于 GLM 系列",
         "属性": "它由 智谱AI 开发，是开源模型",
@@ -2845,6 +3011,7 @@
       "open_source": true,
       "year": "2025",
       "note": "",
+      "predecessor": "glm-4",
       "evidence": {
         "名称": "这个模型的全称是 GLM-4.5，属于 GLM 系列",
         "属性": "它由 智谱AI 开发，是开源模型",
@@ -2862,6 +3029,7 @@
       "open_source": true,
       "year": "2025",
       "note": "",
+      "predecessor": "glm-4-5",
       "evidence": {
         "名称": "这个模型的全称是 GLM-4.6，属于 GLM 系列",
         "属性": "它由 智谱AI 开发，是开源模型",
@@ -2879,6 +3047,7 @@
       "open_source": true,
       "year": "2026",
       "note": "开源",
+      "predecessor": "glm-4-6",
       "evidence": {
         "名称": "这个模型的全称是 GLM-4.7，属于 GLM 系列",
         "属性": "它由 智谱AI 开发，是开源模型，开源",
@@ -2896,6 +3065,7 @@
       "open_source": true,
       "year": "2025",
       "note": "",
+      "predecessor": "glm-4-7",
       "evidence": {
         "名称": "这个模型的全称是 GLM-5，属于 GLM 系列",
         "属性": "它由 智谱AI 开发，是开源模型",
@@ -2913,6 +3083,7 @@
       "open_source": true,
       "year": "2026",
       "note": "开源",
+      "predecessor": "glm-5",
       "evidence": {
         "名称": "这个模型的全称是 GLM-5.1，属于 GLM 系列，也常被称作智谱GLM 5.1",
         "属性": "它由 智谱AI 开发，是开源模型，开源",
@@ -2930,6 +3101,7 @@
       "open_source": true,
       "year": "2026",
       "note": "开源编程最强",
+      "predecessor": "glm-5-1",
       "evidence": {
         "名称": "这个模型的全称是 GLM-5.3，属于 GLM 系列，也常被称作智谱GLM 5.3",
         "属性": "它由 智谱AI 开发，是开源模型，开源编程最强",
@@ -2947,6 +3119,7 @@
       "open_source": true,
       "year": "2025",
       "note": "推理",
+      "predecessor": "glm-5-3",
       "evidence": {
         "名称": "这个模型的全称是 GLM-Z1，属于 GLM 系列，也常被称作智谱Z1",
         "属性": "它由 智谱AI 开发，是开源模型，推理",
@@ -2964,6 +3137,7 @@
       "open_source": true,
       "year": "2025",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 MiniMax M1，属于 MiniMax 系列，也常写作 MiniMaxM1",
         "属性": "它由 MiniMax 开发，是开源模型",
@@ -2981,6 +3155,7 @@
       "open_source": true,
       "year": "2025",
       "note": "轻量",
+      "predecessor": "minimax-m1",
       "evidence": {
         "名称": "这个模型的全称是 MiniMax M1.5，属于 MiniMax 系列，也常写作 MiniMaxM1.5",
         "属性": "它由 MiniMax 开发，是开源模型，轻量",
@@ -2998,6 +3173,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源",
+      "predecessor": "minimax-m1-5",
       "evidence": {
         "名称": "这个模型的全称是 MiniMax M2，属于 MiniMax 系列，也常写作 MiniMaxM2",
         "属性": "它由 MiniMax 开发，是开源模型，开源",
@@ -3015,6 +3191,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源",
+      "predecessor": "minimax-m2",
       "evidence": {
         "名称": "这个模型的全称是 MiniMax M2.5，属于 MiniMax 系列，也常写作 MiniMaxM2.5",
         "属性": "它由 MiniMax 开发，是开源模型，开源",
@@ -3032,6 +3209,7 @@
       "open_source": true,
       "year": "2026",
       "note": "开源",
+      "predecessor": "minimax-m2-5",
       "evidence": {
         "名称": "这个模型的全称是 MiniMax M2.7，属于 MiniMax 系列，也常写作 MiniMaxM2.7，也常被称作MiniMax M2 最新版",
         "属性": "它由 MiniMax 开发，是开源模型，开源",
@@ -3049,6 +3227,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 豆包 1.0，属于 豆包 系列，也常写作 豆包1.0",
         "属性": "它由 字节跳动 开发，是闭源模型",
@@ -3066,6 +3245,7 @@
       "open_source": false,
       "year": "2025",
       "note": "商用",
+      "predecessor": "豆包-1-0",
       "evidence": {
         "名称": "这个模型的全称是 豆包 1.5，属于 豆包 系列，也常写作 豆包1.5",
         "属性": "它由 字节跳动 开发，是闭源模型，商用",
@@ -3083,6 +3263,7 @@
       "open_source": false,
       "year": "2026",
       "note": "推理突出",
+      "predecessor": "豆包-1-5",
       "evidence": {
         "名称": "这个模型的全称是 豆包 1.5 Pro，属于 豆包 系列，也常写作 豆包1.5Pro，也常被称作豆包1.5Pro、Doubao 1.5 Pro",
         "属性": "它由 字节跳动 开发，是闭源模型，推理突出",
@@ -3100,6 +3281,7 @@
       "open_source": false,
       "year": "2025",
       "note": "多模态",
+      "predecessor": "豆包-1-5-pro",
       "evidence": {
         "名称": "这个模型的全称是 Seed 1.5，属于 豆包 系列，也常写作 Seed1.5",
         "属性": "它由 字节跳动 开发，是闭源模型，多模态",
@@ -3117,6 +3299,7 @@
       "open_source": false,
       "year": "2025",
       "note": "多模态",
+      "predecessor": "seed-1-5",
       "evidence": {
         "名称": "这个模型的全称是 Seed 2.0，属于 豆包 系列，也常写作 Seed2.0",
         "属性": "它由 字节跳动 开发，是闭源模型，多模态",
@@ -3134,6 +3317,7 @@
       "open_source": false,
       "year": "2026",
       "note": "多模态",
+      "predecessor": "seed-2-0",
       "evidence": {
         "名称": "这个模型的全称是 Seed 3.0，属于 豆包 系列，也常写作 Seed3.0",
         "属性": "它由 字节跳动 开发，是闭源模型，多模态",
@@ -3151,6 +3335,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 混元，属于 混元 系列",
         "属性": "它由 腾讯 开发，是闭源模型",
@@ -3168,6 +3353,7 @@
       "open_source": false,
       "year": "2024",
       "note": "商用",
+      "predecessor": "混元",
       "evidence": {
         "名称": "这个模型的全称是 混元 Turbo，属于 混元 系列，也常写作 混元Turbo",
         "属性": "它由 腾讯 开发，是闭源模型，商用",
@@ -3185,6 +3371,7 @@
       "open_source": false,
       "year": "2024",
       "note": "商用",
+      "predecessor": "混元-turbo",
       "evidence": {
         "名称": "这个模型的全称是 混元 Large，属于 混元 系列，也常写作 混元Large",
         "属性": "它由 腾讯 开发，是闭源模型，商用",
@@ -3202,6 +3389,7 @@
       "open_source": false,
       "year": "2025",
       "note": "推理",
+      "predecessor": "混元-large",
       "evidence": {
         "名称": "这个模型的全称是 混元 T1，属于 混元 系列，也常写作 混元T1，也常被称作混元T1、Hunyuan T1",
         "属性": "它由 腾讯 开发，是闭源模型，推理",
@@ -3219,6 +3407,7 @@
       "open_source": false,
       "year": "2026",
       "note": "推理",
+      "predecessor": "混元-t1",
       "evidence": {
         "名称": "这个模型的全称是 混元 A1，属于 混元 系列，也常写作 混元A1，也常被称作Hunyuan A1",
         "属性": "它由 腾讯 开发，是闭源模型，推理",
@@ -3236,6 +3425,7 @@
       "open_source": false,
       "year": "2021",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 文心 ERNIE 3.0，属于 文心 系列，也常写作 文心ERNIE3.0",
         "属性": "它由 百度 开发，是闭源模型",
@@ -3253,6 +3443,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": "文心-ernie-3-0",
       "evidence": {
         "名称": "这个模型的全称是 文心 ERNIE 3.5，属于 文心 系列，也常写作 文心ERNIE3.5",
         "属性": "它由 百度 开发，是闭源模型",
@@ -3270,6 +3461,7 @@
       "open_source": false,
       "year": "2023",
       "note": "商用",
+      "predecessor": "文心-ernie-3-5",
       "evidence": {
         "名称": "这个模型的全称是 文心一言 4.0，属于 文心 系列，也常写作 文心一言4.0",
         "属性": "它由 百度 开发，是闭源模型，商用",
@@ -3287,6 +3479,7 @@
       "open_source": false,
       "year": "2025",
       "note": "商用",
+      "predecessor": "文心一言-4-0",
       "evidence": {
         "名称": "这个模型的全称是 文心一言 4.5，属于 文心 系列，也常写作 文心一言4.5，也常被称作文心4.5",
         "属性": "它由 百度 开发，是闭源模型，商用",
@@ -3304,6 +3497,7 @@
       "open_source": false,
       "year": "2025",
       "note": "商用",
+      "predecessor": "文心一言-4-5",
       "evidence": {
         "名称": "这个模型的全称是 文心 4.5 Turbo，属于 文心 系列，也常写作 文心4.5Turbo",
         "属性": "它由 百度 开发，是闭源模型，商用",
@@ -3321,6 +3515,7 @@
       "open_source": true,
       "year": "2024",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Step-1，属于 Step 系列",
         "属性": "它由 阶跃星辰 开发，是开源模型",
@@ -3338,6 +3533,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "step-1",
       "evidence": {
         "名称": "这个模型的全称是 Step-2，属于 Step 系列",
         "属性": "它由 阶跃星辰 开发，是开源模型，开源",
@@ -3355,6 +3551,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源",
+      "predecessor": "step-2",
       "evidence": {
         "名称": "这个模型的全称是 Step-3，属于 Step 系列",
         "属性": "它由 阶跃星辰 开发，是开源模型，开源",
@@ -3372,6 +3569,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Yi-1.5，属于 Yi 系列",
         "属性": "它由 零一万物 开发，是开源模型，开源",
@@ -3389,6 +3587,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "yi-1-5",
       "evidence": {
         "名称": "这个模型的全称是 Yi-Lightning，属于 Yi 系列",
         "属性": "它由 零一万物 开发，是开源模型，开源",
@@ -3406,6 +3605,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源",
+      "predecessor": "yi-lightning",
       "evidence": {
         "名称": "这个模型的全称是 Yi-2，属于 Yi 系列",
         "属性": "它由 零一万物 开发，是开源模型，开源",
@@ -3423,6 +3623,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Baichuan-13B，属于 Baichuan 系列",
         "属性": "它由 百川智能 开发，是开源模型，开源",
@@ -3440,6 +3641,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": "baichuan-13b",
       "evidence": {
         "名称": "这个模型的全称是 Baichuan2，属于 Baichuan 系列",
         "属性": "它由 百川智能 开发，是开源模型，开源",
@@ -3457,6 +3659,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "baichuan2",
       "evidence": {
         "名称": "这个模型的全称是 Baichuan4，属于 Baichuan 系列",
         "属性": "它由 百川智能 开发，是开源模型，开源",
@@ -3474,6 +3677,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Skywork-13B，属于 Skywork 系列",
         "属性": "它由 昆仑万维 开发，是开源模型，开源",
@@ -3491,6 +3695,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "skywork-13b",
       "evidence": {
         "名称": "这个模型的全称是 Skywork 4.0，属于 Skywork 系列，也常写作 Skywork4.0",
         "属性": "它由 昆仑万维 开发，是开源模型，开源",
@@ -3508,6 +3713,7 @@
       "open_source": false,
       "year": "2024",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 SenseChat-5，属于 SenseChat 系列",
         "属性": "它由 商汤科技 开发，是闭源模型",
@@ -3525,6 +3731,7 @@
       "open_source": false,
       "year": "2025",
       "note": "",
+      "predecessor": "sensechat-5",
       "evidence": {
         "名称": "这个模型的全称是 SenseChat-5.5，属于 SenseChat 系列",
         "属性": "它由 商汤科技 开发，是闭源模型",
@@ -3542,6 +3749,7 @@
       "open_source": false,
       "year": "2025",
       "note": "商用",
+      "predecessor": "sensechat-5-5",
       "evidence": {
         "名称": "这个模型的全称是 日日新 5.5，属于 SenseChat 系列，也常写作 日日新5.5",
         "属性": "它由 商汤科技 开发，是闭源模型，商用",
@@ -3559,6 +3767,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 星火 v3.0，属于 星火 系列，也常写作 星火v3.0",
         "属性": "它由 科大讯飞 开发，是闭源模型",
@@ -3576,6 +3785,7 @@
       "open_source": false,
       "year": "2024",
       "note": "",
+      "predecessor": "星火-v3-0",
       "evidence": {
         "名称": "这个模型的全称是 星火 v3.5，属于 星火 系列，也常写作 星火v3.5",
         "属性": "它由 科大讯飞 开发，是闭源模型",
@@ -3593,6 +3803,7 @@
       "open_source": false,
       "year": "2024",
       "note": "",
+      "predecessor": "星火-v3-5",
       "evidence": {
         "名称": "这个模型的全称是 星火 v4.0，属于 星火 系列，也常写作 星火v4.0",
         "属性": "它由 科大讯飞 开发，是闭源模型",
@@ -3610,6 +3821,7 @@
       "open_source": false,
       "year": "2025",
       "note": "商用",
+      "predecessor": "星火-v4-0",
       "evidence": {
         "名称": "这个模型的全称是 星火 v5.0，属于 星火 系列，也常写作 星火v5.0，也常被称作讯飞星火5、Spark 5",
         "属性": "它由 科大讯飞 开发，是闭源模型，商用",
@@ -3627,6 +3839,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 InternLM-1.0，属于 InternLM 系列",
         "属性": "它由 上海人工智能实验室 开发，是开源模型，开源",
@@ -3644,6 +3857,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "internlm-1-0",
       "evidence": {
         "名称": "这个模型的全称是 InternLM-1.5，属于 InternLM 系列",
         "属性": "它由 上海人工智能实验室 开发，是开源模型，开源",
@@ -3661,6 +3875,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "internlm-1-5",
       "evidence": {
         "名称": "这个模型的全称是 InternLM2，属于 InternLM 系列",
         "属性": "它由 上海人工智能实验室 开发，是开源模型，开源",
@@ -3678,6 +3893,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "internlm2",
       "evidence": {
         "名称": "这个模型的全称是 InternLM2.5，属于 InternLM 系列",
         "属性": "它由 上海人工智能实验室 开发，是开源模型，开源",
@@ -3695,6 +3911,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源",
+      "predecessor": "internlm2-5",
       "evidence": {
         "名称": "这个模型的全称是 InternLM3，属于 InternLM 系列",
         "属性": "它由 上海人工智能实验室 开发，是开源模型，开源",
@@ -3712,6 +3929,7 @@
       "open_source": true,
       "year": "2026",
       "note": "开源",
+      "predecessor": "internlm3",
       "evidence": {
         "名称": "这个模型的全称是 InternLM3.5，属于 InternLM 系列，也常被称作书生 InternLM",
         "属性": "它由 上海人工智能实验室 开发，是开源模型，开源",
@@ -3729,6 +3947,7 @@
       "open_source": true,
       "year": "2024",
       "note": "多模态",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Wan 1.0，属于 通义万相 系列，也常写作 Wan1.0",
         "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
@@ -3746,6 +3965,7 @@
       "open_source": true,
       "year": "2024",
       "note": "多模态",
+      "predecessor": "wan-1-0",
       "evidence": {
         "名称": "这个模型的全称是 Wan 1.5，属于 通义万相 系列，也常写作 Wan1.5",
         "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
@@ -3763,6 +3983,7 @@
       "open_source": true,
       "year": "2025",
       "note": "多模态",
+      "predecessor": "wan-1-5",
       "evidence": {
         "名称": "这个模型的全称是 Wan 2.0，属于 通义万相 系列，也常写作 Wan2.0",
         "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
@@ -3780,6 +4001,7 @@
       "open_source": false,
       "year": "2021",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 盘古 1.0，属于 盘古 系列，也常写作 盘古1.0",
         "属性": "它由 华为 开发，是闭源模型",
@@ -3797,6 +4019,7 @@
       "open_source": false,
       "year": "2022",
       "note": "",
+      "predecessor": "盘古-1-0",
       "evidence": {
         "名称": "这个模型的全称是 盘古 2.0，属于 盘古 系列，也常写作 盘古2.0",
         "属性": "它由 华为 开发，是闭源模型",
@@ -3814,6 +4037,7 @@
       "open_source": false,
       "year": "2023",
       "note": "商用",
+      "predecessor": "盘古-2-0",
       "evidence": {
         "名称": "这个模型的全称是 盘古 3.0，属于 盘古 系列，也常写作 盘古3.0，也常被称作华为盘古",
         "属性": "它由 华为 开发，是闭源模型，商用",
@@ -3831,6 +4055,7 @@
       "open_source": false,
       "year": "2023",
       "note": "",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 子曰 1.0，属于 子曰 系列，也常写作 子曰1.0",
         "属性": "它由 网易有道 开发，是闭源模型",
@@ -3848,6 +4073,7 @@
       "open_source": false,
       "year": "2024",
       "note": "",
+      "predecessor": "子曰-1-0",
       "evidence": {
         "名称": "这个模型的全称是 子曰 2.0，属于 子曰 系列，也常写作 子曰2.0",
         "属性": "它由 网易有道 开发，是闭源模型",
@@ -3865,6 +4091,7 @@
       "open_source": false,
       "year": "2024",
       "note": "视频生成",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 可灵 1.0，属于 可灵 系列，也常写作 可灵1.0",
         "属性": "它由 快手 开发，是闭源模型，视频生成",
@@ -3882,6 +4109,7 @@
       "open_source": false,
       "year": "2025",
       "note": "视频生成",
+      "predecessor": "可灵-1-0",
       "evidence": {
         "名称": "这个模型的全称是 可灵 2.0，属于 可灵 系列，也常写作 可灵2.0，也常被称作快手可灵",
         "属性": "它由 快手 开发，是闭源模型，视频生成",
@@ -3899,6 +4127,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源轻量",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Gemma 2 2B，属于 Gemma 系列，也常写作 Gemma22B",
         "属性": "它由 Google 开发，是开源模型，开源轻量",
@@ -3916,6 +4145,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "gemma-2-2b",
       "evidence": {
         "名称": "这个模型的全称是 Gemma 2 9B，属于 Gemma 系列，也常写作 Gemma29B",
         "属性": "它由 Google 开发，是开源模型，开源",
@@ -3933,6 +4163,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源旗舰",
+      "predecessor": "gemma-2-9b",
       "evidence": {
         "名称": "这个模型的全称是 Gemma 2 27B，属于 Gemma 系列，也常写作 Gemma227B",
         "属性": "它由 Google 开发，是开源模型，开源旗舰",
@@ -3950,6 +4181,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源轻量",
+      "predecessor": "gemma-2-27b",
       "evidence": {
         "名称": "这个模型的全称是 Gemma 3 4B，属于 Gemma 系列，也常写作 Gemma34B",
         "属性": "它由 Google 开发，是开源模型，开源轻量",
@@ -3967,6 +4199,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源",
+      "predecessor": "gemma-3-4b",
       "evidence": {
         "名称": "这个模型的全称是 Gemma 3 12B，属于 Gemma 系列，也常写作 Gemma312B",
         "属性": "它由 Google 开发，是开源模型，开源",
@@ -3984,6 +4217,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源旗舰",
+      "predecessor": "gemma-3-12b",
       "evidence": {
         "名称": "这个模型的全称是 Gemma 3 27B，属于 Gemma 系列，也常写作 Gemma327B",
         "属性": "它由 Google 开发，是开源模型，开源旗舰",
@@ -4001,6 +4235,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 OLMo 7B，属于 OLMo 系列，也常写作 OLMo7B",
         "属性": "它由 AI2 开发，是开源模型，开源",
@@ -4018,6 +4253,7 @@
       "open_source": true,
       "year": "2025",
       "note": "开源",
+      "predecessor": "olmo-7b",
       "evidence": {
         "名称": "这个模型的全称是 OLMo2 7B，属于 OLMo 系列，也常写作 OLMo27B",
         "属性": "它由 AI2 开发，是开源模型，开源",
@@ -4035,6 +4271,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源多模态",
+      "predecessor": "olmo2-7b",
       "evidence": {
         "名称": "这个模型的全称是 Molmo 7B，属于 OLMo 系列，也常写作 Molmo7B",
         "属性": "它由 AI2 开发，是开源模型，开源多模态",
@@ -4052,6 +4289,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源多模态",
+      "predecessor": "molmo-7b",
       "evidence": {
         "名称": "这个模型的全称是 Molmo 72B，属于 OLMo 系列，也常写作 Molmo72B",
         "属性": "它由 AI2 开发，是开源模型，开源多模态",
@@ -4069,6 +4307,7 @@
       "open_source": true,
       "year": "2022",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 BLOOM 176B，属于 BLOOM 系列，也常写作 BLOOM176B",
         "属性": "它由 BigScience 开发，是开源模型，开源",
@@ -4086,6 +4325,7 @@
       "open_source": true,
       "year": "2022",
       "note": "开源",
+      "predecessor": "bloom-176b",
       "evidence": {
         "名称": "这个模型的全称是 BLOOMZ 176B，属于 BLOOM 系列，也常写作 BLOOMZ176B",
         "属性": "它由 BigScience 开发，是开源模型，开源",
@@ -4103,6 +4343,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Zephyr 7B，属于 Zephyr 系列，也常写作 Zephyr7B",
         "属性": "它由 Hugging Face 开发，是开源模型，开源",
@@ -4120,6 +4361,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "zephyr-7b",
       "evidence": {
         "名称": "这个模型的全称是 Zephyr 7B Beta，属于 Zephyr 系列，也常写作 Zephyr7BBeta",
         "属性": "它由 Hugging Face 开发，是开源模型，开源",
@@ -4137,6 +4379,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源轻量",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 SmolLM 135M，属于 SmolLM 系列，也常写作 SmolLM135M",
         "属性": "它由 Hugging Face 开发，是开源模型，开源轻量",
@@ -4154,6 +4397,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源轻量",
+      "predecessor": "smollm-135m",
       "evidence": {
         "名称": "这个模型的全称是 SmolLM 1.7B，属于 SmolLM 系列，也常写作 SmolLM1.7B",
         "属性": "它由 Hugging Face 开发，是开源模型，开源轻量",
@@ -4171,6 +4415,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源轻量",
+      "predecessor": "smollm-1-7b",
       "evidence": {
         "名称": "这个模型的全称是 SmolLM2 1.7B，属于 SmolLM 系列，也常写作 SmolLM21.7B",
         "属性": "它由 Hugging Face 开发，是开源模型，开源轻量",
@@ -4188,6 +4433,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 StableLM 3B，属于 StableLM 系列，也常写作 StableLM3B",
         "属性": "它由 Stability AI 开发，是开源模型，开源",
@@ -4205,6 +4451,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": "stablelm-3b",
       "evidence": {
         "名称": "这个模型的全称是 StableLM 7B，属于 StableLM 系列，也常写作 StableLM7B",
         "属性": "它由 Stability AI 开发，是开源模型，开源",
@@ -4222,6 +4469,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源编程",
+      "predecessor": "stablelm-7b",
       "evidence": {
         "名称": "这个模型的全称是 StableCode 3B，属于 StableLM 系列，也常写作 StableCode3B",
         "属性": "它由 Stability AI 开发，是开源模型，开源编程",
@@ -4239,6 +4487,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Reka Core，属于 Reka 系列，也常写作 RekaCore",
         "属性": "它由 Reka AI 开发，是开源模型，开源",
@@ -4256,6 +4505,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源",
+      "predecessor": "reka-core",
       "evidence": {
         "名称": "这个模型的全称是 Reka Flash，属于 Reka 系列，也常写作 RekaFlash",
         "属性": "它由 Reka AI 开发，是开源模型，开源",
@@ -4273,6 +4523,7 @@
       "open_source": true,
       "year": "2024",
       "note": "开源轻量",
+      "predecessor": "reka-flash",
       "evidence": {
         "名称": "这个模型的全称是 Reka Edge，属于 Reka 系列，也常写作 RekaEdge",
         "属性": "它由 Reka AI 开发，是开源模型，开源轻量",
@@ -4290,6 +4541,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Cerebras-GPT 7B，属于 Cerebras-GPT 系列，也常写作 Cerebras-GPT7B",
         "属性": "它由 Cerebras 开发，是开源模型，开源",
@@ -4307,6 +4559,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": "cerebras-gpt-7b",
       "evidence": {
         "名称": "这个模型的全称是 Cerebras-GPT 13B，属于 Cerebras-GPT 系列，也常写作 Cerebras-GPT13B",
         "属性": "它由 Cerebras 开发，是开源模型，开源",
@@ -4324,6 +4577,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 h2oGPT 7B，属于 h2oGPT 系列，也常写作 h2oGPT7B",
         "属性": "它由 H2O.ai 开发，是开源模型，开源",
@@ -4341,6 +4595,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": "h2ogpt-7b",
       "evidence": {
         "名称": "这个模型的全称是 h2oGPT 12B，属于 h2oGPT 系列，也常写作 h2oGPT12B",
         "属性": "它由 H2O.ai 开发，是开源模型，开源",
@@ -4358,6 +4613,7 @@
       "open_source": false,
       "year": "2022",
       "note": "闭源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Luminous Supreme，属于 Luminous 系列，也常写作 LuminousSupreme",
         "属性": "它由 Aleph Alpha 开发，是闭源模型，闭源",
@@ -4375,6 +4631,7 @@
       "open_source": false,
       "year": "2022",
       "note": "闭源",
+      "predecessor": "luminous-supreme",
       "evidence": {
         "名称": "这个模型的全称是 Luminous Extended，属于 Luminous 系列，也常写作 LuminousExtended",
         "属性": "它由 Aleph Alpha 开发，是闭源模型，闭源",
@@ -4392,6 +4649,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 ChatGLM 6B，属于 ChatGLM 系列，也常写作 ChatGLM6B",
         "属性": "它由 智谱AI 开发，是开源模型，开源",
@@ -4409,6 +4667,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": "chatglm-6b",
       "evidence": {
         "名称": "这个模型的全称是 ChatGLM2 6B，属于 ChatGLM 系列，也常写作 ChatGLM26B",
         "属性": "它由 智谱AI 开发，是开源模型，开源",
@@ -4426,6 +4685,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": "chatglm2-6b",
       "evidence": {
         "名称": "这个模型的全称是 ChatGLM3 6B，属于 ChatGLM 系列，也常写作 ChatGLM36B",
         "属性": "它由 智谱AI 开发，是开源模型，开源",
@@ -4443,6 +4703,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 MOSS，属于 MOSS 系列",
         "属性": "它由 复旦大学 开发，是开源模型，开源",
@@ -4460,6 +4721,7 @@
       "open_source": false,
       "year": "2023",
       "note": "闭源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 九天 1.0，属于 九天 系列，也常写作 九天1.0",
         "属性": "它由 中国移动 开发，是闭源模型，闭源",
@@ -4477,6 +4739,7 @@
       "open_source": false,
       "year": "2024",
       "note": "闭源",
+      "predecessor": "九天-1-0",
       "evidence": {
         "名称": "这个模型的全称是 九天 2.0，属于 九天 系列，也常写作 九天2.0",
         "属性": "它由 中国移动 开发，是闭源模型，闭源",
@@ -4494,6 +4757,7 @@
       "open_source": false,
       "year": "2023",
       "note": "闭源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 星辰 1.0，属于 星辰 系列，也常写作 星辰1.0",
         "属性": "它由 中国电信 开发，是闭源模型，闭源",
@@ -4511,6 +4775,7 @@
       "open_source": false,
       "year": "2024",
       "note": "闭源",
+      "predecessor": "星辰-1-0",
       "evidence": {
         "名称": "这个模型的全称是 星辰 2.0，属于 星辰 系列，也常写作 星辰2.0",
         "属性": "它由 中国电信 开发，是闭源模型，闭源",
@@ -4528,6 +4793,7 @@
       "open_source": false,
       "year": "2024",
       "note": "闭源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 元景 1.0，属于 元景 系列，也常写作 元景1.0",
         "属性": "它由 中国联通 开发，是闭源模型，闭源",
@@ -4545,6 +4811,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 Aquila-7B，属于 Aquila 系列",
         "属性": "它由 北京智源 开发，是开源模型，开源",
@@ -4562,6 +4829,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": "aquila-7b",
       "evidence": {
         "名称": "这个模型的全称是 Aquila-34B，属于 Aquila 系列",
         "属性": "它由 北京智源 开发，是开源模型，开源",
@@ -4579,6 +4847,7 @@
       "open_source": true,
       "year": "2023",
       "note": "开源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 雅意，属于 雅意 系列",
         "属性": "它由 中科闻歌 开发，是开源模型，开源",
@@ -4596,6 +4865,7 @@
       "open_source": false,
       "year": "2024",
       "note": "视频生成",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 海螺，属于 海螺 系列",
         "属性": "它由 MiniMax 开发，是闭源模型，视频生成",
@@ -4613,6 +4883,7 @@
       "open_source": false,
       "year": "2024",
       "note": "闭源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 天工 3.0，属于 天工 系列，也常写作 天工3.0",
         "属性": "它由 昆仑万维 开发，是闭源模型，闭源",
@@ -4630,6 +4901,7 @@
       "open_source": false,
       "year": "2023",
       "note": "闭源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 言犀 1.0，属于 言犀 系列，也常写作 言犀1.0",
         "属性": "它由 京东 开发，是闭源模型，闭源",
@@ -4647,6 +4919,7 @@
       "open_source": false,
       "year": "2023",
       "note": "闭源",
+      "predecessor": null,
       "evidence": {
         "名称": "这个模型的全称是 妙笔，属于 妙笔 系列",
         "属性": "它由 阅文集团 开发，是闭源模型，闭源",

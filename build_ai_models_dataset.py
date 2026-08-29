@@ -359,6 +359,9 @@ def build():
                 "变化": f"它于 {year} 年发布",
             }
             object_id = name.lower().replace(" ", "-").replace(".", "-")
+            prev_id = None
+            if prev is not None:
+                prev_id = prev.lower().replace(" ", "-").replace(".", "-")
             objects.append({
                 "id": object_id,
                 "label": label,
@@ -369,6 +372,7 @@ def build():
                 "open_source": open_source,
                 "year": year,
                 "note": note,
+                "predecessor": prev_id,
                 "evidence": evidence,
             })
             series_model_ids.append(object_id)
