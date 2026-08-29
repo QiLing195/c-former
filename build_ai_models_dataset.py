@@ -379,14 +379,12 @@ def build():
             queries.append({"text": f"{name}是什么模型？", "target_id": object_id, "kind": "known", "subtype": "name", "split": "train"})
             queries.append({"text": f"我想了解{name}这个模型", "target_id": object_id, "kind": "known", "subtype": "name", "split": "heldout"})
 
-            # 别名查询：每个别名 1 训练 + 1 留出（测真实别名的身份解析）
-            for alias_index, alias in enumerate(aliases):
-                if alias_index % 2 == 0:
-                    queries.append({"text": f"介绍一下{alias}", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "train"})
-                    queries.append({"text": f"{alias}是哪个模型？", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "heldout"})
-                else:
-                    queries.append({"text": f"查一下{alias}的情况", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "train"})
-                    queries.append({"text": f"帮我找{alias}", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "heldout"})
+            # 别名查询：每个别名 3 训练 + 1 留出（加强训练信号，压 alias 短板）
+            for alias in aliases:
+                queries.append({"text": f"介绍一下{alias}", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "train"})
+                queries.append({"text": f"{alias}是什么模型？", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "train"})
+                queries.append({"text": f"帮我查一下{alias}的资料", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "train"})
+                queries.append({"text": f"我想了解一下{alias}", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "heldout"})
 
             # 前代推理查询：1 训练 + 1 留出（测「关系」证据）
             if prev:

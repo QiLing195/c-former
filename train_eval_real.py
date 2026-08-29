@@ -20,24 +20,26 @@ VERIFIER = EvidenceVerifier(minimum_score=0.50, minimum_margin=0.08, minimum_cov
 def train(model, world: AIModelWorld, device, *, steps: int, lr: float,
           reject_weight: float = 1.0, margin_weight: float = 1.0,
           margin_target: float = 0.05, reject_target: float = 0.45,
-          score_floor: float = 0.50, score_weight: float = 1.5) -> dict:
+          score_floor: float = 0.50, score_weight: float = 1.5,
+          domain: str | None = None) -> dict:
     """训练 = 已知对比损失 + 未知拒答损失 + 歧义 margin/分数地板损失。
 
     - known:     query -> 正确对象（对比损失，教"找到它"）
     - unknown:   库外 query 的 top 分数压到 reject_target 以下（教"不知道"）
     - ambiguous: top1-top2 间隔压到 margin_target 以下，同时 top 分数保持
                  >= score_floor（避免低分歧义被 verifier 路由到 UNKNOWN 而非 AMBIGUOUS）
+    - domain:    只在该域查询上训练（跨域实验用；None = 全部域）
     """
-    known = world.known_queries("train")
+    known = world.known_queries("train", domain=domain)
     known_q = torch.stack([world.encode_query(query["text"])[0] for query in known])
     known_pos = world.encode_candidates(
         [world.objects[world.target_label(query["target_id"])] for query in known]
     )
     ambiguous_q = torch.stack(
-        [world.encode_query(query["text"])[0] for query in world.ambiguous_queries("train")]
+        [world.encode_query(query["text"])[0] for query in world.ambiguous_queries("train", domain=domain)]
     )
     unknown_q = torch.stack(
-        [world.encode_query(query["text"])[0] for query in world.unknown_queries("train")]
+        [world.encode_query(query["text"])[0] for query in world.unknown_queries("train", domain=domain)]
     )
     bank = world.encode_candidates(world.objects)
 
@@ -81,8 +83,11 @@ def train(model, world: AIModelWorld, device, *, steps: int, lr: float,
 
 
 @torch.inference_mode()
-def evaluate(model, world: AIModelWorld, device) -> dict:
-    """分别评测 train 分割（样本内参考）与 heldout 分割（泛化真实成绩）。"""
+def evaluate(model, world: AIModelWorld, device, domain: str | None = None) -> dict:
+    """分别评测 train 分割（样本内参考）与 heldout 分割（泛化真实成绩）。
+
+    domain 非空时只评测该域查询（跨域实验用；None = 全部域）。
+    """
     model.eval()
     bank = model.encode_candidate(world.encode_candidates(world.objects).to(device))
 
@@ -98,9 +103,9 @@ def evaluate(model, world: AIModelWorld, device) -> dict:
 
     results = {}
     for split in ("train", "heldout"):
-        known = world.known_queries(split)
-        ambiguous = world.ambiguous_queries(split)
-        unknown = world.unknown_queries(split)
+        known = world.known_queries(split, domain=domain)
+        ambiguous = world.ambiguous_queries(split, domain=domain)
+        unknown = world.unknown_queries(split, domain=domain)
 
         def top1_of(queries):
             return (

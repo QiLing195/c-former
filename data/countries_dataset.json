@@ -1,0 +1,5517 @@
+{
+  "meta": {
+    "dataset": "countries_dataset",
+    "description": "国家第二域数据集：跨域迁移测试用，与 AI 模型数据集同 schema 但内容完全无关",
+    "status": "自动生成；首都/语言/成立年份为常识性近似，需人工核对",
+    "objects": 68,
+    "queries": {
+      "known": 616,
+      "ambiguous": 3,
+      "unknown": 2,
+      "train": 391,
+      "heldout": 230
+    }
+  },
+  "objects": [
+    {
+      "id": "中国",
+      "label": 0,
+      "name": "中国",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1949,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 中国，也常被称作China、PRC、中华人民共和国",
+        "属性": "它位于亚洲，主要语言是汉语",
+        "关系": "它的首都是北京，属于亚洲地区",
+        "变化": "它于 1949 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "美国",
+      "label": 1,
+      "name": "美国",
+      "company": "国家",
+      "region": "北美洲",
+      "series": "北美洲",
+      "open_source": false,
+      "year": 1776,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 美国，也常被称作USA、美利坚、United States",
+        "属性": "它位于北美洲，主要语言是英语",
+        "关系": "它的首都是华盛顿，属于北美洲地区",
+        "变化": "它于 1776 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "英国",
+      "label": 2,
+      "name": "英国",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1707,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 英国，也常被称作UK、大不列颠、United Kingdom",
+        "属性": "它位于欧洲，主要语言是英语",
+        "关系": "它的首都是伦敦，属于欧洲地区",
+        "变化": "它于 1707 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "法国",
+      "label": 3,
+      "name": "法国",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1958,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 法国，也常被称作France、法兰西",
+        "属性": "它位于欧洲，主要语言是法语",
+        "关系": "它的首都是巴黎，属于欧洲地区",
+        "变化": "它于 1958 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "德国",
+      "label": 4,
+      "name": "德国",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1990,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 德国，也常被称作Germany、德意志",
+        "属性": "它位于欧洲，主要语言是德语",
+        "关系": "它的首都是柏林，属于欧洲地区",
+        "变化": "它于 1990 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "日本",
+      "label": 5,
+      "name": "日本",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1947,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 日本，也常被称作Japan、日本国",
+        "属性": "它位于亚洲，主要语言是日语",
+        "关系": "它的首都是东京，属于亚洲地区",
+        "变化": "它于 1947 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "俄罗斯",
+      "label": 6,
+      "name": "俄罗斯",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1991,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 俄罗斯，也常被称作Russia、俄罗斯联邦",
+        "属性": "它位于欧洲，主要语言是俄语",
+        "关系": "它的首都是莫斯科，属于欧洲地区",
+        "变化": "它于 1991 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "印度",
+      "label": 7,
+      "name": "印度",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1947,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 印度，也常被称作India、印度共和国",
+        "属性": "它位于亚洲，主要语言是印地语",
+        "关系": "它的首都是新德里，属于亚洲地区",
+        "变化": "它于 1947 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "巴西",
+      "label": 8,
+      "name": "巴西",
+      "company": "国家",
+      "region": "南美洲",
+      "series": "南美洲",
+      "open_source": false,
+      "year": 1822,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 巴西，也常被称作Brazil、巴西联邦共和国",
+        "属性": "它位于南美洲，主要语言是葡萄牙语",
+        "关系": "它的首都是巴西利亚，属于南美洲地区",
+        "变化": "它于 1822 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "加拿大",
+      "label": 9,
+      "name": "加拿大",
+      "company": "国家",
+      "region": "北美洲",
+      "series": "北美洲",
+      "open_source": false,
+      "year": 1867,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 加拿大，也常被称作Canada",
+        "属性": "它位于北美洲，主要语言是英语",
+        "关系": "它的首都是渥太华，属于北美洲地区",
+        "变化": "它于 1867 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "澳大利亚",
+      "label": 10,
+      "name": "澳大利亚",
+      "company": "国家",
+      "region": "大洋洲",
+      "series": "大洋洲",
+      "open_source": false,
+      "year": 1901,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 澳大利亚，也常被称作Australia、澳洲",
+        "属性": "它位于大洋洲，主要语言是英语",
+        "关系": "它的首都是堪培拉，属于大洋洲地区",
+        "变化": "它于 1901 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "韩国",
+      "label": 11,
+      "name": "韩国",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1948,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 韩国，也常被称作Korea、大韩民国",
+        "属性": "它位于亚洲，主要语言是韩语",
+        "关系": "它的首都是首尔，属于亚洲地区",
+        "变化": "它于 1948 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "意大利",
+      "label": 12,
+      "name": "意大利",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1946,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 意大利，也常被称作Italy、意大利共和国",
+        "属性": "它位于欧洲，主要语言是意大利语",
+        "关系": "它的首都是罗马，属于欧洲地区",
+        "变化": "它于 1946 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "西班牙",
+      "label": 13,
+      "name": "西班牙",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1978,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 西班牙，也常被称作Spain、西班牙王国",
+        "属性": "它位于欧洲，主要语言是西班牙语",
+        "关系": "它的首都是马德里，属于欧洲地区",
+        "变化": "它于 1978 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "墨西哥",
+      "label": 14,
+      "name": "墨西哥",
+      "company": "国家",
+      "region": "北美洲",
+      "series": "北美洲",
+      "open_source": false,
+      "year": 1821,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 墨西哥，也常被称作Mexico、墨西哥合众国",
+        "属性": "它位于北美洲，主要语言是西班牙语",
+        "关系": "它的首都是墨西哥城，属于北美洲地区",
+        "变化": "它于 1821 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "印度尼西亚",
+      "label": 15,
+      "name": "印度尼西亚",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1945,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 印度尼西亚，也常被称作Indonesia、印尼",
+        "属性": "它位于亚洲，主要语言是印尼语",
+        "关系": "它的首都是雅加达，属于亚洲地区",
+        "变化": "它于 1945 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "荷兰",
+      "label": 16,
+      "name": "荷兰",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1815,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 荷兰，也常被称作Netherlands、尼德兰",
+        "属性": "它位于欧洲，主要语言是荷兰语",
+        "关系": "它的首都是阿姆斯特丹，属于欧洲地区",
+        "变化": "它于 1815 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "瑞典",
+      "label": 17,
+      "name": "瑞典",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1523,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 瑞典，也常被称作Sweden",
+        "属性": "它位于欧洲，主要语言是瑞典语",
+        "关系": "它的首都是斯德哥尔摩，属于欧洲地区",
+        "变化": "它于 1523 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "瑞士",
+      "label": 18,
+      "name": "瑞士",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1848,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 瑞士，也常被称作Switzerland",
+        "属性": "它位于欧洲，主要语言是德语",
+        "关系": "它的首都是伯尔尼，属于欧洲地区",
+        "变化": "它于 1848 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "波兰",
+      "label": 19,
+      "name": "波兰",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1918,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 波兰，也常被称作Poland、波兰共和国",
+        "属性": "它位于欧洲，主要语言是波兰语",
+        "关系": "它的首都是华沙，属于欧洲地区",
+        "变化": "它于 1918 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "比利时",
+      "label": 20,
+      "name": "比利时",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1830,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 比利时，也常被称作Belgium",
+        "属性": "它位于欧洲，主要语言是荷兰语",
+        "关系": "它的首都是布鲁塞尔，属于欧洲地区",
+        "变化": "它于 1830 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "奥地利",
+      "label": 21,
+      "name": "奥地利",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1955,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 奥地利，也常被称作Austria",
+        "属性": "它位于欧洲，主要语言是德语",
+        "关系": "它的首都是维也纳，属于欧洲地区",
+        "变化": "它于 1955 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "挪威",
+      "label": 22,
+      "name": "挪威",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1905,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 挪威，也常被称作Norway",
+        "属性": "它位于欧洲，主要语言是挪威语",
+        "关系": "它的首都是奥斯陆，属于欧洲地区",
+        "变化": "它于 1905 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "丹麦",
+      "label": 23,
+      "name": "丹麦",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1849,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 丹麦，也常被称作Denmark",
+        "属性": "它位于欧洲，主要语言是丹麦语",
+        "关系": "它的首都是哥本哈根，属于欧洲地区",
+        "变化": "它于 1849 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "芬兰",
+      "label": 24,
+      "name": "芬兰",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1917,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 芬兰，也常被称作Finland",
+        "属性": "它位于欧洲，主要语言是芬兰语",
+        "关系": "它的首都是赫尔辛基，属于欧洲地区",
+        "变化": "它于 1917 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "爱尔兰",
+      "label": 25,
+      "name": "爱尔兰",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1949,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 爱尔兰，也常被称作Ireland",
+        "属性": "它位于欧洲，主要语言是英语",
+        "关系": "它的首都是都柏林，属于欧洲地区",
+        "变化": "它于 1949 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "葡萄牙",
+      "label": 26,
+      "name": "葡萄牙",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1974,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 葡萄牙，也常被称作Portugal",
+        "属性": "它位于欧洲，主要语言是葡萄牙语",
+        "关系": "它的首都是里斯本，属于欧洲地区",
+        "变化": "它于 1974 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "希腊",
+      "label": 27,
+      "name": "希腊",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1974,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 希腊，也常被称作Greece",
+        "属性": "它位于欧洲，主要语言是希腊语",
+        "关系": "它的首都是雅典，属于欧洲地区",
+        "变化": "它于 1974 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "土耳其",
+      "label": 28,
+      "name": "土耳其",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1923,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 土耳其，也常被称作Turkey、土耳其共和国",
+        "属性": "它位于亚洲，主要语言是土耳其语",
+        "关系": "它的首都是安卡拉，属于亚洲地区",
+        "变化": "它于 1923 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "沙特阿拉伯",
+      "label": 29,
+      "name": "沙特阿拉伯",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1932,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 沙特阿拉伯，也常被称作Saudi Arabia、沙特",
+        "属性": "它位于亚洲，主要语言是阿拉伯语",
+        "关系": "它的首都是利雅得，属于亚洲地区",
+        "变化": "它于 1932 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "以色列",
+      "label": 30,
+      "name": "以色列",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1948,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 以色列，也常被称作Israel",
+        "属性": "它位于亚洲，主要语言是希伯来语",
+        "关系": "它的首都是耶路撒冷，属于亚洲地区",
+        "变化": "它于 1948 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "伊朗",
+      "label": 31,
+      "name": "伊朗",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1979,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 伊朗，也常被称作Iran、伊朗伊斯兰共和国",
+        "属性": "它位于亚洲，主要语言是波斯语",
+        "关系": "它的首都是德黑兰，属于亚洲地区",
+        "变化": "它于 1979 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "泰国",
+      "label": 32,
+      "name": "泰国",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1932,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 泰国，也常被称作Thailand、泰国",
+        "属性": "它位于亚洲，主要语言是泰语",
+        "关系": "它的首都是曼谷，属于亚洲地区",
+        "变化": "它于 1932 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "越南",
+      "label": 33,
+      "name": "越南",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1945,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 越南，也常被称作Vietnam",
+        "属性": "它位于亚洲，主要语言是越南语",
+        "关系": "它的首都是河内，属于亚洲地区",
+        "变化": "它于 1945 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "菲律宾",
+      "label": 34,
+      "name": "菲律宾",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1946,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 菲律宾，也常被称作Philippines",
+        "属性": "它位于亚洲，主要语言是菲律宾语",
+        "关系": "它的首都是马尼拉，属于亚洲地区",
+        "变化": "它于 1946 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "马来西亚",
+      "label": 35,
+      "name": "马来西亚",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1957,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 马来西亚，也常被称作Malaysia",
+        "属性": "它位于亚洲，主要语言是马来语",
+        "关系": "它的首都是吉隆坡，属于亚洲地区",
+        "变化": "它于 1957 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "新加坡",
+      "label": 36,
+      "name": "新加坡",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1965,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 新加坡，也常被称作Singapore、狮城",
+        "属性": "它位于亚洲，主要语言是英语",
+        "关系": "它的首都是新加坡，属于亚洲地区",
+        "变化": "它于 1965 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "巴基斯坦",
+      "label": 37,
+      "name": "巴基斯坦",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1947,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 巴基斯坦，也常被称作Pakistan",
+        "属性": "它位于亚洲，主要语言是乌尔都语",
+        "关系": "它的首都是伊斯兰堡，属于亚洲地区",
+        "变化": "它于 1947 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "孟加拉国",
+      "label": 38,
+      "name": "孟加拉国",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1971,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 孟加拉国，也常被称作Bangladesh",
+        "属性": "它位于亚洲，主要语言是孟加拉语",
+        "关系": "它的首都是达卡，属于亚洲地区",
+        "变化": "它于 1971 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "埃及",
+      "label": 39,
+      "name": "埃及",
+      "company": "国家",
+      "region": "非洲",
+      "series": "非洲",
+      "open_source": false,
+      "year": 1952,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 埃及，也常被称作Egypt、阿拉伯埃及共和国",
+        "属性": "它位于非洲，主要语言是阿拉伯语",
+        "关系": "它的首都是开罗，属于非洲地区",
+        "变化": "它于 1952 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "尼日利亚",
+      "label": 40,
+      "name": "尼日利亚",
+      "company": "国家",
+      "region": "非洲",
+      "series": "非洲",
+      "open_source": false,
+      "year": 1960,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 尼日利亚，也常被称作Nigeria",
+        "属性": "它位于非洲，主要语言是英语",
+        "关系": "它的首都是阿布贾，属于非洲地区",
+        "变化": "它于 1960 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "南非",
+      "label": 41,
+      "name": "南非",
+      "company": "国家",
+      "region": "非洲",
+      "series": "非洲",
+      "open_source": false,
+      "year": 1910,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 南非，也常被称作South Africa、南非共和国",
+        "属性": "它位于非洲，主要语言是英语",
+        "关系": "它的首都是比勒陀利亚，属于非洲地区",
+        "变化": "它于 1910 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "肯尼亚",
+      "label": 42,
+      "name": "肯尼亚",
+      "company": "国家",
+      "region": "非洲",
+      "series": "非洲",
+      "open_source": false,
+      "year": 1963,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 肯尼亚，也常被称作Kenya",
+        "属性": "它位于非洲，主要语言是斯瓦希里语",
+        "关系": "它的首都是内罗毕，属于非洲地区",
+        "变化": "它于 1963 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "摩洛哥",
+      "label": 43,
+      "name": "摩洛哥",
+      "company": "国家",
+      "region": "非洲",
+      "series": "非洲",
+      "open_source": false,
+      "year": 1956,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 摩洛哥，也常被称作Morocco",
+        "属性": "它位于非洲，主要语言是阿拉伯语",
+        "关系": "它的首都是拉巴特，属于非洲地区",
+        "变化": "它于 1956 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "埃塞俄比亚",
+      "label": 44,
+      "name": "埃塞俄比亚",
+      "company": "国家",
+      "region": "非洲",
+      "series": "非洲",
+      "open_source": false,
+      "year": 1941,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 埃塞俄比亚，也常被称作Ethiopia",
+        "属性": "它位于非洲，主要语言是阿姆哈拉语",
+        "关系": "它的首都是亚的斯亚贝巴，属于非洲地区",
+        "变化": "它于 1941 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "加纳",
+      "label": 45,
+      "name": "加纳",
+      "company": "国家",
+      "region": "非洲",
+      "series": "非洲",
+      "open_source": false,
+      "year": 1957,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 加纳，也常被称作Ghana",
+        "属性": "它位于非洲，主要语言是英语",
+        "关系": "它的首都是阿克拉，属于非洲地区",
+        "变化": "它于 1957 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "阿根廷",
+      "label": 46,
+      "name": "阿根廷",
+      "company": "国家",
+      "region": "南美洲",
+      "series": "南美洲",
+      "open_source": false,
+      "year": 1816,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 阿根廷，也常被称作Argentina",
+        "属性": "它位于南美洲，主要语言是西班牙语",
+        "关系": "它的首都是布宜诺斯艾利斯，属于南美洲地区",
+        "变化": "它于 1816 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "智利",
+      "label": 47,
+      "name": "智利",
+      "company": "国家",
+      "region": "南美洲",
+      "series": "南美洲",
+      "open_source": false,
+      "year": 1818,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 智利，也常被称作Chile",
+        "属性": "它位于南美洲，主要语言是西班牙语",
+        "关系": "它的首都是圣地亚哥，属于南美洲地区",
+        "变化": "它于 1818 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "秘鲁",
+      "label": 48,
+      "name": "秘鲁",
+      "company": "国家",
+      "region": "南美洲",
+      "series": "南美洲",
+      "open_source": false,
+      "year": 1821,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 秘鲁，也常被称作Peru",
+        "属性": "它位于南美洲，主要语言是西班牙语",
+        "关系": "它的首都是利马，属于南美洲地区",
+        "变化": "它于 1821 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "哥伦比亚",
+      "label": 49,
+      "name": "哥伦比亚",
+      "company": "国家",
+      "region": "南美洲",
+      "series": "南美洲",
+      "open_source": false,
+      "year": 1810,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 哥伦比亚，也常被称作Colombia",
+        "属性": "它位于南美洲，主要语言是西班牙语",
+        "关系": "它的首都是波哥大，属于南美洲地区",
+        "变化": "它于 1810 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "委内瑞拉",
+      "label": 50,
+      "name": "委内瑞拉",
+      "company": "国家",
+      "region": "南美洲",
+      "series": "南美洲",
+      "open_source": false,
+      "year": 1811,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 委内瑞拉，也常被称作Venezuela",
+        "属性": "它位于南美洲，主要语言是西班牙语",
+        "关系": "它的首都是加拉加斯，属于南美洲地区",
+        "变化": "它于 1811 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "新西兰",
+      "label": 51,
+      "name": "新西兰",
+      "company": "国家",
+      "region": "大洋洲",
+      "series": "大洋洲",
+      "open_source": false,
+      "year": 1907,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 新西兰，也常被称作New Zealand",
+        "属性": "它位于大洋洲，主要语言是英语",
+        "关系": "它的首都是惠灵顿，属于大洋洲地区",
+        "变化": "它于 1907 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "蒙古",
+      "label": 52,
+      "name": "蒙古",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1924,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 蒙古，也常被称作Mongolia",
+        "属性": "它位于亚洲，主要语言是蒙古语",
+        "关系": "它的首都是乌兰巴托，属于亚洲地区",
+        "变化": "它于 1924 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "尼泊尔",
+      "label": 53,
+      "name": "尼泊尔",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 2008,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 尼泊尔，也常被称作Nepal",
+        "属性": "它位于亚洲，主要语言是尼泊尔语",
+        "关系": "它的首都是加德满都，属于亚洲地区",
+        "变化": "它于 2008 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "斯里兰卡",
+      "label": 54,
+      "name": "斯里兰卡",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1948,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 斯里兰卡，也常被称作Sri Lanka",
+        "属性": "它位于亚洲，主要语言是僧伽罗语",
+        "关系": "它的首都是科伦坡，属于亚洲地区",
+        "变化": "它于 1948 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "哈萨克斯坦",
+      "label": 55,
+      "name": "哈萨克斯坦",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "亚洲",
+      "open_source": false,
+      "year": 1991,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 哈萨克斯坦，也常被称作Kazakhstan",
+        "属性": "它位于亚洲，主要语言是哈萨克语",
+        "关系": "它的首都是阿斯塔纳，属于亚洲地区",
+        "变化": "它于 1991 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "乌克兰",
+      "label": 56,
+      "name": "乌克兰",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1991,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 乌克兰，也常被称作Ukraine",
+        "属性": "它位于欧洲，主要语言是乌克兰语",
+        "关系": "它的首都是基辅，属于欧洲地区",
+        "变化": "它于 1991 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "捷克",
+      "label": 57,
+      "name": "捷克",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1993,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 捷克，也常被称作Czech Republic",
+        "属性": "它位于欧洲，主要语言是捷克语",
+        "关系": "它的首都是布拉格，属于欧洲地区",
+        "变化": "它于 1993 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "匈牙利",
+      "label": 58,
+      "name": "匈牙利",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1989,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 匈牙利，也常被称作Hungary",
+        "属性": "它位于欧洲，主要语言是匈牙利语",
+        "关系": "它的首都是布达佩斯，属于欧洲地区",
+        "变化": "它于 1989 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "罗马尼亚",
+      "label": 59,
+      "name": "罗马尼亚",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1878,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 罗马尼亚，也常被称作Romania",
+        "属性": "它位于欧洲，主要语言是罗马尼亚语",
+        "关系": "它的首都是布加勒斯特，属于欧洲地区",
+        "变化": "它于 1878 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "保加利亚",
+      "label": 60,
+      "name": "保加利亚",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1908,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 保加利亚，也常被称作Bulgaria",
+        "属性": "它位于欧洲，主要语言是保加利亚语",
+        "关系": "它的首都是索菲亚，属于欧洲地区",
+        "变化": "它于 1908 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "塞尔维亚",
+      "label": 61,
+      "name": "塞尔维亚",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 2006,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 塞尔维亚，也常被称作Serbia",
+        "属性": "它位于欧洲，主要语言是塞尔维亚语",
+        "关系": "它的首都是贝尔格莱德，属于欧洲地区",
+        "变化": "它于 2006 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "克罗地亚",
+      "label": 62,
+      "name": "克罗地亚",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1991,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 克罗地亚，也常被称作Croatia",
+        "属性": "它位于欧洲，主要语言是克罗地亚语",
+        "关系": "它的首都是萨格勒布，属于欧洲地区",
+        "变化": "它于 1991 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "冰岛",
+      "label": 63,
+      "name": "冰岛",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1944,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 冰岛，也常被称作Iceland",
+        "属性": "它位于欧洲，主要语言是冰岛语",
+        "关系": "它的首都是雷克雅未克，属于欧洲地区",
+        "变化": "它于 1944 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "卢森堡",
+      "label": 64,
+      "name": "卢森堡",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "欧洲",
+      "open_source": false,
+      "year": 1890,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 卢森堡，也常被称作Luxembourg",
+        "属性": "它位于欧洲，主要语言是卢森堡语",
+        "关系": "它的首都是卢森堡市，属于欧洲地区",
+        "变化": "它于 1890 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "古巴",
+      "label": 65,
+      "name": "古巴",
+      "company": "国家",
+      "region": "北美洲",
+      "series": "北美洲",
+      "open_source": false,
+      "year": 1902,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 古巴，也常被称作Cuba",
+        "属性": "它位于北美洲，主要语言是西班牙语",
+        "关系": "它的首都是哈瓦那，属于北美洲地区",
+        "变化": "它于 1902 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "牙买加",
+      "label": 66,
+      "name": "牙买加",
+      "company": "国家",
+      "region": "北美洲",
+      "series": "北美洲",
+      "open_source": false,
+      "year": 1962,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 牙买加，也常被称作Jamaica",
+        "属性": "它位于北美洲，主要语言是英语",
+        "关系": "它的首都是金斯敦，属于北美洲地区",
+        "变化": "它于 1962 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "巴拿马",
+      "label": 67,
+      "name": "巴拿马",
+      "company": "国家",
+      "region": "北美洲",
+      "series": "北美洲",
+      "open_source": false,
+      "year": 1903,
+      "note": "",
+      "evidence": {
+        "名称": "这个国家的全称是 巴拿马，也常被称作Panama",
+        "属性": "它位于北美洲，主要语言是西班牙语",
+        "关系": "它的首都是巴拿马城，属于北美洲地区",
+        "变化": "它于 1903 年成立或确立现行政体"
+      }
+    }
+  ],
+  "queries": [
+    {
+      "text": "介绍一下中国这个国家",
+      "target_id": "中国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "中国的首都是哪里？",
+      "target_id": "中国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "中国属于哪个大洲？",
+      "target_id": "中国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解中国这个国家",
+      "target_id": "中国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "中国的官方语言是什么？",
+      "target_id": "中国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下China",
+      "target_id": "中国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查China的信息",
+      "target_id": "中国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "China是哪个国家？",
+      "target_id": "中国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下PRC",
+      "target_id": "中国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查PRC的信息",
+      "target_id": "中国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "PRC是哪个国家？",
+      "target_id": "中国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下美国这个国家",
+      "target_id": "美国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "美国的首都是哪里？",
+      "target_id": "美国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "美国属于哪个大洲？",
+      "target_id": "美国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解美国这个国家",
+      "target_id": "美国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "美国的官方语言是什么？",
+      "target_id": "美国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下USA",
+      "target_id": "美国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查USA的信息",
+      "target_id": "美国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "USA是哪个国家？",
+      "target_id": "美国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下美利坚",
+      "target_id": "美国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查美利坚的信息",
+      "target_id": "美国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "美利坚是哪个国家？",
+      "target_id": "美国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下英国这个国家",
+      "target_id": "英国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "英国的首都是哪里？",
+      "target_id": "英国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "英国属于哪个大洲？",
+      "target_id": "英国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解英国这个国家",
+      "target_id": "英国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "英国的官方语言是什么？",
+      "target_id": "英国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下UK",
+      "target_id": "英国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查UK的信息",
+      "target_id": "英国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "UK是哪个国家？",
+      "target_id": "英国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下大不列颠",
+      "target_id": "英国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查大不列颠的信息",
+      "target_id": "英国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "大不列颠是哪个国家？",
+      "target_id": "英国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下法国这个国家",
+      "target_id": "法国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "法国的首都是哪里？",
+      "target_id": "法国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "法国属于哪个大洲？",
+      "target_id": "法国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解法国这个国家",
+      "target_id": "法国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "法国的官方语言是什么？",
+      "target_id": "法国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下France",
+      "target_id": "法国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查France的信息",
+      "target_id": "法国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "France是哪个国家？",
+      "target_id": "法国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下法兰西",
+      "target_id": "法国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查法兰西的信息",
+      "target_id": "法国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "法兰西是哪个国家？",
+      "target_id": "法国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下德国这个国家",
+      "target_id": "德国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "德国的首都是哪里？",
+      "target_id": "德国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "德国属于哪个大洲？",
+      "target_id": "德国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解德国这个国家",
+      "target_id": "德国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "德国的官方语言是什么？",
+      "target_id": "德国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Germany",
+      "target_id": "德国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Germany的信息",
+      "target_id": "德国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Germany是哪个国家？",
+      "target_id": "德国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下德意志",
+      "target_id": "德国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查德意志的信息",
+      "target_id": "德国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "德意志是哪个国家？",
+      "target_id": "德国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下日本这个国家",
+      "target_id": "日本",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "日本的首都是哪里？",
+      "target_id": "日本",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "日本属于哪个大洲？",
+      "target_id": "日本",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解日本这个国家",
+      "target_id": "日本",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "日本的官方语言是什么？",
+      "target_id": "日本",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Japan",
+      "target_id": "日本",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Japan的信息",
+      "target_id": "日本",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Japan是哪个国家？",
+      "target_id": "日本",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下日本国",
+      "target_id": "日本",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查日本国的信息",
+      "target_id": "日本",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "日本国是哪个国家？",
+      "target_id": "日本",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下俄罗斯这个国家",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "俄罗斯的首都是哪里？",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "俄罗斯属于哪个大洲？",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解俄罗斯这个国家",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "俄罗斯的官方语言是什么？",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Russia",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Russia的信息",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Russia是哪个国家？",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下俄罗斯联邦",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查俄罗斯联邦的信息",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "俄罗斯联邦是哪个国家？",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下印度这个国家",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "印度的首都是哪里？",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "印度属于哪个大洲？",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解印度这个国家",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "印度的官方语言是什么？",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下India",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查India的信息",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "India是哪个国家？",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下印度共和国",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查印度共和国的信息",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "印度共和国是哪个国家？",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下巴西这个国家",
+      "target_id": "巴西",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "巴西的首都是哪里？",
+      "target_id": "巴西",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "巴西属于哪个大洲？",
+      "target_id": "巴西",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解巴西这个国家",
+      "target_id": "巴西",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "巴西的官方语言是什么？",
+      "target_id": "巴西",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Brazil",
+      "target_id": "巴西",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Brazil的信息",
+      "target_id": "巴西",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Brazil是哪个国家？",
+      "target_id": "巴西",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下巴西联邦共和国",
+      "target_id": "巴西",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查巴西联邦共和国的信息",
+      "target_id": "巴西",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "巴西联邦共和国是哪个国家？",
+      "target_id": "巴西",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下加拿大这个国家",
+      "target_id": "加拿大",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "加拿大的首都是哪里？",
+      "target_id": "加拿大",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "加拿大属于哪个大洲？",
+      "target_id": "加拿大",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解加拿大这个国家",
+      "target_id": "加拿大",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "加拿大的官方语言是什么？",
+      "target_id": "加拿大",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Canada",
+      "target_id": "加拿大",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Canada的信息",
+      "target_id": "加拿大",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Canada是哪个国家？",
+      "target_id": "加拿大",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下澳大利亚这个国家",
+      "target_id": "澳大利亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "澳大利亚的首都是哪里？",
+      "target_id": "澳大利亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "澳大利亚属于哪个大洲？",
+      "target_id": "澳大利亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解澳大利亚这个国家",
+      "target_id": "澳大利亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "澳大利亚的官方语言是什么？",
+      "target_id": "澳大利亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Australia",
+      "target_id": "澳大利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Australia的信息",
+      "target_id": "澳大利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Australia是哪个国家？",
+      "target_id": "澳大利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下澳洲",
+      "target_id": "澳大利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查澳洲的信息",
+      "target_id": "澳大利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "澳洲是哪个国家？",
+      "target_id": "澳大利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下韩国这个国家",
+      "target_id": "韩国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "韩国的首都是哪里？",
+      "target_id": "韩国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "韩国属于哪个大洲？",
+      "target_id": "韩国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解韩国这个国家",
+      "target_id": "韩国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "韩国的官方语言是什么？",
+      "target_id": "韩国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Korea",
+      "target_id": "韩国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Korea的信息",
+      "target_id": "韩国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Korea是哪个国家？",
+      "target_id": "韩国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下大韩民国",
+      "target_id": "韩国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查大韩民国的信息",
+      "target_id": "韩国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "大韩民国是哪个国家？",
+      "target_id": "韩国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下意大利这个国家",
+      "target_id": "意大利",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "意大利的首都是哪里？",
+      "target_id": "意大利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "意大利属于哪个大洲？",
+      "target_id": "意大利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解意大利这个国家",
+      "target_id": "意大利",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "意大利的官方语言是什么？",
+      "target_id": "意大利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Italy",
+      "target_id": "意大利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Italy的信息",
+      "target_id": "意大利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Italy是哪个国家？",
+      "target_id": "意大利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下意大利共和国",
+      "target_id": "意大利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查意大利共和国的信息",
+      "target_id": "意大利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "意大利共和国是哪个国家？",
+      "target_id": "意大利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下西班牙这个国家",
+      "target_id": "西班牙",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "西班牙的首都是哪里？",
+      "target_id": "西班牙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "西班牙属于哪个大洲？",
+      "target_id": "西班牙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解西班牙这个国家",
+      "target_id": "西班牙",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "西班牙的官方语言是什么？",
+      "target_id": "西班牙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Spain",
+      "target_id": "西班牙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Spain的信息",
+      "target_id": "西班牙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Spain是哪个国家？",
+      "target_id": "西班牙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下西班牙王国",
+      "target_id": "西班牙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查西班牙王国的信息",
+      "target_id": "西班牙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "西班牙王国是哪个国家？",
+      "target_id": "西班牙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下墨西哥这个国家",
+      "target_id": "墨西哥",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "墨西哥的首都是哪里？",
+      "target_id": "墨西哥",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "墨西哥属于哪个大洲？",
+      "target_id": "墨西哥",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解墨西哥这个国家",
+      "target_id": "墨西哥",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "墨西哥的官方语言是什么？",
+      "target_id": "墨西哥",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mexico",
+      "target_id": "墨西哥",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Mexico的信息",
+      "target_id": "墨西哥",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Mexico是哪个国家？",
+      "target_id": "墨西哥",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下墨西哥合众国",
+      "target_id": "墨西哥",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查墨西哥合众国的信息",
+      "target_id": "墨西哥",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "墨西哥合众国是哪个国家？",
+      "target_id": "墨西哥",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下印度尼西亚这个国家",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "印度尼西亚的首都是哪里？",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "印度尼西亚属于哪个大洲？",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解印度尼西亚这个国家",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "印度尼西亚的官方语言是什么？",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Indonesia",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Indonesia的信息",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Indonesia是哪个国家？",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下印尼",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查印尼的信息",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "印尼是哪个国家？",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下荷兰这个国家",
+      "target_id": "荷兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "荷兰的首都是哪里？",
+      "target_id": "荷兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "荷兰属于哪个大洲？",
+      "target_id": "荷兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解荷兰这个国家",
+      "target_id": "荷兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "荷兰的官方语言是什么？",
+      "target_id": "荷兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Netherlands",
+      "target_id": "荷兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Netherlands的信息",
+      "target_id": "荷兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Netherlands是哪个国家？",
+      "target_id": "荷兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下尼德兰",
+      "target_id": "荷兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查尼德兰的信息",
+      "target_id": "荷兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "尼德兰是哪个国家？",
+      "target_id": "荷兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下瑞典这个国家",
+      "target_id": "瑞典",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "瑞典的首都是哪里？",
+      "target_id": "瑞典",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "瑞典属于哪个大洲？",
+      "target_id": "瑞典",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解瑞典这个国家",
+      "target_id": "瑞典",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "瑞典的官方语言是什么？",
+      "target_id": "瑞典",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Sweden",
+      "target_id": "瑞典",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Sweden的信息",
+      "target_id": "瑞典",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Sweden是哪个国家？",
+      "target_id": "瑞典",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下瑞士这个国家",
+      "target_id": "瑞士",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "瑞士的首都是哪里？",
+      "target_id": "瑞士",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "瑞士属于哪个大洲？",
+      "target_id": "瑞士",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解瑞士这个国家",
+      "target_id": "瑞士",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "瑞士的官方语言是什么？",
+      "target_id": "瑞士",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Switzerland",
+      "target_id": "瑞士",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Switzerland的信息",
+      "target_id": "瑞士",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Switzerland是哪个国家？",
+      "target_id": "瑞士",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下波兰这个国家",
+      "target_id": "波兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "波兰的首都是哪里？",
+      "target_id": "波兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "波兰属于哪个大洲？",
+      "target_id": "波兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解波兰这个国家",
+      "target_id": "波兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "波兰的官方语言是什么？",
+      "target_id": "波兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Poland",
+      "target_id": "波兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Poland的信息",
+      "target_id": "波兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Poland是哪个国家？",
+      "target_id": "波兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下波兰共和国",
+      "target_id": "波兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查波兰共和国的信息",
+      "target_id": "波兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "波兰共和国是哪个国家？",
+      "target_id": "波兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下比利时这个国家",
+      "target_id": "比利时",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "比利时的首都是哪里？",
+      "target_id": "比利时",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "比利时属于哪个大洲？",
+      "target_id": "比利时",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解比利时这个国家",
+      "target_id": "比利时",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "比利时的官方语言是什么？",
+      "target_id": "比利时",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Belgium",
+      "target_id": "比利时",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Belgium的信息",
+      "target_id": "比利时",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Belgium是哪个国家？",
+      "target_id": "比利时",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下奥地利这个国家",
+      "target_id": "奥地利",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "奥地利的首都是哪里？",
+      "target_id": "奥地利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "奥地利属于哪个大洲？",
+      "target_id": "奥地利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解奥地利这个国家",
+      "target_id": "奥地利",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "奥地利的官方语言是什么？",
+      "target_id": "奥地利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Austria",
+      "target_id": "奥地利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Austria的信息",
+      "target_id": "奥地利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Austria是哪个国家？",
+      "target_id": "奥地利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下挪威这个国家",
+      "target_id": "挪威",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "挪威的首都是哪里？",
+      "target_id": "挪威",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "挪威属于哪个大洲？",
+      "target_id": "挪威",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解挪威这个国家",
+      "target_id": "挪威",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "挪威的官方语言是什么？",
+      "target_id": "挪威",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Norway",
+      "target_id": "挪威",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Norway的信息",
+      "target_id": "挪威",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Norway是哪个国家？",
+      "target_id": "挪威",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下丹麦这个国家",
+      "target_id": "丹麦",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "丹麦的首都是哪里？",
+      "target_id": "丹麦",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "丹麦属于哪个大洲？",
+      "target_id": "丹麦",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解丹麦这个国家",
+      "target_id": "丹麦",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "丹麦的官方语言是什么？",
+      "target_id": "丹麦",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Denmark",
+      "target_id": "丹麦",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Denmark的信息",
+      "target_id": "丹麦",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Denmark是哪个国家？",
+      "target_id": "丹麦",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下芬兰这个国家",
+      "target_id": "芬兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "芬兰的首都是哪里？",
+      "target_id": "芬兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "芬兰属于哪个大洲？",
+      "target_id": "芬兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解芬兰这个国家",
+      "target_id": "芬兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "芬兰的官方语言是什么？",
+      "target_id": "芬兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Finland",
+      "target_id": "芬兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Finland的信息",
+      "target_id": "芬兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Finland是哪个国家？",
+      "target_id": "芬兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下爱尔兰这个国家",
+      "target_id": "爱尔兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "爱尔兰的首都是哪里？",
+      "target_id": "爱尔兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "爱尔兰属于哪个大洲？",
+      "target_id": "爱尔兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解爱尔兰这个国家",
+      "target_id": "爱尔兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "爱尔兰的官方语言是什么？",
+      "target_id": "爱尔兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Ireland",
+      "target_id": "爱尔兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Ireland的信息",
+      "target_id": "爱尔兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Ireland是哪个国家？",
+      "target_id": "爱尔兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下葡萄牙这个国家",
+      "target_id": "葡萄牙",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "葡萄牙的首都是哪里？",
+      "target_id": "葡萄牙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "葡萄牙属于哪个大洲？",
+      "target_id": "葡萄牙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解葡萄牙这个国家",
+      "target_id": "葡萄牙",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "葡萄牙的官方语言是什么？",
+      "target_id": "葡萄牙",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Portugal",
+      "target_id": "葡萄牙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Portugal的信息",
+      "target_id": "葡萄牙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Portugal是哪个国家？",
+      "target_id": "葡萄牙",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下希腊这个国家",
+      "target_id": "希腊",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "希腊的首都是哪里？",
+      "target_id": "希腊",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "希腊属于哪个大洲？",
+      "target_id": "希腊",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解希腊这个国家",
+      "target_id": "希腊",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "希腊的官方语言是什么？",
+      "target_id": "希腊",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Greece",
+      "target_id": "希腊",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Greece的信息",
+      "target_id": "希腊",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Greece是哪个国家？",
+      "target_id": "希腊",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下土耳其这个国家",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "土耳其的首都是哪里？",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "土耳其属于哪个大洲？",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解土耳其这个国家",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "土耳其的官方语言是什么？",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Turkey",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Turkey的信息",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Turkey是哪个国家？",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下土耳其共和国",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查土耳其共和国的信息",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "土耳其共和国是哪个国家？",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下沙特阿拉伯这个国家",
+      "target_id": "沙特阿拉伯",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "沙特阿拉伯的首都是哪里？",
+      "target_id": "沙特阿拉伯",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "沙特阿拉伯属于哪个大洲？",
+      "target_id": "沙特阿拉伯",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解沙特阿拉伯这个国家",
+      "target_id": "沙特阿拉伯",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "沙特阿拉伯的官方语言是什么？",
+      "target_id": "沙特阿拉伯",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Saudi Arabia",
+      "target_id": "沙特阿拉伯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Saudi Arabia的信息",
+      "target_id": "沙特阿拉伯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Saudi Arabia是哪个国家？",
+      "target_id": "沙特阿拉伯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下沙特",
+      "target_id": "沙特阿拉伯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查沙特的信息",
+      "target_id": "沙特阿拉伯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "沙特是哪个国家？",
+      "target_id": "沙特阿拉伯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下以色列这个国家",
+      "target_id": "以色列",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "以色列的首都是哪里？",
+      "target_id": "以色列",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "以色列属于哪个大洲？",
+      "target_id": "以色列",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解以色列这个国家",
+      "target_id": "以色列",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "以色列的官方语言是什么？",
+      "target_id": "以色列",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Israel",
+      "target_id": "以色列",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Israel的信息",
+      "target_id": "以色列",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Israel是哪个国家？",
+      "target_id": "以色列",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下伊朗这个国家",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "伊朗的首都是哪里？",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "伊朗属于哪个大洲？",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解伊朗这个国家",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "伊朗的官方语言是什么？",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Iran",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Iran的信息",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Iran是哪个国家？",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下伊朗伊斯兰共和国",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查伊朗伊斯兰共和国的信息",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "伊朗伊斯兰共和国是哪个国家？",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下泰国这个国家",
+      "target_id": "泰国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "泰国的首都是哪里？",
+      "target_id": "泰国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "泰国属于哪个大洲？",
+      "target_id": "泰国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解泰国这个国家",
+      "target_id": "泰国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "泰国的官方语言是什么？",
+      "target_id": "泰国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Thailand",
+      "target_id": "泰国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Thailand的信息",
+      "target_id": "泰国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Thailand是哪个国家？",
+      "target_id": "泰国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下泰国",
+      "target_id": "泰国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查泰国的信息",
+      "target_id": "泰国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "泰国是哪个国家？",
+      "target_id": "泰国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下越南这个国家",
+      "target_id": "越南",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "越南的首都是哪里？",
+      "target_id": "越南",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "越南属于哪个大洲？",
+      "target_id": "越南",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解越南这个国家",
+      "target_id": "越南",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "越南的官方语言是什么？",
+      "target_id": "越南",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Vietnam",
+      "target_id": "越南",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Vietnam的信息",
+      "target_id": "越南",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Vietnam是哪个国家？",
+      "target_id": "越南",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下菲律宾这个国家",
+      "target_id": "菲律宾",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "菲律宾的首都是哪里？",
+      "target_id": "菲律宾",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "菲律宾属于哪个大洲？",
+      "target_id": "菲律宾",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解菲律宾这个国家",
+      "target_id": "菲律宾",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "菲律宾的官方语言是什么？",
+      "target_id": "菲律宾",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Philippines",
+      "target_id": "菲律宾",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Philippines的信息",
+      "target_id": "菲律宾",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Philippines是哪个国家？",
+      "target_id": "菲律宾",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下马来西亚这个国家",
+      "target_id": "马来西亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "马来西亚的首都是哪里？",
+      "target_id": "马来西亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "马来西亚属于哪个大洲？",
+      "target_id": "马来西亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解马来西亚这个国家",
+      "target_id": "马来西亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "马来西亚的官方语言是什么？",
+      "target_id": "马来西亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Malaysia",
+      "target_id": "马来西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Malaysia的信息",
+      "target_id": "马来西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Malaysia是哪个国家？",
+      "target_id": "马来西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下新加坡这个国家",
+      "target_id": "新加坡",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "新加坡的首都是哪里？",
+      "target_id": "新加坡",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "新加坡属于哪个大洲？",
+      "target_id": "新加坡",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解新加坡这个国家",
+      "target_id": "新加坡",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "新加坡的官方语言是什么？",
+      "target_id": "新加坡",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Singapore",
+      "target_id": "新加坡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Singapore的信息",
+      "target_id": "新加坡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Singapore是哪个国家？",
+      "target_id": "新加坡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下狮城",
+      "target_id": "新加坡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查狮城的信息",
+      "target_id": "新加坡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "狮城是哪个国家？",
+      "target_id": "新加坡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下巴基斯坦这个国家",
+      "target_id": "巴基斯坦",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "巴基斯坦的首都是哪里？",
+      "target_id": "巴基斯坦",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "巴基斯坦属于哪个大洲？",
+      "target_id": "巴基斯坦",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解巴基斯坦这个国家",
+      "target_id": "巴基斯坦",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "巴基斯坦的官方语言是什么？",
+      "target_id": "巴基斯坦",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Pakistan",
+      "target_id": "巴基斯坦",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Pakistan的信息",
+      "target_id": "巴基斯坦",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Pakistan是哪个国家？",
+      "target_id": "巴基斯坦",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下孟加拉国这个国家",
+      "target_id": "孟加拉国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "孟加拉国的首都是哪里？",
+      "target_id": "孟加拉国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "孟加拉国属于哪个大洲？",
+      "target_id": "孟加拉国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解孟加拉国这个国家",
+      "target_id": "孟加拉国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "孟加拉国的官方语言是什么？",
+      "target_id": "孟加拉国",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Bangladesh",
+      "target_id": "孟加拉国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Bangladesh的信息",
+      "target_id": "孟加拉国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Bangladesh是哪个国家？",
+      "target_id": "孟加拉国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下埃及这个国家",
+      "target_id": "埃及",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "埃及的首都是哪里？",
+      "target_id": "埃及",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "埃及属于哪个大洲？",
+      "target_id": "埃及",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解埃及这个国家",
+      "target_id": "埃及",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "埃及的官方语言是什么？",
+      "target_id": "埃及",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Egypt",
+      "target_id": "埃及",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Egypt的信息",
+      "target_id": "埃及",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Egypt是哪个国家？",
+      "target_id": "埃及",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下阿拉伯埃及共和国",
+      "target_id": "埃及",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查阿拉伯埃及共和国的信息",
+      "target_id": "埃及",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "阿拉伯埃及共和国是哪个国家？",
+      "target_id": "埃及",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下尼日利亚这个国家",
+      "target_id": "尼日利亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "尼日利亚的首都是哪里？",
+      "target_id": "尼日利亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "尼日利亚属于哪个大洲？",
+      "target_id": "尼日利亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解尼日利亚这个国家",
+      "target_id": "尼日利亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "尼日利亚的官方语言是什么？",
+      "target_id": "尼日利亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Nigeria",
+      "target_id": "尼日利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Nigeria的信息",
+      "target_id": "尼日利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Nigeria是哪个国家？",
+      "target_id": "尼日利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下南非这个国家",
+      "target_id": "南非",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "南非的首都是哪里？",
+      "target_id": "南非",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "南非属于哪个大洲？",
+      "target_id": "南非",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解南非这个国家",
+      "target_id": "南非",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "南非的官方语言是什么？",
+      "target_id": "南非",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下South Africa",
+      "target_id": "南非",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查South Africa的信息",
+      "target_id": "南非",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "South Africa是哪个国家？",
+      "target_id": "南非",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下南非共和国",
+      "target_id": "南非",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查南非共和国的信息",
+      "target_id": "南非",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "南非共和国是哪个国家？",
+      "target_id": "南非",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下肯尼亚这个国家",
+      "target_id": "肯尼亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "肯尼亚的首都是哪里？",
+      "target_id": "肯尼亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "肯尼亚属于哪个大洲？",
+      "target_id": "肯尼亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解肯尼亚这个国家",
+      "target_id": "肯尼亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "肯尼亚的官方语言是什么？",
+      "target_id": "肯尼亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Kenya",
+      "target_id": "肯尼亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Kenya的信息",
+      "target_id": "肯尼亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Kenya是哪个国家？",
+      "target_id": "肯尼亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下摩洛哥这个国家",
+      "target_id": "摩洛哥",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "摩洛哥的首都是哪里？",
+      "target_id": "摩洛哥",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "摩洛哥属于哪个大洲？",
+      "target_id": "摩洛哥",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解摩洛哥这个国家",
+      "target_id": "摩洛哥",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "摩洛哥的官方语言是什么？",
+      "target_id": "摩洛哥",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Morocco",
+      "target_id": "摩洛哥",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Morocco的信息",
+      "target_id": "摩洛哥",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Morocco是哪个国家？",
+      "target_id": "摩洛哥",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下埃塞俄比亚这个国家",
+      "target_id": "埃塞俄比亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "埃塞俄比亚的首都是哪里？",
+      "target_id": "埃塞俄比亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "埃塞俄比亚属于哪个大洲？",
+      "target_id": "埃塞俄比亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解埃塞俄比亚这个国家",
+      "target_id": "埃塞俄比亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "埃塞俄比亚的官方语言是什么？",
+      "target_id": "埃塞俄比亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Ethiopia",
+      "target_id": "埃塞俄比亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Ethiopia的信息",
+      "target_id": "埃塞俄比亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Ethiopia是哪个国家？",
+      "target_id": "埃塞俄比亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下加纳这个国家",
+      "target_id": "加纳",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "加纳的首都是哪里？",
+      "target_id": "加纳",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "加纳属于哪个大洲？",
+      "target_id": "加纳",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解加纳这个国家",
+      "target_id": "加纳",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "加纳的官方语言是什么？",
+      "target_id": "加纳",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Ghana",
+      "target_id": "加纳",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Ghana的信息",
+      "target_id": "加纳",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Ghana是哪个国家？",
+      "target_id": "加纳",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下阿根廷这个国家",
+      "target_id": "阿根廷",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "阿根廷的首都是哪里？",
+      "target_id": "阿根廷",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "阿根廷属于哪个大洲？",
+      "target_id": "阿根廷",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解阿根廷这个国家",
+      "target_id": "阿根廷",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "阿根廷的官方语言是什么？",
+      "target_id": "阿根廷",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Argentina",
+      "target_id": "阿根廷",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Argentina的信息",
+      "target_id": "阿根廷",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Argentina是哪个国家？",
+      "target_id": "阿根廷",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下智利这个国家",
+      "target_id": "智利",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "智利的首都是哪里？",
+      "target_id": "智利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "智利属于哪个大洲？",
+      "target_id": "智利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解智利这个国家",
+      "target_id": "智利",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "智利的官方语言是什么？",
+      "target_id": "智利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Chile",
+      "target_id": "智利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Chile的信息",
+      "target_id": "智利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Chile是哪个国家？",
+      "target_id": "智利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下秘鲁这个国家",
+      "target_id": "秘鲁",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "秘鲁的首都是哪里？",
+      "target_id": "秘鲁",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "秘鲁属于哪个大洲？",
+      "target_id": "秘鲁",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解秘鲁这个国家",
+      "target_id": "秘鲁",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "秘鲁的官方语言是什么？",
+      "target_id": "秘鲁",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Peru",
+      "target_id": "秘鲁",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Peru的信息",
+      "target_id": "秘鲁",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Peru是哪个国家？",
+      "target_id": "秘鲁",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下哥伦比亚这个国家",
+      "target_id": "哥伦比亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "哥伦比亚的首都是哪里？",
+      "target_id": "哥伦比亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "哥伦比亚属于哪个大洲？",
+      "target_id": "哥伦比亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解哥伦比亚这个国家",
+      "target_id": "哥伦比亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "哥伦比亚的官方语言是什么？",
+      "target_id": "哥伦比亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Colombia",
+      "target_id": "哥伦比亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Colombia的信息",
+      "target_id": "哥伦比亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Colombia是哪个国家？",
+      "target_id": "哥伦比亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下委内瑞拉这个国家",
+      "target_id": "委内瑞拉",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "委内瑞拉的首都是哪里？",
+      "target_id": "委内瑞拉",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "委内瑞拉属于哪个大洲？",
+      "target_id": "委内瑞拉",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解委内瑞拉这个国家",
+      "target_id": "委内瑞拉",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "委内瑞拉的官方语言是什么？",
+      "target_id": "委内瑞拉",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Venezuela",
+      "target_id": "委内瑞拉",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Venezuela的信息",
+      "target_id": "委内瑞拉",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Venezuela是哪个国家？",
+      "target_id": "委内瑞拉",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下新西兰这个国家",
+      "target_id": "新西兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "新西兰的首都是哪里？",
+      "target_id": "新西兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "新西兰属于哪个大洲？",
+      "target_id": "新西兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解新西兰这个国家",
+      "target_id": "新西兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "新西兰的官方语言是什么？",
+      "target_id": "新西兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下New Zealand",
+      "target_id": "新西兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查New Zealand的信息",
+      "target_id": "新西兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "New Zealand是哪个国家？",
+      "target_id": "新西兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下蒙古这个国家",
+      "target_id": "蒙古",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "蒙古的首都是哪里？",
+      "target_id": "蒙古",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "蒙古属于哪个大洲？",
+      "target_id": "蒙古",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解蒙古这个国家",
+      "target_id": "蒙古",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "蒙古的官方语言是什么？",
+      "target_id": "蒙古",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mongolia",
+      "target_id": "蒙古",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Mongolia的信息",
+      "target_id": "蒙古",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Mongolia是哪个国家？",
+      "target_id": "蒙古",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下尼泊尔这个国家",
+      "target_id": "尼泊尔",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "尼泊尔的首都是哪里？",
+      "target_id": "尼泊尔",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "尼泊尔属于哪个大洲？",
+      "target_id": "尼泊尔",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解尼泊尔这个国家",
+      "target_id": "尼泊尔",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "尼泊尔的官方语言是什么？",
+      "target_id": "尼泊尔",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Nepal",
+      "target_id": "尼泊尔",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Nepal的信息",
+      "target_id": "尼泊尔",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Nepal是哪个国家？",
+      "target_id": "尼泊尔",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下斯里兰卡这个国家",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "斯里兰卡的首都是哪里？",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "斯里兰卡属于哪个大洲？",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解斯里兰卡这个国家",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "斯里兰卡的官方语言是什么？",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Sri Lanka",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Sri Lanka的信息",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Sri Lanka是哪个国家？",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下哈萨克斯坦这个国家",
+      "target_id": "哈萨克斯坦",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "哈萨克斯坦的首都是哪里？",
+      "target_id": "哈萨克斯坦",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "哈萨克斯坦属于哪个大洲？",
+      "target_id": "哈萨克斯坦",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解哈萨克斯坦这个国家",
+      "target_id": "哈萨克斯坦",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "哈萨克斯坦的官方语言是什么？",
+      "target_id": "哈萨克斯坦",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Kazakhstan",
+      "target_id": "哈萨克斯坦",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Kazakhstan的信息",
+      "target_id": "哈萨克斯坦",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Kazakhstan是哪个国家？",
+      "target_id": "哈萨克斯坦",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下乌克兰这个国家",
+      "target_id": "乌克兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "乌克兰的首都是哪里？",
+      "target_id": "乌克兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "乌克兰属于哪个大洲？",
+      "target_id": "乌克兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解乌克兰这个国家",
+      "target_id": "乌克兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "乌克兰的官方语言是什么？",
+      "target_id": "乌克兰",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Ukraine",
+      "target_id": "乌克兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Ukraine的信息",
+      "target_id": "乌克兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Ukraine是哪个国家？",
+      "target_id": "乌克兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下捷克这个国家",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "捷克的首都是哪里？",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "捷克属于哪个大洲？",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解捷克这个国家",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "捷克的官方语言是什么？",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Czech Republic",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Czech Republic的信息",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Czech Republic是哪个国家？",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下匈牙利这个国家",
+      "target_id": "匈牙利",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "匈牙利的首都是哪里？",
+      "target_id": "匈牙利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "匈牙利属于哪个大洲？",
+      "target_id": "匈牙利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解匈牙利这个国家",
+      "target_id": "匈牙利",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "匈牙利的官方语言是什么？",
+      "target_id": "匈牙利",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Hungary",
+      "target_id": "匈牙利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Hungary的信息",
+      "target_id": "匈牙利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Hungary是哪个国家？",
+      "target_id": "匈牙利",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下罗马尼亚这个国家",
+      "target_id": "罗马尼亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "罗马尼亚的首都是哪里？",
+      "target_id": "罗马尼亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "罗马尼亚属于哪个大洲？",
+      "target_id": "罗马尼亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解罗马尼亚这个国家",
+      "target_id": "罗马尼亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "罗马尼亚的官方语言是什么？",
+      "target_id": "罗马尼亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Romania",
+      "target_id": "罗马尼亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Romania的信息",
+      "target_id": "罗马尼亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Romania是哪个国家？",
+      "target_id": "罗马尼亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下保加利亚这个国家",
+      "target_id": "保加利亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "保加利亚的首都是哪里？",
+      "target_id": "保加利亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "保加利亚属于哪个大洲？",
+      "target_id": "保加利亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解保加利亚这个国家",
+      "target_id": "保加利亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "保加利亚的官方语言是什么？",
+      "target_id": "保加利亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Bulgaria",
+      "target_id": "保加利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Bulgaria的信息",
+      "target_id": "保加利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Bulgaria是哪个国家？",
+      "target_id": "保加利亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下塞尔维亚这个国家",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "塞尔维亚的首都是哪里？",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "塞尔维亚属于哪个大洲？",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解塞尔维亚这个国家",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "塞尔维亚的官方语言是什么？",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Serbia",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Serbia的信息",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Serbia是哪个国家？",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下克罗地亚这个国家",
+      "target_id": "克罗地亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "克罗地亚的首都是哪里？",
+      "target_id": "克罗地亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "克罗地亚属于哪个大洲？",
+      "target_id": "克罗地亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解克罗地亚这个国家",
+      "target_id": "克罗地亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "克罗地亚的官方语言是什么？",
+      "target_id": "克罗地亚",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Croatia",
+      "target_id": "克罗地亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Croatia的信息",
+      "target_id": "克罗地亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Croatia是哪个国家？",
+      "target_id": "克罗地亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下冰岛这个国家",
+      "target_id": "冰岛",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "冰岛的首都是哪里？",
+      "target_id": "冰岛",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "冰岛属于哪个大洲？",
+      "target_id": "冰岛",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解冰岛这个国家",
+      "target_id": "冰岛",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "冰岛的官方语言是什么？",
+      "target_id": "冰岛",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Iceland",
+      "target_id": "冰岛",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Iceland的信息",
+      "target_id": "冰岛",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Iceland是哪个国家？",
+      "target_id": "冰岛",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下卢森堡这个国家",
+      "target_id": "卢森堡",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "卢森堡的首都是哪里？",
+      "target_id": "卢森堡",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "卢森堡属于哪个大洲？",
+      "target_id": "卢森堡",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解卢森堡这个国家",
+      "target_id": "卢森堡",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "卢森堡的官方语言是什么？",
+      "target_id": "卢森堡",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Luxembourg",
+      "target_id": "卢森堡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Luxembourg的信息",
+      "target_id": "卢森堡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Luxembourg是哪个国家？",
+      "target_id": "卢森堡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下古巴这个国家",
+      "target_id": "古巴",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "古巴的首都是哪里？",
+      "target_id": "古巴",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "古巴属于哪个大洲？",
+      "target_id": "古巴",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解古巴这个国家",
+      "target_id": "古巴",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "古巴的官方语言是什么？",
+      "target_id": "古巴",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Cuba",
+      "target_id": "古巴",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Cuba的信息",
+      "target_id": "古巴",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Cuba是哪个国家？",
+      "target_id": "古巴",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下牙买加这个国家",
+      "target_id": "牙买加",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "牙买加的首都是哪里？",
+      "target_id": "牙买加",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "牙买加属于哪个大洲？",
+      "target_id": "牙买加",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解牙买加这个国家",
+      "target_id": "牙买加",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "牙买加的官方语言是什么？",
+      "target_id": "牙买加",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Jamaica",
+      "target_id": "牙买加",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Jamaica的信息",
+      "target_id": "牙买加",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Jamaica是哪个国家？",
+      "target_id": "牙买加",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下巴拿马这个国家",
+      "target_id": "巴拿马",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "巴拿马的首都是哪里？",
+      "target_id": "巴拿马",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "巴拿马属于哪个大洲？",
+      "target_id": "巴拿马",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "train"
+    },
+    {
+      "text": "我想了解巴拿马这个国家",
+      "target_id": "巴拿马",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "巴拿马的官方语言是什么？",
+      "target_id": "巴拿马",
+      "kind": "known",
+      "subtype": "attribute",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Panama",
+      "target_id": "巴拿马",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查Panama的信息",
+      "target_id": "巴拿马",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Panama是哪个国家？",
+      "target_id": "巴拿马",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "哪个欧洲国家的首都是柏林？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "官方语言是英语的国家有哪些？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "哪个亚洲国家说阿拉伯语？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "火星联邦是什么时候成立的？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "heldout"
+    },
+    {
+      "text": "亚特兰蒂斯岛的首都是哪里？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "train"
+    }
+  ]
+}

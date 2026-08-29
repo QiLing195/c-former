@@ -5,10 +5,10 @@
     "status": "自动生成；查询分 train/heldout，heldout 不参与训练；版本号与年份需人工核对",
     "objects": 273,
     "queries": {
-      "known": 1744,
+      "known": 1830,
       "ambiguous": 174,
       "unknown": 11,
-      "train": 1219,
+      "train": 1305,
       "heldout": 710
     }
   },
@@ -4776,7 +4776,21 @@
       "split": "train"
     },
     {
-      "text": "GPT-3.5 Turbo是哪个模型？",
+      "text": "GPT-3.5 Turbo是什么模型？",
+      "target_id": "gpt-3-5",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下GPT-3.5 Turbo的资料",
+      "target_id": "gpt-3-5",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下GPT-3.5 Turbo",
       "target_id": "gpt-3-5",
       "kind": "known",
       "subtype": "alias",
@@ -4895,21 +4909,49 @@
       "split": "train"
     },
     {
-      "text": "GPT-4 Omni是哪个模型？",
-      "target_id": "gpt-4o",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "heldout"
-    },
-    {
-      "text": "查一下Omni的情况",
+      "text": "GPT-4 Omni是什么模型？",
       "target_id": "gpt-4o",
       "kind": "known",
       "subtype": "alias",
       "split": "train"
     },
     {
-      "text": "帮我找Omni",
+      "text": "帮我查一下GPT-4 Omni的资料",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下GPT-4 Omni",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Omni",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Omni是什么模型？",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Omni的资料",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Omni",
       "target_id": "gpt-4o",
       "kind": "known",
       "subtype": "alias",
@@ -5168,7 +5210,21 @@
       "split": "train"
     },
     {
-      "text": "GPT-5 最新版是哪个模型？",
+      "text": "GPT-5 最新版是什么模型？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下GPT-5 最新版的资料",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下GPT-5 最新版",
       "target_id": "gpt-5-2",
       "kind": "known",
       "subtype": "alias",
@@ -5340,7 +5396,21 @@
       "split": "train"
     },
     {
-      "text": "OpenAI o3是哪个模型？",
+      "text": "OpenAI o3是什么模型？",
+      "target_id": "o3",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下OpenAI o3的资料",
+      "target_id": "o3",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下OpenAI o3",
       "target_id": "o3",
       "kind": "known",
       "subtype": "alias",
@@ -5424,7 +5494,21 @@
       "split": "train"
     },
     {
-      "text": "OpenAI o4是哪个模型？",
+      "text": "OpenAI o4是什么模型？",
+      "target_id": "o4",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下OpenAI o4的资料",
+      "target_id": "o4",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下OpenAI o4",
       "target_id": "o4",
       "kind": "known",
       "subtype": "alias",
@@ -6051,7 +6135,21 @@
       "split": "train"
     },
     {
-      "text": "Opus 4.7是哪个模型？",
+      "text": "Opus 4.7是什么模型？",
+      "target_id": "claude-opus-4-7",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Opus 4.7的资料",
+      "target_id": "claude-opus-4-7",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Opus 4.7",
       "target_id": "claude-opus-4-7",
       "kind": "known",
       "subtype": "alias",
@@ -6100,21 +6198,49 @@
       "split": "train"
     },
     {
-      "text": "Claude 4.8是哪个模型？",
-      "target_id": "claude-opus-4-8",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "heldout"
-    },
-    {
-      "text": "查一下Opus 4.8的情况",
+      "text": "Claude 4.8是什么模型？",
       "target_id": "claude-opus-4-8",
       "kind": "known",
       "subtype": "alias",
       "split": "train"
     },
     {
-      "text": "帮我找Opus 4.8",
+      "text": "帮我查一下Claude 4.8的资料",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Claude 4.8",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Opus 4.8",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Opus 4.8是什么模型？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Opus 4.8的资料",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Opus 4.8",
       "target_id": "claude-opus-4-8",
       "kind": "known",
       "subtype": "alias",
@@ -6566,7 +6692,21 @@
       "split": "train"
     },
     {
-      "text": "Gemini 3.5 旗舰是哪个模型？",
+      "text": "Gemini 3.5 旗舰是什么模型？",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Gemini 3.5 旗舰的资料",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Gemini 3.5 旗舰",
       "target_id": "gemini-3-5-pro",
       "kind": "known",
       "subtype": "alias",
@@ -6615,7 +6755,21 @@
       "split": "train"
     },
     {
-      "text": "Gemini Flash 3.5是哪个模型？",
+      "text": "Gemini Flash 3.5是什么模型？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Gemini Flash 3.5的资料",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Gemini Flash 3.5",
       "target_id": "gemini-3-5-flash",
       "kind": "known",
       "subtype": "alias",
@@ -6997,7 +7151,21 @@
       "split": "train"
     },
     {
-      "text": "Llama 3.1 405B是哪个模型？",
+      "text": "Llama 3.1 405B是什么模型？",
+      "target_id": "llama-3-1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Llama 3.1 405B的资料",
+      "target_id": "llama-3-1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Llama 3.1 405B",
       "target_id": "llama-3-1",
       "kind": "known",
       "subtype": "alias",
@@ -7396,7 +7564,21 @@
       "split": "train"
     },
     {
-      "text": "Meta Llama 4是哪个模型？",
+      "text": "Meta Llama 4是什么模型？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Meta Llama 4的资料",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Meta Llama 4",
       "target_id": "llama-4",
       "kind": "known",
       "subtype": "alias",
@@ -7708,7 +7890,21 @@
       "split": "train"
     },
     {
-      "text": "xAI Grok 5是哪个模型？",
+      "text": "xAI Grok 5是什么模型？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下xAI Grok 5的资料",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下xAI Grok 5",
       "target_id": "grok-5",
       "kind": "known",
       "subtype": "alias",
@@ -8090,7 +8286,21 @@
       "split": "train"
     },
     {
-      "text": "Mistral Large 最新版是哪个模型？",
+      "text": "Mistral Large 最新版是什么模型？",
+      "target_id": "mistral-large-3",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Mistral Large 最新版的资料",
+      "target_id": "mistral-large-3",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Mistral Large 最新版",
       "target_id": "mistral-large-3",
       "kind": "known",
       "subtype": "alias",
@@ -8437,7 +8647,21 @@
       "split": "train"
     },
     {
-      "text": "Phi-3是哪个模型？",
+      "text": "Phi-3是什么模型？",
+      "target_id": "phi-3-mini",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Phi-3的资料",
+      "target_id": "phi-3-mini",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Phi-3",
       "target_id": "phi-3-mini",
       "kind": "known",
       "subtype": "alias",
@@ -8872,7 +9096,21 @@
       "split": "train"
     },
     {
-      "text": "英伟达Nemotron是哪个模型？",
+      "text": "英伟达Nemotron是什么模型？",
+      "target_id": "nemotron-h",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下英伟达Nemotron的资料",
+      "target_id": "nemotron-h",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下英伟达Nemotron",
       "target_id": "nemotron-h",
       "kind": "known",
       "subtype": "alias",
@@ -9202,7 +9440,21 @@
       "split": "train"
     },
     {
-      "text": "Cohere Command A是哪个模型？",
+      "text": "Cohere Command A是什么模型？",
+      "target_id": "command-a",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Cohere Command A的资料",
+      "target_id": "command-a",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Cohere Command A",
       "target_id": "command-a",
       "kind": "known",
       "subtype": "alias",
@@ -10777,21 +11029,49 @@
       "split": "train"
     },
     {
-      "text": "千问3.6是哪个模型？",
-      "target_id": "qwen3-6",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "heldout"
-    },
-    {
-      "text": "查一下通义千问3.6的情况",
+      "text": "千问3.6是什么模型？",
       "target_id": "qwen3-6",
       "kind": "known",
       "subtype": "alias",
       "split": "train"
     },
     {
-      "text": "帮我找通义千问3.6",
+      "text": "帮我查一下千问3.6的资料",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下千问3.6",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下通义千问3.6",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "通义千问3.6是什么模型？",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下通义千问3.6的资料",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下通义千问3.6",
       "target_id": "qwen3-6",
       "kind": "known",
       "subtype": "alias",
@@ -10840,21 +11120,49 @@
       "split": "train"
     },
     {
-      "text": "千问3.7是哪个模型？",
-      "target_id": "qwen3-7-max",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "heldout"
-    },
-    {
-      "text": "查一下通义千问3.7的情况",
+      "text": "千问3.7是什么模型？",
       "target_id": "qwen3-7-max",
       "kind": "known",
       "subtype": "alias",
       "split": "train"
     },
     {
-      "text": "帮我找通义千问3.7",
+      "text": "帮我查一下千问3.7的资料",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下千问3.7",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下通义千问3.7",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "通义千问3.7是什么模型？",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下通义千问3.7的资料",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下通义千问3.7",
       "target_id": "qwen3-7-max",
       "kind": "known",
       "subtype": "alias",
@@ -10938,7 +11246,21 @@
       "split": "train"
     },
     {
-      "text": "通义代码模型是哪个模型？",
+      "text": "通义代码模型是什么模型？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下通义代码模型的资料",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下通义代码模型",
       "target_id": "qwen2-5-coder",
       "kind": "known",
       "subtype": "alias",
@@ -11250,7 +11572,21 @@
       "split": "train"
     },
     {
-      "text": "深度求索R1是哪个模型？",
+      "text": "深度求索R1是什么模型？",
+      "target_id": "deepseek-r1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下深度求索R1的资料",
+      "target_id": "deepseek-r1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下深度求索R1",
       "target_id": "deepseek-r1",
       "kind": "known",
       "subtype": "alias",
@@ -11544,21 +11880,49 @@
       "split": "train"
     },
     {
-      "text": "DeepSeek V4 Pro是哪个模型？",
-      "target_id": "deepseek-v4-pro",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "heldout"
-    },
-    {
-      "text": "查一下深度求索V4 Pro的情况",
+      "text": "DeepSeek V4 Pro是什么模型？",
       "target_id": "deepseek-v4-pro",
       "kind": "known",
       "subtype": "alias",
       "split": "train"
     },
     {
-      "text": "帮我找深度求索V4 Pro",
+      "text": "帮我查一下DeepSeek V4 Pro的资料",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下DeepSeek V4 Pro",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下深度求索V4 Pro",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "深度求索V4 Pro是什么模型？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下深度求索V4 Pro的资料",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下深度求索V4 Pro",
       "target_id": "deepseek-v4-pro",
       "kind": "known",
       "subtype": "alias",
@@ -11835,21 +12199,49 @@
       "split": "train"
     },
     {
-      "text": "Kimi K2.6是哪个模型？",
-      "target_id": "kimi-k2-6",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "heldout"
-    },
-    {
-      "text": "查一下月之暗面K2.6的情况",
+      "text": "Kimi K2.6是什么模型？",
       "target_id": "kimi-k2-6",
       "kind": "known",
       "subtype": "alias",
       "split": "train"
     },
     {
-      "text": "帮我找月之暗面K2.6",
+      "text": "帮我查一下Kimi K2.6的资料",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Kimi K2.6",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下月之暗面K2.6",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "月之暗面K2.6是什么模型？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下月之暗面K2.6的资料",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下月之暗面K2.6",
       "target_id": "kimi-k2-6",
       "kind": "known",
       "subtype": "alias",
@@ -12126,7 +12518,21 @@
       "split": "train"
     },
     {
-      "text": "智谱GLM 5.1是哪个模型？",
+      "text": "智谱GLM 5.1是什么模型？",
+      "target_id": "glm-5-1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下智谱GLM 5.1的资料",
+      "target_id": "glm-5-1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下智谱GLM 5.1",
       "target_id": "glm-5-1",
       "kind": "known",
       "subtype": "alias",
@@ -12175,7 +12581,21 @@
       "split": "train"
     },
     {
-      "text": "智谱GLM 5.3是哪个模型？",
+      "text": "智谱GLM 5.3是什么模型？",
+      "target_id": "glm-5-3",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下智谱GLM 5.3的资料",
+      "target_id": "glm-5-3",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下智谱GLM 5.3",
       "target_id": "glm-5-3",
       "kind": "known",
       "subtype": "alias",
@@ -12224,7 +12644,21 @@
       "split": "train"
     },
     {
-      "text": "智谱Z1是哪个模型？",
+      "text": "智谱Z1是什么模型？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下智谱Z1的资料",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下智谱Z1",
       "target_id": "glm-z1",
       "kind": "known",
       "subtype": "alias",
@@ -12466,7 +12900,21 @@
       "split": "train"
     },
     {
-      "text": "MiniMax M2 最新版是哪个模型？",
+      "text": "MiniMax M2 最新版是什么模型？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下MiniMax M2 最新版的资料",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下MiniMax M2 最新版",
       "target_id": "minimax-m2-7",
       "kind": "known",
       "subtype": "alias",
@@ -12638,21 +13086,49 @@
       "split": "train"
     },
     {
-      "text": "豆包1.5Pro是哪个模型？",
-      "target_id": "豆包-1-5-pro",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "heldout"
-    },
-    {
-      "text": "查一下Doubao 1.5 Pro的情况",
+      "text": "豆包1.5Pro是什么模型？",
       "target_id": "豆包-1-5-pro",
       "kind": "known",
       "subtype": "alias",
       "split": "train"
     },
     {
-      "text": "帮我找Doubao 1.5 Pro",
+      "text": "帮我查一下豆包1.5Pro的资料",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下豆包1.5Pro",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Doubao 1.5 Pro",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Doubao 1.5 Pro是什么模型？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Doubao 1.5 Pro的资料",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Doubao 1.5 Pro",
       "target_id": "豆包-1-5-pro",
       "kind": "known",
       "subtype": "alias",
@@ -12964,21 +13440,49 @@
       "split": "train"
     },
     {
-      "text": "混元T1是哪个模型？",
-      "target_id": "混元-t1",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "heldout"
-    },
-    {
-      "text": "查一下Hunyuan T1的情况",
+      "text": "混元T1是什么模型？",
       "target_id": "混元-t1",
       "kind": "known",
       "subtype": "alias",
       "split": "train"
     },
     {
-      "text": "帮我找Hunyuan T1",
+      "text": "帮我查一下混元T1的资料",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下混元T1",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Hunyuan T1",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Hunyuan T1是什么模型？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Hunyuan T1的资料",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Hunyuan T1",
       "target_id": "混元-t1",
       "kind": "known",
       "subtype": "alias",
@@ -13027,7 +13531,21 @@
       "split": "train"
     },
     {
-      "text": "Hunyuan A1是哪个模型？",
+      "text": "Hunyuan A1是什么模型？",
+      "target_id": "混元-a1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Hunyuan A1的资料",
+      "target_id": "混元-a1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Hunyuan A1",
       "target_id": "混元-a1",
       "kind": "known",
       "subtype": "alias",
@@ -13234,7 +13752,21 @@
       "split": "train"
     },
     {
-      "text": "文心4.5是哪个模型？",
+      "text": "文心4.5是什么模型？",
+      "target_id": "文心一言-4-5",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下文心4.5的资料",
+      "target_id": "文心一言-4-5",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下文心4.5",
       "target_id": "文心一言-4-5",
       "kind": "known",
       "subtype": "alias",
@@ -14231,21 +14763,49 @@
       "split": "train"
     },
     {
-      "text": "讯飞星火5是哪个模型？",
-      "target_id": "星火-v5-0",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "heldout"
-    },
-    {
-      "text": "查一下Spark 5的情况",
+      "text": "讯飞星火5是什么模型？",
       "target_id": "星火-v5-0",
       "kind": "known",
       "subtype": "alias",
       "split": "train"
     },
     {
-      "text": "帮我找Spark 5",
+      "text": "帮我查一下讯飞星火5的资料",
+      "target_id": "星火-v5-0",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下讯飞星火5",
+      "target_id": "星火-v5-0",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Spark 5",
+      "target_id": "星火-v5-0",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Spark 5是什么模型？",
+      "target_id": "星火-v5-0",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下Spark 5的资料",
+      "target_id": "星火-v5-0",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下Spark 5",
       "target_id": "星火-v5-0",
       "kind": "known",
       "subtype": "alias",
@@ -14522,7 +15082,21 @@
       "split": "train"
     },
     {
-      "text": "书生 InternLM是哪个模型？",
+      "text": "书生 InternLM是什么模型？",
+      "target_id": "internlm3-5",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下书生 InternLM的资料",
+      "target_id": "internlm3-5",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下书生 InternLM",
       "target_id": "internlm3-5",
       "kind": "known",
       "subtype": "alias",
@@ -14852,7 +15426,21 @@
       "split": "train"
     },
     {
-      "text": "华为盘古是哪个模型？",
+      "text": "华为盘古是什么模型？",
+      "target_id": "盘古-3-0",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下华为盘古的资料",
+      "target_id": "盘古-3-0",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下华为盘古",
       "target_id": "盘古-3-0",
       "kind": "known",
       "subtype": "alias",
@@ -15112,7 +15700,21 @@
       "split": "train"
     },
     {
-      "text": "快手可灵是哪个模型？",
+      "text": "快手可灵是什么模型？",
+      "target_id": "可灵-2-0",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下快手可灵的资料",
+      "target_id": "可灵-2-0",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下快手可灵",
       "target_id": "可灵-2-0",
       "kind": "known",
       "subtype": "alias",
