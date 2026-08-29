@@ -1,69 +1,40 @@
-# C-Former 项目下一步（交接文档）
+# C-Former 会话线交接文档（V6.3 更新版）
 
-生成时间：本轮（6/6）收尾。目的：把已完成工作、冻结基线、阻塞项和下一步方案一次性写清楚，供继续推进或换人接手。
+> 本文件是历史交接文档的**当前化**版本（原稿为 V6.0 时期，已过期）。完整版本说明见 [`README.md`](README.md)。
 
-## 1. 当前状态快照
+## 1. 当前状态快照（2026-08 会话线）
 
 | 项 | 状态 |
 |---|---|
-| git 版本控制 | 10 个提交，标签 `v6.0` / `v6.0b` / `v6.1`，工作树干净 |
-| 测试 | 82 passed（另有 6 个 error 是沙箱 `tmp_path` 环境问题，非代码缺陷；CI 在 Linux 上会全部通过） |
+| 版本 | 会话线 V6.3（内部 V6.x ↔ 测试版 0.6.x；历史 tag `v0.6.1c`） |
+| 数据 | AI 模型 273 对象 + 国家 68 + 电影 60 + 观测点查询集（`data/`） |
+| 测试 | `D:\conda\envs\cformer-gpu\python.exe -m pytest tests/ -q` |
 | 打包/CI | `pyproject.toml` + `.github/workflows/ci.yml` |
-| 冻结基线 | **V6.0 编码器**（2 层 C-Former，1.456M 参数，检查点 `artifacts/v60_strict_checkpoints/cformer_L2_seed60{1,2,3}.pt`） |
+| 冻结基线 | V6.0 编码器（2 层 C-Former，共享 Token Transformer） |
 
-## 2. 关键结论（实验证据）
+## 2. 关键结论（实验证据，全部真实数据 3 种子）
 
-1. **V6.0 模板集饱和**：55,296 条模板查询 Top-1 100%，不证明真实能力。
-2. **V6.0b 盲测**（36 条人工自然中文）：已知 Top-1 93.75%，失败集中在**区域轴近义别名**（冰原/腹地、河流上段/下段、乡村/中央）；同名歧义 100%、未知零误支持 100%。
-3. **V6.0c（负结果）**：数据增强无法修复区域轴——正式 64K Top-1 从 100% 回退到 99.57%，盲测无提升。**不晋升**，保留 V6.0 基线。
-4. **V6.0b 校准**：冻结 margin=0.08 过于保守（盲测 coverage 28.8%）；校准到 0.02–0.04 恢复覆盖但会误支持歧义/未知 → 必须**分类型阈值**。已落地 `EvidenceVerifier(margin_by_type=...)` + `RECOMMENDED_MARGINS_V60B`。
-5. **V6.1 ANN**：torch IVF 在 64K–512K 全矩阵 Recall@256=100%、Top-1 下降 0；512K FP16 64 MiB、INT8（固定 scale）32 MiB、查询 p50≈1.5ms、建索引 0.33s。
-6. **诚实的边界贯穿始终**：所有 ANN 100% 都发生在**组合语义空间**，真实开放世界的召回压力尚未建立。
+1. 身份解析（AI 域，分域评测）：identity_top1 **76.3%**；关系推理（predecessor/latest）33% → 归 V6.3 递归层；
+2. 观测点：selection 92.2% / invariance 97.2% / permission 100%（零泄漏，mask_caught 31–85）；
+3. **V6.3 递归层**（确定性关系图）：predecessor 100% / 多跳 98.3% / latest 86%，四重控制（cycle/depth/time/version）全部通过；
+4. 跨域：零样本迁移不成立（5.2% ≈ 随机）；多域联合训练有效（电影 74.9% / 国家 67.9% / AI 46.5%）；
+5. TTT（测试时训练）查询编码：**负结果**，未超过基线；
+6. 诚实边界：小对比模型在训练查询上是记忆而非泛化；数据集为检索/常识近似，正式使用前需人工核对。
 
-## 3. 阻塞项（需要你决策/提供）
-
-1. **git push 备份**：仓库至今未关联任何远程。需要你提供 GitHub/Gitee 仓库地址。命令已备好：
-   ```powershell
-   git remote add origin <你的仓库地址>
-   git push -u origin master --tags
-   ```
-2. **真实中文语料**：V6.1c 集成与 V6.2 端到端都依赖「非组合、含近重复/噪声」的对象别名数据。合成数据无法替代，需要真实来源或人工标注。
-
-## 4. 真实语料采集/标注方案（建议）
-
-- **规模起点**：1,000–5,000 个真实实体（企业/机构/人物/地点/产品），每个 3–8 个真实别名（全称/简称/口语/错字/旧称）；
-- **四类证据**对齐现有接口：名称、属性、关系、变化，每证据 1–2 句自然文本；
-- **必须包含**：同名不同对象、只差一字的近义别名、真实未知实体、多来源冲突、过期/版本不一致；
-- **分割**：按实体族/来源/时间/表述模板隔离训练/验证/测试，并公开泄漏检查（无编号、无 label、无模板短语）；
-- **来源建议**：公开知识库（Wikidata 中文、百度百科、企查查公开页）或人工众包标注；避免只用模板生成器。
-
-## 5. V6.2 观测点端到端设计要点
-
-- 链路：对象解析（已冻结 V6.0）→ **身份确认后**才注入 observer → 权限/时间/空间确定性 mask → C-Former 观测点调制 → 证据答案；
-- 闸门（路线图 §8）：身份在合法观测点间一致、权限泄漏率 0、跨视角证据召回 ≥95%、答案可追溯证据 ≥95%；
-- 不许为每个观测点复制对象向量（单副本原则）；
-- 先做 2 层消融，无收益保留浅层。
-
-## 6. 立即可复现的命令
+## 3. 复现命令（同 README）
 
 ```powershell
-# 全量测试（需 cformer-gpu 环境；Linux CI 上 6 个 tmp_path error 会消失）
 D:\conda\envs\cformer-gpu\python.exe -m pytest tests/ -q
-
-# 盲测 + 校准
-D:\conda\envs\cformer-gpu\python.exe evaluate_v60b.py
-D:\conda\envs\cformer-gpu\python.exe calibrate_v60.py
-
-# ANN 64K 全矩阵 / 512K 规模
-D:\conda\envs\cformer-gpu\python.exe evaluate_v61.py
-D:\conda\envs\cformer-gpu\python.exe bench_v61_scale.py --scales 131072 262144 524288
+D:\conda\envs\cformer-gpu\python.exe train_eval_real.py --steps 600 --seeds 1 2 3
+D:\conda\envs\cformer-gpu\python.exe build_observer_queries.py
+D:\conda\envs\cformer-gpu\python.exe eval_observer_real.py
+D:\conda\envs\cformer-gpu\python.exe train_eval_cross.py --steps 300 --seeds 1 2 3
+D:\conda\envs\cformer-gpu\python.exe train_ttt_real.py --steps 600 --seeds 1 2 3
+D:\conda\envs\cformer-gpu\python.exe train_eval_v63.py
 ```
 
-## 7. 建议的推进顺序
+## 4. Git 状态与推送
 
-1. **push 备份**（30 秒，等你给地址）——防止本机故障丢代码；
-2. **真实语料采集**（外部依赖）→ V6.1c `UnifiedObjectStore` 集成 + 真实召回压力测试；
-3. **V6.2** 观测点端到端（在真实检索层之上）；
-4. 之后 V6.3 时空递归 → V6.4 幻觉校准 → V6.5 集成。
-
-在真实数据就位前，不建议继续扩大合成规模或在合成集上加推理层——V6.0b 已经证明合成集饱和会掩盖真实缺陷。
+- 本仓库 `E:\deepseek\c-former` 为会话线；V6.5 主线完整备份在 `E:\oprncode\c-former`；
+- 推送前执行 `repush.bat`（清理嵌套克隆 → 修正提交信息 → 测试门禁 → 推送）；
+- 日常推送用 `push.bat`；提交信息中文一句话，里程碑才打 tag。

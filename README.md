@@ -1,129 +1,85 @@
-# C-Former（测试版 0.6.1c）
+# C-Former（会话线 V6.3 · 真实数据验证）
 
 面向验证的 **Constellation Transformer (C-Former)** 研究原型，核心假设：
 
 > 所有信息存放在共享对象世界中，同一对象可被不同问题、不同观测点复用；观测点是坐标/索引，而不是知识的副本。身份解析先于观测点注入；神经模型只能提出候选，正式身份写入由确定性治理层控制。
 
-> ⚠️ 当前为**测试版 0.6.1c**（对应内部里程碑 V6.1c），尚在调试，不是正式版本。
+## 当前版本（2026-08 会话线）
 
-## 当前成果（真实数据验证，2026-08）
+本仓库保存 **V6.3 会话线**：在真实数据上完成「共享对象库 → 身份解析 → 观测点 → 递归推理」的实证，并记录跨域与 TTT 实验（含负结果）。版本号映射：内部 V6.x ↔ 测试版 0.6.x（历史 tag：`v0.6.1c`）。
 
-在 **273 个真实 AI 模型 + 68 个国家 + 60 部电影** 三个域上完成了「共享对象库 → 身份解析 → 观测点」的实证：
+### 成果一览（真实数据，3 种子）
 
 | 能力 | 指标 | 报告 |
 |---|---|---|
-| 身份解析（AI 域，分域评测） | identity_top1 **76.3%** | [`V62_OBSERVER_REPORT.md`](V62_OBSERVER_REPORT.md) |
+| 身份解析（AI 域，分域评测，198→273 对象） | identity_top1 **76.3%** | [`V62_OBSERVER_REPORT.md`](V62_OBSERVER_REPORT.md) |
 | 观测点：不同观测点不同答案 | selection **92.2%** | 同上 |
 | 观测点：身份不随观测点漂移 | invariance **97.2%** | 同上 |
 | 观测点：可见性零泄漏 | permission **100%**（mask_caught 31–85） | 同上 |
-| 多域联合训练 | 电影 74.9% / 国家 67.9% / AI 46.5% | [`V62_CROSS_DOMAIN_REPORT.md`](V62_CROSS_DOMAIN_REPORT.md) |
+| **V6.3 递归层**（确定性关系图） | predecessor **100%** / 多跳 **98.3%** / latest **86%** | [`V63_RECURSION_REPORT.md`](V63_RECURSION_REPORT.md) |
+| 跨域：零样本迁移 | **不成立**（5.2% ≈ 随机） | [`V62_CROSS_DOMAIN_REPORT.md`](V62_CROSS_DOMAIN_REPORT.md) |
+| 跨域：多域联合训练 | 电影 74.9% / 国家 67.9% / AI 46.5% | 同上 |
+| TTT 查询编码 | **负结果**（未超过基线） | [`TTT_EXPERIMENT_REPORT.md`](TTT_EXPERIMENT_REPORT.md) |
 
-**项目边界（诚实声明）**：
-- **零样本跨域迁移不成立**（单域训练后新域 ≈ 随机）：编码器学到的是域内「词汇→身份」映射，需要**逐域或多域联合训练**；不是零样本开放世界解析器；
-- 关系推理（predecessor/latest）是独立任务（33%），归 V6.3 递归层；
-- TTT（测试时训练）查询编码实验为**负结果**，详见 [`TTT_EXPERIMENT_REPORT.md`](TTT_EXPERIMENT_REPORT.md)；
-- 数据集版本号/别名/年份为检索与常识近似，正式使用前需人工核对（候选→审核→verified 流程）。
+### 诚实边界
 
-## 当前版本范围
+- **零样本跨域迁移不成立**：编码器学到的是域内「词汇→身份」映射，需要逐域或多域联合训练；不是零样本开放世界解析器；
+- 关系推理（predecessor/latest）由确定性递归层承接（V6.3），身份层不做跨候选比较；
+- 数据集为检索与常识近似（AI 273 / 国家 68 / 电影 60 对象），正式使用前需人工核对（候选→审核→verified 流程）；
+- 小对比模型在训练查询上是记忆而非泛化（留出集远低于训练集），是 V6.2 推理块与 V6.3 递归层存在的实证理由。
 
-当前代码只保留 V6.0 之后的内容（V1–V5.8 的旧实验代码已移除）：
+## 目录结构
 
-- `cformer_v59` 无编号开放别名解析 + 治理层（verifier / 版本化 ledger）
-- `cformer_v60` 共享 Token Transformer（中文，2 层冻结基线）
-- `cformer_v60b` 模板外中文盲测集 + 校准集 + 分类型阈值
-- `cformer_v60c` 区域轴增强实验（负结果，未晋升）
-- `cformer_v61` torch IVF ANN 分层检索（含 512K 规模）
-- `cformer_real` 真实数据管线（多域 tokenizer / 数据加载 / 观测点评测 / TTT 实验）
-- `data/` 三个真实数据集生成脚本与产物（AI 模型 / 国家 / 电影）
-
-## 环境
-
-Python 3.10+、PyTorch 2.x。依赖见 `pyproject.toml`，先执行：
-
-```powershell
-pip install -e .[dev]
+```text
+cformer_v59/  治理层：EvidenceVerifier（分类型 margin）+ CandidateLedger
+cformer_v60/  共享 Token Transformer（中文，2 层冻结基线）+ 对比/拒答/歧义损失
+cformer_v61/  torch IVF ANN 分层检索（历史基线，含 512K 规模验证）
+cformer_v63/  V6.3 递归层：RelationGraph + RecursiveResolver（确定性多跳）
+cformer_real/ 真实数据管线：MixedTokenizer / AIModelWorld / TTTResolver
+data/         AI 模型(273) · 国家(68) · 电影(60) · 观测点查询 数据集
+tests/        单元测试（pytest）
 ```
 
-GPU 训练/评测使用 `D:\conda\envs\cformer-gpu\python.exe`（RTX 3050 4GB）。CI 见 `.github/workflows/ci.yml`。
-
-## 测试
+## 环境与测试
 
 ```powershell
-D:\conda\envs\cformer-gpu\python.exe -m pytest tests/ -q
+pip install -e .[dev]                      # Python 3.10+ / PyTorch 2.x
+D:\conda\envs\cformer-gpu\python.exe -m pytest tests/ -q     # 全量测试
 ```
 
-V6.0 到 V6.5 的逐版目标、层数、数据、质量闸门、回退条件和最终验收标准见 [`V60_TO_V65_ROADMAP.md`](V60_TO_V65_ROADMAP.md)。
+GPU 训练/评测使用 `D:\conda\envs\cformer-gpu\python.exe`（RTX 3050 4GB）。CI 见 `.github/workflows/ci.yml`（push/PR 自动跑 pytest，CPU 环境）。
 
-## V6.0：共享 Token Transformer 与四证据融合
-
-V6.0 使用共享 Token Transformer 处理查询及名称、属性、关系、变化四类对象证据，并以严格对称否定集验证词序能力。2/4/6 层消融后，默认配置冻结为 2 层；正式测试覆盖 2K/8K/64K、每级 4 个世界和 3 个训练种子。
+## 复现命令
 
 ```powershell
-D:\conda\envs\cformer-gpu\python.exe train_evaluate_v60.py --kinds cformer mlp flat --layers 2 4 --seeds 601 602 603 --scales 2048 8192 65536 --worlds 4 --steps 300 --batch-size 128 --queries 96
-D:\conda\envs\cformer-gpu\python.exe aggregate_v60.py
-D:\conda\envs\cformer-gpu\python.exe -m pytest -q
+# 身份解析 + 观测点（先训练检查点，再生成观测点查询并评测）
+D:\conda\envs\cformer-gpu\python.exe train_eval_real.py --steps 600 --seeds 1 2 3
+D:\conda\envs\cformer-gpu\python.exe build_observer_queries.py
+D:\conda\envs\cformer-gpu\python.exe eval_observer_real.py
+
+# 跨域实验（零样本 vs 联合训练，轻量快速版）
+D:\conda\envs\cformer-gpu\python.exe train_eval_cross.py --steps 300 --seeds 1 2 3
+
+# TTT 对照（负结果复现）
+D:\conda\envs\cformer-gpu\python.exe train_ttt_real.py --steps 600 --seeds 1 2 3
+
+# V6.3 递归层（确定性，秒级）
+D:\conda\envs\cformer-gpu\python.exe train_eval_v63.py
+
+# margin 分布诊断
+D:\conda\envs\cformer-gpu\python.exe diag_margins_real.py --checkpoint artifacts/real_checkpoints/real_seed1.pt
 ```
 
-架构和训练数据见 [`V60_TOKEN_DESIGN.md`](V60_TOKEN_DESIGN.md)，55,296 次查询的结果、失败修正和限制见 [`V60_TOKEN_REPORT.md`](V60_TOKEN_REPORT.md)。
+## 历史版本基线（保留供审计，非当前线）
 
-## V6.0b：模板外中文盲测集
-
-V6.0b 建立第一个与训练模板隔离的盲测集：36 条人工撰写查询（新句式、口语、错字、同名不同对象、自然未知、冲突证据），冻结 2 层编码器零调参评测。量化了模板饱和：已知 Top-1 从模板集的 100% 降到 93.75%，主要失败模式是**区域轴近义别名**（冰原/腹地/高原/中央/乡村、河流上段/下段），同时给出第一组风险—覆盖率校准曲线。
-
-```powershell
-D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v60b.py
-D:\conda\envs\cformer-gpu\python.exe evaluate_v60b.py
-D:\conda\envs\cformer-gpu\python.exe calibrate_v60.py
-```
-
-设计与约束见 [`V60B_BLINDSET_DESIGN.md`](V60B_BLINDSET_DESIGN.md)，结果见 [`V60B_BLINDSET_REPORT.md`](V60B_BLINDSET_REPORT.md)，阈值校准见 [`V60B_CALIBRATION_REPORT.md`](V60B_CALIBRATION_REPORT.md)。
-
-## V6.0c：区域轴修复尝试（负结果，未晋升）
-
-V6.0c 尝试用数据增强（区域近义硬负例 + 内容字错字）修复 V6.0b 的区域轴混淆，两轮迭代结论为**负结果**：正式 64K Top-1 从 100% 回退到 99.57%、盲测已知无提升。**保留 V6.0 编码器为冻结基线**，转向阈值校准路径。代码与检查点保留供审计。
-
-```powershell
-D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v60c.py
-D:\conda\envs\cformer-gpu\python.exe train_evaluate_v60c.py --seeds 701 702 703 --steps 500 --batch-size 128
-```
-
-失败分析与下一步见 [`V60C_REGION_FIX_REPORT.md`](V60C_REGION_FIX_REPORT.md)。
-
-## V6.1：ANN 分层检索
-
-V6.1 用纯 torch 的 IVF 倒排索引把在线检索从 `O(N)` 全量扫描降为「粗召回 Top-256 + 精确精排」：3 规模 × 4 世界全矩阵 Recall@256 = 100%、ANN 相对精确扫描 Top-1 下降为 0、64K FP16 向量库 8.0 MiB（INT8 4.1 MiB）、向量化后查询 p50≈2.2 ms / p95≈3.2 ms。附墓碑删除、快照回滚与单副本存储。
-
-```powershell
-D:\conda\envs\cformer-gpu\python.exe -m pytest tests/test_cformer_v61.py
-D:\conda\envs\cformer-gpu\python.exe evaluate_v61.py
-D:\conda\envs\cformer-gpu\python.exe bench_v61_latency.py
-```
-
-设计见 [`V61_ANN_DESIGN.md`](V61_ANN_DESIGN.md)，结果与升级路径见 [`V61_ANN_REPORT.md`](V61_ANN_REPORT.md)。
-
-### V6.1b：IVF 512K 规模
-
-V6.1b 用 V5.9 编码器的真实向量把 IVF 扩展到 128K/256K/512K：Recall@256 = 100%、Top-1 下降 = 0、512K FP16 64.0 MiB（命中闸门）、向量化 k-means 建索引 0.33 s、查询 p50≈1.5 ms。
-
-```powershell
-D:\conda\envs\cformer-gpu\python.exe bench_v61_scale.py --scales 131072 262144 524288
-```
-
-规模结果与诚实边界（仍为组合语义空间）见 [`V61B_SCALE_REPORT.md`](V61B_SCALE_REPORT.md)。V6.1c 集成设计见 [`V61C_INTEGRATION_DESIGN.md`](V61C_INTEGRATION_DESIGN.md)。
+- **V6.0** 共享 Token Transformer：2/4/6 层消融后冻结 2 层；64K Top-1 100%。[设计](V60_TOKEN_DESIGN.md) · [报告](V60_TOKEN_REPORT.md)
+- **V6.0b** 模板外中文盲测集：已知 Top-1 93.75%，发现区域轴近义别名弱点。[盲测](V60B_BLINDSET_REPORT.md) · [校准](V60B_CALIBRATION_REPORT.md)
+- **V6.0c** 区域轴增强修复：**负结果**，未晋升。[报告](V60C_REGION_FIX_REPORT.md)
+- **V6.1 / V6.1b** torch IVF ANN：Recall@256=100%、512K FP16 64 MiB。[ANN 报告](V61_ANN_REPORT.md) · [规模报告](V61B_SCALE_REPORT.md) · [集成设计](V61C_INTEGRATION_DESIGN.md)
+- 逐版目标与质量闸门： [`V60_TO_V65_ROADMAP.md`](V60_TO_V65_ROADMAP.md)
 
 ## 工程规范
 
-- 打包与依赖：`pyproject.toml`（`pip install -e .[dev]`）；
-- CI：`.github/workflows/ci.yml` 在 push/PR 时自动运行 `python -m pytest`（CPU 环境，Python 3.10 / 3.12）；
-- 版本控制：当前测试版 **0.6.1c**（tag `v0.6.1c`），正式版前不再升主版本；
-- 大文件（模型检查点、原始结果 JSON）保留在 `artifacts/`，不进入版本库。
-
-### 如何新增一个版本（V6.2 起）
-
-1. 写 `VXX_DESIGN.md`：目标、架构、测试矩阵、质量闸门与回退条件；
-2. 新建 `cformer_vXX/` 包，只实现设计的最小部分，复用前版 verifier/ledger 与数据工具；
-3. 写 `tests/test_cformer_vXX.py` 并通过小规模闸门；
-4. 写 `train_evaluate_vXX.py` / `evaluate_vXX.py` 与 `aggregate_vXX.py`；
-5. 固定 3 个训练种子、每规模 4–5 个世界，原始 JSON 存入 `artifacts/`；
-6. 写 `VXX_REPORT.md`（含失败案例与限制），对照质量闸门逐条说明；
-7. 提交并打标签：`git add -A && git commit -m "VXX: ..." && git tag -a vXX -m "..."`。
+- 打包：`pyproject.toml`（`pip install -e .[dev]`）；依赖：`requirements.txt`；
+- 大文件（模型检查点、原始结果 JSON）在 `artifacts/`，不入库（`.gitignore`）；
+- 日常推送：`push.bat`（改一行提交信息后双击）；提交信息中文一句话，里程碑才打 tag。
