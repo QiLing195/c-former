@@ -54,16 +54,18 @@ SERIES = [
         ("Gemini 3.5 Pro", "2026", "代理编码旗舰"), ("Gemini 3.5 Flash", "2026", "最快代理编码"),
     ]),
     ("Meta", "美国", True, "Llama", [
+        # 变体（variant=True：不进链，predecessor=None）：尺寸规格
+        ("Llama 2 7B", "2023", "轻量", True), ("Llama 2 13B", "2023", "均衡", True),
+        ("Llama 2 70B", "2023", "旗舰", True),
+        ("Llama 3 8B", "2024", "轻量", True), ("Llama 3 70B", "2024", "旗舰", True),
+        ("Llama 3.1 8B", "2024", "轻量", True), ("Llama 3.1 70B", "2024", "均衡", True),
+        ("Llama 3.1 405B", "2024", "旗舰", True), ("Llama 3.2 1B", "2024", "轻量", True),
+        ("Llama 3.2 3B", "2024", "轻量", True), ("Llama 3.2 11B", "2024", "均衡", True),
+        ("Llama 4 Scout", "2026", "轻量开源", True), ("Llama 4 Maverick", "2026", "均衡开源", True),
+        # 主链（代数序，严格时间单调）
         ("Llama 1", "2023", ""), ("Llama 2", "2023", ""),
-        ("Llama 2 7B", "2023", "轻量"), ("Llama 2 13B", "2023", "均衡"),
-        ("Llama 2 70B", "2023", "旗舰"),
-        ("Llama 3", "2024", ""), ("Llama 3 8B", "2024", "轻量"), ("Llama 3 70B", "2024", "旗舰"),
-        ("Llama 3.1", "2024", ""), ("Llama 3.1 8B", "2024", "轻量"),
-        ("Llama 3.1 70B", "2024", "均衡"), ("Llama 3.1 405B", "2024", "旗舰"),
-        ("Llama 3.2", "2024", "多模态"), ("Llama 3.2 1B", "2024", "轻量"),
-        ("Llama 3.2 3B", "2024", "轻量"), ("Llama 3.2 11B", "2024", "均衡"),
-        ("Llama 3.3", "2024", "70B 旗舰"),
-        ("Llama 4 Scout", "2026", "轻量开源"), ("Llama 4 Maverick", "2026", "均衡开源"),
+        ("Llama 3", "2024", ""), ("Llama 3.1", "2024", ""),
+        ("Llama 3.2", "2024", "多模态"), ("Llama 3.3", "2024", "70B 旗舰"),
         ("Llama 4", "2026", "开源多模态旗舰"),
     ]),
     ("xAI", "美国", False, "Grok", [
@@ -76,9 +78,9 @@ SERIES = [
         ("Mistral Small", "2024", "轻量"), ("Mistral Medium", "2024", "均衡"),
         ("Mistral Large 2", "2024", "旗舰"), ("Mistral Nemo", "2024", "轻量"),
         ("Codestral", "2024", "编程"), ("Mathstral", "2024", "数学"),
+        ("Mixtral 8x22B", "2024", "MoE"), ("Mistral 7B v0.3", "2024", "开源"),
         ("Mistral Large 3", "2025", "旗舰"), ("Mistral Small 3", "2025", "轻量"),
-        ("Mistral Small 3.1", "2026", "轻量"), ("Mixtral 8x22B", "2024", "MoE"),
-        ("Mistral 7B v0.3", "2024", "开源"),
+        ("Mistral Small 3.1", "2026", "轻量"),
     ]),
     ("Microsoft", "美国", True, "Phi", [
         ("Phi-1", "2023", "轻量"), ("Phi-1.5", "2023", "轻量"), ("Phi-2", "2023", "轻量"),
@@ -122,28 +124,30 @@ SERIES = [
         ("EXAONE 3.0", "2025", "开源"),
     ]),
     ("阿里巴巴", "中国", True, "Qwen", [
+        # 变体（variant=True：不进链）：尺寸规格 / 多模态 / 专项能力
+        ("Qwen2.5 0.5B", "2024", "轻量", True), ("Qwen2.5 1.5B", "2024", "轻量", True),
+        ("Qwen2.5 3B", "2024", "轻量", True), ("Qwen2.5 7B", "2024", "均衡", True),
+        ("Qwen2.5 14B", "2024", "均衡", True), ("Qwen2.5 32B", "2025", "旗舰", True),
+        ("Qwen2.5 72B", "2025", "旗舰", True),
+        ("Qwen3 0.6B", "2025", "轻量", True), ("Qwen3 1.7B", "2025", "轻量", True),
+        ("Qwen3 4B", "2025", "轻量", True), ("Qwen3 8B", "2025", "均衡", True),
+        ("Qwen3 14B", "2025", "均衡", True), ("Qwen3 32B", "2026", "旗舰", True),
+        ("Qwen3 235B", "2026", "超大型", True),
+        ("Qwen-VL", "2024", "多模态", True), ("Qwen2.5-Coder", "2024", "编程", True),
+        ("Qwen2.5-Math", "2024", "数学", True), ("Qwen3-VL", "2025", "多模态", True),
+        # 主链（代数序，严格时间单调）
         ("Qwen 1", "2023", ""), ("Qwen 1.5", "2024", ""),
         ("Qwen2", "2024", ""), ("Qwen2.5", "2024", ""),
-        ("Qwen2.5 0.5B", "2024", "轻量"), ("Qwen2.5 1.5B", "2024", "轻量"),
-        ("Qwen2.5 3B", "2024", "轻量"), ("Qwen2.5 7B", "2024", "均衡"),
-        ("Qwen2.5 14B", "2024", "均衡"), ("Qwen2.5 32B", "2025", "旗舰"),
-        ("Qwen2.5 72B", "2025", "旗舰"),
-        ("Qwen3", "2025", "开源旗舰"), ("Qwen3 0.6B", "2025", "轻量"),
-        ("Qwen3 1.7B", "2025", "轻量"), ("Qwen3 4B", "2025", "轻量"),
-        ("Qwen3 8B", "2025", "均衡"), ("Qwen3 14B", "2025", "均衡"),
-        ("Qwen3 32B", "2026", "旗舰"), ("Qwen3 235B", "2026", "超大型"),
-        ("Qwen3.5", "2025", "开源旗舰"), ("Qwen3.6", "2026", "开源旗舰"),
-        ("Qwen3.7-Max", "2026", "闭源国产旗舰第一"),
-        ("Qwen-VL", "2024", "多模态"), ("Qwen2.5-Coder", "2024", "编程"),
-        ("Qwen2.5-Math", "2024", "数学"), ("Qwen3-VL", "2025", "多模态"),
+        ("Qwen3", "2025", "开源旗舰"), ("Qwen3.5", "2025", "开源旗舰"),
+        ("Qwen3.6", "2026", "开源旗舰"), ("Qwen3.7-Max", "2026", "闭源国产旗舰第一"),
     ]),
     ("深度求索", "中国", True, "DeepSeek", [
         ("DeepSeek-V1", "2024", ""), ("DeepSeek-V2", "2024", "MoE"),
         ("DeepSeek-V2.5", "2024", ""), ("DeepSeek-V3", "2024", "开源旗舰"),
+        ("DeepSeek-Coder-V2", "2024", "编程"),
         ("DeepSeek-R1", "2025", "推理"), ("DeepSeek-R1-Zero", "2025", "推理"),
         ("DeepSeek-V3.1", "2025", "开源旗舰"), ("DeepSeek-Coder", "2025", "编程"),
         ("DeepSeek-V3 671B", "2025", "MoE 超大型"), ("DeepSeek-R1-0528", "2025", "推理"),
-        ("DeepSeek-Coder-V2", "2024", "编程"),
         ("DeepSeek-V4", "2026", "开源旗舰"), ("DeepSeek-V4-Pro", "2026", "开源旗舰"),
         ("DeepSeek-R2", "2026", "推理"),
     ]),
@@ -153,10 +157,12 @@ SERIES = [
         ("Kimi-K2.6", "2026", "开源旗舰"),
     ]),
     ("智谱AI", "中国", True, "GLM", [
+        # 变体：推理专用
+        ("GLM-Z1", "2025", "推理", True),
+        # 主链（严格时间单调）
         ("GLM-4", "2024", ""), ("GLM-4.5", "2025", ""), ("GLM-4.6", "2025", ""),
-        ("GLM-4.7", "2026", "开源"), ("GLM-5", "2025", ""),
+        ("GLM-5", "2025", ""), ("GLM-4.7", "2026", "开源"),
         ("GLM-5.1", "2026", "开源"), ("GLM-5.3", "2026", "开源编程最强"),
-        ("GLM-Z1", "2025", "推理"),
     ]),
     ("MiniMax", "中国", True, "MiniMax", [
         ("MiniMax M1", "2025", ""), ("MiniMax M1.5", "2025", "轻量"),
@@ -165,8 +171,11 @@ SERIES = [
     ]),
     ("字节跳动", "中国", False, "豆包", [
         ("豆包 1.0", "2023", ""), ("豆包 1.5", "2025", "商用"),
-        ("豆包 1.5 Pro", "2026", "推理突出"), ("Seed 1.5", "2025", "多模态"),
-        ("Seed 2.0", "2025", "多模态"), ("Seed 3.0", "2026", "多模态"),
+        ("豆包 1.5 Pro", "2026", "推理突出"),
+    ]),
+    ("字节跳动", "中国", False, "Seed", [
+        ("Seed 1.5", "2025", "多模态"), ("Seed 2.0", "2025", "多模态"),
+        ("Seed 3.0", "2026", "多模态"),
     ]),
     ("腾讯", "中国", False, "混元", [
         ("混元", "2023", ""), ("混元 Turbo", "2024", "商用"),
@@ -225,6 +234,8 @@ SERIES = [
     ]),
     ("AI2", "美国", True, "OLMo", [
         ("OLMo 7B", "2024", "开源"), ("OLMo2 7B", "2025", "开源"),
+    ]),
+    ("AI2", "美国", True, "Molmo", [
         ("Molmo 7B", "2024", "开源多模态"), ("Molmo 72B", "2024", "开源多模态"),
     ]),
     ("BigScience", "国际", True, "BLOOM", [
@@ -291,10 +302,6 @@ SERIES = [
 ]
 
 
-def _prev(model_list, index):
-    return model_list[index - 1][0] if index > 0 else None
-
-
 # 真实别名表：只收录「唯一指向该对象」的别名（近名/系列级模糊别名会制造歧义，
 # 那些应该走 ambiguous 查询而不是 known）。别名会进证据文本 + 生成别名查询。
 ALIASES = {
@@ -341,10 +348,14 @@ def build():
     label = 0
     for company, region, open_source, series, models in SERIES:
         series_model_ids = []
-        series_count = len(models)
-        for index, (name, year, note) in enumerate(models):
-            prev = _prev(models, index)
-            is_latest = index == series_count - 1
+        main_names = [m[0] for m in models if len(m) < 4 or not m[3]]
+        last_main_name = None
+        for name, year, note, *extra in models:
+            is_variant = bool(extra and extra[0] is True)
+            prev = last_main_name if not is_variant else None
+            if not is_variant:
+                last_main_name = name
+            is_latest = (not is_variant) and (name == main_names[-1])
             alias_note = "" if " " not in name else name.replace(" ", "")
             aliases = ALIASES.get(name, ())
             evidence = {
@@ -354,7 +365,8 @@ def build():
                 "属性": f"它由 {company} 开发，是{'开源' if open_source else '闭源'}模型"
                         + (f"，{note}" if note else ""),
                 "关系": f"它在 {series} 系列中"
-                        + (f"，前一代是 {prev}" if prev else "，是该系列早期版本")
+                        + (f"，是{series}系列的一个规格/能力变体" if is_variant else
+                           (f"，前一代是 {prev}" if prev else "，是该系列早期版本"))
                         + ("，是该系列最新版本" if is_latest else ""),
                 "变化": f"它于 {year} 年发布",
             }
@@ -375,7 +387,8 @@ def build():
                 "predecessor": prev_id,
                 "evidence": evidence,
             })
-            series_model_ids.append(object_id)
+            if not is_variant:
+                series_model_ids.append(object_id)
             label += 1
 
             # 名称查询：2 训练 + 1 留出（身份在查询里，测基本匹配与句式稳健）

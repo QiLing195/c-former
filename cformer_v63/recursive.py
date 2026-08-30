@@ -82,8 +82,9 @@ class RecursiveResolver:
         ok_results = [r for r in results if r.ok]
         if not ok_results:
             return results[0] if results else RecursiveResult(False, "not_found", [])
-        # 多链取年份最大者为最新（时间单调约束下）
-        best = max(ok_results, key=lambda r: self.graph.year_of(r.answer_id))
+        # 多链取年份最大者为最新（时间单调约束下）；同年平局取 path 更长者
+        # （主链走到链尾的 path 必然更长，避免规格变体 head 在同年时被选中）
+        best = max(ok_results, key=lambda r: (self.graph.year_of(r.answer_id), len(r.path)))
         return best
 
     def predecessor_of(self, object_id: str) -> RecursiveResult:

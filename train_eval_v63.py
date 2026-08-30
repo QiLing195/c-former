@@ -48,13 +48,13 @@ def main() -> None:
         if result.ok and result.answer_id == obj["predecessor"]:
             pred_ok += 1
 
-    # 3) 多跳：从链头走 1/2/3 跳
+    # 3) 多跳：从链头走 1/2/3 跳（取年份最小的 head = 主链头，避开规格变体 head）
     hop_ok = hop_total = 0
     for series, members in series_chains.items():
         head = resolver.graph.series_heads(series)
         if not head:
             continue
-        start = head[0]
+        start = min(head, key=lambda h: resolver.graph.year_of(h))
         for hops in (1, 2, 3):
             result = resolver.chain(start, hops)
             if result.ok and result.answer_id in members:

@@ -5,11 +5,11 @@
     "status": "自动生成；查询分 train/heldout，heldout 不参与训练；版本号与年份需人工核对",
     "objects": 273,
     "queries": {
-      "known": 1830,
-      "ambiguous": 174,
+      "known": 1776,
+      "ambiguous": 180,
       "unknown": 11,
-      "train": 1305,
-      "heldout": 710
+      "train": 1285,
+      "heldout": 682
     }
   },
   "objects": [
@@ -878,8 +878,242 @@
       }
     },
     {
-      "id": "llama-1",
+      "id": "llama-2-7b",
       "label": 48,
+      "name": "Llama 2 7B",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2023",
+      "note": "轻量",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 2 7B，属于 Llama 系列，也常写作 Llama27B",
+        "属性": "它由 Meta 开发，是开源模型，轻量",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "llama-2-13b",
+      "label": 49,
+      "name": "Llama 2 13B",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2023",
+      "note": "均衡",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 2 13B，属于 Llama 系列，也常写作 Llama213B",
+        "属性": "它由 Meta 开发，是开源模型，均衡",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "llama-2-70b",
+      "label": 50,
+      "name": "Llama 2 70B",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2023",
+      "note": "旗舰",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 2 70B，属于 Llama 系列，也常写作 Llama270B",
+        "属性": "它由 Meta 开发，是开源模型，旗舰",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2023 年发布"
+      }
+    },
+    {
+      "id": "llama-3-8b",
+      "label": 51,
+      "name": "Llama 3 8B",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "轻量",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3 8B，属于 Llama 系列，也常写作 Llama38B",
+        "属性": "它由 Meta 开发，是开源模型，轻量",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-3-70b",
+      "label": 52,
+      "name": "Llama 3 70B",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "旗舰",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3 70B，属于 Llama 系列，也常写作 Llama370B",
+        "属性": "它由 Meta 开发，是开源模型，旗舰",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-3-1-8b",
+      "label": 53,
+      "name": "Llama 3.1 8B",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "轻量",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.1 8B，属于 Llama 系列，也常写作 Llama3.18B",
+        "属性": "它由 Meta 开发，是开源模型，轻量",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-3-1-70b",
+      "label": 54,
+      "name": "Llama 3.1 70B",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "均衡",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.1 70B，属于 Llama 系列，也常写作 Llama3.170B",
+        "属性": "它由 Meta 开发，是开源模型，均衡",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-3-1-405b",
+      "label": 55,
+      "name": "Llama 3.1 405B",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "旗舰",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.1 405B，属于 Llama 系列，也常写作 Llama3.1405B",
+        "属性": "它由 Meta 开发，是开源模型，旗舰",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-3-2-1b",
+      "label": 56,
+      "name": "Llama 3.2 1B",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "轻量",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.2 1B，属于 Llama 系列，也常写作 Llama3.21B",
+        "属性": "它由 Meta 开发，是开源模型，轻量",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-3-2-3b",
+      "label": 57,
+      "name": "Llama 3.2 3B",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "轻量",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.2 3B，属于 Llama 系列，也常写作 Llama3.23B",
+        "属性": "它由 Meta 开发，是开源模型，轻量",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-3-2-11b",
+      "label": 58,
+      "name": "Llama 3.2 11B",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2024",
+      "note": "均衡",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 3.2 11B，属于 Llama 系列，也常写作 Llama3.211B",
+        "属性": "它由 Meta 开发，是开源模型，均衡",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "llama-4-scout",
+      "label": 59,
+      "name": "Llama 4 Scout",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2026",
+      "note": "轻量开源",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 4 Scout，属于 Llama 系列，也常写作 Llama4Scout",
+        "属性": "它由 Meta 开发，是开源模型，轻量开源",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "llama-4-maverick",
+      "label": 60,
+      "name": "Llama 4 Maverick",
+      "company": "Meta",
+      "region": "美国",
+      "series": "Llama",
+      "open_source": true,
+      "year": "2026",
+      "note": "均衡开源",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Llama 4 Maverick，属于 Llama 系列，也常写作 Llama4Maverick",
+        "属性": "它由 Meta 开发，是开源模型，均衡开源",
+        "关系": "它在 Llama 系列中，是Llama系列的一个规格/能力变体",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "llama-1",
+      "label": 61,
       "name": "Llama 1",
       "company": "Meta",
       "region": "美国",
@@ -897,7 +1131,7 @@
     },
     {
       "id": "llama-2",
-      "label": 49,
+      "label": 62,
       "name": "Llama 2",
       "company": "Meta",
       "region": "美国",
@@ -914,62 +1148,8 @@
       }
     },
     {
-      "id": "llama-2-7b",
-      "label": 50,
-      "name": "Llama 2 7B",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2023",
-      "note": "轻量",
-      "predecessor": "llama-2",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 2 7B，属于 Llama 系列，也常写作 Llama27B",
-        "属性": "它由 Meta 开发，是开源模型，轻量",
-        "关系": "它在 Llama 系列中，前一代是 Llama 2",
-        "变化": "它于 2023 年发布"
-      }
-    },
-    {
-      "id": "llama-2-13b",
-      "label": 51,
-      "name": "Llama 2 13B",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2023",
-      "note": "均衡",
-      "predecessor": "llama-2-7b",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 2 13B，属于 Llama 系列，也常写作 Llama213B",
-        "属性": "它由 Meta 开发，是开源模型，均衡",
-        "关系": "它在 Llama 系列中，前一代是 Llama 2 7B",
-        "变化": "它于 2023 年发布"
-      }
-    },
-    {
-      "id": "llama-2-70b",
-      "label": 52,
-      "name": "Llama 2 70B",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2023",
-      "note": "旗舰",
-      "predecessor": "llama-2-13b",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 2 70B，属于 Llama 系列，也常写作 Llama270B",
-        "属性": "它由 Meta 开发，是开源模型，旗舰",
-        "关系": "它在 Llama 系列中，前一代是 Llama 2 13B",
-        "变化": "它于 2023 年发布"
-      }
-    },
-    {
       "id": "llama-3",
-      "label": 53,
+      "label": 63,
       "name": "Llama 3",
       "company": "Meta",
       "region": "美国",
@@ -977,53 +1157,17 @@
       "open_source": true,
       "year": "2024",
       "note": "",
-      "predecessor": "llama-2-70b",
+      "predecessor": "llama-2",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3，属于 Llama 系列，也常写作 Llama3",
         "属性": "它由 Meta 开发，是开源模型",
-        "关系": "它在 Llama 系列中，前一代是 Llama 2 70B",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "llama-3-8b",
-      "label": 54,
-      "name": "Llama 3 8B",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2024",
-      "note": "轻量",
-      "predecessor": "llama-3",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 3 8B，属于 Llama 系列，也常写作 Llama38B",
-        "属性": "它由 Meta 开发，是开源模型，轻量",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "llama-3-70b",
-      "label": 55,
-      "name": "Llama 3 70B",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2024",
-      "note": "旗舰",
-      "predecessor": "llama-3-8b",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 3 70B，属于 Llama 系列，也常写作 Llama370B",
-        "属性": "它由 Meta 开发，是开源模型，旗舰",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3 8B",
+        "关系": "它在 Llama 系列中，前一代是 Llama 2",
         "变化": "它于 2024 年发布"
       }
     },
     {
       "id": "llama-3-1",
-      "label": 56,
+      "label": 64,
       "name": "Llama 3.1",
       "company": "Meta",
       "region": "美国",
@@ -1031,71 +1175,17 @@
       "open_source": true,
       "year": "2024",
       "note": "",
-      "predecessor": "llama-3-70b",
+      "predecessor": "llama-3",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.1，属于 Llama 系列，也常写作 Llama3.1，也常被称作Llama 3.1 405B",
         "属性": "它由 Meta 开发，是开源模型",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3 70B",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "llama-3-1-8b",
-      "label": 57,
-      "name": "Llama 3.1 8B",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2024",
-      "note": "轻量",
-      "predecessor": "llama-3-1",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 3.1 8B，属于 Llama 系列，也常写作 Llama3.18B",
-        "属性": "它由 Meta 开发，是开源模型，轻量",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3.1",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "llama-3-1-70b",
-      "label": 58,
-      "name": "Llama 3.1 70B",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2024",
-      "note": "均衡",
-      "predecessor": "llama-3-1-8b",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 3.1 70B，属于 Llama 系列，也常写作 Llama3.170B",
-        "属性": "它由 Meta 开发，是开源模型，均衡",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3.1 8B",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "llama-3-1-405b",
-      "label": 59,
-      "name": "Llama 3.1 405B",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2024",
-      "note": "旗舰",
-      "predecessor": "llama-3-1-70b",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 3.1 405B，属于 Llama 系列，也常写作 Llama3.1405B",
-        "属性": "它由 Meta 开发，是开源模型，旗舰",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3.1 70B",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3",
         "变化": "它于 2024 年发布"
       }
     },
     {
       "id": "llama-3-2",
-      "label": 60,
+      "label": 65,
       "name": "Llama 3.2",
       "company": "Meta",
       "region": "美国",
@@ -1103,71 +1193,17 @@
       "open_source": true,
       "year": "2024",
       "note": "多模态",
-      "predecessor": "llama-3-1-405b",
+      "predecessor": "llama-3-1",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.2，属于 Llama 系列，也常写作 Llama3.2",
         "属性": "它由 Meta 开发，是开源模型，多模态",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3.1 405B",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "llama-3-2-1b",
-      "label": 61,
-      "name": "Llama 3.2 1B",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2024",
-      "note": "轻量",
-      "predecessor": "llama-3-2",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 3.2 1B，属于 Llama 系列，也常写作 Llama3.21B",
-        "属性": "它由 Meta 开发，是开源模型，轻量",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3.2",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "llama-3-2-3b",
-      "label": 62,
-      "name": "Llama 3.2 3B",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2024",
-      "note": "轻量",
-      "predecessor": "llama-3-2-1b",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 3.2 3B，属于 Llama 系列，也常写作 Llama3.23B",
-        "属性": "它由 Meta 开发，是开源模型，轻量",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3.2 1B",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "llama-3-2-11b",
-      "label": 63,
-      "name": "Llama 3.2 11B",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2024",
-      "note": "均衡",
-      "predecessor": "llama-3-2-3b",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 3.2 11B，属于 Llama 系列，也常写作 Llama3.211B",
-        "属性": "它由 Meta 开发，是开源模型，均衡",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3.2 3B",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3.1",
         "变化": "它于 2024 年发布"
       }
     },
     {
       "id": "llama-3-3",
-      "label": 64,
+      "label": 66,
       "name": "Llama 3.3",
       "company": "Meta",
       "region": "美国",
@@ -1175,48 +1211,12 @@
       "open_source": true,
       "year": "2024",
       "note": "70B 旗舰",
-      "predecessor": "llama-3-2-11b",
+      "predecessor": "llama-3-2",
       "evidence": {
         "名称": "这个模型的全称是 Llama 3.3，属于 Llama 系列，也常写作 Llama3.3",
         "属性": "它由 Meta 开发，是开源模型，70B 旗舰",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3.2 11B",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3.2",
         "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "llama-4-scout",
-      "label": 65,
-      "name": "Llama 4 Scout",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2026",
-      "note": "轻量开源",
-      "predecessor": "llama-3-3",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 4 Scout，属于 Llama 系列，也常写作 Llama4Scout",
-        "属性": "它由 Meta 开发，是开源模型，轻量开源",
-        "关系": "它在 Llama 系列中，前一代是 Llama 3.3",
-        "变化": "它于 2026 年发布"
-      }
-    },
-    {
-      "id": "llama-4-maverick",
-      "label": 66,
-      "name": "Llama 4 Maverick",
-      "company": "Meta",
-      "region": "美国",
-      "series": "Llama",
-      "open_source": true,
-      "year": "2026",
-      "note": "均衡开源",
-      "predecessor": "llama-4-scout",
-      "evidence": {
-        "名称": "这个模型的全称是 Llama 4 Maverick，属于 Llama 系列，也常写作 Llama4Maverick",
-        "属性": "它由 Meta 开发，是开源模型，均衡开源",
-        "关系": "它在 Llama 系列中，前一代是 Llama 4 Scout",
-        "变化": "它于 2026 年发布"
       }
     },
     {
@@ -1229,11 +1229,11 @@
       "open_source": true,
       "year": "2026",
       "note": "开源多模态旗舰",
-      "predecessor": "llama-4-maverick",
+      "predecessor": "llama-3-3",
       "evidence": {
         "名称": "这个模型的全称是 Llama 4，属于 Llama 系列，也常写作 Llama4，也常被称作Meta Llama 4",
         "属性": "它由 Meta 开发，是开源模型，开源多模态旗舰",
-        "关系": "它在 Llama 系列中，前一代是 Llama 4 Maverick，是该系列最新版本",
+        "关系": "它在 Llama 系列中，前一代是 Llama 3.3，是该系列最新版本",
         "变化": "它于 2026 年发布"
       }
     },
@@ -1508,8 +1508,44 @@
       }
     },
     {
-      "id": "mistral-large-3",
+      "id": "mixtral-8x22b",
       "label": 83,
+      "name": "Mixtral 8x22B",
+      "company": "Mistral AI",
+      "region": "法国",
+      "series": "Mistral",
+      "open_source": true,
+      "year": "2024",
+      "note": "MoE",
+      "predecessor": "mathstral",
+      "evidence": {
+        "名称": "这个模型的全称是 Mixtral 8x22B，属于 Mistral 系列，也常写作 Mixtral8x22B",
+        "属性": "它由 Mistral AI 开发，是开源模型，MoE",
+        "关系": "它在 Mistral 系列中，前一代是 Mathstral",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "mistral-7b-v0-3",
+      "label": 84,
+      "name": "Mistral 7B v0.3",
+      "company": "Mistral AI",
+      "region": "法国",
+      "series": "Mistral",
+      "open_source": true,
+      "year": "2024",
+      "note": "开源",
+      "predecessor": "mixtral-8x22b",
+      "evidence": {
+        "名称": "这个模型的全称是 Mistral 7B v0.3，属于 Mistral 系列，也常写作 Mistral7Bv0.3",
+        "属性": "它由 Mistral AI 开发，是开源模型，开源",
+        "关系": "它在 Mistral 系列中，前一代是 Mixtral 8x22B",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "mistral-large-3",
+      "label": 85,
       "name": "Mistral Large 3",
       "company": "Mistral AI",
       "region": "法国",
@@ -1517,17 +1553,17 @@
       "open_source": true,
       "year": "2025",
       "note": "旗舰",
-      "predecessor": "mathstral",
+      "predecessor": "mistral-7b-v0-3",
       "evidence": {
         "名称": "这个模型的全称是 Mistral Large 3，属于 Mistral 系列，也常写作 MistralLarge3，也常被称作Mistral Large 最新版",
         "属性": "它由 Mistral AI 开发，是开源模型，旗舰",
-        "关系": "它在 Mistral 系列中，前一代是 Mathstral",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral 7B v0.3",
         "变化": "它于 2025 年发布"
       }
     },
     {
       "id": "mistral-small-3",
-      "label": 84,
+      "label": 86,
       "name": "Mistral Small 3",
       "company": "Mistral AI",
       "region": "法国",
@@ -1545,7 +1581,7 @@
     },
     {
       "id": "mistral-small-3-1",
-      "label": 85,
+      "label": 87,
       "name": "Mistral Small 3.1",
       "company": "Mistral AI",
       "region": "法国",
@@ -1557,44 +1593,8 @@
       "evidence": {
         "名称": "这个模型的全称是 Mistral Small 3.1，属于 Mistral 系列，也常写作 MistralSmall3.1",
         "属性": "它由 Mistral AI 开发，是开源模型，轻量",
-        "关系": "它在 Mistral 系列中，前一代是 Mistral Small 3",
+        "关系": "它在 Mistral 系列中，前一代是 Mistral Small 3，是该系列最新版本",
         "变化": "它于 2026 年发布"
-      }
-    },
-    {
-      "id": "mixtral-8x22b",
-      "label": 86,
-      "name": "Mixtral 8x22B",
-      "company": "Mistral AI",
-      "region": "法国",
-      "series": "Mistral",
-      "open_source": true,
-      "year": "2024",
-      "note": "MoE",
-      "predecessor": "mistral-small-3-1",
-      "evidence": {
-        "名称": "这个模型的全称是 Mixtral 8x22B，属于 Mistral 系列，也常写作 Mixtral8x22B",
-        "属性": "它由 Mistral AI 开发，是开源模型，MoE",
-        "关系": "它在 Mistral 系列中，前一代是 Mistral Small 3.1",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "mistral-7b-v0-3",
-      "label": 87,
-      "name": "Mistral 7B v0.3",
-      "company": "Mistral AI",
-      "region": "法国",
-      "series": "Mistral",
-      "open_source": true,
-      "year": "2024",
-      "note": "开源",
-      "predecessor": "mixtral-8x22b",
-      "evidence": {
-        "名称": "这个模型的全称是 Mistral 7B v0.3，属于 Mistral 系列，也常写作 Mistral7Bv0.3",
-        "属性": "它由 Mistral AI 开发，是开源模型，开源",
-        "关系": "它在 Mistral 系列中，前一代是 Mixtral 8x22B，是该系列最新版本",
-        "变化": "它于 2024 年发布"
       }
     },
     {
@@ -2174,8 +2174,332 @@
       }
     },
     {
-      "id": "qwen-1",
+      "id": "qwen2-5-0-5b",
       "label": 120,
+      "name": "Qwen2.5 0.5B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "轻量",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5 0.5B，属于 Qwen 系列，也常写作 Qwen2.50.5B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen2-5-1-5b",
+      "label": 121,
+      "name": "Qwen2.5 1.5B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "轻量",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5 1.5B，属于 Qwen 系列，也常写作 Qwen2.51.5B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen2-5-3b",
+      "label": 122,
+      "name": "Qwen2.5 3B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "轻量",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5 3B，属于 Qwen 系列，也常写作 Qwen2.53B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen2-5-7b",
+      "label": 123,
+      "name": "Qwen2.5 7B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "均衡",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5 7B，属于 Qwen 系列，也常写作 Qwen2.57B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen2-5-14b",
+      "label": 124,
+      "name": "Qwen2.5 14B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "均衡",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5 14B，属于 Qwen 系列，也常写作 Qwen2.514B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen2-5-32b",
+      "label": 125,
+      "name": "Qwen2.5 32B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2025",
+      "note": "旗舰",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5 32B，属于 Qwen 系列，也常写作 Qwen2.532B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，旗舰",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "qwen2-5-72b",
+      "label": 126,
+      "name": "Qwen2.5 72B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2025",
+      "note": "旗舰",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5 72B，属于 Qwen 系列，也常写作 Qwen2.572B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，旗舰",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "qwen3-0-6b",
+      "label": 127,
+      "name": "Qwen3 0.6B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2025",
+      "note": "轻量",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3 0.6B，属于 Qwen 系列，也常写作 Qwen30.6B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "qwen3-1-7b",
+      "label": 128,
+      "name": "Qwen3 1.7B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2025",
+      "note": "轻量",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3 1.7B，属于 Qwen 系列，也常写作 Qwen31.7B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "qwen3-4b",
+      "label": 129,
+      "name": "Qwen3 4B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2025",
+      "note": "轻量",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3 4B，属于 Qwen 系列，也常写作 Qwen34B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "qwen3-8b",
+      "label": 130,
+      "name": "Qwen3 8B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2025",
+      "note": "均衡",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3 8B，属于 Qwen 系列，也常写作 Qwen38B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "qwen3-14b",
+      "label": 131,
+      "name": "Qwen3 14B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2025",
+      "note": "均衡",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3 14B，属于 Qwen 系列，也常写作 Qwen314B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "qwen3-32b",
+      "label": 132,
+      "name": "Qwen3 32B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2026",
+      "note": "旗舰",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3 32B，属于 Qwen 系列，也常写作 Qwen332B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，旗舰",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "qwen3-235b",
+      "label": 133,
+      "name": "Qwen3 235B",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2026",
+      "note": "超大型",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3 235B，属于 Qwen 系列，也常写作 Qwen3235B",
+        "属性": "它由 阿里巴巴 开发，是开源模型，超大型",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "qwen-vl",
+      "label": 134,
+      "name": "Qwen-VL",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "多模态",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen-VL，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen2-5-coder",
+      "label": 135,
+      "name": "Qwen2.5-Coder",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "编程",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5-Coder，属于 Qwen 系列，也常被称作通义代码模型",
+        "属性": "它由 阿里巴巴 开发，是开源模型，编程",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen2-5-math",
+      "label": 136,
+      "name": "Qwen2.5-Math",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2024",
+      "note": "数学",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen2.5-Math，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，数学",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "qwen3-vl",
+      "label": 137,
+      "name": "Qwen3-VL",
+      "company": "阿里巴巴",
+      "region": "中国",
+      "series": "Qwen",
+      "open_source": true,
+      "year": "2025",
+      "note": "多模态",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 Qwen3-VL，属于 Qwen 系列",
+        "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
+        "关系": "它在 Qwen 系列中，是Qwen系列的一个规格/能力变体",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "qwen-1",
+      "label": 138,
       "name": "Qwen 1",
       "company": "阿里巴巴",
       "region": "中国",
@@ -2193,7 +2517,7 @@
     },
     {
       "id": "qwen-1-5",
-      "label": 121,
+      "label": 139,
       "name": "Qwen 1.5",
       "company": "阿里巴巴",
       "region": "中国",
@@ -2211,7 +2535,7 @@
     },
     {
       "id": "qwen2",
-      "label": 122,
+      "label": 140,
       "name": "Qwen2",
       "company": "阿里巴巴",
       "region": "中国",
@@ -2229,7 +2553,7 @@
     },
     {
       "id": "qwen2-5",
-      "label": 123,
+      "label": 141,
       "name": "Qwen2.5",
       "company": "阿里巴巴",
       "region": "中国",
@@ -2246,134 +2570,8 @@
       }
     },
     {
-      "id": "qwen2-5-0-5b",
-      "label": 124,
-      "name": "Qwen2.5 0.5B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2024",
-      "note": "轻量",
-      "predecessor": "qwen2-5",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen2.5 0.5B，属于 Qwen 系列，也常写作 Qwen2.50.5B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "qwen2-5-1-5b",
-      "label": 125,
-      "name": "Qwen2.5 1.5B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2024",
-      "note": "轻量",
-      "predecessor": "qwen2-5-0-5b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen2.5 1.5B，属于 Qwen 系列，也常写作 Qwen2.51.5B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5 0.5B",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "qwen2-5-3b",
-      "label": 126,
-      "name": "Qwen2.5 3B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2024",
-      "note": "轻量",
-      "predecessor": "qwen2-5-1-5b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen2.5 3B，属于 Qwen 系列，也常写作 Qwen2.53B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5 1.5B",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "qwen2-5-7b",
-      "label": 127,
-      "name": "Qwen2.5 7B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2024",
-      "note": "均衡",
-      "predecessor": "qwen2-5-3b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen2.5 7B，属于 Qwen 系列，也常写作 Qwen2.57B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5 3B",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "qwen2-5-14b",
-      "label": 128,
-      "name": "Qwen2.5 14B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2024",
-      "note": "均衡",
-      "predecessor": "qwen2-5-7b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen2.5 14B，属于 Qwen 系列，也常写作 Qwen2.514B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5 7B",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "qwen2-5-32b",
-      "label": 129,
-      "name": "Qwen2.5 32B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2025",
-      "note": "旗舰",
-      "predecessor": "qwen2-5-14b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen2.5 32B，属于 Qwen 系列，也常写作 Qwen2.532B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，旗舰",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5 14B",
-        "变化": "它于 2025 年发布"
-      }
-    },
-    {
-      "id": "qwen2-5-72b",
-      "label": 130,
-      "name": "Qwen2.5 72B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2025",
-      "note": "旗舰",
-      "predecessor": "qwen2-5-32b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen2.5 72B，属于 Qwen 系列，也常写作 Qwen2.572B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，旗舰",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5 32B",
-        "变化": "它于 2025 年发布"
-      }
-    },
-    {
       "id": "qwen3",
-      "label": 131,
+      "label": 142,
       "name": "Qwen3",
       "company": "阿里巴巴",
       "region": "中国",
@@ -2381,143 +2579,17 @@
       "open_source": true,
       "year": "2025",
       "note": "开源旗舰",
-      "predecessor": "qwen2-5-72b",
+      "predecessor": "qwen2-5",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5 72B",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5",
         "变化": "它于 2025 年发布"
-      }
-    },
-    {
-      "id": "qwen3-0-6b",
-      "label": 132,
-      "name": "Qwen3 0.6B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2025",
-      "note": "轻量",
-      "predecessor": "qwen3",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen3 0.6B，属于 Qwen 系列，也常写作 Qwen30.6B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen3",
-        "变化": "它于 2025 年发布"
-      }
-    },
-    {
-      "id": "qwen3-1-7b",
-      "label": 133,
-      "name": "Qwen3 1.7B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2025",
-      "note": "轻量",
-      "predecessor": "qwen3-0-6b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen3 1.7B，属于 Qwen 系列，也常写作 Qwen31.7B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen3 0.6B",
-        "变化": "它于 2025 年发布"
-      }
-    },
-    {
-      "id": "qwen3-4b",
-      "label": 134,
-      "name": "Qwen3 4B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2025",
-      "note": "轻量",
-      "predecessor": "qwen3-1-7b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen3 4B，属于 Qwen 系列，也常写作 Qwen34B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，轻量",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen3 1.7B",
-        "变化": "它于 2025 年发布"
-      }
-    },
-    {
-      "id": "qwen3-8b",
-      "label": 135,
-      "name": "Qwen3 8B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2025",
-      "note": "均衡",
-      "predecessor": "qwen3-4b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen3 8B，属于 Qwen 系列，也常写作 Qwen38B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen3 4B",
-        "变化": "它于 2025 年发布"
-      }
-    },
-    {
-      "id": "qwen3-14b",
-      "label": 136,
-      "name": "Qwen3 14B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2025",
-      "note": "均衡",
-      "predecessor": "qwen3-8b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen3 14B，属于 Qwen 系列，也常写作 Qwen314B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，均衡",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen3 8B",
-        "变化": "它于 2025 年发布"
-      }
-    },
-    {
-      "id": "qwen3-32b",
-      "label": 137,
-      "name": "Qwen3 32B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2026",
-      "note": "旗舰",
-      "predecessor": "qwen3-14b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen3 32B，属于 Qwen 系列，也常写作 Qwen332B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，旗舰",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen3 14B",
-        "变化": "它于 2026 年发布"
-      }
-    },
-    {
-      "id": "qwen3-235b",
-      "label": 138,
-      "name": "Qwen3 235B",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2026",
-      "note": "超大型",
-      "predecessor": "qwen3-32b",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen3 235B，属于 Qwen 系列，也常写作 Qwen3235B",
-        "属性": "它由 阿里巴巴 开发，是开源模型，超大型",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen3 32B",
-        "变化": "它于 2026 年发布"
       }
     },
     {
       "id": "qwen3-5",
-      "label": 139,
+      "label": 143,
       "name": "Qwen3.5",
       "company": "阿里巴巴",
       "region": "中国",
@@ -2525,17 +2597,17 @@
       "open_source": true,
       "year": "2025",
       "note": "开源旗舰",
-      "predecessor": "qwen3-235b",
+      "predecessor": "qwen3",
       "evidence": {
         "名称": "这个模型的全称是 Qwen3.5，属于 Qwen 系列",
         "属性": "它由 阿里巴巴 开发，是开源模型，开源旗舰",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen3 235B",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3",
         "变化": "它于 2025 年发布"
       }
     },
     {
       "id": "qwen3-6",
-      "label": 140,
+      "label": 144,
       "name": "Qwen3.6",
       "company": "阿里巴巴",
       "region": "中国",
@@ -2553,7 +2625,7 @@
     },
     {
       "id": "qwen3-7-max",
-      "label": 141,
+      "label": 145,
       "name": "Qwen3.7-Max",
       "company": "阿里巴巴",
       "region": "中国",
@@ -2565,80 +2637,8 @@
       "evidence": {
         "名称": "这个模型的全称是 Qwen3.7-Max，属于 Qwen 系列，也常被称作千问3.7、通义千问3.7",
         "属性": "它由 阿里巴巴 开发，是开源模型，闭源国产旗舰第一",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen3.6",
+        "关系": "它在 Qwen 系列中，前一代是 Qwen3.6，是该系列最新版本",
         "变化": "它于 2026 年发布"
-      }
-    },
-    {
-      "id": "qwen-vl",
-      "label": 142,
-      "name": "Qwen-VL",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2024",
-      "note": "多模态",
-      "predecessor": "qwen3-7-max",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen-VL，属于 Qwen 系列",
-        "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen3.7-Max",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "qwen2-5-coder",
-      "label": 143,
-      "name": "Qwen2.5-Coder",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2024",
-      "note": "编程",
-      "predecessor": "qwen-vl",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen2.5-Coder，属于 Qwen 系列，也常被称作通义代码模型",
-        "属性": "它由 阿里巴巴 开发，是开源模型，编程",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen-VL",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "qwen2-5-math",
-      "label": 144,
-      "name": "Qwen2.5-Math",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2024",
-      "note": "数学",
-      "predecessor": "qwen2-5-coder",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen2.5-Math，属于 Qwen 系列",
-        "属性": "它由 阿里巴巴 开发，是开源模型，数学",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5-Coder",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
-      "id": "qwen3-vl",
-      "label": 145,
-      "name": "Qwen3-VL",
-      "company": "阿里巴巴",
-      "region": "中国",
-      "series": "Qwen",
-      "open_source": true,
-      "year": "2025",
-      "note": "多模态",
-      "predecessor": "qwen2-5-math",
-      "evidence": {
-        "名称": "这个模型的全称是 Qwen3-VL，属于 Qwen 系列",
-        "属性": "它由 阿里巴巴 开发，是开源模型，多模态",
-        "关系": "它在 Qwen 系列中，前一代是 Qwen2.5-Math，是该系列最新版本",
-        "变化": "它于 2025 年发布"
       }
     },
     {
@@ -2714,8 +2714,26 @@
       }
     },
     {
-      "id": "deepseek-r1",
+      "id": "deepseek-coder-v2",
       "label": 150,
+      "name": "DeepSeek-Coder-V2",
+      "company": "深度求索",
+      "region": "中国",
+      "series": "DeepSeek",
+      "open_source": true,
+      "year": "2024",
+      "note": "编程",
+      "predecessor": "deepseek-v3",
+      "evidence": {
+        "名称": "这个模型的全称是 DeepSeek-Coder-V2，属于 DeepSeek 系列",
+        "属性": "它由 深度求索 开发，是开源模型，编程",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V3",
+        "变化": "它于 2024 年发布"
+      }
+    },
+    {
+      "id": "deepseek-r1",
+      "label": 151,
       "name": "DeepSeek-R1",
       "company": "深度求索",
       "region": "中国",
@@ -2723,17 +2741,17 @@
       "open_source": true,
       "year": "2025",
       "note": "推理",
-      "predecessor": "deepseek-v3",
+      "predecessor": "deepseek-coder-v2",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-R1，属于 DeepSeek 系列，也常被称作深度求索R1",
         "属性": "它由 深度求索 开发，是开源模型，推理",
-        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-V3",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-Coder-V2",
         "变化": "它于 2025 年发布"
       }
     },
     {
       "id": "deepseek-r1-zero",
-      "label": 151,
+      "label": 152,
       "name": "DeepSeek-R1-Zero",
       "company": "深度求索",
       "region": "中国",
@@ -2751,7 +2769,7 @@
     },
     {
       "id": "deepseek-v3-1",
-      "label": 152,
+      "label": 153,
       "name": "DeepSeek-V3.1",
       "company": "深度求索",
       "region": "中国",
@@ -2769,7 +2787,7 @@
     },
     {
       "id": "deepseek-coder",
-      "label": 153,
+      "label": 154,
       "name": "DeepSeek-Coder",
       "company": "深度求索",
       "region": "中国",
@@ -2787,7 +2805,7 @@
     },
     {
       "id": "deepseek-v3-671b",
-      "label": 154,
+      "label": 155,
       "name": "DeepSeek-V3 671B",
       "company": "深度求索",
       "region": "中国",
@@ -2805,7 +2823,7 @@
     },
     {
       "id": "deepseek-r1-0528",
-      "label": 155,
+      "label": 156,
       "name": "DeepSeek-R1-0528",
       "company": "深度求索",
       "region": "中国",
@@ -2822,24 +2840,6 @@
       }
     },
     {
-      "id": "deepseek-coder-v2",
-      "label": 156,
-      "name": "DeepSeek-Coder-V2",
-      "company": "深度求索",
-      "region": "中国",
-      "series": "DeepSeek",
-      "open_source": true,
-      "year": "2024",
-      "note": "编程",
-      "predecessor": "deepseek-r1-0528",
-      "evidence": {
-        "名称": "这个模型的全称是 DeepSeek-Coder-V2，属于 DeepSeek 系列",
-        "属性": "它由 深度求索 开发，是开源模型，编程",
-        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-R1-0528",
-        "变化": "它于 2024 年发布"
-      }
-    },
-    {
       "id": "deepseek-v4",
       "label": 157,
       "name": "DeepSeek-V4",
@@ -2849,11 +2849,11 @@
       "open_source": true,
       "year": "2026",
       "note": "开源旗舰",
-      "predecessor": "deepseek-coder-v2",
+      "predecessor": "deepseek-r1-0528",
       "evidence": {
         "名称": "这个模型的全称是 DeepSeek-V4，属于 DeepSeek 系列",
         "属性": "它由 深度求索 开发，是开源模型，开源旗舰",
-        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-Coder-V2",
+        "关系": "它在 DeepSeek 系列中，前一代是 DeepSeek-R1-0528",
         "变化": "它于 2026 年发布"
       }
     },
@@ -2984,8 +2984,26 @@
       }
     },
     {
-      "id": "glm-4",
+      "id": "glm-z1",
       "label": 165,
+      "name": "GLM-Z1",
+      "company": "智谱AI",
+      "region": "中国",
+      "series": "GLM",
+      "open_source": true,
+      "year": "2025",
+      "note": "推理",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-Z1，属于 GLM 系列，也常被称作智谱Z1",
+        "属性": "它由 智谱AI 开发，是开源模型，推理",
+        "关系": "它在 GLM 系列中，是GLM系列的一个规格/能力变体",
+        "变化": "它于 2025 年发布"
+      }
+    },
+    {
+      "id": "glm-4",
+      "label": 166,
       "name": "GLM-4",
       "company": "智谱AI",
       "region": "中国",
@@ -3003,7 +3021,7 @@
     },
     {
       "id": "glm-4-5",
-      "label": 166,
+      "label": 167,
       "name": "GLM-4.5",
       "company": "智谱AI",
       "region": "中国",
@@ -3021,7 +3039,7 @@
     },
     {
       "id": "glm-4-6",
-      "label": 167,
+      "label": 168,
       "name": "GLM-4.6",
       "company": "智谱AI",
       "region": "中国",
@@ -3038,24 +3056,6 @@
       }
     },
     {
-      "id": "glm-4-7",
-      "label": 168,
-      "name": "GLM-4.7",
-      "company": "智谱AI",
-      "region": "中国",
-      "series": "GLM",
-      "open_source": true,
-      "year": "2026",
-      "note": "开源",
-      "predecessor": "glm-4-6",
-      "evidence": {
-        "名称": "这个模型的全称是 GLM-4.7，属于 GLM 系列",
-        "属性": "它由 智谱AI 开发，是开源模型，开源",
-        "关系": "它在 GLM 系列中，前一代是 GLM-4.6",
-        "变化": "它于 2026 年发布"
-      }
-    },
-    {
       "id": "glm-5",
       "label": 169,
       "name": "GLM-5",
@@ -3065,18 +3065,18 @@
       "open_source": true,
       "year": "2025",
       "note": "",
-      "predecessor": "glm-4-7",
+      "predecessor": "glm-4-6",
       "evidence": {
         "名称": "这个模型的全称是 GLM-5，属于 GLM 系列",
         "属性": "它由 智谱AI 开发，是开源模型",
-        "关系": "它在 GLM 系列中，前一代是 GLM-4.7",
+        "关系": "它在 GLM 系列中，前一代是 GLM-4.6",
         "变化": "它于 2025 年发布"
       }
     },
     {
-      "id": "glm-5-1",
+      "id": "glm-4-7",
       "label": 170,
-      "name": "GLM-5.1",
+      "name": "GLM-4.7",
       "company": "智谱AI",
       "region": "中国",
       "series": "GLM",
@@ -3085,15 +3085,33 @@
       "note": "开源",
       "predecessor": "glm-5",
       "evidence": {
-        "名称": "这个模型的全称是 GLM-5.1，属于 GLM 系列，也常被称作智谱GLM 5.1",
+        "名称": "这个模型的全称是 GLM-4.7，属于 GLM 系列",
         "属性": "它由 智谱AI 开发，是开源模型，开源",
         "关系": "它在 GLM 系列中，前一代是 GLM-5",
         "变化": "它于 2026 年发布"
       }
     },
     {
-      "id": "glm-5-3",
+      "id": "glm-5-1",
       "label": 171,
+      "name": "GLM-5.1",
+      "company": "智谱AI",
+      "region": "中国",
+      "series": "GLM",
+      "open_source": true,
+      "year": "2026",
+      "note": "开源",
+      "predecessor": "glm-4-7",
+      "evidence": {
+        "名称": "这个模型的全称是 GLM-5.1，属于 GLM 系列，也常被称作智谱GLM 5.1",
+        "属性": "它由 智谱AI 开发，是开源模型，开源",
+        "关系": "它在 GLM 系列中，前一代是 GLM-4.7",
+        "变化": "它于 2026 年发布"
+      }
+    },
+    {
+      "id": "glm-5-3",
+      "label": 172,
       "name": "GLM-5.3",
       "company": "智谱AI",
       "region": "中国",
@@ -3105,26 +3123,8 @@
       "evidence": {
         "名称": "这个模型的全称是 GLM-5.3，属于 GLM 系列，也常被称作智谱GLM 5.3",
         "属性": "它由 智谱AI 开发，是开源模型，开源编程最强",
-        "关系": "它在 GLM 系列中，前一代是 GLM-5.1",
+        "关系": "它在 GLM 系列中，前一代是 GLM-5.1，是该系列最新版本",
         "变化": "它于 2026 年发布"
-      }
-    },
-    {
-      "id": "glm-z1",
-      "label": 172,
-      "name": "GLM-Z1",
-      "company": "智谱AI",
-      "region": "中国",
-      "series": "GLM",
-      "open_source": true,
-      "year": "2025",
-      "note": "推理",
-      "predecessor": "glm-5-3",
-      "evidence": {
-        "名称": "这个模型的全称是 GLM-Z1，属于 GLM 系列，也常被称作智谱Z1",
-        "属性": "它由 智谱AI 开发，是开源模型，推理",
-        "关系": "它在 GLM 系列中，前一代是 GLM-5.3，是该系列最新版本",
-        "变化": "它于 2025 年发布"
       }
     },
     {
@@ -3267,7 +3267,7 @@
       "evidence": {
         "名称": "这个模型的全称是 豆包 1.5 Pro，属于 豆包 系列，也常写作 豆包1.5Pro，也常被称作豆包1.5Pro、Doubao 1.5 Pro",
         "属性": "它由 字节跳动 开发，是闭源模型，推理突出",
-        "关系": "它在 豆包 系列中，前一代是 豆包 1.5",
+        "关系": "它在 豆包 系列中，前一代是 豆包 1.5，是该系列最新版本",
         "变化": "它于 2026 年发布"
       }
     },
@@ -3277,15 +3277,15 @@
       "name": "Seed 1.5",
       "company": "字节跳动",
       "region": "中国",
-      "series": "豆包",
+      "series": "Seed",
       "open_source": false,
       "year": "2025",
       "note": "多模态",
-      "predecessor": "豆包-1-5-pro",
+      "predecessor": null,
       "evidence": {
-        "名称": "这个模型的全称是 Seed 1.5，属于 豆包 系列，也常写作 Seed1.5",
+        "名称": "这个模型的全称是 Seed 1.5，属于 Seed 系列，也常写作 Seed1.5",
         "属性": "它由 字节跳动 开发，是闭源模型，多模态",
-        "关系": "它在 豆包 系列中，前一代是 豆包 1.5 Pro",
+        "关系": "它在 Seed 系列中，是该系列早期版本",
         "变化": "它于 2025 年发布"
       }
     },
@@ -3295,15 +3295,15 @@
       "name": "Seed 2.0",
       "company": "字节跳动",
       "region": "中国",
-      "series": "豆包",
+      "series": "Seed",
       "open_source": false,
       "year": "2025",
       "note": "多模态",
       "predecessor": "seed-1-5",
       "evidence": {
-        "名称": "这个模型的全称是 Seed 2.0，属于 豆包 系列，也常写作 Seed2.0",
+        "名称": "这个模型的全称是 Seed 2.0，属于 Seed 系列，也常写作 Seed2.0",
         "属性": "它由 字节跳动 开发，是闭源模型，多模态",
-        "关系": "它在 豆包 系列中，前一代是 Seed 1.5",
+        "关系": "它在 Seed 系列中，前一代是 Seed 1.5",
         "变化": "它于 2025 年发布"
       }
     },
@@ -3313,15 +3313,15 @@
       "name": "Seed 3.0",
       "company": "字节跳动",
       "region": "中国",
-      "series": "豆包",
+      "series": "Seed",
       "open_source": false,
       "year": "2026",
       "note": "多模态",
       "predecessor": "seed-2-0",
       "evidence": {
-        "名称": "这个模型的全称是 Seed 3.0，属于 豆包 系列，也常写作 Seed3.0",
+        "名称": "这个模型的全称是 Seed 3.0，属于 Seed 系列，也常写作 Seed3.0",
         "属性": "它由 字节跳动 开发，是闭源模型，多模态",
-        "关系": "它在 豆包 系列中，前一代是 Seed 2.0，是该系列最新版本",
+        "关系": "它在 Seed 系列中，前一代是 Seed 2.0，是该系列最新版本",
         "变化": "它于 2026 年发布"
       }
     },
@@ -4257,7 +4257,7 @@
       "evidence": {
         "名称": "这个模型的全称是 OLMo2 7B，属于 OLMo 系列，也常写作 OLMo27B",
         "属性": "它由 AI2 开发，是开源模型，开源",
-        "关系": "它在 OLMo 系列中，前一代是 OLMo 7B",
+        "关系": "它在 OLMo 系列中，前一代是 OLMo 7B，是该系列最新版本",
         "变化": "它于 2025 年发布"
       }
     },
@@ -4267,15 +4267,15 @@
       "name": "Molmo 7B",
       "company": "AI2",
       "region": "美国",
-      "series": "OLMo",
+      "series": "Molmo",
       "open_source": true,
       "year": "2024",
       "note": "开源多模态",
-      "predecessor": "olmo2-7b",
+      "predecessor": null,
       "evidence": {
-        "名称": "这个模型的全称是 Molmo 7B，属于 OLMo 系列，也常写作 Molmo7B",
+        "名称": "这个模型的全称是 Molmo 7B，属于 Molmo 系列，也常写作 Molmo7B",
         "属性": "它由 AI2 开发，是开源模型，开源多模态",
-        "关系": "它在 OLMo 系列中，前一代是 OLMo2 7B",
+        "关系": "它在 Molmo 系列中，是该系列早期版本",
         "变化": "它于 2024 年发布"
       }
     },
@@ -4285,15 +4285,15 @@
       "name": "Molmo 72B",
       "company": "AI2",
       "region": "美国",
-      "series": "OLMo",
+      "series": "Molmo",
       "open_source": true,
       "year": "2024",
       "note": "开源多模态",
       "predecessor": "molmo-7b",
       "evidence": {
-        "名称": "这个模型的全称是 Molmo 72B，属于 OLMo 系列，也常写作 Molmo72B",
+        "名称": "这个模型的全称是 Molmo 72B，属于 Molmo 系列，也常写作 Molmo72B",
         "属性": "它由 AI2 开发，是开源模型，开源多模态",
-        "关系": "它在 OLMo 系列中，前一代是 Molmo 7B，是该系列最新版本",
+        "关系": "它在 Molmo 系列中，前一代是 Molmo 7B，是该系列最新版本",
         "变化": "它于 2024 年发布"
       }
     },
@@ -7130,6 +7130,279 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下Llama 2 7B这个模型",
+      "target_id": "llama-2-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 2 7B是什么模型？",
+      "target_id": "llama-2-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 2 7B这个模型",
+      "target_id": "llama-2-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 2 13B这个模型",
+      "target_id": "llama-2-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 2 13B是什么模型？",
+      "target_id": "llama-2-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 2 13B这个模型",
+      "target_id": "llama-2-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 2 70B这个模型",
+      "target_id": "llama-2-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 2 70B是什么模型？",
+      "target_id": "llama-2-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 2 70B这个模型",
+      "target_id": "llama-2-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3 8B这个模型",
+      "target_id": "llama-3-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3 8B是什么模型？",
+      "target_id": "llama-3-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3 8B这个模型",
+      "target_id": "llama-3-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3 70B这个模型",
+      "target_id": "llama-3-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3 70B是什么模型？",
+      "target_id": "llama-3-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3 70B这个模型",
+      "target_id": "llama-3-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3.1 8B这个模型",
+      "target_id": "llama-3-1-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.1 8B是什么模型？",
+      "target_id": "llama-3-1-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3.1 8B这个模型",
+      "target_id": "llama-3-1-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3.1 70B这个模型",
+      "target_id": "llama-3-1-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.1 70B是什么模型？",
+      "target_id": "llama-3-1-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3.1 70B这个模型",
+      "target_id": "llama-3-1-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3.1 405B这个模型",
+      "target_id": "llama-3-1-405b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.1 405B是什么模型？",
+      "target_id": "llama-3-1-405b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3.1 405B这个模型",
+      "target_id": "llama-3-1-405b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3.2 1B这个模型",
+      "target_id": "llama-3-2-1b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.2 1B是什么模型？",
+      "target_id": "llama-3-2-1b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3.2 1B这个模型",
+      "target_id": "llama-3-2-1b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3.2 3B这个模型",
+      "target_id": "llama-3-2-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.2 3B是什么模型？",
+      "target_id": "llama-3-2-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3.2 3B这个模型",
+      "target_id": "llama-3-2-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 3.2 11B这个模型",
+      "target_id": "llama-3-2-11b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.2 11B是什么模型？",
+      "target_id": "llama-3-2-11b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 3.2 11B这个模型",
+      "target_id": "llama-3-2-11b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 4 Scout这个模型",
+      "target_id": "llama-4-scout",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 4 Scout是什么模型？",
+      "target_id": "llama-4-scout",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 4 Scout这个模型",
+      "target_id": "llama-4-scout",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Llama 4 Maverick这个模型",
+      "target_id": "llama-4-maverick",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 4 Maverick是什么模型？",
+      "target_id": "llama-4-maverick",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Llama 4 Maverick这个模型",
+      "target_id": "llama-4-maverick",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下Llama 1这个模型",
       "target_id": "llama-1",
       "kind": "known",
@@ -7186,111 +7459,6 @@
       "split": "heldout"
     },
     {
-      "text": "介绍一下Llama 2 7B这个模型",
-      "target_id": "llama-2-7b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 2 7B是什么模型？",
-      "target_id": "llama-2-7b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 2 7B这个模型",
-      "target_id": "llama-2-7b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 2的模型是哪个？",
-      "target_id": "llama-2-7b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 2？",
-      "target_id": "llama-2-7b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 2 13B这个模型",
-      "target_id": "llama-2-13b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 2 13B是什么模型？",
-      "target_id": "llama-2-13b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 2 13B这个模型",
-      "target_id": "llama-2-13b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 2 7B的模型是哪个？",
-      "target_id": "llama-2-13b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 2 7B？",
-      "target_id": "llama-2-13b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 2 70B这个模型",
-      "target_id": "llama-2-70b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 2 70B是什么模型？",
-      "target_id": "llama-2-70b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 2 70B这个模型",
-      "target_id": "llama-2-70b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 2 13B的模型是哪个？",
-      "target_id": "llama-2-70b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 2 13B？",
-      "target_id": "llama-2-70b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
       "text": "介绍一下Llama 3这个模型",
       "target_id": "llama-3",
       "kind": "known",
@@ -7312,85 +7480,15 @@
       "split": "heldout"
     },
     {
-      "text": "在Llama系列中，前一代是Llama 2 70B的模型是哪个？",
+      "text": "在Llama系列中，前一代是Llama 2的模型是哪个？",
       "target_id": "llama-3",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是Llama 2 70B？",
+      "text": "哪个模型的直接前代是Llama 2？",
       "target_id": "llama-3",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 3 8B这个模型",
-      "target_id": "llama-3-8b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 3 8B是什么模型？",
-      "target_id": "llama-3-8b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 3 8B这个模型",
-      "target_id": "llama-3-8b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 3的模型是哪个？",
-      "target_id": "llama-3-8b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 3？",
-      "target_id": "llama-3-8b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 3 70B这个模型",
-      "target_id": "llama-3-70b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 3 70B是什么模型？",
-      "target_id": "llama-3-70b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 3 70B这个模型",
-      "target_id": "llama-3-70b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 3 8B的模型是哪个？",
-      "target_id": "llama-3-70b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 3 8B？",
-      "target_id": "llama-3-70b",
       "kind": "known",
       "subtype": "predecessor",
       "split": "heldout"
@@ -7445,120 +7543,15 @@
       "split": "heldout"
     },
     {
-      "text": "在Llama系列中，前一代是Llama 3 70B的模型是哪个？",
+      "text": "在Llama系列中，前一代是Llama 3的模型是哪个？",
       "target_id": "llama-3-1",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是Llama 3 70B？",
+      "text": "哪个模型的直接前代是Llama 3？",
       "target_id": "llama-3-1",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 3.1 8B这个模型",
-      "target_id": "llama-3-1-8b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 3.1 8B是什么模型？",
-      "target_id": "llama-3-1-8b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 3.1 8B这个模型",
-      "target_id": "llama-3-1-8b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 3.1的模型是哪个？",
-      "target_id": "llama-3-1-8b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 3.1？",
-      "target_id": "llama-3-1-8b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 3.1 70B这个模型",
-      "target_id": "llama-3-1-70b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 3.1 70B是什么模型？",
-      "target_id": "llama-3-1-70b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 3.1 70B这个模型",
-      "target_id": "llama-3-1-70b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 3.1 8B的模型是哪个？",
-      "target_id": "llama-3-1-70b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 3.1 8B？",
-      "target_id": "llama-3-1-70b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 3.1 405B这个模型",
-      "target_id": "llama-3-1-405b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 3.1 405B是什么模型？",
-      "target_id": "llama-3-1-405b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 3.1 405B这个模型",
-      "target_id": "llama-3-1-405b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 3.1 70B的模型是哪个？",
-      "target_id": "llama-3-1-405b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 3.1 70B？",
-      "target_id": "llama-3-1-405b",
       "kind": "known",
       "subtype": "predecessor",
       "split": "heldout"
@@ -7585,120 +7578,15 @@
       "split": "heldout"
     },
     {
-      "text": "在Llama系列中，前一代是Llama 3.1 405B的模型是哪个？",
+      "text": "在Llama系列中，前一代是Llama 3.1的模型是哪个？",
       "target_id": "llama-3-2",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是Llama 3.1 405B？",
+      "text": "哪个模型的直接前代是Llama 3.1？",
       "target_id": "llama-3-2",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 3.2 1B这个模型",
-      "target_id": "llama-3-2-1b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 3.2 1B是什么模型？",
-      "target_id": "llama-3-2-1b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 3.2 1B这个模型",
-      "target_id": "llama-3-2-1b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 3.2的模型是哪个？",
-      "target_id": "llama-3-2-1b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 3.2？",
-      "target_id": "llama-3-2-1b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 3.2 3B这个模型",
-      "target_id": "llama-3-2-3b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 3.2 3B是什么模型？",
-      "target_id": "llama-3-2-3b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 3.2 3B这个模型",
-      "target_id": "llama-3-2-3b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 3.2 1B的模型是哪个？",
-      "target_id": "llama-3-2-3b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 3.2 1B？",
-      "target_id": "llama-3-2-3b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 3.2 11B这个模型",
-      "target_id": "llama-3-2-11b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 3.2 11B是什么模型？",
-      "target_id": "llama-3-2-11b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 3.2 11B这个模型",
-      "target_id": "llama-3-2-11b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 3.2 3B的模型是哪个？",
-      "target_id": "llama-3-2-11b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 3.2 3B？",
-      "target_id": "llama-3-2-11b",
       "kind": "known",
       "subtype": "predecessor",
       "split": "heldout"
@@ -7725,85 +7613,15 @@
       "split": "heldout"
     },
     {
-      "text": "在Llama系列中，前一代是Llama 3.2 11B的模型是哪个？",
+      "text": "在Llama系列中，前一代是Llama 3.2的模型是哪个？",
       "target_id": "llama-3-3",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是Llama 3.2 11B？",
+      "text": "哪个模型的直接前代是Llama 3.2？",
       "target_id": "llama-3-3",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 4 Scout这个模型",
-      "target_id": "llama-4-scout",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 4 Scout是什么模型？",
-      "target_id": "llama-4-scout",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 4 Scout这个模型",
-      "target_id": "llama-4-scout",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 3.3的模型是哪个？",
-      "target_id": "llama-4-scout",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 3.3？",
-      "target_id": "llama-4-scout",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 4 Maverick这个模型",
-      "target_id": "llama-4-maverick",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Llama 4 Maverick是什么模型？",
-      "target_id": "llama-4-maverick",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Llama 4 Maverick这个模型",
-      "target_id": "llama-4-maverick",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Llama系列中，前一代是Llama 4 Scout的模型是哪个？",
-      "target_id": "llama-4-maverick",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Llama 4 Scout？",
-      "target_id": "llama-4-maverick",
       "kind": "known",
       "subtype": "predecessor",
       "split": "heldout"
@@ -7858,14 +7676,14 @@
       "split": "heldout"
     },
     {
-      "text": "在Llama系列中，前一代是Llama 4 Maverick的模型是哪个？",
+      "text": "在Llama系列中，前一代是Llama 3.3的模型是哪个？",
       "target_id": "llama-4",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是Llama 4 Maverick？",
+      "text": "哪个模型的直接前代是Llama 3.3？",
       "target_id": "llama-4",
       "kind": "known",
       "subtype": "predecessor",
@@ -8531,6 +8349,76 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下Mixtral 8x22B这个模型",
+      "target_id": "mixtral-8x22b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mixtral 8x22B是什么模型？",
+      "target_id": "mixtral-8x22b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Mixtral 8x22B这个模型",
+      "target_id": "mixtral-8x22b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Mistral系列中，前一代是Mathstral的模型是哪个？",
+      "target_id": "mixtral-8x22b",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Mathstral？",
+      "target_id": "mixtral-8x22b",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Mistral 7B v0.3这个模型",
+      "target_id": "mistral-7b-v0-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral 7B v0.3是什么模型？",
+      "target_id": "mistral-7b-v0-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Mistral 7B v0.3这个模型",
+      "target_id": "mistral-7b-v0-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在Mistral系列中，前一代是Mixtral 8x22B的模型是哪个？",
+      "target_id": "mistral-7b-v0-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是Mixtral 8x22B？",
+      "target_id": "mistral-7b-v0-3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下Mistral Large 3这个模型",
       "target_id": "mistral-large-3",
       "kind": "known",
@@ -8580,14 +8468,14 @@
       "split": "heldout"
     },
     {
-      "text": "在Mistral系列中，前一代是Mathstral的模型是哪个？",
+      "text": "在Mistral系列中，前一代是Mistral 7B v0.3的模型是哪个？",
       "target_id": "mistral-large-3",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是Mathstral？",
+      "text": "哪个模型的直接前代是Mistral 7B v0.3？",
       "target_id": "mistral-large-3",
       "kind": "known",
       "subtype": "predecessor",
@@ -8664,120 +8552,50 @@
       "split": "heldout"
     },
     {
-      "text": "介绍一下Mixtral 8x22B这个模型",
-      "target_id": "mixtral-8x22b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Mixtral 8x22B是什么模型？",
-      "target_id": "mixtral-8x22b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Mixtral 8x22B这个模型",
-      "target_id": "mixtral-8x22b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Mistral系列中，前一代是Mistral Small 3.1的模型是哪个？",
-      "target_id": "mixtral-8x22b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Mistral Small 3.1？",
-      "target_id": "mixtral-8x22b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Mistral 7B v0.3这个模型",
-      "target_id": "mistral-7b-v0-3",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Mistral 7B v0.3是什么模型？",
-      "target_id": "mistral-7b-v0-3",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Mistral 7B v0.3这个模型",
-      "target_id": "mistral-7b-v0-3",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Mistral系列中，前一代是Mixtral 8x22B的模型是哪个？",
-      "target_id": "mistral-7b-v0-3",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Mixtral 8x22B？",
-      "target_id": "mistral-7b-v0-3",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
       "text": "Mistral AI的Mistral系列最新模型是什么？",
-      "target_id": "mistral-7b-v0-3",
+      "target_id": "mistral-small-3-1",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "Mistral系列现在最新的是哪一款？",
-      "target_id": "mistral-7b-v0-3",
+      "target_id": "mistral-small-3-1",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "哪个是Mistral AI最新的Mistral模型？",
-      "target_id": "mistral-7b-v0-3",
+      "target_id": "mistral-small-3-1",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "Mistral家族当前最新的版本是哪个？",
-      "target_id": "mistral-7b-v0-3",
+      "target_id": "mistral-small-3-1",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "Mistral系列现在出到哪个版本了？",
-      "target_id": "mistral-7b-v0-3",
+      "target_id": "mistral-small-3-1",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "Mistral系列最近有什么新旗舰？",
-      "target_id": "mistral-7b-v0-3",
+      "target_id": "mistral-small-3-1",
       "kind": "known",
       "subtype": "latest",
       "split": "heldout"
     },
     {
       "text": "Mistral AI刚发布的Mistral模型是哪一个？",
-      "target_id": "mistral-7b-v0-3",
+      "target_id": "mistral-small-3-1",
       "kind": "known",
       "subtype": "latest",
       "split": "heldout"
@@ -10588,6 +10406,412 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下Qwen2.5 0.5B这个模型",
+      "target_id": "qwen2-5-0-5b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 0.5B是什么模型？",
+      "target_id": "qwen2-5-0-5b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2.5 0.5B这个模型",
+      "target_id": "qwen2-5-0-5b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen2.5 1.5B这个模型",
+      "target_id": "qwen2-5-1-5b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 1.5B是什么模型？",
+      "target_id": "qwen2-5-1-5b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2.5 1.5B这个模型",
+      "target_id": "qwen2-5-1-5b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen2.5 3B这个模型",
+      "target_id": "qwen2-5-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 3B是什么模型？",
+      "target_id": "qwen2-5-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2.5 3B这个模型",
+      "target_id": "qwen2-5-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen2.5 7B这个模型",
+      "target_id": "qwen2-5-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 7B是什么模型？",
+      "target_id": "qwen2-5-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2.5 7B这个模型",
+      "target_id": "qwen2-5-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen2.5 14B这个模型",
+      "target_id": "qwen2-5-14b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 14B是什么模型？",
+      "target_id": "qwen2-5-14b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2.5 14B这个模型",
+      "target_id": "qwen2-5-14b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen2.5 32B这个模型",
+      "target_id": "qwen2-5-32b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 32B是什么模型？",
+      "target_id": "qwen2-5-32b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2.5 32B这个模型",
+      "target_id": "qwen2-5-32b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen2.5 72B这个模型",
+      "target_id": "qwen2-5-72b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 72B是什么模型？",
+      "target_id": "qwen2-5-72b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2.5 72B这个模型",
+      "target_id": "qwen2-5-72b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3 0.6B这个模型",
+      "target_id": "qwen3-0-6b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 0.6B是什么模型？",
+      "target_id": "qwen3-0-6b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3 0.6B这个模型",
+      "target_id": "qwen3-0-6b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3 1.7B这个模型",
+      "target_id": "qwen3-1-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 1.7B是什么模型？",
+      "target_id": "qwen3-1-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3 1.7B这个模型",
+      "target_id": "qwen3-1-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3 4B这个模型",
+      "target_id": "qwen3-4b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 4B是什么模型？",
+      "target_id": "qwen3-4b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3 4B这个模型",
+      "target_id": "qwen3-4b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3 8B这个模型",
+      "target_id": "qwen3-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 8B是什么模型？",
+      "target_id": "qwen3-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3 8B这个模型",
+      "target_id": "qwen3-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3 14B这个模型",
+      "target_id": "qwen3-14b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 14B是什么模型？",
+      "target_id": "qwen3-14b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3 14B这个模型",
+      "target_id": "qwen3-14b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3 32B这个模型",
+      "target_id": "qwen3-32b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 32B是什么模型？",
+      "target_id": "qwen3-32b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3 32B这个模型",
+      "target_id": "qwen3-32b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3 235B这个模型",
+      "target_id": "qwen3-235b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 235B是什么模型？",
+      "target_id": "qwen3-235b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3 235B这个模型",
+      "target_id": "qwen3-235b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen-VL这个模型",
+      "target_id": "qwen-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen-VL是什么模型？",
+      "target_id": "qwen-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen-VL这个模型",
+      "target_id": "qwen-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen2.5-Coder这个模型",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5-Coder是什么模型？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2.5-Coder这个模型",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下通义代码模型",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "通义代码模型是什么模型？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下通义代码模型的资料",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下通义代码模型",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen2.5-Math这个模型",
+      "target_id": "qwen2-5-math",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5-Math是什么模型？",
+      "target_id": "qwen2-5-math",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen2.5-Math这个模型",
+      "target_id": "qwen2-5-math",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Qwen3-VL这个模型",
+      "target_id": "qwen3-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3-VL是什么模型？",
+      "target_id": "qwen3-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解Qwen3-VL这个模型",
+      "target_id": "qwen3-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下Qwen 1这个模型",
       "target_id": "qwen-1",
       "kind": "known",
@@ -10714,251 +10938,6 @@
       "split": "heldout"
     },
     {
-      "text": "介绍一下Qwen2.5 0.5B这个模型",
-      "target_id": "qwen2-5-0-5b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen2.5 0.5B是什么模型？",
-      "target_id": "qwen2-5-0-5b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen2.5 0.5B这个模型",
-      "target_id": "qwen2-5-0-5b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen2.5的模型是哪个？",
-      "target_id": "qwen2-5-0-5b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen2.5？",
-      "target_id": "qwen2-5-0-5b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen2.5 1.5B这个模型",
-      "target_id": "qwen2-5-1-5b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen2.5 1.5B是什么模型？",
-      "target_id": "qwen2-5-1-5b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen2.5 1.5B这个模型",
-      "target_id": "qwen2-5-1-5b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen2.5 0.5B的模型是哪个？",
-      "target_id": "qwen2-5-1-5b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen2.5 0.5B？",
-      "target_id": "qwen2-5-1-5b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen2.5 3B这个模型",
-      "target_id": "qwen2-5-3b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen2.5 3B是什么模型？",
-      "target_id": "qwen2-5-3b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen2.5 3B这个模型",
-      "target_id": "qwen2-5-3b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen2.5 1.5B的模型是哪个？",
-      "target_id": "qwen2-5-3b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen2.5 1.5B？",
-      "target_id": "qwen2-5-3b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen2.5 7B这个模型",
-      "target_id": "qwen2-5-7b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen2.5 7B是什么模型？",
-      "target_id": "qwen2-5-7b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen2.5 7B这个模型",
-      "target_id": "qwen2-5-7b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen2.5 3B的模型是哪个？",
-      "target_id": "qwen2-5-7b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen2.5 3B？",
-      "target_id": "qwen2-5-7b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen2.5 14B这个模型",
-      "target_id": "qwen2-5-14b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen2.5 14B是什么模型？",
-      "target_id": "qwen2-5-14b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen2.5 14B这个模型",
-      "target_id": "qwen2-5-14b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen2.5 7B的模型是哪个？",
-      "target_id": "qwen2-5-14b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen2.5 7B？",
-      "target_id": "qwen2-5-14b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen2.5 32B这个模型",
-      "target_id": "qwen2-5-32b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen2.5 32B是什么模型？",
-      "target_id": "qwen2-5-32b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen2.5 32B这个模型",
-      "target_id": "qwen2-5-32b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen2.5 14B的模型是哪个？",
-      "target_id": "qwen2-5-32b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen2.5 14B？",
-      "target_id": "qwen2-5-32b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen2.5 72B这个模型",
-      "target_id": "qwen2-5-72b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen2.5 72B是什么模型？",
-      "target_id": "qwen2-5-72b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen2.5 72B这个模型",
-      "target_id": "qwen2-5-72b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen2.5 32B的模型是哪个？",
-      "target_id": "qwen2-5-72b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen2.5 32B？",
-      "target_id": "qwen2-5-72b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
       "text": "介绍一下Qwen3这个模型",
       "target_id": "qwen3",
       "kind": "known",
@@ -10980,260 +10959,15 @@
       "split": "heldout"
     },
     {
-      "text": "在Qwen系列中，前一代是Qwen2.5 72B的模型是哪个？",
+      "text": "在Qwen系列中，前一代是Qwen2.5的模型是哪个？",
       "target_id": "qwen3",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是Qwen2.5 72B？",
+      "text": "哪个模型的直接前代是Qwen2.5？",
       "target_id": "qwen3",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen3 0.6B这个模型",
-      "target_id": "qwen3-0-6b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen3 0.6B是什么模型？",
-      "target_id": "qwen3-0-6b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen3 0.6B这个模型",
-      "target_id": "qwen3-0-6b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen3的模型是哪个？",
-      "target_id": "qwen3-0-6b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen3？",
-      "target_id": "qwen3-0-6b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen3 1.7B这个模型",
-      "target_id": "qwen3-1-7b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen3 1.7B是什么模型？",
-      "target_id": "qwen3-1-7b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen3 1.7B这个模型",
-      "target_id": "qwen3-1-7b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen3 0.6B的模型是哪个？",
-      "target_id": "qwen3-1-7b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen3 0.6B？",
-      "target_id": "qwen3-1-7b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen3 4B这个模型",
-      "target_id": "qwen3-4b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen3 4B是什么模型？",
-      "target_id": "qwen3-4b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen3 4B这个模型",
-      "target_id": "qwen3-4b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen3 1.7B的模型是哪个？",
-      "target_id": "qwen3-4b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen3 1.7B？",
-      "target_id": "qwen3-4b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen3 8B这个模型",
-      "target_id": "qwen3-8b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen3 8B是什么模型？",
-      "target_id": "qwen3-8b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen3 8B这个模型",
-      "target_id": "qwen3-8b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen3 4B的模型是哪个？",
-      "target_id": "qwen3-8b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen3 4B？",
-      "target_id": "qwen3-8b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen3 14B这个模型",
-      "target_id": "qwen3-14b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen3 14B是什么模型？",
-      "target_id": "qwen3-14b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen3 14B这个模型",
-      "target_id": "qwen3-14b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen3 8B的模型是哪个？",
-      "target_id": "qwen3-14b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen3 8B？",
-      "target_id": "qwen3-14b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen3 32B这个模型",
-      "target_id": "qwen3-32b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen3 32B是什么模型？",
-      "target_id": "qwen3-32b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen3 32B这个模型",
-      "target_id": "qwen3-32b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen3 14B的模型是哪个？",
-      "target_id": "qwen3-32b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen3 14B？",
-      "target_id": "qwen3-32b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen3 235B这个模型",
-      "target_id": "qwen3-235b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen3 235B是什么模型？",
-      "target_id": "qwen3-235b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen3 235B这个模型",
-      "target_id": "qwen3-235b",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen3 32B的模型是哪个？",
-      "target_id": "qwen3-235b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen3 32B？",
-      "target_id": "qwen3-235b",
       "kind": "known",
       "subtype": "predecessor",
       "split": "heldout"
@@ -11260,14 +10994,14 @@
       "split": "heldout"
     },
     {
-      "text": "在Qwen系列中，前一代是Qwen3 235B的模型是哪个？",
+      "text": "在Qwen系列中，前一代是Qwen3的模型是哪个？",
       "target_id": "qwen3-5",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是Qwen3 235B？",
+      "text": "哪个模型的直接前代是Qwen3？",
       "target_id": "qwen3-5",
       "kind": "known",
       "subtype": "predecessor",
@@ -11456,218 +11190,50 @@
       "split": "heldout"
     },
     {
-      "text": "介绍一下Qwen-VL这个模型",
-      "target_id": "qwen-vl",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen-VL是什么模型？",
-      "target_id": "qwen-vl",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen-VL这个模型",
-      "target_id": "qwen-vl",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen3.7-Max的模型是哪个？",
-      "target_id": "qwen-vl",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen3.7-Max？",
-      "target_id": "qwen-vl",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen2.5-Coder这个模型",
-      "target_id": "qwen2-5-coder",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen2.5-Coder是什么模型？",
-      "target_id": "qwen2-5-coder",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen2.5-Coder这个模型",
-      "target_id": "qwen2-5-coder",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下通义代码模型",
-      "target_id": "qwen2-5-coder",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "train"
-    },
-    {
-      "text": "通义代码模型是什么模型？",
-      "target_id": "qwen2-5-coder",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "train"
-    },
-    {
-      "text": "帮我查一下通义代码模型的资料",
-      "target_id": "qwen2-5-coder",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "train"
-    },
-    {
-      "text": "我想了解一下通义代码模型",
-      "target_id": "qwen2-5-coder",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen-VL的模型是哪个？",
-      "target_id": "qwen2-5-coder",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen-VL？",
-      "target_id": "qwen2-5-coder",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen2.5-Math这个模型",
-      "target_id": "qwen2-5-math",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen2.5-Math是什么模型？",
-      "target_id": "qwen2-5-math",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen2.5-Math这个模型",
-      "target_id": "qwen2-5-math",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen2.5-Coder的模型是哪个？",
-      "target_id": "qwen2-5-math",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen2.5-Coder？",
-      "target_id": "qwen2-5-math",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Qwen3-VL这个模型",
-      "target_id": "qwen3-vl",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "Qwen3-VL是什么模型？",
-      "target_id": "qwen3-vl",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解Qwen3-VL这个模型",
-      "target_id": "qwen3-vl",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在Qwen系列中，前一代是Qwen2.5-Math的模型是哪个？",
-      "target_id": "qwen3-vl",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是Qwen2.5-Math？",
-      "target_id": "qwen3-vl",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
       "text": "阿里巴巴的Qwen系列最新模型是什么？",
-      "target_id": "qwen3-vl",
+      "target_id": "qwen3-7-max",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "Qwen系列现在最新的是哪一款？",
-      "target_id": "qwen3-vl",
+      "target_id": "qwen3-7-max",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "哪个是阿里巴巴最新的Qwen模型？",
-      "target_id": "qwen3-vl",
+      "target_id": "qwen3-7-max",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "Qwen家族当前最新的版本是哪个？",
-      "target_id": "qwen3-vl",
+      "target_id": "qwen3-7-max",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "Qwen系列现在出到哪个版本了？",
-      "target_id": "qwen3-vl",
+      "target_id": "qwen3-7-max",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "Qwen系列最近有什么新旗舰？",
-      "target_id": "qwen3-vl",
+      "target_id": "qwen3-7-max",
       "kind": "known",
       "subtype": "latest",
       "split": "heldout"
     },
     {
       "text": "阿里巴巴刚发布的Qwen模型是哪一个？",
-      "target_id": "qwen3-vl",
+      "target_id": "qwen3-7-max",
       "kind": "known",
       "subtype": "latest",
       "split": "heldout"
@@ -11817,6 +11383,41 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下DeepSeek-Coder-V2这个模型",
+      "target_id": "deepseek-coder-v2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-Coder-V2是什么模型？",
+      "target_id": "deepseek-coder-v2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解DeepSeek-Coder-V2这个模型",
+      "target_id": "deepseek-coder-v2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在DeepSeek系列中，前一代是DeepSeek-V3的模型是哪个？",
+      "target_id": "deepseek-coder-v2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是DeepSeek-V3？",
+      "target_id": "deepseek-coder-v2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下DeepSeek-R1这个模型",
       "target_id": "deepseek-r1",
       "kind": "known",
@@ -11866,14 +11467,14 @@
       "split": "heldout"
     },
     {
-      "text": "在DeepSeek系列中，前一代是DeepSeek-V3的模型是哪个？",
+      "text": "在DeepSeek系列中，前一代是DeepSeek-Coder-V2的模型是哪个？",
       "target_id": "deepseek-r1",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是DeepSeek-V3？",
+      "text": "哪个模型的直接前代是DeepSeek-Coder-V2？",
       "target_id": "deepseek-r1",
       "kind": "known",
       "subtype": "predecessor",
@@ -12055,41 +11656,6 @@
       "split": "heldout"
     },
     {
-      "text": "介绍一下DeepSeek-Coder-V2这个模型",
-      "target_id": "deepseek-coder-v2",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "DeepSeek-Coder-V2是什么模型？",
-      "target_id": "deepseek-coder-v2",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解DeepSeek-Coder-V2这个模型",
-      "target_id": "deepseek-coder-v2",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在DeepSeek系列中，前一代是DeepSeek-R1-0528的模型是哪个？",
-      "target_id": "deepseek-coder-v2",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是DeepSeek-R1-0528？",
-      "target_id": "deepseek-coder-v2",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
       "text": "介绍一下DeepSeek-V4这个模型",
       "target_id": "deepseek-v4",
       "kind": "known",
@@ -12111,14 +11677,14 @@
       "split": "heldout"
     },
     {
-      "text": "在DeepSeek系列中，前一代是DeepSeek-Coder-V2的模型是哪个？",
+      "text": "在DeepSeek系列中，前一代是DeepSeek-R1-0528的模型是哪个？",
       "target_id": "deepseek-v4",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是DeepSeek-Coder-V2？",
+      "text": "哪个模型的直接前代是DeepSeek-R1-0528？",
       "target_id": "deepseek-v4",
       "kind": "known",
       "subtype": "predecessor",
@@ -12602,6 +12168,55 @@
       "split": "heldout"
     },
     {
+      "text": "介绍一下GLM-Z1这个模型",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-Z1是什么模型？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GLM-Z1这个模型",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下智谱Z1",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "智谱Z1是什么模型？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "帮我查一下智谱Z1的资料",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "我想了解一下智谱Z1",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下GLM-4这个模型",
       "target_id": "glm-4",
       "kind": "known",
@@ -12693,41 +12308,6 @@
       "split": "heldout"
     },
     {
-      "text": "介绍一下GLM-4.7这个模型",
-      "target_id": "glm-4-7",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "GLM-4.7是什么模型？",
-      "target_id": "glm-4-7",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解GLM-4.7这个模型",
-      "target_id": "glm-4-7",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在GLM系列中，前一代是GLM-4.6的模型是哪个？",
-      "target_id": "glm-4-7",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是GLM-4.6？",
-      "target_id": "glm-4-7",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
       "text": "介绍一下GLM-5这个模型",
       "target_id": "glm-5",
       "kind": "known",
@@ -12749,15 +12329,50 @@
       "split": "heldout"
     },
     {
-      "text": "在GLM系列中，前一代是GLM-4.7的模型是哪个？",
+      "text": "在GLM系列中，前一代是GLM-4.6的模型是哪个？",
       "target_id": "glm-5",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是GLM-4.7？",
+      "text": "哪个模型的直接前代是GLM-4.6？",
       "target_id": "glm-5",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下GLM-4.7这个模型",
+      "target_id": "glm-4-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-4.7是什么模型？",
+      "target_id": "glm-4-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解GLM-4.7这个模型",
+      "target_id": "glm-4-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "在GLM系列中，前一代是GLM-5的模型是哪个？",
+      "target_id": "glm-4-7",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪个模型的直接前代是GLM-5？",
+      "target_id": "glm-4-7",
       "kind": "known",
       "subtype": "predecessor",
       "split": "heldout"
@@ -12812,14 +12427,14 @@
       "split": "heldout"
     },
     {
-      "text": "在GLM系列中，前一代是GLM-5的模型是哪个？",
+      "text": "在GLM系列中，前一代是GLM-4.7的模型是哪个？",
       "target_id": "glm-5-1",
       "kind": "known",
       "subtype": "predecessor",
       "split": "train"
     },
     {
-      "text": "哪个模型的直接前代是GLM-5？",
+      "text": "哪个模型的直接前代是GLM-4.7？",
       "target_id": "glm-5-1",
       "kind": "known",
       "subtype": "predecessor",
@@ -12889,113 +12504,50 @@
       "split": "heldout"
     },
     {
-      "text": "介绍一下GLM-Z1这个模型",
-      "target_id": "glm-z1",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "GLM-Z1是什么模型？",
-      "target_id": "glm-z1",
-      "kind": "known",
-      "subtype": "name",
-      "split": "train"
-    },
-    {
-      "text": "我想了解GLM-Z1这个模型",
-      "target_id": "glm-z1",
-      "kind": "known",
-      "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下智谱Z1",
-      "target_id": "glm-z1",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "train"
-    },
-    {
-      "text": "智谱Z1是什么模型？",
-      "target_id": "glm-z1",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "train"
-    },
-    {
-      "text": "帮我查一下智谱Z1的资料",
-      "target_id": "glm-z1",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "train"
-    },
-    {
-      "text": "我想了解一下智谱Z1",
-      "target_id": "glm-z1",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "heldout"
-    },
-    {
-      "text": "在GLM系列中，前一代是GLM-5.3的模型是哪个？",
-      "target_id": "glm-z1",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是GLM-5.3？",
-      "target_id": "glm-z1",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "heldout"
-    },
-    {
       "text": "智谱AI的GLM系列最新模型是什么？",
-      "target_id": "glm-z1",
+      "target_id": "glm-5-3",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "GLM系列现在最新的是哪一款？",
-      "target_id": "glm-z1",
+      "target_id": "glm-5-3",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "哪个是智谱AI最新的GLM模型？",
-      "target_id": "glm-z1",
+      "target_id": "glm-5-3",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "GLM家族当前最新的版本是哪个？",
-      "target_id": "glm-z1",
+      "target_id": "glm-5-3",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "GLM系列现在出到哪个版本了？",
-      "target_id": "glm-z1",
+      "target_id": "glm-5-3",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
       "text": "GLM系列最近有什么新旗舰？",
-      "target_id": "glm-z1",
+      "target_id": "glm-5-3",
       "kind": "known",
       "subtype": "latest",
       "split": "heldout"
     },
     {
       "text": "智谱AI刚发布的GLM模型是哪一个？",
-      "target_id": "glm-z1",
+      "target_id": "glm-5-3",
       "kind": "known",
       "subtype": "latest",
       "split": "heldout"
@@ -13422,6 +12974,73 @@
       "split": "heldout"
     },
     {
+      "text": "字节跳动的豆包系列最新模型是什么？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "豆包系列现在最新的是哪一款？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是字节跳动最新的豆包模型？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "豆包家族当前最新的版本是哪个？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "豆包系列现在出到哪个版本了？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "豆包系列最近有什么新旗舰？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "字节跳动刚发布的豆包模型是哪一个？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "豆包是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "字节跳动的豆包系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "豆包系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下Seed 1.5这个模型",
       "target_id": "seed-1-5",
       "kind": "known",
@@ -13440,20 +13059,6 @@
       "target_id": "seed-1-5",
       "kind": "known",
       "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在豆包系列中，前一代是豆包 1.5 Pro的模型是哪个？",
-      "target_id": "seed-1-5",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是豆包 1.5 Pro？",
-      "target_id": "seed-1-5",
-      "kind": "known",
-      "subtype": "predecessor",
       "split": "heldout"
     },
     {
@@ -13478,7 +13083,7 @@
       "split": "heldout"
     },
     {
-      "text": "在豆包系列中，前一代是Seed 1.5的模型是哪个？",
+      "text": "在Seed系列中，前一代是Seed 1.5的模型是哪个？",
       "target_id": "seed-2-0",
       "kind": "known",
       "subtype": "predecessor",
@@ -13513,7 +13118,7 @@
       "split": "heldout"
     },
     {
-      "text": "在豆包系列中，前一代是Seed 2.0的模型是哪个？",
+      "text": "在Seed系列中，前一代是Seed 2.0的模型是哪个？",
       "target_id": "seed-3-0",
       "kind": "known",
       "subtype": "predecessor",
@@ -13527,68 +13132,68 @@
       "split": "heldout"
     },
     {
-      "text": "字节跳动的豆包系列最新模型是什么？",
+      "text": "字节跳动的Seed系列最新模型是什么？",
       "target_id": "seed-3-0",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
-      "text": "豆包系列现在最新的是哪一款？",
+      "text": "Seed系列现在最新的是哪一款？",
       "target_id": "seed-3-0",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
-      "text": "哪个是字节跳动最新的豆包模型？",
+      "text": "哪个是字节跳动最新的Seed模型？",
       "target_id": "seed-3-0",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
-      "text": "豆包家族当前最新的版本是哪个？",
+      "text": "Seed家族当前最新的版本是哪个？",
       "target_id": "seed-3-0",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
-      "text": "豆包系列现在出到哪个版本了？",
+      "text": "Seed系列现在出到哪个版本了？",
       "target_id": "seed-3-0",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
-      "text": "豆包系列最近有什么新旗舰？",
-      "target_id": "seed-3-0",
-      "kind": "known",
-      "subtype": "latest",
-      "split": "heldout"
-    },
-    {
-      "text": "字节跳动刚发布的豆包模型是哪一个？",
+      "text": "Seed系列最近有什么新旗舰？",
       "target_id": "seed-3-0",
       "kind": "known",
       "subtype": "latest",
       "split": "heldout"
     },
     {
-      "text": "豆包是哪一个模型？",
+      "text": "字节跳动刚发布的Seed模型是哪一个？",
+      "target_id": "seed-3-0",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Seed是哪一个模型？",
       "target_id": null,
       "kind": "ambiguous",
       "split": "train"
     },
     {
-      "text": "字节跳动的豆包系列有哪些模型？",
+      "text": "字节跳动的Seed系列有哪些模型？",
       "target_id": null,
       "kind": "ambiguous",
       "split": "train"
     },
     {
-      "text": "豆包系列一共有哪些版本？",
+      "text": "Seed系列一共有哪些版本？",
       "target_id": null,
       "kind": "ambiguous",
       "split": "heldout"
@@ -16394,6 +15999,73 @@
       "split": "heldout"
     },
     {
+      "text": "AI2的OLMo系列最新模型是什么？",
+      "target_id": "olmo2-7b",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "OLMo系列现在最新的是哪一款？",
+      "target_id": "olmo2-7b",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哪个是AI2最新的OLMo模型？",
+      "target_id": "olmo2-7b",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "OLMo家族当前最新的版本是哪个？",
+      "target_id": "olmo2-7b",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "OLMo系列现在出到哪个版本了？",
+      "target_id": "olmo2-7b",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "OLMo系列最近有什么新旗舰？",
+      "target_id": "olmo2-7b",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "AI2刚发布的OLMo模型是哪一个？",
+      "target_id": "olmo2-7b",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "OLMo是哪一个模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "AI2的OLMo系列有哪些模型？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "OLMo系列一共有哪些版本？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下Molmo 7B这个模型",
       "target_id": "molmo-7b",
       "kind": "known",
@@ -16412,20 +16084,6 @@
       "target_id": "molmo-7b",
       "kind": "known",
       "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "在OLMo系列中，前一代是OLMo2 7B的模型是哪个？",
-      "target_id": "molmo-7b",
-      "kind": "known",
-      "subtype": "predecessor",
-      "split": "train"
-    },
-    {
-      "text": "哪个模型的直接前代是OLMo2 7B？",
-      "target_id": "molmo-7b",
-      "kind": "known",
-      "subtype": "predecessor",
       "split": "heldout"
     },
     {
@@ -16450,7 +16108,7 @@
       "split": "heldout"
     },
     {
-      "text": "在OLMo系列中，前一代是Molmo 7B的模型是哪个？",
+      "text": "在Molmo系列中，前一代是Molmo 7B的模型是哪个？",
       "target_id": "molmo-72b",
       "kind": "known",
       "subtype": "predecessor",
@@ -16464,68 +16122,68 @@
       "split": "heldout"
     },
     {
-      "text": "AI2的OLMo系列最新模型是什么？",
+      "text": "AI2的Molmo系列最新模型是什么？",
       "target_id": "molmo-72b",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
-      "text": "OLMo系列现在最新的是哪一款？",
+      "text": "Molmo系列现在最新的是哪一款？",
       "target_id": "molmo-72b",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
-      "text": "哪个是AI2最新的OLMo模型？",
+      "text": "哪个是AI2最新的Molmo模型？",
       "target_id": "molmo-72b",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
-      "text": "OLMo家族当前最新的版本是哪个？",
+      "text": "Molmo家族当前最新的版本是哪个？",
       "target_id": "molmo-72b",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
-      "text": "OLMo系列现在出到哪个版本了？",
+      "text": "Molmo系列现在出到哪个版本了？",
       "target_id": "molmo-72b",
       "kind": "known",
       "subtype": "latest",
       "split": "train"
     },
     {
-      "text": "OLMo系列最近有什么新旗舰？",
-      "target_id": "molmo-72b",
-      "kind": "known",
-      "subtype": "latest",
-      "split": "heldout"
-    },
-    {
-      "text": "AI2刚发布的OLMo模型是哪一个？",
+      "text": "Molmo系列最近有什么新旗舰？",
       "target_id": "molmo-72b",
       "kind": "known",
       "subtype": "latest",
       "split": "heldout"
     },
     {
-      "text": "OLMo是哪一个模型？",
+      "text": "AI2刚发布的Molmo模型是哪一个？",
+      "target_id": "molmo-72b",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "Molmo是哪一个模型？",
       "target_id": null,
       "kind": "ambiguous",
       "split": "train"
     },
     {
-      "text": "AI2的OLMo系列有哪些模型？",
+      "text": "AI2的Molmo系列有哪些模型？",
       "target_id": null,
       "kind": "ambiguous",
       "split": "train"
     },
     {
-      "text": "OLMo系列一共有哪些版本？",
+      "text": "Molmo系列一共有哪些版本？",
       "target_id": null,
       "kind": "ambiguous",
       "split": "heldout"
