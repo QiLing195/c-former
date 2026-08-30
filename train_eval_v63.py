@@ -1,15 +1,17 @@
 # -*- coding: utf-8 -*-
-"""V6.3 递归层评测：在真实 AI 模型数据集的关系图上验证 latest/predecessor/多跳。
+"""V6.3 递归层评测：在任意数据集的关系图上验证 latest/predecessor/多跳。
 
 确定性控制器（v1 无神经网络），秒级出结果。对比参考：身份解析层 predecessor/latest
 仅 33%（V62 报告）——递归层应显著高于此。
 
 用法：
-    D:/conda/envs/cformer-gpu/python.exe train_eval_v63.py
+    D:/conda/envs/cformer-gpu/python.exe train_eval_v63.py                          # 默认 AI 域
+    D:/conda/envs/cformer-gpu/python.exe train_eval_v63.py --data data/movies_dataset.json
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import statistics
 from pathlib import Path
@@ -20,18 +22,28 @@ ROOT = Path(__file__).resolve().parent
 AI_DATA = ROOT / "data" / "ai_models_dataset.json"
 
 
+def has_chain(members: list[str], graph: RelationGraph) -> bool:
+    """该系列是否存在前代链（至少一个成员有 predecessor）——latest/多跳只在有链系列上测。"""
+    return any(graph.predecessors_of(m) for m in members)
+
+
 def main() -> None:
-    objects = json.loads(AI_DATA.read_text(encoding="utf-8"))["objects"]
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--data", type=Path, default=AI_DATA)
+    parser.add_argument("--output", type=Path, default=ROOT / "artifacts" / "v63_results.json")
+    args = parser.parse_args()
+
+    objects = json.loads(args.data.read_text(encoding="utf-8"))["objects"]
     graph = RelationGraph(objects)
     resolver = RecursiveResolver(graph, max_depth=4)
 
-    # 1) latest：每个有多成员的系列
+    # 1) latest：每个有前代链的多成员系列
     latest_ok = latest_total = 0
     series_chains = {}
     for obj in objects:
         series_chains.setdefault(obj["series"], []).append(obj["id"])
     for series, members in series_chains.items():
-        if len(members) < 2:
+        if len(members) < 2 or not has_chain(members, graph):
             continue
         latest_total += 1
         result = resolver.latest_of_series(series)
@@ -51,6 +63,8 @@ def main() -> None:
     # 3) 多跳：从链头走 1/2/3 跳（取年份最小的 head = 主链头，避开规格变体 head）
     hop_ok = hop_total = 0
     for series, members in series_chains.items():
+        if not has_chain(members, graph):
+            continue
         head = resolver.graph.series_heads(series)
         if not head:
             continue
@@ -61,7 +75,7 @@ def main() -> None:
                 hop_ok += 1
             hop_total += 1
 
-    # 4) 控制探针：循环 / 深度 / 时间 / 版本
+    # 4) 控制探针：循环 / 深度 / 时间 / 版本（全部自建图，与数据集无关）
     cycle_objects = [
         {"id": "a", "series": "S", "year": 1, "predecessor": None},
         {"id": "b", "series": "S", "year": 1, "predecessor": "a"},
@@ -70,12 +84,22 @@ def main() -> None:
     cycle_graph = RelationGraph(cycle_objects)
     cycle_graph.successors["c"] = ["a"]
     cycle_res = RecursiveResolver(cycle_graph).latest_of_series("S")
-    depth_res = resolver.chain("gpt-1", hops=8)  # 超过 max_depth=4
+    depth_objects = [
+        {"id": f"n{i}", "series": "D", "year": i, "predecessor": f"n{i-1}" if i > 0 else None}
+        for i in range(20)
+    ]
+    depth_res = RecursiveResolver(RelationGraph(depth_objects)).chain("n0", hops=8)  # 超过 max_depth=4
     time_res = RecursiveResolver(RelationGraph([
         {"id": "x", "series": "T", "year": 2020, "predecessor": None},
         {"id": "y", "series": "T", "year": 2019, "predecessor": "x"},
     ])).latest_of_series("T")
-    version_res = resolver.latest_of_series("GPT", world_version=2024)
+    version_objects = [
+        {"id": "v1", "series": "V", "year": 2022, "predecessor": None},
+        {"id": "v2", "series": "V", "year": 2024, "predecessor": "v1"},
+        {"id": "v3", "series": "V", "year": 2026, "predecessor": "v2"},
+    ]
+    version_graph = RelationGraph(version_objects)
+    version_res = RecursiveResolver(version_graph).latest_of_series("V", world_version=2024)
 
     report = {
         "latest_accuracy": latest_ok / latest_total if latest_total else float("nan"),
@@ -84,15 +108,14 @@ def main() -> None:
         "cycle_rejected": not cycle_res.ok and cycle_res.reason == "cycle",
         "depth_rejected": not depth_res.ok and depth_res.reason == "depth_exceeded",
         "time_violation_rejected": not time_res.ok and time_res.reason == "time_violation",
-        "version_pinned_latest_within_2024": version_res.ok and graph.year_of(version_res.answer_id) <= 2024,
+        "version_pinned_latest_within_2024": version_res.ok and version_graph.year_of(version_res.answer_id) <= 2024,
         "counts": {"latest": latest_total, "predecessor": pred_total, "multi_hop": hop_total},
         "identity_layer_baseline_predecessor_latest": 0.33,  # V62 报告参考值
     }
-    output = ROOT / "artifacts" / "v63_results.json"
-    output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps({"phase": "done", "report": report}, ensure_ascii=False))
-    print(f"wrote {output}")
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(json.dumps({"phase": "done", "data": str(args.data), "report": report}, ensure_ascii=False))
+    print(f"wrote {args.output}")
 
 
 if __name__ == "__main__":

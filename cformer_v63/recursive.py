@@ -30,20 +30,18 @@ class RelationGraph:
         self.successors: dict[str, list[str]] = {}
         self.predecessors: dict[str, list[str]] = {}
         self.series_members: dict[str, list[str]] = {}
+        # 第一遍：注册全部节点与系列成员（此时不建边——前驱可能在列表中更晚出现）
         for obj in objects:
             object_id = obj["id"]
             self.nodes[object_id] = obj
-            pred = obj.get("predecessor")
-            self.predecessors.setdefault(object_id, [])
-            if pred and pred in self.nodes:
-                self.predecessors[object_id].append(pred)
             series = obj.get("series", "")
             self.series_members.setdefault(series, []).append(object_id)
-        # 第二遍：建立 successors（需要所有节点已注册）
+        # 第二遍：所有节点已注册，统一建立 predecessors / successors 边
         for obj in objects:
             object_id = obj["id"]
             pred = obj.get("predecessor")
             if pred and pred in self.nodes:
+                self.predecessors.setdefault(object_id, []).append(pred)
                 self.successors.setdefault(pred, []).append(object_id)
         for chain in self.successors.values():
             chain.sort()

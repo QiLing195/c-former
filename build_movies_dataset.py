@@ -85,20 +85,35 @@ def build():
     objects = []
     queries = []
     label = 0
+    # 显式系列（MOVIES 元组第 5 字段非空）→ 组内按上映年份排序，建前代链
+    series_groups: dict[str, list[tuple[int, str]]] = {}
+    for name, _aliases, _genre, _director, series, year in MOVIES:
+        if series:
+            series_groups.setdefault(series, []).append((int(year), name))
+    predecessor_of: dict[str, str] = {}
+    for series, members in series_groups.items():
+        members.sort()  # 按年份升序
+        for index, (_year, name) in enumerate(members):
+            if index > 0:
+                predecessor_of[name] = members[index - 1][1]
+
     for name, aliases, genre, director, series, year in MOVIES:
+        prev_name = predecessor_of.get(name)
         evidence = {
             "名称": f"这部电影的全称是《{name}》"
                    + (f"，也常被称作{'、'.join(aliases)}" if aliases else ""),
             "属性": f"它是一部{genre}类型电影，于 {year} 年上映",
             "关系": f"它的导演是{director}"
-                    + (f"，属于{series}" if series else ""),
+                    + (f"，属于{series}" if series else "")
+                    + (f"，前一部是《{prev_name}》" if prev_name else ""),
             "变化": f"它于 {year} 年上映，是当年的热门影片",
         }
         object_id = name.lower().replace(" ", "-").replace("：", "-")
+        prev_id = prev_name.lower().replace(" ", "-").replace("：", "-") if prev_name else None
         objects.append({
             "id": object_id, "label": label, "name": name, "company": "电影",
             "region": genre, "series": series or genre, "open_source": False,
-            "year": int(year), "note": genre, "evidence": evidence,
+            "year": int(year), "note": genre, "predecessor": prev_id, "evidence": evidence,
         })
         label += 1
 
@@ -111,6 +126,18 @@ def build():
         for alias in aliases[:2]:
             queries.append({"text": f"介绍一下{alias}这部电影", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "train"})
             queries.append({"text": f"{alias}是部什么电影？", "target_id": object_id, "kind": "known", "subtype": "alias", "split": "heldout"})
+
+        if prev_name:
+            queries.append({"text": f"在{series}系列中，《{prev_name}》的续集是哪部？", "target_id": object_id, "kind": "known", "subtype": "predecessor", "split": "train"})
+            queries.append({"text": f"哪部电影的前一部是《{prev_name}》？", "target_id": object_id, "kind": "known", "subtype": "predecessor", "split": "heldout"})
+
+    # 系列「最新一部」推理查询（显式系列才有意义）
+    for series, members in series_groups.items():
+        members.sort()
+        latest_name = members[-1][1]
+        latest_id = latest_name.lower().replace(" ", "-").replace("：", "-")
+        queries.append({"text": f"{series}系列最新的电影是哪部？", "target_id": latest_id, "kind": "known", "subtype": "latest", "split": "train"})
+        queries.append({"text": f"{series}系列最近上映的是什么？", "target_id": latest_id, "kind": "known", "subtype": "latest", "split": "heldout"})
 
     # 歧义（同导演/同系列）与未知
     queries.extend([

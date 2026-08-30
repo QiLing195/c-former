@@ -5,11 +5,11 @@
     "status": "自动生成；类型/导演/年份为常识性信息，需人工核对",
     "objects": 60,
     "queries": {
-      "known": 430,
+      "known": 492,
       "ambiguous": 3,
       "unknown": 2,
-      "train": 248,
-      "heldout": 187
+      "train": 279,
+      "heldout": 218
     }
   },
   "objects": [
@@ -23,6 +23,7 @@
       "open_source": false,
       "year": 2009,
       "note": "科幻",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《阿凡达》，也常被称作Avatar、阿凡达2",
         "属性": "它是一部科幻类型电影，于 2009 年上映",
@@ -40,6 +41,7 @@
       "open_source": false,
       "year": 1997,
       "note": "爱情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《泰坦尼克号》，也常被称作Titanic",
         "属性": "它是一部爱情类型电影，于 1997 年上映",
@@ -57,10 +59,11 @@
       "open_source": false,
       "year": 2012,
       "note": "科幻",
+      "predecessor": "美国队长",
       "evidence": {
         "名称": "这部电影的全称是《复仇者联盟》，也常被称作Avengers",
         "属性": "它是一部科幻类型电影，于 2012 年上映",
-        "关系": "它的导演是乔斯·韦登，属于漫威宇宙",
+        "关系": "它的导演是乔斯·韦登，属于漫威宇宙，前一部是《美国队长》",
         "变化": "它于 2012 年上映，是当年的热门影片"
       }
     },
@@ -74,10 +77,11 @@
       "open_source": false,
       "year": 2019,
       "note": "科幻",
+      "predecessor": "复仇者联盟",
       "evidence": {
         "名称": "这部电影的全称是《复仇者联盟4：终局之战》，也常被称作Avengers: Endgame",
         "属性": "它是一部科幻类型电影，于 2019 年上映",
-        "关系": "它的导演是罗素兄弟，属于漫威宇宙",
+        "关系": "它的导演是罗素兄弟，属于漫威宇宙，前一部是《复仇者联盟》",
         "变化": "它于 2019 年上映，是当年的热门影片"
       }
     },
@@ -91,10 +95,11 @@
       "open_source": false,
       "year": 2011,
       "note": "动作",
+      "predecessor": "钢铁侠",
       "evidence": {
         "名称": "这部电影的全称是《美国队长》，也常被称作Captain America",
         "属性": "它是一部动作类型电影，于 2011 年上映",
-        "关系": "它的导演是乔·庄斯顿，属于漫威宇宙",
+        "关系": "它的导演是乔·庄斯顿，属于漫威宇宙，前一部是《钢铁侠》",
         "变化": "它于 2011 年上映，是当年的热门影片"
       }
     },
@@ -108,6 +113,7 @@
       "open_source": false,
       "year": 2008,
       "note": "科幻",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《钢铁侠》，也常被称作Iron Man",
         "属性": "它是一部科幻类型电影，于 2008 年上映",
@@ -125,10 +131,11 @@
       "open_source": false,
       "year": 2019,
       "note": "科幻",
+      "predecessor": "复仇者联盟4-终局之战",
       "evidence": {
         "名称": "这部电影的全称是《蜘蛛侠：英雄远征》，也常被称作Spider-Man: Far From Home",
         "属性": "它是一部科幻类型电影，于 2019 年上映",
-        "关系": "它的导演是乔·沃茨，属于漫威宇宙",
+        "关系": "它的导演是乔·沃茨，属于漫威宇宙，前一部是《复仇者联盟4：终局之战》",
         "变化": "它于 2019 年上映，是当年的热门影片"
       }
     },
@@ -142,6 +149,7 @@
       "open_source": false,
       "year": 1977,
       "note": "科幻",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《星球大战：新希望》，也常被称作Star Wars、星球大战",
         "属性": "它是一部科幻类型电影，于 1977 年上映",
@@ -159,10 +167,11 @@
       "open_source": false,
       "year": 1980,
       "note": "科幻",
+      "predecessor": "星球大战-新希望",
       "evidence": {
         "名称": "这部电影的全称是《星球大战：帝国反击战》，也常被称作The Empire Strikes Back",
         "属性": "它是一部科幻类型电影，于 1980 年上映",
-        "关系": "它的导演是伊尔文·克什纳，属于星球大战系列",
+        "关系": "它的导演是伊尔文·克什纳，属于星球大战系列，前一部是《星球大战：新希望》",
         "变化": "它于 1980 年上映，是当年的热门影片"
       }
     },
@@ -176,6 +185,7 @@
       "open_source": false,
       "year": 2007,
       "note": "动作",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《变形金刚》，也常被称作Transformers",
         "属性": "它是一部动作类型电影，于 2007 年上映",
@@ -193,6 +203,7 @@
       "open_source": false,
       "year": 2001,
       "note": "动作",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《速度与激情》，也常被称作Fast & Furious",
         "属性": "它是一部动作类型电影，于 2001 年上映",
@@ -210,10 +221,11 @@
       "open_source": false,
       "year": 2017,
       "note": "动作",
+      "predecessor": "速度与激情",
       "evidence": {
         "名称": "这部电影的全称是《速度与激情8》，也常被称作The Fate of the Furious",
         "属性": "它是一部动作类型电影，于 2017 年上映",
-        "关系": "它的导演是F·加里·格雷，属于速度与激情系列",
+        "关系": "它的导演是F·加里·格雷，属于速度与激情系列，前一部是《速度与激情》",
         "变化": "它于 2017 年上映，是当年的热门影片"
       }
     },
@@ -227,6 +239,7 @@
       "open_source": false,
       "year": 1999,
       "note": "科幻",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《黑客帝国》，也常被称作The Matrix",
         "属性": "它是一部科幻类型电影，于 1999 年上映",
@@ -244,10 +257,11 @@
       "open_source": false,
       "year": 2003,
       "note": "科幻",
+      "predecessor": "黑客帝国",
       "evidence": {
         "名称": "这部电影的全称是《黑客帝国2：重装上阵》，也常被称作The Matrix Reloaded",
         "属性": "它是一部科幻类型电影，于 2003 年上映",
-        "关系": "它的导演是沃卓斯基姐妹，属于黑客帝国系列",
+        "关系": "它的导演是沃卓斯基姐妹，属于黑客帝国系列，前一部是《黑客帝国》",
         "变化": "它于 2003 年上映，是当年的热门影片"
       }
     },
@@ -261,6 +275,7 @@
       "open_source": false,
       "year": 2010,
       "note": "科幻",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《盗梦空间》，也常被称作Inception",
         "属性": "它是一部科幻类型电影，于 2010 年上映",
@@ -278,6 +293,7 @@
       "open_source": false,
       "year": 2014,
       "note": "科幻",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《星际穿越》，也常被称作Interstellar",
         "属性": "它是一部科幻类型电影，于 2014 年上映",
@@ -295,6 +311,7 @@
       "open_source": false,
       "year": 2008,
       "note": "动作",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《蝙蝠侠：黑暗骑士》，也常被称作The Dark Knight、黑暗骑士",
         "属性": "它是一部动作类型电影，于 2008 年上映",
@@ -312,6 +329,7 @@
       "open_source": false,
       "year": 2017,
       "note": "战争",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《敦刻尔克》，也常被称作Dunkirk",
         "属性": "它是一部战争类型电影，于 2017 年上映",
@@ -329,6 +347,7 @@
       "open_source": false,
       "year": 2001,
       "note": "奇幻",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《指环王：护戒使者》，也常被称作The Lord of the Rings、指环王",
         "属性": "它是一部奇幻类型电影，于 2001 年上映",
@@ -346,10 +365,11 @@
       "open_source": false,
       "year": 2003,
       "note": "奇幻",
+      "predecessor": "指环王-护戒使者",
       "evidence": {
         "名称": "这部电影的全称是《指环王：王者归来》，也常被称作The Return of the King",
         "属性": "它是一部奇幻类型电影，于 2003 年上映",
-        "关系": "它的导演是彼得·杰克逊，属于指环王系列",
+        "关系": "它的导演是彼得·杰克逊，属于指环王系列，前一部是《指环王：护戒使者》",
         "变化": "它于 2003 年上映，是当年的热门影片"
       }
     },
@@ -363,10 +383,11 @@
       "open_source": false,
       "year": 2012,
       "note": "奇幻",
+      "predecessor": "指环王-王者归来",
       "evidence": {
         "名称": "这部电影的全称是《霍比特人》，也常被称作The Hobbit",
         "属性": "它是一部奇幻类型电影，于 2012 年上映",
-        "关系": "它的导演是彼得·杰克逊，属于指环王系列",
+        "关系": "它的导演是彼得·杰克逊，属于指环王系列，前一部是《指环王：王者归来》",
         "变化": "它于 2012 年上映，是当年的热门影片"
       }
     },
@@ -380,6 +401,7 @@
       "open_source": false,
       "year": 2001,
       "note": "奇幻",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《哈利·波特与魔法石》，也常被称作Harry Potter、哈利波特",
         "属性": "它是一部奇幻类型电影，于 2001 年上映",
@@ -397,10 +419,11 @@
       "open_source": false,
       "year": 2010,
       "note": "奇幻",
+      "predecessor": "哈利·波特与魔法石",
       "evidence": {
         "名称": "这部电影的全称是《哈利·波特与死亡圣器》，也常被称作Harry Potter and the Deathly Hallows",
         "属性": "它是一部奇幻类型电影，于 2010 年上映",
-        "关系": "它的导演是大卫·叶茨，属于哈利波特系列",
+        "关系": "它的导演是大卫·叶茨，属于哈利波特系列，前一部是《哈利·波特与魔法石》",
         "变化": "它于 2010 年上映，是当年的热门影片"
       }
     },
@@ -414,6 +437,7 @@
       "open_source": false,
       "year": 1993,
       "note": "科幻",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《侏罗纪公园》，也常被称作Jurassic Park",
         "属性": "它是一部科幻类型电影，于 1993 年上映",
@@ -431,10 +455,11 @@
       "open_source": false,
       "year": 2015,
       "note": "科幻",
+      "predecessor": "侏罗纪公园",
       "evidence": {
         "名称": "这部电影的全称是《侏罗纪世界》，也常被称作Jurassic World",
         "属性": "它是一部科幻类型电影，于 2015 年上映",
-        "关系": "它的导演是科林·特雷沃罗，属于侏罗纪系列",
+        "关系": "它的导演是科林·特雷沃罗，属于侏罗纪系列，前一部是《侏罗纪公园》",
         "变化": "它于 2015 年上映，是当年的热门影片"
       }
     },
@@ -448,6 +473,7 @@
       "open_source": false,
       "year": 1993,
       "note": "剧情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《辛德勒的名单》，也常被称作Schindler's List",
         "属性": "它是一部剧情类型电影，于 1993 年上映",
@@ -465,6 +491,7 @@
       "open_source": false,
       "year": 1982,
       "note": "科幻",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《ET外星人》，也常被称作E.T.",
         "属性": "它是一部科幻类型电影，于 1982 年上映",
@@ -482,6 +509,7 @@
       "open_source": false,
       "year": 1998,
       "note": "战争",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《拯救大兵瑞恩》，也常被称作Saving Private Ryan",
         "属性": "它是一部战争类型电影，于 1998 年上映",
@@ -499,6 +527,7 @@
       "open_source": false,
       "year": 1994,
       "note": "剧情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《阿甘正传》，也常被称作Forrest Gump",
         "属性": "它是一部剧情类型电影，于 1994 年上映",
@@ -516,6 +545,7 @@
       "open_source": false,
       "year": 1994,
       "note": "剧情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《肖申克的救赎》，也常被称作The Shawshank Redemption",
         "属性": "它是一部剧情类型电影，于 1994 年上映",
@@ -533,6 +563,7 @@
       "open_source": false,
       "year": 1972,
       "note": "剧情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《教父》，也常被称作The Godfather",
         "属性": "它是一部剧情类型电影，于 1972 年上映",
@@ -550,6 +581,7 @@
       "open_source": false,
       "year": 1994,
       "note": "剧情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《低俗小说》，也常被称作Pulp Fiction",
         "属性": "它是一部剧情类型电影，于 1994 年上映",
@@ -567,6 +599,7 @@
       "open_source": false,
       "year": 2012,
       "note": "剧情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《被解救的姜戈》，也常被称作Django Unchained",
         "属性": "它是一部剧情类型电影，于 2012 年上映",
@@ -584,10 +617,11 @@
       "open_source": false,
       "year": 2001,
       "note": "动画",
+      "predecessor": "龙猫",
       "evidence": {
         "名称": "这部电影的全称是《千与千寻》，也常被称作Spirited Away",
         "属性": "它是一部动画类型电影，于 2001 年上映",
-        "关系": "它的导演是宫崎骏，属于吉卜力",
+        "关系": "它的导演是宫崎骏，属于吉卜力，前一部是《龙猫》",
         "变化": "它于 2001 年上映，是当年的热门影片"
       }
     },
@@ -601,6 +635,7 @@
       "open_source": false,
       "year": 1988,
       "note": "动画",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《龙猫》，也常被称作My Neighbor Totoro",
         "属性": "它是一部动画类型电影，于 1988 年上映",
@@ -618,6 +653,7 @@
       "open_source": false,
       "year": 2016,
       "note": "动画",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《你的名字》，也常被称作Your Name",
         "属性": "它是一部动画类型电影，于 2016 年上映",
@@ -635,6 +671,7 @@
       "open_source": false,
       "year": 2019,
       "note": "动画",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《天气之子》，也常被称作Weathering with You",
         "属性": "它是一部动画类型电影，于 2019 年上映",
@@ -652,6 +689,7 @@
       "open_source": false,
       "year": 2019,
       "note": "科幻",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《流浪地球》，也常被称作The Wandering Earth",
         "属性": "它是一部科幻类型电影，于 2019 年上映",
@@ -669,10 +707,11 @@
       "open_source": false,
       "year": 2023,
       "note": "科幻",
+      "predecessor": "流浪地球",
       "evidence": {
         "名称": "这部电影的全称是《流浪地球2》，也常被称作The Wandering Earth 2",
         "属性": "它是一部科幻类型电影，于 2023 年上映",
-        "关系": "它的导演是郭帆，属于流浪地球系列",
+        "关系": "它的导演是郭帆，属于流浪地球系列，前一部是《流浪地球》",
         "变化": "它于 2023 年上映，是当年的热门影片"
       }
     },
@@ -686,10 +725,11 @@
       "open_source": false,
       "year": 2017,
       "note": "动作",
+      "predecessor": "战狼",
       "evidence": {
         "名称": "这部电影的全称是《战狼2》，也常被称作Wolf Warrior 2",
         "属性": "它是一部动作类型电影，于 2017 年上映",
-        "关系": "它的导演是吴京，属于战狼系列",
+        "关系": "它的导演是吴京，属于战狼系列，前一部是《战狼》",
         "变化": "它于 2017 年上映，是当年的热门影片"
       }
     },
@@ -703,6 +743,7 @@
       "open_source": false,
       "year": 2015,
       "note": "动作",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《战狼》，也常被称作Wolf Warrior",
         "属性": "它是一部动作类型电影，于 2015 年上映",
@@ -720,6 +761,7 @@
       "open_source": false,
       "year": 2018,
       "note": "动作",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《红海行动》，也常被称作Operation Red Sea",
         "属性": "它是一部动作类型电影，于 2018 年上映",
@@ -737,6 +779,7 @@
       "open_source": false,
       "year": 2015,
       "note": "喜剧",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《唐人街探案》，也常被称作Detective Chinatown",
         "属性": "它是一部喜剧类型电影，于 2015 年上映",
@@ -754,10 +797,11 @@
       "open_source": false,
       "year": 2021,
       "note": "喜剧",
+      "predecessor": "唐人街探案",
       "evidence": {
         "名称": "这部电影的全称是《唐人街探案3》，也常被称作Detective Chinatown 3",
         "属性": "它是一部喜剧类型电影，于 2021 年上映",
-        "关系": "它的导演是陈思诚，属于唐人街系列",
+        "关系": "它的导演是陈思诚，属于唐人街系列，前一部是《唐人街探案》",
         "变化": "它于 2021 年上映，是当年的热门影片"
       }
     },
@@ -771,6 +815,7 @@
       "open_source": false,
       "year": 2019,
       "note": "动画",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《哪吒之魔童降世》，也常被称作Ne Zha",
         "属性": "它是一部动画类型电影，于 2019 年上映",
@@ -788,6 +833,7 @@
       "open_source": false,
       "year": 2020,
       "note": "动画",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《姜子牙》，也常被称作Jiang Ziya",
         "属性": "它是一部动画类型电影，于 2020 年上映",
@@ -805,6 +851,7 @@
       "open_source": false,
       "year": 2021,
       "note": "战争",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《长津湖》，也常被称作The Battle at Lake Changjin",
         "属性": "它是一部战争类型电影，于 2021 年上映",
@@ -822,10 +869,11 @@
       "open_source": false,
       "year": 2022,
       "note": "战争",
+      "predecessor": "长津湖",
       "evidence": {
         "名称": "这部电影的全称是《长津湖之水门桥》，也常被称作Water Gate Bridge",
         "属性": "它是一部战争类型电影，于 2022 年上映",
-        "关系": "它的导演是陈凯歌，属于长津湖系列",
+        "关系": "它的导演是陈凯歌，属于长津湖系列，前一部是《长津湖》",
         "变化": "它于 2022 年上映，是当年的热门影片"
       }
     },
@@ -839,6 +887,7 @@
       "open_source": false,
       "year": 2023,
       "note": "悬疑",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《满江红》，也常被称作Full River Red",
         "属性": "它是一部悬疑类型电影，于 2023 年上映",
@@ -856,6 +905,7 @@
       "open_source": false,
       "year": 2021,
       "note": "悬疑",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《悬崖之上》，也常被称作Cliff Walkers",
         "属性": "它是一部悬疑类型电影，于 2021 年上映",
@@ -873,6 +923,7 @@
       "open_source": false,
       "year": 2002,
       "note": "动作",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《英雄》，也常被称作Hero",
         "属性": "它是一部动作类型电影，于 2002 年上映",
@@ -890,6 +941,7 @@
       "open_source": false,
       "year": 1993,
       "note": "剧情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《霸王别姬》，也常被称作Farewell My Concubine",
         "属性": "它是一部剧情类型电影，于 1993 年上映",
@@ -907,6 +959,7 @@
       "open_source": false,
       "year": 2000,
       "note": "武侠",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《卧虎藏龙》，也常被称作Crouching Tiger, Hidden Dragon",
         "属性": "它是一部武侠类型电影，于 2000 年上映",
@@ -924,6 +977,7 @@
       "open_source": false,
       "year": 2012,
       "note": "剧情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《少年派的奇幻漂流》，也常被称作Life of Pi",
         "属性": "它是一部剧情类型电影，于 2012 年上映",
@@ -941,6 +995,7 @@
       "open_source": false,
       "year": 2005,
       "note": "剧情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《断背山》，也常被称作Brokeback Mountain",
         "属性": "它是一部剧情类型电影，于 2005 年上映",
@@ -958,6 +1013,7 @@
       "open_source": false,
       "year": 2010,
       "note": "剧情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《让子弹飞》，也常被称作Let the Bullets Fly",
         "属性": "它是一部剧情类型电影，于 2010 年上映",
@@ -975,6 +1031,7 @@
       "open_source": false,
       "year": 2018,
       "note": "动作",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《邪不压正》，也常被称作Hidden Man",
         "属性": "它是一部动作类型电影，于 2018 年上映",
@@ -992,6 +1049,7 @@
       "open_source": false,
       "year": 2006,
       "note": "喜剧",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《疯狂的石头》，也常被称作Crazy Stone",
         "属性": "它是一部喜剧类型电影，于 2006 年上映",
@@ -1009,6 +1067,7 @@
       "open_source": false,
       "year": 2019,
       "note": "喜剧",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《疯狂的外星人》，也常被称作Crazy Alien",
         "属性": "它是一部喜剧类型电影，于 2019 年上映",
@@ -1026,6 +1085,7 @@
       "open_source": false,
       "year": 2018,
       "note": "剧情",
+      "predecessor": null,
       "evidence": {
         "名称": "这部电影的全称是《我不是药神》，也常被称作Dying to Survive",
         "属性": "它是一部剧情类型电影，于 2018 年上映",
@@ -1197,6 +1257,20 @@
       "split": "heldout"
     },
     {
+      "text": "在漫威宇宙系列中，《美国队长》的续集是哪部？",
+      "target_id": "复仇者联盟",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《美国队长》？",
+      "target_id": "复仇者联盟",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下电影《复仇者联盟4：终局之战》",
       "target_id": "复仇者联盟4-终局之战",
       "kind": "known",
@@ -1246,6 +1320,20 @@
       "split": "heldout"
     },
     {
+      "text": "在漫威宇宙系列中，《复仇者联盟》的续集是哪部？",
+      "target_id": "复仇者联盟4-终局之战",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《复仇者联盟》？",
+      "target_id": "复仇者联盟4-终局之战",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下电影《美国队长》",
       "target_id": "美国队长",
       "kind": "known",
@@ -1292,6 +1380,20 @@
       "target_id": "美国队长",
       "kind": "known",
       "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "在漫威宇宙系列中，《钢铁侠》的续集是哪部？",
+      "target_id": "美国队长",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《钢铁侠》？",
+      "target_id": "美国队长",
+      "kind": "known",
+      "subtype": "predecessor",
       "split": "heldout"
     },
     {
@@ -1390,6 +1492,20 @@
       "target_id": "蜘蛛侠-英雄远征",
       "kind": "known",
       "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "在漫威宇宙系列中，《复仇者联盟4：终局之战》的续集是哪部？",
+      "target_id": "蜘蛛侠-英雄远征",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《复仇者联盟4：终局之战》？",
+      "target_id": "蜘蛛侠-英雄远征",
+      "kind": "known",
+      "subtype": "predecessor",
       "split": "heldout"
     },
     {
@@ -1502,6 +1618,20 @@
       "target_id": "星球大战-帝国反击战",
       "kind": "known",
       "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "在星球大战系列系列中，《星球大战：新希望》的续集是哪部？",
+      "target_id": "星球大战-帝国反击战",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《星球大战：新希望》？",
+      "target_id": "星球大战-帝国反击战",
+      "kind": "known",
+      "subtype": "predecessor",
       "split": "heldout"
     },
     {
@@ -1652,6 +1782,20 @@
       "split": "heldout"
     },
     {
+      "text": "在速度与激情系列系列中，《速度与激情》的续集是哪部？",
+      "target_id": "速度与激情8",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《速度与激情》？",
+      "target_id": "速度与激情8",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下电影《黑客帝国》",
       "target_id": "黑客帝国",
       "kind": "known",
@@ -1747,6 +1891,20 @@
       "target_id": "黑客帝国2-重装上阵",
       "kind": "known",
       "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "在黑客帝国系列系列中，《黑客帝国》的续集是哪部？",
+      "target_id": "黑客帝国2-重装上阵",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《黑客帝国》？",
+      "target_id": "黑客帝国2-重装上阵",
+      "kind": "known",
+      "subtype": "predecessor",
       "split": "heldout"
     },
     {
@@ -2072,6 +2230,20 @@
       "split": "heldout"
     },
     {
+      "text": "在指环王系列系列中，《指环王：护戒使者》的续集是哪部？",
+      "target_id": "指环王-王者归来",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《指环王：护戒使者》？",
+      "target_id": "指环王-王者归来",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下电影《霍比特人》",
       "target_id": "霍比特人",
       "kind": "known",
@@ -2118,6 +2290,20 @@
       "target_id": "霍比特人",
       "kind": "known",
       "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "在指环王系列系列中，《指环王：王者归来》的续集是哪部？",
+      "target_id": "霍比特人",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《指环王：王者归来》？",
+      "target_id": "霍比特人",
+      "kind": "known",
+      "subtype": "predecessor",
       "split": "heldout"
     },
     {
@@ -2233,6 +2419,20 @@
       "split": "heldout"
     },
     {
+      "text": "在哈利波特系列系列中，《哈利·波特与魔法石》的续集是哪部？",
+      "target_id": "哈利·波特与死亡圣器",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《哈利·波特与魔法石》？",
+      "target_id": "哈利·波特与死亡圣器",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下电影《侏罗纪公园》",
       "target_id": "侏罗纪公园",
       "kind": "known",
@@ -2328,6 +2528,20 @@
       "target_id": "侏罗纪世界",
       "kind": "known",
       "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "在侏罗纪系列系列中，《侏罗纪公园》的续集是哪部？",
+      "target_id": "侏罗纪世界",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《侏罗纪公园》？",
+      "target_id": "侏罗纪世界",
+      "kind": "known",
+      "subtype": "predecessor",
       "split": "heldout"
     },
     {
@@ -2772,6 +2986,20 @@
       "split": "heldout"
     },
     {
+      "text": "在吉卜力系列中，《龙猫》的续集是哪部？",
+      "target_id": "千与千寻",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《龙猫》？",
+      "target_id": "千与千寻",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下电影《龙猫》",
       "target_id": "龙猫",
       "kind": "known",
@@ -3017,6 +3245,20 @@
       "split": "heldout"
     },
     {
+      "text": "在流浪地球系列系列中，《流浪地球》的续集是哪部？",
+      "target_id": "流浪地球2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《流浪地球》？",
+      "target_id": "流浪地球2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下电影《战狼2》",
       "target_id": "战狼2",
       "kind": "known",
@@ -3063,6 +3305,20 @@
       "target_id": "战狼2",
       "kind": "known",
       "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "在战狼系列系列中，《战狼》的续集是哪部？",
+      "target_id": "战狼2",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《战狼》？",
+      "target_id": "战狼2",
+      "kind": "known",
+      "subtype": "predecessor",
       "split": "heldout"
     },
     {
@@ -3262,6 +3518,20 @@
       "split": "heldout"
     },
     {
+      "text": "在唐人街系列系列中，《唐人街探案》的续集是哪部？",
+      "target_id": "唐人街探案3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《唐人街探案》？",
+      "target_id": "唐人街探案3",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
       "text": "介绍一下电影《哪吒之魔童降世》",
       "target_id": "哪吒之魔童降世",
       "kind": "known",
@@ -3455,6 +3725,20 @@
       "target_id": "长津湖之水门桥",
       "kind": "known",
       "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "在长津湖系列系列中，《长津湖》的续集是哪部？",
+      "target_id": "长津湖之水门桥",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "哪部电影的前一部是《长津湖》？",
+      "target_id": "长津湖之水门桥",
+      "kind": "known",
+      "subtype": "predecessor",
       "split": "heldout"
     },
     {
@@ -4043,6 +4327,216 @@
       "target_id": "我不是药神",
       "kind": "known",
       "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "漫威宇宙系列最新的电影是哪部？",
+      "target_id": "蜘蛛侠-英雄远征",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "漫威宇宙系列最近上映的是什么？",
+      "target_id": "蜘蛛侠-英雄远征",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "星球大战系列系列最新的电影是哪部？",
+      "target_id": "星球大战-帝国反击战",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "星球大战系列系列最近上映的是什么？",
+      "target_id": "星球大战-帝国反击战",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "变形金刚系列系列最新的电影是哪部？",
+      "target_id": "变形金刚",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "变形金刚系列系列最近上映的是什么？",
+      "target_id": "变形金刚",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "速度与激情系列系列最新的电影是哪部？",
+      "target_id": "速度与激情8",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "速度与激情系列系列最近上映的是什么？",
+      "target_id": "速度与激情8",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "黑客帝国系列系列最新的电影是哪部？",
+      "target_id": "黑客帝国2-重装上阵",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "黑客帝国系列系列最近上映的是什么？",
+      "target_id": "黑客帝国2-重装上阵",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "蝙蝠侠系列系列最新的电影是哪部？",
+      "target_id": "蝙蝠侠-黑暗骑士",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "蝙蝠侠系列系列最近上映的是什么？",
+      "target_id": "蝙蝠侠-黑暗骑士",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "指环王系列系列最新的电影是哪部？",
+      "target_id": "霍比特人",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "指环王系列系列最近上映的是什么？",
+      "target_id": "霍比特人",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "哈利波特系列系列最新的电影是哪部？",
+      "target_id": "哈利·波特与死亡圣器",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "哈利波特系列系列最近上映的是什么？",
+      "target_id": "哈利·波特与死亡圣器",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "侏罗纪系列系列最新的电影是哪部？",
+      "target_id": "侏罗纪世界",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "侏罗纪系列系列最近上映的是什么？",
+      "target_id": "侏罗纪世界",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "教父系列系列最新的电影是哪部？",
+      "target_id": "教父",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "教父系列系列最近上映的是什么？",
+      "target_id": "教父",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "吉卜力系列最新的电影是哪部？",
+      "target_id": "千与千寻",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "吉卜力系列最近上映的是什么？",
+      "target_id": "千与千寻",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "流浪地球系列系列最新的电影是哪部？",
+      "target_id": "流浪地球2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "流浪地球系列系列最近上映的是什么？",
+      "target_id": "流浪地球2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "战狼系列系列最新的电影是哪部？",
+      "target_id": "战狼2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "战狼系列系列最近上映的是什么？",
+      "target_id": "战狼2",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "唐人街系列系列最新的电影是哪部？",
+      "target_id": "唐人街探案3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "唐人街系列系列最近上映的是什么？",
+      "target_id": "唐人街探案3",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "长津湖系列系列最新的电影是哪部？",
+      "target_id": "长津湖之水门桥",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "长津湖系列系列最近上映的是什么？",
+      "target_id": "长津湖之水门桥",
+      "kind": "known",
+      "subtype": "latest",
       "split": "heldout"
     },
     {
