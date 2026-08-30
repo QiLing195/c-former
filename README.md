@@ -16,7 +16,7 @@
 | 观测点：不同观测点不同答案 | selection **92.2%** | 同上 |
 | 观测点：身份不随观测点漂移 | invariance **97.2%** | 同上 |
 | 观测点：可见性零泄漏 | permission **100%**（mask_caught 31–85） | 同上 |
-| **V6.3 递归层**（确定性关系图，V6.3b 重排 + V6.3c 多域） | AI：predecessor/多跳/latest 全 **100%**；电影域（15 系列）也全 **100%** | [`V63_RECURSION_REPORT.md`](V63_RECURSION_REPORT.md) |
+| **V6.3 递归层**（确定性关系图 + 神经递归对照） | AI/电影/国家**三域** predecessor/多跳/latest 全 **100%**；共享递归 vs 堆叠省参 **72%** | [`V63_RECURSION_REPORT.md`](V63_RECURSION_REPORT.md) |
 | 跨域：零样本迁移 | **不成立**（5.2% ≈ 随机） | [`V62_CROSS_DOMAIN_REPORT.md`](V62_CROSS_DOMAIN_REPORT.md) |
 | 跨域：多域联合训练 | 电影 74.9% / 国家 67.9% / AI 46.5% | 同上 |
 | TTT 查询编码 | **负结果**（未超过基线） | [`TTT_EXPERIMENT_REPORT.md`](TTT_EXPERIMENT_REPORT.md) |

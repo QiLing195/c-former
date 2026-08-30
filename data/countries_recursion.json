@@ -1,0 +1,1101 @@
+{
+  "meta": {
+    "dataset": "countries_recursion_dataset",
+    "description": "国家域政体继承链数据集：V6.3 递归层跨域验证用，与主国家数据集分离",
+    "status": "自动生成；政体继承关系为历史常识近似，需人工核对",
+    "objects": 16,
+    "queries": {
+      "known": 110,
+      "ambiguous": 2,
+      "unknown": 2,
+      "train": 57,
+      "heldout": 57
+    }
+  },
+  "objects": [
+    {
+      "id": "苏联",
+      "label": 0,
+      "name": "苏联",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "苏联继承",
+      "open_source": false,
+      "year": 1922,
+      "note": "",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个国家的全称是 苏联，也常被称作USSR、苏维埃社会主义共和国联盟",
+        "属性": "它位于欧洲，主要语言是俄语",
+        "关系": "它的首都是莫斯科，是该系列的最初政体",
+        "变化": "它于 1922 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "俄罗斯",
+      "label": 1,
+      "name": "俄罗斯",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "苏联继承",
+      "open_source": false,
+      "year": 1991,
+      "note": "",
+      "predecessor": "苏联",
+      "evidence": {
+        "名称": "这个国家的全称是 俄罗斯，也常被称作Russia、俄罗斯联邦",
+        "属性": "它位于欧洲，主要语言是俄语",
+        "关系": "它的首都是莫斯科，前身政体是苏联，是该系列现行继承国",
+        "变化": "它于 1991 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "捷克斯洛伐克",
+      "label": 2,
+      "name": "捷克斯洛伐克",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "捷克斯洛伐克继承",
+      "open_source": false,
+      "year": 1918,
+      "note": "",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个国家的全称是 捷克斯洛伐克，也常被称作Czechoslovakia",
+        "属性": "它位于欧洲，主要语言是捷克语",
+        "关系": "它的首都是布拉格，是该系列的最初政体",
+        "变化": "它于 1918 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "捷克",
+      "label": 3,
+      "name": "捷克",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "捷克斯洛伐克继承",
+      "open_source": false,
+      "year": 1993,
+      "note": "",
+      "predecessor": "捷克斯洛伐克",
+      "evidence": {
+        "名称": "这个国家的全称是 捷克，也常被称作Czech Republic",
+        "属性": "它位于欧洲，主要语言是捷克语",
+        "关系": "它的首都是布拉格，前身政体是捷克斯洛伐克，是该系列现行继承国",
+        "变化": "它于 1993 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "南斯拉夫",
+      "label": 4,
+      "name": "南斯拉夫",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "南斯拉夫继承",
+      "open_source": false,
+      "year": 1918,
+      "note": "",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个国家的全称是 南斯拉夫，也常被称作Yugoslavia",
+        "属性": "它位于欧洲，主要语言是塞尔维亚-克罗地亚语",
+        "关系": "它的首都是贝尔格莱德，是该系列的最初政体",
+        "变化": "它于 1918 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "塞尔维亚",
+      "label": 5,
+      "name": "塞尔维亚",
+      "company": "国家",
+      "region": "欧洲",
+      "series": "南斯拉夫继承",
+      "open_source": false,
+      "year": 2006,
+      "note": "",
+      "predecessor": "南斯拉夫",
+      "evidence": {
+        "名称": "这个国家的全称是 塞尔维亚，也常被称作Serbia",
+        "属性": "它位于欧洲，主要语言是塞尔维亚语",
+        "关系": "它的首都是贝尔格莱德，前身政体是南斯拉夫，是该系列现行继承国",
+        "变化": "它于 2006 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "英属印度",
+      "label": 6,
+      "name": "英属印度",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "英属印度继承",
+      "open_source": false,
+      "year": 1858,
+      "note": "",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个国家的全称是 英属印度，也常被称作British Raj、British India",
+        "属性": "它位于亚洲，主要语言是英语",
+        "关系": "它的首都是德里，是该系列的最初政体",
+        "变化": "它于 1858 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "印度",
+      "label": 7,
+      "name": "印度",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "英属印度继承",
+      "open_source": false,
+      "year": 1947,
+      "note": "",
+      "predecessor": "英属印度",
+      "evidence": {
+        "名称": "这个国家的全称是 印度，也常被称作India、印度共和国",
+        "属性": "它位于亚洲，主要语言是印地语",
+        "关系": "它的首都是新德里，前身政体是英属印度，是该系列现行继承国",
+        "变化": "它于 1947 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "奥斯曼帝国",
+      "label": 8,
+      "name": "奥斯曼帝国",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "奥斯曼帝国继承",
+      "open_source": false,
+      "year": 1299,
+      "note": "",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个国家的全称是 奥斯曼帝国，也常被称作Ottoman Empire",
+        "属性": "它位于亚洲，主要语言是土耳其语",
+        "关系": "它的首都是伊斯坦布尔，是该系列的最初政体",
+        "变化": "它于 1299 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "土耳其",
+      "label": 9,
+      "name": "土耳其",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "奥斯曼帝国继承",
+      "open_source": false,
+      "year": 1923,
+      "note": "",
+      "predecessor": "奥斯曼帝国",
+      "evidence": {
+        "名称": "这个国家的全称是 土耳其，也常被称作Turkey、土耳其共和国",
+        "属性": "它位于亚洲，主要语言是土耳其语",
+        "关系": "它的首都是安卡拉，前身政体是奥斯曼帝国，是该系列现行继承国",
+        "变化": "它于 1923 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "荷属东印度",
+      "label": 10,
+      "name": "荷属东印度",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "荷属东印度继承",
+      "open_source": false,
+      "year": 1800,
+      "note": "",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个国家的全称是 荷属东印度，也常被称作Dutch East Indies",
+        "属性": "它位于亚洲，主要语言是荷兰语",
+        "关系": "它的首都是巴达维亚，是该系列的最初政体",
+        "变化": "它于 1800 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "印度尼西亚",
+      "label": 11,
+      "name": "印度尼西亚",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "荷属东印度继承",
+      "open_source": false,
+      "year": 1945,
+      "note": "",
+      "predecessor": "荷属东印度",
+      "evidence": {
+        "名称": "这个国家的全称是 印度尼西亚，也常被称作Indonesia、印尼",
+        "属性": "它位于亚洲，主要语言是印尼语",
+        "关系": "它的首都是雅加达，前身政体是荷属东印度，是该系列现行继承国",
+        "变化": "它于 1945 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "波斯",
+      "label": 12,
+      "name": "波斯",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "波斯继承",
+      "open_source": false,
+      "year": 1501,
+      "note": "",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个国家的全称是 波斯，也常被称作Persia",
+        "属性": "它位于亚洲，主要语言是波斯语",
+        "关系": "它的首都是德黑兰，是该系列的最初政体",
+        "变化": "它于 1501 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "伊朗",
+      "label": 13,
+      "name": "伊朗",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "波斯继承",
+      "open_source": false,
+      "year": 1935,
+      "note": "",
+      "predecessor": "波斯",
+      "evidence": {
+        "名称": "这个国家的全称是 伊朗，也常被称作Iran、伊朗伊斯兰共和国",
+        "属性": "它位于亚洲，主要语言是波斯语",
+        "关系": "它的首都是德黑兰，前身政体是波斯，是该系列现行继承国",
+        "变化": "它于 1935 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "锡兰",
+      "label": 14,
+      "name": "锡兰",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "锡兰继承",
+      "open_source": false,
+      "year": 1948,
+      "note": "",
+      "predecessor": null,
+      "evidence": {
+        "名称": "这个国家的全称是 锡兰，也常被称作Ceylon",
+        "属性": "它位于亚洲，主要语言是僧伽罗语",
+        "关系": "它的首都是科伦坡，是该系列的最初政体",
+        "变化": "它于 1948 年成立或确立现行政体"
+      }
+    },
+    {
+      "id": "斯里兰卡",
+      "label": 15,
+      "name": "斯里兰卡",
+      "company": "国家",
+      "region": "亚洲",
+      "series": "锡兰继承",
+      "open_source": false,
+      "year": 1972,
+      "note": "",
+      "predecessor": "锡兰",
+      "evidence": {
+        "名称": "这个国家的全称是 斯里兰卡，也常被称作Sri Lanka",
+        "属性": "它位于亚洲，主要语言是僧伽罗语",
+        "关系": "它的首都是科伦坡，前身政体是锡兰，是该系列现行继承国",
+        "变化": "它于 1972 年成立或确立现行政体"
+      }
+    }
+  ],
+  "queries": [
+    {
+      "text": "介绍一下苏联这个国家",
+      "target_id": "苏联",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解苏联这个国家",
+      "target_id": "苏联",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下USSR",
+      "target_id": "苏联",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "USSR是哪个国家？",
+      "target_id": "苏联",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下苏维埃社会主义共和国联盟",
+      "target_id": "苏联",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "苏维埃社会主义共和国联盟是哪个国家？",
+      "target_id": "苏联",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下俄罗斯这个国家",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解俄罗斯这个国家",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Russia",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Russia是哪个国家？",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下俄罗斯联邦",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "俄罗斯联邦是哪个国家？",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "哪个国家的前身政体是苏联？",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "苏联的继承国是哪个？",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下捷克斯洛伐克这个国家",
+      "target_id": "捷克斯洛伐克",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解捷克斯洛伐克这个国家",
+      "target_id": "捷克斯洛伐克",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Czechoslovakia",
+      "target_id": "捷克斯洛伐克",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Czechoslovakia是哪个国家？",
+      "target_id": "捷克斯洛伐克",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下捷克这个国家",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解捷克这个国家",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Czech Republic",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Czech Republic是哪个国家？",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "哪个国家的前身政体是捷克斯洛伐克？",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "捷克斯洛伐克的继承国是哪个？",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下南斯拉夫这个国家",
+      "target_id": "南斯拉夫",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解南斯拉夫这个国家",
+      "target_id": "南斯拉夫",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Yugoslavia",
+      "target_id": "南斯拉夫",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Yugoslavia是哪个国家？",
+      "target_id": "南斯拉夫",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下塞尔维亚这个国家",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解塞尔维亚这个国家",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Serbia",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Serbia是哪个国家？",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "哪个国家的前身政体是南斯拉夫？",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "南斯拉夫的继承国是哪个？",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下英属印度这个国家",
+      "target_id": "英属印度",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解英属印度这个国家",
+      "target_id": "英属印度",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下British Raj",
+      "target_id": "英属印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "British Raj是哪个国家？",
+      "target_id": "英属印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下British India",
+      "target_id": "英属印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "British India是哪个国家？",
+      "target_id": "英属印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下印度这个国家",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解印度这个国家",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下India",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "India是哪个国家？",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下印度共和国",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "印度共和国是哪个国家？",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "哪个国家的前身政体是英属印度？",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "英属印度的继承国是哪个？",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下奥斯曼帝国这个国家",
+      "target_id": "奥斯曼帝国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解奥斯曼帝国这个国家",
+      "target_id": "奥斯曼帝国",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Ottoman Empire",
+      "target_id": "奥斯曼帝国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Ottoman Empire是哪个国家？",
+      "target_id": "奥斯曼帝国",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下土耳其这个国家",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解土耳其这个国家",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Turkey",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Turkey是哪个国家？",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下土耳其共和国",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "土耳其共和国是哪个国家？",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "哪个国家的前身政体是奥斯曼帝国？",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "奥斯曼帝国的继承国是哪个？",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下荷属东印度这个国家",
+      "target_id": "荷属东印度",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解荷属东印度这个国家",
+      "target_id": "荷属东印度",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Dutch East Indies",
+      "target_id": "荷属东印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Dutch East Indies是哪个国家？",
+      "target_id": "荷属东印度",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下印度尼西亚这个国家",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解印度尼西亚这个国家",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Indonesia",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Indonesia是哪个国家？",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下印尼",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "印尼是哪个国家？",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "哪个国家的前身政体是荷属东印度？",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "荷属东印度的继承国是哪个？",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下波斯这个国家",
+      "target_id": "波斯",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解波斯这个国家",
+      "target_id": "波斯",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Persia",
+      "target_id": "波斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Persia是哪个国家？",
+      "target_id": "波斯",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下伊朗这个国家",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解伊朗这个国家",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Iran",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Iran是哪个国家？",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下伊朗伊斯兰共和国",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "伊朗伊斯兰共和国是哪个国家？",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "哪个国家的前身政体是波斯？",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "波斯的继承国是哪个？",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下锡兰这个国家",
+      "target_id": "锡兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解锡兰这个国家",
+      "target_id": "锡兰",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Ceylon",
+      "target_id": "锡兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Ceylon是哪个国家？",
+      "target_id": "锡兰",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下斯里兰卡这个国家",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "我想了解斯里兰卡这个国家",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "name",
+      "split": "heldout"
+    },
+    {
+      "text": "介绍一下Sri Lanka",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "train"
+    },
+    {
+      "text": "Sri Lanka是哪个国家？",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "alias",
+      "split": "heldout"
+    },
+    {
+      "text": "哪个国家的前身政体是锡兰？",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "train"
+    },
+    {
+      "text": "锡兰的继承国是哪个？",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "predecessor",
+      "split": "heldout"
+    },
+    {
+      "text": "苏联的现行继承国是哪个？",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "苏联继承现在由哪个国家继承？",
+      "target_id": "俄罗斯",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "捷克斯洛伐克的现行继承国是哪个？",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "捷克斯洛伐克继承现在由哪个国家继承？",
+      "target_id": "捷克",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "南斯拉夫的现行继承国是哪个？",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "南斯拉夫继承现在由哪个国家继承？",
+      "target_id": "塞尔维亚",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "英属印度的现行继承国是哪个？",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "英属印度继承现在由哪个国家继承？",
+      "target_id": "印度",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "奥斯曼帝国的现行继承国是哪个？",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "奥斯曼帝国继承现在由哪个国家继承？",
+      "target_id": "土耳其",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "荷属东印度的现行继承国是哪个？",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "荷属东印度继承现在由哪个国家继承？",
+      "target_id": "印度尼西亚",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "波斯的现行继承国是哪个？",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "波斯继承现在由哪个国家继承？",
+      "target_id": "伊朗",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "锡兰的现行继承国是哪个？",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "train"
+    },
+    {
+      "text": "锡兰继承现在由哪个国家继承？",
+      "target_id": "斯里兰卡",
+      "kind": "known",
+      "subtype": "latest",
+      "split": "heldout"
+    },
+    {
+      "text": "哪个欧洲国家说俄语？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "train"
+    },
+    {
+      "text": "哪个亚洲国家的首都是德黑兰？",
+      "target_id": null,
+      "kind": "ambiguous",
+      "split": "heldout"
+    },
+    {
+      "text": "神圣罗马帝国的继承国是哪个？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "train"
+    },
+    {
+      "text": "拜占庭帝国什么时候灭亡的？",
+      "target_id": null,
+      "kind": "unknown",
+      "split": "heldout"
+    }
+  ]
+}
