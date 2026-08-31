@@ -326,7 +326,9 @@ ALIASES = {
     "混元 T1": ["混元T1", "Hunyuan T1"],
     "混元 A1": ["Hunyuan A1"],
     "Llama 4": ["Meta Llama 4"],
-    "Llama 3.1": ["Llama 3.1 405B"],
+    # 修正：Llama 3.1 405B 是独立对象（llama-3-1-405b），不是 Llama 3.1 的别名——
+    # 别名与对象全名冲突会令精确层错挂（diag_alias_conflicts 捕获）
+    "Llama 3.1": [],
     "Mistral Large 3": ["Mistral Large 最新版"],
     "Grok 5": ["xAI Grok 5"],
     "o3": ["OpenAI o3"],
@@ -391,9 +393,12 @@ def build():
                 series_model_ids.append(object_id)
             label += 1
 
-            # 名称查询：2 训练 + 1 留出（身份在查询里，测基本匹配与句式稳健）
+            # 名称查询：4 训练 + 1 留出（留出句式与旧版一致，保证对比公平；
+            # 训练增句式多样性——"我想了解/请介绍一下"等表达，压 name heldout 失败率）
             queries.append({"text": f"介绍一下{name}这个模型", "target_id": object_id, "kind": "known", "subtype": "name", "split": "train"})
             queries.append({"text": f"{name}是什么模型？", "target_id": object_id, "kind": "known", "subtype": "name", "split": "train"})
+            queries.append({"text": f"请介绍一下{name}", "target_id": object_id, "kind": "known", "subtype": "name", "split": "train"})
+            queries.append({"text": f"{name}这款模型怎么样？", "target_id": object_id, "kind": "known", "subtype": "name", "split": "train"})
             queries.append({"text": f"我想了解{name}这个模型", "target_id": object_id, "kind": "known", "subtype": "name", "split": "heldout"})
 
             # 别名查询：每个别名 3 训练 + 1 留出（加强训练信号，压 alias 短板）

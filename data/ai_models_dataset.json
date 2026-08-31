@@ -5,11 +5,11 @@
     "status": "自动生成；查询分 train/heldout，heldout 不参与训练；版本号与年份需人工核对",
     "objects": 273,
     "queries": {
-      "known": 1776,
+      "known": 2318,
       "ambiguous": 180,
       "unknown": 11,
-      "train": 1285,
-      "heldout": 682
+      "train": 1828,
+      "heldout": 681
     }
   },
   "objects": [
@@ -1177,7 +1177,7 @@
       "note": "",
       "predecessor": "llama-3",
       "evidence": {
-        "名称": "这个模型的全称是 Llama 3.1，属于 Llama 系列，也常写作 Llama3.1，也常被称作Llama 3.1 405B",
+        "名称": "这个模型的全称是 Llama 3.1，属于 Llama 系列，也常写作 Llama3.1",
         "属性": "它由 Meta 开发，是开源模型",
         "关系": "它在 Llama 系列中，前一代是 Llama 3",
         "变化": "它于 2024 年发布"
@@ -4944,6 +4944,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GPT-1",
+      "target_id": "gpt-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-1这款模型怎么样？",
+      "target_id": "gpt-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GPT-1这个模型",
       "target_id": "gpt-1",
       "kind": "known",
@@ -4959,6 +4973,20 @@
     },
     {
       "text": "GPT-2是什么模型？",
+      "target_id": "gpt-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下GPT-2",
+      "target_id": "gpt-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-2这款模型怎么样？",
       "target_id": "gpt-2",
       "kind": "known",
       "subtype": "name",
@@ -5000,6 +5028,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GPT-3",
+      "target_id": "gpt-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-3这款模型怎么样？",
+      "target_id": "gpt-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GPT-3这个模型",
       "target_id": "gpt-3",
       "kind": "known",
@@ -5029,6 +5071,20 @@
     },
     {
       "text": "GPT-3.5是什么模型？",
+      "target_id": "gpt-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下GPT-3.5",
+      "target_id": "gpt-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-3.5这款模型怎么样？",
       "target_id": "gpt-3-5",
       "kind": "known",
       "subtype": "name",
@@ -5098,6 +5154,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GPT-4",
+      "target_id": "gpt-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4这款模型怎么样？",
+      "target_id": "gpt-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GPT-4这个模型",
       "target_id": "gpt-4",
       "kind": "known",
@@ -5133,6 +5203,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GPT-4 Turbo",
+      "target_id": "gpt-4-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4 Turbo这款模型怎么样？",
+      "target_id": "gpt-4-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GPT-4 Turbo这个模型",
       "target_id": "gpt-4-turbo",
       "kind": "known",
@@ -5162,6 +5246,20 @@
     },
     {
       "text": "GPT-4o是什么模型？",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下GPT-4o",
+      "target_id": "gpt-4o",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4o这款模型怎么样？",
       "target_id": "gpt-4o",
       "kind": "known",
       "subtype": "name",
@@ -5259,6 +5357,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GPT-4o mini",
+      "target_id": "gpt-4o-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4o mini这款模型怎么样？",
+      "target_id": "gpt-4o-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GPT-4o mini这个模型",
       "target_id": "gpt-4o-mini",
       "kind": "known",
@@ -5288,6 +5400,20 @@
     },
     {
       "text": "GPT-4.1是什么模型？",
+      "target_id": "gpt-4-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下GPT-4.1",
+      "target_id": "gpt-4-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4.1这款模型怎么样？",
       "target_id": "gpt-4-1",
       "kind": "known",
       "subtype": "name",
@@ -5329,6 +5455,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GPT-4.1 mini",
+      "target_id": "gpt-4-1-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4.1 mini这款模型怎么样？",
+      "target_id": "gpt-4-1-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GPT-4.1 mini这个模型",
       "target_id": "gpt-4-1-mini",
       "kind": "known",
@@ -5358,6 +5498,20 @@
     },
     {
       "text": "GPT-4.1 nano是什么模型？",
+      "target_id": "gpt-4-1-nano",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下GPT-4.1 nano",
+      "target_id": "gpt-4-1-nano",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-4.1 nano这款模型怎么样？",
       "target_id": "gpt-4-1-nano",
       "kind": "known",
       "subtype": "name",
@@ -5399,6 +5553,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GPT-5",
+      "target_id": "gpt-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-5这款模型怎么样？",
+      "target_id": "gpt-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GPT-5这个模型",
       "target_id": "gpt-5",
       "kind": "known",
@@ -5434,6 +5602,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GPT-5.1",
+      "target_id": "gpt-5-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-5.1这款模型怎么样？",
+      "target_id": "gpt-5-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GPT-5.1这个模型",
       "target_id": "gpt-5-1",
       "kind": "known",
@@ -5463,6 +5645,20 @@
     },
     {
       "text": "GPT-5.2是什么模型？",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下GPT-5.2",
+      "target_id": "gpt-5-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GPT-5.2这款模型怎么样？",
       "target_id": "gpt-5-2",
       "kind": "known",
       "subtype": "name",
@@ -5599,6 +5795,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下o1",
+      "target_id": "o1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "o1这款模型怎么样？",
+      "target_id": "o1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解o1这个模型",
       "target_id": "o1",
       "kind": "known",
@@ -5614,6 +5824,20 @@
     },
     {
       "text": "o1-mini是什么模型？",
+      "target_id": "o1-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下o1-mini",
+      "target_id": "o1-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "o1-mini这款模型怎么样？",
       "target_id": "o1-mini",
       "kind": "known",
       "subtype": "name",
@@ -5649,6 +5873,20 @@
     },
     {
       "text": "o3是什么模型？",
+      "target_id": "o3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下o3",
+      "target_id": "o3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "o3这款模型怎么样？",
       "target_id": "o3",
       "kind": "known",
       "subtype": "name",
@@ -5718,6 +5956,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下o3-mini",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "o3-mini这款模型怎么样？",
+      "target_id": "o3-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解o3-mini这个模型",
       "target_id": "o3-mini",
       "kind": "known",
@@ -5747,6 +5999,20 @@
     },
     {
       "text": "o4是什么模型？",
+      "target_id": "o4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下o4",
+      "target_id": "o4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "o4这款模型怎么样？",
       "target_id": "o4",
       "kind": "known",
       "subtype": "name",
@@ -5810,6 +6076,20 @@
     },
     {
       "text": "o4-mini是什么模型？",
+      "target_id": "o4-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下o4-mini",
+      "target_id": "o4-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "o4-mini这款模型怎么样？",
       "target_id": "o4-mini",
       "kind": "known",
       "subtype": "name",
@@ -5918,6 +6198,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Claude 1",
+      "target_id": "claude-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 1这款模型怎么样？",
+      "target_id": "claude-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Claude 1这个模型",
       "target_id": "claude-1",
       "kind": "known",
@@ -5933,6 +6227,20 @@
     },
     {
       "text": "Claude 2是什么模型？",
+      "target_id": "claude-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Claude 2",
+      "target_id": "claude-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 2这款模型怎么样？",
       "target_id": "claude-2",
       "kind": "known",
       "subtype": "name",
@@ -5974,6 +6282,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Claude 2.1",
+      "target_id": "claude-2-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 2.1这款模型怎么样？",
+      "target_id": "claude-2-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Claude 2.1这个模型",
       "target_id": "claude-2-1",
       "kind": "known",
@@ -6003,6 +6325,20 @@
     },
     {
       "text": "Claude 3 Opus是什么模型？",
+      "target_id": "claude-3-opus",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Claude 3 Opus",
+      "target_id": "claude-3-opus",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 3 Opus这款模型怎么样？",
       "target_id": "claude-3-opus",
       "kind": "known",
       "subtype": "name",
@@ -6044,6 +6380,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Claude 3 Sonnet",
+      "target_id": "claude-3-sonnet",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 3 Sonnet这款模型怎么样？",
+      "target_id": "claude-3-sonnet",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Claude 3 Sonnet这个模型",
       "target_id": "claude-3-sonnet",
       "kind": "known",
@@ -6073,6 +6423,20 @@
     },
     {
       "text": "Claude 3 Haiku是什么模型？",
+      "target_id": "claude-3-haiku",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Claude 3 Haiku",
+      "target_id": "claude-3-haiku",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 3 Haiku这款模型怎么样？",
       "target_id": "claude-3-haiku",
       "kind": "known",
       "subtype": "name",
@@ -6114,6 +6478,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Claude 3.5 Sonnet",
+      "target_id": "claude-3-5-sonnet",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 3.5 Sonnet这款模型怎么样？",
+      "target_id": "claude-3-5-sonnet",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Claude 3.5 Sonnet这个模型",
       "target_id": "claude-3-5-sonnet",
       "kind": "known",
@@ -6143,6 +6521,20 @@
     },
     {
       "text": "Claude 3.5 Haiku是什么模型？",
+      "target_id": "claude-3-5-haiku",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Claude 3.5 Haiku",
+      "target_id": "claude-3-5-haiku",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude 3.5 Haiku这款模型怎么样？",
       "target_id": "claude-3-5-haiku",
       "kind": "known",
       "subtype": "name",
@@ -6184,6 +6576,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Claude Opus 4",
+      "target_id": "claude-opus-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Opus 4这款模型怎么样？",
+      "target_id": "claude-opus-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Claude Opus 4这个模型",
       "target_id": "claude-opus-4",
       "kind": "known",
@@ -6213,6 +6619,20 @@
     },
     {
       "text": "Claude Sonnet 4是什么模型？",
+      "target_id": "claude-sonnet-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Claude Sonnet 4",
+      "target_id": "claude-sonnet-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Sonnet 4这款模型怎么样？",
       "target_id": "claude-sonnet-4",
       "kind": "known",
       "subtype": "name",
@@ -6254,6 +6674,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Claude Haiku 4",
+      "target_id": "claude-haiku-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Haiku 4这款模型怎么样？",
+      "target_id": "claude-haiku-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Claude Haiku 4这个模型",
       "target_id": "claude-haiku-4",
       "kind": "known",
@@ -6283,6 +6717,20 @@
     },
     {
       "text": "Claude Opus 4.5是什么模型？",
+      "target_id": "claude-opus-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Claude Opus 4.5",
+      "target_id": "claude-opus-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Opus 4.5这款模型怎么样？",
       "target_id": "claude-opus-4-5",
       "kind": "known",
       "subtype": "name",
@@ -6324,6 +6772,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Claude Sonnet 4.5",
+      "target_id": "claude-sonnet-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Sonnet 4.5这款模型怎么样？",
+      "target_id": "claude-sonnet-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Claude Sonnet 4.5这个模型",
       "target_id": "claude-sonnet-4-5",
       "kind": "known",
@@ -6359,6 +6821,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Claude Haiku 4.5",
+      "target_id": "claude-haiku-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Haiku 4.5这款模型怎么样？",
+      "target_id": "claude-haiku-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Claude Haiku 4.5这个模型",
       "target_id": "claude-haiku-4-5",
       "kind": "known",
@@ -6388,6 +6864,20 @@
     },
     {
       "text": "Claude Opus 4.7是什么模型？",
+      "target_id": "claude-opus-4-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Claude Opus 4.7",
+      "target_id": "claude-opus-4-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Opus 4.7这款模型怎么样？",
       "target_id": "claude-opus-4-7",
       "kind": "known",
       "subtype": "name",
@@ -6451,6 +6941,20 @@
     },
     {
       "text": "Claude Opus 4.8是什么模型？",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Claude Opus 4.8",
+      "target_id": "claude-opus-4-8",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Claude Opus 4.8这款模型怎么样？",
       "target_id": "claude-opus-4-8",
       "kind": "known",
       "subtype": "name",
@@ -6615,6 +7119,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Gemini 1.0",
+      "target_id": "gemini-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 1.0这款模型怎么样？",
+      "target_id": "gemini-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Gemini 1.0这个模型",
       "target_id": "gemini-1-0",
       "kind": "known",
@@ -6630,6 +7148,20 @@
     },
     {
       "text": "Gemini 1.5 Pro是什么模型？",
+      "target_id": "gemini-1-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Gemini 1.5 Pro",
+      "target_id": "gemini-1-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 1.5 Pro这款模型怎么样？",
       "target_id": "gemini-1-5-pro",
       "kind": "known",
       "subtype": "name",
@@ -6671,6 +7203,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Gemini 1.5 Flash",
+      "target_id": "gemini-1-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 1.5 Flash这款模型怎么样？",
+      "target_id": "gemini-1-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Gemini 1.5 Flash这个模型",
       "target_id": "gemini-1-5-flash",
       "kind": "known",
@@ -6700,6 +7246,20 @@
     },
     {
       "text": "Gemini 2.0 Flash是什么模型？",
+      "target_id": "gemini-2-0-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Gemini 2.0 Flash",
+      "target_id": "gemini-2-0-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 2.0 Flash这款模型怎么样？",
       "target_id": "gemini-2-0-flash",
       "kind": "known",
       "subtype": "name",
@@ -6741,6 +7301,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Gemini 2.0 Flash-Lite",
+      "target_id": "gemini-2-0-flash-lite",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 2.0 Flash-Lite这款模型怎么样？",
+      "target_id": "gemini-2-0-flash-lite",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Gemini 2.0 Flash-Lite这个模型",
       "target_id": "gemini-2-0-flash-lite",
       "kind": "known",
@@ -6770,6 +7344,20 @@
     },
     {
       "text": "Gemini 2.0 Pro是什么模型？",
+      "target_id": "gemini-2-0-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Gemini 2.0 Pro",
+      "target_id": "gemini-2-0-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 2.0 Pro这款模型怎么样？",
       "target_id": "gemini-2-0-pro",
       "kind": "known",
       "subtype": "name",
@@ -6811,6 +7399,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Gemini 2.5 Pro",
+      "target_id": "gemini-2-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 2.5 Pro这款模型怎么样？",
+      "target_id": "gemini-2-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Gemini 2.5 Pro这个模型",
       "target_id": "gemini-2-5-pro",
       "kind": "known",
@@ -6840,6 +7442,20 @@
     },
     {
       "text": "Gemini 2.5 Flash是什么模型？",
+      "target_id": "gemini-2-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Gemini 2.5 Flash",
+      "target_id": "gemini-2-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 2.5 Flash这款模型怎么样？",
       "target_id": "gemini-2-5-flash",
       "kind": "known",
       "subtype": "name",
@@ -6881,6 +7497,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Gemini 3 Pro",
+      "target_id": "gemini-3-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 3 Pro这款模型怎么样？",
+      "target_id": "gemini-3-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Gemini 3 Pro这个模型",
       "target_id": "gemini-3-pro",
       "kind": "known",
@@ -6916,6 +7546,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Gemini 3 Flash",
+      "target_id": "gemini-3-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 3 Flash这款模型怎么样？",
+      "target_id": "gemini-3-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Gemini 3 Flash这个模型",
       "target_id": "gemini-3-flash",
       "kind": "known",
@@ -6945,6 +7589,20 @@
     },
     {
       "text": "Gemini 3.5 Pro是什么模型？",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Gemini 3.5 Pro",
+      "target_id": "gemini-3-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 3.5 Pro这款模型怎么样？",
       "target_id": "gemini-3-5-pro",
       "kind": "known",
       "subtype": "name",
@@ -7008,6 +7666,20 @@
     },
     {
       "text": "Gemini 3.5 Flash是什么模型？",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Gemini 3.5 Flash",
+      "target_id": "gemini-3-5-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemini 3.5 Flash这款模型怎么样？",
       "target_id": "gemini-3-5-flash",
       "kind": "known",
       "subtype": "name",
@@ -7144,6 +7816,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Llama 2 7B",
+      "target_id": "llama-2-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 2 7B这款模型怎么样？",
+      "target_id": "llama-2-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Llama 2 7B这个模型",
       "target_id": "llama-2-7b",
       "kind": "known",
@@ -7159,6 +7845,20 @@
     },
     {
       "text": "Llama 2 13B是什么模型？",
+      "target_id": "llama-2-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Llama 2 13B",
+      "target_id": "llama-2-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 2 13B这款模型怎么样？",
       "target_id": "llama-2-13b",
       "kind": "known",
       "subtype": "name",
@@ -7186,6 +7886,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Llama 2 70B",
+      "target_id": "llama-2-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 2 70B这款模型怎么样？",
+      "target_id": "llama-2-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Llama 2 70B这个模型",
       "target_id": "llama-2-70b",
       "kind": "known",
@@ -7201,6 +7915,20 @@
     },
     {
       "text": "Llama 3 8B是什么模型？",
+      "target_id": "llama-3-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Llama 3 8B",
+      "target_id": "llama-3-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3 8B这款模型怎么样？",
       "target_id": "llama-3-8b",
       "kind": "known",
       "subtype": "name",
@@ -7228,6 +7956,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Llama 3 70B",
+      "target_id": "llama-3-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3 70B这款模型怎么样？",
+      "target_id": "llama-3-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Llama 3 70B这个模型",
       "target_id": "llama-3-70b",
       "kind": "known",
@@ -7243,6 +7985,20 @@
     },
     {
       "text": "Llama 3.1 8B是什么模型？",
+      "target_id": "llama-3-1-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Llama 3.1 8B",
+      "target_id": "llama-3-1-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.1 8B这款模型怎么样？",
       "target_id": "llama-3-1-8b",
       "kind": "known",
       "subtype": "name",
@@ -7270,6 +8026,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Llama 3.1 70B",
+      "target_id": "llama-3-1-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.1 70B这款模型怎么样？",
+      "target_id": "llama-3-1-70b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Llama 3.1 70B这个模型",
       "target_id": "llama-3-1-70b",
       "kind": "known",
@@ -7285,6 +8055,20 @@
     },
     {
       "text": "Llama 3.1 405B是什么模型？",
+      "target_id": "llama-3-1-405b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Llama 3.1 405B",
+      "target_id": "llama-3-1-405b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.1 405B这款模型怎么样？",
       "target_id": "llama-3-1-405b",
       "kind": "known",
       "subtype": "name",
@@ -7312,6 +8096,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Llama 3.2 1B",
+      "target_id": "llama-3-2-1b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.2 1B这款模型怎么样？",
+      "target_id": "llama-3-2-1b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Llama 3.2 1B这个模型",
       "target_id": "llama-3-2-1b",
       "kind": "known",
@@ -7327,6 +8125,20 @@
     },
     {
       "text": "Llama 3.2 3B是什么模型？",
+      "target_id": "llama-3-2-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Llama 3.2 3B",
+      "target_id": "llama-3-2-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.2 3B这款模型怎么样？",
       "target_id": "llama-3-2-3b",
       "kind": "known",
       "subtype": "name",
@@ -7354,6 +8166,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Llama 3.2 11B",
+      "target_id": "llama-3-2-11b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.2 11B这款模型怎么样？",
+      "target_id": "llama-3-2-11b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Llama 3.2 11B这个模型",
       "target_id": "llama-3-2-11b",
       "kind": "known",
@@ -7369,6 +8195,20 @@
     },
     {
       "text": "Llama 4 Scout是什么模型？",
+      "target_id": "llama-4-scout",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Llama 4 Scout",
+      "target_id": "llama-4-scout",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 4 Scout这款模型怎么样？",
       "target_id": "llama-4-scout",
       "kind": "known",
       "subtype": "name",
@@ -7396,6 +8236,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Llama 4 Maverick",
+      "target_id": "llama-4-maverick",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 4 Maverick这款模型怎么样？",
+      "target_id": "llama-4-maverick",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Llama 4 Maverick这个模型",
       "target_id": "llama-4-maverick",
       "kind": "known",
@@ -7417,6 +8271,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Llama 1",
+      "target_id": "llama-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 1这款模型怎么样？",
+      "target_id": "llama-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Llama 1这个模型",
       "target_id": "llama-1",
       "kind": "known",
@@ -7432,6 +8300,20 @@
     },
     {
       "text": "Llama 2是什么模型？",
+      "target_id": "llama-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Llama 2",
+      "target_id": "llama-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 2这款模型怎么样？",
       "target_id": "llama-2",
       "kind": "known",
       "subtype": "name",
@@ -7473,6 +8355,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Llama 3",
+      "target_id": "llama-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3这款模型怎么样？",
+      "target_id": "llama-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Llama 3这个模型",
       "target_id": "llama-3",
       "kind": "known",
@@ -7508,38 +8404,24 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Llama 3.1",
+      "target_id": "llama-3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.1这款模型怎么样？",
+      "target_id": "llama-3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Llama 3.1这个模型",
       "target_id": "llama-3-1",
       "kind": "known",
       "subtype": "name",
-      "split": "heldout"
-    },
-    {
-      "text": "介绍一下Llama 3.1 405B",
-      "target_id": "llama-3-1",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "train"
-    },
-    {
-      "text": "Llama 3.1 405B是什么模型？",
-      "target_id": "llama-3-1",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "train"
-    },
-    {
-      "text": "帮我查一下Llama 3.1 405B的资料",
-      "target_id": "llama-3-1",
-      "kind": "known",
-      "subtype": "alias",
-      "split": "train"
-    },
-    {
-      "text": "我想了解一下Llama 3.1 405B",
-      "target_id": "llama-3-1",
-      "kind": "known",
-      "subtype": "alias",
       "split": "heldout"
     },
     {
@@ -7565,6 +8447,20 @@
     },
     {
       "text": "Llama 3.2是什么模型？",
+      "target_id": "llama-3-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Llama 3.2",
+      "target_id": "llama-3-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.2这款模型怎么样？",
       "target_id": "llama-3-2",
       "kind": "known",
       "subtype": "name",
@@ -7606,6 +8502,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Llama 3.3",
+      "target_id": "llama-3-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 3.3这款模型怎么样？",
+      "target_id": "llama-3-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Llama 3.3这个模型",
       "target_id": "llama-3-3",
       "kind": "known",
@@ -7635,6 +8545,20 @@
     },
     {
       "text": "Llama 4是什么模型？",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Llama 4",
+      "target_id": "llama-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Llama 4这款模型怎么样？",
       "target_id": "llama-4",
       "kind": "known",
       "subtype": "name",
@@ -7771,6 +8695,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Grok 1",
+      "target_id": "grok-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 1这款模型怎么样？",
+      "target_id": "grok-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Grok 1这个模型",
       "target_id": "grok-1",
       "kind": "known",
@@ -7786,6 +8724,20 @@
     },
     {
       "text": "Grok 1.5是什么模型？",
+      "target_id": "grok-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Grok 1.5",
+      "target_id": "grok-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 1.5这款模型怎么样？",
       "target_id": "grok-1-5",
       "kind": "known",
       "subtype": "name",
@@ -7827,6 +8779,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Grok 2",
+      "target_id": "grok-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 2这款模型怎么样？",
+      "target_id": "grok-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Grok 2这个模型",
       "target_id": "grok-2",
       "kind": "known",
@@ -7856,6 +8822,20 @@
     },
     {
       "text": "Grok 2.5是什么模型？",
+      "target_id": "grok-2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Grok 2.5",
+      "target_id": "grok-2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 2.5这款模型怎么样？",
       "target_id": "grok-2-5",
       "kind": "known",
       "subtype": "name",
@@ -7897,6 +8877,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Grok 3",
+      "target_id": "grok-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 3这款模型怎么样？",
+      "target_id": "grok-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Grok 3这个模型",
       "target_id": "grok-3",
       "kind": "known",
@@ -7932,6 +8926,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Grok 4",
+      "target_id": "grok-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 4这款模型怎么样？",
+      "target_id": "grok-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Grok 4这个模型",
       "target_id": "grok-4",
       "kind": "known",
@@ -7961,6 +8969,20 @@
     },
     {
       "text": "Grok 5是什么模型？",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Grok 5",
+      "target_id": "grok-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Grok 5这款模型怎么样？",
       "target_id": "grok-5",
       "kind": "known",
       "subtype": "name",
@@ -8097,6 +9119,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Mistral 7B",
+      "target_id": "mistral-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral 7B这款模型怎么样？",
+      "target_id": "mistral-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Mistral 7B这个模型",
       "target_id": "mistral-7b",
       "kind": "known",
@@ -8112,6 +9148,20 @@
     },
     {
       "text": "Mixtral 8x7B是什么模型？",
+      "target_id": "mixtral-8x7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Mixtral 8x7B",
+      "target_id": "mixtral-8x7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mixtral 8x7B这款模型怎么样？",
       "target_id": "mixtral-8x7b",
       "kind": "known",
       "subtype": "name",
@@ -8153,6 +9203,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Mistral Small",
+      "target_id": "mistral-small",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Small这款模型怎么样？",
+      "target_id": "mistral-small",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Mistral Small这个模型",
       "target_id": "mistral-small",
       "kind": "known",
@@ -8182,6 +9246,20 @@
     },
     {
       "text": "Mistral Medium是什么模型？",
+      "target_id": "mistral-medium",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Mistral Medium",
+      "target_id": "mistral-medium",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Medium这款模型怎么样？",
       "target_id": "mistral-medium",
       "kind": "known",
       "subtype": "name",
@@ -8223,6 +9301,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Mistral Large 2",
+      "target_id": "mistral-large-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Large 2这款模型怎么样？",
+      "target_id": "mistral-large-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Mistral Large 2这个模型",
       "target_id": "mistral-large-2",
       "kind": "known",
@@ -8252,6 +9344,20 @@
     },
     {
       "text": "Mistral Nemo是什么模型？",
+      "target_id": "mistral-nemo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Mistral Nemo",
+      "target_id": "mistral-nemo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Nemo这款模型怎么样？",
       "target_id": "mistral-nemo",
       "kind": "known",
       "subtype": "name",
@@ -8293,6 +9399,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Codestral",
+      "target_id": "codestral",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Codestral这款模型怎么样？",
+      "target_id": "codestral",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Codestral这个模型",
       "target_id": "codestral",
       "kind": "known",
@@ -8322,6 +9442,20 @@
     },
     {
       "text": "Mathstral是什么模型？",
+      "target_id": "mathstral",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Mathstral",
+      "target_id": "mathstral",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mathstral这款模型怎么样？",
       "target_id": "mathstral",
       "kind": "known",
       "subtype": "name",
@@ -8363,6 +9497,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Mixtral 8x22B",
+      "target_id": "mixtral-8x22b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mixtral 8x22B这款模型怎么样？",
+      "target_id": "mixtral-8x22b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Mixtral 8x22B这个模型",
       "target_id": "mixtral-8x22b",
       "kind": "known",
@@ -8398,6 +9546,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Mistral 7B v0.3",
+      "target_id": "mistral-7b-v0-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral 7B v0.3这款模型怎么样？",
+      "target_id": "mistral-7b-v0-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Mistral 7B v0.3这个模型",
       "target_id": "mistral-7b-v0-3",
       "kind": "known",
@@ -8427,6 +9589,20 @@
     },
     {
       "text": "Mistral Large 3是什么模型？",
+      "target_id": "mistral-large-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Mistral Large 3",
+      "target_id": "mistral-large-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Large 3这款模型怎么样？",
       "target_id": "mistral-large-3",
       "kind": "known",
       "subtype": "name",
@@ -8496,6 +9672,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Mistral Small 3",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Small 3这款模型怎么样？",
+      "target_id": "mistral-small-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Mistral Small 3这个模型",
       "target_id": "mistral-small-3",
       "kind": "known",
@@ -8525,6 +9715,20 @@
     },
     {
       "text": "Mistral Small 3.1是什么模型？",
+      "target_id": "mistral-small-3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Mistral Small 3.1",
+      "target_id": "mistral-small-3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Mistral Small 3.1这款模型怎么样？",
       "target_id": "mistral-small-3-1",
       "kind": "known",
       "subtype": "name",
@@ -8633,6 +9837,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Phi-1",
+      "target_id": "phi-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Phi-1这款模型怎么样？",
+      "target_id": "phi-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Phi-1这个模型",
       "target_id": "phi-1",
       "kind": "known",
@@ -8648,6 +9866,20 @@
     },
     {
       "text": "Phi-1.5是什么模型？",
+      "target_id": "phi-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Phi-1.5",
+      "target_id": "phi-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Phi-1.5这款模型怎么样？",
       "target_id": "phi-1-5",
       "kind": "known",
       "subtype": "name",
@@ -8689,6 +9921,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Phi-2",
+      "target_id": "phi-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Phi-2这款模型怎么样？",
+      "target_id": "phi-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Phi-2这个模型",
       "target_id": "phi-2",
       "kind": "known",
@@ -8718,6 +9964,20 @@
     },
     {
       "text": "Phi-3-mini是什么模型？",
+      "target_id": "phi-3-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Phi-3-mini",
+      "target_id": "phi-3-mini",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Phi-3-mini这款模型怎么样？",
       "target_id": "phi-3-mini",
       "kind": "known",
       "subtype": "name",
@@ -8787,6 +10047,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Phi-3-small",
+      "target_id": "phi-3-small",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Phi-3-small这款模型怎么样？",
+      "target_id": "phi-3-small",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Phi-3-small这个模型",
       "target_id": "phi-3-small",
       "kind": "known",
@@ -8822,6 +10096,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Phi-3.5",
+      "target_id": "phi-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Phi-3.5这款模型怎么样？",
+      "target_id": "phi-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Phi-3.5这个模型",
       "target_id": "phi-3-5",
       "kind": "known",
@@ -8851,6 +10139,20 @@
     },
     {
       "text": "Phi-4是什么模型？",
+      "target_id": "phi-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Phi-4",
+      "target_id": "phi-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Phi-4这款模型怎么样？",
       "target_id": "phi-4",
       "kind": "known",
       "subtype": "name",
@@ -8959,6 +10261,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Nova Lite",
+      "target_id": "nova-lite",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Nova Lite这款模型怎么样？",
+      "target_id": "nova-lite",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Nova Lite这个模型",
       "target_id": "nova-lite",
       "kind": "known",
@@ -8974,6 +10290,20 @@
     },
     {
       "text": "Nova Pro是什么模型？",
+      "target_id": "nova-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Nova Pro",
+      "target_id": "nova-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Nova Pro这款模型怎么样？",
       "target_id": "nova-pro",
       "kind": "known",
       "subtype": "name",
@@ -9009,6 +10339,20 @@
     },
     {
       "text": "Nova Premier是什么模型？",
+      "target_id": "nova-premier",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Nova Premier",
+      "target_id": "nova-premier",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Nova Premier这款模型怎么样？",
       "target_id": "nova-premier",
       "kind": "known",
       "subtype": "name",
@@ -9117,6 +10461,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Nemotron-4",
+      "target_id": "nemotron-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Nemotron-4这款模型怎么样？",
+      "target_id": "nemotron-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Nemotron-4这个模型",
       "target_id": "nemotron-4",
       "kind": "known",
@@ -9132,6 +10490,20 @@
     },
     {
       "text": "Nemotron-4-340B是什么模型？",
+      "target_id": "nemotron-4-340b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Nemotron-4-340B",
+      "target_id": "nemotron-4-340b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Nemotron-4-340B这款模型怎么样？",
       "target_id": "nemotron-4-340b",
       "kind": "known",
       "subtype": "name",
@@ -9167,6 +10539,20 @@
     },
     {
       "text": "Nemotron-H是什么模型？",
+      "target_id": "nemotron-h",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Nemotron-H",
+      "target_id": "nemotron-h",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Nemotron-H这款模型怎么样？",
       "target_id": "nemotron-h",
       "kind": "known",
       "subtype": "name",
@@ -9303,6 +10689,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Granite-7B",
+      "target_id": "granite-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Granite-7B这款模型怎么样？",
+      "target_id": "granite-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Granite-7B这个模型",
       "target_id": "granite-7b",
       "kind": "known",
@@ -9318,6 +10718,20 @@
     },
     {
       "text": "Granite-13B是什么模型？",
+      "target_id": "granite-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Granite-13B",
+      "target_id": "granite-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Granite-13B这款模型怎么样？",
       "target_id": "granite-13b",
       "kind": "known",
       "subtype": "name",
@@ -9353,6 +10767,20 @@
     },
     {
       "text": "Granite-20B是什么模型？",
+      "target_id": "granite-20b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Granite-20B",
+      "target_id": "granite-20b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Granite-20B这款模型怎么样？",
       "target_id": "granite-20b",
       "kind": "known",
       "subtype": "name",
@@ -9461,6 +10889,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Command R",
+      "target_id": "command-r",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Command R这款模型怎么样？",
+      "target_id": "command-r",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Command R这个模型",
       "target_id": "command-r",
       "kind": "known",
@@ -9476,6 +10918,20 @@
     },
     {
       "text": "Command R+是什么模型？",
+      "target_id": "command-r+",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Command R+",
+      "target_id": "command-r+",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Command R+这款模型怎么样？",
       "target_id": "command-r+",
       "kind": "known",
       "subtype": "name",
@@ -9511,6 +10967,20 @@
     },
     {
       "text": "Command A是什么模型？",
+      "target_id": "command-a",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Command A",
+      "target_id": "command-a",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Command A这款模型怎么样？",
       "target_id": "command-a",
       "kind": "known",
       "subtype": "name",
@@ -9647,6 +11117,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下DBRX",
+      "target_id": "dbrx",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DBRX这款模型怎么样？",
+      "target_id": "dbrx",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解DBRX这个模型",
       "target_id": "dbrx",
       "kind": "known",
@@ -9735,6 +11219,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Jamba",
+      "target_id": "jamba",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Jamba这款模型怎么样？",
+      "target_id": "jamba",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Jamba这个模型",
       "target_id": "jamba",
       "kind": "known",
@@ -9750,6 +11248,20 @@
     },
     {
       "text": "Jamba 1.5是什么模型？",
+      "target_id": "jamba-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Jamba 1.5",
+      "target_id": "jamba-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Jamba 1.5这款模型怎么样？",
       "target_id": "jamba-1-5",
       "kind": "known",
       "subtype": "name",
@@ -9858,6 +11370,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下OpenELM",
+      "target_id": "openelm",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "OpenELM这款模型怎么样？",
+      "target_id": "openelm",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解OpenELM这个模型",
       "target_id": "openelm",
       "kind": "known",
@@ -9873,6 +11399,20 @@
     },
     {
       "text": "Apple Foundation Model是什么模型？",
+      "target_id": "apple-foundation-model",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Apple Foundation Model",
+      "target_id": "apple-foundation-model",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Apple Foundation Model这款模型怎么样？",
       "target_id": "apple-foundation-model",
       "kind": "known",
       "subtype": "name",
@@ -9981,6 +11521,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Falcon-40B",
+      "target_id": "falcon-40b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Falcon-40B这款模型怎么样？",
+      "target_id": "falcon-40b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Falcon-40B这个模型",
       "target_id": "falcon-40b",
       "kind": "known",
@@ -9996,6 +11550,20 @@
     },
     {
       "text": "Falcon-180B是什么模型？",
+      "target_id": "falcon-180b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Falcon-180B",
+      "target_id": "falcon-180b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Falcon-180B这款模型怎么样？",
       "target_id": "falcon-180b",
       "kind": "known",
       "subtype": "name",
@@ -10031,6 +11599,20 @@
     },
     {
       "text": "Falcon-3是什么模型？",
+      "target_id": "falcon-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Falcon-3",
+      "target_id": "falcon-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Falcon-3这款模型怎么样？",
       "target_id": "falcon-3",
       "kind": "known",
       "subtype": "name",
@@ -10139,6 +11721,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下HyperCLOVA X",
+      "target_id": "hyperclova-x",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "HyperCLOVA X这款模型怎么样？",
+      "target_id": "hyperclova-x",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解HyperCLOVA X这个模型",
       "target_id": "hyperclova-x",
       "kind": "known",
@@ -10154,6 +11750,20 @@
     },
     {
       "text": "HyperCLOVA X2是什么模型？",
+      "target_id": "hyperclova-x2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下HyperCLOVA X2",
+      "target_id": "hyperclova-x2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "HyperCLOVA X2这款模型怎么样？",
       "target_id": "hyperclova-x2",
       "kind": "known",
       "subtype": "name",
@@ -10262,6 +11872,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下EXAONE 1.0",
+      "target_id": "exaone-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "EXAONE 1.0这款模型怎么样？",
+      "target_id": "exaone-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解EXAONE 1.0这个模型",
       "target_id": "exaone-1-0",
       "kind": "known",
@@ -10277,6 +11901,20 @@
     },
     {
       "text": "EXAONE 2.0是什么模型？",
+      "target_id": "exaone-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下EXAONE 2.0",
+      "target_id": "exaone-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "EXAONE 2.0这款模型怎么样？",
       "target_id": "exaone-2-0",
       "kind": "known",
       "subtype": "name",
@@ -10312,6 +11950,20 @@
     },
     {
       "text": "EXAONE 3.0是什么模型？",
+      "target_id": "exaone-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下EXAONE 3.0",
+      "target_id": "exaone-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "EXAONE 3.0这款模型怎么样？",
       "target_id": "exaone-3-0",
       "kind": "known",
       "subtype": "name",
@@ -10420,6 +12072,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen2.5 0.5B",
+      "target_id": "qwen2-5-0-5b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 0.5B这款模型怎么样？",
+      "target_id": "qwen2-5-0-5b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen2.5 0.5B这个模型",
       "target_id": "qwen2-5-0-5b",
       "kind": "known",
@@ -10435,6 +12101,20 @@
     },
     {
       "text": "Qwen2.5 1.5B是什么模型？",
+      "target_id": "qwen2-5-1-5b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen2.5 1.5B",
+      "target_id": "qwen2-5-1-5b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 1.5B这款模型怎么样？",
       "target_id": "qwen2-5-1-5b",
       "kind": "known",
       "subtype": "name",
@@ -10462,6 +12142,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen2.5 3B",
+      "target_id": "qwen2-5-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 3B这款模型怎么样？",
+      "target_id": "qwen2-5-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen2.5 3B这个模型",
       "target_id": "qwen2-5-3b",
       "kind": "known",
@@ -10477,6 +12171,20 @@
     },
     {
       "text": "Qwen2.5 7B是什么模型？",
+      "target_id": "qwen2-5-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen2.5 7B",
+      "target_id": "qwen2-5-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 7B这款模型怎么样？",
       "target_id": "qwen2-5-7b",
       "kind": "known",
       "subtype": "name",
@@ -10504,6 +12212,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen2.5 14B",
+      "target_id": "qwen2-5-14b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 14B这款模型怎么样？",
+      "target_id": "qwen2-5-14b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen2.5 14B这个模型",
       "target_id": "qwen2-5-14b",
       "kind": "known",
@@ -10519,6 +12241,20 @@
     },
     {
       "text": "Qwen2.5 32B是什么模型？",
+      "target_id": "qwen2-5-32b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen2.5 32B",
+      "target_id": "qwen2-5-32b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 32B这款模型怎么样？",
       "target_id": "qwen2-5-32b",
       "kind": "known",
       "subtype": "name",
@@ -10546,6 +12282,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen2.5 72B",
+      "target_id": "qwen2-5-72b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5 72B这款模型怎么样？",
+      "target_id": "qwen2-5-72b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen2.5 72B这个模型",
       "target_id": "qwen2-5-72b",
       "kind": "known",
@@ -10561,6 +12311,20 @@
     },
     {
       "text": "Qwen3 0.6B是什么模型？",
+      "target_id": "qwen3-0-6b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen3 0.6B",
+      "target_id": "qwen3-0-6b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 0.6B这款模型怎么样？",
       "target_id": "qwen3-0-6b",
       "kind": "known",
       "subtype": "name",
@@ -10588,6 +12352,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen3 1.7B",
+      "target_id": "qwen3-1-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 1.7B这款模型怎么样？",
+      "target_id": "qwen3-1-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen3 1.7B这个模型",
       "target_id": "qwen3-1-7b",
       "kind": "known",
@@ -10603,6 +12381,20 @@
     },
     {
       "text": "Qwen3 4B是什么模型？",
+      "target_id": "qwen3-4b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen3 4B",
+      "target_id": "qwen3-4b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 4B这款模型怎么样？",
       "target_id": "qwen3-4b",
       "kind": "known",
       "subtype": "name",
@@ -10630,6 +12422,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen3 8B",
+      "target_id": "qwen3-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 8B这款模型怎么样？",
+      "target_id": "qwen3-8b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen3 8B这个模型",
       "target_id": "qwen3-8b",
       "kind": "known",
@@ -10645,6 +12451,20 @@
     },
     {
       "text": "Qwen3 14B是什么模型？",
+      "target_id": "qwen3-14b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen3 14B",
+      "target_id": "qwen3-14b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 14B这款模型怎么样？",
       "target_id": "qwen3-14b",
       "kind": "known",
       "subtype": "name",
@@ -10672,6 +12492,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen3 32B",
+      "target_id": "qwen3-32b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 32B这款模型怎么样？",
+      "target_id": "qwen3-32b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen3 32B这个模型",
       "target_id": "qwen3-32b",
       "kind": "known",
@@ -10687,6 +12521,20 @@
     },
     {
       "text": "Qwen3 235B是什么模型？",
+      "target_id": "qwen3-235b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen3 235B",
+      "target_id": "qwen3-235b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3 235B这款模型怎么样？",
       "target_id": "qwen3-235b",
       "kind": "known",
       "subtype": "name",
@@ -10714,6 +12562,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen-VL",
+      "target_id": "qwen-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen-VL这款模型怎么样？",
+      "target_id": "qwen-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen-VL这个模型",
       "target_id": "qwen-vl",
       "kind": "known",
@@ -10729,6 +12591,20 @@
     },
     {
       "text": "Qwen2.5-Coder是什么模型？",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen2.5-Coder",
+      "target_id": "qwen2-5-coder",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5-Coder这款模型怎么样？",
       "target_id": "qwen2-5-coder",
       "kind": "known",
       "subtype": "name",
@@ -10784,6 +12660,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen2.5-Math",
+      "target_id": "qwen2-5-math",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5-Math这款模型怎么样？",
+      "target_id": "qwen2-5-math",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen2.5-Math这个模型",
       "target_id": "qwen2-5-math",
       "kind": "known",
@@ -10799,6 +12689,20 @@
     },
     {
       "text": "Qwen3-VL是什么模型？",
+      "target_id": "qwen3-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen3-VL",
+      "target_id": "qwen3-vl",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3-VL这款模型怎么样？",
       "target_id": "qwen3-vl",
       "kind": "known",
       "subtype": "name",
@@ -10826,6 +12730,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen 1",
+      "target_id": "qwen-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen 1这款模型怎么样？",
+      "target_id": "qwen-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen 1这个模型",
       "target_id": "qwen-1",
       "kind": "known",
@@ -10841,6 +12759,20 @@
     },
     {
       "text": "Qwen 1.5是什么模型？",
+      "target_id": "qwen-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen 1.5",
+      "target_id": "qwen-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen 1.5这款模型怎么样？",
       "target_id": "qwen-1-5",
       "kind": "known",
       "subtype": "name",
@@ -10882,6 +12814,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen2",
+      "target_id": "qwen2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2这款模型怎么样？",
+      "target_id": "qwen2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen2这个模型",
       "target_id": "qwen2",
       "kind": "known",
@@ -10911,6 +12857,20 @@
     },
     {
       "text": "Qwen2.5是什么模型？",
+      "target_id": "qwen2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen2.5",
+      "target_id": "qwen2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen2.5这款模型怎么样？",
       "target_id": "qwen2-5",
       "kind": "known",
       "subtype": "name",
@@ -10952,6 +12912,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen3",
+      "target_id": "qwen3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3这款模型怎么样？",
+      "target_id": "qwen3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen3这个模型",
       "target_id": "qwen3",
       "kind": "known",
@@ -10987,6 +12961,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Qwen3.5",
+      "target_id": "qwen3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3.5这款模型怎么样？",
+      "target_id": "qwen3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Qwen3.5这个模型",
       "target_id": "qwen3-5",
       "kind": "known",
@@ -11016,6 +13004,20 @@
     },
     {
       "text": "Qwen3.6是什么模型？",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen3.6",
+      "target_id": "qwen3-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3.6这款模型怎么样？",
       "target_id": "qwen3-6",
       "kind": "known",
       "subtype": "name",
@@ -11107,6 +13109,20 @@
     },
     {
       "text": "Qwen3.7-Max是什么模型？",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Qwen3.7-Max",
+      "target_id": "qwen3-7-max",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Qwen3.7-Max这款模型怎么样？",
       "target_id": "qwen3-7-max",
       "kind": "known",
       "subtype": "name",
@@ -11271,6 +13287,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下DeepSeek-V1",
+      "target_id": "deepseek-v1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V1这款模型怎么样？",
+      "target_id": "deepseek-v1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解DeepSeek-V1这个模型",
       "target_id": "deepseek-v1",
       "kind": "known",
@@ -11286,6 +13316,20 @@
     },
     {
       "text": "DeepSeek-V2是什么模型？",
+      "target_id": "deepseek-v2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下DeepSeek-V2",
+      "target_id": "deepseek-v2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V2这款模型怎么样？",
       "target_id": "deepseek-v2",
       "kind": "known",
       "subtype": "name",
@@ -11327,6 +13371,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下DeepSeek-V2.5",
+      "target_id": "deepseek-v2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V2.5这款模型怎么样？",
+      "target_id": "deepseek-v2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解DeepSeek-V2.5这个模型",
       "target_id": "deepseek-v2-5",
       "kind": "known",
@@ -11356,6 +13414,20 @@
     },
     {
       "text": "DeepSeek-V3是什么模型？",
+      "target_id": "deepseek-v3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下DeepSeek-V3",
+      "target_id": "deepseek-v3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V3这款模型怎么样？",
       "target_id": "deepseek-v3",
       "kind": "known",
       "subtype": "name",
@@ -11397,6 +13469,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下DeepSeek-Coder-V2",
+      "target_id": "deepseek-coder-v2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-Coder-V2这款模型怎么样？",
+      "target_id": "deepseek-coder-v2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解DeepSeek-Coder-V2这个模型",
       "target_id": "deepseek-coder-v2",
       "kind": "known",
@@ -11426,6 +13512,20 @@
     },
     {
       "text": "DeepSeek-R1是什么模型？",
+      "target_id": "deepseek-r1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下DeepSeek-R1",
+      "target_id": "deepseek-r1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-R1这款模型怎么样？",
       "target_id": "deepseek-r1",
       "kind": "known",
       "subtype": "name",
@@ -11495,6 +13595,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下DeepSeek-R1-Zero",
+      "target_id": "deepseek-r1-zero",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-R1-Zero这款模型怎么样？",
+      "target_id": "deepseek-r1-zero",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解DeepSeek-R1-Zero这个模型",
       "target_id": "deepseek-r1-zero",
       "kind": "known",
@@ -11524,6 +13638,20 @@
     },
     {
       "text": "DeepSeek-V3.1是什么模型？",
+      "target_id": "deepseek-v3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下DeepSeek-V3.1",
+      "target_id": "deepseek-v3-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V3.1这款模型怎么样？",
       "target_id": "deepseek-v3-1",
       "kind": "known",
       "subtype": "name",
@@ -11565,6 +13693,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下DeepSeek-Coder",
+      "target_id": "deepseek-coder",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-Coder这款模型怎么样？",
+      "target_id": "deepseek-coder",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解DeepSeek-Coder这个模型",
       "target_id": "deepseek-coder",
       "kind": "known",
@@ -11594,6 +13736,20 @@
     },
     {
       "text": "DeepSeek-V3 671B是什么模型？",
+      "target_id": "deepseek-v3-671b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下DeepSeek-V3 671B",
+      "target_id": "deepseek-v3-671b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V3 671B这款模型怎么样？",
       "target_id": "deepseek-v3-671b",
       "kind": "known",
       "subtype": "name",
@@ -11635,6 +13791,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下DeepSeek-R1-0528",
+      "target_id": "deepseek-r1-0528",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-R1-0528这款模型怎么样？",
+      "target_id": "deepseek-r1-0528",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解DeepSeek-R1-0528这个模型",
       "target_id": "deepseek-r1-0528",
       "kind": "known",
@@ -11670,6 +13840,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下DeepSeek-V4",
+      "target_id": "deepseek-v4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V4这款模型怎么样？",
+      "target_id": "deepseek-v4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解DeepSeek-V4这个模型",
       "target_id": "deepseek-v4",
       "kind": "known",
@@ -11699,6 +13883,20 @@
     },
     {
       "text": "DeepSeek-V4-Pro是什么模型？",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下DeepSeek-V4-Pro",
+      "target_id": "deepseek-v4-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-V4-Pro这款模型怎么样？",
       "target_id": "deepseek-v4-pro",
       "kind": "known",
       "subtype": "name",
@@ -11790,6 +13988,20 @@
     },
     {
       "text": "DeepSeek-R2是什么模型？",
+      "target_id": "deepseek-r2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下DeepSeek-R2",
+      "target_id": "deepseek-r2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "DeepSeek-R2这款模型怎么样？",
       "target_id": "deepseek-r2",
       "kind": "known",
       "subtype": "name",
@@ -11898,6 +14110,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Kimi K1",
+      "target_id": "kimi-k1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Kimi K1这款模型怎么样？",
+      "target_id": "kimi-k1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Kimi K1这个模型",
       "target_id": "kimi-k1",
       "kind": "known",
@@ -11913,6 +14139,20 @@
     },
     {
       "text": "Kimi K1.5是什么模型？",
+      "target_id": "kimi-k1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Kimi K1.5",
+      "target_id": "kimi-k1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Kimi K1.5这款模型怎么样？",
       "target_id": "kimi-k1-5",
       "kind": "known",
       "subtype": "name",
@@ -11954,6 +14194,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Kimi K2",
+      "target_id": "kimi-k2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Kimi K2这款模型怎么样？",
+      "target_id": "kimi-k2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Kimi K2这个模型",
       "target_id": "kimi-k2",
       "kind": "known",
@@ -11989,6 +14243,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Kimi K2.5",
+      "target_id": "kimi-k2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Kimi K2.5这款模型怎么样？",
+      "target_id": "kimi-k2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Kimi K2.5这个模型",
       "target_id": "kimi-k2-5",
       "kind": "known",
@@ -12018,6 +14286,20 @@
     },
     {
       "text": "Kimi-K2.6是什么模型？",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Kimi-K2.6",
+      "target_id": "kimi-k2-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Kimi-K2.6这款模型怎么样？",
       "target_id": "kimi-k2-6",
       "kind": "known",
       "subtype": "name",
@@ -12182,6 +14464,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GLM-Z1",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-Z1这款模型怎么样？",
+      "target_id": "glm-z1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GLM-Z1这个模型",
       "target_id": "glm-z1",
       "kind": "known",
@@ -12231,6 +14527,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GLM-4",
+      "target_id": "glm-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-4这款模型怎么样？",
+      "target_id": "glm-4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GLM-4这个模型",
       "target_id": "glm-4",
       "kind": "known",
@@ -12246,6 +14556,20 @@
     },
     {
       "text": "GLM-4.5是什么模型？",
+      "target_id": "glm-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下GLM-4.5",
+      "target_id": "glm-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-4.5这款模型怎么样？",
       "target_id": "glm-4-5",
       "kind": "known",
       "subtype": "name",
@@ -12287,6 +14611,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GLM-4.6",
+      "target_id": "glm-4-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-4.6这款模型怎么样？",
+      "target_id": "glm-4-6",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GLM-4.6这个模型",
       "target_id": "glm-4-6",
       "kind": "known",
@@ -12316,6 +14654,20 @@
     },
     {
       "text": "GLM-5是什么模型？",
+      "target_id": "glm-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下GLM-5",
+      "target_id": "glm-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-5这款模型怎么样？",
       "target_id": "glm-5",
       "kind": "known",
       "subtype": "name",
@@ -12357,6 +14709,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下GLM-4.7",
+      "target_id": "glm-4-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-4.7这款模型怎么样？",
+      "target_id": "glm-4-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解GLM-4.7这个模型",
       "target_id": "glm-4-7",
       "kind": "known",
@@ -12386,6 +14752,20 @@
     },
     {
       "text": "GLM-5.1是什么模型？",
+      "target_id": "glm-5-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下GLM-5.1",
+      "target_id": "glm-5-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-5.1这款模型怎么样？",
       "target_id": "glm-5-1",
       "kind": "known",
       "subtype": "name",
@@ -12449,6 +14829,20 @@
     },
     {
       "text": "GLM-5.3是什么模型？",
+      "target_id": "glm-5-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下GLM-5.3",
+      "target_id": "glm-5-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "GLM-5.3这款模型怎么样？",
       "target_id": "glm-5-3",
       "kind": "known",
       "subtype": "name",
@@ -12585,6 +14979,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下MiniMax M1",
+      "target_id": "minimax-m1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax M1这款模型怎么样？",
+      "target_id": "minimax-m1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解MiniMax M1这个模型",
       "target_id": "minimax-m1",
       "kind": "known",
@@ -12600,6 +15008,20 @@
     },
     {
       "text": "MiniMax M1.5是什么模型？",
+      "target_id": "minimax-m1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下MiniMax M1.5",
+      "target_id": "minimax-m1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax M1.5这款模型怎么样？",
       "target_id": "minimax-m1-5",
       "kind": "known",
       "subtype": "name",
@@ -12641,6 +15063,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下MiniMax M2",
+      "target_id": "minimax-m2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax M2这款模型怎么样？",
+      "target_id": "minimax-m2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解MiniMax M2这个模型",
       "target_id": "minimax-m2",
       "kind": "known",
@@ -12676,6 +15112,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下MiniMax M2.5",
+      "target_id": "minimax-m2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax M2.5这款模型怎么样？",
+      "target_id": "minimax-m2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解MiniMax M2.5这个模型",
       "target_id": "minimax-m2-5",
       "kind": "known",
@@ -12705,6 +15155,20 @@
     },
     {
       "text": "MiniMax M2.7是什么模型？",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下MiniMax M2.7",
+      "target_id": "minimax-m2-7",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "MiniMax M2.7这款模型怎么样？",
       "target_id": "minimax-m2-7",
       "kind": "known",
       "subtype": "name",
@@ -12841,6 +15305,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下豆包 1.0",
+      "target_id": "豆包-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "豆包 1.0这款模型怎么样？",
+      "target_id": "豆包-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解豆包 1.0这个模型",
       "target_id": "豆包-1-0",
       "kind": "known",
@@ -12856,6 +15334,20 @@
     },
     {
       "text": "豆包 1.5是什么模型？",
+      "target_id": "豆包-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下豆包 1.5",
+      "target_id": "豆包-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "豆包 1.5这款模型怎么样？",
       "target_id": "豆包-1-5",
       "kind": "known",
       "subtype": "name",
@@ -12891,6 +15383,20 @@
     },
     {
       "text": "豆包 1.5 Pro是什么模型？",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下豆包 1.5 Pro",
+      "target_id": "豆包-1-5-pro",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "豆包 1.5 Pro这款模型怎么样？",
       "target_id": "豆包-1-5-pro",
       "kind": "known",
       "subtype": "name",
@@ -13055,6 +15561,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Seed 1.5",
+      "target_id": "seed-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Seed 1.5这款模型怎么样？",
+      "target_id": "seed-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Seed 1.5这个模型",
       "target_id": "seed-1-5",
       "kind": "known",
@@ -13070,6 +15590,20 @@
     },
     {
       "text": "Seed 2.0是什么模型？",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Seed 2.0",
+      "target_id": "seed-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Seed 2.0这款模型怎么样？",
       "target_id": "seed-2-0",
       "kind": "known",
       "subtype": "name",
@@ -13105,6 +15639,20 @@
     },
     {
       "text": "Seed 3.0是什么模型？",
+      "target_id": "seed-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Seed 3.0",
+      "target_id": "seed-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Seed 3.0这款模型怎么样？",
       "target_id": "seed-3-0",
       "kind": "known",
       "subtype": "name",
@@ -13213,6 +15761,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下混元",
+      "target_id": "混元",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "混元这款模型怎么样？",
+      "target_id": "混元",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解混元这个模型",
       "target_id": "混元",
       "kind": "known",
@@ -13228,6 +15790,20 @@
     },
     {
       "text": "混元 Turbo是什么模型？",
+      "target_id": "混元-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下混元 Turbo",
+      "target_id": "混元-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "混元 Turbo这款模型怎么样？",
       "target_id": "混元-turbo",
       "kind": "known",
       "subtype": "name",
@@ -13269,6 +15845,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下混元 Large",
+      "target_id": "混元-large",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "混元 Large这款模型怎么样？",
+      "target_id": "混元-large",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解混元 Large这个模型",
       "target_id": "混元-large",
       "kind": "known",
@@ -13298,6 +15888,20 @@
     },
     {
       "text": "混元 T1是什么模型？",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下混元 T1",
+      "target_id": "混元-t1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "混元 T1这款模型怎么样？",
       "target_id": "混元-t1",
       "kind": "known",
       "subtype": "name",
@@ -13389,6 +15993,20 @@
     },
     {
       "text": "混元 A1是什么模型？",
+      "target_id": "混元-a1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下混元 A1",
+      "target_id": "混元-a1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "混元 A1这款模型怎么样？",
       "target_id": "混元-a1",
       "kind": "known",
       "subtype": "name",
@@ -13525,6 +16143,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下文心 ERNIE 3.0",
+      "target_id": "文心-ernie-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "文心 ERNIE 3.0这款模型怎么样？",
+      "target_id": "文心-ernie-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解文心 ERNIE 3.0这个模型",
       "target_id": "文心-ernie-3-0",
       "kind": "known",
@@ -13540,6 +16172,20 @@
     },
     {
       "text": "文心 ERNIE 3.5是什么模型？",
+      "target_id": "文心-ernie-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下文心 ERNIE 3.5",
+      "target_id": "文心-ernie-3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "文心 ERNIE 3.5这款模型怎么样？",
       "target_id": "文心-ernie-3-5",
       "kind": "known",
       "subtype": "name",
@@ -13581,6 +16227,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下文心一言 4.0",
+      "target_id": "文心一言-4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "文心一言 4.0这款模型怎么样？",
+      "target_id": "文心一言-4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解文心一言 4.0这个模型",
       "target_id": "文心一言-4-0",
       "kind": "known",
@@ -13610,6 +16270,20 @@
     },
     {
       "text": "文心一言 4.5是什么模型？",
+      "target_id": "文心一言-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下文心一言 4.5",
+      "target_id": "文心一言-4-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "文心一言 4.5这款模型怎么样？",
       "target_id": "文心一言-4-5",
       "kind": "known",
       "subtype": "name",
@@ -13673,6 +16347,20 @@
     },
     {
       "text": "文心 4.5 Turbo是什么模型？",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下文心 4.5 Turbo",
+      "target_id": "文心-4-5-turbo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "文心 4.5 Turbo这款模型怎么样？",
       "target_id": "文心-4-5-turbo",
       "kind": "known",
       "subtype": "name",
@@ -13781,6 +16469,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Step-1",
+      "target_id": "step-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Step-1这款模型怎么样？",
+      "target_id": "step-1",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Step-1这个模型",
       "target_id": "step-1",
       "kind": "known",
@@ -13796,6 +16498,20 @@
     },
     {
       "text": "Step-2是什么模型？",
+      "target_id": "step-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Step-2",
+      "target_id": "step-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Step-2这款模型怎么样？",
       "target_id": "step-2",
       "kind": "known",
       "subtype": "name",
@@ -13831,6 +16547,20 @@
     },
     {
       "text": "Step-3是什么模型？",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Step-3",
+      "target_id": "step-3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Step-3这款模型怎么样？",
       "target_id": "step-3",
       "kind": "known",
       "subtype": "name",
@@ -13939,6 +16669,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Yi-1.5",
+      "target_id": "yi-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Yi-1.5这款模型怎么样？",
+      "target_id": "yi-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Yi-1.5这个模型",
       "target_id": "yi-1-5",
       "kind": "known",
@@ -13954,6 +16698,20 @@
     },
     {
       "text": "Yi-Lightning是什么模型？",
+      "target_id": "yi-lightning",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Yi-Lightning",
+      "target_id": "yi-lightning",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Yi-Lightning这款模型怎么样？",
       "target_id": "yi-lightning",
       "kind": "known",
       "subtype": "name",
@@ -13989,6 +16747,20 @@
     },
     {
       "text": "Yi-2是什么模型？",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Yi-2",
+      "target_id": "yi-2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Yi-2这款模型怎么样？",
       "target_id": "yi-2",
       "kind": "known",
       "subtype": "name",
@@ -14097,6 +16869,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Baichuan-13B",
+      "target_id": "baichuan-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Baichuan-13B这款模型怎么样？",
+      "target_id": "baichuan-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Baichuan-13B这个模型",
       "target_id": "baichuan-13b",
       "kind": "known",
@@ -14112,6 +16898,20 @@
     },
     {
       "text": "Baichuan2是什么模型？",
+      "target_id": "baichuan2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Baichuan2",
+      "target_id": "baichuan2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Baichuan2这款模型怎么样？",
       "target_id": "baichuan2",
       "kind": "known",
       "subtype": "name",
@@ -14147,6 +16947,20 @@
     },
     {
       "text": "Baichuan4是什么模型？",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Baichuan4",
+      "target_id": "baichuan4",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Baichuan4这款模型怎么样？",
       "target_id": "baichuan4",
       "kind": "known",
       "subtype": "name",
@@ -14255,6 +17069,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Skywork-13B",
+      "target_id": "skywork-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Skywork-13B这款模型怎么样？",
+      "target_id": "skywork-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Skywork-13B这个模型",
       "target_id": "skywork-13b",
       "kind": "known",
@@ -14270,6 +17098,20 @@
     },
     {
       "text": "Skywork 4.0是什么模型？",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Skywork 4.0",
+      "target_id": "skywork-4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Skywork 4.0这款模型怎么样？",
       "target_id": "skywork-4-0",
       "kind": "known",
       "subtype": "name",
@@ -14378,6 +17220,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下SenseChat-5",
+      "target_id": "sensechat-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "SenseChat-5这款模型怎么样？",
+      "target_id": "sensechat-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解SenseChat-5这个模型",
       "target_id": "sensechat-5",
       "kind": "known",
@@ -14393,6 +17249,20 @@
     },
     {
       "text": "SenseChat-5.5是什么模型？",
+      "target_id": "sensechat-5-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下SenseChat-5.5",
+      "target_id": "sensechat-5-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "SenseChat-5.5这款模型怎么样？",
       "target_id": "sensechat-5-5",
       "kind": "known",
       "subtype": "name",
@@ -14428,6 +17298,20 @@
     },
     {
       "text": "日日新 5.5是什么模型？",
+      "target_id": "日日新-5-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下日日新 5.5",
+      "target_id": "日日新-5-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "日日新 5.5这款模型怎么样？",
       "target_id": "日日新-5-5",
       "kind": "known",
       "subtype": "name",
@@ -14536,6 +17420,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下星火 v3.0",
+      "target_id": "星火-v3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "星火 v3.0这款模型怎么样？",
+      "target_id": "星火-v3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解星火 v3.0这个模型",
       "target_id": "星火-v3-0",
       "kind": "known",
@@ -14551,6 +17449,20 @@
     },
     {
       "text": "星火 v3.5是什么模型？",
+      "target_id": "星火-v3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下星火 v3.5",
+      "target_id": "星火-v3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "星火 v3.5这款模型怎么样？",
       "target_id": "星火-v3-5",
       "kind": "known",
       "subtype": "name",
@@ -14592,6 +17504,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下星火 v4.0",
+      "target_id": "星火-v4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "星火 v4.0这款模型怎么样？",
+      "target_id": "星火-v4-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解星火 v4.0这个模型",
       "target_id": "星火-v4-0",
       "kind": "known",
@@ -14621,6 +17547,20 @@
     },
     {
       "text": "星火 v5.0是什么模型？",
+      "target_id": "星火-v5-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下星火 v5.0",
+      "target_id": "星火-v5-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "星火 v5.0这款模型怎么样？",
       "target_id": "星火-v5-0",
       "kind": "known",
       "subtype": "name",
@@ -14785,6 +17725,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下InternLM-1.0",
+      "target_id": "internlm-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "InternLM-1.0这款模型怎么样？",
+      "target_id": "internlm-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解InternLM-1.0这个模型",
       "target_id": "internlm-1-0",
       "kind": "known",
@@ -14800,6 +17754,20 @@
     },
     {
       "text": "InternLM-1.5是什么模型？",
+      "target_id": "internlm-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下InternLM-1.5",
+      "target_id": "internlm-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "InternLM-1.5这款模型怎么样？",
       "target_id": "internlm-1-5",
       "kind": "known",
       "subtype": "name",
@@ -14841,6 +17809,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下InternLM2",
+      "target_id": "internlm2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "InternLM2这款模型怎么样？",
+      "target_id": "internlm2",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解InternLM2这个模型",
       "target_id": "internlm2",
       "kind": "known",
@@ -14870,6 +17852,20 @@
     },
     {
       "text": "InternLM2.5是什么模型？",
+      "target_id": "internlm2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下InternLM2.5",
+      "target_id": "internlm2-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "InternLM2.5这款模型怎么样？",
       "target_id": "internlm2-5",
       "kind": "known",
       "subtype": "name",
@@ -14911,6 +17907,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下InternLM3",
+      "target_id": "internlm3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "InternLM3这款模型怎么样？",
+      "target_id": "internlm3",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解InternLM3这个模型",
       "target_id": "internlm3",
       "kind": "known",
@@ -14940,6 +17950,20 @@
     },
     {
       "text": "InternLM3.5是什么模型？",
+      "target_id": "internlm3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下InternLM3.5",
+      "target_id": "internlm3-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "InternLM3.5这款模型怎么样？",
       "target_id": "internlm3-5",
       "kind": "known",
       "subtype": "name",
@@ -15076,6 +18100,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Wan 1.0",
+      "target_id": "wan-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Wan 1.0这款模型怎么样？",
+      "target_id": "wan-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Wan 1.0这个模型",
       "target_id": "wan-1-0",
       "kind": "known",
@@ -15091,6 +18129,20 @@
     },
     {
       "text": "Wan 1.5是什么模型？",
+      "target_id": "wan-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Wan 1.5",
+      "target_id": "wan-1-5",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Wan 1.5这款模型怎么样？",
       "target_id": "wan-1-5",
       "kind": "known",
       "subtype": "name",
@@ -15126,6 +18178,20 @@
     },
     {
       "text": "Wan 2.0是什么模型？",
+      "target_id": "wan-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Wan 2.0",
+      "target_id": "wan-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Wan 2.0这款模型怎么样？",
       "target_id": "wan-2-0",
       "kind": "known",
       "subtype": "name",
@@ -15234,6 +18300,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下盘古 1.0",
+      "target_id": "盘古-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "盘古 1.0这款模型怎么样？",
+      "target_id": "盘古-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解盘古 1.0这个模型",
       "target_id": "盘古-1-0",
       "kind": "known",
@@ -15249,6 +18329,20 @@
     },
     {
       "text": "盘古 2.0是什么模型？",
+      "target_id": "盘古-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下盘古 2.0",
+      "target_id": "盘古-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "盘古 2.0这款模型怎么样？",
       "target_id": "盘古-2-0",
       "kind": "known",
       "subtype": "name",
@@ -15284,6 +18378,20 @@
     },
     {
       "text": "盘古 3.0是什么模型？",
+      "target_id": "盘古-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下盘古 3.0",
+      "target_id": "盘古-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "盘古 3.0这款模型怎么样？",
       "target_id": "盘古-3-0",
       "kind": "known",
       "subtype": "name",
@@ -15420,6 +18528,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下子曰 1.0",
+      "target_id": "子曰-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "子曰 1.0这款模型怎么样？",
+      "target_id": "子曰-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解子曰 1.0这个模型",
       "target_id": "子曰-1-0",
       "kind": "known",
@@ -15435,6 +18557,20 @@
     },
     {
       "text": "子曰 2.0是什么模型？",
+      "target_id": "子曰-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下子曰 2.0",
+      "target_id": "子曰-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "子曰 2.0这款模型怎么样？",
       "target_id": "子曰-2-0",
       "kind": "known",
       "subtype": "name",
@@ -15543,6 +18679,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下可灵 1.0",
+      "target_id": "可灵-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "可灵 1.0这款模型怎么样？",
+      "target_id": "可灵-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解可灵 1.0这个模型",
       "target_id": "可灵-1-0",
       "kind": "known",
@@ -15558,6 +18708,20 @@
     },
     {
       "text": "可灵 2.0是什么模型？",
+      "target_id": "可灵-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下可灵 2.0",
+      "target_id": "可灵-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "可灵 2.0这款模型怎么样？",
       "target_id": "可灵-2-0",
       "kind": "known",
       "subtype": "name",
@@ -15694,6 +18858,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Gemma 2 2B",
+      "target_id": "gemma-2-2b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemma 2 2B这款模型怎么样？",
+      "target_id": "gemma-2-2b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Gemma 2 2B这个模型",
       "target_id": "gemma-2-2b",
       "kind": "known",
@@ -15709,6 +18887,20 @@
     },
     {
       "text": "Gemma 2 9B是什么模型？",
+      "target_id": "gemma-2-9b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Gemma 2 9B",
+      "target_id": "gemma-2-9b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemma 2 9B这款模型怎么样？",
       "target_id": "gemma-2-9b",
       "kind": "known",
       "subtype": "name",
@@ -15750,6 +18942,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Gemma 2 27B",
+      "target_id": "gemma-2-27b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemma 2 27B这款模型怎么样？",
+      "target_id": "gemma-2-27b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Gemma 2 27B这个模型",
       "target_id": "gemma-2-27b",
       "kind": "known",
@@ -15779,6 +18985,20 @@
     },
     {
       "text": "Gemma 3 4B是什么模型？",
+      "target_id": "gemma-3-4b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Gemma 3 4B",
+      "target_id": "gemma-3-4b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemma 3 4B这款模型怎么样？",
       "target_id": "gemma-3-4b",
       "kind": "known",
       "subtype": "name",
@@ -15820,6 +19040,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Gemma 3 12B",
+      "target_id": "gemma-3-12b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemma 3 12B这款模型怎么样？",
+      "target_id": "gemma-3-12b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Gemma 3 12B这个模型",
       "target_id": "gemma-3-12b",
       "kind": "known",
@@ -15849,6 +19083,20 @@
     },
     {
       "text": "Gemma 3 27B是什么模型？",
+      "target_id": "gemma-3-27b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Gemma 3 27B",
+      "target_id": "gemma-3-27b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Gemma 3 27B这款模型怎么样？",
       "target_id": "gemma-3-27b",
       "kind": "known",
       "subtype": "name",
@@ -15957,6 +19205,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下OLMo 7B",
+      "target_id": "olmo-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "OLMo 7B这款模型怎么样？",
+      "target_id": "olmo-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解OLMo 7B这个模型",
       "target_id": "olmo-7b",
       "kind": "known",
@@ -15972,6 +19234,20 @@
     },
     {
       "text": "OLMo2 7B是什么模型？",
+      "target_id": "olmo2-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下OLMo2 7B",
+      "target_id": "olmo2-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "OLMo2 7B这款模型怎么样？",
       "target_id": "olmo2-7b",
       "kind": "known",
       "subtype": "name",
@@ -16080,6 +19356,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Molmo 7B",
+      "target_id": "molmo-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Molmo 7B这款模型怎么样？",
+      "target_id": "molmo-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Molmo 7B这个模型",
       "target_id": "molmo-7b",
       "kind": "known",
@@ -16095,6 +19385,20 @@
     },
     {
       "text": "Molmo 72B是什么模型？",
+      "target_id": "molmo-72b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Molmo 72B",
+      "target_id": "molmo-72b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Molmo 72B这款模型怎么样？",
       "target_id": "molmo-72b",
       "kind": "known",
       "subtype": "name",
@@ -16203,6 +19507,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下BLOOM 176B",
+      "target_id": "bloom-176b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "BLOOM 176B这款模型怎么样？",
+      "target_id": "bloom-176b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解BLOOM 176B这个模型",
       "target_id": "bloom-176b",
       "kind": "known",
@@ -16218,6 +19536,20 @@
     },
     {
       "text": "BLOOMZ 176B是什么模型？",
+      "target_id": "bloomz-176b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下BLOOMZ 176B",
+      "target_id": "bloomz-176b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "BLOOMZ 176B这款模型怎么样？",
       "target_id": "bloomz-176b",
       "kind": "known",
       "subtype": "name",
@@ -16326,6 +19658,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Zephyr 7B",
+      "target_id": "zephyr-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Zephyr 7B这款模型怎么样？",
+      "target_id": "zephyr-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Zephyr 7B这个模型",
       "target_id": "zephyr-7b",
       "kind": "known",
@@ -16341,6 +19687,20 @@
     },
     {
       "text": "Zephyr 7B Beta是什么模型？",
+      "target_id": "zephyr-7b-beta",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Zephyr 7B Beta",
+      "target_id": "zephyr-7b-beta",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Zephyr 7B Beta这款模型怎么样？",
       "target_id": "zephyr-7b-beta",
       "kind": "known",
       "subtype": "name",
@@ -16449,6 +19809,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下SmolLM 135M",
+      "target_id": "smollm-135m",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "SmolLM 135M这款模型怎么样？",
+      "target_id": "smollm-135m",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解SmolLM 135M这个模型",
       "target_id": "smollm-135m",
       "kind": "known",
@@ -16464,6 +19838,20 @@
     },
     {
       "text": "SmolLM 1.7B是什么模型？",
+      "target_id": "smollm-1-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下SmolLM 1.7B",
+      "target_id": "smollm-1-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "SmolLM 1.7B这款模型怎么样？",
       "target_id": "smollm-1-7b",
       "kind": "known",
       "subtype": "name",
@@ -16499,6 +19887,20 @@
     },
     {
       "text": "SmolLM2 1.7B是什么模型？",
+      "target_id": "smollm2-1-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下SmolLM2 1.7B",
+      "target_id": "smollm2-1-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "SmolLM2 1.7B这款模型怎么样？",
       "target_id": "smollm2-1-7b",
       "kind": "known",
       "subtype": "name",
@@ -16607,6 +20009,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下StableLM 3B",
+      "target_id": "stablelm-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "StableLM 3B这款模型怎么样？",
+      "target_id": "stablelm-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解StableLM 3B这个模型",
       "target_id": "stablelm-3b",
       "kind": "known",
@@ -16622,6 +20038,20 @@
     },
     {
       "text": "StableLM 7B是什么模型？",
+      "target_id": "stablelm-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下StableLM 7B",
+      "target_id": "stablelm-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "StableLM 7B这款模型怎么样？",
       "target_id": "stablelm-7b",
       "kind": "known",
       "subtype": "name",
@@ -16657,6 +20087,20 @@
     },
     {
       "text": "StableCode 3B是什么模型？",
+      "target_id": "stablecode-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下StableCode 3B",
+      "target_id": "stablecode-3b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "StableCode 3B这款模型怎么样？",
       "target_id": "stablecode-3b",
       "kind": "known",
       "subtype": "name",
@@ -16765,6 +20209,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Reka Core",
+      "target_id": "reka-core",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Reka Core这款模型怎么样？",
+      "target_id": "reka-core",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Reka Core这个模型",
       "target_id": "reka-core",
       "kind": "known",
@@ -16780,6 +20238,20 @@
     },
     {
       "text": "Reka Flash是什么模型？",
+      "target_id": "reka-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Reka Flash",
+      "target_id": "reka-flash",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Reka Flash这款模型怎么样？",
       "target_id": "reka-flash",
       "kind": "known",
       "subtype": "name",
@@ -16815,6 +20287,20 @@
     },
     {
       "text": "Reka Edge是什么模型？",
+      "target_id": "reka-edge",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Reka Edge",
+      "target_id": "reka-edge",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Reka Edge这款模型怎么样？",
       "target_id": "reka-edge",
       "kind": "known",
       "subtype": "name",
@@ -16923,6 +20409,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Cerebras-GPT 7B",
+      "target_id": "cerebras-gpt-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Cerebras-GPT 7B这款模型怎么样？",
+      "target_id": "cerebras-gpt-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Cerebras-GPT 7B这个模型",
       "target_id": "cerebras-gpt-7b",
       "kind": "known",
@@ -16938,6 +20438,20 @@
     },
     {
       "text": "Cerebras-GPT 13B是什么模型？",
+      "target_id": "cerebras-gpt-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Cerebras-GPT 13B",
+      "target_id": "cerebras-gpt-13b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Cerebras-GPT 13B这款模型怎么样？",
       "target_id": "cerebras-gpt-13b",
       "kind": "known",
       "subtype": "name",
@@ -17046,6 +20560,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下h2oGPT 7B",
+      "target_id": "h2ogpt-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "h2oGPT 7B这款模型怎么样？",
+      "target_id": "h2ogpt-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解h2oGPT 7B这个模型",
       "target_id": "h2ogpt-7b",
       "kind": "known",
@@ -17061,6 +20589,20 @@
     },
     {
       "text": "h2oGPT 12B是什么模型？",
+      "target_id": "h2ogpt-12b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下h2oGPT 12B",
+      "target_id": "h2ogpt-12b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "h2oGPT 12B这款模型怎么样？",
       "target_id": "h2ogpt-12b",
       "kind": "known",
       "subtype": "name",
@@ -17169,6 +20711,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Luminous Supreme",
+      "target_id": "luminous-supreme",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Luminous Supreme这款模型怎么样？",
+      "target_id": "luminous-supreme",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Luminous Supreme这个模型",
       "target_id": "luminous-supreme",
       "kind": "known",
@@ -17184,6 +20740,20 @@
     },
     {
       "text": "Luminous Extended是什么模型？",
+      "target_id": "luminous-extended",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Luminous Extended",
+      "target_id": "luminous-extended",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Luminous Extended这款模型怎么样？",
       "target_id": "luminous-extended",
       "kind": "known",
       "subtype": "name",
@@ -17292,6 +20862,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下ChatGLM 6B",
+      "target_id": "chatglm-6b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "ChatGLM 6B这款模型怎么样？",
+      "target_id": "chatglm-6b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解ChatGLM 6B这个模型",
       "target_id": "chatglm-6b",
       "kind": "known",
@@ -17307,6 +20891,20 @@
     },
     {
       "text": "ChatGLM2 6B是什么模型？",
+      "target_id": "chatglm2-6b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下ChatGLM2 6B",
+      "target_id": "chatglm2-6b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "ChatGLM2 6B这款模型怎么样？",
       "target_id": "chatglm2-6b",
       "kind": "known",
       "subtype": "name",
@@ -17342,6 +20940,20 @@
     },
     {
       "text": "ChatGLM3 6B是什么模型？",
+      "target_id": "chatglm3-6b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下ChatGLM3 6B",
+      "target_id": "chatglm3-6b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "ChatGLM3 6B这款模型怎么样？",
       "target_id": "chatglm3-6b",
       "kind": "known",
       "subtype": "name",
@@ -17450,6 +21062,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下MOSS",
+      "target_id": "moss",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "MOSS这款模型怎么样？",
+      "target_id": "moss",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解MOSS这个模型",
       "target_id": "moss",
       "kind": "known",
@@ -17538,6 +21164,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下九天 1.0",
+      "target_id": "九天-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "九天 1.0这款模型怎么样？",
+      "target_id": "九天-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解九天 1.0这个模型",
       "target_id": "九天-1-0",
       "kind": "known",
@@ -17553,6 +21193,20 @@
     },
     {
       "text": "九天 2.0是什么模型？",
+      "target_id": "九天-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下九天 2.0",
+      "target_id": "九天-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "九天 2.0这款模型怎么样？",
       "target_id": "九天-2-0",
       "kind": "known",
       "subtype": "name",
@@ -17661,6 +21315,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下星辰 1.0",
+      "target_id": "星辰-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "星辰 1.0这款模型怎么样？",
+      "target_id": "星辰-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解星辰 1.0这个模型",
       "target_id": "星辰-1-0",
       "kind": "known",
@@ -17676,6 +21344,20 @@
     },
     {
       "text": "星辰 2.0是什么模型？",
+      "target_id": "星辰-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下星辰 2.0",
+      "target_id": "星辰-2-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "星辰 2.0这款模型怎么样？",
       "target_id": "星辰-2-0",
       "kind": "known",
       "subtype": "name",
@@ -17784,6 +21466,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下元景 1.0",
+      "target_id": "元景-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "元景 1.0这款模型怎么样？",
+      "target_id": "元景-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解元景 1.0这个模型",
       "target_id": "元景-1-0",
       "kind": "known",
@@ -17872,6 +21568,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下Aquila-7B",
+      "target_id": "aquila-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Aquila-7B这款模型怎么样？",
+      "target_id": "aquila-7b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解Aquila-7B这个模型",
       "target_id": "aquila-7b",
       "kind": "known",
@@ -17887,6 +21597,20 @@
     },
     {
       "text": "Aquila-34B是什么模型？",
+      "target_id": "aquila-34b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下Aquila-34B",
+      "target_id": "aquila-34b",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "Aquila-34B这款模型怎么样？",
       "target_id": "aquila-34b",
       "kind": "known",
       "subtype": "name",
@@ -17995,6 +21719,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下雅意",
+      "target_id": "雅意",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "雅意这款模型怎么样？",
+      "target_id": "雅意",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解雅意这个模型",
       "target_id": "雅意",
       "kind": "known",
@@ -18077,6 +21815,20 @@
     },
     {
       "text": "海螺是什么模型？",
+      "target_id": "海螺",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下海螺",
+      "target_id": "海螺",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "海螺这款模型怎么样？",
       "target_id": "海螺",
       "kind": "known",
       "subtype": "name",
@@ -18171,6 +21923,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下天工 3.0",
+      "target_id": "天工-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "天工 3.0这款模型怎么样？",
+      "target_id": "天工-3-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解天工 3.0这个模型",
       "target_id": "天工-3-0",
       "kind": "known",
@@ -18259,6 +22025,20 @@
       "split": "train"
     },
     {
+      "text": "请介绍一下言犀 1.0",
+      "target_id": "言犀-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "言犀 1.0这款模型怎么样？",
+      "target_id": "言犀-1-0",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
       "text": "我想了解言犀 1.0这个模型",
       "target_id": "言犀-1-0",
       "kind": "known",
@@ -18341,6 +22121,20 @@
     },
     {
       "text": "妙笔是什么模型？",
+      "target_id": "妙笔",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "请介绍一下妙笔",
+      "target_id": "妙笔",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "妙笔这款模型怎么样？",
       "target_id": "妙笔",
       "kind": "known",
       "subtype": "name",

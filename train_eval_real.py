@@ -21,14 +21,15 @@ def train(model, world: AIModelWorld, device, *, steps: int, lr: float,
           reject_weight: float = 1.0, margin_weight: float = 1.0,
           margin_target: float = 0.05, reject_target: float = 0.45,
           score_floor: float = 0.50, score_weight: float = 1.5,
-          domain: str | None = None) -> dict:
-    """训练 = 已知对比损失 + 未知拒答损失 + 歧义 margin/分数地板损失。
+          domain: str | None = None, batch_size: int = 256) -> dict:
+    """训练 = 已知对比损失 + 未知拒答损失 + 歧义 margin/分数地板损失（minibatch）。
 
     - known:     query -> 正确对象（对比损失，教"找到它"）
     - unknown:   库外 query 的 top 分数压到 reject_target 以下（教"不知道"）
     - ambiguous: top1-top2 间隔压到 margin_target 以下，同时 top 分数保持
                  >= score_floor（避免低分歧义被 verifier 路由到 UNKNOWN 而非 AMBIGUOUS）
     - domain:    只在该域查询上训练（跨域实验用；None = 全部域）
+    - batch_size: minibatch 大小（4GB 显卡上全批会 OOM，见 name 查询扩量后 1831 条）
     """
     known = world.known_queries("train", domain=domain)
     known_q = torch.stack([world.encode_query(query["text"])[0] for query in known])
@@ -42,6 +43,8 @@ def train(model, world: AIModelWorld, device, *, steps: int, lr: float,
         [world.encode_query(query["text"])[0] for query in world.unknown_queries("train", domain=domain)]
     )
     bank = world.encode_candidates(world.objects)
+    n_known = known_q.shape[0]
+    n_batches = max(1, -(-n_known // batch_size))  # ceil
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=1e-4)
     model.to(device).train()
@@ -51,8 +54,13 @@ def train(model, world: AIModelWorld, device, *, steps: int, lr: float,
         # 候选库向量随模型更新，每步重算（对象少，成本低）
         bank_vec = F.normalize(model.encode_candidate(bank.to(device)), dim=-1)
 
+        # 每步处理一个 minibatch（轮转），unknown/ambiguous 全量随批次计算
+        batch_idx = step % n_batches
+        q_batch = known_q[batch_idx * batch_size:(batch_idx + 1) * batch_size].to(device)
+        pos_batch = known_pos[batch_idx * batch_size:(batch_idx + 1) * batch_size].to(device)
+
         optimizer.zero_grad(set_to_none=True)
-        loss = model.contrastive_loss(known_q.to(device), known_pos.to(device))
+        loss = model.contrastive_loss(q_batch, pos_batch)
 
         if unknown_q.shape[0]:
             unknown_vec = F.normalize(model.encode_query(unknown_q.to(device)), dim=-1)
@@ -169,6 +177,7 @@ def main() -> None:
     parser.add_argument("--reject-target", type=float, default=0.45)
     parser.add_argument("--score-floor", type=float, default=0.50)
     parser.add_argument("--score-weight", type=float, default=1.5)
+    parser.add_argument("--batch-size", type=int, default=256)
     parser.add_argument("--output", type=Path, default=ROOT / "artifacts" / "ai_models_results.json")
     args = parser.parse_args()
 
@@ -194,7 +203,8 @@ def main() -> None:
             training = train(model, world, device, steps=args.steps, lr=args.lr,
                              reject_weight=args.reject_weight, margin_weight=args.margin_weight,
                              margin_target=args.margin_target, reject_target=args.reject_target,
-                             score_floor=args.score_floor, score_weight=args.score_weight)
+                             score_floor=args.score_floor, score_weight=args.score_weight,
+                             batch_size=args.batch_size)
             torch.save(model.state_dict(), checkpoint_dir / f"real_seed{seed}.pt")
             metrics = evaluate(model, world, device)
         except Exception as error:  # noqa: BLE001 —— 打印真实错误，避免静默退出
