@@ -21,8 +21,59 @@ from dataclasses import dataclass
 
 
 def norm(text: str) -> str:
-    """归一化：去空白、转小写、全角冒号转半角——与 MixedTokenizer 的分词习惯对齐。"""
-    return re.sub(r"\s+", "", text).lower().replace("：", ":")
+    """归一化：全角→半角、去空白、转小写、统一分隔符、繁→简、口语版本号。
+
+    顺序（幂等）：
+    1. 全角 ASCII → 半角；常见全角标点 → 半角；
+    2. 繁简体映射（核心字对表 + 转写）；
+    3. 口语版本号：「5点2/5 点 2」→「5-2」，「五二」→「52」；
+    4. 统一分隔符：`·`/`．`/`－`/`／`/`_` → `-`；
+    5. 去空白、转小写。
+    """
+    text = text.translate(str.maketrans({
+        "　": " ", "，": ",", "。": ".", "（": "(", "）": ")",
+        "：": ":", "；": ";", "？": "?", "！": "!", "·": "-", "．": "-", "－": "-",
+    }))
+    text = text.translate(str.maketrans(
+        {chr(0xFF01 + i): chr(0x21 + i) for i in range(94)}  # 全角 ASCII → 半角
+    ))
+    # 繁→简（核心字对：覆盖对象名/别名/证据中的高频繁体字）
+    text = text.translate(str.maketrans(SIMPLIFIED_MAP))
+    # 口语版本号：「5点2」「5 点 2」「5.2」→「5-2」；「五二」→「52」
+    text = re.sub(r"(\d)\s*[点點]\s*(\d)", r"\1-\2", text)
+    text = re.sub(r"[一二三四五六七八九零〇]+", _cn_numeral, text)
+    text = re.sub(r"[\s/＿_]+", "", text)
+    return text.lower()
+
+
+_CN_DIGITS = {"零": 0, "〇": 0, "一": 1, "二": 2, "三": 3, "四": 4,
+              "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
+
+
+def _cn_numeral(match: "re.Match[str]") -> str:
+    """中文数字串 → 阿拉伯数字（仅支持 0-99，超出原样保留）。"""
+    s = match.group(0)
+    if len(s) > 2:
+        return s
+    value = 0
+    for ch in s:
+        if ch not in _CN_DIGITS:
+            return s
+        value = value * 10 + _CN_DIGITS[ch]
+    return str(value)
+
+
+# 繁→简核心映射（覆盖高频繁体字；OpenCC 全集为生产选项，本表为轻量子集）
+SIMPLIFIED_MAP = {
+    "義": "义", "問": "问", "稱": "称", "為": "为", "麼": "么", "這": "这",
+    "裡": "里", "關": "关", "係": "系", "變": "变", "學": "学", "體": "体",
+    "國": "国", "開": "开", "發": "发", "佈": "布", "與": "与", "對": "对",
+    "們": "们", "說": "说", "話": "话", "還": "还", "來": "来", "東": "东",
+    "際": "际", "後": "后", "麼": "么", "萬": "万", "點": "点", "產": "产",
+    "優": "优", "曆": "历", "曆": "历", "構": "构", "標": "标", "廣": "广",
+    "視": "视", "評": "评", "證": "证", "認": "认", "讓": "让", "讀": "读",
+    "當": "当", "會": "会", "寫": "写", "復": "复", "見": "见", "長": "长",
+}
 
 
 @dataclass
@@ -69,7 +120,14 @@ class PreciseMatch:
             table.setdefault(k, v)
         for k, v in self.aliases.items():
             table.setdefault(k, v)  # 冲突时全名优先（对象名是权威）
+        # 无分隔变体：`gpt-5-2` 同时登记 `gpt52`，匹配 `gpt5.2` 这类口语写法
+        self._loose: dict[str, str] = {}
+        for k, v in table.items():
+            stripped = k.replace("-", "")
+            if stripped and stripped != k and len(stripped) >= 2:
+                self._loose.setdefault(stripped, v)  # 冲突时保留先登记的（长词优先序）
         self._sorted = sorted(table.items(), key=lambda kv: -len(kv[0]))
+        self._sorted_loose = sorted(self._loose.items(), key=lambda kv: -len(kv[0]))
 
     @classmethod
     def _bounded_hit(cls, text: str, needle: str) -> bool:
@@ -89,8 +147,16 @@ class PreciseMatch:
     def hit(self, text: str) -> ExactHit | None:
         """命中返回 ExactHit；未命中返回 None（交神经层）。长词优先 + 边界完整匹配。"""
         normalized = norm(text)
+        # 1) 严格词表（含分隔符），边界完整匹配
         for name, object_id in self._sorted:
             if name and len(name) >= 2 and self._bounded_hit(normalized, name):
                 via = "full_name" if name in self.full_names else "alias"
+                return ExactHit(object_id=object_id, matched=name, via=via)
+        # 2) 无分隔变体（`gpt5.2` ↔ `gpt-5-2`）：两边去 `-` 后比较
+        stripped_query = normalized.replace("-", "")
+        for name, object_id in self._sorted_loose:
+            if name and len(name) >= 2 and self._bounded_hit(stripped_query, name):
+                via = "full_name" if name.replace("-", "") in {
+                    k.replace("-", "") for k in self.full_names} else "alias"
                 return ExactHit(object_id=object_id, matched=name, via=via)
         return None

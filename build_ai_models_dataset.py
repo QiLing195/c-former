@@ -309,14 +309,14 @@ ALIASES = {
     "GPT-5.2": ["GPT-5 最新版"],
     "GPT-3.5": ["GPT-3.5 Turbo"],
     "Qwen3.7-Max": ["千问3.7", "通义千问3.7"],
-    "Qwen3.6": ["千问3.6", "通义千问3.6"],
+    "Qwen3.6": ["千问3.6", "通义千问3.6", "阿里通义千问3.6", "通义3.6", "Qwen3 6"],
     "Qwen2.5-Coder": ["通义代码模型"],
     "Claude Opus 4.8": ["Claude 4.8", "Opus 4.8"],
     "Claude Opus 4.7": ["Opus 4.7"],
     "Gemini 3.5 Pro": ["Gemini 3.5 旗舰"],
     "Gemini 3.5 Flash": ["Gemini Flash 3.5"],
     "DeepSeek-V4-Pro": ["DeepSeek V4 Pro", "深度求索V4 Pro"],
-    "DeepSeek-R1": ["深度求索R1"],
+    "DeepSeek-R1": ["深度求索R1", "深度R1"],
     "Kimi-K2.6": ["Kimi K2.6", "月之暗面K2.6"],
     "GLM-5.3": ["智谱GLM 5.3"],
     "GLM-5.1": ["智谱GLM 5.1"],
@@ -341,6 +341,13 @@ ALIASES = {
     "可灵 2.0": ["快手可灵"],
     "Nemotron-H": ["英伟达Nemotron"],
     "Command A": ["Cohere Command A"],
+    # ---- 变体覆盖补充（模拟暴露的 miss，音译/同义词/公司+简称；主表已有键不回写）----
+    "Claude Opus 4.8": ["克劳德4.8", "Claude 4.8", "Opus 4.8"],          # 音译
+    "Claude Opus 4.7": ["克劳德4.7", "Opus 4.7"],
+    "Gemini 3.5 Pro": ["谷歌Gemini 3.5 Pro"],                            # 公司同义
+    "DeepSeek-R1": ["深度R1"],
+    "豆包 1.5 Pro": ["豆包1.5Pro", "Doubao 1.5 Pro", "Doubao 1.5Pro"],
+    "GPT-5.2": ["GPT5.2", "GPT 5 点 2"],                                 # 无分隔 + 口语版本号
 }
 
 
