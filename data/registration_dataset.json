@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "dataset": "registration_dataset",
+    "description": "迎新线上报到流程文档域：RAG 权限闸门跨域验证",
+    "status": "公开内容来自真实操作手册(OCR)；内部细则为合理构造，标注'构造'",
+    "objects": 7,
+    "queries": 19
+  },
+  "objects": [
+    {
+      "id": "download-app",
+      "label": 0,
+      "name": "下载安装数字FAFU",
+      "company": "福建农林大学",
+      "region": "流程",
+      "series": "迎新报到",
+      "open_source": true,
+      "year": 2026,
+      "note": "公开",
+      "predecessor": null,
+      "public": "迎新线上报到第一步：下载安装“数字FAFU”APP，或使用网页版 https://m.fafu.edu.cn/ 。",
+      "internal": null,
+      "keywords": [
+        "下载",
+        "安装",
+        "数字FAFU",
+        "APP",
+        "m.fafu.edu.cn"
+      ],
+      "evidence": {
+        "名称": "这份文档是《下载安装数字FAFU》，属于迎新线上报到流程",
+        "属性": "公开内容：迎新线上报到第一步：下载安装“数字FAFU”APP，或使用网页版 https://m.fafu.edu.cn/ 。",
+        "关系": "它是迎新线上报到流程的一个环节，为公开流程",
+        "变化": "该流程适用于 2026 年迎新季"
+      }
+    },
+    {
+      "id": "account-activation",
+      "label": 1,
+      "name": "学工号登录与账号激活",
+      "company": "福建农林大学",
+      "region": "流程",
+      "series": "迎新报到",
+      "open_source": false,
+      "year": 2026,
+      "note": "内部",
+      "predecessor": null,
+      "public": "用学工号登录数字FAFU（今日校园）。首次使用需先激活账号：输入学号/工号、姓名、身份证号、验证码；也可手机号/微信/QQ 登录，需同意使用协议与隐私政策。",
+      "internal": "账号激活失败处理（构造）：连续 5 次输错锁定 30 分钟；身份证号不一致需持校园卡到信息化中心人工激活，工作日上午 8:30-11:30。",
+      "keywords": [
+        "登录",
+        "激活",
+        "账号",
+        "学工号",
+        "密码",
+        "身份证"
+      ],
+      "evidence": {
+        "名称": "这份文档是《学工号登录与账号激活》，属于迎新线上报到流程",
+        "属性": "公开内容：用学工号登录数字FAFU（今日校园）。首次使用需先激活账号：输入学号/工号、姓名、身份证号、验证码；也可手机号/微信/QQ 登录，需同意使用协议与隐私政策。 内部内容：账号激活失败处理（构造）：连续 5 次输错锁定 30 分钟；身份证号不一致需持校园卡到信息化中心人工激活，工作日上午 8:30-11:30。",
+        "关系": "它是迎新线上报到流程的一个环节，包含内部审核细则（仅管理员可见）",
+        "变化": "该流程适用于 2026 年迎新季"
+      }
+    },
+    {
+      "id": "welcome-service",
+      "label": 2,
+      "name": "进入迎新服务",
+      "company": "福建农林大学",
+      "region": "流程",
+      "series": "迎新报到",
+      "open_source": true,
+      "year": 2026,
+      "note": "公开",
+      "predecessor": null,
+      "public": "入学前通过迎新服务完成信息登记：主页 → 学工服务 → 迎新服务，逐项完成各环节登记。迎新服务含四大板块：报到单、信息采集、照片采集、绿色通道。",
+      "internal": null,
+      "keywords": [
+        "迎新服务",
+        "学工服务",
+        "信息登记",
+        "报到",
+        "主页"
+      ],
+      "evidence": {
+        "名称": "这份文档是《进入迎新服务》，属于迎新线上报到流程",
+        "属性": "公开内容：入学前通过迎新服务完成信息登记：主页 → 学工服务 → 迎新服务，逐项完成各环节登记。迎新服务含四大板块：报到单、信息采集、照片采集、绿色通道。",
+        "关系": "它是迎新线上报到流程的一个环节，为公开流程",
+        "变化": "该流程适用于 2026 年迎新季"
+      }
+    },
+    {
+      "id": "basic-info",
+      "label": 3,
+      "name": "信息采集·基本信息",
+      "company": "福建农林大学",
+      "region": "流程",
+      "series": "迎新报到",
+      "open_source": false,
+      "year": 2026,
+      "note": "内部",
+      "predecessor": null,
+      "public": "填写基本信息：学号、姓名、性别、民族、政治面貌、院系、专业、班级、年级；联系信息：QQ、手机号、微信号、毕业中学、家庭地址、电子邮箱。家庭成员（至少填写 1 条）、教育经历（至少填写 1 条）为必填。",
+      "internal": "信息审核规则（构造）：家庭成员与户口本信息一致性抽检 10%；教育经历时间不可断档超过 1 年，否则退回修改；修改次数上限 3 次，超限需人工复核。",
+      "keywords": [
+        "基本信息",
+        "信息采集",
+        "学号",
+        "姓名",
+        "家庭成员",
+        "教育经历",
+        "必填"
+      ],
+      "evidence": {
+        "名称": "这份文档是《信息采集·基本信息》，属于迎新线上报到流程",
+        "属性": "公开内容：填写基本信息：学号、姓名、性别、民族、政治面貌、院系、专业、班级、年级；联系信息：QQ、手机号、微信号、毕业中学、家庭地址、电子邮箱。家庭成员（至少填写 1 条）、教育经历（至少填写 1 条）为必填。 内部内容：信息审核规则（构造）：家庭成员与户口本信息一致性抽检 10%；教育经历时间不可断档超过 1 年，否则退回修改；修改次数上限 3 次，超限需人工复核。",
+        "关系": "它是迎新线上报到流程的一个环节，包含内部审核细则（仅管理员可见）",
+        "变化": "该流程适用于 2026 年迎新季"
+      }
+    },
+    {
+      "id": "photo",
+      "label": 4,
+      "name": "照片采集",
+      "company": "福建农林大学",
+      "region": "流程",
+      "series": "迎新报到",
+      "open_source": false,
+      "year": 2026,
+      "note": "内部",
+      "predecessor": null,
+      "public": "上传蓝底证件照：免冠、不戴帽子，JPG 格式，尺寸 330×440 像素，文件不大于 200K。男生着正装佩戴领带，露两耳与喉结；女生着有领衣服、淡妆，见耳见颈、头无装饰。",
+      "internal": "照片人工复核标准（构造）：背景非纯蓝、头部占比过小、佩戴美瞳均判不合格，退回重传；重传超 3 次转人工窗口办理。",
+      "keywords": [
+        "照片",
+        "证件照",
+        "蓝底",
+        "330",
+        "440",
+        "200K",
+        "采集"
+      ],
+      "evidence": {
+        "名称": "这份文档是《照片采集》，属于迎新线上报到流程",
+        "属性": "公开内容：上传蓝底证件照：免冠、不戴帽子，JPG 格式，尺寸 330×440 像素，文件不大于 200K。男生着正装佩戴领带，露两耳与喉结；女生着有领衣服、淡妆，见耳见颈、头无装饰。 内部内容：照片人工复核标准（构造）：背景非纯蓝、头部占比过小、佩戴美瞳均判不合格，退回重传；重传超 3 次转人工窗口办理。",
+        "关系": "它是迎新线上报到流程的一个环节，包含内部审核细则（仅管理员可见）",
+        "变化": "该流程适用于 2026 年迎新季"
+      }
+    },
+    {
+      "id": "green-channel",
+      "label": 5,
+      "name": "绿色通道",
+      "company": "福建农林大学",
+      "region": "流程",
+      "series": "迎新报到",
+      "open_source": false,
+      "year": 2026,
+      "note": "内部",
+      "predecessor": null,
+      "public": "家庭经济困难的新生可通过绿色通道进行登记申请（如生源地贷款、缓缴学费等）。",
+      "internal": "绿色通道审批细则（构造）：生源地贷款凭回执单核验；缓缴需提交困难认定材料，审核周期 3 个工作日；额度上限为学费全额；审批通过后在报到单显示'已通过绿色通道'。",
+      "keywords": [
+        "绿色通道",
+        "经济困难",
+        "贷款",
+        "缓缴",
+        "申请"
+      ],
+      "evidence": {
+        "名称": "这份文档是《绿色通道》，属于迎新线上报到流程",
+        "属性": "公开内容：家庭经济困难的新生可通过绿色通道进行登记申请（如生源地贷款、缓缴学费等）。 内部内容：绿色通道审批细则（构造）：生源地贷款凭回执单核验；缓缴需提交困难认定材料，审核周期 3 个工作日；额度上限为学费全额；审批通过后在报到单显示'已通过绿色通道'。",
+        "关系": "它是迎新线上报到流程的一个环节，包含内部审核细则（仅管理员可见）",
+        "变化": "该流程适用于 2026 年迎新季"
+      }
+    },
+    {
+      "id": "report-slip",
+      "label": 6,
+      "name": "报到单与新生报到码",
+      "company": "福建农林大学",
+      "region": "流程",
+      "series": "迎新报到",
+      "open_source": false,
+      "year": 2026,
+      "note": "内部",
+      "predecessor": null,
+      "public": "完成信息采集、照片采集等环节后生成报到单与新生报到码，报到当天出示扫码完成现场报到。",
+      "internal": "报到码核销规则（构造）：报到码一码一用，核销后失效；特殊原因无法到校需在报到前 3 天通过辅导员提交延迟报到申请。",
+      "keywords": [
+        "报到单",
+        "报到码",
+        "扫码",
+        "现场报到",
+        "出示"
+      ],
+      "evidence": {
+        "名称": "这份文档是《报到单与新生报到码》，属于迎新线上报到流程",
+        "属性": "公开内容：完成信息采集、照片采集等环节后生成报到单与新生报到码，报到当天出示扫码完成现场报到。 内部内容：报到码核销规则（构造）：报到码一码一用，核销后失效；特殊原因无法到校需在报到前 3 天通过辅导员提交延迟报到申请。",
+        "关系": "它是迎新线上报到流程的一个环节，包含内部审核细则（仅管理员可见）",
+        "变化": "该流程适用于 2026 年迎新季"
+      }
+    }
+  ],
+  "queries": [
+    {
+      "text": "介绍一下下载安装数字FAFU",
+      "target_id": "download-app",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "介绍一下学工号登录与账号激活",
+      "target_id": "account-activation",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "介绍一下进入迎新服务",
+      "target_id": "welcome-service",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "介绍一下信息采集·基本信息",
+      "target_id": "basic-info",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "介绍一下照片采集",
+      "target_id": "photo",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "介绍一下绿色通道",
+      "target_id": "green-channel",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "介绍一下报到单与新生报到码",
+      "target_id": "report-slip",
+      "kind": "known",
+      "subtype": "name",
+      "split": "train"
+    },
+    {
+      "text": "数字FAFU怎么下载安装？",
+      "target_id": "download-app",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": true
+    },
+    {
+      "text": "首次登录要怎么激活账号？",
+      "target_id": "account-activation",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": true
+    },
+    {
+      "text": "迎新服务在哪里进入？",
+      "target_id": "welcome-service",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": true
+    },
+    {
+      "text": "基本信息采集要填哪些内容？家庭成员必填吗？",
+      "target_id": "basic-info",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": true
+    },
+    {
+      "text": "证件照有什么要求？尺寸和大小？",
+      "target_id": "photo",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": true
+    },
+    {
+      "text": "家庭困难可以申请绿色通道吗？",
+      "target_id": "green-channel",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": true
+    },
+    {
+      "text": "报到当天要出示什么？",
+      "target_id": "report-slip",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": true
+    },
+    {
+      "text": "账号激活失败超过5次会怎么样？",
+      "target_id": "account-activation",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": false
+    },
+    {
+      "text": "家庭成员信息会被抽检核对户口本吗？",
+      "target_id": "basic-info",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": false
+    },
+    {
+      "text": "照片背景不是纯蓝会被退回吗？复核标准是什么？",
+      "target_id": "photo",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": false
+    },
+    {
+      "text": "绿色通道缓缴学费的审批周期是多久？额度上限多少？",
+      "target_id": "green-channel",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": false
+    },
+    {
+      "text": "报到码核销后还能再用吗？延迟报到怎么申请？",
+      "target_id": "report-slip",
+      "kind": "known",
+      "subtype": "query",
+      "split": "heldout",
+      "student_visible": false
+    }
+  ]
+}
