@@ -18,25 +18,30 @@
 
 | 能力 | 指标 | 报告 |
 |---|---|---|
+| **GovLayer 通用治理框架**（域无关内核） | 检索 + 字段级权限 + 空白识别 + 先例沉淀；toB 制度 / 流程 / **toC 家庭**三域一套代码跑通 | [`TOB_POC_REPORT.md`](TOB_POC_REPORT.md) |
+| **RAG 权限闸门**（检索前过滤） | 敏感问题：无闸门泄漏 67–83% → 闸门后 **0 泄漏** | [`RAG_FUSION_POC.md`](RAG_FUSION_POC.md) |
 | 身份解析（精确层 + 神经层混合） | name/alias 精确命中 **100%**；神经层 heldout **99%** | [`V62_OBSERVER_REPORT.md`](V62_OBSERVER_REPORT.md) |
 | 理解层（QueryUnderstanding） | 33 条盲测（口语改写/网页语境/库外对象）**100%** | [`V63_RECURSION_REPORT.md`](V63_RECURSION_REPORT.md) |
 | 递归层（确定性关系图） | AI/电影/国家**三域** 全 **100%** | 同上 |
-| **RAG 权限闸门**（检索前过滤） | 敏感问题：无闸门泄漏 67–83% → 闸门后 **0 泄漏** | [`RAG_FUSION_POC.md`](RAG_FUSION_POC.md) |
-| **toB 治理四支柱**（真实企业制度） | 权限 0 泄漏 · 三级角色 10/10 · 空白识别 100% · 先例闭环 | [`TOB_POC_REPORT.md`](TOB_POC_REPORT.md) |
 
 **诚实声明**（项目一贯纪律，负结果完整存档）：零样本跨域迁移不成立（实测 5.2% ≈ 随机）；TTT 查询编码为负结果；身份层对"措辞远离训练"的问法泛化有限——这些边界都有报告与数据支撑，不粉饰。
 
 ## 架构一览
 
 ```
-用户问题
-  → 理解层（QueryUnderstanding）：意图 + 锚定 + 库外拦截
-  → 精确层（PreciseMatch）：对象名/别名 100% 精确匹配
-  → 神经层（V6.0 编码器）：描述性指代兜底（heldout 99%）
-  → 递归层（V6.3）：latest/predecessor/successor 确定性推理
-  → 【toB 治理】权限 mask · 字段级分级 · 空白识别 · 先例沉淀
+用户问题（任意角色）
+  → GovLayer（域无关治理内核）
+      ├─ 理解层：意图 + 锚定 + 库外拦截
+      ├─ 精确层：对象名/别名 100% 精确匹配
+      ├─ 神经层：描述性指代兜底（heldout 99%）
+      ├─ 递归层：latest/predecessor 确定性推理
+      ├─ 权限 mask + 字段级角色分级
+      ├─ 空白识别（明文才答，空白升级）
+      └─ 先例沉淀（裁决留痕 → 隐性规则显性化）
   → 审计：全链路可重放
 ```
+
+**私人化定制 = 换一个 dataset**：企业制度 / 学校流程 / 家庭个人知识，只需提供 `{objects, roles, probe_rules, cases}` JSON，GovLayer 零改动接入。
 
 ## 快速开始
 
@@ -55,10 +60,9 @@ python train_eval_v63.py
 python train_eval_v63.py --data data/movies_dataset.json
 python train_eval_v63.py --data data/countries_recursion.json
 
-# 5. toB 治理验证（真实企业制度）
-python eval_employee_rules.py               # 权限闸门
-python eval_rule_gap.py                     # 制度空白识别
-python eval_precedent_loop.py               # 先例沉淀闭环
+# 5. GovLayer 通用治理（一套框架三域：企业/流程/toC家庭）
+python build_gov_datasets.py && python build_gov_home.py
+python demo_govlayer.py
 ```
 
 ## 目录导航
@@ -66,21 +70,16 @@ python eval_precedent_loop.py               # 先例沉淀闭环
 ```text
 cformer_v59/   治理层：EvidenceVerifier + CandidateLedger
 cformer_v60/   共享 Token Transformer（身份编码）
-cformer_v61/   torch IVF ANN 分层检索
-cformer_v63/   理解层 + 精确层 + 递归层（核心）
+cformer_v63/   GovLayer + 理解层 + 精确层 + 递归层（核心）
 cformer_real/  真实数据管线
-data/          多域数据集（AI/国家/电影/制度/流程）
+data/          AI/国家/电影/制度(gov_)/流程(gov_)/家庭(gov_home) 数据集
+scripts        根目录：build_*.py 数据构建 · train_eval_*.py 训练 · eval_*.py 评测 · demo_govlayer.py 治理演示
 TOB_POC_REPORT.md   企业 AI 治理落地完整报告（toB 入口）
 RAG_FUSION_POC.md   RAG × C-Former 融合 POC
 ```
 
-## 历史版本与路线图（保留审计）
-
-- V6.0–V6.1 逐版演进、失败案例与方法论：`V60_TOKEN_REPORT.md` · `V60B_BLINDSET_REPORT.md` · `V60C_REGION_FIX_REPORT.md` · `V61_ANN_REPORT.md` 等
-- 总体研发计划与质量闸门：[`V60_TO_V65_ROADMAP.md`](V60_TO_V65_ROADMAP.md)
-- 版本号映射：内部 V6.x ↔ 测试版 0.6.x
-
 ## 工程
 
+- 版本号映射：内部 V6.x ↔ 测试版 0.6.x
 - 大文件（检查点、结果 JSON）在 `artifacts/`，不入库
 - 提交信息中文一句话，里程碑打 tag
