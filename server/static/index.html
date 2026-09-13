@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>C-Former GovLayer · 企业知识治理演示</title>
+<style>
+  :root { --bg:#0f1115; --card:#181c23; --line:#262c36; --fg:#e6e9ef; --dim:#8b93a7;
+          --ok:#3fb950; --warn:#d29922; --deny:#f85149; --accent:#4493f8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;
+         background:var(--bg); color:var(--fg); }
+  header { padding:18px 24px; border-bottom:1px solid var(--line); }
+  h1 { margin:0; font-size:18px; }
+  h1 small { color:var(--dim); font-weight:400; font-size:13px; margin-left:8px; }
+  .wrap { max-width:900px; margin:0 auto; padding:24px; }
+  .controls { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:16px; }
+  select, input, button { font-size:14px; padding:10px 12px; border-radius:8px;
+        border:1px solid var(--line); background:var(--card); color:var(--fg); }
+  input { flex:1; min-width:260px; }
+  button { background:var(--accent); border:none; color:#fff; cursor:pointer; font-weight:600; }
+  button:hover { opacity:.9; }
+  .hint { color:var(--dim); font-size:12px; margin-bottom:18px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px;
+          padding:16px 18px; margin-bottom:14px; }
+  .tag { display:inline-block; font-size:12px; padding:2px 8px; border-radius:999px;
+         margin-right:6px; font-weight:600; }
+  .t-covered { background:rgba(63,185,80,.15); color:var(--ok); }
+  .t-gap { background:rgba(210,153,34,.15); color:var(--warn); }
+  .t-deny { background:rgba(248,81,73,.15); color:var(--deny); }
+  .label { color:var(--dim); font-size:12px; margin:14px 0 6px; text-transform:uppercase;
+           letter-spacing:.5px; }
+  .answer { font-size:15px; line-height:1.7; white-space:pre-wrap; }
+  .src { border-left:3px solid var(--accent); padding:8px 12px; margin:8px 0;
+         background:rgba(68,147,248,.06); border-radius:0 8px 8px 0; font-size:14px; }
+  .src b { color:var(--accent); }
+  .denied { border-left-color:var(--deny); background:rgba(248,81,73,.06); }
+  .note { font-size:13px; color:var(--warn); background:rgba(210,153,34,.08);
+          padding:10px 12px; border-radius:8px; }
+  .prec { font-size:13px; color:var(--dim); }
+  .prec b { color:var(--fg); }
+  .loading { color:var(--dim); font-size:13px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>C-Former GovLayer <small>确定性治理层 · 权限隔离 / 空白识别 / 裁决留痕</small></h1>
+</header>
+<div class="wrap">
+  <div class="controls">
+    <select id="dataset"></select>
+    <select id="role"></select>
+    <input id="question" placeholder="输入问题，例如：旷工超过多少天会被劝退？" />
+    <button id="ask">提问</button>
+  </div>
+  <div class="hint">
+    试试用不同角色问同一个问题：<code>员工</code> 只能看到公开条款，<code>HR</code> 才能看到管理细则。
+  </div>
+  <div id="result"></div>
+</div>
+<script>
+const $ = (id) => document.getElementById(id);
+let DATASETS = [];
+
+async function loadDatasets() {
+  const res = await fetch("/api/datasets");
+  DATASETS = await res.json();
+  $("dataset").innerHTML = DATASETS.map(d => `<option value="${d.id}">${d.id}（${d.n_objects} 条知识）</option>`).join("");
+  syncRoles();
+}
+
+function syncRoles() {
+  const d = DATASETS.find(x => x.id === $("dataset").value);
+  if (!d) return;
+  $("role").innerHTML = Object.entries(d.roles)
+    .map(([r, lvl]) => `<option value="${r}">${r}（级别 ${lvl}）</option>`).join("");
+}
+
+$("dataset").addEventListener("change", syncRoles);
+
+function verdictTag(v) {
+  if (v === "covered") return '<span class="tag t-covered">明文可答</span>';
+  if (v === "gap") return '<span class="tag t-gap">制度空白 · 升级</span>';
+  return '<span class="tag t-deny">范围外</span>';
+}
+
+$("ask").addEventListener("click", ask);
+$("question").addEventListener("keydown", e => { if (e.key === "Enter") ask(); });
+
+async function ask() {
+  const q = $("question").value.trim();
+  if (!q) return;
+  $("result").innerHTML = '<div class="loading">治理层处理中…</div>';
+  const res = await fetch("/api/ask", {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ dataset: $("dataset").value, role: $("role").value, question: q }),
+  });
+  if (!res.ok) { $("result").innerHTML = `<div class="card">请求失败：${res.status}</div>`; return; }
+  const d = await res.json();
+  const sources = d.visible_sources.map(s =>
+    `<div class="src"><b>《${s.title}》</b><br/>${s.content || "（无权限查看）"}</div>`).join("");
+  const denied = d.denied_fields.length
+    ? `<div class="src denied"><b>已截断</b>：命中条目 ${d.denied_fields.join(", ")} 含更高权限字段，未向该角色展示</div>` : "";
+  const prec = d.precedents.length ? `<div class="label">过往先例（仅供参考）</div>` +
+    d.precedents.map(p => `<div class="prec"><b>${p.case_id}</b>（${p.date} · ${p.approver}）：${p.ruling}<br/>
+      理由：${p.reasoning || "-"}<br/>⚠️ 仅供参考，以实际确认为准</div>`).join("") : "";
+  const note = d.boundary_note ? `<div class="note">${d.boundary_note}</div>` : "";
+  const typo = (d.typo_corrections && d.typo_corrections.length)
+    ? `<div class="note" style="color:var(--accent);background:rgba(68,147,248,.08)">
+        已自动纠错：${d.typo_corrections.join("、")}</div>` : "";
+  $("result").innerHTML = `
+    <div class="card">
+      ${verdictTag(d.verdict)}
+      <span class="tag" style="background:rgba(68,147,248,.15);color:var(--accent)">角色 ${d.role}</span>
+      ${d.llm_used ? '<span class="tag" style="background:rgba(68,147,248,.15);color:var(--accent)">LLM 生成</span>'
+                   : '<span class="tag" style="background:rgba(139,147,167,.15);color:var(--dim)">条款原文</span>'}
+      ${d.semantic_used ? '<span class="tag" style="background:rgba(63,185,80,.15);color:var(--ok)">语义检索</span>'
+                        : '<span class="tag" style="background:rgba(139,147,167,.15);color:var(--dim)">关键词检索</span>'}
+      ${typo}
+      <div class="label">回答</div>
+      <div class="answer">${d.answer_text}</div>
+      <div class="label">依据（权限过滤后）</div>
+      ${sources || '<div class="prec">无可展示依据</div>'}
+      ${denied}
+      ${prec}
+      ${note}
+    </div>`;
+}
+
+loadDatasets();
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+services:
+  govlayer:
+    build: .
+    image: cformer-govlayer:0.1.0
+    container_name: cformer-govlayer
+    ports:
+      - "8000:8000"
+    environment:
+      # 可选：需要 LLM 自然语言回答时填入（只喂权限过滤后的可见内容）
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY:-}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/healthz')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
