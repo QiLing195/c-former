@@ -24,7 +24,7 @@ import os
 from dataclasses import asdict
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, Header, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
@@ -34,9 +34,11 @@ import sys
 SERVER_DIR = Path(__file__).resolve().parent
 ROOT = SERVER_DIR.parent
 sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(SERVER_DIR))   # 使同目录 auth.py 可导入
 
 from cformer_v63.governance import GovLayer, load_dataset  # noqa: E402
 from cformer_v63.semantic import LLMSemanticBackend  # noqa: E402
+from auth import DEMO_TOKENS, dev_mode, resolve_identity, role_for_level  # noqa: E402
 
 DATA_DIR = ROOT / "data"
 STATIC_DIR = SERVER_DIR / "static"
@@ -76,8 +78,9 @@ _load_all_datasets()
 # ---- 请求/响应模型 ----
 class AskRequest(BaseModel):
     dataset: str
-    role: str
     question: str
+    # 已废弃：身份由 X-API-Token 决定，此字段一律忽略（防伪造越权）
+    role: str | None = None
 
 
 class AskResponse(BaseModel):
@@ -91,6 +94,7 @@ class AskResponse(BaseModel):
     boundary_note: str           # 边界声明（空白/权限/先例提示）
     typo_corrections: list[str]  # 错别字纠正记录（透明可审计）
     semantic_used: bool          # 是否走了 LLM 语义检索（否则关键词回退）
+    identity: str                # 服务端解析出的身份（来自令牌，非客户端声明）
     llm_used: bool
 
 
@@ -134,15 +138,31 @@ def datasets() -> list[dict]:
     return list(_DATASETS.values())
 
 
+@app.get("/api/tokens")
+def tokens() -> list[dict]:
+    """演示用身份令牌列表（生产环境应下线此接口，改由 SSO 签发）。"""
+    return [{"token": t, "label": info["label"], "level": info["level"]}
+            for t, info in DEMO_TOKENS.items()]
+
+
 @app.post("/api/ask", response_model=AskResponse)
-def ask(req: AskRequest) -> AskResponse:
+def ask(req: AskRequest,
+        x_api_token: str | None = Header(default=None, alias="X-API-Token")) -> AskResponse:
     layer = _LAYERS.get(req.dataset)
     if layer is None:
         raise HTTPException(status_code=404, detail=f"unknown dataset: {req.dataset}")
-    if req.role not in layer.roles:
-        raise HTTPException(status_code=400, detail=f"unknown role: {req.role}")
 
-    ans = layer.answer(req.question, req.role)
+    # #3 安全：身份来自服务端签发的令牌，**忽略请求体 role**（防越权伪造）
+    identity = resolve_identity(x_api_token, req.role, layer.roles)
+    if identity is None:
+        raise HTTPException(status_code=401,
+                            detail="缺少或无效的身份令牌（请在 X-API-Token 头提供）")
+    role = role_for_level(layer.roles, identity.level)
+    if role is None:
+        raise HTTPException(status_code=403,
+                            detail=f"你的权限级别 {identity.level} 无权访问该知识库")
+
+    ans = layer.answer(req.question, role)
 
     # 权限过滤后的可见依据（只有这些内容会被交给 LLM）
     sources = []
@@ -185,6 +205,7 @@ def ask(req: AskRequest) -> AskResponse:
         boundary_note=ans.boundary_note or "",
         typo_corrections=ans.typo_corrections,
         semantic_used=ans.semantic_used,
+        identity=f"{identity.label}（级别 {identity.level} → 角色 {role}）",
         llm_used=bool(llm_text),
     )
 

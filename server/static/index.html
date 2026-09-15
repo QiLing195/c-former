@@ -49,12 +49,13 @@
 <div class="wrap">
   <div class="controls">
     <select id="dataset"></select>
-    <select id="role"></select>
+    <select id="identity"></select>
     <input id="question" placeholder="输入问题，例如：旷工超过多少天会被劝退？" />
     <button id="ask">提问</button>
   </div>
   <div class="hint">
-    试试用不同角色问同一个问题：<code>员工</code> 只能看到公开条款，<code>HR</code> 才能看到管理细则。
+    身份由 <b>服务端令牌</b>决定（客户端无法伪造角色）——用不同身份问同一问题，
+    可见内容层级不同：普通员工只能看公开条款，HR 才能看管理细则。
   </div>
   <div id="result"></div>
 </div>
@@ -66,17 +67,15 @@ async function loadDatasets() {
   const res = await fetch("/api/datasets");
   DATASETS = await res.json();
   $("dataset").innerHTML = DATASETS.map(d => `<option value="${d.id}">${d.id}（${d.n_objects} 条知识）</option>`).join("");
-  syncRoles();
 }
 
-function syncRoles() {
-  const d = DATASETS.find(x => x.id === $("dataset").value);
-  if (!d) return;
-  $("role").innerHTML = Object.entries(d.roles)
-    .map(([r, lvl]) => `<option value="${r}">${r}（级别 ${lvl}）</option>`).join("");
+async function loadIdentities() {
+  // 身份来自服务端令牌（#3 安全修复：客户端不能自由声明角色）
+  const res = await fetch("/api/tokens");
+  const tokens = await res.json();
+  $("identity").innerHTML = tokens
+    .map(t => `<option value="${t.token}">${t.label}（级别 ${t.level}）</option>`).join("");
 }
-
-$("dataset").addEventListener("change", syncRoles);
 
 function verdictTag(v) {
   if (v === "covered") return '<span class="tag t-covered">明文可答</span>';
@@ -93,10 +92,15 @@ async function ask() {
   if (!q) return;
   $("result").innerHTML = '<div class="loading">治理层处理中…</div>';
   const res = await fetch("/api/ask", {
-    method: "POST", headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ dataset: $("dataset").value, role: $("role").value, question: q }),
+    method: "POST",
+    headers: { "Content-Type": "application/json", "X-API-Token": $("identity").value },
+    body: JSON.stringify({ dataset: $("dataset").value, question: q }),
   });
-  if (!res.ok) { $("result").innerHTML = `<div class="card">请求失败：${res.status}</div>`; return; }
+  if (!res.ok) {
+    const detail = await res.json().catch(() => ({}));
+    $("result").innerHTML = `<div class="card">请求被拒绝（${res.status}）：${detail.detail || ""}</div>`;
+    return;
+  }
   const d = await res.json();
   const sources = d.visible_sources.map(s =>
     `<div class="src"><b>《${s.title}》</b><br/>${s.content || "（无权限查看）"}</div>`).join("");
@@ -112,7 +116,7 @@ async function ask() {
   $("result").innerHTML = `
     <div class="card">
       ${verdictTag(d.verdict)}
-      <span class="tag" style="background:rgba(68,147,248,.15);color:var(--accent)">角色 ${d.role}</span>
+      <span class="tag" style="background:rgba(68,147,248,.15);color:var(--accent)">${d.identity || ("角色 " + d.role)}</span>
       ${d.llm_used ? '<span class="tag" style="background:rgba(68,147,248,.15);color:var(--accent)">LLM 生成</span>'
                    : '<span class="tag" style="background:rgba(139,147,167,.15);color:var(--dim)">条款原文</span>'}
       ${d.semantic_used ? '<span class="tag" style="background:rgba(63,185,80,.15);color:var(--ok)">语义检索</span>'
@@ -129,6 +133,7 @@ async function ask() {
 }
 
 loadDatasets();
+loadIdentities();
 </script>
 </body>
 </html>
