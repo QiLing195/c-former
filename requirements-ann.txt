@@ -1,0 +1,12 @@
+# 可选：ANN 规模化检索（#4）
+#
+# 与 requirements-serve.txt 分开，是为了**保住默认交付镜像的卖点**：
+# 默认服务镜像不含 torch/numpy，体积小、启动秒级、可内网离线。
+# 只有需要大库（万级以上条款）时，才额外装这一组。
+#
+# 路线：本地 ONNX int8 推理 —— **数据不出内网**，且不需要 torch。
+# 不用外部 embedding API：那会把制度原文发往第三方，与「检索前权限 mask / 数据不出域」冲突。
+#
+numpy>=1.24
+onnxruntime>=1.16
+tokenizers>=0.15

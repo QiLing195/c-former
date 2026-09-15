@@ -11,7 +11,7 @@
 |---|---|
 | 怕泄密——员工问到别人的机密 | **检索前权限 mask**：不可见内容原理上不可达（实测 0 泄漏） |
 | 怕乱编——AI 胡诌制度条文 | **制度空白识别**：明文才答，空白诚实升级 HR，绝不编造 |
-| 怕无据可查——答错了谁负责 | **全链路留痕**：谁问的、权限判定、检索依据、升级记录全可追溯 |
+| 怕无据可查——答错了谁负责 | **全链路留痕**：谁问的、权限判定、检索依据、升级记录全可追溯（`/api/audit`，只存令牌指纹不存原文） |
 | 怕"规则在难搞的人手里" | **先例沉淀闭环**：每次人工裁决记录成案例，隐性规则逐步显性化 |
 
 ## 核心成果（全部真实数据实测）
@@ -23,8 +23,9 @@
 | 身份解析（精确层 + 神经层混合） | name/alias 精确命中 **100%**；神经层 heldout **99%** | [`V62_OBSERVER_REPORT.md`](V62_OBSERVER_REPORT.md) |
 | 理解层（QueryUnderstanding） | 33 条盲测（口语改写/网页语境/库外对象）**100%** | [`V63_RECURSION_REPORT.md`](V63_RECURSION_REPORT.md) |
 | 递归层（确定性关系图） | AI/电影/国家**三域** 全 **100%** | 同上 |
+| **ANN 规模化检索**（按权限分区） | 1k/10k/50k 全配置**跨级泄漏 0**；5 万条扫 14.9% 达忠实度 0.987（15.7×）。**语义质量待 ONNX 模型实测** | [`V63_ANN_POC.md`](V63_ANN_POC.md) |
 
-**诚实声明**（项目一贯纪律，负结果完整存档）：零样本跨域迁移不成立（实测 5.2% ≈ 随机）；TTT 查询编码为负结果；身份层对"措辞远离训练"的问法泛化有限——这些边界都有报告与数据支撑，不粉饰。
+**诚实声明**（项目一贯纪律，负结果完整存档）：零样本跨域迁移不成立（实测 5.2% ≈ 随机）；TTT 查询编码为负结果；身份层对"措辞远离训练"的问法泛化有限；**ANN 目前只用无语义哈希编码器验证了索引结构与权限分区，检索质量尚未测得**——这些边界都有报告与数据支撑，不粉饰。
 
 ## 架构一览
 
@@ -49,7 +50,8 @@
 # 1. 安装（Python 3.10+ / PyTorch 2.x）
 pip install -e .[dev]
 
-# 2. 全量测试（31 passed）
+# 2. 全量测试（63 passed）
+#    注意：pyproject.toml 里 testpaths=["tests"]，放在仓库根目录的 test_*.py 会被静默跳过
 python -m pytest tests/ -q
 
 # 3. 身份解析训练与评测（真实 AI 模型 273 对象）
@@ -63,7 +65,22 @@ python train_eval_v63.py --data data/countries_recursion.json
 # 5. GovLayer 通用治理（一套框架三域：企业/流程/toC家庭）
 python build_gov_datasets.py && python build_gov_home.py
 python demo_govlayer.py
+
+# 6. Web 服务（可部署：FastAPI + 单页前端；镜像不含 torch，启动秒级）
+pip install -r requirements-serve.txt
+uvicorn --app-dir server app:app --host 127.0.0.1 --port 8000
+#   身份由 X-API-Token 决定（请求体 role 一律忽略），token 鉴权见 server/auth.py
+python test_auth_security.py      # 8 项角色伪造防护单测（脚本式，直接运行）
+python -m pytest tests/test_audit_log.py -q   # 12 项审计日志测试（含"绝不落令牌原文"）
+python verify_live_auth.py        # 19 项在线鉴权/越权/审计验证（需服务已启动）
+
+# 7. ANN 规模化检索（可选：只需 numpy/onnxruntime/tokenizers，不含 torch）
+#    实测：5 万条扫 14.9% 达忠实度 0.987；≤1 万条建议直接用暴力精确检索
+python -m pip install -r requirements-ann.txt
+python eval_ann_index.py --sizes 10000 50000 --cluster-multiplier 4
 ```
+
+> 部署细节、Docker 用法、3 分钟现场演示脚本见 [`DEPLOY.md`](DEPLOY.md)。
 
 ## 目录导航
 
@@ -73,9 +90,12 @@ cformer_v60/   共享 Token Transformer（身份编码）
 cformer_v63/   GovLayer + 理解层 + 精确层 + 递归层（核心）
 cformer_real/  真实数据管线
 data/          AI/国家/电影/制度(gov_)/流程(gov_)/家庭(gov_home) 数据集
+server/        Web 服务：FastAPI app.py + 令牌鉴权 auth.py + 单页前端 static/
 scripts        根目录：build_*.py 数据构建 · train_eval_*.py 训练 · eval_*.py 评测 · demo_govlayer.py 治理演示
 TOB_POC_REPORT.md   企业 AI 治理落地完整报告（toB 入口）
 RAG_FUSION_POC.md   RAG × C-Former 融合 POC
+DEPLOY.md           部署说明（本地/Docker、接口表、3 分钟演示脚本）
+V63_ANN_POC.md      ANN 规模化检索 POC（权限分区零泄漏 / 校准 / 负结果）
 ```
 
 ## 工程
