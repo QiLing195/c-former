@@ -154,9 +154,18 @@ def ask(req: AskRequest) -> AskResponse:
     visible_context = "\n---\n".join(
         f"《{s['title']}》：{s['content']}" for s in sources if s["content"] and "无权限" not in s["content"]
     )
-    llm_text = _llm_answer(req.question, visible_context, ans.verdict)
+    # 回答生成：
+    #  - restricted（权限截断）：**不交给 LLM**——否则模型会把"你无权限"说成"资料不足"，
+    #    必须由治理层直接给出权限声明（这是本系统的核心语义，不能被生成层稀释）；
+    #  - gap（知识空白）：也不交给 LLM（避免编造），走治理层升级话术；
+    #  - 其余情况才允许 LLM 基于可见内容生成自然语言。
+    llm_text = None
+    if ans.verdict not in ("restricted", "gap"):
+        llm_text = _llm_answer(req.question, visible_context, ans.verdict)
 
-    if llm_text:
+    if ans.verdict == "restricted":
+        answer_text = ans.boundary_note or "该问题涉及的信息超出你的角色权限范围。"
+    elif llm_text:
         answer_text = llm_text
     elif ans.verdict == "gap":
         answer_text = ("根据现有制度无法回答此问题。" + (ans.boundary_note or ""))

@@ -81,6 +81,7 @@ $("dataset").addEventListener("change", syncRoles);
 function verdictTag(v) {
   if (v === "covered") return '<span class="tag t-covered">明文可答</span>';
   if (v === "gap") return '<span class="tag t-gap">制度空白 · 升级</span>';
+  if (v === "restricted") return '<span class="tag t-deny">权限受限</span>';
   return '<span class="tag t-deny">范围外</span>';
 }
 
